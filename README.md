@@ -62,7 +62,7 @@ We use SnpEff (http://snpeff.sourceforge.net/download.html) to build databases a
 
 ```mkdir -p data/$INSHORT/```
 
-Ensure reference sequence (FASTA) and genome annotation (GFF3) are in the appropriate .ncbi data directory, rename files to sequences.fa and genes.gff, then gzip.
+Ensure reference sequence (FASTA) and genome annotation (GFF3) are in the appropriate data directory, rename files to sequences.fa and genes.gff, then gzip.
 
 #### Add genome information to config file
 
