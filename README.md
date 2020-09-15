@@ -1,6 +1,6 @@
 # Pipeline for comparative genomics 
 
-Automatic pipeline to concatenate and filter VCFs, annotate variants with snpEff, and run SnIPRE, MK tests, and direction of selection calculations. Minor configuration and preprocessing required before running pipeline.sh, outlined below.
+Pipeline to concatenate and filter VCFs, annotate variants with snpEff, and run SnIPRE, MK tests, and direction of selection calculations. Minor configuration and preprocessing required before running pipeline.sh, outlined below.
 
 Authors: 
 
