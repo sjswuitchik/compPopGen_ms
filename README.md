@@ -1,6 +1,6 @@
-# Pipeline for comparative genomics 
+# MK pipeline for comparative population genomics collaboration 
 
-Pipeline to concatenate and filter VCFs, annotate variants with snpEff, and run SnIPRE, MK tests, and direction of selection calculations. Minor configuration and preprocessing required before running pipeline.sh, outlined below.
+Pipeline to filter VCFs, annotate variants with snpEff, and produce MK tables for downstream analyses. Currently refactoring into Snakemake pipeline. 
 
 Authors: 
 
