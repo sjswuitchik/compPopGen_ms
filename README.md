@@ -13,38 +13,11 @@ Tim Sackton (Director of Bioinformatics, Informatics Group, Harvard University; 
 
 ## Configuration and set up
 
-Project directory should be set up as outlined in directory_tree.pdf so the main pipeline can automatically switch between directories and call files as necessary. 
-
 First, set up a conda environment that will allow access to python and R packages:
 
 ```conda create -n mk_v2 python=3.6 anaconda cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```
 
 ```source activate mk_v2```
-
-A few variables need to be set before running:
-
-```export R_LIBS_USER=$HOME/path/to/R/packages```
-
-```export PATHW=$HOME/path/to/working/directory```
-
-```export INSHORT=ingroup_spp_name (six letter code)```
-
-```export OUTSHORT=outgroup_spp_name (six letter code)```
-
-```export INLONG=ingroup_spp_name (longform spp name, with leading underscore)```
-
-```export OUTLONG=outgroup_spp_name (longform spp name, with leading underscore)```
-
-
-Example species names variables: 
-
-```export INSHORT=corCor```
-
-```export OUTSHORT=corMon```
-
-```export INLONG=_Ccornix```
-
-```export OUTLONG=_Cmonedula```
 
 ### SnpEff
 
@@ -56,11 +29,9 @@ We use SnpEff (http://snpeff.sourceforge.net/download.html) to build databases a
 
 ```rm snpEff_latest_core.zip``` 
 
-```rm -r clinEff/```
-
 ```cd snpEff/```
 
-```mkdir -p data/$INSHORT/```
+```mkdir -p data/ingroup_species_name/```
 
 Ensure reference sequence (FASTA) and genome annotation (GFF3) are in the appropriate data directory, rename files to sequences.fa and genes.gff, then gzip.
 
@@ -70,7 +41,7 @@ Add the following to the snpEff.config file, under the Databases & Genomes - Non
 
 \# Common name genome, Source and Version
 
-$INSHORT.genome : genome_name
+$ingroup_species_name.genome : genome_name
 
 For example: 
 
@@ -78,29 +49,32 @@ For example:
 
 corCor.genome : Corvus_cornix_cornix
 
-Once snpEff is ready, export the path to a variable:
-
-```export PATHS=$HOME/path/to/snpEff```
 
 #### Build a snpEff database
 
-From your working directory, run: 
+From the snpEff directory, run: 
 
-```java -jar $PATHS/snpEff.jar build -gff3 -v $INSHORT```
+```java -jar snpEff.jar build -gff3 -v ingroup_species_name```  
+
+For example:  
+
+```java -jar snpEff.jar build -gff3 corCor```
 
 ### In your working directory, you'll need: 
 
-- Missingness data (all_all_missingness_info.txt) for both ingroup and outgroup
+- single VCF for each of the ingroup and outgroup species  
 
-- Coverage site data (clean_coverage_sites_merged.bed) for both ingroup and outgroup
+- Missingness data for both ingroup and outgroup
 
-- genes.gff (same file that's in the snpEff data directory, gunzipped)
+- Coverage site data for both ingroup and outgroup
+
+- genes.gff (same file that's in the snpEff data directory, uncompressed)
 
 - genenames.py
 
 - gff2bed.awk
 
-- parser_nov.py
+- annot_parser.py
 
 - my.jags2.R 
 
@@ -109,7 +83,3 @@ From your working directory, run:
 - missingness.R
 
 - mktest.R
-
-- ingroup.vcfs and outgroup.vcfs directories (containing hardfiltered VCFs) 
-
-#### All of the above information can be found in config.sh; once working directory is ready, pipeline.sh can be run from within the directory to output results from SnIPRE, MK tests, and direction of selection calculations
