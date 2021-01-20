@@ -14,9 +14,9 @@ requiredParam.add_argument('-i', type = str, metavar = 'ingroup_short', required
 requiredParam.add_argument('-o', type = str, metavar = 'outgroup_short', required = True, help = 'Base name for outgroup species')
 
 optionalParam = parser.add_argument_group('optional parameters')
-optionalParam.add_argument('-mm', type = float, metavar = 'max_missing', default = 0.75, help = 'Maximum missing argument for vcftools')
-optionalParam.add_argument('-maf', type = int, metavar = 'minor_allele_freq', help = 'Minor allele frequency argument for vcftools')
-optionalParam.add_argument('-mac', type = int, metavar = 'minor_allele_count', help = 'Minor allele count argument for vcftools')
+optionalParam.add_argument('-mm', type = str, metavar = 'max_missing', default = '0.75', help = 'Maximum missing argument for vcftools')
+optionalParam.add_argument('-maf', type = str, metavar = 'minor_allele_freq', help = 'Minor allele frequency argument for vcftools')
+optionalParam.add_argument('-mac', type = str, metavar = 'minor_allele_count', help = 'Minor allele count argument for vcftools')
 
 args = parser.parse_args()
 
