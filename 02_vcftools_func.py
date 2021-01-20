@@ -40,7 +40,7 @@ p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
 # run vcftools on outgroup
-command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --out '+args.o+'.clean')
+command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --out '+args.o+'.filter')
 print('Outgroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
@@ -72,12 +72,12 @@ print('Callable sites command :'+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
-command = ('bedtools intersect -a '+args.i+'.clean.vcf.gz -b callable.bed -header > '+args.i+'call.vcf')
+command = ('bedtools intersect -a '+args.i+'.clean.vcf -b callable.bed -header > '+args.i+'call.vcf')
 print('Ingroup callable sites intersect command :'+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
-command = ('bedtools intersect -a '+args.o+'.clean.vcf.gz -b callable.bed -header > '+args.o+'call.vcf')
+command = ('bedtools intersect -a '+args.o+'.clean.vcf -b callable.bed -header > '+args.o+'call.vcf')
 print('Outgroup callable sites intersect command :'+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
