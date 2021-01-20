@@ -40,7 +40,7 @@ p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
 # run vcftools on outgroup
-command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf 0 --max-missing '+args.mm+' --recode --recode-INFO-all --out '+args.o+'.clean')
+command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --recode --recode-INFO-all --out '+args.o+'.clean')
 print('Outgroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
