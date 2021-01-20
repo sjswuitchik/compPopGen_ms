@@ -15,8 +15,8 @@ requiredParam.add_argument('-o', type = str, metavar = 'outgroup_short', require
 
 optionalParam = parser.add_argument_group('optional parameters')
 optionalParam.add_argument('-mm', type = str, metavar = 'max_missing', default = '0.75', help = 'Maximum missing argument for vcftools')
-optionalParam.add_argument('-maf', type = str, metavar = 'minor_allele_freq', default = '0', help = 'Minor allele frequency argument for vcftools')
-optionalParam.add_argument('-mac', type = str, metavar = 'minor_allele_count', default = '1', help = 'Minor allele count argument for vcftools')
+optionalParam.add_argument('-maf', type = str, metavar = 'minor_allele_freq', help = 'Minor allele frequency argument for vcftools')
+optionalParam.add_argument('-mac', type = str, metavar = 'minor_allele_count', help = 'Minor allele count argument for vcftools')
 
 args = parser.parse_args()
 
