@@ -28,16 +28,16 @@ print('Ingroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
-command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
-           'if [ $ININDV -gt 0 ]\n'
-           'then\n'
-           'vcftools --vcf '+args.i+'.filter.vcf --remove-indv ingroup.remove.indv --out '+args.i+'.clean.vcf\n'
-           'else\n'
-           'echo "No individuals to remove from ingroup"\n'
-           'fi')
-print('Ingroup missingness command: '+command)
-p = subprocess.Popen(command, shell = True)
-sts = os.waitpid(p.pid, 0)[1]
+#command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
+#           'if [ $ININDV -gt 0 ]\n'
+#           'then\n'
+#           'vcftools --vcf '+args.i+'.filter.vcf --remove-indv ingroup.remove.indv --out '+args.i+'.clean.vcf\n'
+#           'else\n'
+#           'echo "No individuals to remove from ingroup"\n'
+#           'fi')
+#print('Ingroup missingness command: '+command)
+#p = subprocess.Popen(command, shell = True)
+#sts = os.waitpid(p.pid, 0)[1]
 
 # run vcftools on outgroup
 command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --out '+args.o+'.filter')
@@ -45,19 +45,19 @@ print('Outgroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
-command = ('export OUTINDV=`cat outgroup.remove.indv | wc -l` \n'
-           'if [ $OUTINDV -gt 1 ]\n'
-           'then\n'
-           'vcftools --vcf '+args.o+'.filter.vcf --remove-indv outgroup.remove.indv --out '+args.o+'.clean.vcf\n'
-           'else\n'
-           'echo "No individuals to remove from outgroup"\n'
-           'fi')
-print('Outgroup missingness command: '+command)
-p = subprocess.Popen(command, shell = True)
-sts = os.waitpid(p.pid, 0)[1]
+#command = ('export OUTINDV=`cat outgroup.remove.indv | wc -l` \n'
+#           'if [ $OUTINDV -gt 1 ]\n'
+#           'then\n'
+#           'vcftools --vcf '+args.o+'.filter.vcf --remove-indv outgroup.remove.indv --out '+args.o+'.clean.vcf\n'
+#           'else\n'
+#           'echo "No individuals to remove from outgroup"\n'
+#           'fi')
+#print('Outgroup missingness command: '+command)
+#p = subprocess.Popen(command, shell = True)
+#sts = os.waitpid(p.pid, 0)[1]
 
 # create callable sites for ingroup and outgroup
-parser = argparse.ArgumentParser(description= 'bedtools command for creating callable sites in MK pipeline')
+parser = argparse.ArgumentParser(description= 'bedtools commands to create callable sites for MK pipeline')
 
 requiredParam = parser.add_argument_group('required parameters')
 requiredParam.add_argument('-i', type = str, metavar = 'ingroup_short', required = True, help = 'Base name for ingroup species')
