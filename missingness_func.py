@@ -7,8 +7,6 @@ Created on Tue Jan 19 10:22:09 2021
 """
 import os, argparse, subprocess
 
-print()
-
 parser = argparse.ArgumentParser(description= 'calculating missingness for MK pipeline')
 
 requiredParam = parser.add_argument_group('required parameters')
