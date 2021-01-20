@@ -46,7 +46,7 @@ p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
 command = ('export OUTINDV=`cat outgroup.remove.indv | wc -l` \n'
-           'if [ $ININDV -gt 1 ]\n'
+           'if [ $OUTINDV -gt 1 ]\n'
            'then\n'
            'vcftools --gzvcf '+args.o+'.filter.vcf.gz --remove-indv outgroup.remove.indv --out '+args.o+'.clean.vcf.gz\n'
            'else\n'
