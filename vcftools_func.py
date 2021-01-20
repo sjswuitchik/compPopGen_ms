@@ -25,7 +25,7 @@ print('VCF filtering with vcftools')
 # run vcftools on ingroup
 command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --out '+args.i+'.filter')
 print('Ingroup filtering command: '+command)
-p = subprocess.Popgen(command, shell = True)
+p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
 command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
