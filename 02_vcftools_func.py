@@ -23,13 +23,13 @@ args = parser.parse_args()
 print('VCF filtering with vcftools')
 
 # run vcftools on ingroup
-command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --out '+args.i+'.filter')
+command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --recode --recode-INFO-all --out '+args.i+'.filter')
 print('Ingroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
 command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
-           'if [ $ININDV -gt 1 ]\n'
+           'if [ $ININDV -gt 0 ]\n'
            'then\n'
            'vcftools --gzvcf '+args.i+'.filter.vcf.gz --remove-indv ingroup.remove.indv --out '+args.i+'.clean.vcf.gz\n'
            'else\n'
