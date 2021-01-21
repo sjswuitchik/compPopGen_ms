@@ -15,29 +15,28 @@ requiredParam.add_argument('-o', type = str, metavar = 'outgroup_short', require
 
 optionalParam = parser.add_argument_group('optional parameters')
 optionalParam.add_argument('-mm', type = str, metavar = 'max_missing', default = '0.75', help = 'Maximum missing argument for vcftools')
-optionalParam.add_argument('-maf', type = str, metavar = 'minor_allele_freq', help = 'Minor allele frequency argument for vcftools')
-optionalParam.add_argument('-mac', type = str, metavar = 'minor_allele_count', help = 'Minor allele count argument for vcftools')
+optionalParam.add_argument('-maf', type = str, metavar = 'minor_allele_freq', default = '1', help = 'Minor allele frequency argument for vcftools')
+optionalParam.add_argument('-mac', type = str, metavar = 'minor_allele_count', default = '0', help = 'Minor allele count argument for vcftools')
 
 args = parser.parse_args()
 
 print('VCF filtering with vcftools')
 
 # run vcftools on ingroup
-command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --out '+args.i+'.filter')
+command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --remove-indv ingroup.remove.indv --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --out '+args.i+'.filter')
 print('Ingroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
-#command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
-#           'if [ $ININDV -gt 0 ]\n'
-#           'then\n'
-#           'vcftools --vcf '+args.i+'.filter.vcf --remove-indv ingroup.remove.indv --out '+args.i+'.clean.vcf\n'
-#           'else\n'
-#           'echo "No individuals to remove from ingroup"\n'
-#           'fi')
-#print('Ingroup missingness command: '+command)
-#p = subprocess.Popen(command, shell = True)
-#sts = os.waitpid(p.pid, 0)[1]
+command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
+           'if [ $ININDV -gt 0 ]\n'
+           'then\n'
+           'vcftools --vcf '+args.i+'.filter.vcf --remove-indv ingroup.remove.indv --out '+args.i+'.clean.vcf\n'
+           'else\n'
+           'echo "No individuals to remove from ingroup"\n'
+           'fi')
+p = subprocess.Popen(command, shell = True)
+sts = os.waitpid(p.pid, 0)[1]
 
 # run vcftools on outgroup
 command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --out '+args.o+'.filter')
@@ -45,16 +44,15 @@ print('Outgroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
-#command = ('export OUTINDV=`cat outgroup.remove.indv | wc -l` \n'
-#           'if [ $OUTINDV -gt 1 ]\n'
-#           'then\n'
-#           'vcftools --vcf '+args.o+'.filter.vcf --remove-indv outgroup.remove.indv --out '+args.o+'.clean.vcf\n'
-#           'else\n'
-#           'echo "No individuals to remove from outgroup"\n'
-#           'fi')
-#print('Outgroup missingness command: '+command)
-#p = subprocess.Popen(command, shell = True)
-#sts = os.waitpid(p.pid, 0)[1]
+command = ('export OUTINDV=`cat outgroup.remove.indv | wc -l` \n'
+           'if [ $OUTINDV -gt 1 ]\n'
+           'then\n'
+           'vcftools --vcf '+args.o+'.filter.vcf --remove-indv outgroup.remove.indv --out '+args.o+'.clean.vcf\n'
+           'else\n'
+           'echo "No individuals to remove from outgroup"\n'
+           'fi')
+p = subprocess.Popen(command, shell = True)
+sts = os.waitpid(p.pid, 0)[1]
 
 # create callable sites for ingroup and outgroup
 parser = argparse.ArgumentParser(description= 'bedtools commands to create callable sites for MK pipeline')
