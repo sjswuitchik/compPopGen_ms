@@ -31,7 +31,7 @@ sts = os.waitpid(p.pid, 0)[1]
 command = ('export ININDV=`cat ingroup.remove.indv | wc -l` \n'
            'if [ $ININDV -gt 0 ]\n'
            'then\n'
-           'vcftools --vcf '+args.i+'.filter.vcf --remove-indv ingroup.remove.indv --out '+args.i+'.clean.vcf\n'
+           'vcftools --vcf '+args.i+'.filter.vcf --remove ingroup.remove.indv --out '+args.i+'.clean.vcf\n'
            'else\n'
            'echo "No individuals to remove from ingroup"\n'
            'fi')
@@ -47,7 +47,7 @@ sts = os.waitpid(p.pid, 0)[1]
 command = ('export OUTINDV=`cat outgroup.remove.indv | wc -l` \n'
            'if [ $OUTINDV -gt 1 ]\n'
            'then\n'
-           'vcftools --vcf '+args.o+'.filter.vcf --remove-indv outgroup.remove.indv --out '+args.o+'.clean.vcf\n'
+           'vcftools --vcf '+args.o+'.filter.vcf --remove outgroup.remove.indv --out '+args.o+'.clean.vcf\n'
            'else\n'
            'echo "No individuals to remove from outgroup"\n'
            'fi')
