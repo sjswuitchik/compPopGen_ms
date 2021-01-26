@@ -23,13 +23,13 @@ args = parser.parse_args()
 print('VCF filtering with vcftools')
 
 # run vcftools on ingroup
-command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --remove ingroup.remove.indv --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --out '+args.i+'.filter')
+command = ('vcftools --gzvcf '+args.i+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --remove ingroup.remove.indv --max-alleles 2 --mac '+args.mac+' --max-missing '+args.mm+' --out '+args.i+'.clean')
 print('Ingroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
 
 # run vcftools on outgroup
-command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --remove outgroup.remove.indv --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --out '+args.o+'.filter')
+command = ('vcftools --gzvcf '+args.o+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --remove outgroup.remove.indv --max-alleles 2 --maf '+args.maf+' --max-missing '+args.mm+' --out '+args.o+'.clean')
 print('Outgroup filtering command: '+command)
 p = subprocess.Popen(command, shell = True)
 sts = os.waitpid(p.pid, 0)[1]
