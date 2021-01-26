@@ -47,9 +47,7 @@ def extract_effect(ann, key_effects):
     # return the found effects as a list
     return list(effect_set)
 
-# feel free to name this something better!
-# This should also adopt the logging approach used in snpeff_func.py to 
-# create a unified output log for this entire pipeline stage
+
 def proc_file(outfile,infile,key):
    with open(args.outfile, 'w') as outFile:
         for variant in tqdm.tqdm(vcf):                    
@@ -83,7 +81,7 @@ def proc_file(outfile,infile,key):
     return outFile
     
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Do something with VCF files')
+    parser = argparse.ArgumentParser(description='Parse variants of interest from annotated VCF')
     parser.add_argument('infile', help='Input VCF file.')
     parser.add_argument('outfile', help='Output .bed file')
     parser.add_argument('-key',help='Effects to extract. Can be repeated, must be mutually exclusive', action='append')
