@@ -28,5 +28,3 @@ remove <- outgroup %>%
   filter(missing >= threshold)
 write.csv(remove %>% select(INDV), "outgroup.remove.indv", row.names = F, quote = F)
 
-# NB if only one individual in outgroup, it will be output as an individual to remove 
-
