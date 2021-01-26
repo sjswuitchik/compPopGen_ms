@@ -1,13 +1,13 @@
 #### First function: Checks  
 - check that ingroup and outgroup files exist, number of scaffolds in both VCFs are equal, etc.; throw exception if not  
 - def main  
-      add arg in.vcf
-      add arg out.vcf
-      parse args
-      check vcf func
-        print 'checking vcfs'
-        return True
-      else
+      add arg in.vcf  
+      add arg out.vcf  
+      parse args  
+      check vcf func  
+        print 'checking vcfs'  
+        return True  
+      else  
         raise Exception  
 
 #### Second function: Missingness  
