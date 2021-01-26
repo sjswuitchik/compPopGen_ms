@@ -37,7 +37,7 @@ def annotate_outgroup_VCF(snpEff_path,ingroup_short, outgroup_short):
     return annotate_group_VCF(snpEff_path, ingroup_short, outgroup_short, outgroup_short)   
 
 def parse_variants(outfile,infile,keys):
-    ''' Description goes here
+    ''' Parse variant effects of interest from annotated VCFs
         keys should be a list of keys '''
     return annot_parser.proc_file(outfile,infile,keys)
 
