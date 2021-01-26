@@ -17,7 +17,7 @@ def filter_VCF(group, mac, maf, mm):
     output_file = group+'clean.vcf'
     command = 'vcftools --gzvcf '+group+'.vcf.gz --remove-filtered-all --remove-indels --min-alleles 2 --remove ingroup.remove.indv --max-alleles 2 --mac '+mac+' --max-missing '+mm+' --out '+group+'.clean'
     try:
-        p = subprocess.rn(shlex.split(command), capture_output = True, check = True, text = True)
+        p = subprocess.run(shlex.split(command), capture_output = True, check = True, text = True)
     except subprocess.CalledProcessError as e:
         raise e
         
