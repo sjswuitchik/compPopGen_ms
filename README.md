@@ -15,9 +15,9 @@ Tim Sackton (Director of Bioinformatics, Informatics Group, Harvard University; 
 
 First, set up a conda environment that will allow access to python and R packages:
 
-```conda create -n mk_v2 python=3.6 anaconda cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```
+```conda create -n mk -c bioconda pybedtools cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```
 
-```source activate mk_v2```
+```source activate mk```
 
 ### SnpEff
 
