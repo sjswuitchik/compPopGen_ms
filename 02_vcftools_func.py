@@ -26,6 +26,8 @@ def filter_VCF(group, mac, maf, mm):
 
 def filter_ingroup_VCF(ingroup_short, mac, mm):
     '''Filter the ingroup VCF'''
+    with open(output_file, 'w') as output_file:
+        output_file.close()
     return filter_VCF(ingroup_short, mac, mm, ingroup_short)
 
 def filter_outgroup_VCF(outgroup_short, maf, mm):
