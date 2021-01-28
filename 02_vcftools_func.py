@@ -35,7 +35,7 @@ def filter_outgroup_VCF(outgroup_short, maf, mm):
 
 
 if __name__=='__main__':
-    parser = argparse.ArgumentParser(description= 'vcftools & bedtools commands for filtering in MK pipeline')
+    parser = argparse.ArgumentParser(description= 'vcftools commands for filtering in MK pipeline')
     
     requiredParam = parser.add_argument_group('required parameters')
     requiredParam.add_argument('-i', type = str, metavar = 'ingroup_short', required = True, help = 'Base name for ingroup species')
