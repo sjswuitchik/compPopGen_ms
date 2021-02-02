@@ -77,7 +77,7 @@ rule prep_snipre:
 	shell:
 		"vcftools --vcf {input.ingroupVCF} --missing-site --out {ingroup}"
 		"vcftools --vcf {input.outgroupVCF} --missing-site --out {outgroup}"
-		"Rscript --slave --vanilla snipre_prep.R {input.ingroupBED} {input.outgroupBED} {ingroup}.lmiss {outgroup}.lmiss > prep_std.Rout"
+		"Rscript --slave --vanilla prep_snipre.R {input.ingroupBED} {input.outgroupBED} {ingroup}.lmiss {outgroup}.lmiss > prep_std.Rout"
 
 rule mk_snipre_stats:
 	input:
