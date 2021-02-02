@@ -78,40 +78,5 @@ snipre_data <- full_join(MKtable, callable, by = "gene") %>%
   add_column(nout = median(out.miss$indv)/2) %>%
   dplyr::select(-c(call.len)) %>%
   filter((Trepl/Tsil)<5) %>%
-  filter((PR+FR+PS+FS)>1) 
-
-# functions for MK calculations and DOS 
-mk_test <- function(dn=dn,ds=ds,pn=pn,ps=ps){
-  dnds_mat <- matrix(data=c(ds,dn,ps,pn),nrow=2,byrow = F)
-  pval = fisher.test(dnds_mat)$p.value
-  alpha = 1-((ds*pn)/(dn*ps))
-  return(list(pval,alpha))
-} 
-
-mk_tibble_calc <- function(snipre_res_obj){
-  snipre_res_obj_new <- snipre_res_obj %>%
-    rowwise %>%
-    mutate(mk_pval = mk_test(dn=FR,ds=FS,pn=PR,ps=PS)[[1]],
-           alpha = mk_test(dn=FR,ds=FS,pn=PR,ps=PS)[[2]]) %>%
-    ungroup %>%
-    dplyr::mutate(mk_pval_fdr = p.adjust(mk_pval,method="BH"))
-  return(snipre_res_obj_new)
-}
-
-MKtest <- mk_tibble_calc(snipre_data) %>%
-  mutate(dos = FR/(FR + FS) - PR/(PR + PS),
-         total_poly = PR + PS,
-         total_div = FR + FS) 
-
-write.table(MKtest, "MK_output.txt", sep = "\t", quote = F, row.names = F)
-
-# Run SnIPRE 
-source("SnIPRE_source.R")
-source("my.jags2.R")
-
-snipre.res <- SnIPRE(MKtest)
-snipre.qres <- snipre.res$new.dataset
-snipre.model <- snipre.res$model
-snipre.table <- table(snipre.qres$SnIPRE.class)
-
-write.table(snipre.qres, "snipre_output.txt", sep = "\t", quote = F, row.names = F)
+  filter((PR+FR+PS+FS)>1) %>% 
+  write_delim(., "snipre_data.tsv", delim = '\t', col_names = T) 
