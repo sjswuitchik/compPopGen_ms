@@ -55,9 +55,35 @@ rule vcf_annotate:
 		"python3 annot_parser.py {ingroup}.ann.vcf {output.ingroup} -key missense_variant -kay synonymous_variant"
 		"python3 annot_parser.py {outgroup}.ann.vcf {output.outgroup} -key missense_variant -kay synonymous_variant"
 
-rule 
-		
-		
-		
-		
-		
+rule gene_annot:
+	input:
+		ingroup = "{ingroup}.ann.bed"
+		outgroup = "{outgroup}.ann.bed"
+	output:
+		ingroup = "{ingroup}.final.bed"
+		outgroup = "{outgroup}.final.bed"
+	shell:
+		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}"
+		"bedtools intersect -a {input.outgroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
+
+rule prep_snipre:
+	input:
+		ingroupVCF = "{ingroup}.ann.vcf"
+		outgroupVCF = "{outgroup}.ann.vcf"
+		ingroupBED = "{ingroup}.final.bed"
+		outgroupBED = "{outgroup}.final.bed"
+	output:
+		snipre = "snipre_data.tsv"
+	shell:
+		"vcftools --vcf {input.ingroupVCF} --missing-site --out {ingroup}"
+		"vcftools --vcf {input.outgroupVCF} --missing-site --out {outgroup}"
+		"Rscript --slave --vanilla snipre_prep.R {input.ingroupBED} {input.outgroupBED} {ingroup}.lmiss {outgroup}.lmiss > prep_std.Rout"
+
+rule mk_snipre_stats:
+	input:
+		"snipre_data.tsv"
+	output:
+		"mk_output.tsv"
+		"snipre_output.tsv"
+	shell:
+		"Rscript --slave --vanilla run_snipre.R > mk_std.Rout"
