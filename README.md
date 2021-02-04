@@ -35,7 +35,7 @@ We use SnpEff (http://snpeff.sourceforge.net/download.html) to build databases a
 
 ```mkdir -p data/ingroup_species_name/```  
 
-NB: the ingroup_species_name can be any code or form of the species identifier you'd like, so long as it's consistent throughout.  
+Note: the ingroup_species_name can be any code or form of the species identifier you'd like, so long as it's consistent throughout.  
 
 Ensure reference sequence (FASTA) and genome annotation (GFF3) are in the appropriate data directory, rename files to sequences.fa and genes.gff, then gzip.
 
