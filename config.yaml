@@ -1,0 +1,17 @@
+###############################
+# Variables you need to change#
+###############################
+
+ingroup: "hetAtr"   # the name/code for your ingroup species
+outgroup: "stiNae"  # the name/code for your outgroup species
+snpEff: "hetAtr"    # the name/code for your snpEff data directory
+
+###################################
+# Variables you may need to change#
+###################################
+
+# vcftools filtering parameters
+mac: 1             # only include sides with a minor allele count greater than or equal to this value
+maf: 0             # only include sides with a minor allele frequency greater than or equal to this value
+mm: 0.5            # exclude sites on the basis of the proportion of missing data (values between 0 and 1)
+
