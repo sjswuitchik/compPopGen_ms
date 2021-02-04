@@ -1,0 +1,10 @@
+configfile: "config.yaml"
+
+### workflow ###
+
+rule all:
+    input:
+        missing = config["gatkDir"] + "missing_data_per_ind.txt",
+        SNPsPerInt = config["gatkDir"] + "SNP_per_interval.txt"
+
+include: ".smk"
