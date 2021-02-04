@@ -15,7 +15,9 @@ Tim Sackton (Director of Bioinformatics, Informatics Group, Harvard University; 
 
 First, set up a conda environment that will allow access to Snakemake, Python/R packages, java, and required command line tools:
 
-```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```
+```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```  
+
+Activate the environment so you have access to java in order to build the snpEff database:
 
 ```conda activate mk```
 
