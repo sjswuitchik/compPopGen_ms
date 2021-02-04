@@ -1,6 +1,6 @@
 # MK pipeline for comparative population genomics collaboration 
 
-Pipeline to filter VCFs, annotate variants with snpEff, and produce MK tables for downstream analyses. Currently refactoring into Snakemake pipeline. 
+Pipeline to filter VCFs, annotate variants with snpEff, produce MK tables for downstream analyses, and run MK tests, SnIPRE, and calculate various statistics.
 
 Authors: 
 
