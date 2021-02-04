@@ -7,4 +7,4 @@ rule all:
         missing = config["gatkDir"] + "missing_data_per_ind.txt",
         SNPsPerInt = config["gatkDir"] + "SNP_per_interval.txt"
 
-include: ".smk"
+include: "vcf2mk.smk"
