@@ -1,0 +1,23 @@
+__default__:
+    partition: "shared"
+    time: 9000
+    nodes: 1
+    output: "logs/slurm-%j.out"
+    #error: "logs/slurm-%j.err"
+
+
+###
+# bam2vcf_gatk
+###
+
+bam2gvcf: 
+    partition: "serial_requeue"
+
+
+###
+# bam2vcf_fb
+###
+
+bam2vcf: 
+    partition: "serial_requeue"
+    #mem: 5000 # MEMORY IS SPECIFIED WITHIN RULE, TO INCREASE WITH ATTEMPTS
