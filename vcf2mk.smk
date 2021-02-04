@@ -11,7 +11,7 @@ rule calc_missingness:
 		config['ingroup'] + ".remove.indv",
 		config['outgroup'] + ".remove.indv"
 	shell:
-		"Rscript --vanilla missingness.R {input.ingroup} {input.outgroup}"
+		"Rscript --vanilla helper_scripts/missingness.R {input.ingroup} {input.outgroup}"
 
 rule callable_sites:
 	"""
@@ -35,8 +35,8 @@ rule cds_genes:
 		cds = "onlyCDS.genes.bed"
 	shell:
 		"column -s, -t < {input.genes} | awk '$3 == "CDS"' > onlyCDS.gff\n"
-		"awk -f gff2bed.awk onlyCDS.gff > onlyCDS.bed\n"
-		"cat onlyCDS.bed | python3 genenames.py > {output.cds}"
+		"awk -f helper_scripts/gff2bed.awk onlyCDS.gff > onlyCDS.bed\n"
+		"cat onlyCDS.bed | python3 helper_scripts/genenames.py > {output.cds}"
 
 rule vcf_filter:
 	"""
@@ -75,8 +75,8 @@ rule vcf_annotate:
 	shell:
 		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {params.ingroup}.ann.vcf\n"
 		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {params.outgroup}.ann.vcf\n"
-		"python3 annot_parser.py {params.ingroup}.ann.vcf {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"python3 annot_parser.py {params.outgroup}.ann.vcf {output.outgroup} -key missense_variant -key synonymous_variant"
+		"python3 helper_scripts/annot_parser.py {params.ingroup}.ann.vcf {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"python3 helper_scripts/annot_parser.py {params.outgroup}.ann.vcf {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
@@ -109,7 +109,7 @@ rule prep_snipre:
 	shell:
 		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}\n"
 		"vcftools --vcf {input.outgroupVCF} --missing-site --out {params.outgroup}\n"
-		"Rscript --slave --vanilla prep_snipre.R {input.ingroupBED} {input.outgroupBED} {params.ingroup}.lmiss {params.outgroup}.lmiss > prep_std.Rout"
+		"Rscript --slave --vanilla helper_scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {params.ingroup}.lmiss {params.outgroup}.lmiss > prep_std.Rout"
 
 rule mk_snipre_stats:
 	"""
@@ -121,4 +121,4 @@ rule mk_snipre_stats:
 		"mk_output.tsv"
 		"snipre_output.tsv"
 	shell:
-		"Rscript --slave --vanilla run_snipre.R > mk_std.Rout"
+		"Rscript --slave --vanilla helper_scripts/run_snipre.R > mk_std.Rout"
