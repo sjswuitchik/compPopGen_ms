@@ -34,8 +34,8 @@ rule cds_genes:
 	output:
 		cds = "onlyCDS.genes.bed"
 	shell:
-		"column -s, -t < {input.genes} | awk '$3 == "CDS"' > onlyCDS.gff"
-		"awk -f gff2bed.awk onlyCDS.gff > onlyCDS.bed"
+		"column -s, -t < {input.genes} | awk '$3 == "CDS"' > onlyCDS.gff\n"
+		"awk -f gff2bed.awk onlyCDS.gff > onlyCDS.bed\n"
 		"cat onlyCDS.bed | python3 genenames.py > {output.cds}"
 
 rule vcf_filter:
@@ -53,9 +53,9 @@ rule vcf_filter:
 		maf = config['maf'],
 		mm = config['mm']
 	shell:
-		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove ingroup.remove.indv --max-missing {params.mm} --recode --recode-INFO-all --out ingroup.filter"
-		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min--alleles 2 --max-alleles 2 --maf {params.maf} --remove outgroup.remove.indv --max-missing {params.mm} --recore --recode-INFO-all --out outgroup.filter"
-		"bedtools intersect -a ingroup.filter.recode.vcf -b callable.bed -header > {output.ingroup}"
+		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove ingroup.remove.indv --max-missing {params.mm} --recode --recode-INFO-all --out ingroup.filter\n"
+		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min--alleles 2 --max-alleles 2 --maf {params.maf} --remove outgroup.remove.indv --max-missing {params.mm} --recore --recode-INFO-all --out outgroup.filter\n"
+		"bedtools intersect -a ingroup.filter.recode.vcf -b callable.bed -header > {output.ingroup}\n"
 		"bedtools intersect -a outgroup.filter.recode.vcf -b callable.bed -header > {output.outgroup}"
 
 rule vcf_annotate:
@@ -73,9 +73,9 @@ rule vcf_annotate:
 		ingroup = config['ingroup']
 		outgroup = config['outgroup']
 	shell:
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {params.ingroup}.ann.vcf"
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {params.outgroup}.ann.vcf"
-		"python3 annot_parser.py {params.ingroup}.ann.vcf {output.ingroup} -key missense_variant -key synonymous_variant"
+		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {params.ingroup}.ann.vcf\n"
+		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {params.outgroup}.ann.vcf\n"
+		"python3 annot_parser.py {params.ingroup}.ann.vcf {output.ingroup} -key missense_variant -key synonymous_variant\n"
 		"python3 annot_parser.py {params.outgroup}.ann.vcf {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
@@ -89,7 +89,7 @@ rule gene_annot:
 		ingroup = config['ingroup'] + ".final.bed"
 		outgroup = config['outgroup'] + ".final.bed"
 	shell:
-		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}"
+		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
 		"bedtools intersect -a {input.outgroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
 
 rule prep_snipre:
@@ -107,8 +107,8 @@ rule prep_snipre:
 		ingroup = config['ingroup']
 		outgroup = config['outgroup']
 	shell:
-		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}"
-		"vcftools --vcf {input.outgroupVCF} --missing-site --out {params.outgroup}"
+		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}\n"
+		"vcftools --vcf {input.outgroupVCF} --missing-site --out {params.outgroup}\n"
 		"Rscript --slave --vanilla prep_snipre.R {input.ingroupBED} {input.outgroupBED} {params.ingroup}.lmiss {params.outgroup}.lmiss > prep_std.Rout"
 
 rule mk_snipre_stats:
