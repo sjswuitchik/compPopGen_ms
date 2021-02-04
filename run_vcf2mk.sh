@@ -8,5 +8,5 @@
 #SBATCH --mem=10000
 
 
-conda activate snakemake
+conda activate mk
 snakemake --snakefile Snakefile_vcf2mk --profile ./profiles/slurm
