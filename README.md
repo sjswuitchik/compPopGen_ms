@@ -41,7 +41,7 @@ Add the following to the snpEff.config file, under the Databases & Genomes - Non
 
 \# Common name genome, Source and Version
 
-$ingroup_species_name.genome : genome_name
+ingroup_species_name.genome : genome_name
 
 For example: 
 
