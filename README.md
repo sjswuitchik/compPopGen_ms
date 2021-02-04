@@ -13,7 +13,7 @@ Tim Sackton (Director of Bioinformatics, Informatics Group, Harvard University; 
 
 ## Configuration and set up
 
-First, set up a conda environment that will allow access to python and R packages:
+First, set up a conda environment that will allow access to Snakemake, Python/R packages, java, and required command line tools:
 
 ```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```
 
@@ -69,19 +69,3 @@ For example:
 - Coverage site data for both ingroup and outgroup
 
 - genes.gff (same file that's in the snpEff data directory, uncompressed)
-
-- genenames.py
-
-- gff2bed.awk
-
-- annot_parser.py
-
-- my.jags2.R 
-
-- SnIPRE_source.R
-
-- missingness.R
-
-- prep_snipre.R  
-
-- run_snipre.R
