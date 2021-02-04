@@ -17,7 +17,7 @@ First, set up a conda environment that will allow access to python and R package
 
 ```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```
 
-```source activate mk```
+```conda activate mk```
 
 ### SnpEff
 
@@ -45,9 +45,9 @@ $ingroup_species_name.genome : genome_name
 
 For example: 
 
-\# Hooded crow genome, NCBI version 2
+\# Black-headed duck genome, NCBI version 1
 
-corCor.genome : Corvus_cornix_cornix
+hetAtr.genome : Heteronetta_atricapilla
 
 
 #### Build a snpEff database
@@ -58,7 +58,7 @@ From the snpEff directory, run:
 
 For example:  
 
-```java -jar snpEff.jar build -gff3 corCor```
+```java -jar snpEff.jar build -gff3 hetAtr```
 
 ### In your working directory, you'll need: 
 
@@ -82,4 +82,6 @@ For example:
 
 - missingness.R
 
-- mktest.R
+- prep_snipre.R  
+
+- run_snipre.R
