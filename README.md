@@ -5,7 +5,7 @@ Pipeline to filter VCFs, annotate variants with snpEff, produce MK tables for do
 Authors: 
 
 
-Sara Wuitchik (Postdoctoal associate, Boston University & Harvard University; sjswuit@g.harvard.edu)  
+Sara Wuitchik (Postdoctoral associate, Boston University & Harvard University; sjswuit@g.harvard.edu)  
 
 Allison Shultz (Assistant Curator of Ornithology, LA Natural History Museum; ashultz@nhm.org)
 
