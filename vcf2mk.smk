@@ -41,9 +41,9 @@ rule cds_genes:
 	This rule associates the CDS regions from the GFF with the gene names to be used in the gene_annot rule
 	"""
 	input
-		bed = "onlyCDS.bed"
+		"onlyCDS.bed"
 	output:
-		cds = "onlyCDS.genes.bed"
+		"onlyCDS.genes.bed"
 	script:
 		"helper_scripts/genenames.py
 
