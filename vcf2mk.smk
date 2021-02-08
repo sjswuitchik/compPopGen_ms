@@ -76,7 +76,7 @@ rule vcf_annotate:
 		outgroup = config['outgroup'] + ".clean.vcf"
 	output:
 		ingroup = config['ingroup'] + ".ann.vcf",
-		outgroup = config['outgroup'] + "ann.vcf"
+		outgroup = config['outgroup'] + ".ann.vcf"
 	params:
 		snpEffGenome = config['ingroup']
 	shell:
