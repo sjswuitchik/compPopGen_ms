@@ -25,16 +25,27 @@ rule callable_sites:
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}"
 
-rule cds_genes:
+rule cds:
 	"""
-	This rule pulls out the CDS regions from the GFF and parses the gene names to be used in the gene_annot rule
+	This rule pulls out the CDS regions from the GFF to be used in the cds_genes rule
 	"""
 	input:
 		genes = "genes.gff"
 	output:
-		cds = "onlyCDS.genes.bed"
+		cds = "onlyCDS.bed"
 	shell:
-		"awk '$3 == "CDS"' {input.genes} | awk -f helper_scripts/gff2bed.awk | python3 helper_scripts/genenames.py > {output.cds}"
+		"awk '$3 == "CDS"' {input.genes} | awk -f helper_scripts/gff2bed.awk > {output.cds}"
+
+rule cds_genes:
+	"""
+	This rule associates the CDS regions from the GFF with the gene names to be used in the gene_annot rule
+	"""
+	input
+		bed = "onlyCDS.bed"
+	output:
+		cds = "onlyCDS.genes.bed"
+	script:
+		"helper_scripts/genenames.py
 
 rule vcf_filter:
 	"""
