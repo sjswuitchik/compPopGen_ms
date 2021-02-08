@@ -89,7 +89,7 @@ rule vcf_parse:
 	"""
 	input:
 		ingroup = config['ingroup'] + ".ann.vcf",
-		outgroup = config['outgroup'] + "ann.vcf"
+		outgroup = config['outgroup'] + ".ann.vcf"
 	output:
 		ingroup = config['ingroup'] + ".ann.bed",
 		outgroup = config['outgroup'] + ".ann.bed"
