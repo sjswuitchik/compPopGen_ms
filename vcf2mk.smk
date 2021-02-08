@@ -40,7 +40,7 @@ rule cds_genes:
 	"""
 	This rule associates the CDS regions from the GFF with the gene names to be used in the gene_annot rule
 	"""
-	input
+	input:
 		"onlyCDS.bed"
 	output:
 		"onlyCDS.genes.bed"
