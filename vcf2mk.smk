@@ -34,7 +34,7 @@ rule cds_genes:
 	output:
 		cds = "onlyCDS.genes.bed"
 	shell:
-		"column -s, -t < {input.genes} | awk '$3 == "CDS"' | awk -f helper_scripts/gff2bed.awk | python3 helper_scripts/genenames.py > {output.cds}"
+		"awk '$3 == "CDS"' {input.genes} | awk -f helper_scripts/gff2bed.awk | python3 helper_scripts/genenames.py > {output.cds}"
 
 rule vcf_filter:
 	"""
