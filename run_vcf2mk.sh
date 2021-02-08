@@ -10,5 +10,5 @@
 module purge
 module load Anaconda/5.0.1-fasrc02
 
-conda activate mk
+source activate mk
 snakemake --snakefile Snakefile_vcf2mk --profile ./profiles/slurm
