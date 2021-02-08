@@ -53,7 +53,9 @@ rule vcf_filter:
 	"""
 	input:
 		ingroup = config['ingroup'] + ".vcf.gz",
-		outgroup = config['outgroup'] + ".vcf.gz"
+		outgroup = config['outgroup'] + ".vcf.gz",
+		ingroupR = config['ingroup'] + ".remove.indv",
+		outgroupR = config['outgroup'] + ".remove.indv"
 	output:
 		ingroup = config['ingroup'] + ".clean.vcf",
 		outgroup = config['outgroup'] + ".clean.vcf"
@@ -62,8 +64,8 @@ rule vcf_filter:
 		maf = config['maf'],
 		mm = config['mm']
 	shell:
-		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove ingroup.remove.indv --max-missing {params.mm} --recode --recode-INFO-all --out ingroup.filter\n"
-		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min--alleles 2 --max-alleles 2 --maf {params.maf} --remove outgroup.remove.indv --max-missing {params.mm} --recore --recode-INFO-all --out outgroup.filter\n"
+		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove {input.ingroupR} --max-missing {params.mm} --recode --recode-INFO-all --out ingroup.filter\n"
+		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min--alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recore --recode-INFO-all --out outgroup.filter\n"
 		"bedtools intersect -a ingroup.filter.recode.vcf -b callable.bed -header > {output.ingroup}\n"
 		"bedtools intersect -a outgroup.filter.recode.vcf -b callable.bed -header > {output.outgroup}"
 
