@@ -32,9 +32,9 @@ rule cds:
 	input:
 		genes = "genes.gff"
 	output:
-		cds = "onlyCDS.bed"
+		cds = "onlyCDS.genes.bed"
 	shell:
-		"awk '$3 == "CDS"' {input.genes} | awk -f helper_scripts/gff2bed.awk > {output.cds}"
+		"""awk "\$3 == "CDS"" {input.genes} | awk -f helper_scripts/gff2bed.awk > {output.cds}"""
 
 rule cds_genes:
 	"""
