@@ -63,14 +63,14 @@ rule vcf_annotate:
 	This rule annotates clean VCFs with snpEff then parses out the missense and synonymous variants to a BED file to be used in the gene_annot rule
 	"""
 	input:
-		ingroup = config['ingroup'] + ".clean.vcf"
+		ingroup = config['ingroup'] + ".clean.vcf",
 		outgroup = config['outgroup'] + ".clean.vcf"
 	output:
-		ingroup = config['ingroup'] + ".ann.bed"
+		ingroup = config['ingroup'] + ".ann.bed",
 		outgroup = config['outgroup'] + ".ann.bed"
 	params:
-		snpEffGenome = config['ingroup']
-		ingroup = config['ingroup']
+		snpEffGenome = config['ingroup'],
+		ingroup = config['ingroup'],
 		outgroup = config['outgroup']
 	shell:
 		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {params.ingroup}.ann.vcf\n"
@@ -83,10 +83,10 @@ rule gene_annot:
 	This rule intersects the annotated BED files with the CDS gene names BED to create the final BED files for use in the prep_snipre rule
 	"""
 	input:
-		ingroup = config['ingroup'] + ".ann.bed"
+		ingroup = config['ingroup'] + ".ann.bed",
 		outgroup = config['outgroup'] + ".ann.bed"
 	output:
-		ingroup = config['ingroup'] + ".final.bed"
+		ingroup = config['ingroup'] + ".final.bed",
 		outgroup = config['outgroup'] + ".final.bed"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
@@ -97,14 +97,14 @@ rule prep_snipre:
 	This rule calculates the missingness on a per-site basis and, with the final BED files, outputs an MK table that is ready for use in the mk_snipre_stats rule
 	"""
 	input:
-		ingroupVCF = config['ingroup'] + ".ann.vcf"
-		outgroupVCF = config['outgroup'] + ".ann.vcf"
-		ingroupBED = config['ingroup'] + ".final.bed"
+		ingroupVCF = config['ingroup'] + ".ann.vcf",
+		outgroupVCF = config['outgroup'] + ".ann.vcf",
+		ingroupBED = config['ingroup'] + ".final.bed",
 		outgroupBED = config['outgroup'] + ".final.bed"
 	output:
 		snipre = "snipre_data.tsv"
 	params:
-		ingroup = config['ingroup']
+		ingroup = config['ingroup'],
 		outgroup = config['outgroup']
 	shell:
 		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}\n"
@@ -118,7 +118,7 @@ rule mk_snipre_stats:
 	input:
 		"snipre_data.tsv"
 	output:
-		"mk_output.tsv"
+		"mk_output.tsv",
 		"snipre_output.tsv"
 	shell:
 		"Rscript --slave --vanilla helper_scripts/run_snipre.R > mk_std.Rout"
