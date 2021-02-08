@@ -45,7 +45,7 @@ rule cds_genes:
 	output:
 		"onlyCDS.genes.bed"
 	script:
-		"helper_scripts/genenames.py
+		"helper_scripts/genenames.py"
 
 rule vcf_filter:
 	"""
