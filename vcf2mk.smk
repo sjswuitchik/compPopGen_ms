@@ -101,24 +101,36 @@ rule gene_annot:
 		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
 		"bedtools intersect -a {input.outgroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
 
+rule miss_snipre:
+	"""
+	This rule ... 
+	"""
+	input: 
+		ingroupVCF = config['ingroup'] + ".ann.vcf",
+		outgroupVCF = config['outgroup'] + ".ann.vcf"
+	output:
+		config['ingroup'] + ".lmiss",
+		config['outgroup'] + ".lmiss" 
+	params:
+		ingroup = config['ingroup'],
+		outgroup = config['outgroup']	
+	shell:
+		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}\n"
+		"vcftools --vcf {input.outgroupVCF} --missing-site --out {params.outgroup}"
+		
 rule prep_snipre:
 	"""
 	This rule calculates the missingness on a per-site basis and, with the final BED files, outputs an MK table that is ready for use in the mk_snipre_stats rule
 	"""
 	input:
-		ingroupVCF = config['ingroup'] + ".ann.vcf",
-		outgroupVCF = config['outgroup'] + ".ann.vcf",
 		ingroupBED = config['ingroup'] + ".final.bed",
-		outgroupBED = config['outgroup'] + ".final.bed"
+		outgroupBED = config['outgroup'] + ".final.bed",
+		ingroupM = config['ingroup'] + ".lmiss",
+		outgroupM = config['outgroup'] + ".lmiss"
 	output:
 		snipre = "snipre_data.tsv"
-	params:
-		ingroup = config['ingroup'],
-		outgroup = config['outgroup']
 	shell:
-		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}\n"
-		"vcftools --vcf {input.outgroupVCF} --missing-site --out {params.outgroup}\n"
-		"Rscript --slave --vanilla helper_scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {params.ingroup}.lmiss {params.outgroup}.lmiss > prep_std.Rout"
+		"Rscript --slave --vanilla helper_scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM} > prep_std.Rout"
 
 rule mk_snipre_stats:
 	"""
