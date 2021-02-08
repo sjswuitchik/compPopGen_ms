@@ -33,8 +33,8 @@ rule cds_genes:
 		genes = "genes.gff"
 	output:
 		cds = "onlyCDS.genes.bed"
-	shell:
-		"awk '$3 == "CDS"' {input.genes} | awk -f helper_scripts/gff2bed.awk | python3 helper_scripts/genenames.py > {output.cds}"
+	run:
+		shell("awk '$3 == "CDS"' {input.genes} | awk -f helper_scripts/gff2bed.awk | python3 helper_scripts/genenames.py > {output.cds}")
 
 rule vcf_filter:
 	"""
