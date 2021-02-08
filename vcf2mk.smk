@@ -116,7 +116,7 @@ rule mk_snipre_stats:
 	input:
 		"snipre_data.tsv"
 	output:
-		"mk_output.tsv",
-		"snipre_output.tsv"
+		mk = "mk_output.tsv",
+		snipre = "snipre_output.tsv"
 	shell:
 		"Rscript --slave --vanilla helper_scripts/run_snipre.R > mk_std.Rout"
