@@ -75,17 +75,17 @@ rule vcf_annotate:
 		ingroup = config['ingroup'] + ".clean.vcf",
 		outgroup = config['outgroup'] + ".clean.vcf"
 	output:
-		ingroupAV = config['ingroup'] + ".ann.vcf",
-		outgroupAV = config['outgroup'] + "ann.vcf",
+		ingroupVCF = config['ingroup'] + ".ann.vcf",
+		outgroupVCF = config['outgroup'] + "ann.vcf",
 		ingroup = config['ingroup'] + ".ann.bed",
 		outgroup = config['outgroup'] + ".ann.bed"
 	params:
 		snpEffGenome = config['ingroup']
 	shell:
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {output.ingroupAV}\n"
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {output.outgroupAV}\n"
-		"python3 helper_scripts/annot_parser.py {params.ingroup}.ann.vcf {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"python3 helper_scripts/annot_parser.py {params.outgroup}.ann.vcf {output.outgroup} -key missense_variant -key synonymous_variant"
+		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {output.ingroupVCF}\n"
+		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {output.outgroupVCF}\n"
+		"python3 helper_scripts/annot_parser.py {output.ingroupVCF} {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"python3 helper_scripts/annot_parser.py {output.outgroupVCF} {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
