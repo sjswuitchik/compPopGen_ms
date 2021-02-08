@@ -1,8 +1,5 @@
 configfile: "config.yaml"
 
-ingroup = config["ingroup"]
-outgroup = config["outgroup"]
-
 ### workflow ###
 
 rule all:
