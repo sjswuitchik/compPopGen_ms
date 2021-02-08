@@ -75,13 +75,13 @@ rule vcf_annotate:
 		ingroup = config['ingroup'] + ".clean.vcf",
 		outgroup = config['outgroup'] + ".clean.vcf"
 	output:
-		ingroupVCF = config['ingroup'] + ".ann.vcf",
-		outgroupVCF = config['outgroup'] + "ann.vcf"
+		ingroup = config['ingroup'] + ".ann.vcf",
+		outgroup = config['outgroup'] + "ann.vcf"
 	params:
 		snpEffGenome = config['ingroup']
 	shell:
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {output.ingroupVCF}\n"
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {output.outgroupVCF}"
+		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
+		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
 		
 rule vcf_parse:
 	"""
@@ -116,8 +116,8 @@ rule miss_snipre:
 	This rule ... 
 	"""
 	input: 
-		ingroupVCF = config['ingroup'] + ".ann.vcf",
-		outgroupVCF = config['outgroup'] + ".ann.vcf"
+		ingroup = config['ingroup'] + ".ann.vcf",
+		outgroup = config['outgroup'] + ".ann.vcf"
 	output:
 		config['ingroup'] + ".lmiss",
 		config['outgroup'] + ".lmiss" 
@@ -125,8 +125,8 @@ rule miss_snipre:
 		ingroup = config['ingroup'],
 		outgroup = config['outgroup']	
 	shell:
-		"vcftools --vcf {input.ingroupVCF} --missing-site --out {params.ingroup}\n"
-		"vcftools --vcf {input.outgroupVCF} --missing-site --out {params.outgroup}"
+		"vcftools --vcf {input.ingroup} --missing-site --out {params.ingroup}\n"
+		"vcftools --vcf {input.outgroup} --missing-site --out {params.outgroup}"
 		
 rule prep_snipre:
 	"""
@@ -138,7 +138,7 @@ rule prep_snipre:
 		ingroupM = config['ingroup'] + ".lmiss",
 		outgroupM = config['outgroup'] + ".lmiss"
 	output:
-		snipre = "snipre_data.tsv"
+		"snipre_data.tsv"
 	shell:
 		"Rscript --slave --vanilla helper_scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM} > prep_std.Rout"
 
