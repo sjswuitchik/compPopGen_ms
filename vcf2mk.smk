@@ -94,8 +94,8 @@ rule vcf_parse:
 		ingroup = config['ingroup'] + ".ann.bed",
 		outgroup = config['outgroup'] + ".ann.bed"
 	script:
-		"python3 helper_scripts/annot_parser.py {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"python3 helper_scripts/annot_parser.py {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
+		"helper_scripts/annot_parser.py {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"helper_scripts/annot_parser.py {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
