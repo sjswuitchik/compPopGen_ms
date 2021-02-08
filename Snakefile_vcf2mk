@@ -1,10 +1,12 @@
 configfile: "config.yaml"
 
+ingroup = config["ingroup"]
+outgroup = config["outgroup"]
+
 ### workflow ###
 
 rule all:
     input:
-	config["ingroup"] + "_missing_data.txt",
-	config["outgroup"] + "_missing_data.txt"
+	config["ingroup"] + "_missing_data.txt"
 
 include: "vcf2mk.smk"
