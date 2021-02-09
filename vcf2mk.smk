@@ -9,8 +9,8 @@ rule calc_missingness:
 		ingroup = config['ingroup'] + "_missing_data.txt",
 		outgroup = config['outgroup'] + "_missing_data.txt"
 	output: 
-		config['ingroup'] + ".remove.indv",
-		config['outgroup'] + ".remove.indv"
+		"ingroup.remove.indv",
+		"outgroup.remove.indv"
 	shell:
 		"Rscript {input.script} {input.ingroup} {input.outgroup}"
 
