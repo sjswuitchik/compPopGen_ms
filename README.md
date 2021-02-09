@@ -68,7 +68,7 @@ For example:
 
 - single VCF for each of the ingroup and outgroup species  
 
-- Missingness data for both ingroup and outgroup (ingroup_missing_data.txt and outgroup_missing_data.txt)
+- Missingness data for both ingroup and outgroup (\*_missing_data.txt)
 
 - Coverage site data for both ingroup and outgroup (\*_coverage_sites_clean_merged.bed)
 
