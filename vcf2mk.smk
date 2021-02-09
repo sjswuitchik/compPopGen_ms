@@ -5,13 +5,13 @@ rule calc_missingness:
 	This rule calculates the proportion of missing data and outputs a list of individuals to be removed in the vcf_filter rule
 	"""
 	input:
-		script = "helper_script/missingness.R",
+		script = "helper_scripts/missingness.R",
 		ingroup = config['ingroup'] + "_missing_data.txt",
 		outgroup = config['outgroup'] + "_missing_data.txt"
 	output: 
 		config['ingroup'] + ".remove.indv",
 		config['outgroup'] + ".remove.indv"
-	script:
+	shell:
 		"Rscript {input.script} {input.ingroup} {input.outgroup}"
 
 rule callable_sites:
