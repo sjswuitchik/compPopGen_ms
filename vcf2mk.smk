@@ -140,7 +140,9 @@ rule prep_snipre:
 		ingroupBED = config['ingroup'] + ".final.bed",
 		outgroupBED = config['outgroup'] + ".final.bed",
 		ingroupM = config['ingroup'] + ".lmiss",
-		outgroupM = config['outgroup'] + ".lmiss"
+		outgroupM = config['outgroup'] + ".lmiss",
+		call = "callable.cds.bed",
+		cds = "onlyCDS.genes.bed"
 	output:
 		"snipre_data.tsv"
 	shell:
