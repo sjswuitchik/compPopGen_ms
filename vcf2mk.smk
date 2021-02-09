@@ -152,7 +152,7 @@ rule mk_snipre_stats:
 	"""
 	input:
 		script = "helper_scripts/run_snipre.R",
-		"snipre_data.tsv"
+		data = "snipre_data.tsv"
 	output:
 		"mk_output.tsv",
 		"snipre_output.tsv"
