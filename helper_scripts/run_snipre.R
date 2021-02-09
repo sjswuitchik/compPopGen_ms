@@ -25,7 +25,7 @@ MKtest <- mk_tibble_calc(snipre_data) %>%
          total_poly = PR + PS,
          total_div = FR + FS) 
 
-write.table(MKtest, "MK_output.tsv", sep = "\t", quote = F, row.names = F)
+write.table(MKtest, "mk_output.tsv", sep = "\t", quote = F, row.names = F)
 
 # run SnIPRE 
 source("SnIPRE_source.R")
