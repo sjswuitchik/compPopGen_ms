@@ -28,8 +28,8 @@ MKtest <- mk_tibble_calc(snipre_data) %>%
 write.table(MKtest, "mk_output.tsv", sep = "\t", quote = F, row.names = F)
 
 # run SnIPRE 
-source("SnIPRE_source.R")
-source("my.jags2.R")
+source("helper_scripts/SnIPRE_source.R")
+source("helper_scripts/my.jags2.R")
 
 snipre.res <- SnIPRE(MKtest)
 snipre.qres <- snipre.res$new.dataset
