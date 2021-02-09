@@ -10,8 +10,8 @@ rule calc_missingness:
 	output: 
 		config['ingroup'] + ".remove.indv",
 		config['outgroup'] + ".remove.indv"
-	shell:
-		"Rscript --vanilla helper_scripts/missingness.R {input.ingroup} {input.outgroup}"
+	script:
+		"helper_scripts/missingness.R {input.ingroup} {input.outgroup}"
 
 rule callable_sites:
 	"""
