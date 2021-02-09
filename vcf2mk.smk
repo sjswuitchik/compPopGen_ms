@@ -26,6 +26,18 @@ rule callable_sites:
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}"
 
+rule callable_cds:
+	"""
+	This rule intersects the callable site and the gene names for CDS regions for use in the prep_snipre rule
+	"""
+	input:
+		call = "callable.bed",
+		cds = "onlyCDS.genes.bed"
+	output:
+		call = "callable.cds.bed"
+	shell:
+		"bedtools intersect -a {input.call} -b {input.cds} -wb | cut -f1,2,3,7 | bedtools sort -i - | bedtools merge -i - -c 4 -o distinct > {output.call}"
+
 rule cds:
 	"""
 	This rule pulls out the CDS regions from the GFF to be used in the cds_genes rule
@@ -88,7 +100,7 @@ rule vcf_annotate:
 		
 rule vcf_parse:
 	"""
-	This rule ...
+	This rule parses the variant effects of interest from the annotated VCF and ouputs a BED file for use in the gene_annot rule
 	"""
 	input:
 		ingroup = config['ingroup'] + ".ann.vcf",
@@ -116,7 +128,7 @@ rule gene_annot:
 
 rule miss_snipre:
 	"""
-	This rule ... 
+	This rule outputs the missingness on a per-site basis for use in the prep_snipre rule 
 	"""
 	input: 
 		ingroup = config['ingroup'] + ".ann.vcf",
