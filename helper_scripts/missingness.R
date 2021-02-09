@@ -9,7 +9,7 @@ if (length(args)==0) {
   stop("At least one argument must be supplied (input file).\n", call.=FALSE)
 } 
 
-ingroup <- read_delim(args[1], ) %>%
+ingroup <- read_delim(args[1], delim = '\t', col_names = T) %>%
   group_by(INDV) %>%
   summarise_each(funs(sum)) %>%
   mutate(missing = N_MISS/N_DATA)
@@ -19,7 +19,7 @@ remove <- ingroup %>%
   select(INDV) %>%
   write_delim(., "ingroup.remove.indv", delim = '\t', col_names = T)
 
-outgroup <- read_delim(args[2]) %>%
+outgroup <- read_delim(args[2], delim = '\t', col_names = T) %>%
   group_by(INDV) %>%
   summarise_each(funs(sum)) %>%
   mutate(missing = N_MISS/N_DATA)
