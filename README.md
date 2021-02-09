@@ -70,6 +70,6 @@ For example:
 
 - Missingness data for both ingroup and outgroup (ingroup_missing_data.txt and outgroup_missing_data.txt)
 
-- Coverage site data for both ingroup and outgroup
+- Coverage site data for both ingroup and outgroup (\*_coverage_sites_clean_merged.bed)
 
 - genes.gff (same file that's in the snpEff data directory, uncompressed)
