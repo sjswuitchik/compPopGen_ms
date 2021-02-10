@@ -88,7 +88,7 @@ rule vcf_call:
 	"""
 	input:
 		ingroup = config['ingroup'] + ".filter.recode.vcf",
-		ougroup = config['outgroup'] + ".filter.recode.vcf",
+		outgroup = config['outgroup'] + ".filter.recode.vcf",
 		call = "callable.bed"
 	output:
 		ingroup = config['ingroup'] + ".clean.vcf",
