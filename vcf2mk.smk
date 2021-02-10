@@ -80,7 +80,7 @@ rule vcf_filter:
 		outgroup = config['outgroup']
 	shell:
 		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove {input.ingroupR} --max-missing {params.mm} --recode --recode-INFO-all --out {params.ingroup}.filter\n"
-		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min--alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recore --recode-INFO-all --out {params.outgroup}.filter"
+		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recore --recode-INFO-all --out {params.outgroup}.filter"
 		
 rule vcf_call: 
 	"""
