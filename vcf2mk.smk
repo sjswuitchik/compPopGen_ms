@@ -118,14 +118,15 @@ rule vcf_parse:
 	This rule parses the variant effects of interest from the annotated VCF and ouputs a BED file for use in the gene_annot rule
 	"""
 	input:
+		script = "helper_scripts/annot_parser.py",
 		ingroup = config['ingroup'] + ".ann.vcf",
 		outgroup = config['outgroup'] + ".ann.vcf"
 	output:
 		ingroup = config['ingroup'] + ".ann.bed",
 		outgroup = config['outgroup'] + ".ann.bed"
 	script:
-		"helper_scripts/annot_parser.py {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"helper_scripts/annot_parser.py {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
+		"python3 {input.script} {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"python3 {input.script} {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
