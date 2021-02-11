@@ -1,3 +1,9 @@
+#!/usr/bin/Rscript
+
+library(tidyverse)
+library(lme4)
+library(arm)
+
 # read in data 
 snipre_data <- read_tsv("snipre_data.tsv", sep = '\t', col_names = T)
 
