@@ -31,9 +31,7 @@ We use SnpEff (http://snpeff.sourceforge.net/download.html) to build databases a
 
 ```rm snpEff_latest_core.zip``` 
 
-```cd snpEff/```
-
-```mkdir -p data/ingroup_species_name/```  
+```mkdir -p snpEff/data/ingroup_species_name/```  
 
 Note: the ingroup_species_name can be any code or form of the species identifier you'd like, so long as it's consistent throughout.  
 
