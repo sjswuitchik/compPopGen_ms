@@ -8,7 +8,7 @@
 #SBATCH --mem=10000
 
 module purge
-module load Anaconda/5.0.1-fasrc02
+module load Anaconda/5.0.1-fasrc01
 
 source activate mk
 snakemake --snakefile Snakefile_vcf2mk 
