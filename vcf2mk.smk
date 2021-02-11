@@ -46,7 +46,7 @@ rule cds:
 		genes = "genes.gff"
 	output:
 		cdsGFF = "onlyCDS.gff",
-		cdsBED = "onlyCDS.genes.bed"
+		cdsBED = "onlyCDS.bed"
 	shell:
 		"""awk "\$3 == "CDS"" {input.genes} > {output.cdsGFF}\n"""
 		"""awk -f helper_scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
@@ -56,11 +56,12 @@ rule cds_genes:
 	This rule associates the CDS regions from the GFF with the gene names to be used in the gene_annot rule
 	"""
 	input:
-		"onlyCDS.bed"
+		script = "helper_scripts/genenames.py",
+		bed = "onlyCDS.bed"
 	output:
-		"onlyCDS.genes.bed"
-	script:
-		"helper_scripts/genenames.py"
+		bed = "onlyCDS.genes.bed"
+	shell:
+		"cat {input.bed} | python3 {input.script} > {output.bed}"
 
 rule vcf_filter:
 	"""
