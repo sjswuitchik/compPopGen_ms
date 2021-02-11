@@ -5,7 +5,7 @@ library(lme4)
 library(arm)
 
 # read in data 
-snipre_data <- read_tsv("snipre_data.tsv", delim = '\t', col_names = T)
+snipre_data <- read_tsv("snipre_data.tsv", col_names = T)
 
 # functions for MK calculations and DOS 
 mk_test <- function(dn=dn,ds=ds,pn=pn,ps=ps){
