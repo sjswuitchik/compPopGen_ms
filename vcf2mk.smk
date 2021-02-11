@@ -48,7 +48,7 @@ rule cds:
 		cdsGFF = "onlyCDS.gff",
 		cdsBED = "onlyCDS.bed"
 	shell:
-		"""awk -f cds.awk {input.genes} > {output.cdsGFF}\n"""
+		"""awk -f helper_scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
 		"""awk -f helper_scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
 
 rule cds_genes:
