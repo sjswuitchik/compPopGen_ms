@@ -118,7 +118,7 @@ rule vcf_parse:
 	This rule parses the variant effects of interest from the annotated VCF and ouputs a BED file for use in the gene_annot rule
 	"""
 	input:
-		script = "helper_scripts/annot_parser.py",
+		script = "helper_scripts/./annot_parser.py",
 		ingroup = config['ingroup'] + ".ann.vcf",
 		outgroup = config['outgroup'] + ".ann.vcf"
 	output:
