@@ -49,7 +49,9 @@ For example:
 
 \# Black-headed duck genome, NCBI version 1
 
-hetAtr.genome : Heteronetta_atricapilla
+hetAtr.genome : Heteronetta_atricapilla  
+
+Note: you can also put the data directory into the config to avoid confusion between your working directory and your snpEff directory.  
 
 
 #### Build a snpEff database
@@ -60,7 +62,7 @@ From the snpEff directory with the conda environment activated, run:
 
 For example:  
 
-```snpEff -Xmx8g build -c snpEff/snpEff.config -gff3 hetAtr```  
+```snpEff -Xmx8g build -c snpEff.config -gff3 hetAtr```  
 
 Note: the ```-Xmx8g``` flag may be required if you are getting Java heap space OOM errors  
 
