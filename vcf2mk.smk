@@ -113,8 +113,8 @@ rule vcf_annotate:
 	params:
 		snpEffGenome = config['ingroup']
 	shell:
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
-		"java -jar snpEff/snpEff.jar {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
+		"snpEff ann -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
+		"snpEff ann -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
 		
 rule vcf_parse:
 	"""
