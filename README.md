@@ -15,7 +15,7 @@ Tim Sackton (Director of Bioinformatics, Informatics Group, Harvard University; 
 
 First, set up a conda environment that will allow access to Snakemake, Python/R packages, java, and required command line tools:
 
-```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```  
+```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk snpeff bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```  
 
 Activate the environment so you have access to java in order to build the snpEff database:
 
@@ -54,13 +54,15 @@ hetAtr.genome : Heteronetta_atricapilla
 
 #### Build a snpEff database
 
-From the snpEff directory, run: 
+From the snpEff directory with the conda environment activated, run: 
 
-```java -jar snpEff.jar build -gff3 -v ingroup_species_name```  
+```snpEff build -c snpEff.config -gff3 -v ingroup_species_name```  
 
 For example:  
 
-```java -jar snpEff.jar build -gff3 hetAtr```
+```snpEff -Xmx8g build -c snpEff/snpEff.config -gff3 hetAtr```  
+
+Note: the ```-Xmx8g``` flag may be required if you are getting Java heap space OOM errors  
 
 ### In your working directory, you'll need: 
 
@@ -70,4 +72,6 @@ For example:
 
 - Coverage site data for both ingroup and outgroup (\*_coverage_sites_clean_merged.bed)
 
-- genes.gff (same file that's in the snpEff data directory, uncompressed)
+- genes.gff (same file that's in the snpEff data directory, uncompressed)  
+
+- snpEff
