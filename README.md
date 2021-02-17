@@ -68,8 +68,6 @@ Note: the ```-Xmx8g``` flag may be required if you are getting Java heap space O
 
 ### In your working directory, you'll need: 
 
-- this repository  
-
 - single VCF for each of the ingroup and outgroup species  
 
 - Missingness data for both ingroup and outgroup (\*_missing_data.txt)
