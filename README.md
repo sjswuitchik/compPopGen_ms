@@ -1,4 +1,4 @@
-# MK pipeline for comparative population genomics collaboration 
+# Automated pipeline for MK tests, SnIPRE, and comparative population genomics stats
 
 Pipeline to filter VCFs, annotate variants with snpEff, produce MK tables for downstream analyses, and run MK tests, SnIPRE, and calculate various statistics.
 
