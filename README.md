@@ -62,7 +62,7 @@ From the snpEff directory with the conda environment activated, run:
 
 For example:  
 
-```snpEff -Xmx8g build -c snpEff.config -gff3 hetAtr```  
+```snpEff -Xmx8g build -c snpEff.config -gff3 -v hetAtr```  
 
 Note: the ```-Xmx8g``` flag may be required if you are getting Java heap space OOM errors  
 
