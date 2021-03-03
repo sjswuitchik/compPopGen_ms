@@ -75,8 +75,8 @@ rule pca_clean:
   """
   input:
         script = "helper_scripts/SOMETHING.R"
-        pos = config['ingroup'] + ".012.pos"
-        indv = config['ingroup'] + ".012.indv"
+        pos = config['ingroup'] + ".012.pos",
+        indv = config['ingroup'] + ".012.indv",
         matrix = config['ingroup'] + ".012"
   output:
         SOMETHING
