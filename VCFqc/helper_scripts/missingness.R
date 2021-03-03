@@ -1,3 +1,5 @@
+#!/usr/bin/Rscript
+
 library(tidyverse)
 
 miss <- read_delim("missing_data_per_ind.txt", delim = '\t', col_names = T) %>%
