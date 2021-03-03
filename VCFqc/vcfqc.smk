@@ -10,7 +10,7 @@ rule missingness:
           table = "relative_missing_per_ind.txt",
           plot = "relative_missing.pdf"
   shell:
-          "RScript {input.script}"
+          "Rscript {input.script}"
 
 rule plink_pruning:
   """
@@ -28,9 +28,9 @@ rule plink_pruning:
           "plink --bfile {params.ingroup} --indep-pairwise 500 50 0.1 --out {params.ingroup} --allow-extra-chr\n"
           "plink --bfile {params.ingroup} --make-bed --extract {output.prune} --out {output.ld} --allow-extra-chr --geno 0.95"
 
-rule pca:
+rule pca_raw:
   """
-  Plot PCA
+  Plot PCA of raw data
   """
   input:
           script = "helper_scripts/PCA.R",
@@ -39,7 +39,7 @@ rule pca:
   output:
           plot = "PCA.pdf"
   shell:
-          "RScript {input.script} {input.val} {input.vec}"
+          "Rscript {input.script} {input.val} {input.vec}"
 
 rule relatedness:
   """
@@ -53,6 +53,37 @@ rule relatedness:
           ingroup = config['ingroup']
   shell:
           "vcftools --vcf {input.vcf} --out {params.ingroup} --relatedness
+
+rule matrix:
+  """
+  Creating a 012 matrix for PCA input
+  """
+  input:
+        vcf = "Combined_hardFiltered.vcf"
+  output:
+        pos = config['ingroup'] + ".012.pos",
+        indv = config['ingroup'] + ".012.indv",
+        matrix = config['ingroup'] + ".012"
+  params:
+        ingroup = config['ingroup']
+  shell:
+        "vcftools --vcf {input.vcf} --out {params.ingroup} --012"
+
+rule pca_clean:
+  """
+  Rule description
+  """
+  input:
+        script = "helper_scripts/SOMETHING.R"
+        pos = config['ingroup'] + ".012.pos"
+        indv = config['ingroup'] + ".012.indv"
+        matrix = config['ingroup'] + ".012"
+  output:
+        SOMETHING
+  shell:
+        "Rscript {input.script} ... probably commandArgs 
+
+
 
 
 
