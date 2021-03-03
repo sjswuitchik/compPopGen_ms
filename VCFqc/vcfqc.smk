@@ -37,6 +37,6 @@ rule pca:
           val = config['ingroup'] + ".eigenval",
           vec = config['ingroup'] + ".eigencev"
   output:
-          plot = "PCA.pdf"
+          plot = "helper_scripts/PCA.pdf"
   shell:
           "RScript {input.script} {input.val} {input.vec}"
