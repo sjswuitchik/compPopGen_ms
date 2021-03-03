@@ -33,10 +33,10 @@ rule pca:
   Rule description
   """
   input:
-          script = "PCA.R",
+          script = "helper_scripts/PCA.R",
           val = config['ingroup'] + ".eigenval",
           vec = config['ingroup'] + ".eigencev"
   output:
-          plot = "helper_scripts/PCA.pdf"
+          plot = "PCA.pdf"
   shell:
           "RScript {input.script} {input.val} {input.vec}"
