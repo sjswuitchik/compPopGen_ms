@@ -2,7 +2,7 @@ localrules: vcfqc
 
 rule missingness:
   """
-  Rule description
+  Calculate relative missingness per individual to output both a table and a dotplot
   """
   input:
           script = "helper_scripts/missingness.R"
@@ -14,7 +14,7 @@ rule missingness:
 
 rule plink_pruning:
   """
-  Rule description
+  (Aggressively) prune for LD to process for PCA
   """
   input:
           vcf = "Combined_hardFiltered.vcf"
@@ -30,7 +30,7 @@ rule plink_pruning:
 
 rule pca:
   """
-  Rule description
+  Plot PCA
   """
   input:
           script = "helper_scripts/PCA.R",
@@ -40,3 +40,21 @@ rule pca:
           plot = "PCA.pdf"
   shell:
           "RScript {input.script} {input.val} {input.vec}"
+
+rule relatedness:
+  """
+  Output relatedness statistic from Yang et al. (2010) (doi:10.1038/ng.608)
+  """
+  input:
+          vcf = "Combined_hardFiltered.vcf"
+  output:
+          rel = config['ingroup'] + ".relatedness"
+  params:
+          ingroup = config['ingroup']
+  shell:
+          "vcftools --vcf {input.vcf} --out {params.ingroup} --relatedness
+
+
+
+
+
