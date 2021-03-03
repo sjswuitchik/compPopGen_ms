@@ -20,11 +20,13 @@ rule callable_sites:
 	"""
 	input:
 		ingroup = config['ingroup'] + "_coverage_sites_clean_merged.bed",
-		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed"
+		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed",
+		map = WHATEVER THE MAPPABILITY BED IS CALLED
 	output:
-		call = "callable.bed"
+		clean = "clean.callable.bed"
 	shell:
-		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}"
+		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > callable.bed\n"
+		"bedtools intersect -a {output.call} -b {PUT MAPPABILITY BED HERE} > {output.clean}"
 
 rule callable_cds:
 	"""
