@@ -21,7 +21,7 @@ rule callable_sites:
 	input:
 		ingroup = config['ingroup'] + "_coverage_sites_clean_merged.bed",
 		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed",
-		map = WHATEVER THE MAPPABILITY BED IS CALLED
+		map = "WHATEVER THE MAPPABILITY BED IS CALLED"
 	output:
 		clean = "clean.callable.bed"
 	shell:
