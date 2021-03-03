@@ -34,8 +34,9 @@ rule pca:
   """
   input:
           script = "PCA.R",
-          ld = config['ingroup'] + ".ld_pruned"
+          val = config['ingroup'] + ".eigenval",
+          vec = config['ingroup'] + ".eigencev"
   output:
-          plot = SOMETHING
+          plot = "PCA.pdf"
   shell:
-          "RScript {input.script}
+          "RScript {input.script} {input.val} {input.vec}"
