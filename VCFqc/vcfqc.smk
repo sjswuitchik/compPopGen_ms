@@ -12,9 +12,14 @@ rule missingness:
   shell:
           "RScript {input.script}"
 
-rule rule2:
+rule pca:
   """
   Rule description
   """
   input:
-          
+          vcf = "Combined_hardFiltered.vcf",
+          script = "PCA.R"
+  output:
+          start 
+  shell:
+          "vcftools 
