@@ -1,0 +1,9 @@
+configfile: "config.yaml"
+
+### workflow ###
+
+rule all:
+    input:
+        assorted files once I finish the rules...
+
+include: "vcfqc.smk"
