@@ -22,7 +22,7 @@ sra_list<-lapply(files, read_sra_clean, path="~/Projects/popgen/compPopGen_ms/SR
 
 sra<-bind_rows(sra_list) %>% distinct()
 
-#summaries
+#get list of all species with one BioProject with at least 10 BioSamples
 
 species_list <- sra %>% select(Organism, BioProject, BioSample) %>% distinct() %>% 
   group_by(Organism, BioProject) %>% count() %>% filter(n >= 10) %>% ungroup() %>% select(Organism) %>% distinct()
@@ -31,3 +31,13 @@ species_list <- sra %>% select(Organism, BioProject, BioSample) %>% distinct() %
 
 sra %>% filter(Organism %in% species_list$Organism) %>% select(Organism, BioProject, BioSample) %>%
   distinct() %>% group_by(Organism, BioProject) %>% count() %>% View()
+
+#one species
+sra %>% filter(Organism == "Anguilla anguilla") %>% select(Organism, BioProject, BioSample) %>%
+  distinct() %>% group_by(Organism, BioProject) %>% count() %>% View()
+
+#check publication, again using manual searches
+#output bioproject list
+
+sra %>% filter(Organism %in% species_list$Organism) %>% select(BioProject) %>%
+  distinct() %>% write_tsv("bioprojects.txt")
