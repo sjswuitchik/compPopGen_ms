@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J concatVCF
-#SBATCH -e logs/slurm-%j.err
-#SBATCH -o logs/slurm-%j.out
+#SBATCH -e vcfs/logs/slurm-%j.err
+#SBATCH -o vcfs/logs/slurm-%j.out
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 02-00:00:00
@@ -12,5 +12,5 @@
 
 module load bcftools/1.5-fasrc02
 
-bcftools concat ../$1/vcf/*.gz -O z -o $1_combined.vcf.gz -a 
-bcftools index $1_combined.vcf.gz -t 
+bcftools concat ../$1/vcf/*.gz -O z -o vcfs/$1_combined.vcf.gz -a 
+bcftools index vcfs/$1_combined.vcf.gz -t 
