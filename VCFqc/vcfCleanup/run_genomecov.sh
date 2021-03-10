@@ -16,6 +16,6 @@ for file in /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/$1/d
 do
   coverage/./faToTwoBit /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/$1/genome/$1.fa coverage/$1.2bit
   coverage/./twoBitInfo coverage/$1.2bit stdout | sort -k2rn > coverage/$1.chrom.sizes
-  bedtools genomecov -bga -ibam $file -g $1.chrom.sizes > coverage/$file.bg
-  bedtools genomecov $file -g $1.chrom.sizes > coverage/$file.hist
+  bedtools genomecov -bga -ibam $file -g coverage/$1.chrom.sizes > $file.bg
+  bedtools genomecov $file -g coverage/$1.chrom.sizes > $file.hist
 done
