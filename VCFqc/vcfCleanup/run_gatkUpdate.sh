@@ -11,7 +11,7 @@
 
 source activate gatk
 
-picard SortVcf I=$1.vcf.gz O=$1_sorted.vcf.gz
+picard SortVcf -I $1.vcf.gz -O $1_sorted.vcf.gz
 
 gatk IndexFeatureFile -I $1.vcf.gz
 
