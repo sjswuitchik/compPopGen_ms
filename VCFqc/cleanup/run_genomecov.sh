@@ -14,6 +14,6 @@ module load bedtools2/2.26.0-fasrc01
 
 for file in *.dedup.sorted.bam;
 do
-  bedtools genomecov -bga -ibam $file -g /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dircoverage/$1.chrom.sizes > /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$file.bg
-  bedtools genomecov -ibam $file -g /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dircoverage/$1.chrom.sizes > /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$file.hist
+  bedtools genomecov -bga -ibam $file -g /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$1.chrom.sizes > /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$file.bg
+  bedtools genomecov -ibam $file -g /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$1.chrom.sizes > /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$file.hist
 done
