@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J bedg2bw
-#SBATCH -e coverage/logs/slurm-%j.err
-#SBATCH -o coverage/logs/slurm-%j.out
+#SBATCH -e logs/slurm-%j.err
+#SBATCH -o logs/slurm-%j.out
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 02-00:00:00
@@ -12,6 +12,7 @@
 
 for file in $1/*.bg;
 do
-  ./bedGraphToBigWig $file.bg $1.chrom.sizes $file.bw
-  ./brename -p ".dedup.sorted.bam.bg.bw" -r ".bw" -R
+  sort -k1,1 -k2,2n $file > $file.sorted.bg
+  ./bedGraphToBigWig $file.sorted.bg $1.chrom.sizes $file.bw
+  ./brename -p ".dedup.sorted.bam.sorted.bg.bw" -r ".bw" -R
 done
