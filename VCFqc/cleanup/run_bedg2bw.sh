@@ -12,7 +12,7 @@
 
 for file in $1/*.bg;
 do
-  sort -k1,1 -k2,2n $file > $file.sorted.bg
-  ./brename -p ".dedup.sorted.bam.bg.sorted.bg" -r ".bg" -R
+  sort -k1,1 -k2,2n $file > $file.sorted
+  ./brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
   #./bedGraphToBigWig $file.bg $1.chrom.sizes $file.bw ##nb: fixing this line with some testing
 done
