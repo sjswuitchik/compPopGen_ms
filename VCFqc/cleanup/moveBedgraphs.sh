@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J bgMove
-#SBATCH -o out_%j
-#SBATCH -e err_%j
+#SBATCH -o gatherVCFs_dir/coverage/logs/out_%j
+#SBATCH -e gatherVCFs_dir/coverage/logs/err_%j
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 48:00:00
