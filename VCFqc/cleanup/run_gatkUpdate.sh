@@ -7,6 +7,7 @@
 #SBATCH -t 48:00:00
 #SBATCH --mem=8000
 
+# for duck filtering update
 # sbatch run_gatkUpdate.sh Combined_hardFiltered spp_name
 
 source activate gatk
