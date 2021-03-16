@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J gatkUpdate
-#SBATCH -o out_%j
-#SBATCH -e err_%j
+#SBATCH -o logs/out_%j
+#SBATCH -e logs/err_%j
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 48:00:00
