@@ -5,7 +5,7 @@
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 48:00:00
-#SBATCH --mem=8000
+#SBATCH --mem=10000
 
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/vcfs
 # sbatch run_gatkUpdate.sh spp_name
