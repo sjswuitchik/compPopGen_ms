@@ -12,7 +12,7 @@
 
 source activate gatk
 
-picard SortVcf -I $1_combined.vcf.gz -O $1_comboSorted.vcf.gz
+picard SortVcf -Xmx8g -I $1_combined.vcf.gz -O $1_comboSorted.vcf.gz
 
 gatk IndexFeatureFile -I $1_comboSorted.vcf.gz
 
