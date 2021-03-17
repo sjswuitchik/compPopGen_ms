@@ -16,7 +16,7 @@ do
   ./brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
 done
 
-mkdir -p $1/unsortedBG/
+mkdir -p $1/unsortedBG
 mv $1/*.dedup.sorted.bam.bg $1/unsortedBG
 
 for file in $1/*.bg;
