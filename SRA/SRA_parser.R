@@ -79,4 +79,25 @@ popgen %>% filter(coverage > 5) %>% group_by(Organism, BioProject.popgen) %>% co
   full_join(processed, by=c("Organism" = "species")) %>% 
   write_tsv(path="~/Projects/popgen/compPopGen_ms/SRA/bioprojects.tsv")
 
+# manual curation happens here
 
+datasets <- read_csv("~/Downloads/Final_MS_data - sra.csv") %>% filter(use == "yes") %>%
+  select(Organism, bioproject1 = BioProject.popgen, bioproject2 = bioproject.orig, publication)
+
+
+#clean up -- ugly code
+
+datasets_clean <- rbind(tibble(Organism = datasets$Organism, 
+                               BioProject = datasets$bioproject1, 
+                               Pub = datasets$publication),
+                        tibble(Organism = datasets$Organism, 
+                               BioProject = datasets$bioproject2, 
+                               Pub = datasets$publication)) %>%
+  filter(!is.na(BioProject)) %>% 
+  separate_rows(BioProject) %>%
+  separate_rows(Pub, sep="[,; ]") %>%
+  arrange(Organism) %>%
+  filter(Pub != "") %>%
+  distinct()
+
+#write this out to manually clean up publications/SRA link

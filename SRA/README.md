@@ -19,3 +19,13 @@ A list of possible candidates was identified by filtering all BioProjects identi
 Once a list of BioProjects that are of potential interest is generated in R, these were manually curated by searching for the BioProject ID in the NCBI "All Databases" search. If a PMC manuscript is linked to the BioProject ID, I skimmed the abstract and methods to determine if it was appropriate. Domesticated / captive samples, resequencing families for linkage map construction or QTL analyis, pooled sequencing projects, and ancient DNA samples were excluded.
 
 If no published manuscript was linked to the BioProject ID, I searched the BioProject title to see if an obvious paper could be identified; if one was found, the linkage was confirmed by the Data Availablity statement referencing the correct BioProject or BioSample IDs. If no obvious manuscript could be identified by searching the BioProject title, the data was presumed to be unpublished and therefore excluded.
+
+### Final cleanup
+
+After manual curation, the final list of species to use is downloaded and imported into R, where the datasets can be cleaned to produce a species / BioProject / reference table that will be the basis of metadata creation.
+
+However, because of historical quirks in how we tracked references, the BioProject / reference links need to be manually verified and filtered.
+
+Any BioProject that only occurs once is assumed to have the correct publication information.
+
+For BioProjects that are linked to more than one publication, initial check is to open the full text of the linked publication and search for the BioProject id. If it is found, keep it. If it is not found, check to see if a data availablity statement is present. If another BioProject is listed, then delete the pub/bioProject link. If no BioProject is listed, manually investigate.
