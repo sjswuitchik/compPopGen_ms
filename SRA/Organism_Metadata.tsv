@@ -1,55 +1,55 @@
-Organism	AssemblyName	AssemblyAccession	Annotation	Level	ContigN50	Size
-Amphilophus_citrinellus	ASM1343575v1	GCA_013435755.1	NA	Chromosome	3839513	961214450
-Anas_platyrhynchos	ZJU1.0	GCF_015476345.1	NCBI Annotation Release 104	Chromosome	5679408	1188516685
-Anguilla_anguilla	fAngAng1.pri	GCF_013347855.1	NCBI Annotation Release 100	Chromosome	5114673	979029243
-Anolis_carolinensis	AnoCar2.0	GCF_000090745.1	NCBI Annotation Release 102	Chromosome	79867	1799126364
-Maylandia_zebra	M_zebra_UMD2a	GCF_000238955.4	NCBI Annotation Release 104	Chromosome	1407748	957468680
-Astatotilapia_calliptera	fAstCal1.2	GCF_900246225.1	NCBI Annotation Release 100	Chromosome	4438245	880428986
-Astyanax_mexicanus	Astyanax_mexicanus-2.0	GCF_000372685.2	NCBI Annotation Release 102	Chromosome	1767240	1335239194
-Athene_cunicularia	athCun1	GCF_003259725.1	NCBI Annotation Release 100	Scaffold	64091	1157069330
-Chaenogobius_annularis	agohaze_1	GCA_015082035.1	NA	Scaffold	803221	747409675
-Chloebia_gouldiae	GouldianFinch	GCA_003676055.1	From INSDC submitter	Scaffold	137954	1070785140
-Clupea_harengus	Ch_v2.0.2	GCF_900700415.1	NCBI Annotation Release 101	Chromosome	1151065	725670187
-Coilia_nasus	knifefish_assembly_2.0	GCA_007927625.1	NA	Chromosome	1632759	812159898
-Corvus_brachyrhynchos	ASM69197v1	GCF_000691975.1	NCBI Annotation Release 101	Scaffold	29093	1091312783
-Corvus_cornix_cornix	ASM73873v5	GCF_000738735.5	NCBI Annotation Release 104	Chromosome	8553235	1030864775
-Coryphaenoides_rupestris	ASM289596v1	GCA_002895965.1	NA	Scaffold	20848	829208733
-Coturnix_japonica	Coturnix japonica 2.1	GCF_001577835.2	NCBI Annotation Release 101	Chromosome	511217	927640260
-Cyprinodon_variegatus	C_variegatus-1.0	GCF_000732505.1	NCBI Annotation Release 100	Scaffold	20803	1035167975
-Cyprinus_carpio	common carp genome	GCF_000951615.1	NCBI Annotation Release 100	Chromosome	75080	1713641436
-Dicentrarchus_labrax	seabass_V1.0	GCA_000689215.1	NA	Scaffold	54134	675917103
-Egretta_garzetta	ASM68718v1	GCF_000687185.1	NCBI Annotation Release 101	Scaffold	29019	1206484573
-Eopsaltria_australis	eyr_v1	GCA_003426825.1	NA	Scaffold	641411	1228344903
-Falco_peregrinus	F_peregrinus_v1.0	GCF_000337955.1	NCBI Annotation Release 102	Scaffold	28645	1171955363
-Ficedula_albicollis	FicAlb1.5	GCF_000247815.1	NCBI Annotation Release 101	Chromosome	410964	1118326800
-Fundulus_heteroclitus	MU-UCD_Fhet_4.1	GCF_011125445.2	NCBI Annotation Release 102	Chromosome	587965	1203489213
-Gasterosteus_aculeatus	ASM18067v1	GCA_000180675.1	NA	Contig	83204	446610788
-Haplochromis_burtoni	AstBur1.0	GCF_000239415.1	NCBI Annotation Release 101	Scaffold	21886	831411547
-Hippocampus_comes	H_comes_QL1_v1	GCF_001891065.1	NCBI Annotation Release 100	Scaffold	39546	493759415
-Hippocampus_kuda	Hippocampus_kuda_assembly	GCA_901007745.1	NA	Scaffold	10411	444947940
-Hypoplectrus_puella	HP_genome_unmasked_01	GCA_900610375.1	NA	Scaffold	22581	612290098
-Larimichthys_crocea	L_crocea_2.0	GCF_000972845.2	NCBI Annotation Release 102	Chromosome	277487	657923191
-Leuciscus_waleckii	Amur ide genome	GCA_900092035.1	NA	Scaffold	38877	752538629
-Nipponia_nippon	ASM70822v1	GCF_000708225.1	NCBI Annotation Release 100	Scaffold	29116	1223846297
-Oreochromis_niloticus	O_niloticus_UMD_NMBU	GCF_001858045.2	NCBI Annotation Release 104	Chromosome	2923640	1005664923
-Oryzias_latipes	ASM223467v1	GCF_002234675.1	NCBI Annotation Release 103	Chromosome	2530934	734040372
-Parus_major	Parus_major1.1	GCF_001522545.3	NCBI Annotation Release 102	Chromosome	148693	1020293992
-Passer_domesticus	Passer_domesticus-1.0	GCA_001700915.1	NA	Chromosome	51426	1042703894
-Passer_montanus	ASM1480565v1	GCF_014805655.1	NCBI Annotation Release 100	Scaffold	1083540	1039949367
-Phylloscopus_trochilus_trochilus	LUNI_Phtr_3	GCA_016584745.1	NA	Scaffold	81642	1168570690
-Phylloscopus_trochilus_acredula	ASM230583v1	GCA_002305835.1	NA	Scaffold	388702	1066518484
-Pimephales_promelas	EPA_FHM_2.0	GCF_016745375.1	NCBI Annotation Release 100	Scaffold	295770	1066412313
-Plectropomus_leopardus	Pleo_1.0	GCA_011397275.1	NA	Chromosome	1139749	787600493
-Podarcis_muralis	PodMur_1.0	GCF_004329235.1	NCBI Annotation Release 100	Chromosome	714612	1511002858
-Poecilia_formosa	Poecilia_formosa-5.1.2	GCF_000485575.1	NCBI Annotation Release 101	Scaffold	57472	748923461
-Poecilia_reticulata	Guppy_female_1.0+MT	GCF_000633615.1	NCBI Annotation Release 101	Chromosome	41913	731605743
-Taeniopygia_guttata	bTaeGut2.pat.W.v2	GCF_008822105.2	NCBI Annotation Release 105	Chromosome	4378277	1068971253
-Pungitius_pungitius	NSP_V7	GCF_902500615.1	NCBI Annotation Release 100	Scaffold	2775277	466582808
-Strix_occidentalis_caurina	Soccid_v01	GCA_002372975.1	NA	Scaffold	159062	1255541132
-Sylvia_atricapilla	bSylAtr1.pri	GCA_009819655.1	NA	Chromosome	7345957	1066786587
-Sylvia_borin	bSylBor1.pri	GCA_014839755.1	NA	Chromosome	31914676	1045652180
-Symphodus_melops	ASM281910v1	GCA_002819105.1	NA	Contig	461652	614569099
-Takifugu_flavidus	ASM371156v2	GCA_003711565.2	From INSDC submitter	Chromosome	4357567	366286831
-Takifugu_rubripes	fTakRub1.2	GCF_901000725.2	NCBI Annotation Release 103	Chromosome	3136617	384110215
-Takifugu_bimaculatus	XU_Tbim_1.0	GCA_004026145.2	From INSDC submitter	Chromosome	1312995	404311738
-Thunnus_albacares	ASM90030262v1	GCA_900302625.1	NA	Scaffold	16808	728212003
+Organism	AssemblyName	AssemblyAccession	Annotation	Level	ContigN50	Size	n
+Amphilophus_citrinellus	ASM1343575v1	GCA_013435755.1	NA	Chromosome	3839513	961214450	453
+Anas_platyrhynchos	ZJU1.0	GCF_015476345.1	NCBI Annotation Release 104	Chromosome	5679408	1188516685	106
+Anguilla_anguilla	fAngAng1.pri	GCF_013347855.1	NCBI Annotation Release 100	Chromosome	5114673	979029243	445
+Anolis_carolinensis	AnoCar2.0	GCF_000090745.1	NCBI Annotation Release 102	Chromosome	79867	1799126364	27
+Maylandia_zebra	M_zebra_UMD2a	GCF_000238955.4	NCBI Annotation Release 104	Chromosome	1407748	957468680	15
+Astatotilapia_calliptera	fAstCal1.2	GCF_900246225.1	NCBI Annotation Release 100	Chromosome	4438245	880428986	58
+Astyanax_mexicanus	Astyanax_mexicanus-2.0	GCF_000372685.2	NCBI Annotation Release 102	Chromosome	1767240	1335239194	44
+Athene_cunicularia	athCun1	GCF_003259725.1	NCBI Annotation Release 100	Scaffold	64091	1157069330	137
+Chaenogobius_annularis	agohaze_1	GCA_015082035.1	NA	Scaffold	803221	747409675	12
+Chloebia_gouldiae	GouldianFinch	GCA_003676055.1	From INSDC submitter	Scaffold	137954	1070785140	24
+Clupea_harengus	Ch_v2.0.2	GCF_900700415.1	NCBI Annotation Release 101	Chromosome	1151065	725670187	128
+Coilia_nasus	knifefish_assembly_2.0	GCA_007927625.1	NA	Chromosome	1632759	812159898	96
+Corvus_brachyrhynchos	ASM69197v1	GCF_000691975.1	NCBI Annotation Release 101	Scaffold	29093	1091312783	26
+Corvus_cornix_cornix	ASM73873v5	GCF_000738735.5	NCBI Annotation Release 104	Chromosome	8553235	1030864775	172
+Coryphaenoides_rupestris	ASM289596v1	GCA_002895965.1	NA	Scaffold	20848	829208733	60
+Coturnix_japonica	Coturnix japonica 2.1	GCF_001577835.2	NCBI Annotation Release 101	Chromosome	511217	927640260	102
+Cyprinodon_variegatus	C_variegatus-1.0	GCF_000732505.1	NCBI Annotation Release 100	Scaffold	20803	1035167975	80
+Cyprinus_carpio	common carp genome	GCF_000951615.1	NCBI Annotation Release 100	Chromosome	75080	1713641436	69
+Dicentrarchus_labrax	seabass_V1.0	GCA_000689215.1	NA	Scaffold	54134	675917103	83
+Egretta_garzetta	ASM68718v1	GCF_000687185.1	NCBI Annotation Release 101	Scaffold	29019	1206484573	5
+Eopsaltria_australis	eyr_v1	GCA_003426825.1	NA	Scaffold	641411	1228344903	21
+Falco_peregrinus	F_peregrinus_v1.0	GCF_000337955.1	NCBI Annotation Release 102	Scaffold	28645	1171955363	52
+Ficedula_albicollis	FicAlb1.5	GCF_000247815.1	NCBI Annotation Release 101	Chromosome	410964	1118326800	176
+Fundulus_heteroclitus	MU-UCD_Fhet_4.1	GCF_011125445.2	NCBI Annotation Release 102	Chromosome	587965	1203489213	384
+Gasterosteus_aculeatus	ASM18067v1	GCA_000180675.1	NA	Contig	83204	446610788	21
+Haplochromis_burtoni	AstBur1.0	GCF_000239415.1	NCBI Annotation Release 101	Scaffold	21886	831411547	161
+Hippocampus_comes	H_comes_QL1_v1	GCF_001891065.1	NCBI Annotation Release 100	Scaffold	39546	493759415	19
+Hippocampus_kuda	Hippocampus_kuda_assembly	GCA_901007745.1	NA	Scaffold	10411	444947940	18
+Hypoplectrus_puella	HP_genome_unmasked_01	GCA_900610375.1	NA	Scaffold	22581	612290098	46
+Larimichthys_crocea	L_crocea_2.0	GCF_000972845.2	NCBI Annotation Release 102	Chromosome	277487	657923191	82
+Leuciscus_waleckii	Amur ide genome	GCA_900092035.1	NA	Scaffold	38877	752538629	28
+Nipponia_nippon	ASM70822v1	GCF_000708225.1	NCBI Annotation Release 100	Scaffold	29116	1223846297	24
+Oreochromis_niloticus	O_niloticus_UMD_NMBU	GCF_001858045.2	NCBI Annotation Release 104	Chromosome	2923640	1005664923	61
+Oryzias_latipes	ASM223467v1	GCF_002234675.1	NCBI Annotation Release 103	Chromosome	2530934	734040372	24
+Parus_major	Parus_major1.1	GCF_001522545.3	NCBI Annotation Release 102	Chromosome	148693	1020293992	92
+Passer_domesticus	Passer_domesticus-1.0	GCA_001700915.1	NA	Chromosome	51426	1042703894	31
+Passer_montanus	ASM1480565v1	GCF_014805655.1	NCBI Annotation Release 100	Scaffold	1083540	1039949367	44
+Phylloscopus_trochilus_trochilus	LUNI_Phtr_3	GCA_016584745.1	NA	Scaffold	81642	1168570690	54
+Phylloscopus_trochilus_acredula	ASM230583v1	GCA_002305835.1	NA	Scaffold	388702	1066518484	53
+Pimephales_promelas	EPA_FHM_2.0	GCF_016745375.1	NCBI Annotation Release 100	Scaffold	295770	1066412313	6
+Plectropomus_leopardus	Pleo_1.0	GCA_011397275.1	NA	Chromosome	1139749	787600493	54
+Podarcis_muralis	PodMur_1.0	GCF_004329235.1	NCBI Annotation Release 100	Chromosome	714612	1511002858	15
+Poecilia_formosa	Poecilia_formosa-5.1.2	GCF_000485575.1	NCBI Annotation Release 101	Scaffold	57472	748923461	59
+Poecilia_reticulata	Guppy_female_1.0+MT	GCF_000633615.1	NCBI Annotation Release 101	Chromosome	41913	731605743	960
+Taeniopygia_guttata	bTaeGut2.pat.W.v2	GCF_008822105.2	NCBI Annotation Release 105	Chromosome	4378277	1068971253	24
+Pungitius_pungitius	NSP_V7	GCF_902500615.1	NCBI Annotation Release 100	Scaffold	2775277	466582808	31
+Strix_occidentalis_caurina	Soccid_v01	GCA_002372975.1	NA	Scaffold	159062	1255541132	10
+Sylvia_atricapilla	bSylAtr1.pri	GCA_009819655.1	NA	Chromosome	7345957	1066786587	110
+Sylvia_borin	bSylBor1.pri	GCA_014839755.1	NA	Chromosome	31914676	1045652180	5
+Symphodus_melops	ASM281910v1	GCA_002819105.1	NA	Contig	461652	614569099	65
+Takifugu_flavidus	ASM371156v2	GCA_003711565.2	From INSDC submitter	Chromosome	4357567	366286831	8
+Takifugu_rubripes	fTakRub1.2	GCF_901000725.2	NCBI Annotation Release 103	Chromosome	3136617	384110215	29
+Takifugu_bimaculatus	XU_Tbim_1.0	GCA_004026145.2	From INSDC submitter	Chromosome	1312995	404311738	8
+Thunnus_albacares	ASM90030262v1	GCA_900302625.1	NA	Scaffold	16808	728212003	91

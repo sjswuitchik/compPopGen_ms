@@ -20,6 +20,8 @@ Once a list of BioProjects that are of potential interest is generated in R, the
 
 If no published manuscript was linked to the BioProject ID, I searched the BioProject title to see if an obvious paper could be identified; if one was found, the linkage was confirmed by the Data Availablity statement referencing the correct BioProject or BioSample IDs. If no obvious manuscript could be identified by searching the BioProject title, the data was presumed to be unpublished and therefore excluded.
 
+#### NOTE: still need to pick samples / check publications for stickleback due to an SRA search error ####
+
 ### Final cleanup
 
 After manual curation, the final list of species to use is downloaded and imported into R, where the datasets can be cleaned to produce a species / BioProject / reference table that will be the basis of metadata creation.

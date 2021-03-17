@@ -157,5 +157,6 @@ datasets_final %>% filter(Organism %in% ingroups$Organism) %>%
 
 datasets_final %>% filter(Organism %in% ingroups$Organism) %>% 
   select(Organism, AssemblyName, AssemblyAccession, Annotation, Level, ContigN50, Size) %>%
+  full_join(ingroups) %>%
   mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>% 
   write_tsv(path = str_c(path_to_write, '/Organism_Metadata.tsv'))
