@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -J bwSums
+#SBATCH -o logs/slurm-%j
+#SBATCH -e logs/slurm-%j
+#SBATCH -p shared
+#SBATCH -n 1
+#SBATCH -t 24:00:00
+#SBATCH --mem=8000
+
+# run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
+# sbatch run_bwSummaries.sh spp_name
+
+awk 'BEGIN{FS=OFS="\t"}{print $1, 0, $2}' $1/$1.chrom.sizes > $1/$1.genome.bed
+
+./bedGraphToBigWig $1/$1.merge.bg $1/$1.chrom.sizes $1/$1.merge.bw
+
+./bigWigAverageOverBed $1/$1.merge.bw $1/$1.genome.bed $1/$1.summary.tab
