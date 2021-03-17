@@ -4,5 +4,5 @@
 
 # ./vcfHeaderClean.sh spp_name
 
-zcat $1_combined.vcf.gz | sed 's/##FILTER=<ID=LowQual,Description="Low quality">/#/g' | sed 's/##FILTER=<ID=GATK_default/#/g'  > $1_comboClean.vcf.gz
+zcat $1_updatedFilter.vcf.gz | sed 's/##FILTER=<ID=LowQual,Description="Low quality">/#/g' | sed 's/##FILTER=<ID=GATK_default/#/g'  > $1_final.clean.vcf.gz
 
