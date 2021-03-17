@@ -29,25 +29,15 @@ sra_list<-lapply(files, read_sra_clean, path="~/Projects/popgen/compPopGen_ms/SR
 
 sra<-bind_rows(sra_list) %>% distinct()
 
-#get list of all species with one BioProject with at least 10 BioSamples
+#further clean up SRA
 
-species_list <- sra %>% select(Organism, BioProject, BioSample) %>% distinct() %>% 
-  group_by(Organism, BioProject) %>% count() %>% filter(n >= 10) %>% ungroup() %>% select(Organism) %>% distinct()
+table(sra$LibrarySource)
+table(sra$LibrarySelection)
 
-#view
+#filter metagenomic and suspcicious library selection methods, this may miss a few things but should be cleaner
 
-sra %>% filter(Organism %in% species_list$Organism) %>% select(Organism, BioProject, BioSample) %>%
-  distinct() %>% group_by(Organism, BioProject) %>% count() %>% View()
-
-#one species
-sra %>% filter(Organism == "Anguilla anguilla") %>% select(Organism, BioProject, BioSample) %>%
-  distinct() %>% group_by(Organism, BioProject) %>% count() %>% View()
-
-#check publication, again using manual searches
-#output bioproject list
-
-sra %>% filter(Organism %in% species_list$Organism) %>% select(BioProject) %>%
-  distinct() %>% write_tsv("bioprojects.txt")
+sra <- sra %>% filter(LibrarySource == "GENOMIC", 
+              LibrarySelection == "RANDOM" | LibrarySelection == "unspecified" | LibrarySelection == "PCR" | LibrarySelection == "other" | LibrarySelection == "RANDOM PCR")
 
 ##loading genome info
 
@@ -69,11 +59,24 @@ assemblies <- assemblies %>% filter(ContigN50 > 1e4)
 
 popgen <- right_join(sra, assemblies, by=c("Organism" = "OrganismScientificName"), 
                      suffix = c(".popgen", ".assembly")) %>% 
-  mutate(coverage = as.numeric(Bases) / as.numeric(Size))
+  select(-Run, -Experiment) %>% group_by(BioSample.popgen) %>%
+  mutate(bases_total = sum(as.numeric(Bases))) %>% 
+  select(-Bases, -AvgSpotLen) %>%
+  distinct() %>% 
+  mutate(coverage = as.numeric(bases_total) / as.numeric(Size))
 
 #some quick analysis
 
 popgen %>% mutate(covplot = ifelse(coverage < 100, coverage, 100)) %>% ggplot(aes(covplot)) + geom_histogram()
 
+#collate with stuff we've processed
+
+processed<-read_csv("~/Downloads/Final_MS_data - processed.csv")
+
+#write out 
+
+popgen %>% filter(coverage > 5) %>% group_by(Organism, BioProject.popgen) %>% count() %>% filter(n > 10) %>% 
+  full_join(processed, by=c("Organism" = "species")) %>% 
+  write_tsv(path="~/Projects/popgen/compPopGen_ms/SRA/bioprojects.tsv")
 
 
