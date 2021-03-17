@@ -12,6 +12,8 @@
 
 source activate gatk
 
+bgzip -dc $1_combined.vcf.gz | sed -e 's/\<nan\>/NaN/g' | bgzip -i $1_combined.vcf.gz 
+
 picard SortVcf -Xmx8g -I $1_combined.vcf.gz -O $1_comboSorted.vcf.gz
 
 gatk IndexFeatureFile -I $1_comboSorted.vcf.gz
