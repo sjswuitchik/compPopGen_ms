@@ -3,12 +3,19 @@ library(tidyverse)
 #read SRA searches
 #kinda annoying as searches are manual but could be updated later
 
+#this parsing function may need to be updated to add more detail once we are making sample sheets
+
 read_sra_clean <- function(file, path) {
   df<-read_csv(paste0(path, "/", file), cols(.default="c"), col_names = TRUE) %>%
     select(Run, BioSample, Experiment, Instrument, LibrarySelection, LibrarySource, Organism, Platform, 
            SampleName = `Sample Name`, SRAStudy = `SRA Study`, Bases, AvgSpotLen, BioProject, sex, Isolate,
            Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Ecotype, Strain,
            lat_lon)
+}
+
+read_assembly_clean <- function(file, path) {
+  df<-read_tsv(paste0(path, "/", file, "_data_summary.tsv"), col_names = TRUE) %>%
+    rename_with(~ gsub(" ", "", .x, fixed=TRUE))
 }
 
 files<-c("SRA-Agnatha.txt", "SRA-Amphibia.txt", "SRA-Aves.txt", "SRA-Chondrichthyes.txt", 
@@ -41,3 +48,32 @@ sra %>% filter(Organism == "Anguilla anguilla") %>% select(Organism, BioProject,
 
 sra %>% filter(Organism %in% species_list$Organism) %>% select(BioProject) %>%
   distinct() %>% write_tsv("bioprojects.txt")
+
+##loading genome info
+
+genome_search_list <- c("amphibia", "sauropsids", "chondrichthyes", "cyclostomata", "elopocephalai", "otomorpha", "neoteleostei")
+
+genome_list <- lapply(genome_search_list, read_assembly_clean, path="~/Projects/popgen/compPopGen_ms/SRA")
+assemblies <- bind_rows(genome_list) %>% distinct() %>% 
+  arrange(Taxonomyid, desc(Source), Level, desc(ContigN50)) %>%
+  distinct(Taxonomyid, .keep_all = TRUE)
+
+assemblies %>% ggplot(aes(log10(ContigN50))) + geom_histogram()
+
+#some arbitrary filtering
+
+assemblies <- assemblies %>% filter(ContigN50 > 1e4)
+
+
+#merge
+
+popgen <- right_join(sra, assemblies, by=c("Organism" = "OrganismScientificName"), 
+                     suffix = c(".popgen", ".assembly")) %>% 
+  mutate(coverage = as.numeric(Bases) / as.numeric(Size))
+
+#some quick analysis
+
+popgen %>% mutate(covplot = ifelse(coverage < 100, coverage, 100)) %>% ggplot(aes(covplot)) + geom_histogram()
+
+
+

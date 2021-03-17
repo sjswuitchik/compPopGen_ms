@@ -1,0 +1,21 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Callorhinchus milii	elephant shark	isolate: IMCB2004, sex: male	7868	Callorhinchus_milii-6.1.3	GCA_000165045.2	GenBank		Scaffold	46577	974481817	2013-12-11		PRJNA18361	SAMN00000800
+Leucoraja erinacea	little skate		7782	LER_WGS_1	GCA_000238235.1	GenBank		Contig	665	1555444314	2011-12-15		PRJNA60893	SAMN00189066
+Rhincodon typus	whale shark	isolate: Ralph, sex: male	259920	ASM164234v2	GCA_001642345.2	GenBank		Scaffold	144422	2931582701	2017-03-03		PRJNA255419	SAMN04562461
+Chiloscyllium punctatum	brownbanded bambooshark		137246	Cpunctatum_v1.0	GCA_003427335.1	GenBank	From INSDC submitter	Scaffold	21276	3375698300	2018-08-02	33501	PRJDB6260	SAMD00098917
+Scyliorhinus torazame	cloudy catshark		75743	Storazame_v1.0	GCA_003427355.1	GenBank	From INSDC submitter	Scaffold	7146	4470980620	2018-08-02	27605	PRJDB6260	SAMD00098918
+Carcharodon carcharias	great white shark	isolate: C_car_delaware_2007, sex: female	13397	ASM360424v1	GCA_003604245.1	GenBank		Scaffold	46102	3915280839	2018-10-01		PRJNA269969	SAMN01915239
+Chiloscyllium plagiosum	whitespotted bambooshark	isolate: BGI_BamShark_2017, sex: female	36176	ASM401019v1	GCA_004010195.1	GenBank		Chromosome	37239	3776550609	2019-01-10		PRJNA478295	SAMN09508879
+Pristis pectinata	smalltooth sawfish	isolate: sPriPec2, sex: female	685728	sPriPec2.pri	GCA_009764475.1	GenBank		Chromosome	17009522	2267840987	2019-12-19		PRJNA562009	SAMN12629505
+Pristis pectinata	smalltooth sawfish	isolate: sPriPec2, sex: female	685728	sPriPec2.alt	GCA_009764485.1	GenBank		Contig	261025	1694166684	2019-12-18		PRJNA562010	SAMN12629505
+Amblyraja radiata	thorny skate	isolate: CabotCenter1, sex: male	386614	sAmbRad1.alt	GCA_010909745.1	GenBank		Scaffold	75113	1462441988	2020-02-14		PRJNA591368	SAMN09948523
+Amblyraja radiata	thorny skate	isolate: CabotCenter1, sex: male	386614	sAmbRad1.pri	GCA_010909765.1	GenBank		Chromosome	1462921	2558784953	2020-02-21		PRJNA591369	SAMN09948523
+Hydrolagus affinis	small-eyed rabbitfish	isolate: CHA-2020	1459831	UP_Haf	GCA_012026655.1	GenBank		Scaffold	15857	1114272990	2020-04-03		PRJNA606208	SAMN14087618
+Rhincodon typus	whale shark	isolate: KOGIC-WS-01, sex: male	259920	RhiTyp_1.0	GCA_013626285.1	GenBank		Scaffold	113611	2820592179	2020-07-24		PRJNA476219	SAMN09428498
+Carcharodon carcharias	great white shark	isolate: C_car_delaware_2007	13397	broker_test2	GCA_902204185.2	GenBank		Contig	335	670	2019-08-01		PRJEB20083	SAMN04526268
+Scyliorhinus canicula	smaller spotted catshark		7830	sScyCan1.1	GCA_902713615.1	GenBank		Chromosome	1862211	4220389930	2020-12-17		PRJEB35945	SAMEA994730
+Scyliorhinus canicula	smaller spotted catshark		7830	sScyCan1.2 alternate haplotype	GCA_902713625.2	GenBank		Scaffold	230697	3867000599	2021-01-28		PRJEB35944	SAMEA994730
+Callorhinchus milii	elephant shark	isolate: IMCB2004, sex: male	7868	Callorhinchus_milii-6.1.3	GCF_000165045.1	RefSeq	NCBI Annotation Release 100	Scaffold	46577	974481817	2013-12-11	20103	PRJNA18361	SAMN00000800
+Rhincodon typus	whale shark	isolate: Ralph, sex: male	259920	ASM164234v2	GCF_001642345.1	RefSeq	NCBI Annotation Release 100	Scaffold	144422	2931582701	2017-03-03	28769	PRJNA255419	SAMN04562461
+Amblyraja radiata	thorny skate	isolate: CabotCenter1, sex: male	386614	sAmbRad1.pri	GCF_010909765.1	RefSeq	NCBI Annotation Release 100	Chromosome	1462921	2558784953	2020-02-21	25980	PRJNA591369	SAMN09948523
+Scyliorhinus canicula	smaller spotted catshark		7830	sScyCan1.1	GCF_902713615.1	RefSeq	NCBI Annotation Release 100	Chromosome	1862211	4220389930	2020-12-17	29227	PRJEB35945	SAMEA994730

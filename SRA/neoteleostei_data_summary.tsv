@@ -1,0 +1,998 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Mchenga conophoros		strain: Otter Point	35575	ASM15085v1	GCA_000150855.1	GenBank		Scaffold	1066	73425564	2008-07-09		PRJNA29477	SAMN02743801
+Labeotropheus fuelleborni	blue mbuna	strain: Domwe Island	57307	ASM15087v1	GCA_000150875.1	GenBank		Scaffold	1070	70858381	2008-07-09		PRJNA29479	SAMN02743802
+Melanochromis auratus	golden mbuna	strain: Domwe Island	27751	ASM15089v1	GCA_000150895.1	GenBank		Scaffold	977	68238634	2008-07-09		PRJNA29481	SAMN02743803
+Rhamphochromis esox		strain: Otter Point	163638	ASM15093v1	GCA_000150935.1	GenBank		Scaffold	1126	71295074	2008-07-09		PRJNA29485	SAMN02743805
+Oryzias latipes	Japanese medaka	strain: HNI	8090	ASM15182v1	GCA_000151825.1	GenBank		Scaffold	2223	662701370	2007-04-26		PRJNA19569	SAMD00036522
+Takifugu rubripes	torafugu	sex: male	31033	FUGU5	GCA_000180615.2	GenBank		Chromosome	52883	391468278	2011-10-13		PRJNA1434	SAMEA3138310
+Gasterosteus aculeatus	three-spined stickleback		69293	ASM18067v1	GCA_000180675.1	GenBank		Contig	83204	446610788	2006-02-01		PRJNA13579	SAMN02981227
+Tetraodon nigroviridis	spotted green pufferfish		99883	ASM18073v1	GCA_000180735.1	GenBank	From INSDC submitter	Scaffold	29054	342403326	2004-05-14	27918	PRJNA12350	SAMEA3138311
+Oreochromis niloticus	Nile tilapia	isolate: 000638D3DF, sex: female	8128	Orenil1.1	GCA_000188235.2	GenBank		Chromosome	29493	927679487	2012-02-08		PRJNA59571	SAMN00117560
+Gadus morhua	Atlantic cod		8049	GadMor_May2010	GCA_000231765.1	GenBank		Scaffold	2311	824311139	2011-08-26		PRJNA41391	SAMEA3138401
+Maylandia zebra	zebra mbuna	ecotype: Mazinzi reef, isolate: #2_Kocher and #3_Kocher, sex: pooled male and female	106582	M_zebra_UMD2a	GCA_000238955.5	GenBank		Chromosome	1407748	957468680	2018-04-10		PRJNA60369	SAMN03892560
+Pundamilia nyererei		isolate: P.nyererei 1_Seehausen, sex: female	303518	PunNye1.0	GCA_000239375.1	GenBank		Scaffold	22622	830133247	2011-12-22		PRJNA60367	SAMN00149614
+Neolamprologus brichardi	lyretail cichlid	isolate: N.brichardi 1_Salsburger, sex: female	32507	NeoBri1.0	GCA_000239395.1	GenBank		Scaffold	13047	847893845	2011-12-22		PRJNA60365	SAMN00139653
+Haplochromis burtoni	Burton's mouthbrooder	isolate: A. burtoni ID#24_Hofmann, sex: female	8153	AstBur1.0	GCA_000239415.1	GenBank		Scaffold	21886	831411547	2011-12-22		PRJNA60363	SAMN00139641
+Xiphophorus maculatus	southern platyfish	isolate: XMAC-090115_JP163A, sex: female, strain: JP 163 A	8083	Xiphophorus_maculatus-4.4.2	GCA_000241075.1	GenBank		Scaffold	22275	729647787	2012-01-06		PRJNA72525	SAMN02981361
+Oryzias latipes	Japanese medaka	strain: Hd-rR	8090	ASM31367v1	GCA_000313675.1	GenBank		Chromosome	9628	869801494	2007-05-09		PRJNA16702	SAMD00036523
+Takifugu flavidus	sansaifugu		433684	version 1 of Takifugu flavidus genome	GCA_000400755.1	GenBank		Scaffold	8233	378032400	2013-05-30		PRJNA168966	SAMN01737183
+Thunnus orientalis	Pacific bluefin tuna	isolate: isolate 2	8238	Thunnus_orientalis_ver_Ba_1.0	GCA_000418415.1	GenBank		Contig	8235	684497465	2013-06-27		PRJDA68701	SAMD00036584
+Sebastes rubrivinctus	flag rockfish		72099	SRub1.0	GCA_000475215.1	GenBank		Scaffold	13541	756296653	2013-10-22		PRJNA62009	SAMN02981552
+Sebastes nigrocinctus	tiger rockfish		72089	ASM47523v3	GCA_000475235.3	GenBank		Scaffold	13471	746044620	2016-12-20		PRJNA171384	SAMN02981553
+Poecilia formosa	Amazon molly	sex: female	48698	Poecilia_formosa-5.1.2	GCA_000485575.1	GenBank		Scaffold	57472	748923461	2013-10-28		PRJNA89109	SAMN02981564
+Anoplopoma fimbria	sablefish		229290	NWFSC_Afim_r7.pbjelly	GCA_000499045.2	GenBank		Scaffold	29750	784187114	2020-10-05		PRJNA656728	SAMN02144194
+Cynoglossus semilaevis	tongue sole	isolate: Cse_v1.0	244447	Cse_v1.0	GCA_000523025.1	GenBank		Chromosome	27008	470182763	2014-01-28		PRJNA73987	SAMN02595200
+Poecilia reticulata	guppy	sex: female, strain: Guanapo	8081	Guppy_female_1.0+MT	GCA_000633615.2	GenBank		Chromosome	41913	731605743	2014-04-28		PRJNA238429	SAMN02404645
+Dicentrarchus labrax	European seabass		13489	seabass_V1.0	GCA_000689215.1	GenBank		Scaffold	54134	675917103	2014-04-09		PRJEB5099	SAMEA3271076
+Stegastes partitus	bicolor damselfish	isolate: 25-593, sex: male	144197	Stegastes_partitus-1.0.2	GCA_000690725.1	GenBank		Scaffold	43010	800491834	2014-05-13		PRJNA89147	SAMN02743342
+Pampus argenteus	silver pomfret	breed: wild-type, isolate: Kuwaiti	206143	PamArg1.0	GCA_000697985.1	GenBank		Scaffold	1001	350448509	2014-06-03		PRJNA240272	SAMN02699082
+Cyprinodon variegatus	sheepshead minnow	isolate: N-32, sex: female	28743	C_variegatus-1.0	GCA_000732505.1	GenBank		Scaffold	20803	1035167975	2014-07-22		PRJNA89149	SAMN02736898
+Notothenia coriiceps	black rockcod	isolate: Sejong01, sex: male	8208	NC01	GCA_000735185.1	GenBank		Scaffold	17487	636595335	2014-07-29		PRJNA66471	SAMN02206445
+Larimichthys crocea	large yellow croaker	breed: Donghai, isolate: lyc2010zjou1, sex: female	215358	ASM74293v1	GCA_000742935.1	GenBank		Scaffold	25717	648390617	2014-08-22		PRJNA237858	SAMN02630636
+Amphilophus citrinellus	Midas cichlid		61819	Midas_v5	GCA_000751415.1	GenBank		Scaffold	23456	844902565	2014-09-07		PRJEB6974	SAMEA2698536
+Cyprinodon nevadensis pectoralis		isolate: South Scruggs Spring subpopulation	69242	ASM77601v1	GCA_000776015.1	GenBank		Scaffold	1416	1011849000	2014-11-13		PRJNA254053	SAMN03072616
+Periophthalmodon schlosseri	giant mudskipper	sex: pooled male and female	1365757	PS.fa	GCA_000787095.1	GenBank		Scaffold	16946	679761122	2014-12-02		PRJNA232436	SAMN03201695
+Periophthalmus magnuspinnatus		sex: pooled male and female	409849	PM.fa	GCA_000787105.1	GenBank		Scaffold	28254	701696780	2014-12-02		PRJNA232435	SAMN03201694
+Scartelaos histophorus	walking goby	sex: pooled male and female	166764	SH.fa	GCA_000787155.1	GenBank		Scaffold	8806	695008792	2014-12-02		PRJNA232437	SAMN03201693
+Pseudopleuronectes yokohamae	marbled flounder		245875	Pyoko_1.0	GCA_000787555.1	GenBank		Contig	1994	547831023	2014-11-24		PRJDB3259	SAMD00021058
+Boleophthalmus pectinirostris	great blue-spotted mudskipper	sex: pooled male and female	150288	BP.fa	GCA_000788275.1	GenBank		Scaffold	20438	955735039	2014-12-02		PRJNA232434	SAMN03201692
+Fundulus heteroclitus	mummichog	isolate: Maine, sex: female	8078	Fundulus_heteroclitus-3.0.2	GCA_000826765.1	GenBank		Scaffold	16689	1021882034	2015-01-21		PRJNA177717	SAMN03277211
+Nothobranchius furzeri	turquoise killifish	breed: GRZ, isolate: 7, sex: male	105023	NotFur1	GCA_000878545.1	GenBank		Scaffold	8598	1022966143	2015-02-20		PRJNA221357	SAMN02750843
+Larimichthys crocea	large yellow croaker	isolate: SSNF	215358	L_crocea_2.0	GCA_000972845.2	GenBank		Chromosome	277487	657923191	2018-11-27		PRJNA245366	SAMN03092871
+Lates calcarifer	barramundi perch	breed: P12C03, sex: male	8187	ASM101014v1	GCA_001010145.1	GenBank		Scaffold	14534	589095062	2015-05-18		PRJNA280691	SAMN03466679
+Austrofundulus limnaeus		sex: male, strain: Quisiro	52670	Austrofundulus_limnaeus-1.0	GCA_001266775.1	GenBank		Scaffold	8097	866963281	2015-07-28		PRJNA280995	SAMN03490872
+Poecilia latipinna	sailfin molly	isolate: Pla-1442-1.1, sex: female	48699	P_latipinna-1.0	GCA_001443285.1	GenBank		Scaffold	33278	815144743	2015-11-13		PRJNA196862	SAMN02048973
+Poecilia mexicana	shortfin molly	isolate: Pme_1353_1.1, sex: female	48701	P_mexicana-1.0	GCA_001443325.1	GenBank		Scaffold	39840	801711499	2015-11-13		PRJNA196869	SAMN02048972
+Xiphophorus hellerii	green swordtail	sex: female, strain: Sarabia	8084	Xiphophorus_hellerii-3.0.1	GCA_001443345.1	GenBank		Scaffold	11299	733802474	2015-11-13		PRJNA290782	SAMN03968850
+Xiphophorus couchianus	Monterrey platyfish	sex: female	32473	X_couchianus-1.0	GCA_001444195.3	GenBank		Chromosome	15315838	688524871	2018-09-19		PRJNA290781	SAMN03922721
+Cottus rhenanus		sex: male, strain: Naaf	446433	ASM145555v1	GCA_001455555.1	GenBank		Scaffold	2129	563609416	2015-12-02		PRJNA297779	SAMN04145896
+Nothobranchius furzeri	turquoise killifish	sex: female, strain: GRZ	105023	Nfu_20140520	GCA_001465895.2	GenBank		Chromosome	19950	1242498532	2015-12-11		PRJEB5837	SAMEA2698544
+Miichthys miiuy	Mi-iuy croaker	sex: female	240162	ASM159371v1	GCA_001593715.1	GenBank		Scaffold	81271	619300777	2016-03-17		PRJNA272995	SAMN02486174
+Lates calcarifer	barramundi perch	isolate: ASB-BC8, sex: male	8187	ASM164080v1	GCA_001640805.1	GenBank		Scaffold	1066117	668464831	2016-05-09		PRJNA294489	SAMN04026617
+Kryptolebias marmoratus	mangrove rivulus	isolate: JLee-2015, sex: hermaphrodite	37003	ASM164957v2	GCA_001649575.2	GenBank		Chromosome	57646	680638340	2020-11-09		PRJNA626665	SAMN04622665
+Morone saxatilis	striped sea-bass	breed: North Carolina State University Domesticated Broodstock SB-2011	34816	SBDraft1	GCA_001663605.1	GenBank		Scaffold	17868	585166552	2016-06-16		PRJNA266827	SAMN03174709
+Kryptolebias marmoratus	mangrove rivulus	sex: hermaphrodite, strain: RHL	37003	ASM166395v1	GCA_001663955.1	GenBank		Scaffold	16024	653959781	2016-06-17		PRJNA290522	SAMN03892719
+Mola mola	ocean sunfish	isolate: MOLMO, sex: female	94237	ASM169857v1	GCA_001698575.1	GenBank		Scaffold	23239	639451992	2016-08-08		PRJNA305960	SAMN04335856
+Oreochromis niloticus	Nile tilapia	isolate: F11D_XX, sex: female	8128	O_niloticus_UMD_NMBU	GCA_001858045.3	GenBank		Chromosome	2923640	1005664923	2018-06-29		PRJNA344471	SAMN05859795
+Hippocampus comes	tiger tail seahorse	isolate: QL1, sex: male	109280	H_comes_QL1_v1	GCA_001891065.1	GenBank		Scaffold	39546	493759415	2016-12-08		PRJNA314292	SAMN04531611
+Paralichthys olivaceus	Japanese flounder	isolate: ysfri_paol, sex: female	8255	ParOli_1.1	GCA_001904815.2	GenBank		Chromosome	30544	545775252	2017-03-15		PRJNA73673	SAMN05981185
+Sebastes minor		isolate: S-Minor-200	214483	ASM191076v2	GCA_001910765.2	GenBank		Scaffold	1901	681652711	2016-12-20		PRJNA236304	SAMN03354192
+Sebastes steindachneri		isolate: S-Stein-200	201708	ASM191078v2	GCA_001910785.2	GenBank		Scaffold	1311	648011071	2016-12-20		PRJNA236323	SAMN03579458
+Sebastes aleutianus	rougheye rockfish	isolate: Aleu4	214485	ASM191080v2	GCA_001910805.2	GenBank		Scaffold	10838	899650391	2016-12-20		PRJNA229179	SAMN03964772
+Monopterus albus	swamp eel	sex: male	43700	M_albus_1.0	GCA_001952655.1	GenBank		Scaffold	22239	684127526	2017-01-17		PRJNA183073	SAMN06219872
+Paralichthys olivaceus	Japanese flounder	breed: gynogenesis, sex: female	8255	Flounder_ref_guided_V1.0	GCA_001970005.2	GenBank		Scaffold	36690	643894737	2017-01-24		PRJNA344006	SAMN05817825
+Acanthochromis polyacanthus	spiny chromis	ecotype: Palm Islands	80966	ASM210954v1	GCA_002109545.1	GenBank		Scaffold	16099	991584656	2017-04-25		PRJNA311159	SAMN06347167
+Maccullochella peelii	Murray cod	isolate: KMC200	135761	mcod_v1	GCA_002120245.1	GenBank		Scaffold	70439	633241041	2017-05-09		PRJNA290988	SAMN03938494
+Seriola quinqueradiata	Japanese amberjack	isolate: Squ1	8161	Squ_1.0	GCA_002207885.1	GenBank		Scaffold	19672	861629195	2017-06-12		PRJDB5349	SAMD00068660
+Seriola quinqueradiata	Japanese amberjack	isolate: Squ1	8161	Squ_2.0	GCA_002217815.1	GenBank		Scaffold	872227	639269536	2017-07-05		PRJDB5854	SAMD00083042
+Oryzias latipes	Japanese medaka	sex: male, strain: Hd-rR	8090	ASM223467v1	GCA_002234675.1	GenBank		Chromosome	2530934	734040372	2017-07-27		PRJNA325079	SAMN06689957
+Oryzias latipes	Japanese medaka	sex: male, strain: HSOK	8090	ASM223469v1	GCA_002234695.1	GenBank		Chromosome	3516609	744414398	2017-07-27		PRJNA325194	SAMN06690114
+Oryzias latipes	Japanese medaka	sex: male, strain: HNI	8090	ASM223471v1	GCA_002234715.1	GenBank		Chromosome	1450098	677633405	2017-07-27		PRJNA325193	SAMN06689975
+Seriola dumerili	greater amberjack	isolate: Sdu_G_001	41447	Sdu_1.0	GCA_002260705.1	GenBank		Scaffold	249755	677669644	2017-08-03		PRJDB5856	SAMD00083043
+Micropterus floridanus	Florida bass	isolate: GALMBF000, sex: female	225391	ASM259238v1	GCA_002592385.1	GenBank		Contig	10978	1001521525	2017-10-19		PRJNA398142	SAMN07502010
+Xiphophorus maculatus	southern platyfish	sex: male, strain: JP 163 A	8083	X_maculatus-5.0-male	GCA_002775205.2	GenBank		Chromosome	9181372	704304519	2017-12-07		PRJNA72525	SAMN08025980
+Amphiprion ocellaris	clown anemonefish	isolate: DU_AmpOce	80972	AmpOce1.0	GCA_002776465.1	GenBank		Scaffold	324210	880704246	2017-11-16		PRJNA407816	SAMN07982614
+Seriola lalandi dorsalis		ecotype: SW California, isolate: HSWRI2012SDOR001	1841481	Sedor1	GCA_002814215.1	GenBank		Scaffold	51346	732493304	2017-12-08		PRJNA319656	SAMN04902367
+Symphodus melops	corkwing wrasse	isolate: Skagerak, sex: male	171736	ASM281910v1	GCA_002819105.1	GenBank		Contig	461652	614569099	2017-12-05		PRJNA354496	SAMN06339785
+Coryphaenoides rupestris	roundnose grenadier	ecotype: Mid-Atlantic Ridge, isolate: MGRH-2017	163118	ASM289596v1	GCA_002895965.1	GenBank		Scaffold	20848	829208733	2018-01-23		PRJNA417902	SAMN08010939
+Pagrus major	red seabream		143350	Pmaj_1.0	GCA_002897255.1	GenBank		Scaffold	2822	875465402	2017-12-28		PRJDB5593	SAMD00076252
+Oryzias melastigma	Indian medaka	sex: pooled male and female, strain: HK-1	30732	ASM292280v2	GCA_002922805.2	GenBank		Chromosome	30057	778686656	2020-04-13		PRJNA401159	SAMN07596545
+Seriola rivoliana	Almaco jack	isolate: HWSR04, sex: pooled male and female	173321	ASM299450v1	GCA_002994505.1	GenBank		Scaffold	740108	666125048	2018-03-12		PRJNA434264	SAMN08545647
+Amphiprion percula	orange clownfish	isolate: AP_NGBR_F1_2018, sex: hermaphrodite	161767	Nemo_v1.1	GCA_003047355.2	GenBank		Chromosome	3123421	908939294	2018-11-28		PRJNA436093	SAMN08615572
+Seriola lalandi	yellowtail amberjack	isolate: YTK006	302047	wag_ytk_001	GCA_003054885.1	GenBank		Scaffold	37711	766364468	2018-04-17		PRJNA314866	SAMN04544729
+Gambusia affinis	western mosquitofish	isolate: NE01/NJP1002.9, sex: male	33528	ASM309773v1	GCA_003097735.1	GenBank	From INSDC submitter	Scaffold	17511	598663367	2018-05-08	19445	PRJNA386810	SAMN07157452
+Scophthalmus maximus	turbot	ecotype: wild atlantic	52904	ASM318616v1	GCA_003186165.1	GenBank	From INSDC submitter	Chromosome	54836	524979463	2018-06-05	21194	PRJEB11743	SAMN08049846
+Thunnus thynnus	Atlantic bluefin tuna		8237	GBYP_Tthy_1.0	GCA_003231725.1	GenBank		Scaffold	2430	648208697	2018-06-15		PRJNA432036	SAMN08408184
+Sparus aurata	gilthead seabream	isolate: M197-DHL199-FB	8175	ASM330901v1	GCA_003309015.1	GenBank		Chromosome	32411	830381975	2018-07-19		PRJNA416845	SAMN09603368
+Xiphophorus hellerii	green swordtail	sex: male, strain: 12219	8084	Xiphophorus_hellerii-4.1	GCA_003331165.2	GenBank		Chromosome	7084538	732889490	2019-12-05		PRJNA290782	SAMN09545741
+Pungitius pungitius	ninespine stickleback	isolate: CR61149, sex: male	134920	ASM339955v1	GCA_003399555.1	GenBank		Scaffold	14136	441089565	2018-08-16		PRJNA324574	SAMN05210078
+Seriola quinqueradiata	Japanese amberjack		8161	Haploid_YT_All_LG_ver.1	GCA_003402435.1	GenBank		Scaffold	20864	627268966	2018-07-12		PRJDB6445	SAMD00098161
+Perca fluviatilis	European perch	isolate: Loo-19062017, sex: female	8168	UTU_Pfluv_1.1	GCA_003412525.1	GenBank		Scaffold	18197	958208937	2018-08-22		PRJNA450919	SAMN08954933
+Oplegnathus fasciatus	barred knifejaw	strain: NIFS	163134	ASM341684v1	GCA_003416845.1	GenBank		Scaffold	29992	766301214	2018-08-22		PRJNA393383	SAMN07331350
+Morone chrysops	white bass	isolate: DOM152	46259	DOM152_MoChry_1.0	GCA_003610055.1	GenBank		Scaffold	20318	620984155	2018-10-02		PRJNA492499	SAMN10103279
+Betta splendens	Siamese fighting fish	isolate: Giant, sex: male	158456	ASM365015v1	GCA_003650155.1	GenBank		Scaffold	38053	456232186	2018-10-15		PRJNA416843	SAMN07955939
+Takifugu flavidus	sansaifugu	isolate: HTHZ2018, sex: female	433684	ASM371156v2	GCA_003711565.2	GenBank	From INSDC submitter	Chromosome	4357567	366286831	2019-08-16	29408	PRJNA491395	SAMN10077091
+Larimichthys crocea	large yellow croaker	isolate: JMULYC20181020, sex: female	215358	ASM371158v2	GCA_003711585.2	GenBank	From INSDC submitter	Chromosome	1327071	744270469	2019-11-14	25399	PRJNA491413	SAMN10077518
+Larimichthys crocea	large yellow croaker	breed: Fufa I, sex: female	215358	LCFGL_HiC_1.0	GCA_003845795.1	GenBank	From INSDC submitter	Chromosome	2833482	721257125	2018-11-27	995	PRJNA505758	SAMN10434301
+Pungitius pungitius	ninespine stickleback	isolate: Suqi River 13.3	134920	ASM393509v1	GCA_003935095.1	GenBank		Scaffold	11580	463354535	2018-12-14		PRJNA429208	SAMN08331111
+Oryzias javanicus	javanese ricefish	isolate: RS831, sex: female	123683	OJAV_1.1	GCA_003999625.1	GenBank	From INSDC submitter	Chromosome	3558013	809679899	2019-01-08	21454	PRJNA505405	SAMN10417210
+Lateolabrax maculatus	spotted sea bass	sex: male	315492	ASM402354v1	GCA_004023545.1	GenBank		Chromosome	42653	519239411	2019-01-15		PRJNA408177	SAMN07680090
+Takifugu bimaculatus		isolate: TB-2018, sex: female	433685	XU_Tbim_1.0	GCA_004026145.2	GenBank	From INSDC submitter	Chromosome	1312995	404311738	2019-06-21	20142	PRJNA508537	SAMN10524747
+Collichthys lucidus	big head croaker	isolate: JT15FE1705JMU, sex: female	240159	ASM411991v1	GCA_004119915.1	GenBank	From INSDC submitter	Chromosome	1098566	877615421	2019-01-30	27788	PRJNA495441	SAMN10225518
+Sebastes schlegelii	Schlegel's black rockfish	isolate: SS_1	214486	ASM433531v1	GCA_004335315.1	GenBank		Contig	14246	728476695	2019-03-08		PRJNA511689	SAMN10490953
+Sebastes koreanus		isolate: SK_1	290523	ASM433533v1	GCA_004335335.1	GenBank		Contig	16662	725092264	2019-03-08		PRJNA511689	SAMN10490951
+Sebastes nudus	ogon-murasoi	isolate: SN_1	1617787	ASM433536v1	GCA_004335365.1	GenBank		Contig	11290	724045237	2019-03-08		PRJNA511689	SAMN10490952
+Pseudoliparis sp. Yap Trench		ecotype: yap trench, sex: male	2499240	ASM433547v1	GCA_004335475.1	GenBank		Scaffold	523845	840640641	2019-03-08		PRJNA512070	SAMN10662039
+Oryzias latipes	Japanese medaka	sex: male, strain: Hd-rR	8090	ASM434744v1	GCA_004347445.1	GenBank		Chromosome	2416720	789703053	2019-03-15		PRJNA325079	SAMN06689957
+Oryzias latipes	Japanese medaka	sex: male, strain: HSOK	8090	ASM434809v1	GCA_004348095.1	GenBank		Chromosome	3258597	808961282	2019-03-15		PRJNA325194	SAMN06690114
+Oryzias latipes	Japanese medaka	sex: male, strain: HNI	8090	ASM434813v1	GCA_004348135.1	GenBank		Chromosome	1303079	749060063	2019-03-15		PRJNA325193	SAMN06689975
+Larimichthys crocea	large yellow croaker	sex: female, strain: DH2-L1	215358	ASM435267v1	GCA_004352675.1	GenBank		Chromosome	1604676	684344543	2019-01-30		PRJNA480121	SAMN09701101
+Perca flavescens	yellow perch	isolate: YP-PL-M2, sex: male	8167	PFLA_1.0	GCA_004354835.1	GenBank	From INSDC submitter	Chromosome	4268950	877439799	2019-03-19	24486	PRJNA514308	SAMN10722690
+Anarrhichthys ocellatus	wolf-eel	isolate: YVR2014, sex: female	433405	GSC_Weel_1.0	GCA_004355925.1	GenBank		Scaffold	41757	612774492	2019-03-08		PRJNA496475	SAMN10245424
+Ophiodon elongatus		isolate: SJ_89, sex: female	225387	GSC_LCod_1.0	GCA_004358465.1	GenBank		Scaffold	31240	635567917	2019-03-08		PRJNA496476	SAMN10245457
+Channa argus	northern snakehead	isolate: OARG1902GOOAL, sex: female	215402	ASM478618v1	GCA_004786185.1	GenBank	From INSDC submitter	Chromosome	11786852	644129659	2019-04-15	22593	PRJNA522012	SAMN10910622
+Morone saxatilis	striped sea-bass	isolate: NCDOM2014, sex: pooled male and female	34816	NCSU_SB_2.0	GCA_004916995.1	GenBank		Scaffold	17211	598109547	2019-04-26		PRJNA532441	SAMN11399929
+Planiliza haematocheilus	so-iny mullet	isolate: Korea, sex: pooled male and female	370040	Liza_haematocheila_0.1	GCA_005024645.1	GenBank		Contig	3973280	747342729	2019-05-01		PRJNA531337	SAMN11356700
+Epinephelus lanceolatus	giant grouper	isolate: Andai001, sex: female	310571	ASM528154v1	GCA_005281545.1	GenBank		Chromosome	159800	1087399367	2019-05-13		PRJNA516312	SAMN10786578
+Macquaria australasica	Macquarie perch	isolate: MP_SCH12	135765	DU_Maus_v1.0	GCA_005408345.1	GenBank		Scaffold	678975	675976139	2019-05-16		PRJNA516983	SAMN10817714
+Oreochromis aureus	blue tilapia	isolate: CB-2016, sex: female	47969	ASM587006v1	GCA_005870065.1	GenBank		Scaffold	60340	918937175	2019-05-28		PRJNA539829	SAMN11513266
+Reinhardtius hippoglossoides	Greenland flounder	ecotype: Greenland, isolate: HD-2018-mb, sex: female	111784	MU_Rhippo_v1	GCA_006182925.2	GenBank		Scaffold	775256	677540803	2019-07-25		PRJNA499109	SAMN11811143
+Gasterosteus aculeatus	three-spined stickleback	ecotype: freshwater, isolate: NID, sex: female	69293	NID	GCA_006229165.1	GenBank		Scaffold	38090	467452432	2019-06-11		PRJNA525775	SAMN11077409
+Gasterosteus aculeatus	three-spined stickleback	ecotype: freshwater, isolate: BOT, sex: female	69293	BOT	GCA_006229185.1	GenBank		Scaffold	32541	427295814	2019-06-11		PRJNA525775	SAMN11077410
+Gasterosteus aculeatus	three-spined stickleback	ecotype: marine, isolate: BAM, sex: female	69293	BAM	GCA_006232265.1	GenBank		Scaffold	24675	445644378	2019-06-11		PRJNA525775	SAMN11077411
+Gasterosteus aculeatus	three-spined stickleback	ecotype: marine, isolate: SYL, sex: female	69293	SYL	GCA_006232285.1	GenBank		Scaffold	32252	431811987	2019-06-11		PRJNA525775	SAMN11077408
+Scophthalmus maximus	turbot	isolate: ysfricsl-2016a, sex: female	52904	Turbot_ysfricsl_Female_v1.0	GCA_006346445.1	GenBank	From INSDC submitter	Scaffold	27893	568466451	2019-06-14	26434	PRJNA542243	SAMN11618026
+Scophthalmus maximus	turbot	isolate: ysfricsl-2016b, sex: male	52904	ASM634646v1	GCA_006346465.1	GenBank		Scaffold	45259	587187767	2019-06-14		PRJNA542243	SAMN11618027
+Liparis tanakae	Tanaka's snailfish	ecotype: East Sea, South Korea, sex: male	230148	SNU_Ltan_1.0	GCA_006348945.1	GenBank	From INSDC submitter	Scaffold	9903	498979456	2019-06-14	68289	PRJNA523297	SAMN10970109
+Epinephelus moara	kelp grouper	isolate: mb	300413	YSFRI_EMoa_1.0	GCA_006386435.1	GenBank		Chromosome	76174	1030460988	2019-06-26		PRJNA543191	SAMN11657372
+Pachypanchax playfairii	golden panchax	isolate: SEY 05	52664	MPIBA_Ppla_1.0	GCA_006937955.1	GenBank		Scaffold	76641	669774067	2019-07-12		PRJNA531796	SAMN11370848
+Callopanchax toddi		isolate: GM 97/7	60409	MPIBA_Ctod_1.0	GCA_006937965.1	GenBank		Scaffold	52012	853385936	2019-07-12		PRJNA531796	SAMN11370820
+Aphyosemion australe	lyretail killifish	isolate: gold	52653	MPIBA_Aaus_1.0	GCA_006937985.1	GenBank		Scaffold	119465	868348903	2019-07-12		PRJNA531796	SAMN11370804
+Nothobranchius kuhntae	Beira killifish	isolate: MZCS528	321403	MPIBA_Nkuh_1.0	GCA_006942095.1	GenBank		Scaffold	22234	1122656415	2019-07-12		PRJNA531796	SAMN11370845
+Neogobius melanostomus	round goby	isolate: 20150602_KH_C, sex: male	47308	RGoby_Basel_V2	GCA_007210695.1	GenBank		Contig	2817412	1003738541	2019-07-22		PRJNA549924	SAMN12099445
+Archocentrus centrarchus	flier cichlid	isolate: MPI-CPG fArcCen1, sex: male	63155	fArcCen1_v1.h	GCA_007364235.1	GenBank		Scaffold	455563	1034011644	2019-07-24		PRJNA489130	SAMN09948522
+Archocentrus centrarchus	flier cichlid	isolate: MPI-CPG fArcCen1, sex: male	63155	fArcCen1	GCA_007364275.2	GenBank		Chromosome	2146538	932930362	2019-08-01		PRJNA489129	SAMN09948522
+Kryptolebias hermaphroditus		strain: Pan-RS	1747188	ASM789654v1	GCA_007896545.1	GenBank		Chromosome	46411	683986837	2019-08-08		PRJNA545021	SAMN11869169
+Thalassoma bifasciatum	bluehead	isolate: BHW_63_Ovary, sex: female	76338	UOO_Thbifa_1.2	GCA_008086565.1	GenBank		Scaffold	122955	1095910316	2019-08-02		PRJNA293777	SAMN10258813
+Cebidichthys violaceus	monkeyface prickleback	ecotype: Intertidal, strain: 4_UCI_frozen_042015	271503	Cvio_1.0	GCA_008087265.1	GenBank		Scaffold	5507153	593001491	2019-08-26		PRJNA384078	SAMN06857690
+Oreochromis spilurus		isolate: Aljahdali-2019	64544	ASM826930v1	GCA_008269305.1	GenBank		Contig	11851	764974731	2019-09-03		PRJNA551931	SAMN12169131
+Sander lucioperca	pikeperch	isolate: FBNREF2018, sex: male	283035	SLUC_FBN_1.2	GCA_008315115.2	GenBank		Chromosome	6663498	901221791	2020-08-13		PRJNA561467	SAMN12618724
+Macquaria ambigua	golden perch	isolate: GOP001	135764	GOP001_1.1	GCA_008360985.1	GenBank		Scaffold	243852	661429323	2019-09-09		PRJNA556086	SAMN12340637
+Oryzias sinensis	Chinese medaka	ecotype: Beijing, sex: male	183150	ASM858656v1	GCA_008586565.1	GenBank		Scaffold	28180	813986518	2019-09-19		PRJNA549378	SAMN12084253
+Etheostoma spectabile	orangethroat darter	isolate: EspeVRDwgs_2016, sex: male	54343	UIUC_Espe_1.0	GCA_008692095.1	GenBank	From INSDC submitter	Chromosome	26023	854790067	2019-10-07	18816	PRJNA556880	SAMN12373147
+Plectropomus leopardus	leopard coralgrouper	isolate: mb	160734	YSFRI_Pleo_2.0	GCA_008729295.2	GenBank		Chromosome	897070	895688574	2020-05-07		PRJNA545594	SAMN11897347
+Datnioides undecimradiatus	Mekong tiger perch	isolate: QDKF35A	1333648	BGI_Dund_1.0	GCA_008933995.1	GenBank		Scaffold	3802431	595034438	2019-10-10		PRJNA574247	SAMN12855526
+Thunnus orientalis	Pacific bluefin tuna	isolate: 20150902_amami#4_female	8238	tuna2	GCA_009176245.1	GenBank		Scaffold	5458584	786596543	2019-10-13		PRJDB8174	SAMD00166193
+Sander vitreus	walleye	ecotype: Black Warrior River, isolate: WEE_64	283036	ASM919308v1	GCA_009193085.1	GenBank		Contig	4133	782907723	2019-10-21		PRJNA528354	SAMN11180528
+Lophius piscatorius	angler	isolate: BF2	8074	BF2_Nord	GCA_009660295.1	GenBank		Contig	104538	747363853	2019-11-13		PRJNA529712	SAMN11282402
+Lophius piscatorius	angler	isolate: BF1	8074	BF1_NORD	GCA_009660315.1	GenBank		Contig	6947	675616692	2019-11-13		PRJNA529712	SAMN11284904
+Gambusia holbrooki	eastern mosquitofish	isolate: M4, sex: male	37273	ASM966307v1	GCA_009663075.1	GenBank		Scaffold	42011	764985754	2019-11-14		PRJNA550492	SAMN12130783
+Chionodraco myersi	Myers' icefish	isolate: Ch_01_muscle	70433	Cmyersi_v0.1	GCA_009756435.1	GenBank		Scaffold	42918	1120102150	2019-12-16		PRJNA505759	SAMN10434302
+Chionodraco hamatus	Antarctic icefish	isolate: Cha_01_muscle	36188	Chamatus_v0.1	GCA_009756495.1	GenBank		Scaffold	2261	829466164	2019-12-16		PRJNA505760	SAMN10434303
+Notolabrus celidotus	New Zealand spotty	isolate: fNotCel1, sex: male	1203425	fNotCel1.pri	GCA_009762535.1	GenBank		Chromosome	3748462	846744125	2019-12-18		PRJNA561956	SAMN12623201
+Notolabrus celidotus	New Zealand spotty	isolate: fNotCel1, sex: male	1203425	fNotCel1.alt	GCA_009762545.1	GenBank		Contig	572529	770553912	2019-12-17		PRJNA561957	SAMN12623201
+Scophthalmus maximus	turbot	sex: female, strain: ysfri-turbot	52904	turbot	GCA_009764425.1	GenBank		Scaffold	27892	568428014	2019-12-18		PRJNA347492	SAMN05890600
+Cyclopterus lumpus	lumpfish	isolate: fCycLum1, sex: male	8103	fCycLum1.alt	GCA_009769515.1	GenBank		Contig	599283	480967379	2019-12-19		PRJNA562004	SAMN12629502
+Cyclopterus lumpus	lumpfish	isolate: fCycLum1, sex: male	8103	fCycLum1.pri	GCA_009769545.1	GenBank		Chromosome	4950682	572885595	2019-12-23		PRJNA562003	SAMN12629502
+Hippoglossus hippoglossus	Atlantic halibut	isolate: fHipHip1, sex: male	8267	fHipHip1.pri	GCA_009819705.1	GenBank		Chromosome	7020318	596775069	2019-12-31		PRJNA562001	SAMN12629501
+Hippoglossus hippoglossus	Atlantic halibut	isolate: fHipHip1, sex: male	8267	fHipHip1.alt	GCA_009819745.1	GenBank		Scaffold	826995	676690381	2019-12-27		PRJNA562002	SAMN12629501
+Thamnaconus septentrionalis		sex: female	435163	ASM982339v1	GCA_009823395.1	GenBank		Chromosome	22457894	474309635	2020-01-02		PRJNA565600	SAMN12753623
+Periophthalmus magnuspinnatus		isolate: fPerMag1, sex: female	409849	fPerMag1.pri	GCA_009829125.1	GenBank		Chromosome	2301275	752605361	2020-01-03		PRJNA561998	SAMN12629500
+Periophthalmus magnuspinnatus		isolate: fPerMag1, sex: female	409849	fPerMag1.alt	GCA_009829135.1	GenBank		Scaffold	469974	698977026	2020-01-03		PRJNA561999	SAMN12629500
+Collichthys lucidus	big head croaker	isolate: MT201911	240159	ASM985239v1	GCA_009852395.1	GenBank		Scaffold	12651	671994863	2020-01-10		PRJNA580353	SAMN13155762
+Syngnathus floridae	dusky pipefish	isolate: RB5K3AAIWP	161585	ASM1001494v1	GCA_010014945.1	GenBank		Scaffold	11028	367727558	2020-01-30		PRJNA481557	SAMN09688109
+Perca fluviatilis	European perch	sex: male	8168	GENO_Pfluv_1.0	GCA_010015445.1	GenBank	From INSDC submitter	Chromosome	4197643	951345774	2020-01-30	27915	PRJNA549142	SAMN12071746
+Larimichthys polyactis	yellow croaker	isolate: SYC201911	334908	ASM1011929v1	GCA_010119295.1	GenBank		Scaffold	8079	694446753	2020-02-03		PRJNA587872	SAMN13220413
+Poeciliopsis turrubarensis		isolate: HVK002, sex: male	188136	ASM1027701v1	GCA_010277015.1	GenBank		Scaffold	101021	596996646	2020-02-06		PRJNA555006	SAMN12288626
+Poeciliopsis retropinna		isolate: HVK001, sex: male	188133	ASM1027707v1	GCA_010277075.1	GenBank		Scaffold	15063430	621841910	2020-02-06		PRJNA555005	SAMN12288624
+Gadus morhua	Atlantic cod	ecotype: Celtic Sea, isolate: KGT-2019, sex: male	8049	gadMor_Celtic	GCA_010882105.1	GenBank		Chromosome	10559872	684268512	2020-02-21		PRJNA601905	SAMN13876601
+Poeciliopsis occidentalis	Gila topminnow	isolate: AV76-7, sex: male	68464	ASM1088303v1	GCA_010883035.1	GenBank		Scaffold	56887	724239826	2020-02-20		PRJNA532900	SAMN11418710
+Fundulus heteroclitus	mummichog	isolate: FHET01, sex: male	8078	MU-UCD_Fhet_4.1	GCA_011125445.2	GenBank		Chromosome	587965	1203489213	2020-08-12		PRJNA597160	SAMN13668183
+Plectropomus leopardus	leopard coralgrouper		160734	Pleo_1.0	GCA_011397275.1	GenBank		Chromosome	1139749	787600493	2020-02-20		PRJDB9154	SAMD00199277
+Epinephelus fuscoguttatus	brown-marbled grouper		293821	E.fuscoguttatus.final_Chr_v1	GCA_011397635.1	GenBank		Chromosome	13857438	1046995804	2020-02-20		PRJDB9224	SAMD00201013
+Lythrypnus dalli	bluebanded goby	isolate: 56N3W33ZQX	314003	ASM1176350v1	GCA_011763505.1	GenBank		Scaffold	8114	830691505	2020-03-27		PRJNA361115	SAMN06220456
+Dissostichus mawsoni	Antarctic toothfish	isolate: DM0001	36200	KU_Dm_1.0	GCA_011823955.1	GenBank	From INSDC submitter	Scaffold	3015437	926363279	2020-04-01	29240	PRJNA574770	SAMN12869232
+Siniperca knerii	big-eye mandarin fish	isolate: DM1B, sex: male	214812	sinKne6b	GCA_011952075.1	GenBank		Chromosome	77506	723564461	2020-04-09		PRJNA513951	SAMN13269088
+Siniperca chuatsi	mandarin fish	isolate: A2ci, sex: female	119488	sinChu7	GCA_011952085.1	GenBank		Chromosome	12191788	755045244	2020-04-09		PRJNA513951	SAMN13269087
+Siniperca scherzeri	leopard mandarin fish	isolate: B2M1B, sex: male	228252	sinSch6b	GCA_011952095.1	GenBank		Chromosome	83753	736162835	2020-04-09		PRJNA513951	SAMN13269089
+Coreoperca whiteheadi		isolate: CM1A, sex: male	228250	corWhi6b	GCA_011952105.1	GenBank		Chromosome	76587	712451466	2020-04-09		PRJNA513951	SAMN13269090
+Verasper variegatus	spotted halibut	strain: 001	82366	ASM1239343v1	GCA_012393435.1	GenBank		Chromosome	175150	556789779	2020-04-16		PRJNA599060	SAMN13738317
+Trematomus loennbergii	deepwater notothen	isolate: Antarctica	40692	KUTl01	GCA_012861695.1	GenBank		Scaffold	968532	1210523816	2020-04-27		PRJNA610666	SAMN14309518
+Poecilia formosa	Amazon molly	breed: PFAF-AM, sex: female	48698	Poecilia_formosa_haplotype_mexicana	GCA_013036085.1	GenBank		Chromosome	1886272	745198679	2020-05-12		PRJNA616372	SAMN14441686
+Poecilia formosa	Amazon molly	breed: PFAF-AM, sex: female	48698	Poecilia_formosa_haplotype_latipinna	GCA_013036135.1	GenBank		Chromosome	1103885	674449314	2020-05-12		PRJNA616373	SAMN14441686
+Etheostoma cragini	Arkansas darter	isolate: CJK2018	417921	CSU_Ecrag_1.0	GCA_013103735.1	GenBank		Chromosome	45088	643078674	2020-05-15		PRJNA611833	SAMN14351042
+Cromileptes altivelis	humpback grouper	isolate: Calt-HN2019, sex: hermaphrodite	304459	SYSU_Calt_1.1	GCA_013133815.1	GenBank		Chromosome	18269829	1013370389	2020-05-20		PRJNA623050	SAMN14537433
+Verasper variegatus	spotted halibut	isolate: vva_ysfri_2017, sex: male	82366	ysfri_vvar_1.0	GCA_013332515.1	GenBank		Chromosome	14452835	545339360	2020-06-11		PRJNA634516	SAMN14998119
+Hippoglossus stenolepis	Pacific halibut	isolate: PH-IPHC-18, sex: female	195615	IPHC_HiSten_1.0	GCA_013339905.1	GenBank	From INSDC submitter	Chromosome	17826919	594127359	2020-06-16	23617	PRJNA622249	SAMN14503176
+Scophthalmus maximus	turbot	ecotype: atlantic turbot, isolate: AOZZmale01, sex: male	52904	ASM1334776v1	GCA_013347765.1	GenBank		Chromosome	20466349	556679315	2020-06-12		PRJNA631898	SAMN14896287
+Antennarius maculatus	warty frogfish	isolate: fAntMac1	882753	fAntMac1.alt	GCA_013347815.1	GenBank		Contig	380060	530348589	2020-06-12		PRJNA561980	SAMN12623626
+Oreochromis niloticus	Nile tilapia	breed: Japanese, sex: female	8128	XX_nile	GCA_013350305.1	GenBank		Chromosome	2478287	993468885	2020-06-18		PRJNA609616	SAMN14256593
+Antennarius maculatus	warty frogfish	isolate: fAntMac1	882753	fAntMac1.pri	GCA_013358685.1	GenBank		Chromosome	10114706	549930323	2020-06-12		PRJNA561983	SAMN12623626
+Oreochromis aureus	blue tilapia	breed: Guangdong, sex: male, strain: Israel	47969	ZZ_aureus	GCA_013358895.1	GenBank		Chromosome	4182292	1005558595	2020-06-18		PRJNA609616	SAMN14256941
+Menidia beryllina	inland silverside	ecotype: Colorado, isolate: SB-RC-10X-2017	269057	ASM1336337v1	GCA_013363375.1	GenBank		Scaffold	40093	564723020	2020-06-19		PRJNA634345	SAMN14992539
+Perca flavescens	yellow perch	isolate: individual 7	8167	MU_Pfla_1.0	GCA_013375545.1	GenBank		Contig	3466784	972456123	2020-06-29		PRJNA638629	SAMN15198649
+Percina caprodes	logperch	isolate: individual 2	54317	MU_Pcap_1.0	GCA_013375575.1	GenBank		Scaffold	1429287	1011959657	2020-06-29		PRJNA638626	SAMN15198648
+Betta splendens	Siamese fighting fish	isolate: SP2018	158456	Bspl.v1.2018	GCA_013403625.1	GenBank		Chromosome	2171468	440784772	2020-07-13		PRJNA592275	SAMN13419572
+Amphilophus citrinellus	Midas cichlid	isolate: fMPI-2012, sex: female	61819	ASM1343575v1	GCA_013435755.1	GenBank		Chromosome	3839513	961214450	2020-07-23		PRJNA643830	SAMN15430250
+Acanthopagrus latus	yellowfin seabream	ecotype: Guangdong, sex: female, strain: AL-2020-SCSFRI	8177	ASM1343651v1	GCA_013436515.1	GenBank		Chromosome	1174323	806072371	2020-07-23		PRJNA566022	SAMN12777031
+Gasterosteus nipponicus			1778380	Gnip_1.0	GCA_014132575.1	GenBank		Scaffold	544634	599537287	2020-07-29		PRJDB9841	SAMD00226355
+Oryzias melastigma	Indian medaka	isolate: bigg-433, sex: male	30732	ASM1417009v1	GCA_014170095.1	GenBank	From INSDC submitter	Scaffold	707795	844166318	2020-08-12	25699	PRJNA556761	SAMN12368440
+Sciaenops ocellatus	red drum	isolate: XU1910, sex: female	76340	ASM1418314v1	GCA_014183145.1	GenBank		Chromosome	151930	684633790	2020-08-13		PRJNA578506	SAMN13064845
+Nibea albiflora	white flower croaker	isolate: ZJHYS-2018, sex: female	240163	ASM1428187v1	GCA_014281875.1	GenBank		Chromosome	4420150	627578634	2020-08-24		PRJNA577200	SAMN13037310
+Nothobranchius furzeri	turquoise killifish	sex: male, strain: GRZ	105023	MPIA_NFZ_2.0	GCA_014300015.1	GenBank	From INSDC submitter	Chromosome	26004	1052345740	2020-08-26	20242	PRJNA599375	SAMN13746779
+Eleutheronema tetradactylum	Indian salmon	isolate: MA-2019	210139	CUHK_ma_10x	GCA_014490765.1	GenBank		Scaffold	30813	610497648	2020-09-08		PRJNA576868	SAMN13011971
+Oryzias celebensis	Celebes medaka	strain: Ujung pandang (RS278)	126373	OryCel_1.0	GCA_014656515.1	GenBank		Scaffold	6114092	688088162	2020-09-12		PRJDB10371	SAMD00239084
+Sebastes schlegelii	Schlegel's black rockfish	isolate: QAU-006	214486	ASM1467356v1	GCA_014673565.1	GenBank		Chromosome	5473395	848024649	2020-09-21		PRJNA516036	SAMN10781578
+Lucifuga dentata	toothed Cuban cusk-eel	isolate: DC2019, sex: female	670423	Ldentata1.0	GCA_014773175.1	GenBank	From INSDC submitter	Scaffold	62305	630651555	2020-09-28	29968	PRJNA562121	SAMN12634698
+Odontesthes bonariensis	pejerrey	isolate: GSChascomus1, sex: male	219752	GWU_Obon_1.1	GCA_014825785.1	GenBank		Scaffold	14340	870329685	2020-09-30		PRJNA327688	SAMN09607192
+Xenentodon cancila	freshwater garfish	isolate: fXenCan1, sex: male	129108	fXenCan1.alt	GCA_014839645.1	GenBank		Scaffold	211426	658557970	2020-09-30		PRJNA561974	SAMN12623622
+Anableps anableps	largescale foureyes	isolate: fAnaAna1, sex: male	195821	fAnaAna1.pri	GCA_014839685.1	GenBank		Chromosome	17460000	867616482	2020-09-30		PRJNA561985	SAMN12623628
+Anableps anableps	largescale foureyes	isolate: fAnaAna1, sex: male	195821	fAnaAna1.alt	GCA_014839705.1	GenBank		Contig	112127	445542990	2020-09-30		PRJNA561986	SAMN12623628
+Xenentodon cancila	freshwater garfish	isolate: fXenCan1, sex: male	129108	fXenCan1.pri	GCA_014839995.1	GenBank		Chromosome	2195850	736198484	2020-09-30		PRJNA561973	SAMN12623622
+Micropterus salmoides	largemouth bass	ecotype: aquatic, isolate: LMB-PRFRI, sex: female	27706	ASM1485139v1	GCA_014851395.1	GenBank		Scaffold	1227323	963597430	2020-10-05		PRJNA640112	SAMN15299117
+Nematolebias whitei	Rio pearlfish	isolate: Nwh7, sex: female	451745	NemWhi1	GCA_014905685.1	GenBank		Scaffold	19984	1218316901	2020-10-22		PRJNA560526	SAMN12588121
+Oreochromis tanganicae		isolate: JAB6, sex: male	8142	JAB6.scf	GCA_015052225.1	GenBank		Scaffold	13689	743038855	2020-10-28		PRJNA550295	SAMN12123811
+Tropheus moorii	blunthead cichlid	isolate: JBH5, sex: female	8150	JBH5.scf	GCA_015052245.1	GenBank		Scaffold	5745	671742922	2020-10-28		PRJNA550295	SAMN12123831
+Cyprichromis pavo		isolate: JEB2, sex: male	309881	JEB2.scf	GCA_015052265.1	GenBank		Scaffold	7608	684650755	2020-10-28		PRJNA550295	SAMN12123846
+Petrochromis trewavasae	threadfin cichlid	isolate: IWC9, sex: male	244518	IWC9.scf	GCA_015052285.1	GenBank		Scaffold	11868	709996764	2020-10-28		PRJNA550295	SAMN12123772
+Hemibates koningsi		isolate: IZA5	2126561	IZA5.scf	GCA_015052305.1	GenBank		Scaffold	10032	725816905	2020-10-28		PRJNA550295	SAMN12123797
+Gnathochromis permaxillaris		isolate: IUI5, sex: male	143505	IUI5.scf	GCA_015052325.1	GenBank		Scaffold	7170	692581368	2020-10-28		PRJNA550295	SAMN12123759
+Neolamprologus prochilus		isolate: IVH2, sex: female	449324	IVH2.scf	GCA_015052335.1	GenBank		Scaffold	5308	670826502	2020-10-28		PRJNA550295	SAMN12123769
+Lamprologus callipterus		isolate: IPH2, sex: male	32501	IPH2.scf	GCA_015052345.1	GenBank		Scaffold	9409	705074517	2020-10-28		PRJNA550295	SAMN12123702
+Limnochromis abeelei		isolate: ITB4, sex: male	286579	ITB4.scf	GCA_015052385.1	GenBank		Scaffold	9174	694208540	2020-10-28		PRJNA550295	SAMN12123746
+Altolamprologus calvus		isolate: IOE3, sex: female	34792	IOE3.scf	GCA_015052405.1	GenBank		Scaffold	8227	703299116	2020-10-28		PRJNA550295	SAMN12123691
+Pseudosimochromis curvifrons		isolate: AYC7, sex: male	167848	AYC7.scf	GCA_015052425.1	GenBank		Scaffold	10150	705940351	2020-10-28		PRJNA550295	SAMN12123616
+Cyprichromis zonatus		isolate: GPC9, sex: male	309894	GPC9.scf	GCA_015052445.1	GenBank		Scaffold	10175	696218319	2020-10-28		PRJNA550295	SAMN12123638
+Xenotilapia sp. 'papilio sunflower'		isolate: GPF8, sex: male	240487	GPF8.scf	GCA_015052465.1	GenBank		Scaffold	5011	665658366	2020-10-28		PRJNA550295	SAMN12123640
+Lamprologus ocellatus		isolate: ILD3, sex: female	195090	ILD3.scf	GCA_015052485.1	GenBank		Scaffold	6093	683075113	2020-10-28		PRJNA550295	SAMN12123656
+Gnathochromis pfefferi		isolate: AWB7, sex: male	32498	AWB7.scf	GCA_015052505.1	GenBank		Scaffold	7499	684035700	2020-10-28		PRJNA550295	SAMN12123602
+Petrochromis sp. 'orthognathus ikola' AB-2019		isolate: LFA8, sex: female	2591298	LFA8.scf	GCA_015052525.1	GenBank		Scaffold	6620	681483515	2020-10-28		PRJNA550295	SAMN12124070
+Neolamprologus devosi		isolate: LEH2, sex: male	452213	LEH2.scf	GCA_015052545.1	GenBank		Scaffold	9800	710808205	2020-10-28		PRJNA550295	SAMN12124066
+Pseudosimochromis marginatus		isolate: KCE7, sex: male	46578	KCE7.scf	GCA_015052565.1	GenBank		Scaffold	11713	706278120	2020-10-28		PRJNA550295	SAMN12123978
+Simochromis diagramma		isolate: AUD8, sex: female	43689	AUD8.scf	GCA_015052585.1	GenBank		Scaffold	11212	706606566	2020-10-28		PRJNA550295	SAMN12123590
+Tropheus sp. 'lunatus' AB-2019		isolate: KED7, sex: female	2591309	KED7.scf	GCA_015052595.1	GenBank		Scaffold	7234	688421799	2020-10-28		PRJNA550295	SAMN12123992
+Neolamprologus pleuromaculatus		isolate: JZF1, sex: male	2591257	JZF1.scf	GCA_015052625.1	GenBank		Scaffold	6990	693565144	2020-10-28		PRJNA550295	SAMN12123962
+Benitochromis conjunctus		isolate: JWE4, sex: male	1514669	JWE4.scf	GCA_015052645.1	GenBank		Scaffold	6902	665781484	2020-10-28		PRJNA550295	SAMN12123899
+Apistogramma diplotaenia		isolate: JWD9, sex: male	2591248	JWD9.scf	GCA_015052665.1	GenBank		Scaffold	7784	627074439	2020-10-28		PRJNA550295	SAMN12123895
+Julidochromis sp. 'unterfels' AB-2019		isolate: JWA2, sex: female	2591276	JWA2.scf	GCA_015052685.1	GenBank		Scaffold	11439	718430107	2020-10-28		PRJNA550295	SAMN12123878
+Tropheus sp. 'black'		isolate: JVC3, sex: female	1818577	JVC3.scf	GCA_015052705.1	GenBank		Scaffold	12405	712498882	2020-10-28		PRJNA550295	SAMN12123868
+Spathodus erythrodon		isolate: JUB7, sex: female	52956	JUB7.scf	GCA_015052725.1	GenBank		Scaffold	7973	694763626	2020-10-28		PRJNA550295	SAMN12123861
+Chaenogobius annularis	forktongue goby	strain: Asamushi_draft_2	166741	agohaze_1	GCA_015082035.1	GenBank		Scaffold	803221	747409675	2020-10-21		PRJDB7125	SAMD00131633
+Chalinochromis brichardi		isolate: AVA9, sex: female	34794	AVA9.scf	GCA_015102055.1	GenBank		Scaffold	7357	695644622	2020-10-29		PRJNA550295	SAMN12123596
+Xenotilapia sima		isolate: IUF7, sex: male	32515	IUF7.scf	GCA_015102085.1	GenBank		Scaffold	7992	695915575	2020-10-29		PRJNA550295	SAMN12123755
+Lepidiolamprologus elongatus		isolate: AUG8, sex: female	32503	AUG8.scf	GCA_015102115.1	GenBank		Scaffold	6445	686380566	2020-10-29		PRJNA550295	SAMN12123594
+Ctenochromis horei		isolate: AVA8, sex: male	194657	AVA8.scf	GCA_015102135.1	GenBank		Scaffold	7663	687435822	2020-10-29		PRJNA550295	SAMN12123595
+Simochromis diagramma		isolate: AUE1, sex: male	43689	AUE1.scf	GCA_015102155.1	GenBank		Scaffold	10334	702248343	2020-10-29		PRJNA550295	SAMN12123591
+Variabilichromis moorii		isolate: AUC4, sex: male	34807	AUC4.scf	GCA_015102175.1	GenBank		Scaffold	7350	697536122	2020-10-29		PRJNA550295	SAMN12123589
+Neolamprologus fasciatus		isolate: AUE7, sex: male	272721	AUE7.scf	GCA_015102195.1	GenBank		Scaffold	8402	707392205	2020-10-29		PRJNA550295	SAMN12123593
+Variabilichromis moorii		isolate: AUC3, sex: female	34807	AUC3.scf	GCA_015102225.1	GenBank		Scaffold	10882	716053702	2020-10-29		PRJNA550295	SAMN12123588
+Xenotilapia papilio		isolate: A206, sex: female	559346	A206.scf	GCA_015102255.1	GenBank		Scaffold	6907	700596226	2020-10-29		PRJNA550295	SAMN12123584
+Pseudosimochromis babaulti		isolate: AUB6, sex: male	8156	AUB6.scf	GCA_015102275.1	GenBank		Scaffold	10123	705147137	2020-10-29		PRJNA550295	SAMN12123587
+Aulonocranus dewindti		isolate: AUA9, sex: female	27731	AUA9.scf	GCA_015102295.1	GenBank		Scaffold	6878	678090864	2020-10-29		PRJNA550295	SAMN12123586
+Aulonocranus dewindti		isolate: AUA1, sex: female	27731	AUA1.scf	GCA_015102315.1	GenBank		Scaffold	7123	683744053	2020-10-29		PRJNA550295	SAMN12123585
+Neolamprologus hecqui		isolate: A142, sex: male	329912	A142.scf	GCA_015102335.1	GenBank		Scaffold	8563	715079083	2020-10-29		PRJNA550295	SAMN12123582
+Neolamprologus nigriventris		isolate: A108, sex: female	309900	A108.scf	GCA_015102355.1	GenBank		Scaffold	9382	714664917	2020-10-29		PRJNA550295	SAMN12123581
+Benthochromis tricoti		isolate: LDA9, sex: female	158760	LDA9.scf	GCA_015102395.1	GenBank		Scaffold	6156	677888442	2020-10-29		PRJNA550295	SAMN12124045
+Tilapia brevimanus		isolate: JWF9, sex: female	158772	JWF9.scf	GCA_015102415.1	GenBank		Scaffold	11674	746799404	2020-10-29		PRJNA550295	SAMN12123913
+Neolamprologus calliurus		isolate: INC7, sex: female	34801	INC7.scf	GCA_015102495.1	GenBank		Scaffold	8365	685605627	2020-10-29		PRJNA550295	SAMN12123676
+Neolamprologus sexfasciatus		isolate: IND7, sex: male	559353	IND7.scf	GCA_015102515.1	GenBank		Scaffold	6282	688849680	2020-10-29		PRJNA550295	SAMN12123677
+Neolamprologus modestus		isolate: IMH3, sex: female	272725	IMH3.scf	GCA_015102555.1	GenBank		Scaffold	9657	710568538	2020-10-29		PRJNA550295	SAMN12123674
+Xenotilapia nasus		isolate: IMF7, sex: male	2591263	IMF7.scf	GCA_015102575.1	GenBank		Scaffold	7539	674943917	2020-10-29		PRJNA550295	SAMN12123671
+Neolamprologus modestus		isolate: IMG9, sex: male	272725	IMG9.scf	GCA_015102595.1	GenBank		Scaffold	6844	691317804	2020-10-29		PRJNA550295	SAMN12123673
+Julidochromis sp. 'kombe' AB-2019		isolate: INA6, sex: female	2591273	INA6.scf	GCA_015102605.1	GenBank		Scaffold	7283	677598341	2020-10-29		PRJNA550295	SAMN12123675
+Xenotilapia nasus		isolate: IMF8, sex: female	2591263	IMF8.scf	GCA_015102635.1	GenBank		Scaffold	8211	701096423	2020-10-29		PRJNA550295	SAMN12123672
+Telmatochromis temporalis		isolate: IMB3, sex: male	32511	IMB3.scf	GCA_015102655.1	GenBank		Scaffold	5514	651608604	2020-10-29		PRJNA550295	SAMN12123667
+Neolamprologus obscurus		isolate: IMA2, sex: male	559352	IMA2.scf	GCA_015102675.1	GenBank		Scaffold	7921	686328513	2020-10-29		PRJNA550295	SAMN12123666
+Lepidiolamprologus kendalli		isolate: IMD1, sex: male	329923	IMD1.scf	GCA_015102695.1	GenBank		Scaffold	10025	712814048	2020-10-29		PRJNA550295	SAMN12123669
+Lepidiolamprologus kendalli		isolate: IMD2, sex: female	329923	IMD2.scf	GCA_015102705.1	GenBank		Scaffold	5846	679556897	2020-10-29		PRJNA550295	SAMN12123670
+Telmatochromis temporalis		isolate: IMB4, sex: female	32511	IMB4.scf	GCA_015102735.1	GenBank		Scaffold	6984	683388748	2020-10-29		PRJNA550295	SAMN12123668
+Neolamprologus obscurus		isolate: IMA1, sex: female	559352	IMA1.scf	GCA_015102755.1	GenBank		Scaffold	8147	690232326	2020-10-29		PRJNA550295	SAMN12123665
+Benthochromis melanoides		isolate: ILG3, sex: female	299336	ILG3.scf	GCA_015102775.1	GenBank		Scaffold	8230	691444567	2020-10-29		PRJNA550295	SAMN12123662
+Bathybates graueri		isolate: ILG7, sex: male	293468	ILG7.scf	GCA_015102795.1	GenBank		Scaffold	7795	707439858	2020-10-29		PRJNA550295	SAMN12123663
+Benthochromis horii		isolate: ILF8, sex: male	559342	ILF8.scf	GCA_015102815.1	GenBank		Scaffold	8411	691640671	2020-10-29		PRJNA550295	SAMN12123661
+Neolamprologus mustax		isolate: ILH1, sex: male	449322	ILH1.scf	GCA_015102835.1	GenBank		Scaffold	5833	676535975	2020-10-29		PRJNA550295	SAMN12123664
+Neolamprologus sp. 'kombe' AB-2019		isolate: ILE6, sex: female	2591287	ILE6.scf	GCA_015102855.1	GenBank		Scaffold	6398	677961402	2020-10-29		PRJNA550295	SAMN12123659
+Bathybates leo		isolate: ILF7, sex: female	293470	ILF7.scf	GCA_015102875.1	GenBank		Scaffold	6491	683123695	2020-10-29		PRJNA550295	SAMN12123660
+Neolamprologus sp. 'kombe' AB-2019		isolate: ILE5, sex: male	2591287	ILE5.scf	GCA_015102895.1	GenBank		Scaffold	5081	627962048	2020-10-29		PRJNA550295	SAMN12123658
+Julidochromis sp. 'kombe' AB-2019		isolate: ILD9, sex: male	2591273	ILD9.scf	GCA_015102915.1	GenBank		Scaffold	7872	683487422	2020-10-29		PRJNA550295	SAMN12123657
+Lamprologus ocellatus		isolate: ILC1, sex: male	195090	ILC1.scf	GCA_015102935.1	GenBank		Scaffold	7327	677293717	2020-10-29		PRJNA550295	SAMN12123655
+Neolamprologus mustax		isolate: ILB4, sex: female	449322	ILB4.scf	GCA_015102955.1	GenBank		Scaffold	7541	695925140	2020-10-29		PRJNA550295	SAMN12123652
+Telmatochromis sp. 'lufubu' AB-2019		isolate: HXC8, sex: male	2591305	HXC8.scf	GCA_015102975.1	GenBank		Scaffold	7514	700980058	2020-10-29		PRJNA550295	SAMN12123650
+Neolamprologus brevis		isolate: ILB7, sex: female	34800	ILB7.scf	GCA_015102995.1	GenBank		Scaffold	6781	665616206	2020-10-29		PRJNA550295	SAMN12123654
+Neolamprologus brevis		isolate: ILB6, sex: male	34800	ILB6.scf	GCA_015103015.1	GenBank		Scaffold	6608	665718898	2020-10-29		PRJNA550295	SAMN12123653
+Neolamprologus calliurus		isolate: ILA7, sex: male	34801	ILA7.scf	GCA_015103035.1	GenBank		Scaffold	8168	698644120	2020-10-29		PRJNA550295	SAMN12123651
+Orthochromis indermauri		isolate: HXC7, sex: male	2527915	HXC7.scf	GCA_015103055.1	GenBank		Scaffold	6700	681965277	2020-10-29		PRJNA550295	SAMN12123649
+Orthochromis indermauri		isolate: HXC6, sex: female	2527915	HXC6.scf	GCA_015103075.1	GenBank		Scaffold	10058	715093360	2020-10-29		PRJNA550295	SAMN12123648
+Haplochromis sp. Chipwa		isolate: HXC5, sex: female	1892571	HXC5.scf	GCA_015103095.1	GenBank		Scaffold	9716	700233646	2020-10-29		PRJNA550295	SAMN12123647
+Julidochromis transcriptus	masked julie	isolate: HFG1287, sex: male	70784	HFG1287.scf	GCA_015103115.1	GenBank		Scaffold	9288	713111330	2020-10-29		PRJNA550295	SAMN12123645
+Haplochromis sp. Chipwa		isolate: HXC4, sex: male	1892571	HXC4.scf	GCA_015103135.1	GenBank		Scaffold	7331	674352407	2020-10-29		PRJNA550295	SAMN12123646
+Petrochromis fasciolatus		isolate: GPH7, sex: male	287489	GPH7.scf	GCA_015103155.1	GenBank		Scaffold	6733	673260571	2020-10-29		PRJNA550295	SAMN12123644
+Xenotilapia sp. 'papilio sunflower'		isolate: GPF9, sex: female	240487	GPF9.scf	GCA_015103175.1	GenBank		Scaffold	6722	690032972	2020-10-29		PRJNA550295	SAMN12123641
+Cyprichromis zonatus		isolate: GPD1, sex: female	309894	GPD1.scf	GCA_015103195.1	GenBank		Scaffold	7134	673900190	2020-10-29		PRJNA550295	SAMN12123639
+Neolamprologus cylindricus		isolate: GPH1, sex: male	34804	GPH1.scf	GCA_015103215.1	GenBank		Scaffold	9984	706458197	2020-10-29		PRJNA550295	SAMN12123642
+Neolamprologus cylindricus		isolate: GPH2, sex: female	34804	GPH2.scf	GCA_015103235.1	GenBank		Scaffold	10117	711903753	2020-10-29		PRJNA550295	SAMN12123643
+Paracyprichromis nigripinnis		isolate: GPC6, sex: female	309875	GPC6.scf	GCA_015103255.1	GenBank		Scaffold	6972	678539533	2020-10-29		PRJNA550295	SAMN12123637
+Paracyprichromis nigripinnis		isolate: GPC4, sex: male	309875	GPC4.scf	GCA_015103275.1	GenBank		Scaffold	10563	701602761	2020-10-29		PRJNA550295	SAMN12123636
+Ptychochromis oligocanthus		isolate: FPO1, sex: male	2591259	FPO1.scf	GCA_015103295.1	GenBank		Scaffold	3997	707022484	2020-10-29		PRJNA550295	SAMN12123633
+Bathybates fasciatus		isolate: GPB2, sex: female	219385	GPB2.scf	GCA_015103315.1	GenBank		Scaffold	6363	680422350	2020-10-29		PRJNA550295	SAMN12123635
+Trematocara nigrifrons		isolate: GPA1, sex: female	1131402	GPA1.scf	GCA_015103335.1	GenBank		Scaffold	5584	639062091	2020-10-29		PRJNA550295	SAMN12123634
+Trematochromis benthicola		isolate: DMD1, sex: male	1171431	DMD1.scf	GCA_015103355.1	GenBank		Scaffold	7736	703007347	2020-10-29		PRJNA550295	SAMN12123632
+Callochromis macrops		isolate: BND3, sex: male	32491	BND3.scf	GCA_015103375.1	GenBank		Scaffold	6898	690412700	2020-10-29		PRJNA550295	SAMN12123630
+Callochromis macrops		isolate: BND5, sex: female	32491	BND5.scf	GCA_015103395.1	GenBank		Scaffold	7844	698766750	2020-10-29		PRJNA550295	SAMN12123631
+Enantiopus melanogenys		isolate: BNC5, sex: female	2591250	BNC5.scf	GCA_015103415.1	GenBank		Scaffold	8477	707231386	2020-10-29		PRJNA550295	SAMN12123629
+Cyprichromis sp. 'kibishi' AB-2019		isolate: Bel18, sex: female	2591271	Bel18.scf	GCA_015103435.1	GenBank		Scaffold	7003	674991828	2020-10-29		PRJNA550295	SAMN12123627
+Trematocara variabile		isolate: Bel33, sex: female	1452741	Bel33.scf	GCA_015103455.1	GenBank		Scaffold	4100	597795682	2020-10-29		PRJNA550295	SAMN12123628
+Cyprichromis sp. 'kibishi' AB-2019		isolate: Bel16, sex: male	2591271	Bel16.scf	GCA_015103475.1	GenBank		Scaffold	6236	661094487	2020-10-29		PRJNA550295	SAMN12123626
+Neolamprologus hecqui		isolate: Bel13	329912	Bel13.scf	GCA_015103495.1	GenBank		Scaffold	6251	671934787	2020-10-29		PRJNA550295	SAMN12123624
+Neolamprologus hecqui		isolate: Bel14	329912	Bel14.scf	GCA_015103515.1	GenBank		Scaffold	6420	678459838	2020-10-29		PRJNA550295	SAMN12123625
+Ophthalmotilapia heterodonta		isolate: Bel12, sex: male	68045	Bel12.scf	GCA_015103535.1	GenBank		Scaffold	6680	683285184	2020-10-29		PRJNA550295	SAMN12123623
+Chalinochromis popelini		isolate: Bel09, sex: female	32494	Bel09.scf	GCA_015103555.1	GenBank		Scaffold	7255	689823753	2020-10-29		PRJNA550295	SAMN12123622
+Ophthalmotilapia heterodonta		isolate: Bel06, sex: male	68045	Bel06.scf	GCA_015103575.1	GenBank		Scaffold	5417	664310370	2020-10-29		PRJNA550295	SAMN12123620
+Xenotilapia sp. 'kilesa' AB-2019		isolate: Bel03, sex: male	2591313	Bel03.scf	GCA_015103595.1	GenBank		Scaffold	5597	662012010	2020-10-29		PRJNA550295	SAMN12123619
+Chalinochromis popelini		isolate: Bel07, sex: male	32494	Bel07.scf	GCA_015103615.1	GenBank		Scaffold	4386	663284680	2020-10-29		PRJNA550295	SAMN12123621
+Xenotilapia sp. 'kilesa' AB-2019		isolate: Bel01, sex: male	2591313	Bel01.scf	GCA_015103635.1	GenBank		Scaffold	9422	710886173	2020-10-29		PRJNA550295	SAMN12123618
+Cyathopharynx furcifer		isolate: AYE5, sex: female	27741	AYE5.scf	GCA_015103655.1	GenBank		Scaffold	7725	693095359	2020-10-29		PRJNA550295	SAMN12123617
+Ophthalmotilapia nasuta		isolate: AXH6, sex: male	68046	AXH6.scf	GCA_015103675.1	GenBank		Scaffold	7160	689308810	2020-10-29		PRJNA550295	SAMN12123614
+Neolamprologus fasciatus		isolate: AXD5, sex: female	272721	AXD5.scf	GCA_015103695.1	GenBank		Scaffold	7968	699856313	2020-10-29		PRJNA550295	SAMN12123612
+Ophthalmotilapia nasuta		isolate: AXH8, sex: female	68046	AXH8.scf	GCA_015103715.1	GenBank		Scaffold	7442	692589657	2020-10-29		PRJNA550295	SAMN12123615
+Pseudosimochromis curvifrons		isolate: AXF8, sex: female	167848	AXF8.scf	GCA_015103735.1	GenBank		Scaffold	8483	698702596	2020-10-29		PRJNA550295	SAMN12123613
+Xenotilapia spiloptera		isolate: AXB8, sex: female	240486	AXB8.scf	GCA_015103755.1	GenBank		Scaffold	6950	696071628	2020-10-29		PRJNA550295	SAMN12123611
+Ctenochromis horei		isolate: AXA7, sex: female	194657	AXA7.scf	GCA_015103775.1	GenBank		Scaffold	8597	691579143	2020-10-29		PRJNA550295	SAMN12123609
+Xenotilapia spiloptera		isolate: AXB5, sex: male	240486	AXB5.scf	GCA_015103795.1	GenBank		Scaffold	7181	695906706	2020-10-29		PRJNA550295	SAMN12123610
+Limnotilapia dardennii		isolate: AWI5, sex: female	244511	AWI5.scf	GCA_015103815.1	GenBank		Scaffold	7015	683730957	2020-10-29		PRJNA550295	SAMN12123607
+Limnotilapia dardennii		isolate: AWI6, sex: male	244511	AWI6.scf	GCA_015103835.1	GenBank		Scaffold	6766	682546233	2020-10-29		PRJNA550295	SAMN12123608
+Gnathochromis pfefferi		isolate: AWE2, sex: female	32498	AWE2.scf	GCA_015103855.1	GenBank		Scaffold	7081	680179288	2020-10-29		PRJNA550295	SAMN12123605
+Cyathopharynx furcifer		isolate: AVH2, sex: male	27741	AVH2.scf	GCA_015103875.1	GenBank		Scaffold	7590	689949097	2020-10-29		PRJNA550295	SAMN12123601
+Petrochromis polyodon		isolate: AWI4, sex: female	244514	AWI4.scf	GCA_015103895.1	GenBank		Scaffold	6855	684391845	2020-10-29		PRJNA550295	SAMN12123606
+Petrochromis polyodon		isolate: AWB9, sex: male	244514	AWB9.scf	GCA_015103915.1	GenBank		Scaffold	6985	684673751	2020-10-29		PRJNA550295	SAMN12123603
+Enantiopus melanogenys		isolate: AWC5, sex: male	2591250	AWC5.scf	GCA_015103935.1	GenBank		Scaffold	7434	697822003	2020-10-29		PRJNA550295	SAMN12123604
+Lepidiolamprologus attenuatus		isolate: AVG5, sex: female	272720	AVG5.scf	GCA_015103955.1	GenBank		Scaffold	7519	696192362	2020-10-29		PRJNA550295	SAMN12123600
+Lepidiolamprologus attenuatus		isolate: AVD4, sex: male	272720	AVD4.scf	GCA_015103975.1	GenBank		Scaffold	6114	681975098	2020-10-29		PRJNA550295	SAMN12123599
+Lepidiolamprologus elongatus		isolate: AUE6, sex: male	32503	AUE6.scf	GCA_015103995.1	GenBank		Scaffold	5650	677572979	2020-10-29		PRJNA550295	SAMN12123592
+Pseudosimochromis babaulti		isolate: AVB6, sex: female	8156	AVB6.scf	GCA_015104015.1	GenBank		Scaffold	9714	708187066	2020-10-29		PRJNA550295	SAMN12123598
+Chalinochromis brichardi		isolate: AVB2, sex: male	34794	AVB2.scf	GCA_015104035.1	GenBank		Scaffold	6709	688018494	2020-10-29		PRJNA550295	SAMN12123597
+Neolamprologus crassus		isolate: IVF1, sex: female	2591256	IVF1.scf	GCA_015104075.1	GenBank		Scaffold	8405	696710312	2020-10-29		PRJNA550295	SAMN12123765
+Neolamprologus crassus		isolate: IVE8, sex: male	2591256	IVE8.scf	GCA_015104155.1	GenBank		Scaffold	7629	689236898	2020-10-29		PRJNA550295	SAMN12123764
+Xenotilapia bathyphila		isolate: IVB4, sex: male	240479	IVB4.scf	GCA_015104175.1	GenBank		Scaffold	8047	691266287	2020-10-29		PRJNA550295	SAMN12123762
+Xenochromis hecqui		isolate: IUI7, sex: male	452219	IUI7.scf	GCA_015104195.1	GenBank		Scaffold	8324	696183031	2020-10-29		PRJNA550295	SAMN12123760
+Bathybates graueri		isolate: IUI8, sex: female	293468	IUI8.scf	GCA_015104215.1	GenBank		Scaffold	7500	687650874	2020-10-29		PRJNA550295	SAMN12123761
+Xenotilapia bathyphila		isolate: IVB5, sex: female	240479	IVB5.scf	GCA_015104235.1	GenBank		Scaffold	7400	678670477	2020-10-29		PRJNA550295	SAMN12123763
+Reganochromis calliurus		isolate: IUI4, sex: female	70788	IUI4.scf	GCA_015104255.1	GenBank		Scaffold	9377	688230200	2020-10-29		PRJNA550295	SAMN12123758
+Xenotilapia sima		isolate: IUF8, sex: female	32515	IUF8.scf	GCA_015104275.1	GenBank		Scaffold	6888	691810432	2020-10-29		PRJNA550295	SAMN12123756
+Reganochromis calliurus		isolate: IUI1, sex: male	70788	IUI1.scf	GCA_015104295.1	GenBank		Scaffold	7202	669914143	2020-10-29		PRJNA550295	SAMN12123757
+Trematocara stigmaticum		isolate: IUE7, sex: male	2591262	IUE7.scf	GCA_015104315.1	GenBank		Scaffold	5269	659122371	2020-10-29		PRJNA550295	SAMN12123754
+Trematocara nigrifrons		isolate: IUE5, sex: male	1131402	IUE5.scf	GCA_015104335.1	GenBank		Scaffold	7084	701134653	2020-10-29		PRJNA550295	SAMN12123753
+Trematocara macrostoma		isolate: IUD9, sex: female	195092	IUD9.scf	GCA_015104355.1	GenBank		Scaffold	7524	705805415	2020-10-29		PRJNA550295	SAMN12123752
+Trematocara macrostoma		isolate: IUD8, sex: male	195092	IUD8.scf	GCA_015104375.1	GenBank		Scaffold	6350	673540315	2020-10-29		PRJNA550295	SAMN12123751
+Bathybates fasciatus		isolate: ITH3, sex: male	219385	ITH3.scf	GCA_015104405.1	GenBank		Scaffold	8373	716743677	2020-10-29		PRJNA550295	SAMN12123750
+Limnochromis staneri		isolate: ITC2, sex: male	286580	ITC2.scf	GCA_015104425.1	GenBank		Scaffold	9461	696635811	2020-10-29		PRJNA550295	SAMN12123747
+Bathybates vittatus		isolate: ITD7, sex: male	293469	ITD7.scf	GCA_015104445.1	GenBank		Scaffold	5495	684389959	2020-10-29		PRJNA550295	SAMN12123748
+Neolamprologus christyi		isolate: ITG2, sex: female	34803	ITG2.scf	GCA_015104465.1	GenBank		Scaffold	7850	699213940	2020-10-29		PRJNA550295	SAMN12123749
+Limnochromis abeelei		isolate: ITB3, sex: female	286579	ITB3.scf	GCA_015104495.1	GenBank		Scaffold	7107	689411359	2020-10-29		PRJNA550295	SAMN12123745
+Limnochromis staneri		isolate: ITA6, sex: female	286580	ITA6.scf	GCA_015104515.1	GenBank		Scaffold	12577	715886827	2020-10-29		PRJNA550295	SAMN12123743
+Gnathochromis permaxillaris		isolate: ITA4, sex: female	143505	ITA4.scf	GCA_015104535.1	GenBank		Scaffold	8427	700749853	2020-10-29		PRJNA550295	SAMN12123742
+Cyprichromis leptosoma		isolate: ISI6, sex: female	51791	ISI6.scf	GCA_015104555.1	GenBank		Scaffold	6496	672231523	2020-10-29		PRJNA550295	SAMN12123741
+Limnochromis auritus	spangled cichlid	isolate: ITB1, sex: female	27749	ITB1.scf	GCA_015104565.1	GenBank		Scaffold	7877	690306064	2020-10-29		PRJNA550295	SAMN12123744
+Lobochilotes labiatus		isolate: ISD8, sex: male	28810	ISD8.scf	GCA_015104595.1	GenBank		Scaffold	9207	685969866	2020-10-29		PRJNA550295	SAMN12123738
+Lobochilotes labiatus		isolate: ISE5, sex: female	28810	ISE5.scf	GCA_015104615.1	GenBank		Scaffold	7660	673223275	2020-10-29		PRJNA550295	SAMN12123739
+Cyprichromis leptosoma		isolate: ISI2, sex: male	51791	ISI2.scf	GCA_015104635.1	GenBank		Scaffold	7919	686586522	2020-10-29		PRJNA550295	SAMN12123740
+Altolamprologus compressiceps		isolate: ISC9, sex: female	34793	ISC9.scf	GCA_015104655.1	GenBank		Scaffold	8441	704179329	2020-10-29		PRJNA550295	SAMN12123737
+Julidochromis ornatus	golden julie	isolate: ISC1, sex: female	272722	ISC1.scf	GCA_015104675.1	GenBank		Scaffold	7535	693065394	2020-10-29		PRJNA550295	SAMN12123736
+Julidochromis ornatus	golden julie	isolate: ISB7, sex: male	272722	ISB7.scf	GCA_015104695.1	GenBank		Scaffold	7157	672971391	2020-10-29		PRJNA550295	SAMN12123735
+Neolamprologus pulcher		isolate: ISB3, sex: female	184151	ISB3.scf	GCA_015104715.1	GenBank		Scaffold	8575	688076663	2020-10-29		PRJNA550295	SAMN12123734
+Neolamprologus pulcher		isolate: ISA6, sex: male	184151	ISA6.scf	GCA_015104735.1	GenBank		Scaffold	7597	678411670	2020-10-29		PRJNA550295	SAMN12123731
+Neolamprologus savoryi		isolate: ISA8, sex: male	184152	ISA8.scf	GCA_015104745.1	GenBank		Scaffold	8508	697328879	2020-10-29		PRJNA550295	SAMN12123732
+Altolamprologus compressiceps		isolate: ISB1, sex: male	34793	ISB1.scf	GCA_015104775.1	GenBank		Scaffold	6433	682927146	2020-10-29		PRJNA550295	SAMN12123733
+Trematocara marginatum		isolate: ISA3, sex: female	1084758	ISA3.scf	GCA_015104795.1	GenBank		Scaffold	6980	678914255	2020-10-29		PRJNA550295	SAMN12123730
+Altolamprologus sp. 'compressiceps shell' AB-2019		isolate: IRH4, sex: female	2591265	IRH4.scf	GCA_015104815.1	GenBank		Scaffold	5857	653157236	2020-10-29		PRJNA550295	SAMN12123726
+Trematocara marginatum		isolate: ISA1, sex: male	1084758	ISA1.scf	GCA_015104835.1	GenBank		Scaffold	5283	636283645	2020-10-29		PRJNA550295	SAMN12123729
+Telmatochromis sp. 'shell' AB-2019		isolate: IRI9, sex: female	2591306	IRI9.scf	GCA_015104855.1	GenBank		Scaffold	7270	675863732	2020-10-29		PRJNA550295	SAMN12123728
+Telmatochromis sp. 'shell' AB-2019		isolate: IRI8, sex: male	2591306	IRI8.scf	GCA_015104875.1	GenBank		Scaffold	6771	683865305	2020-10-29		PRJNA550295	SAMN12123727
+Altolamprologus sp. 'compressiceps shell' AB-2019		isolate: IRH2, sex: male	2591265	IRH2.scf	GCA_015104895.1	GenBank		Scaffold	5613	651032924	2020-10-29		PRJNA550295	SAMN12123725
+Xenotilapia singularis		isolate: IRE3, sex: female	2591264	IRE3.scf	GCA_015104915.1	GenBank		Scaffold	5621	678491207	2020-10-29		PRJNA550295	SAMN12123722
+Ectodus descampsii	Descamp's strange-tooth cichlid	isolate: IRD8, sex: female	27743	IRD8.scf	GCA_015104925.1	GenBank		Scaffold	7763	667238878	2020-10-29		PRJNA550295	SAMN12123720
+Neolamprologus multifasciatus		isolate: IRF8, sex: female	420107	IRF8.scf	GCA_015104955.1	GenBank		Scaffold	5944	661545306	2020-10-29		PRJNA550295	SAMN12123724
+Xenotilapia singularis		isolate: IRD9, sex: male	2591264	IRD9.scf	GCA_015104975.1	GenBank		Scaffold	5159	666020613	2020-10-29		PRJNA550295	SAMN12123721
+Ectodus descampsii	Descamp's strange-tooth cichlid	isolate: IRD7, sex: male	27743	IRD7.scf	GCA_015104995.1	GenBank		Scaffold	9729	697273593	2020-10-29		PRJNA550295	SAMN12123719
+Julidochromis dickfeldi		isolate: IRC4, sex: male	449317	IRC4.scf	GCA_015105015.1	GenBank		Scaffold	9606	708899645	2020-10-29		PRJNA550295	SAMN12123717
+Julidochromis sp. 'regani south' AB-2019		isolate: IRB8, sex: male	2591275	IRB8.scf	GCA_015105035.1	GenBank		Scaffold	5984	671744614	2020-10-29		PRJNA550295	SAMN12123716
+Julidochromis dickfeldi		isolate: IRC5, sex: female	449317	IRC5.scf	GCA_015105055.1	GenBank		Scaffold	8475	687430740	2020-10-29		PRJNA550295	SAMN12123718
+Julidochromis sp. 'regani south' AB-2019		isolate: IRB2, sex: female	2591275	IRB2.scf	GCA_015105075.1	GenBank		Scaffold	7215	672223289	2020-10-29		PRJNA550295	SAMN12123715
+Lestradea perspicax		isolate: IRA2, sex: female	27747	IRA2.scf	GCA_015105095.1	GenBank		Scaffold	6554	670395631	2020-10-29		PRJNA550295	SAMN12123714
+Lestradea perspicax		isolate: IRA1, sex: male	27747	IRA1.scf	GCA_015105115.1	GenBank		Scaffold	6244	648051608	2020-10-29		PRJNA550295	SAMN12123713
+Ophthalmotilapia ventralis		isolate: IQE4, sex: female	27755	IQE4.scf	GCA_015105135.1	GenBank		Scaffold	7725	679897602	2020-10-29		PRJNA550295	SAMN12123711
+Perissodus microlepis		isolate: IQI4, sex: female	32509	IQI4.scf	GCA_015105155.1	GenBank		Scaffold	7670	681451575	2020-10-29		PRJNA550295	SAMN12123712
+Ophthalmotilapia ventralis		isolate: IQD3, sex: male	27755	IQD3.scf	GCA_015105175.1	GenBank		Scaffold	5802	668909459	2020-10-29		PRJNA550295	SAMN12123710
+Perissodus microlepis		isolate: IQC4, sex: male	32509	IQC4.scf	GCA_015105195.1	GenBank		Scaffold	9218	703474312	2020-10-29		PRJNA550295	SAMN12123709
+Paracyprichromis sp. 'brieni south' AB-2019		isolate: IQC1, sex: female	2591291	IQC1.scf	GCA_015105215.1	GenBank		Scaffold	6032	665460873	2020-10-29		PRJNA550295	SAMN12123708
+Paracyprichromis sp. 'brieni south' AB-2019		isolate: IQB9, sex: male	2591291	IQB9.scf	GCA_015105235.1	GenBank		Scaffold	7018	685889387	2020-10-29		PRJNA550295	SAMN12123707
+Haplotaxodon microlepis		isolate: IQB8, sex: male	70786	IQB8.scf	GCA_015105255.1	GenBank		Scaffold	12456	725877926	2020-10-29		PRJNA550295	SAMN12123706
+Haplotaxodon trifasciatus		isolate: IQB6, sex: female	299339	IQB6.scf	GCA_015105275.1	GenBank		Scaffold	7150	689492295	2020-10-29		PRJNA550295	SAMN12123705
+Neolamprologus caudopunctatus		isolate: IQA3, sex: male	34802	IQA3.scf	GCA_015105295.1	GenBank		Scaffold	10045	716779809	2020-10-29		PRJNA550295	SAMN12123703
+Neolamprologus caudopunctatus		isolate: IQA4, sex: female	34802	IQA4.scf	GCA_015105315.1	GenBank		Scaffold	6345	685789077	2020-10-29		PRJNA550295	SAMN12123704
+Neolamprologus tetracanthus		isolate: IPG3, sex: female	32508	IPG3.scf	GCA_015105335.1	GenBank		Scaffold	10025	711815290	2020-10-29		PRJNA550295	SAMN12123701
+Neolamprologus tetracanthus		isolate: IPF7, sex: male	32508	IPF7.scf	GCA_015105355.1	GenBank		Scaffold	7632	681445762	2020-10-29		PRJNA550295	SAMN12123700
+Xenotilapia boulengeri		isolate: IPE7, sex: female	240480	IPE7.scf	GCA_015105375.1	GenBank		Scaffold	8041	684286372	2020-10-29		PRJNA550295	SAMN12123698
+Interochromis loocki		isolate: IPF3, sex: male	683192	IPF3.scf	GCA_015105395.1	GenBank		Scaffold	8532	678029334	2020-10-29		PRJNA550295	SAMN12123699
+Xenotilapia boulengeri		isolate: IPE3, sex: male	240480	IPE3.scf	GCA_015105415.1	GenBank		Scaffold	7546	685188279	2020-10-29		PRJNA550295	SAMN12123697
+Petrochromis trewavasae ephippium		isolate: IPC1, sex: female	244512	IPC1.scf	GCA_015105435.1	GenBank		Scaffold	9685	688950699	2020-10-29		PRJNA550295	SAMN12123695
+Lamprologus lemairii		isolate: IPD6, sex: female	272724	IPD6.scf	GCA_015105455.1	GenBank		Scaffold	6854	674355417	2020-10-29		PRJNA550295	SAMN12123696
+Interochromis loocki		isolate: IPB6, sex: female	683192	IPB6.scf	GCA_015105475.1	GenBank		Scaffold	8585	694364440	2020-10-29		PRJNA550295	SAMN12123694
+Lepidiolamprologus cunningtoni		isolate: IOH5, sex: male	287481	IOH5.scf	GCA_015105495.1	GenBank		Scaffold	10910	717162431	2020-10-29		PRJNA550295	SAMN12123693
+Tropheus sp. 'red' AB-2019		isolate: IOE1, sex: female	2591312	IOE1.scf	GCA_015105515.1	GenBank		Scaffold	5851	670985934	2020-10-29		PRJNA550295	SAMN12123689
+Lepidiolamprologus cunningtoni		isolate: IOH4, sex: female	287481	IOH4.scf	GCA_015105535.1	GenBank		Scaffold	7088	695509545	2020-10-29		PRJNA550295	SAMN12123692
+Altolamprologus calvus		isolate: IOE2, sex: male	34792	IOE2.scf	GCA_015105555.1	GenBank		Scaffold	6598	679688995	2020-10-29		PRJNA550295	SAMN12123690
+Cyathopharynx foae		isolate: IOD6, sex: male	284571	IOD6.scf	GCA_015105575.1	GenBank		Scaffold	5771	647650385	2020-10-29		PRJNA550295	SAMN12123687
+Tropheus sp. 'red' AB-2019		isolate: IOD9, sex: male	2591312	IOD9.scf	GCA_015105585.1	GenBank		Scaffold	8430	691261817	2020-10-29		PRJNA550295	SAMN12123688
+Cyphotilapia gibberosa		isolate: INH9, sex: female	1355922	INH9.scf	GCA_015105615.1	GenBank		Scaffold	9156	705241427	2020-10-29		PRJNA550295	SAMN12123685
+Cyathopharynx foae		isolate: IOD4, sex: female	284571	IOD4.scf	GCA_015105635.1	GenBank		Scaffold	7316	669535682	2020-10-29		PRJNA550295	SAMN12123686
+Cyphotilapia gibberosa		isolate: INH7, sex: male	1355922	INH7.scf	GCA_015105655.1	GenBank		Scaffold	9597	707718098	2020-10-29		PRJNA550295	SAMN12123684
+Xenotilapia leptura		isolate: INF2, sex: male	559344	INF2.scf	GCA_015105675.1	GenBank		Scaffold	8776	713931601	2020-10-29		PRJNA550295	SAMN12123682
+Cyprichromis sp. 'jumbo' AB-2019		isolate: INH1, sex: male	2591270	INH1.scf	GCA_015105695.1	GenBank		Scaffold	10655	698829690	2020-10-29		PRJNA550295	SAMN12123683
+Plecodus straeleni		isolate: INE9, sex: male	167846	INE9.scf	GCA_015105715.1	GenBank		Scaffold	8956	703106879	2020-10-29		PRJNA550295	SAMN12123680
+Plecodus straeleni		isolate: INE8, sex: female	167846	INE8.scf	GCA_015105735.1	GenBank		Scaffold	12200	713795385	2020-10-29		PRJNA550295	SAMN12123679
+Xenotilapia leptura		isolate: INF1, sex: female	559344	INF1.scf	GCA_015105755.1	GenBank		Scaffold	8556	714186965	2020-10-29		PRJNA550295	SAMN12123681
+Neolamprologus sexfasciatus		isolate: IND8, sex: female	559353	IND8.scf	GCA_015105775.1	GenBank		Scaffold	5645	678978043	2020-10-29		PRJNA550295	SAMN12123678
+Telmatochromis brachygnathus		isolate: JBE8, sex: male	431670	JBE8.scf	GCA_015105895.1	GenBank		Scaffold	6690	662362837	2020-10-29		PRJNA550295	SAMN12123827
+Xenotilapia rotundiventralis		isolate: JBE6, sex: male	559347	JBE6.scf	GCA_015105915.1	GenBank		Scaffold	5610	672830152	2020-10-29		PRJNA550295	SAMN12123825
+Xenotilapia rotundiventralis		isolate: JBE7, sex: female	559347	JBE7.scf	GCA_015105935.1	GenBank		Scaffold	9596	704550209	2020-10-29		PRJNA550295	SAMN12123826
+Telmatochromis vittatus		isolate: JBD5, sex: male	34811	JBD5.scf	GCA_015105955.1	GenBank		Scaffold	7873	675515947	2020-10-29		PRJNA550295	SAMN12123823
+Xenotilapia flavipinnis	yellow sand cichlid	isolate: JAF7, sex: male	240481	JAF7.scf	GCA_015105975.1	GenBank		Scaffold	10331	714265809	2020-10-29		PRJNA550295	SAMN12123818
+Xenotilapia flavipinnis	yellow sand cichlid	isolate: JAF9, sex: female	240481	JAF9.scf	GCA_015105995.1	GenBank		Scaffold	10255	710364774	2020-10-29		PRJNA550295	SAMN12123819
+Baileychromis centropomoides		isolate: JAB7, sex: male	286574	JAB7.scf	GCA_015106015.1	GenBank		Scaffold	7752	681831021	2020-10-29		PRJNA550295	SAMN12123812
+Xenotilapia nigrolabiata		isolate: IZC7, sex: male	286602	IZC7.scf	GCA_015106035.1	GenBank		Scaffold	8744	688421214	2020-10-29		PRJNA550295	SAMN12123802
+Perissodus multidentatus		isolate: IZA9, sex: male	452216	IZA9.scf	GCA_015106055.1	GenBank		Scaffold	9692	705054391	2020-10-29		PRJNA550295	SAMN12123799
+Perissodus multidentatus		isolate: IZA8, sex: female	452216	IZA8.scf	GCA_015106075.1	GenBank		Scaffold	12300	716640519	2020-10-29		PRJNA550295	SAMN12123798
+Xenotilapia nigrolabiata		isolate: IXF4, sex: female	286602	IXF4.scf	GCA_015106095.1	GenBank		Scaffold	10130	707019787	2020-10-29		PRJNA550295	SAMN12123789
+Petrochromis famula		isolate: IYA6, sex: female	244513	IYA6.scf	GCA_015106115.1	GenBank		Scaffold	6137	656853181	2020-10-29		PRJNA550295	SAMN12123792
+Neolamprologus savoryi		isolate: IYA4, sex: female	184152	IYA4.scf	GCA_015106135.1	GenBank		Scaffold	7368	669554863	2020-10-29		PRJNA550295	SAMN12123790
+Hemibates stenosoma		isolate: IXC3, sex: female	286578	IXC3.scf	GCA_015106155.1	GenBank		Scaffold	6892	682880642	2020-10-29		PRJNA550295	SAMN12123788
+Hemibates stenosoma		isolate: IXC2, sex: male	286578	IXC2.scf	GCA_015106175.1	GenBank		Scaffold	7406	693607676	2020-10-29		PRJNA550295	SAMN12123787
+Benthochromis melanoides		isolate: IXB8, sex: male	299336	IXB8.scf	GCA_015106195.1	GenBank		Scaffold	8483	690173480	2020-10-29		PRJNA550295	SAMN12123784
+Xenotilapia caudafasciata		isolate: IXC1, sex: female	240484	IXC1.scf	GCA_015106215.1	GenBank		Scaffold	8883	686448967	2020-10-29		PRJNA550295	SAMN12123786
+Xenotilapia caudafasciata		isolate: IXB9, sex: male	240484	IXB9.scf	GCA_015106235.1	GenBank		Scaffold	5676	666649636	2020-10-29		PRJNA550295	SAMN12123785
+Greenwoodochromis bellcrossi		isolate: IXB5, sex: female	286576	IXB5.scf	GCA_015106255.1	GenBank		Scaffold	11849	715592818	2020-10-29		PRJNA550295	SAMN12123782
+Limnochromis staneri		isolate: IXB6, sex: male	286580	IXB6.scf	GCA_015106275.1	GenBank		Scaffold	6173	686726512	2020-10-29		PRJNA550295	SAMN12123783
+Trematocara unimaculatum		isolate: IXA6, sex: female	158782	IXA6.scf	GCA_015106295.1	GenBank		Scaffold	7238	705420268	2020-10-29		PRJNA550295	SAMN12123781
+Perissodus eccentricus		isolate: IXA4, sex: male	409979	IXA4.scf	GCA_015106315.1	GenBank		Scaffold	9004	703326511	2020-10-29		PRJNA550295	SAMN12123779
+Bathybates minor		isolate: IXA5, sex: female	293467	IXA5.scf	GCA_015106335.1	GenBank		Scaffold	7457	689806508	2020-10-29		PRJNA550295	SAMN12123780
+Trematocara unimaculatum		isolate: IXA3, sex: male	158782	IXA3.scf	GCA_015106355.1	GenBank		Scaffold	6266	693913544	2020-10-29		PRJNA550295	SAMN12123778
+Cunningtonia longiventralis		isolate: IWD8, sex: female	27739	IWD8.scf	GCA_015106375.1	GenBank		Scaffold	5379	667629517	2020-10-29		PRJNA550295	SAMN12123777
+Cunningtonia longiventralis		isolate: IWD7, sex: male	27739	IWD7.scf	GCA_015106395.1	GenBank		Scaffold	6585	665745250	2020-10-29		PRJNA550295	SAMN12123776
+Petrochromis trewavasae	threadfin cichlid	isolate: IWD4, sex: female	244518	IWD4.scf	GCA_015106415.1	GenBank		Scaffold	7107	687763470	2020-10-29		PRJNA550295	SAMN12123773
+Lamprologus signatus		isolate: IWD5, sex: male	420105	IWD5.scf	GCA_015106425.1	GenBank		Scaffold	6400	679415488	2020-10-29		PRJNA550295	SAMN12123774
+Lamprologus signatus		isolate: IWD6, sex: female	420105	IWD6.scf	GCA_015106455.1	GenBank		Scaffold	9060	706389436	2020-10-29		PRJNA550295	SAMN12123775
+Petrochromis horii		isolate: IWB5, sex: male	2591258	IWB5.scf	GCA_015106475.1	GenBank		Scaffold	8978	687823504	2020-10-29		PRJNA550295	SAMN12123770
+Petrochromis horii		isolate: IWB6, sex: female	2591258	IWB6.scf	GCA_015106495.1	GenBank		Scaffold	9451	702242957	2020-10-29		PRJNA550295	SAMN12123771
+Xenotilapia papilio		isolate: IVF5, sex: female	559346	IVF5.scf	GCA_015106515.1	GenBank		Scaffold	6511	672259770	2020-10-29		PRJNA550295	SAMN12123767
+Neolamprologus prochilus		isolate: IVH1, sex: male	449324	IVH1.scf	GCA_015106535.1	GenBank		Scaffold	6194	682293555	2020-10-29		PRJNA550295	SAMN12123768
+Haplochromis vanheusdeni		isolate: JWG3, sex: male	2527912	JWG3.scf	GCA_015106555.1	GenBank		Scaffold	7127	688696421	2020-10-29		PRJNA550295	SAMN12123916
+Tropheus annectens		isolate: JWG4, sex: male	8146	JWG4.scf	GCA_015106575.1	GenBank		Scaffold	12422	711870347	2020-10-29		PRJNA550295	SAMN12123917
+Xenotilapia papilio		isolate: IVF4, sex: male	559346	IVF4.scf	GCA_015106585.1	GenBank		Scaffold	8327	711027003	2020-10-29		PRJNA550295	SAMN12123766
+Thoracochromis brauschi		isolate: JWF8, sex: male	227845	JWF8.scf	GCA_015106615.1	GenBank		Scaffold	10651	709113638	2020-10-29		PRJNA550295	SAMN12123912
+Sargochromis carlottae		isolate: JWF4	311502	JWF4.scf	GCA_015106635.1	GenBank		Scaffold	10750	706231868	2020-10-29		PRJNA550295	SAMN12123908
+Coptodon bakossiorum		isolate: JWE5	870159	JWE5.scf	GCA_015106655.1	GenBank		Scaffold	10351	729867591	2020-10-29		PRJNA550295	SAMN12123900
+Pelmatolapia mariae	spotted tilapia	isolate: JWF2	158779	JWF2.scf	GCA_015106675.1	GenBank		Scaffold	13274	742559019	2020-10-29		PRJNA550295	SAMN12123906
+Serranochromis macrocephalus		isolate: JWF5, sex: male	311509	JWF5.scf	GCA_015106695.1	GenBank		Scaffold	11620	720263168	2020-10-29		PRJNA550295	SAMN12123909
+Bujurquina vittata	banded acara	isolate: JWD8, sex: male	242822	JWD8.scf	GCA_015106715.1	GenBank		Scaffold	9052	685844181	2020-10-29		PRJNA550295	SAMN12123894
+Paratilapia polleni	Pollen's cichlid	isolate: JWD5, sex: male	80772	JWD5.scf	GCA_015106735.1	GenBank		Scaffold	9481	814015474	2020-10-29		PRJNA550295	SAMN12123892
+Etia nguti		isolate: JWD3	302982	JWD3.scf	GCA_015106755.1	GenBank		Scaffold	12660	737182303	2020-10-29		PRJNA550295	SAMN12123890
+Etroplus canarensis		isolate: JWD4	302778	JWD4.scf	GCA_015106775.1	GenBank		Scaffold	10520	975368651	2020-10-29		PRJNA550295	SAMN12123891
+Paracyprichromis sp. 'tembwe' AB-2019		isolate: JWD2, sex: female	2591292	JWD2.scf	GCA_015106795.1	GenBank		Scaffold	11961	708381076	2020-10-29		PRJNA550295	SAMN12123889
+Xenotilapia ochrogenys		isolate: JVI5, sex: female	27765	JVI5.scf	GCA_015106815.1	GenBank		Scaffold	7847	697709730	2020-10-29		PRJNA550295	SAMN12123875
+Lamprologus meleagris		isolate: JWA8, sex: male	329913	JWA8.scf	GCA_015106835.1	GenBank		Scaffold	4721	646622601	2020-10-29		PRJNA550295	SAMN12123884
+Xenotilapia ochrogenys		isolate: JVH4, sex: male	27765	JVH4.scf	GCA_015106855.1	GenBank		Scaffold	7887	701404099	2020-10-29		PRJNA550295	SAMN12123874
+Lestradea stappersii		isolate: JVH3, sex: male	240473	JVH3.scf	GCA_015106875.1	GenBank		Scaffold	5471	649821599	2020-10-29		PRJNA550295	SAMN12123873
+Lestradea stappersii		isolate: JVH2, sex: female	240473	JVH2.scf	GCA_015106895.1	GenBank		Scaffold	7523	680245229	2020-10-29		PRJNA550295	SAMN12123872
+Cyprichromis microlepidotus		isolate: JVF2, sex: female	309879	JVF2.scf	GCA_015106915.1	GenBank		Scaffold	7749	680369180	2020-10-29		PRJNA550295	SAMN12123871
+Cyprichromis microlepidotus		isolate: JVE1, sex: male	309879	JVE1.scf	GCA_015106935.1	GenBank		Scaffold	6807	664892034	2020-10-29		PRJNA550295	SAMN12123870
+Tropheus sp. 'black'		isolate: JVC9, sex: male	1818577	JVC9.scf	GCA_015106955.1	GenBank		Scaffold	8476	694724529	2020-10-29		PRJNA550295	SAMN12123869
+Neolamprologus mondabu		isolate: JVB4, sex: male	272723	JVB4.scf	GCA_015106975.1	GenBank		Scaffold	9226	708906637	2020-10-29		PRJNA550295	SAMN12123866
+Neolamprologus brichardi	lyretail cichlid	isolate: JUI1, sex: male	32507	JUI1.scf	GCA_015106995.1	GenBank		Scaffold	6737	677492425	2020-10-29		PRJNA550295	SAMN12123865
+Pseudosimochromis babaulti		isolate: JUA4, sex: female	8156	JUA4.scf	GCA_015107015.1	GenBank		Scaffold	11917	715582419	2020-10-29		PRJNA550295	SAMN12123859
+Neolamprologus brichardi	lyretail cichlid	isolate: JUH9, sex: female	32507	JUH9.scf	GCA_015107025.1	GenBank		Scaffold	8256	698772456	2020-10-29		PRJNA550295	SAMN12123864
+Pseudosimochromis babaulti		isolate: JUA3, sex: male	8156	JUA3.scf	GCA_015107055.1	GenBank		Scaffold	8049	692965816	2020-10-29		PRJNA550295	SAMN12123858
+Neolamprologus furcifer		isolate: JEI8, sex: female	34805	JEI8.scf	GCA_015107075.1	GenBank		Scaffold	10647	712748803	2020-10-29		PRJNA550295	SAMN12123857
+Neolamprologus buescheri		isolate: JEI5, sex: female	329916	JEI5.scf	GCA_015107095.1	GenBank		Scaffold	8305	688595876	2020-10-29		PRJNA550295	SAMN12123855
+Triglachromis otostigma		isolate: JEG5, sex: female	34813	JEG5.scf	GCA_015107115.1	GenBank		Scaffold	7635	694207251	2020-10-29		PRJNA550295	SAMN12123852
+Neolamprologus sp. 'ventralis stripe' AB-2019		isolate: JED4, sex: male	2591288	JED4.scf	GCA_015107135.1	GenBank		Scaffold	5919	673201548	2020-10-29		PRJNA550295	SAMN12123850
+Neolamprologus sp. 'ventralis stripe' AB-2019		isolate: JED5, sex: female	2591288	JED5.scf	GCA_015107155.1	GenBank		Scaffold	9151	698729602	2020-10-29		PRJNA550295	SAMN12123851
+Cyprichromis coloratus		isolate: JEC7, sex: male	559343	JEC7.scf	GCA_015107215.1	GenBank		Scaffold	11088	702549169	2020-10-29		PRJNA550295	SAMN12123848
+Cyprichromis coloratus		isolate: JED2, sex: female	559343	JED2.scf	GCA_015107235.1	GenBank		Scaffold	10394	697932415	2020-10-29		PRJNA550295	SAMN12123849
+Cyprichromis pavo		isolate: JEB4, sex: female	309881	JEB4.scf	GCA_015107255.1	GenBank		Scaffold	7494	675130045	2020-10-29		PRJNA550295	SAMN12123847
+Plecodus paradoxus		isolate: JDI4, sex: male	452217	JDI4.scf	GCA_015107295.1	GenBank		Scaffold	9005	706454054	2020-10-29		PRJNA550295	SAMN12123845
+Lamprologus laparogramma		isolate: JDI2, sex: male	420106	JDI2.scf	GCA_015107315.1	GenBank		Scaffold	8724	707546407	2020-10-29		PRJNA550295	SAMN12123844
+Lamprologus laparogramma		isolate: JDI1, sex: female	420106	JDI1.scf	GCA_015107335.1	GenBank		Scaffold	5747	674016084	2020-10-29		PRJNA550295	SAMN12123843
+Neolamprologus meeli		isolate: JDF4, sex: female	56727	JDF4.scf	GCA_015107355.1	GenBank		Scaffold	9055	705984974	2020-10-29		PRJNA550295	SAMN12123840
+Lamprologus sp. 'ornatipinnis zambia' AB-2019		isolate: JDF5, sex: male	2591278	JDF5.scf	GCA_015107375.1	GenBank		Scaffold	8143	688859277	2020-10-29		PRJNA550295	SAMN12123841
+Lamprologus sp. 'ornatipinnis zambia' AB-2019		isolate: JDG4, sex: female	2591278	JDG4.scf	GCA_015107395.1	GenBank		Scaffold	6303	664904344	2020-10-29		PRJNA550295	SAMN12123842
+Bathybates vittatus		isolate: JDE7, sex: female	293469	JDE7.scf	GCA_015107415.1	GenBank		Scaffold	6465	699221876	2020-10-29		PRJNA550295	SAMN12123838
+Neolamprologus meeli		isolate: JDF3, sex: male	56727	JDF3.scf	GCA_015107425.1	GenBank		Scaffold	6687	678320556	2020-10-29		PRJNA550295	SAMN12123839
+Bathybates vittatus		isolate: JDE6, sex: male	293469	JDE6.scf	GCA_015107455.1	GenBank		Scaffold	6717	703166819	2020-10-29		PRJNA550295	SAMN12123837
+Bathybates hornii		isolate: JDE3, sex: male	293471	JDE3.scf	GCA_015107475.1	GenBank		Scaffold	6991	703048774	2020-10-29		PRJNA550295	SAMN12123835
+Bathybates hornii		isolate: JDE4	293471	JDE4.scf	GCA_015107495.1	GenBank		Scaffold	9145	723040783	2020-10-29		PRJNA550295	SAMN12123836
+Grammatotria lemairii		isolate: JDD7, sex: male	143506	JDD7.scf	GCA_015107505.1	GenBank		Scaffold	11878	711001987	2020-10-29		PRJNA550295	SAMN12123833
+Grammatotria lemairii		isolate: JDD8, sex: female	143506	JDD8.scf	GCA_015107535.1	GenBank		Scaffold	8383	674949586	2020-10-29		PRJNA550295	SAMN12123834
+Boulengerochromis microlepis	giant cichlid	isolate: JCF2, sex: male	32488	JCF2.scf	GCA_015107555.1	GenBank		Scaffold	11600	728877443	2020-10-29		PRJNA550295	SAMN12123832
+Telmatochromis vittatus		isolate: JBD6, sex: female	34811	JBD6.scf	GCA_015107575.1	GenBank		Scaffold	9181	692464990	2020-10-29		PRJNA550295	SAMN12123824
+Bathybates minor		isolate: JBG3, sex: male	293467	JBG3.scf	GCA_015107595.1	GenBank		Scaffold	7433	692255707	2020-10-29		PRJNA550295	SAMN12123829
+Tropheus moorii	blunthead cichlid	isolate: JBH4, sex: male	8150	JBH4.scf	GCA_015107615.1	GenBank		Scaffold	7420	671084953	2020-10-29		PRJNA550295	SAMN12123830
+Telmatochromis brachygnathus		isolate: JBE9, sex: female	431670	JBE9.scf	GCA_015107635.1	GenBank		Scaffold	7847	685666524	2020-10-29		PRJNA550295	SAMN12123828
+Xenochromis hecqui		isolate: JAH7, sex: female	452219	JAH7.scf	GCA_015107655.1	GenBank		Scaffold	10032	706074928	2020-10-29		PRJNA550295	SAMN12123822
+Tylochromis polylepis		isolate: JAH5, sex: female	32513	JAH5.scf	GCA_015107675.1	GenBank		Scaffold	7862	739120352	2020-10-29		PRJNA550295	SAMN12123821
+Limnochromis auritus	spangled cichlid	isolate: JAF5, sex: male	27749	JAF5.scf	GCA_015107695.1	GenBank		Scaffold	6501	679715219	2020-10-29		PRJNA550295	SAMN12123817
+Tylochromis polylepis		isolate: JAG2, sex: male	32513	JAG2.scf	GCA_015107715.1	GenBank		Scaffold	8530	744281720	2020-10-29		PRJNA550295	SAMN12123820
+Baileychromis centropomoides		isolate: JAE9, sex: female	286574	JAE9.scf	GCA_015107735.1	GenBank		Scaffold	9726	706241213	2020-10-29		PRJNA550295	SAMN12123816
+Boulengerochromis microlepis	giant cichlid	isolate: JAE7, sex: female	32488	JAE7.scf	GCA_015107755.1	GenBank		Scaffold	10857	726523879	2020-10-29		PRJNA550295	SAMN12123815
+Petrochromis fasciolatus		isolate: JAE1, sex: female	287489	JAE1.scf	GCA_015107775.1	GenBank		Scaffold	6007	671206416	2020-10-29		PRJNA550295	SAMN12123814
+Oreochromis tanganicae		isolate: JAC7, sex: female	8142	JAC7.scf	GCA_015107795.1	GenBank		Scaffold	13552	738938093	2020-10-29		PRJNA550295	SAMN12123813
+Neolamprologus christyi		isolate: IZI8, sex: male	34803	IZI8.scf	GCA_015107815.1	GenBank		Scaffold	7342	676309416	2020-10-29		PRJNA550295	SAMN12123809
+Lamprologus callipterus		isolate: JAB1, sex: female	32501	JAB1.scf	GCA_015107835.1	GenBank		Scaffold	5492	669404384	2020-10-29		PRJNA550295	SAMN12123810
+Eretmodus cyanostictus	Tanganyika clown	isolate: IZI3, sex: female	52954	IZI3.scf	GCA_015107855.1	GenBank		Scaffold	11244	705087176	2020-10-29		PRJNA550295	SAMN12123807
+Lamprologus lemairii		isolate: IZI7, sex: male	272724	IZI7.scf	GCA_015107875.1	GenBank		Scaffold	5584	675673633	2020-10-29		PRJNA550295	SAMN12123808
+Eretmodus cyanostictus	Tanganyika clown	isolate: IZH7, sex: male	52954	IZH7.scf	GCA_015107895.1	GenBank		Scaffold	13348	720832011	2020-10-29		PRJNA550295	SAMN12123806
+Greenwoodochromis christyi		isolate: IZF1, sex: female	299337	IZF1.scf	GCA_015107915.1	GenBank		Scaffold	9160	690713693	2020-10-29		PRJNA550295	SAMN12123805
+Greenwoodochromis christyi		isolate: IZE4, sex: male	299337	IZE4.scf	GCA_015107935.1	GenBank		Scaffold	10262	708140562	2020-10-29		PRJNA550295	SAMN12123804
+Perissodus eccentricus		isolate: IZB2, sex: male	409979	IZB2.scf	GCA_015107955.1	GenBank		Scaffold	11305	717642070	2020-10-29		PRJNA550295	SAMN12123800
+Benthochromis melanoides		isolate: IZA2, sex: female	299336	IZA2.scf	GCA_015107975.1	GenBank		Scaffold	8685	683118534	2020-10-29		PRJNA550295	SAMN12123796
+Trematocara stigmaticum		isolate: IZE1, sex: male	2591262	IZE1.scf	GCA_015107995.1	GenBank		Scaffold	6870	676193654	2020-10-29		PRJNA550295	SAMN12123803
+Haplochromis burtoni	Burton's mouthbrooder	isolate: IZA1, sex: male	8153	IZA1.scf	GCA_015108015.1	GenBank		Scaffold	6577	675588291	2020-10-29		PRJNA550295	SAMN12123795
+Trematochromis benthicola		isolate: IYA8, sex: female	1171431	IYA8.scf	GCA_015108035.1	GenBank		Scaffold	8500	699677164	2020-10-29		PRJNA550295	SAMN12123794
+Petrochromis trewavasae ephippium		isolate: IYA5, sex: male	244512	IYA5.scf	GCA_015108055.1	GenBank		Scaffold	6097	661164860	2020-10-29		PRJNA550295	SAMN12123791
+Julidochromis marlieri		isolate: JXB5, sex: male	32499	JXB5.scf	GCA_015108065.1	GenBank		Scaffold	9810	706627396	2020-10-29		PRJNA550295	SAMN12123934
+Petrochromis famula		isolate: IYA7, sex: male	244513	IYA7.scf	GCA_015108095.1	GenBank		Scaffold	6846	684081926	2020-10-29		PRJNA550295	SAMN12123793
+Telmatochromis brichardi		isolate: JXA4, sex: female	449328	JXA4.scf	GCA_015108115.1	GenBank		Scaffold	6989	685828322	2020-10-29		PRJNA550295	SAMN12123933
+Neolamprologus pectoralis		isolate: JWI6, sex: female	449323	JWI6.scf	GCA_015108135.1	GenBank		Scaffold	8475	712959601	2020-10-29		PRJNA550295	SAMN12123932
+Neolamprologus longicaudatus		isolate: JWI3, sex: female	449320	JWI3.scf	GCA_015108155.1	GenBank		Scaffold	9440	712970117	2020-10-29		PRJNA550295	SAMN12123929
+Pelvicachromis taeniatus		isolate: JWI4, sex: male	219366	JWI4.scf	GCA_015108175.1	GenBank		Scaffold	10380	693289851	2020-10-29		PRJNA550295	SAMN12123930
+Pelvicachromis taeniatus		isolate: JWI5, sex: female	219366	JWI5.scf	GCA_015108195.1	GenBank		Scaffold	8522	683755683	2020-10-29		PRJNA550295	SAMN12123931
+Neolamprologus leleupi		isolate: JWH9	40189	JWH9.scf	GCA_015108215.1	GenBank		Scaffold	8808	711353858	2020-10-29		PRJNA550295	SAMN12123927
+Neolamprologus longicaudatus		isolate: JWI2, sex: male	449320	JWI2.scf	GCA_015108235.1	GenBank		Scaffold	7714	701086066	2020-10-29		PRJNA550295	SAMN12123928
+Neolamprologus olivaceous		isolate: JWH6, sex: male	184150	JWH6.scf	GCA_015108255.1	GenBank		Scaffold	9033	711189255	2020-10-29		PRJNA550295	SAMN12123926
+Neolamprologus gracilis		isolate: JWH2, sex: male	184147	JWH2.scf	GCA_015108275.1	GenBank		Scaffold	10314	717378789	2020-10-29		PRJNA550295	SAMN12123922
+Neolamprologus olivaceous		isolate: JWH5, sex: female	184150	JWH5.scf	GCA_015108295.1	GenBank		Scaffold	7831	702510496	2020-10-29		PRJNA550295	SAMN12123925
+Neolamprologus marunguensis		isolate: JWH3, sex: male	184149	JWH3.scf	GCA_015108315.1	GenBank		Scaffold	8316	707163336	2020-10-29		PRJNA550295	SAMN12123923
+Neolamprologus marunguensis		isolate: JWH4, sex: female	184149	JWH4.scf	GCA_015108335.1	GenBank		Scaffold	8646	705262498	2020-10-29		PRJNA550295	SAMN12123924
+Neolamprologus gracilis		isolate: JWH1, sex: female	184147	JWH1.scf	GCA_015108355.1	GenBank		Scaffold	9004	706588286	2020-10-29		PRJNA550295	SAMN12123921
+Neolamprologus helianthus		isolate: JWG8, sex: female	184148	JWG8.scf	GCA_015108375.1	GenBank		Scaffold	5565	652377671	2020-10-29		PRJNA550295	SAMN12123919
+Neolamprologus helianthus		isolate: JWG9, sex: male	184148	JWG9.scf	GCA_015108395.1	GenBank		Scaffold	10620	714502186	2020-10-29		PRJNA550295	SAMN12123920
+Tilapia sparmanii		isolate: JWF7, sex: male	2591260	JWF7.scf	GCA_015108415.1	GenBank		Scaffold	12811	729330520	2020-10-29		PRJNA550295	SAMN12123911
+Tropheus annectens		isolate: JWG5, sex: female	8146	JWG5.scf	GCA_015108435.1	GenBank		Scaffold	7160	687938452	2020-10-29		PRJNA550295	SAMN12123918
+Lamprologus tigripictilis		isolate: JWF6, sex: female	795477	JWF6.scf	GCA_015108455.1	GenBank		Scaffold	8751	710946870	2020-10-29		PRJNA550295	SAMN12123910
+Pharyngochromis acuticeps		isolate: JWF3, sex: male	311497	JWF3.scf	GCA_015108475.1	GenBank		Scaffold	9655	703218156	2020-10-29		PRJNA550295	SAMN12123907
+Heterochromis multidens		isolate: JWF1	73563	JWF1.scf	GCA_015108495.1	GenBank		Scaffold	8670	833341774	2020-10-29		PRJNA550295	SAMN12123905
+Hemichromis elongatus		isolate: JWE9, sex: male	293472	JWE9.scf	GCA_015108515.1	GenBank		Scaffold	12746	694332140	2020-10-29		PRJNA550295	SAMN12123904
+Steatocranus sp. 'ultraslender' AB-2019		isolate: JWE8, sex: male	2591301	JWE8.scf	GCA_015108535.1	GenBank		Scaffold	8861	712550673	2020-10-29		PRJNA550295	SAMN12123903
+Coptodon rendalli	redbreast tilapia	isolate: JWE6, sex: male	8129	JWE6.scf	GCA_015108555.1	GenBank		Scaffold	12324	734510853	2020-10-29		PRJNA550295	SAMN12123901
+Heterotilapia buettikoferi		isolate: JWE3	2591251	JWE3.scf	GCA_015108575.1	GenBank		Scaffold	8911	720630469	2020-10-29		PRJNA550295	SAMN12123898
+Amphilophus zaliosus	arrow cichlid	isolate: JWE1, sex: male	281253	JWE1.scf	GCA_015108585.1	GenBank		Scaffold	4450	691926659	2020-10-29		PRJNA550295	SAMN12123896
+Australoheros scitulus		isolate: JWE2, sex: male	329336	JWE2.scf	GCA_015108615.1	GenBank		Scaffold	4616	709570869	2020-10-29		PRJNA550295	SAMN12123897
+Andinoacara biseriatus		isolate: JWD7	449250	JWD7.scf	GCA_015108635.1	GenBank		Scaffold	6409	682785894	2020-10-29		PRJNA550295	SAMN12123893
+Paracyprichromis sp. 'tembwe' AB-2019		isolate: JWD1, sex: male	2591292	JWD1.scf	GCA_015108655.1	GenBank		Scaffold	12518	710755336	2020-10-29		PRJNA550295	SAMN12123888
+Telmatochromis sp. 'longola' AB-2019		isolate: JWC9, sex: female	2591304	JWC9.scf	GCA_015108675.1	GenBank		Scaffold	10339	713504275	2020-10-29		PRJNA550295	SAMN12123887
+Neolamprologus variostigma		isolate: JWA6, sex: female	329914	JWA6.scf	GCA_015108695.1	GenBank		Scaffold	10891	720958981	2020-10-29		PRJNA550295	SAMN12123882
+Lamprologus meleagris		isolate: JWA9, sex: female	329913	JWA9.scf	GCA_015108715.1	GenBank		Scaffold	6313	688779800	2020-10-29		PRJNA550295	SAMN12123885
+Telmatochromis sp. 'longola' AB-2019		isolate: JWC8, sex: male	2591304	JWC8.scf	GCA_015108735.1	GenBank		Scaffold	7325	686758878	2020-10-29		PRJNA550295	SAMN12123886
+Neolamprologus pectoralis		isolate: JWA7, sex: male	449323	JWA7.scf	GCA_015108755.1	GenBank		Scaffold	9075	713762887	2020-10-29		PRJNA550295	SAMN12123883
+Neolamprologus variostigma		isolate: JWA5, sex: male	329914	JWA5.scf	GCA_015108775.1	GenBank		Scaffold	10198	715522157	2020-10-29		PRJNA550295	SAMN12123881
+Lamprologus sp. 'ornatipinnis congo' AB-2019		isolate: JWA4, sex: female	2591277	JWA4.scf	GCA_015108795.1	GenBank		Scaffold	7023	685735059	2020-10-29		PRJNA550295	SAMN12123880
+Julidochromis sp. 'unterfels' AB-2019		isolate: JWA1, sex: male	2591276	JWA1.scf	GCA_015108815.1	GenBank		Scaffold	10343	711880470	2020-10-29		PRJNA550295	SAMN12123877
+Lamprologus sp. 'ornatipinnis congo' AB-2019		isolate: JWA3, sex: male	2591277	JWA3.scf	GCA_015108835.1	GenBank		Scaffold	7381	690966169	2020-10-29		PRJNA550295	SAMN12123879
+Telmatochromis brichardi		isolate: JVI9, sex: male	449328	JVI9.scf	GCA_015108855.1	GenBank		Scaffold	7285	687890300	2020-10-29		PRJNA550295	SAMN12123876
+Neolamprologus mondabu		isolate: JVB8, sex: female	272723	JVB8.scf	GCA_015108875.1	GenBank		Scaffold	9440	705730298	2020-10-29		PRJNA550295	SAMN12123867
+Spathodus erythrodon		isolate: JUB6, sex: male	52956	JUB6.scf	GCA_015108895.1	GenBank		Scaffold	9945	693558222	2020-10-29		PRJNA550295	SAMN12123860
+Telmatochromis sp. 'dhonti north' AB-2019		isolate: JUD5, sex: female	2591302	JUD5.scf	GCA_015108915.1	GenBank		Scaffold	8747	708854752	2020-10-29		PRJNA550295	SAMN12123863
+Telmatochromis sp. 'dhonti north' AB-2019		isolate: JUD4, sex: male	2591302	JUD4.scf	GCA_015108935.1	GenBank		Scaffold	6420	664251327	2020-10-29		PRJNA550295	SAMN12123862
+Neolamprologus furcifer		isolate: JEI6, sex: male	34805	JEI6.scf	GCA_015108955.1	GenBank		Scaffold	11113	719344519	2020-10-29		PRJNA550295	SAMN12123856
+Triglachromis otostigma		isolate: JEG6, sex: male	34813	JEG6.scf	GCA_015108975.1	GenBank		Scaffold	7611	685279642	2020-10-29		PRJNA550295	SAMN12123853
+Neolamprologus buescheri		isolate: JEI4, sex: male	329916	JEI4.scf	GCA_015108995.1	GenBank		Scaffold	7665	687849017	2020-10-29		PRJNA550295	SAMN12123854
+Neolamprologus chitamwebwai		isolate: KHA7, sex: male	2591255	KHA7.scf	GCA_015109035.1	GenBank		Scaffold	8294	692038436	2020-10-29		PRJNA550295	SAMN12124009
+Neolamprologus chitamwebwai		isolate: KHA9, sex: female	2591255	KHA9.scf	GCA_015109055.1	GenBank		Scaffold	6316	668762133	2020-10-29		PRJNA550295	SAMN12124010
+Neolamprologus tretocephalus		isolate: KFH4, sex: male	40190	KFH4.scf	GCA_015109115.1	GenBank		Scaffold	6386	693070553	2020-10-29		PRJNA550295	SAMN12124005
+Neolamprologus tretocephalus		isolate: KFH5, sex: female	40190	KFH5.scf	GCA_015109125.1	GenBank		Scaffold	6685	694868712	2020-10-29		PRJNA550295	SAMN12124006
+Tropheus duboisi	dwarf Tanganyikan cichlid	isolate: KHA5, sex: female	8148	KHA5.scf	GCA_015109155.1	GenBank		Scaffold	7918	694542091	2020-10-29		PRJNA550295	SAMN12124008
+Tropheus duboisi	dwarf Tanganyikan cichlid	isolate: KHA4, sex: male	8148	KHA4.scf	GCA_015109175.1	GenBank		Scaffold	6025	679214037	2020-10-29		PRJNA550295	SAMN12124007
+Julidochromis regani	convict julie	isolate: KFF4, sex: female	8125	KFF4.scf	GCA_015109195.1	GenBank		Scaffold	6414	685839716	2020-10-29		PRJNA550295	SAMN12124004
+Neolamprologus walteri		isolate: KFD4, sex: male	863668	KFD4.scf	GCA_015109215.1	GenBank		Scaffold	8895	695825513	2020-10-29		PRJNA550295	SAMN12124001
+Neolamprologus walteri		isolate: KFD2, sex: female	863668	KFD2.scf	GCA_015109235.1	GenBank		Scaffold	6122	676536958	2020-10-29		PRJNA550295	SAMN12124000
+Pseudosimochromis marginatus		isolate: KFF1, sex: female	46578	KFF1.scf	GCA_015109255.1	GenBank		Scaffold	7313	685439317	2020-10-29		PRJNA550295	SAMN12124003
+Cyprichromis sp. 'dwarf jumbo' AB-2019		isolate: KFA9, sex: female	2591269	KFA9.scf	GCA_015109275.1	GenBank		Scaffold	10743	704186464	2020-10-29		PRJNA550295	SAMN12123999
+Pseudosimochromis marginatus		isolate: KFE8, sex: male	46578	KFE8.scf	GCA_015109285.1	GenBank		Scaffold	6159	675660616	2020-10-29		PRJNA550295	SAMN12124002
+Tropheus sp. 'lukuga' AB-2019		isolate: KEF2, sex: male	2591308	KEF2.scf	GCA_015109315.1	GenBank		Scaffold	10585	708482422	2020-10-29		PRJNA550295	SAMN12123995
+Cyprichromis sp. 'dwarf jumbo' AB-2019		isolate: KFA7, sex: male	2591269	KFA7.scf	GCA_015109335.1	GenBank		Scaffold	11455	706554340	2020-10-29		PRJNA550295	SAMN12123998
+Chalinochromis sp. 'ndobhoi' AB-2019		isolate: KEF1, sex: female	2591267	KEF1.scf	GCA_015109345.1	GenBank		Scaffold	6221	686954032	2020-10-29		PRJNA550295	SAMN12123994
+Neolamprologus longior		isolate: KEH3, sex: male	34806	KEH3.scf	GCA_015109375.1	GenBank		Scaffold	11003	720965869	2020-10-29		PRJNA550295	SAMN12123997
+Tropheus sp. 'lukuga' AB-2019		isolate: KEF3, sex: female	2591308	KEF3.scf	GCA_015109395.1	GenBank		Scaffold	8821	692500893	2020-10-29		PRJNA550295	SAMN12123996
+Chalinochromis sp. 'ndobhoi' AB-2019		isolate: KEE9, sex: male	2591267	KEE9.scf	GCA_015109415.1	GenBank		Scaffold	5756	680913016	2020-10-29		PRJNA550295	SAMN12123993
+Lepidiolamprologus profundicola		isolate: KEB8, sex: female	272719	KEB8.scf	GCA_015109435.1	GenBank		Scaffold	8355	703981823	2020-10-29		PRJNA550295	SAMN12123988
+Tropheus sp. 'lunatus' AB-2019		isolate: KED6, sex: male	2591309	KED6.scf	GCA_015109455.1	GenBank		Scaffold	6009	677263118	2020-10-29		PRJNA550295	SAMN12123991
+Neolamprologus similis		isolate: KEC1, sex: male	278786	KEC1.scf	GCA_015109475.1	GenBank		Scaffold	8184	708721287	2020-10-29		PRJNA550295	SAMN12123989
+Neolamprologus similis		isolate: KEC2, sex: female	278786	KEC2.scf	GCA_015109495.1	GenBank		Scaffold	6376	694522667	2020-10-29		PRJNA550295	SAMN12123990
+Petrochromis sp. 'kazumbae' AB-2019		isolate: KEB4, sex: male	2591294	KEB4.scf	GCA_015109515.1	GenBank		Scaffold	8818	697945754	2020-10-29		PRJNA550295	SAMN12123987
+Petrochromis sp. 'kazumbae' AB-2019		isolate: KEA4, sex: female	2591294	KEA4.scf	GCA_015109535.1	GenBank		Scaffold	7680	693067596	2020-10-29		PRJNA550295	SAMN12123986
+Cyphotilapia sp. '5-bar frontosa' AB-2019		isolate: KDG2, sex: female	2591268	KDG2.scf	GCA_015109555.1	GenBank		Scaffold	11683	714078544	2020-10-29		PRJNA550295	SAMN12123985
+Orthochromis mazimeroensis		isolate: KDC6, sex: male	167849	KDC6.scf	GCA_015109575.1	GenBank		Scaffold	7972	683263474	2020-10-29		PRJNA550295	SAMN12123984
+Neolamprologus sp. 'brevis magara' AB-2019		isolate: KCI7, sex: female	2591280	KCI7.scf	GCA_015109595.1	GenBank		Scaffold	7477	687519472	2020-10-29		PRJNA550295	SAMN12123983
+Pseudosimochromis marginatus		isolate: KCF3, sex: female	46578	KCF3.scf	GCA_015109615.1	GenBank		Scaffold	12194	707394168	2020-10-29		PRJNA550295	SAMN12123979
+Lamprologus speciosus		isolate: KCG3, sex: female	329915	KCG3.scf	GCA_015109635.1	GenBank		Scaffold	9751	714530206	2020-10-29		PRJNA550295	SAMN12123981
+Neolamprologus sp. 'brevis magara' AB-2019		isolate: KCI6, sex: male	2591280	KCI6.scf	GCA_015109655.1	GenBank		Scaffold	9858	705096510	2020-10-29		PRJNA550295	SAMN12123982
+Lamprologus speciosus		isolate: KCG2, sex: male	329915	KCG2.scf	GCA_015109675.1	GenBank		Scaffold	9405	715005986	2020-10-29		PRJNA550295	SAMN12123980
+Neolamprologus boulengeri		isolate: KCE5, sex: female	329917	KCE5.scf	GCA_015109695.1	GenBank		Scaffold	7181	684918977	2020-10-29		PRJNA550295	SAMN12123977
+Cyphotilapia sp. '5-bar frontosa' AB-2019		isolate: KAG3, sex: male	2591268	KAG3.scf	GCA_015109715.1	GenBank		Scaffold	11820	717924045	2020-10-29		PRJNA550295	SAMN12123974
+Neolamprologus ventralis		isolate: KAG8, sex: female	449327	KAG8.scf	GCA_015109735.1	GenBank		Scaffold	10294	711835635	2020-10-29		PRJNA550295	SAMN12123976
+Neolamprologus ventralis		isolate: KAG7, sex: male	449327	KAG7.scf	GCA_015109755.1	GenBank		Scaffold	9849	709369790	2020-10-29		PRJNA550295	SAMN12123975
+Xenotilapia longispinis		isolate: KAF6, sex: female	240485	KAF6.scf	GCA_015109775.1	GenBank		Scaffold	9971	715411025	2020-10-29		PRJNA550295	SAMN12123973
+Cardiopharynx schoutedeni		isolate: KAF2, sex: female	32492	KAF2.scf	GCA_015109795.1	GenBank		Scaffold	9487	702721173	2020-10-29		PRJNA550295	SAMN12123969
+Xenotilapia longispinis		isolate: KAF5, sex: male	240485	KAF5.scf	GCA_015109815.1	GenBank		Scaffold	7918	703271709	2020-10-29		PRJNA550295	SAMN12123972
+Callochromis melanostigma		isolate: KAF4, sex: female	240489	KAF4.scf	GCA_015109835.1	GenBank		Scaffold	6103	689151099	2020-10-29		PRJNA550295	SAMN12123971
+Callochromis melanostigma		isolate: KAF3, sex: male	240489	KAF3.scf	GCA_015109845.1	GenBank		Scaffold	6084	685972472	2020-10-29		PRJNA550295	SAMN12123970
+Astatoreochromis straeleni	bluelip haplo	isolate: KAE8, sex: male	64535	KAE8.scf	GCA_015109875.1	GenBank		Scaffold	7930	689581009	2020-10-29		PRJNA550295	SAMN12123967
+Cardiopharynx schoutedeni		isolate: KAF1, sex: male	32492	KAF1.scf	GCA_015109895.1	GenBank		Scaffold	5787	675974986	2020-10-29		PRJNA550295	SAMN12123968
+Lepidiolamprologus profundicola		isolate: KAD2, sex: male	272719	KAD2.scf	GCA_015109915.1	GenBank		Scaffold	8456	705164024	2020-10-29		PRJNA550295	SAMN12123966
+Lamprologus ornatipinnis		isolate: JZF3, sex: male	420112	JZF3.scf	GCA_015109935.1	GenBank		Scaffold	9147	704008040	2020-10-29		PRJNA550295	SAMN12123964
+Lamprologus ornatipinnis		isolate: JZF4, sex: female	420112	JZF4.scf	GCA_015109955.1	GenBank		Scaffold	8555	697224635	2020-10-29		PRJNA550295	SAMN12123965
+Neolamprologus pleuromaculatus		isolate: JZF2, sex: female	2591257	JZF2.scf	GCA_015109975.1	GenBank		Scaffold	9599	710437232	2020-10-29		PRJNA550295	SAMN12123963
+Xenotilapia ornatipinnis		isolate: JZE8, sex: female	143550	JZE8.scf	GCA_015109995.1	GenBank		Scaffold	6752	686597603	2020-10-29		PRJNA550295	SAMN12123961
+Xenotilapia ornatipinnis		isolate: JZE6, sex: male	143550	JZE6.scf	GCA_015110015.1	GenBank		Scaffold	8120	696016223	2020-10-29		PRJNA550295	SAMN12123960
+Callochromis pleurospilus		isolate: JZE4, sex: female	27735	JZE4.scf	GCA_015110035.1	GenBank		Scaffold	8599	709188225	2020-10-29		PRJNA550295	SAMN12123959
+Callochromis pleurospilus		isolate: JZE2, sex: male	27735	JZE2.scf	GCA_015110055.1	GenBank		Scaffold	6531	686699189	2020-10-29		PRJNA550295	SAMN12123958
+Neolamprologus toae		isolate: JZD6, sex: female	34808	JZD6.scf	GCA_015110075.1	GenBank		Scaffold	10380	715708537	2020-10-29		PRJNA550295	SAMN12123957
+Neolamprologus toae		isolate: JZD5, sex: male	34808	JZD5.scf	GCA_015110095.1	GenBank		Scaffold	8882	709349448	2020-10-29		PRJNA550295	SAMN12123956
+Tropheus brichardi		isolate: JZA3, sex: female	8147	JZA3.scf	GCA_015110115.1	GenBank		Scaffold	7565	687430323	2020-10-29		PRJNA550295	SAMN12123953
+Spathodus marlieri		isolate: JZD3, sex: female	52957	JZD3.scf	GCA_015110135.1	GenBank		Scaffold	12237	714771393	2020-10-29		PRJNA550295	SAMN12123955
+Tanganicodus irsacae	spotfin goby cichlid	isolate: JYH3, sex: male	27763	JYH3.scf	GCA_015110155.1	GenBank		Scaffold	10933	711538798	2020-10-29		PRJNA550295	SAMN12123950
+Tanganicodus irsacae	spotfin goby cichlid	isolate: JYH7, sex: female	27763	JYH7.scf	GCA_015110175.1	GenBank		Scaffold	9552	694492678	2020-10-29		PRJNA550295	SAMN12123951
+Spathodus marlieri		isolate: JZB7, sex: male	52957	JZB7.scf	GCA_015110195.1	GenBank		Scaffold	7510	683070751	2020-10-29		PRJNA550295	SAMN12123954
+Tropheus brichardi		isolate: JYI8, sex: male	8147	JYI8.scf	GCA_015110215.1	GenBank		Scaffold	8313	694005721	2020-10-29		PRJNA550295	SAMN12123952
+Astatotilapia stappersii		isolate: JYD3, sex: male	1237176	JYD3.scf	GCA_015110235.1	GenBank		Scaffold	9258	688206949	2020-10-29		PRJNA550295	SAMN12123946
+Haplochromis burtoni	Burton's mouthbrooder	isolate: JYD5, sex: female	8153	JYD5.scf	GCA_015110255.1	GenBank		Scaffold	4602	625339680	2020-10-29		PRJNA550295	SAMN12123947
+Ophthalmotilapia sp. 'paranasuta' AB-2019		isolate: JYF7, sex: male	2591289	JYF7.scf	GCA_015110275.1	GenBank		Scaffold	9756	708047076	2020-10-29		PRJNA550295	SAMN12123948
+Ophthalmotilapia sp. 'paranasuta' AB-2019		isolate: JYG5, sex: female	2591289	JYG5.scf	GCA_015110295.1	GenBank		Scaffold	7039	686059010	2020-10-29		PRJNA550295	SAMN12123949
+Paracyprichromis brieni		isolate: JXI4, sex: female	27757	JXI4.scf	GCA_015110315.1	GenBank		Scaffold	6349	671390453	2020-10-29		PRJNA550295	SAMN12123945
+Paracyprichromis brieni		isolate: JXI2, sex: male	27757	JXI2.scf	GCA_015110335.1	GenBank		Scaffold	8431	691560517	2020-10-29		PRJNA550295	SAMN12123944
+Petrochromis orthognathus		isolate: JXH4, sex: female	28818	JXH4.scf	GCA_015110355.1	GenBank		Scaffold	3035	508607698	2020-10-29		PRJNA550295	SAMN12123942
+Lamprologus kungweensis		isolate: JXG8, sex: male	420104	JXG8.scf	GCA_015110375.1	GenBank		Scaffold	9784	716095210	2020-10-29		PRJNA550295	SAMN12123940
+Lamprologus kungweensis		isolate: JXH2, sex: female	420104	JXH2.scf	GCA_015110395.1	GenBank		Scaffold	9247	705246034	2020-10-29		PRJNA550295	SAMN12123941
+Petrochromis orthognathus		isolate: JXH5, sex: male	28818	JXH5.scf	GCA_015110415.1	GenBank		Scaffold	11755	704346929	2020-10-29		PRJNA550295	SAMN12123943
+Eretmodus marksmithi		isolate: JXF4, sex: female	1818572	JXF4.scf	GCA_015110435.1	GenBank		Scaffold	7721	683346320	2020-10-29		PRJNA550295	SAMN12123939
+Eretmodus marksmithi		isolate: JXE9, sex: male	1818572	JXE9.scf	GCA_015110455.1	GenBank		Scaffold	12535	714657672	2020-10-29		PRJNA550295	SAMN12123938
+Neolamprologus falcicula		isolate: JXD7, sex: female	449319	JXD7.scf	GCA_015110475.1	GenBank		Scaffold	8933	708783665	2020-10-29		PRJNA550295	SAMN12123937
+Julidochromis marlieri		isolate: JXC1, sex: female	32499	JXC1.scf	GCA_015110495.1	GenBank		Scaffold	9213	703735116	2020-10-29		PRJNA550295	SAMN12123935
+Neolamprologus falcicula		isolate: JXD4, sex: male	449319	JXD4.scf	GCA_015110515.1	GenBank		Scaffold	9336	705706531	2020-10-29		PRJNA550295	SAMN12123936
+Tropheus sp. 'brichardi kipili' AB-2019		isolate: LGA6, sex: female	2591307	LGA6.scf	GCA_015110675.1	GenBank		Scaffold	7013	685630084	2020-10-29		PRJNA550295	SAMN12124084
+Tropheus sp. 'brichardi kipili' AB-2019		isolate: LGA5, sex: male	2591307	LGA5.scf	GCA_015110695.1	GenBank		Scaffold	9126	694495417	2020-10-29		PRJNA550295	SAMN12124083
+Ophthalmotilapia boops		isolate: LFI6, sex: female	152463	LFI6.scf	GCA_015110715.1	GenBank		Scaffold	6124	672407299	2020-10-29		PRJNA550295	SAMN12124082
+Ophthalmotilapia boops		isolate: LFI4, sex: male	152463	LFI4.scf	GCA_015110735.1	GenBank		Scaffold	6277	677592684	2020-10-29		PRJNA550295	SAMN12124081
+Julidochromis marksmithi		isolate: LFH1, sex: female	2591252	LFH1.scf	GCA_015110755.1	GenBank		Scaffold	8799	704237844	2020-10-29		PRJNA550295	SAMN12124080
+Julidochromis marksmithi		isolate: LFG8, sex: male	2591252	LFG8.scf	GCA_015110765.1	GenBank		Scaffold	8167	693054436	2020-10-29		PRJNA550295	SAMN12124079
+Lepidiolamprologus kamambae		isolate: LFF8, sex: female	2591253	LFF8.scf	GCA_015110795.1	GenBank		Scaffold	7615	698496020	2020-10-29		PRJNA550295	SAMN12124078
+Trematocara zebra		isolate: LFE4, sex: female	1982068	LFE4.scf	GCA_015110815.1	GenBank		Scaffold	5470	662979882	2020-10-29		PRJNA550295	SAMN12124076
+Lepidiolamprologus kamambae		isolate: LFF7, sex: male	2591253	LFF7.scf	GCA_015110835.1	GenBank		Scaffold	5931	670027775	2020-10-29		PRJNA550295	SAMN12124077
+Neolamprologus sp. 'cygnus' AB-2019		isolate: LFD2, sex: male	2591282	LFD2.scf	GCA_015110855.1	GenBank		Scaffold	7293	695502899	2020-10-29		PRJNA550295	SAMN12124074
+Neolamprologus sp. 'cygnus' AB-2019		isolate: LFD4, sex: female	2591282	LFD4.scf	GCA_015110875.1	GenBank		Scaffold	7434	694955769	2020-10-29		PRJNA550295	SAMN12124075
+Neolamprologus sp. 'eseki' AB-2019		isolate: LFB7, sex: male	2591283	LFB7.scf	GCA_015110895.1	GenBank		Scaffold	6947	679269631	2020-10-29		PRJNA550295	SAMN12124071
+Neolamprologus sp. 'eseki' AB-2019		isolate: LFB9, sex: female	2591283	LFB9.scf	GCA_015110915.1	GenBank		Scaffold	8220	699229374	2020-10-29		PRJNA550295	SAMN12124072
+Trematocara zebra		isolate: LFC9, sex: male	1982068	LFC9.scf	GCA_015110935.1	GenBank		Scaffold	5170	649977942	2020-10-29		PRJNA550295	SAMN12124073
+Petrochromis sp. 'orthognathus ikola' AB-2019		isolate: LFA6, sex: male	2591298	LFA6.scf	GCA_015110955.1	GenBank		Scaffold	6012	677221155	2020-10-29		PRJNA550295	SAMN12124069
+Cyphotilapia frontosa	humphead cichlid	isolate: LEI6, sex: female	27783	LEI6.scf	GCA_015110975.1	GenBank		Scaffold	8262	692800633	2020-10-29		PRJNA550295	SAMN12124067
+Cyphotilapia frontosa	humphead cichlid	isolate: LEI9, sex: male	27783	LEI9.scf	GCA_015110995.1	GenBank		Scaffold	7617	687266949	2020-10-29		PRJNA550295	SAMN12124068
+Tropheus polli		isolate: LEF8, sex: male	8151	LEF8.scf	GCA_015111015.1	GenBank		Scaffold	10521	710635257	2020-10-29		PRJNA550295	SAMN12124064
+Tropheus polli		isolate: LEF9, sex: female	8151	LEF9.scf	GCA_015111035.1	GenBank		Scaffold	10011	708126722	2020-10-29		PRJNA550295	SAMN12124065
+Plecodus paradoxus		isolate: LEC7, sex: female	452217	LEC7.scf	GCA_015111055.1	GenBank		Scaffold	8470	697134177	2020-10-29		PRJNA550295	SAMN12124061
+Benthochromis sp. 'horii mahale' AB-2019		isolate: LEF2, sex: male	2591266	LEF2.scf	GCA_015111075.1	GenBank		Scaffold	9441	705300076	2020-10-29		PRJNA550295	SAMN12124063
+Neolamprologus longior		isolate: LEE1, sex: female	34806	LEE1.scf	GCA_015111095.1	GenBank		Scaffold	8060	694784411	2020-10-29		PRJNA550295	SAMN12124062
+Xenotilapia sp. 'spilopterus north' AB-2019		isolate: LEA3, sex: male	2591314	LEA3.scf	GCA_015111115.1	GenBank		Scaffold	7426	689436327	2020-10-29		PRJNA550295	SAMN12124059
+Xenotilapia sp. 'spilopterus north' AB-2019		isolate: LEA4, sex: female	2591314	LEA4.scf	GCA_015111135.1	GenBank		Scaffold	7047	685458513	2020-10-29		PRJNA550295	SAMN12124060
+Tropheus sp. 'mpimbwe' AB-2019		isolate: LDI7, sex: female	2591310	LDI7.scf	GCA_015111155.1	GenBank		Scaffold	7387	680628748	2020-10-29		PRJNA550295	SAMN12124058
+Neolamprologus sp. 'caudopunctatus kipili' AB-2019		isolate: LDG3, sex: female	2591281	LDG3.scf	GCA_015111175.1	GenBank		Scaffold	7442	701808566	2020-10-29		PRJNA550295	SAMN12124056
+Tropheus sp. 'mpimbwe' AB-2019		isolate: LDI5, sex: male	2591310	LDI5.scf	GCA_015111195.1	GenBank		Scaffold	8554	691453286	2020-10-29		PRJNA550295	SAMN12124057
+Neolamprologus sp. 'caudopunctatus kipili' AB-2019		isolate: LDG2, sex: male	2591281	LDG2.scf	GCA_015111215.1	GenBank		Scaffold	5671	678472148	2020-10-29		PRJNA550295	SAMN12124055
+Neolamprologus sp. 'furcifer ulwile' AB-2019		isolate: LDF4, sex: female	2591285	LDF4.scf	GCA_015111235.1	GenBank		Scaffold	6735	691267021	2020-10-29		PRJNA550295	SAMN12124053
+Neolamprologus sp. 'furcifer ulwile' AB-2019		isolate: LDF5, sex: male	2591285	LDF5.scf	GCA_015111255.1	GenBank		Scaffold	7009	693491777	2020-10-29		PRJNA550295	SAMN12124054
+Chalinochromis sp. 'bifrenatus'		isolate: LDE1, sex: male	1818570	LDE1.scf	GCA_015111275.1	GenBank		Scaffold	6649	691054403	2020-10-29		PRJNA550295	SAMN12124050
+Petrochromis sp. 'kipili brown' AB-2019		isolate: LDE3, sex: male	2591295	LDE3.scf	GCA_015111295.1	GenBank		Scaffold	7486	678246622	2020-10-29		PRJNA550295	SAMN12124051
+Petrochromis sp. 'kipili brown' AB-2019		isolate: LDE4, sex: female	2591295	LDE4.scf	GCA_015111315.1	GenBank		Scaffold	6031	674292583	2020-10-29		PRJNA550295	SAMN12124052
+Chalinochromis sp. 'bifrenatus'		isolate: LDD9, sex: female	1818570	LDD9.scf	GCA_015111335.1	GenBank		Scaffold	6535	691809114	2020-10-29		PRJNA550295	SAMN12124049
+Petrochromis sp. 'giant' AB-2019		isolate: LDC6, sex: male	2591293	LDC6.scf	GCA_015111355.1	GenBank		Scaffold	7185	685615114	2020-10-29		PRJNA550295	SAMN12124046
+Lepidiolamprologus mimicus		isolate: LDD1, sex: male	559349	LDD1.scf	GCA_015111365.1	GenBank		Scaffold	5549	678300739	2020-10-29		PRJNA550295	SAMN12124047
+Lepidiolamprologus mimicus		isolate: LDD6, sex: female	559349	LDD6.scf	GCA_015111395.1	GenBank		Scaffold	6214	684929885	2020-10-29		PRJNA550295	SAMN12124048
+Benthochromis tricoti		isolate: LDA7, sex: male	158760	LDA7.scf	GCA_015111415.1	GenBank		Scaffold	6075	675405680	2020-10-29		PRJNA550295	SAMN12124044
+Petrochromis macrognathus		isolate: LDA4, sex: male	287480	LDA4.scf	GCA_015111435.1	GenBank		Scaffold	8547	693425911	2020-10-29		PRJNA550295	SAMN12124043
+Petrochromis sp. 'moshi yellow' AB-2019		isolate: LCF6, sex: male	2591297	LCF6.scf	GCA_015111455.1	GenBank		Scaffold	7050	683228998	2020-10-29		PRJNA550295	SAMN12124041
+Petrochromis sp. 'moshi yellow' AB-2019		isolate: LCF8, sex: female	2591297	LCF8.scf	GCA_015111475.1	GenBank		Scaffold	9083	692230688	2020-10-29		PRJNA550295	SAMN12124042
+Tropheus sp. 'Kirschfleck'		isolate: LCF1, sex: male	198185	LCF1.scf	GCA_015111495.1	GenBank		Scaffold	9199	695420430	2020-10-29		PRJNA550295	SAMN12124039
+Tropheus sp. 'Kirschfleck'		isolate: LCF3, sex: female	198185	LCF3.scf	GCA_015111515.1	GenBank		Scaffold	8114	686651220	2020-10-29		PRJNA550295	SAMN12124040
+Petrochromis sp. 'red' AB-2019		isolate: LCD5, sex: female	2591300	LCD5.scf	GCA_015111535.1	GenBank		Scaffold	7649	684157775	2020-10-29		PRJNA550295	SAMN12124036
+Bathybates ferox		isolate: LCD7, sex: female	27733	LCD7.scf	GCA_015111555.1	GenBank		Scaffold	5868	679623610	2020-10-29		PRJNA550295	SAMN12124038
+Petrochromis sp. 'red' AB-2019		isolate: LCD1, sex: male	2591300	LCD1.scf	GCA_015111575.1	GenBank		Scaffold	7626	683142697	2020-10-29		PRJNA550295	SAMN12124035
+Bathybates ferox		isolate: LCD6, sex: male	27733	LCD6.scf	GCA_015111595.1	GenBank		Scaffold	6506	688524176	2020-10-29		PRJNA550295	SAMN12124037
+Neolamprologus sp. 'gracilis tanzania' AB-2019		isolate: LCC6, sex: female	2591286	LCC6.scf	GCA_015111615.1	GenBank		Scaffold	7544	689217272	2020-10-29		PRJNA550295	SAMN12124034
+Neolamprologus sp. 'falcicula mahale' AB-2019		isolate: LCB5, sex: female	2591284	LCB5.scf	GCA_015111635.1	GenBank		Scaffold	6646	676758759	2020-10-29		PRJNA550295	SAMN12124032
+Neolamprologus leloupi		isolate: LCA2, sex: female	420108	LCA2.scf	GCA_015111655.1	GenBank		Scaffold	7785	704203045	2020-10-29		PRJNA550295	SAMN12124030
+Neolamprologus sp. 'falcicula mahale' AB-2019		isolate: LCC2, sex: male	2591284	LCC2.scf	GCA_015111675.1	GenBank		Scaffold	6217	670804512	2020-10-29		PRJNA550295	SAMN12124033
+Neolamprologus sp. 'gracilis tanzania' AB-2019		isolate: LCB4, sex: male	2591286	LCB4.scf	GCA_015111695.1	GenBank		Scaffold	7461	687601997	2020-10-29		PRJNA550295	SAMN12124031
+Telmatochromis dhonti		isolate: LBF8, sex: male	272717	LBF8.scf	GCA_015111715.1	GenBank		Scaffold	6823	675072260	2020-10-29		PRJNA550295	SAMN12124028
+Neolamprologus leloupi		isolate: LCA1, sex: male	420108	LCA1.scf	GCA_015111735.1	GenBank		Scaffold	6009	687831793	2020-10-29		PRJNA550295	SAMN12124029
+Telmatochromis dhonti		isolate: LBF7, sex: female	272717	LBF7.scf	GCA_015111745.1	GenBank		Scaffold	7315	682595454	2020-10-29		PRJNA550295	SAMN12124027
+Julidochromis sp. 'marlieri south' AB-2019		isolate: LBF3, sex: male	2591274	LBF3.scf	GCA_015111775.1	GenBank		Scaffold	8849	704465009	2020-10-29		PRJNA550295	SAMN12124026
+Xenotilapia sima		isolate: LBE9, sex: female	32515	LBE9.scf	GCA_015111795.1	GenBank		Scaffold	7219	687591382	2020-10-29		PRJNA550295	SAMN12124025
+Xenotilapia sima		isolate: LBE2, sex: male	32515	LBE2.scf	GCA_015111815.1	GenBank		Scaffold	7703	701095240	2020-10-29		PRJNA550295	SAMN12124024
+Oreochromis malagarasi		isolate: KYH4, sex: female	64543	KYH4.scf	GCA_015111835.1	GenBank		Scaffold	7668	705671466	2020-10-29		PRJNA550295	SAMN12124022
+Haplochromis paludinosus		isolate: KYG1, sex: male	331646	KYG1.scf	GCA_015111855.1	GenBank		Scaffold	6571	665712341	2020-10-29		PRJNA550295	SAMN12124021
+Julidochromis sp. 'marlieri south' AB-2019		isolate: LBA1, sex: female	2591274	LBA1.scf	GCA_015111875.1	GenBank		Scaffold	7273	691068485	2020-10-29		PRJNA550295	SAMN12124023
+Orthochromis uvinzae		isolate: KYE7, sex: male	316391	KYE7.scf	GCA_015111895.1	GenBank		Scaffold	8303	685472408	2020-10-29		PRJNA550295	SAMN12124020
+Orthochromis malagaraziensis		isolate: KYE2, sex: male	64555	KYE2.scf	GCA_015111915.1	GenBank		Scaffold	8359	685575294	2020-10-29		PRJNA550295	SAMN12124019
+Telmatochromis bifrenatus		isolate: KYB7, sex: male	34809	KYB7.scf	GCA_015111935.1	GenBank		Scaffold	8132	693547641	2020-10-29		PRJNA550295	SAMN12124016
+Neolamprologus niger		isolate: KYA5, sex: female	309899	KYA5.scf	GCA_015111955.1	GenBank		Scaffold	7682	688901154	2020-10-29		PRJNA550295	SAMN12124015
+Telmatochromis bifrenatus		isolate: KYB8, sex: female	34809	KYB8.scf	GCA_015111975.1	GenBank		Scaffold	8312	693883046	2020-10-29		PRJNA550295	SAMN12124017
+Neolamprologus boulengeri		isolate: KYB9, sex: male	329917	KYB9.scf	GCA_015111995.1	GenBank		Scaffold	5576	676917367	2020-10-29		PRJNA550295	SAMN12124018
+Neolamprologus niger		isolate: KYA1, sex: male	309899	KYA1.scf	GCA_015112015.1	GenBank		Scaffold	7013	681852043	2020-10-29		PRJNA550295	SAMN12124014
+Ectodus sp. 'north'		isolate: KHC5, sex: female	1818571	KHC5.scf	GCA_015112055.1	GenBank		Scaffold	7280	678686595	2020-10-29		PRJNA550295	SAMN12124012
+Julidochromis regani	convict julie	isolate: KHE6, sex: male	8125	KHE6.scf	GCA_015112075.1	GenBank		Scaffold	8530	694958740	2020-10-29		PRJNA550295	SAMN12124013
+Ectodus sp. 'north'		isolate: KHC4, sex: male	1818571	KHC4.scf	GCA_015112095.1	GenBank		Scaffold	7755	681491488	2020-10-29		PRJNA550295	SAMN12124011
+Neolamprologus cancellatus		isolate: LJD1	2591254	LJD1.scf	GCA_015112375.1	GenBank		Scaffold	3614	533574869	2020-10-29		PRJNA550295	SAMN12124118
+Telmatochromis sp. 'dhonti twiyu' AB-2019		isolate: LHF2, sex: female	2591303	LHF2.scf	GCA_015112395.1	GenBank		Scaffold	7272	706900099	2020-10-29		PRJNA550295	SAMN12124103
+Trematocara caparti		isolate: LJC8	2591261	LJC8.scf	GCA_015112415.1	GenBank		Scaffold	3079	553073352	2020-10-29		PRJNA550295	SAMN12124116
+Petrochromis sp. 'giant' AB-2019		isolate: LHD2, sex: female	2591293	LHD2.scf	GCA_015112455.1	GenBank		Scaffold	6448	680468209	2020-10-29		PRJNA550295	SAMN12124100
+Telmatochromis sp. 'dhonti twiyu' AB-2019		isolate: LHC1, sex: male	2591303	LHC1.scf	GCA_015112475.1	GenBank		Scaffold	9625	714934337	2020-10-29		PRJNA550295	SAMN12124099
+Neolamprologus petricola		isolate: LGH8, sex: male	272718	LGH8.scf	GCA_015112495.1	GenBank		Scaffold	7078	690821841	2020-10-29		PRJNA550295	SAMN12124093
+Petrochromis sp. 'polyodon texas' AB-2019		isolate: LHB3, sex: female	2591299	LHB3.scf	GCA_015112515.1	GenBank		Scaffold	10914	705286015	2020-10-29		PRJNA550295	SAMN12124098
+Petrochromis sp. 'polyodon texas' AB-2019		isolate: LHB1, sex: male	2591299	LHB1.scf	GCA_015112535.1	GenBank		Scaffold	7512	686881253	2020-10-29		PRJNA550295	SAMN12124097
+Neolamprologus petricola		isolate: LGI1, sex: female	272718	LGI1.scf	GCA_015112555.1	GenBank		Scaffold	7694	697605287	2020-10-29		PRJNA550295	SAMN12124094
+Chalinochromis cyanophleps		isolate: LGG7, sex: female	1506565	LGG7.scf	GCA_015112575.1	GenBank		Scaffold	6783	691640008	2020-10-29		PRJNA550295	SAMN12124090
+Ophthalmotilapia sp. 'white cap' AB-2019		isolate: LGH3, sex: female	2591290	LGH3.scf	GCA_015112595.1	GenBank		Scaffold	6211	683395352	2020-10-29		PRJNA550295	SAMN12124092
+Ophthalmotilapia sp. 'white cap' AB-2019		isolate: LGH1, sex: male	2591290	LGH1.scf	GCA_015112615.1	GenBank		Scaffold	7777	696861579	2020-10-29		PRJNA550295	SAMN12124091
+Chalinochromis cyanophleps		isolate: LGG6, sex: male	1506565	LGG6.scf	GCA_015112635.1	GenBank		Scaffold	7798	701142475	2020-10-29		PRJNA550295	SAMN12124089
+Neolamprologus timidus		isolate: LGE2, sex: male	1492750	LGE2.scf	GCA_015112655.1	GenBank		Scaffold	6737	690529152	2020-10-29		PRJNA550295	SAMN12124087
+Neolamprologus timidus		isolate: LGE3, sex: female	1492750	LGE3.scf	GCA_015112675.1	GenBank		Scaffold	6954	682751669	2020-10-29		PRJNA550295	SAMN12124088
+Petrochromis sp. 'macrognathus rainbow' AB-2019		isolate: LGB5, sex: male	2591296	LGB5.scf	GCA_015112695.1	GenBank		Scaffold	6115	676678530	2020-10-29		PRJNA550295	SAMN12124085
+Petrochromis sp. 'macrognathus rainbow' AB-2019		isolate: LGB8, sex: female	2591296	LGB8.scf	GCA_015112775.1	GenBank		Scaffold	6472	681966742	2020-10-29		PRJNA550295	SAMN12124086
+Astatotilapia flaviijosephi		isolate: LJD2, sex: male	205334	LJD2.scf	GCA_015112995.1	GenBank		Scaffold	5687	648774917	2020-10-29		PRJNA550295	SAMN12124119
+Neolamprologus nigriventris		isolate: LJC3, sex: male	309900	LJC3.scf	GCA_015113015.1	GenBank		Scaffold	9731	716037962	2020-10-29		PRJNA550295	SAMN12124114
+Hemibates koningsi		isolate: LJC5, sex: female	2126561	LJC5.scf	GCA_015113035.1	GenBank		Scaffold	2961	569184832	2020-10-29		PRJNA550295	SAMN12124115
+Julidochromis transcriptus	masked julie	isolate: LJC2, sex: female	70784	LJC2.scf	GCA_015113055.1	GenBank		Scaffold	9968	711616841	2020-10-29		PRJNA550295	SAMN12124113
+Neolamprologus cancellatus		isolate: LJC9	2591254	LJC9.scf	GCA_015113075.1	GenBank		Scaffold	5093	650738931	2020-10-29		PRJNA550295	SAMN12124117
+Tangachromis dhanisi		isolate: LJA8, sex: female	1811344	LJA8.scf	GCA_015113095.1	GenBank		Scaffold	9827	714222081	2020-10-29		PRJNA550295	SAMN12124111
+Petrochromis macrognathus		isolate: LJB1, sex: female	287480	LJB1.scf	GCA_015113115.1	GenBank		Scaffold	6409	673915020	2020-10-29		PRJNA550295	SAMN12124112
+Tangachromis dhanisi		isolate: LJA7, sex: male	1811344	LJA7.scf	GCA_015113135.1	GenBank		Scaffold	6132	667373246	2020-10-29		PRJNA550295	SAMN12124110
+Plecodus elaviae		isolate: LHI6, sex: female	452215	LHI6.scf	GCA_015113155.1	GenBank		Scaffold	7573	697720206	2020-10-29		PRJNA550295	SAMN12124109
+Xenotilapia tenuidentata		isolate: LHG4, sex: male	27753	LHG4.scf	GCA_015113175.1	GenBank		Scaffold	9063	710078883	2020-10-29		PRJNA550295	SAMN12124106
+Plecodus elaviae		isolate: LHI4, sex: male	452215	LHI4.scf	GCA_015113195.1	GenBank		Scaffold	7012	693561716	2020-10-29		PRJNA550295	SAMN12124108
+Tropheus sp. 'murago' AB-2019		isolate: LHE3, sex: female	2591311	LHE3.scf	GCA_015113215.1	GenBank		Scaffold	9021	694619420	2020-10-29		PRJNA550295	SAMN12124102
+Lepidiolamprologus sp. 'meeli kipili' AB-2019		isolate: LHA5, sex: male	2591279	LHA5.scf	GCA_015113235.1	GenBank		Scaffold	6343	686267478	2020-10-29		PRJNA550295	SAMN12124096
+Neolamprologus bifasciatus		isolate: LHF7, sex: female	449318	LHF7.scf	GCA_015113255.1	GenBank		Scaffold	8310	695688542	2020-10-29		PRJNA550295	SAMN12124105
+Neolamprologus bifasciatus		isolate: LHF6, sex: male	449318	LHF6.scf	GCA_015113275.1	GenBank		Scaffold	8519	694528962	2020-10-29		PRJNA550295	SAMN12124104
+Tropheus sp. 'murago' AB-2019		isolate: LHD9, sex: male	2591311	LHD9.scf	GCA_015113295.1	GenBank		Scaffold	6436	681802313	2020-10-29		PRJNA550295	SAMN12124101
+Lepidiolamprologus sp. 'meeli kipili' AB-2019		isolate: LHA2, sex: female	2591279	LHA2.scf	GCA_015113315.1	GenBank		Scaffold	5758	678014130	2020-10-29		PRJNA550295	SAMN12124095
+Xenotilapia tenuidentata		isolate: LHG6, sex: female	27753	LHG6.scf	GCA_015118035.1	GenBank		Scaffold	8469	710602812	2020-10-29		PRJNA550295	SAMN12124107
+Sebastes umbrosus	honeycomb rockfish	isolate: fSebUmb1, sex: male	72105	fSebUmb1.alt	GCA_015220095.1	GenBank		Scaffold	558988	765970641	2020-11-02		PRJNA562006	SAMN12629503
+Sebastes umbrosus	honeycomb rockfish	isolate: fSebUmb1, sex: male	72105	fSebUmb1.pri	GCA_015220745.1	GenBank		Chromosome	11445908	800904020	2020-11-02		PRJNA562005	SAMN12629503
+Pao palembangensis	humpback puffer	isolate: TQD1807000160	1820603	ASM1534326v1	GCA_015343265.1	GenBank		Chromosome	3269158	356041988	2020-11-10		PRJNA597275	SAMN15098013
+Sarotherodon lohbergeri	keppi	isolate: Z05, sex: male	296553	Z05.scf	GCA_015708405.1	GenBank		Scaffold	15058	734669951	2020-12-01		PRJNA550295	SAMN12124122
+Sarotherodon lohbergeri	keppi	isolate: Z06, sex: female	296553	Z06.scf	GCA_015708455.1	GenBank		Scaffold	6703	709041510	2020-12-01		PRJNA550295	SAMN12124123
+Stomatepia pindu	pindu	isolate: Z09, sex: male	143659	Z09.scf	GCA_015708495.1	GenBank		Scaffold	9100	726966403	2020-12-01		PRJNA550295	SAMN13929962
+Sarotherodon caroli	fissi	isolate: Z17, sex: male	296554	Z17.scf	GCA_015708515.1	GenBank		Scaffold	8450	718506404	2020-12-01		PRJNA550295	SAMN13929963
+Pungu maclareni		isolate: Z03, sex: male	296561	Z03.scf	GCA_015708565.1	GenBank		Scaffold	8858	723316941	2020-12-01		PRJNA550295	SAMN13929960
+Sarotherodon steinbachi	kululu	isolate: Z07, sex: male	143546	Z07.scf	GCA_015708585.1	GenBank		Scaffold	10360	725750946	2020-12-01		PRJNA550295	SAMN13929961
+Argyrosomus japonicus	mulloway	isolate: RH1	448029	ASM1571009v1	GCA_015710095.1	GenBank		Contig	13110246	791960397	2020-12-02		PRJNA669485	SAMN16453595
+Cyprinodon tularosa		sex: male, strain: WSP-4	77115	ASM1607723v1	GCA_016077235.1	GenBank		Contig	1362150	1086882241	2020-12-15		PRJNA670474	SAMN16509697
+Arothron firmamentum	starry toado		264149	aroFir_1.0	GCA_016586285.1	GenBank		Scaffold	17030	334905208	2020-12-09		PRJDB8105	SAMD00166120
+Siniperca knerii	big-eye mandarin fish	isolate: CL1992	214812	ASM1661788v1	GCA_016617885.1	GenBank		Scaffold	58312	732114433	2021-01-12		PRJNA576324	SAMN12990280
+Oreochromis aureus	blue tilapia	breed: Nanning, sex: male, strain: Gb001	47969	ASM1662553v1	GCA_016625535.1	GenBank		Chromosome	2259908	1237756756	2021-01-19		PRJNA577007	SAMN13016751
+Callionymus lyra	dragonet	isolate: C_lyra_F025, sex: female	34785	ASM1663091v1	GCA_016630915.1	GenBank		Scaffold	2201294	568707486	2021-01-13		PRJNA634838	SAMN15526017
+Mugilogobius chulae	yellowstripe goby	isolate: GDLAMIinbred7-2019, sex: female	88201	ASM1673593v1	GCA_016735935.1	GenBank		Chromosome	701221	1003362100	2021-01-27		PRJNA598084	SAMN13698228
+Psettodes erumei	Indian spiny turbot	isolate: NWPU-DKJ-2019	195640	ASM1678522v1	GCA_016785225.1	GenBank		Contig	2454095	466551601	2021-02-01		PRJNA592748	SAMN13439343
+Pseudorhombus dupliciocellatus	ocellated flounder	isolate: NWPU-STBP-2018	367197	ASM1678523v1	GCA_016785235.1	GenBank		Scaffold	538669	395092285	2021-02-01		PRJNA592743	SAMN13439311
+Paraplagusia blochii	Bloch's tonguesole	isolate: NWPU-DGXT-2018	366904	ASM1678526v1	GCA_016785265.1	GenBank		Scaffold	37510	555100837	2021-02-01		PRJNA592738	SAMN13439296
+Brachirus orientalis	oriental sole	isolate: NWPU-DFRT-2018	435138	ASM1678528v1	GCA_016785285.1	GenBank		Scaffold	352130	629956282	2021-02-01		PRJNA592734	SAMN13439273
+Colistium nudipinnis	New Zealand turbot	isolate: NWPU-LYCLD-2018	1156758	ASM1678530v1	GCA_016785305.1	GenBank		Scaffold	141808	427535253	2021-02-01		PRJNA592742	SAMN13439310
+Chascanopsetta lugubris	pelican flounder	isolate: NWPU-DKP-2018	1003706	ASM1678532v1	GCA_016785325.1	GenBank		Scaffold	14706	577766669	2021-02-01		PRJNA592739	SAMN13439309
+Trinectes maculatus	hogchoker	isolate: NWPU-BDSQT-2018	195658	ASM1678534v1	GCA_016785345.1	GenBank		Scaffold	103915	450194497	2021-02-01		PRJNA592733	SAMN13439179
+Polydactylus sextarius	blackspot threadfin	isolate: NWPU-MB-2019	435218	ASM1680184v1	GCA_016801845.1	GenBank		Chromosome	18418211	564623279	2021-02-02		PRJNA592744	SAMN13439312
+Toxotes chatareus	largescale archerfish	isolate: NWPU-SSY-2019	270537	ASM1680188v1	GCA_016801885.1	GenBank		Chromosome	8430381	618729764	2021-02-02		PRJNA592745	SAMN13439313
+Platichthys stellatus	starry flounder	isolate: NWPU-XTJD-2018	195632	ASM1680193v1	GCA_016801935.1	GenBank		Chromosome	33203	609990026	2021-02-02		PRJNA592732	SAMN13439178
+Ophiodon elongatus		isolate: HL0851, sex: male	225387	NWFSC_Oelon_r3.mflye	GCA_016806645.1	GenBank		Scaffold	1538303	645875751	2021-02-03		PRJNA595583	SAMN13559843
+Xiphias gladius	swordfish	breed: wild, ecotype: Sanya, isolate: SHS-SW01, sex: male	8245	ASM1685928v1	GCA_016859285.1	GenBank		Chromosome	5252707	691763775	2021-02-12		PRJNA670841	SAMN16522248
+Istiophorus platypterus	Indo-Pacific sailfish	breed: wild, ecotype: Sanya, isolate: SHS-SA01, sex: male	13575	ASM1685934v1	GCA_016859345.1	GenBank		Chromosome	11851605	614110775	2021-02-12		PRJNA670841	SAMN16522249
+Oryzias woworae		strain: Fotuno	1221322	OryWow_0.9	GCA_016861445.1	GenBank		Contig	3021417	699501264	2021-01-14		PRJDB10959	SAMD00264440
+Gasterosteus aculeatus aculeatus	three-spined stickleback	sex: male, strain: Lake Benthic	481459	GAculeatus_UGA_version5	GCA_016920845.1	GenBank		Chromosome	485752	471877818	2021-02-23		PRJNA639125	SAMN15223905
+Lates calcarifer	barramundi perch		8187	ASB_HGAPassembly_v1	GCA_900066035.1	GenBank		Scaffold	1066117	668464831	2017-03-02		PRJEB10637	SAMEA3519091
+Lates calcarifer	barramundi perch		8187	ASB_FALCONassembly_v1	GCA_900066045.1	GenBank		Contig	1921842	605008470	2017-03-02		PRJEB10637	SAMEA3519091
+Labrus bergylta	ballan wrasse	sex: female	56723	BallGen_V1	GCA_900080235.1	GenBank		Scaffold	703847	805480521	2016-05-03		PRJEB13687	SAMEA3939555
+Trachinotus ovatus	derbio		173339	golden_pompano_genome_number_1	GCA_900231065.1	GenBank		Scaffold	173312	652811564	2018-05-03		PRJEB22654	SAMEA104304869
+Larimichthys crocea	large yellow croaker	sex: female	215358	Larimichthys_crocea_chromosome_1.0	GCA_900246015.1	GenBank		Chromosome	130633	689173177	2018-01-18		PRJEB24300	SAMEA104455074
+Astatotilapia calliptera	eastern happy		8154	fAstCal1.2	GCA_900246225.3	GenBank		Chromosome	4438245	880428986	2018-05-30		PRJEB24325	SAMEA104026430
+Melanogrammus aeglefinus	haddock		8056	MAEA_1	GCA_900291075.1	GenBank		Scaffold	77605	652790733	2018-03-19		PRJEB25074	SAMEA104602249
+Percopsis transmontana	sand roller		143327	ASM90030228v1	GCA_900302285.1	GenBank		Scaffold	8161	458089168	2018-03-20		PRJEB12469	SAMEA4028770
+Parasudis fraserbrunneri			1784818	ASM90030229v1	GCA_900302295.1	GenBank		Scaffold	4177	707987062	2018-03-21		PRJEB12469	SAMEA4028766
+Polymixia japonica	silver eye		81385	ASM90030230v1	GCA_900302305.1	GenBank		Scaffold	5803	554895936	2018-03-19		PRJEB12469	SAMEA4028769
+Phycis blennoides			163115	ASM90030231v1	GCA_900302315.1	GenBank		Scaffold	4532	416766999	2018-03-18		PRJEB12469	SAMEA4028788
+Muraenolepis marmorata	marbled moray cod		487677	ASM90030232v1	GCA_900302325.1	GenBank		Scaffold	3126	416390766	2018-03-19		PRJEB12469	SAMEA4028780
+Phycis phycis			349666	ASM90030233v1	GCA_900302335.1	GenBank		Scaffold	3458	346335180	2018-03-18		PRJEB12469	SAMEA4028789
+Melanonus zugmayeri	arrowtail		181410	ASM90030234v1	GCA_900302345.1	GenBank		Scaffold	4562	432902915	2018-03-19		PRJEB12469	SAMEA4028779
+Cyttopsis rosea	rosy dory		1176755	ASM90030235v1	GCA_900302355.1	GenBank		Scaffold	4843	546506150	2018-03-19		PRJEB12469	SAMEA4028773
+Macrourus berglax	onion-eye grenadier		473319	ASM90030236v1	GCA_900302365.1	GenBank		Scaffold	3353	399875629	2018-03-18		PRJEB12469	SAMEA4028786
+Bathygadus melanobranchus	Vaillant's grenadier		630650	ASM90030237v1	GCA_900302375.1	GenBank		Scaffold	4956	431202967	2018-03-19		PRJEB12469	SAMEA4028785
+Lota lota	burbot		69944	ASM90030238v1	GCA_900302385.1	GenBank		Scaffold	3803	397499185	2018-03-18		PRJEB12469	SAMEA4028790
+Bregmaceros cantori	striped codlet		630652	ASM90030239v1	GCA_900302395.1	GenBank		Scaffold	4452	1144104325	2018-03-30		PRJEB12469	SAMEA4028775
+Typhlichthys subterraneus	southern cavefish		940470	ASM90030240v1	GCA_900302405.1	GenBank		Scaffold	7314	555559596	2018-03-19		PRJEB12469	SAMEA4028771
+Trisopterus minutus	poor cod		80722	ASM90030241v1	GCA_900302415.1	GenBank		Scaffold	3248	334717091	2018-03-18		PRJEB12469	SAMEA4028793
+Brosme brosme	tusk		81638	ASM90030242v1	GCA_900302425.1	GenBank		Scaffold	3682	412731310	2018-03-18		PRJEB12469	SAMEA4028792
+Boreogadus saida			44932	ASM90030251v1	GCA_900302515.1	GenBank		Scaffold	3221	412070465	2018-03-19		PRJEB12469	SAMEA4028799
+Melanogrammus aeglefinus	haddock		8056	ASM90030252v1	GCA_900302525.1	GenBank		Scaffold	3215	374396471	2018-03-18		PRJEB12469	SAMEA4028796
+Neoniphon sammara	Sammara squirrelfish		47706	ASM90030253v1	GCA_900302535.1	GenBank		Scaffold	8761	659225728	2018-03-21		PRJEB12469	SAMEA4028807
+Lampris guttatus	North Atlantic opah		81370	ASM90030254v1	GCA_900302545.1	GenBank		Scaffold	4051	849277706	2018-03-30		PRJEB12469	SAMEA4028803
+Myripristis jacobus	blackbar soldierfish		371672	ASM90030255v1	GCA_900302555.1	GenBank		Scaffold	9816	720396841	2018-03-21		PRJEB12469	SAMEA4028805
+Gadus morhua	Atlantic cod		8049	ASM90030256v1	GCA_900302565.1	GenBank		Scaffold	5765	495065230	2018-03-20		PRJEB12469	SAMEA4028801
+Gadus chalcogrammus	walleye pollock		1042646	ASM90030257v1	GCA_900302575.1	GenBank		Scaffold	3603	448868398	2018-03-19		PRJEB12469	SAMEA4028800
+Regalecus glesne	king of herrings		81389	ASM90030258v1	GCA_900302585.1	GenBank		Scaffold	6781	656003707	2018-03-20		PRJEB12469	SAMEA4028802
+Gadiculus argenteus	silvery cod		185737	ASM90030259v1	GCA_900302595.1	GenBank		Scaffold	3379	396767394	2018-03-18		PRJEB12469	SAMEA4028794
+Rondeletia loricata	redmouth whalefish		88713	ASM90030260v1	GCA_900302605.1	GenBank		Scaffold	5112	568597941	2018-03-19		PRJEB12469	SAMEA4028809
+Holocentrus rufus	longspine squirrelfish		722565	ASM90030261v1	GCA_900302615.1	GenBank		Scaffold	9243	649757301	2018-03-19		PRJEB12469	SAMEA4028806
+Thunnus albacares	yellowfin tuna		8236	ASM90030262v1	GCA_900302625.1	GenBank		Scaffold	16808	728212003	2018-03-21		PRJEB12469	SAMEA4028815
+Chatrabus melanurus	pony toadfish		990972	ASM90030263v1	GCA_900302635.1	GenBank		Scaffold	4581	1128442880	2018-03-30		PRJEB12469	SAMEA4028814
+Perca fluviatilis	European perch		8168	ASM90030264v1	GCA_900302645.1	GenBank		Scaffold	4140	630662671	2018-03-19		PRJEB12469	SAMEA4028817
+Sebastes norvegicus	golden redfish		394699	ASM90030265v1	GCA_900302655.1	GenBank		Scaffold	9467	717740616	2018-03-21		PRJEB12469	SAMEA4028819
+Anabas testudineus	climbing perch		64144	ASM90030266v1	GCA_900302665.1	GenBank		Scaffold	18817	524844595	2018-03-19		PRJEB12469	SAMEA4028826
+Chaenocephalus aceratus	blackfin icefish		36190	ASM90030267v1	GCA_900302675.1	GenBank		Scaffold	5460	623452208	2018-03-19		PRJEB12469	SAMEA4028820
+Spondyliosoma cantharus	black seabream		50595	ASM90030268v1	GCA_900302685.1	GenBank		Scaffold	11633	680472139	2018-03-21		PRJEB12469	SAMEA4028822
+Helostoma temminkii	kissing gourami		243708	ASM90030269v1	GCA_900302695.1	GenBank		Scaffold	17055	599808025	2018-03-19		PRJEB12469	SAMEA4028825
+Parablennius parvicornis	rock-pool blenny		171872	ASM90030274v1	GCA_900302745.1	GenBank		Scaffold	7343	599249148	2018-03-19		PRJEB12469	SAMEA4028827
+Chromis chromis	damselfish		91607	ASM90030275v1	GCA_900302755.1	GenBank		Scaffold	8509	834429411	2018-03-21		PRJEB12469	SAMEA4028828
+Mora moro			248765	Mora mora assembly	GCA_900303205.1	GenBank		Scaffold	3267	344961111	2018-03-18		PRJEB12469	SAMEA4028783
+Trachyrincus scabrus	roughsnout grenadier		562814	ASM90030321v1	GCA_900303215.1	GenBank		Scaffold	3900	369861760	2018-03-18		PRJEB12469	SAMEA4028781
+Laemonema laureysi			1784819	ASM90030322v1	GCA_900303225.1	GenBank		Scaffold	3431	306494646	2018-03-18		PRJEB12469	SAMEA4028784
+Arctogadus glacialis	Arctic cod		185735	ASM90030323v1	GCA_900303235.1	GenBank		Scaffold	3282	428791846	2018-03-19		PRJEB12469	SAMEA4028798
+Selene dorsalis	African moonfish		179366	ASM90030324v1	GCA_900303245.1	GenBank		Scaffold	11209	528779420	2018-03-19		PRJEB12469	SAMEA4028824
+Lesueurigobius sanzi	Sanzo's goby		1365564	ASM90030325v1	GCA_900303255.1	GenBank		Scaffold	6729	810626388	2018-03-21		PRJEB12469	SAMEA4028816
+Brotula barbata	bearded brotula		432164	ASM90030326v1	GCA_900303265.1	GenBank		Scaffold	17578	485061200	2018-03-20		PRJEB12469	SAMEA4028811
+Antennarius striatus	striated frogfish		241820	ASM90030327v1	GCA_900303275.1	GenBank		Scaffold	6086	441856641	2018-03-19		PRJEB12469	SAMEA4028823
+Merluccius merluccius	European hake		8063	ASM90031254v1	GCA_900312545.1	GenBank		Scaffold	3670	401034705	2018-03-18		PRJEB12469	SAMEA4028777
+Lamprogrammus exutus			1592065	ASM90031255v1	GCA_900312555.1	GenBank		Scaffold	4213	492850272	2018-03-20		PRJEB12469	SAMEA4028812
+Beryx splendens	splendid alfonsino		88663	ASM90031256v1	GCA_900312565.1	GenBank		Scaffold	4286	533267752	2018-03-19		PRJEB12469	SAMEA4028808
+Acanthochaenus luetkenii	pricklefish		473344	ASM90031257v1	GCA_900312575.1	GenBank		Scaffold	5636	545759480	2018-03-19		PRJEB12469	SAMEA4028810
+Malacocephalus occidentalis	western softhead grenadier		630739	ASM90031258v1	GCA_900312585.1	GenBank		Scaffold	3697	350339566	2018-03-18		PRJEB12469	SAMEA4028787
+Guentherus altivela	highfin tadpole fish		1263181	ASM90031259v1	GCA_900312595.1	GenBank		Scaffold	2928	539598795	2018-03-19		PRJEB12469	SAMEA4028767
+Stylephorus chordatus	tube-eye		409996	ASM90031261v1	GCA_900312615.1	GenBank		Scaffold	3373	488488587	2018-03-20		PRJEB12469	SAMEA4028774
+Merluccius polli	Benguela hake		89951	ASM90031262v1	GCA_900312625.1	GenBank		Scaffold	3471	401149128	2018-03-18		PRJEB12469	SAMEA4028776
+Pollachius virens	saithe		8060	ASM90031263v1	GCA_900312635.1	GenBank		Scaffold	3457	394927939	2018-03-18		PRJEB12469	SAMEA4028795
+Carapus acus	pearlfish		1491482	ASM90031293v1	GCA_900312935.1	GenBank		Scaffold	9554	387834307	2018-03-18		PRJEB12469	SAMEA4028813
+Merluccius capensis	shallow-water Cape hake		89947	ASM90031294v1	GCA_900312945.1	GenBank		Scaffold	3792	414317329	2018-03-18		PRJEB12469	SAMEA4028778
+Myoxocephalus scorpius	shorthorn sculpin		8097	ASM90031295v1	GCA_900312955.1	GenBank		Scaffold	5716	520316443	2018-03-19		PRJEB12469	SAMEA4028818
+Molva molva	ling		163112	ASM90032329v1	GCA_900323295.1	GenBank		Scaffold	4136	437480619	2018-03-26		PRJEB12469	SAMEA4028791
+Trachyrincus murrayi	roughnose grenadier		241836	ASM90032330v1	GCA_900323305.1	GenBank		Scaffold	6231	452416606	2018-03-26		PRJEB12469	SAMEA4028782
+Symphodus melops	corkwing wrasse		171736	ASM90032331v1	GCA_900323315.1	GenBank		Scaffold	9362	533823763	2018-03-26		PRJEB12469	SAMEA4028821
+Zeus faber	John dory		64108	ASM90032333v1	GCA_900323335.1	GenBank		Scaffold	4642	610433400	2018-03-26		PRJEB12469	SAMEA4028772
+Pseudochromis fuscus	brown dottyback		280673	ASM90032334v1	GCA_900323345.1	GenBank		Scaffold	12029	657041210	2018-03-26		PRJEB12469	SAMEA4028829
+Merlangius merlangus	whiting		8058	ASM90032335v1	GCA_900323355.1	GenBank		Scaffold	3538	423942190	2018-03-26		PRJEB12469	SAMEA4028797
+Monocentris japonicus	pineconefish		181435	ASM90032336v1	GCA_900323365.1	GenBank		Scaffold	8046	556023515	2018-03-26		PRJEB12469	SAMEA4028804
+Benthosema glaciale	glacier lanternfish		125796	ASM90032337v1	GCA_900323375.1	GenBank		Scaffold	4393	676314385	2018-03-26		PRJEB12469	SAMEA4028768
+Anabas testudineus	climbing perch	sex: male	64144	fAnaTes1.2	GCA_900324465.2	GenBank		Chromosome	7055436	555641398	2018-12-19		PRJEB25768	SAMEA104026376
+Mastacembelus armatus	zig-zag eel		205130	fMasArm1.2	GCA_900324485.2	GenBank		Chromosome	8014513	591935101	2019-03-16		PRJEB25769	SAMEA104026378
+Nibea albiflora	white flower croaker		240163	Nibea albiflora v1.0	GCA_900327885.1	GenBank		Scaffold	55145	574466150	2018-12-05		PRJEB24302	SAMEA1067819
+Simochromis diagramma			43689	fSimDia1.1	GCA_900408965.1	GenBank		Scaffold	2231376	848827444	2018-06-18		PRJEB26682	SAMEA104026415
+Epinephelus coioides	orange-spotted grouper		94232	Grouper	GCA_900536245.1	GenBank		Scaffold	2494056	1023559032	2019-12-05		PRJEB28248	SAMEA4836213
+Trachinotus ovatus	derbio		173339	golden pompano genome assembly version 2	GCA_900607315.1	GenBank		Scaffold	1846793	648062395	2018-12-02		PRJEB22654	SAMEA104304870
+Hypoplectrus puella	barred hamlet		146810	HP_genome_unmasked_01	GCA_900610375.1	GenBank		Scaffold	22581	612290098	2018-12-12		PRJEB27858	SAMEA4799755
+Cottoperca gobio			56716	fCotGob3.1	GCA_900634415.1	GenBank		Chromosome	6330900	609391784	2019-02-06		PRJEB30248	SAMEA104242975
+Cottoperca gobio			56716	fCotGob3.1 alternate haplotype	GCA_900634435.1	GenBank		Scaffold	107516	671265480	2019-02-07		PRJEB30256	SAMEA104242975
+Parambassis ranga	Indian glassy fish		210632	fParRan2.2	GCA_900634625.2	GenBank		Chromosome	5080925	551012959	2020-07-31		PRJEB30257	SAMEA4675621
+Gouania willdenowi	blunt-snouted clingfish		441366	fGouWil2.2	GCA_900634775.2	GenBank		Chromosome	1838341	937150793	2020-07-31		PRJEB30359	SAMEA104026382
+Betta splendens	Siamese fighting fish		158456	fBetSpl5.3	GCA_900634795.3	GenBank		Chromosome	2497747	441371523	2020-08-25		PRJEB30365	SAMEA104381735
+Anabas testudineus	climbing perch		64144	fAnaTes1.2 alternate haplotype	GCA_900650485.1	GenBank		Scaffold	1056890	539091056	2019-02-07		PRJEB30391	SAMEA104026376
+Gouania willdenowi	blunt-snouted clingfish		441366	fGouWil2.1 alternate haplotype	GCA_900650505.1	GenBank		Scaffold	173852	759272921	2019-02-07		PRJEB30360	SAMEA104026382
+Parambassis ranga	Indian glassy fish		210632	fParRan2.1 alternate haplotype	GCA_900651595.1	GenBank		Scaffold	409592	486545135	2019-02-12		PRJEB30258	SAMEA4675621
+Betta splendens	Siamese fighting fish		158456	fBetSpl5.1 alternate haplotype	GCA_900651605.1	GenBank		Scaffold	316502	426643682	2019-02-07		PRJEB30366	SAMEA104381735
+Diretmus argenteus	silver spinyfin		88682	Diretmus_argenteus_assembly	GCA_900660295.1	GenBank		Scaffold	2172	302363458	2019-06-15		PRJEB30779	SAMEA5226238
+Cetomimus sp. NI1144			115865	Opsanus_beta_assembly	GCA_900660305.1	GenBank		Scaffold	2690	404871927	2019-06-15		PRJEB30779	SAMEA5226236
+Diretmoides pauciradiatus			1415272	Diretmoides_pauciradiatus_assembly	GCA_900660315.1	GenBank		Scaffold	4028	672603014	2019-06-19		PRJEB30779	SAMEA5226239
+Opsanus beta	Gulf toadfish		95145	Opsanus_beta_assembly	GCA_900660325.1	GenBank		Scaffold	3062	1028783780	2019-06-19		PRJEB30779	SAMEA5226235
+Hoplostethus atlanticus	orange roughy		96778	Hoplostethus_atlanticus_assembly	GCA_900660355.1	GenBank		Scaffold	7812	520173038	2019-06-18		PRJEB30779	SAMEA5226241
+Gephyroberyx darwinii	Darwin's slimehead		334984	Gephyroberyx_darwinii_assembly	GCA_900660455.1	GenBank		Scaffold	8514	535045983	2019-06-18		PRJEB30779	SAMEA5226240
+Anoplogaster cornuta	common fangtooth		88656	Anoplogaster_cornuta_assembly	GCA_900683385.1	GenBank		Scaffold	3719	404844788	2019-06-15		PRJEB30779	SAMEA5226237
+Mastacembelus armatus	zig-zag eel		205130	fMasArm1.2 alternate haplotype	GCA_900700395.1	GenBank		Contig	33448	43703874	2019-04-01		PRJEB31553	SAMEA104026378
+Sparus aurata	gilthead seabream		8175	fSpaAur1.1	GCA_900880675.1	GenBank		Chromosome	2862625	833578411	2019-07-30		PRJEB31901	SAMEA104384835
+Sparus aurata	gilthead seabream		8175	fSpaAur1.1 alternate haplotype	GCA_900880695.1	GenBank		Scaffold	152708	668417842	2019-07-11		PRJEB31902	SAMEA104384835
+Echeneis naucrates	live sharksucker		173247	fEcheNa1.1	GCA_900963305.1	GenBank		Chromosome	12371513	544212633	2019-04-11		PRJEB31992	SAMEA4966390
+Echeneis naucrates	live sharksucker		173247	fEcheNa1.1 alternate haplotype	GCA_900963505.1	GenBank		Scaffold	889301	528272450	2019-04-11		PRJEB31993	SAMEA4966390
+Takifugu rubripes	torafugu		31033	fTakRub1.2	GCA_901000725.2	GenBank		Chromosome	3136617	384110215	2019-06-05		PRJEB31988	SAMEA104384834
+Takifugu rubripes	torafugu		31033	fTakRub1.2 alternate haplotype	GCA_901000745.3	GenBank		Scaffold	266405	350016965	2019-06-05		PRJEB31989	SAMEA104384834
+Aeoliscus strigatus	razorfish		270546	Aeoliscus_strigatus_assembly	GCA_901007665.1	GenBank		Scaffold	15935	381315519	2020-04-15		PRJEB32126	SAMEA5563349
+Fistularia tabacaria	cornetfish		1046056	Fistularia_tabacaria_assembly	GCA_901007705.1	GenBank		Scaffold	17669	593175436	2020-04-15		PRJEB32126	SAMEA5563353
+Dactylopterus volitans	flying gurnard		94924	Dactylopterus_volitans_assembly	GCA_901007715.1	GenBank		Scaffold	8271	576982700	2020-04-15		PRJEB32126	SAMEA5563350
+Hippocampus kuda	spotted seahorse		103715	Hippocampus_kuda_assembly	GCA_901007745.1	GenBank		Scaffold	10411	444947940	2020-04-15		PRJEB32126	SAMEA5563355
+Dunckerocampus dactyliophorus	ringed pipefish		161453	Doryramphus_dactylophorus_assembly	GCA_901007775.1	GenBank		Scaffold	27594	618747239	2020-04-15		PRJEB32126	SAMEA5563351
+Entelurus aequoreus	snake pipefish		161455	Entelurus_aequoreus_assembly	GCA_901007785.1	GenBank		Scaffold	3393	556773907	2020-04-15		PRJEB32126	SAMEA5563352
+Hippocampus whitei	White's seahorse		109292	Hippocampus_whitei_assembly	GCA_901007805.1	GenBank		Scaffold	10333	432755118	2020-04-15		PRJEB32126	SAMEA5563354
+Mullus surmuletus	striped red mullet		87757	Mullus_surmuletus_assembly	GCA_901007815.1	GenBank		Scaffold	7238	469313838	2020-04-15		PRJEB32126	SAMEA5563357
+Macroramphosus scolopax	longspine snipefish		206124	Macroramphorus_scolopax_assembly	GCA_901007825.1	GenBank		Scaffold	13365	417659696	2020-04-15		PRJEB32126	SAMEA5563356
+Syngnathus rostellatus	Nilsson's pipefish		161589	Syngnathus_rostellatus_assembly	GCA_901007895.1	GenBank		Scaffold	14947	283186098	2020-04-15		PRJEB32126	SAMEA5563359
+Nerophis ophidion	straightnose pipefish		159077	Nerophis_ophidion_assembly	GCA_901007905.1	GenBank		Scaffold	5245	976361201	2020-04-15		PRJEB32126	SAMEA5563358
+Syngnathus typhle	broad-nosed pipefish		161592	Syngnathus_typhle_assembly	GCA_901007915.1	GenBank		Scaffold	25809	314580961	2020-04-15		PRJEB32126	SAMEA5563360
+Syngnathus acus	greater pipefish		161584	fSynAcu1.2	GCA_901709675.2	GenBank		Chromosome	11959915	324331233	2020-07-31		PRJEB32741	SAMEA104381750
+Syngnathus acus	greater pipefish		161584	fSynAcu1.1 alternate haplotype	GCA_901709685.1	GenBank		Scaffold	169498	234858432	2019-06-02		PRJEB32742	SAMEA104381750
+Myripristis murdjan	pinecone soldierfish		586833	fMyrMur1.1 alternate haplotype	GCA_902148815.1	GenBank		Scaffold	612296	819084930	2019-07-03		PRJEB33187	SAMEA4872133
+Sphaeramia orbicularis	orbiculate cardinalfish		375764	fSphaOr1.1 alternate haplotype	GCA_902148825.1	GenBank		Scaffold	246057	1135435641	2019-07-03		PRJEB33176	SAMEA4966328
+Salarias fasciatus	jewelled blenny		181472	fSalaFa1.1 alternate haplotype	GCA_902148835.1	GenBank		Scaffold	421533	894675777	2019-07-03		PRJEB33183	SAMEA4966329
+Salarias fasciatus	jewelled blenny		181472	fSalaFa1.1	GCA_902148845.1	GenBank		Chromosome	2597836	797490645	2019-07-03		PRJEB33184	SAMEA4966329
+Sphaeramia orbicularis	orbiculate cardinalfish		375764	fSphaOr1.1	GCA_902148855.1	GenBank		Chromosome	2360121	1342662642	2019-07-03		PRJEB33177	SAMEA4966328
+Myripristis murdjan	pinecone soldierfish		586833	fMyrMur1.1	GCA_902150065.1	GenBank		Chromosome	14475636	835254674	2019-07-03		PRJEB33188	SAMEA4872133
+Gadus morhua	Atlantic cod		8049	gadMor3.0 alternate haplotype	GCA_902167395.1	GenBank		Scaffold	278226	584119146	2019-07-16		PRJEB33454	SAMEA5574046
+Gadus morhua	Atlantic cod		8049	gadMor3.0	GCA_902167405.1	GenBank		Chromosome	1015663	669949713	2019-07-16		PRJEB33455	SAMEA5574046
+Nibea albiflora	white flower croaker		240163	YD_2	GCA_902410095.1	GenBank		Chromosome	535445	595676849	2021-01-28		PRJEB33909	SAMEA5857982
+Thalassophryne amazonica			390379	fThaAma1.1 alternate haplotype	GCA_902500245.1	GenBank		Scaffold	119171	1767810094	2019-09-30		PRJEB34605	SAMEA104129913
+Thalassophryne amazonica			390379	fThaAma1.1	GCA_902500255.1	GenBank		Chromosome	2329598	2446592878	2019-09-30		PRJEB34606	SAMEA104129913
+Pungitius pungitius	ninespine stickleback		134920	NSP_V7	GCA_902500615.3	GenBank		Scaffold	2775277	466582808	2020-10-12		PRJEB33823	SAMEA5986199
+Neostethus bicornis			300306	fNeoBic2.1 alternate haplotype	GCA_902685365.1	GenBank		Scaffold	960770	747174145	2019-11-26		PRJEB35382	SAMEA104240207
+Neostethus bicornis			300306	fNeoBic2.1	GCA_902685375.1	GenBank		Chromosome	23089617	778440790	2019-11-26		PRJEB35383	SAMEA104240207
+Petrochromis trewavasae	threadfin cichlid		244518	PTv1.0	GCA_902810495.1	GenBank		Scaffold	46763	917573940	2020-04-15		PRJEB37068	SAMEA6604288
+Tropheus moorii	blunthead cichlid		8150	TMv1.0	GCA_902810505.1	GenBank		Scaffold	32181	911126605	2020-04-15		PRJEB37068	SAMEA6604290
+Harpagifer antarcticus	Antarctic spiny plunderfish		43256	fHarAnt1.1 alternate haplotype	GCA_902827095.1	GenBank		Scaffold	157921	908431605	2020-04-15		PRJEB37644	SAMEA104132831
+Trematomus bernacchii	emerald rockcod		40690	fTreBer1.1 alternate haplotype	GCA_902827105.1	GenBank		Scaffold	176545	950296928	2020-04-15		PRJEB37641	SAMEA104132834
+Pseudochaenichthys georgianus	South Georgia icefish		52239	fPseGeo1.1	GCA_902827115.1	GenBank		Chromosome	661283	1026101545	2020-04-15		PRJEB37648	SAMEA104132832
+Harpagifer antarcticus	Antarctic spiny plunderfish		43256	fHarAnt1.1	GCA_902827135.1	GenBank		Scaffold	1048452	941503312	2020-04-15		PRJEB37645	SAMEA104132831
+Pseudochaenichthys georgianus	South Georgia icefish		52239	fPseGeo1.1 alternate haplotype	GCA_902827155.1	GenBank		Scaffold	36557	340895399	2020-04-15		PRJEB37647	SAMEA104132832
+Trematomus bernacchii	emerald rockcod		40690	fTreBer1.1	GCA_902827165.1	GenBank		Scaffold	1402669	867125071	2020-04-15		PRJEB37642	SAMEA104132834
+Gymnodraco acuticeps			8218	fGymAcu1.1	GCA_902827175.1	GenBank		Scaffold	534678	996888495	2020-04-15		PRJEB37639	SAMEA104242997
+Gymnodraco acuticeps			8218	fGymAcu1.1 alternate haplotype	GCA_902827185.1	GenBank		Scaffold	112147	945243511	2020-04-15		PRJEB37638	SAMEA104242997
+Diplodus sargus	white seabream		38941	diplodus_sargus_genome	GCA_903131615.1	GenBank		Scaffold	27464	784049296	2020-06-05		PRJEB38135	SAMEA6813209
+Mullus surmuletus	striped red mullet		87757	mullus_surmuletus_genome	GCA_903171835.1	GenBank		Scaffold	8436	533324175	2020-06-05		PRJEB38135	SAMEA6813210
+Serranus cabrilla	comber		94953	serranus_cabrilla_genome	GCA_903364295.1	GenBank		Scaffold	21564	630578932	2020-06-05		PRJEB38135	SAMEA6813211
+Poecilia reticulata	guppy		8081	PRET-male-REFERENCE	GCA_904066995.1	GenBank		Chromosome	8200425	697709266	2020-09-16		PRJEB36704	SAMEA6533017
+Acanthopagrus latus	yellowfin seabream	isolate: v.2019	8177	fAcaLat1.1 alternate haplotype	GCA_904848175.1	GenBank		Scaffold	195684	47986553	2020-10-12		PRJEB40701	SAMN16236878
+Acanthopagrus latus	yellowfin seabream	isolate: v.2019	8177	fAcaLat1.1	GCA_904848185.1	GenBank		Chromosome	14880455	685127588	2020-10-12		PRJEB40700	SAMN16236878
+Trachurus trachurus	Atlantic horse mackerel		36212	fTraTra1.1 alternate haplotype	GCA_905171655.1	GenBank		Scaffold	1547897	818939194	2021-01-28		PRJEB42173	SAMEA7524396
+Trachurus trachurus	Atlantic horse mackerel		36212	fTraTra1.1	GCA_905171665.1	GenBank		Chromosome	6264696	820146742	2021-01-28		PRJEB42172	SAMEA7524396
+Maylandia zebra	zebra mbuna	ecotype: Mazinzi reef, isolate: #2_Kocher and #3_Kocher, sex: pooled male and female	106582	M_zebra_UMD2a	GCF_000238955.4	RefSeq	NCBI Annotation Release 104	Chromosome	1407748	957468680	2018-04-10	32471	PRJNA60369	SAMN03892560
+Pundamilia nyererei		isolate: P.nyererei 1_Seehausen, sex: female	303518	PunNye1.0	GCF_000239375.1	RefSeq	NCBI Annotation Release 101	Scaffold	22622	830133247	2011-12-22	24222	PRJNA60367	SAMN00149614
+Neolamprologus brichardi	lyretail cichlid	isolate: N.brichardi 1_Salsburger, sex: female	32507	NeoBri1.0	GCF_000239395.1	RefSeq	NCBI Annotation Release 101	Scaffold	13047	847893845	2011-12-22	26286	PRJNA60365	SAMN00139653
+Haplochromis burtoni	Burton's mouthbrooder	isolate: A. burtoni ID#24_Hofmann, sex: female	8153	AstBur1.0	GCF_000239415.1	RefSeq	NCBI Annotation Release 101	Scaffold	21886	831411547	2011-12-22	26461	PRJNA60363	SAMN00139641
+Poecilia formosa	Amazon molly	sex: female	48698	Poecilia_formosa-5.1.2	GCF_000485575.1	RefSeq	NCBI Annotation Release 101	Scaffold	57472	748923461	2013-10-28	31997	PRJNA89109	SAMN02981564
+Cynoglossus semilaevis	tongue sole	isolate: Cse_v1.0	244447	Cse_v1.0	GCF_000523025.1	RefSeq	NCBI Annotation Release 102	Chromosome	27008	470182763	2014-01-28	25771	PRJNA73987	SAMN02595200
+Poecilia reticulata	guppy	sex: female, strain: Guanapo	8081	Guppy_female_1.0+MT	GCF_000633615.1	RefSeq	NCBI Annotation Release 101	Chromosome	41913	731605743	2014-04-28	26512	PRJNA238429	SAMN02404645
+Stegastes partitus	bicolor damselfish	isolate: 25-593, sex: male	144197	Stegastes_partitus-1.0.2	GCF_000690725.1	RefSeq	NCBI Annotation Release 100	Scaffold	43010	800491834	2014-05-13	23869	PRJNA89147	SAMN02743342
+Cyprinodon variegatus	sheepshead minnow	isolate: N-32, sex: female	28743	C_variegatus-1.0	GCF_000732505.1	RefSeq	NCBI Annotation Release 100	Scaffold	20803	1035167975	2015-10-01	24678	PRJNA89149	SAMN02736898
+Notothenia coriiceps	black rockcod	isolate: Sejong01, sex: male	8208	NC01	GCF_000735185.1	RefSeq	NCBI Annotation Release 100	Scaffold	17487	636595335	2014-07-29	27626	PRJNA66471	SAMN02206445
+Boleophthalmus pectinirostris	great blue-spotted mudskipper	sex: pooled male and female	150288	BP.fa	GCF_000788275.1	RefSeq	NCBI Annotation Release 100	Scaffold	20438	955735039	2014-12-02	22809	PRJNA232434	SAMN03201692
+Larimichthys crocea	large yellow croaker	isolate: SSNF	215358	L_crocea_2.0	GCF_000972845.2	RefSeq	NCBI Annotation Release 102	Chromosome	277487	657923191	2018-11-27	27368	PRJNA245366	SAMN03092871
+Austrofundulus limnaeus		sex: male, strain: Quisiro	52670	Austrofundulus_limnaeus-1.0	GCF_001266775.1	RefSeq	NCBI Annotation Release 100	Scaffold	8097	866963281	2015-07-28	26712	PRJNA280995	SAMN03490872
+Poecilia latipinna	sailfin molly	isolate: Pla-1442-1.1, sex: female	48699	P_latipinna-1.0	GCF_001443285.1	RefSeq	NCBI Annotation Release 100	Scaffold	33278	815144743	2015-11-13	30976	PRJNA196862	SAMN02048973
+Poecilia mexicana	shortfin molly	isolate: Pme_1353_1.1, sex: female	48701	P_mexicana-1.0	GCF_001443325.1	RefSeq	NCBI Annotation Release 100	Scaffold	39840	801711499	2015-11-13	31218	PRJNA196869	SAMN02048972
+Xiphophorus couchianus	Monterrey platyfish	sex: female	32473	X_couchianus-1.0	GCF_001444195.1	RefSeq	NCBI Annotation Release 101	Chromosome	15315838	688524871	2018-09-19	28980	PRJNA290781	SAMN03922721
+Nothobranchius furzeri	turquoise killifish	sex: female, strain: GRZ	105023	Nfu_20140520	GCF_001465895.1	RefSeq	NCBI Annotation Release 100	Chromosome	19950	1242498532	2015-12-11	25135	PRJEB5837	SAMEA2698544
+Lates calcarifer	barramundi perch	isolate: ASB-BC8, sex: male	8187	ASM164080v1	GCF_001640805.1	RefSeq	NCBI Annotation Release 100	Scaffold	1066117	668464831	2016-05-09	30780	PRJNA294489	SAMN04026617
+Kryptolebias marmoratus	mangrove rivulus	isolate: JLee-2015, sex: hermaphrodite	37003	ASM164957v2	GCF_001649575.2	RefSeq	NCBI Annotation Release 102	Chromosome	57646	680638340	2020-11-16	25206	PRJNA626665	SAMN04622665
+Oreochromis niloticus	Nile tilapia	isolate: F11D_XX, sex: female	8128	O_niloticus_UMD_NMBU	GCF_001858045.2	RefSeq	NCBI Annotation Release 104	Chromosome	2923640	1005664923	2018-06-29	42622	PRJNA344471	SAMN05859795
+Hippocampus comes	tiger tail seahorse	isolate: QL1, sex: male	109280	H_comes_QL1_v1	GCF_001891065.1	RefSeq	NCBI Annotation Release 100	Scaffold	39546	493759415	2016-12-08	25926	PRJNA314292	SAMN04531611
+Monopterus albus	swamp eel	sex: male	43700	M_albus_1.0	GCF_001952655.1	RefSeq	NCBI Annotation Release 100	Scaffold	22239	684127526	2017-01-17	24055	PRJNA183073	SAMN06219872
+Paralichthys olivaceus	Japanese flounder	breed: gynogenesis, sex: female	8255	Flounder_ref_guided_V1.0	GCF_001970005.1	RefSeq	NCBI Annotation Release 100	Scaffold	36690	643894737	2017-01-24	24832	PRJNA344006	SAMN05817825
+Acanthochromis polyacanthus	spiny chromis	ecotype: Palm Islands	80966	ASM210954v1	GCF_002109545.1	RefSeq	NCBI Annotation Release 100	Scaffold	16099	991584656	2017-04-25	27833	PRJNA311159	SAMN06347167
+Oryzias latipes	Japanese medaka	sex: male, strain: Hd-rR	8090	ASM223467v1	GCF_002234675.1	RefSeq	NCBI Annotation Release 103	Chromosome	2530934	734040372	2017-07-27	26845	PRJNA325079	SAMN06689957
+Seriola dumerili	greater amberjack	isolate: Sdu_G_001	41447	Sdu_1.0	GCF_002260705.1	RefSeq	NCBI Annotation Release 100	Scaffold	249755	677669644	2017-08-03	24190	PRJDB5856	SAMD00083043
+Xiphophorus maculatus	southern platyfish	sex: male, strain: JP 163 A	8083	X_maculatus-5.0-male	GCF_002775205.1	RefSeq	NCBI Annotation Release 102	Chromosome	9181372	704304519	2017-12-07	27255	PRJNA72525	SAMN08025980
+Amphiprion ocellaris	clown anemonefish	isolate: DU_AmpOce	80972	AmpOce1.0	GCF_002776465.1	RefSeq	NCBI Annotation Release 101	Scaffold	324210	880704246	2017-11-16	29017	PRJNA407816	SAMN07982614
+Seriola lalandi dorsalis		ecotype: SW California, isolate: HSWRI2012SDOR001	1841481	Sedor1	GCF_002814215.1	RefSeq	NCBI Annotation Release 100	Scaffold	51346	732493304	2017-12-08	29701	PRJNA319656	SAMN04902367
+Oryzias melastigma	Indian medaka	sex: pooled male and female, strain: HK-1	30732	ASM292280v2	GCF_002922805.2	RefSeq	NCBI Annotation Release 101	Chromosome	30057	778686656	2020-04-13	28599	PRJNA401159	SAMN07596545
+Xiphophorus hellerii	green swordtail	sex: male, strain: 12219	8084	Xiphophorus_hellerii-4.1	GCF_003331165.1	RefSeq	NCBI Annotation Release 100	Chromosome	7084538	732889490	2019-12-05	30235	PRJNA290782	SAMN09545741
+Perca flavescens	yellow perch	isolate: YP-PL-M2, sex: male	8167	PFLA_1.0	GCF_004354835.1	RefSeq	NCBI Annotation Release 100	Chromosome	4268950	877439799	2019-03-19	28914	PRJNA514308	SAMN10722690
+Anarrhichthys ocellatus	wolf-eel	isolate: YVR2014, sex: female	433405	GSC_Weel_1.0	GCF_004355925.1	RefSeq	NCBI Annotation Release 100	Scaffold	41757	612774492	2019-03-08	24902	PRJNA496475	SAMN10245424
+Morone saxatilis	striped sea-bass	isolate: NCDOM2014, sex: pooled male and female	34816	NCSU_SB_2.0	GCF_004916995.1	RefSeq	NCBI Annotation Release 100	Scaffold	17211	598109547	2019-04-26	23020	PRJNA532441	SAMN11399929
+Epinephelus lanceolatus	giant grouper	isolate: Andai001, sex: female	310571	ASM528154v1	GCF_005281545.1	RefSeq	NCBI Annotation Release 100	Chromosome	159800	1087399367	2019-05-13	27295	PRJNA516312	SAMN10786578
+Archocentrus centrarchus	flier cichlid	isolate: MPI-CPG fArcCen1, sex: male	63155	fArcCen1	GCF_007364275.1	RefSeq	NCBI Annotation Release 100	Chromosome	2146538	932930362	2019-08-01	29275	PRJNA489129	SAMN09948522
+Sander lucioperca	pikeperch	isolate: FBNREF2018, sex: male	283035	SLUC_FBN_1.2	GCF_008315115.2	RefSeq	NCBI Annotation Release 101	Chromosome	6663498	901221791	2020-08-14	33533	PRJNA561467	SAMN12618724
+Etheostoma spectabile	orangethroat darter	isolate: EspeVRDwgs_2016, sex: male	54343	UIUC_Espe_1.0	GCF_008692095.1	RefSeq	NCBI Annotation Release 100	Chromosome	26023	854790067	2019-10-07	38154	PRJNA556880	SAMN12373147
+Notolabrus celidotus	New Zealand spotty	isolate: fNotCel1, sex: male	1203425	fNotCel1.pri	GCF_009762535.1	RefSeq	NCBI Annotation Release 100	Chromosome	3748462	846744125	2019-12-18	28408	PRJNA561956	SAMN12623201
+Cyclopterus lumpus	lumpfish	isolate: fCycLum1, sex: male	8103	fCycLum1.pri	GCF_009769545.1	RefSeq	NCBI Annotation Release 100	Chromosome	4950682	572885595	2019-12-23	26630	PRJNA562003	SAMN12629502
+Hippoglossus hippoglossus	Atlantic halibut	isolate: fHipHip1, sex: male	8267	fHipHip1.pri	GCF_009819705.1	RefSeq	NCBI Annotation Release 100	Chromosome	7020318	596775069	2019-12-31	27732	PRJNA562001	SAMN12629501
+Periophthalmus magnuspinnatus		isolate: fPerMag1, sex: female	409849	fPerMag1.pri	GCF_009829125.1	RefSeq	NCBI Annotation Release 100	Chromosome	2301275	752605361	2020-01-03	24742	PRJNA561998	SAMN12629500
+Perca fluviatilis	European perch	sex: male	8168	GENO_Pfluv_1.0	GCF_010015445.1	RefSeq	NCBI Annotation Release 100	Chromosome	4197643	951345774	2020-01-30	32186	PRJNA549142	SAMN12071746
+Fundulus heteroclitus	mummichog	isolate: FHET01, sex: male	8078	MU-UCD_Fhet_4.1	GCF_011125445.2	RefSeq	NCBI Annotation Release 102	Chromosome	587965	1203489213	2020-08-13	34686	PRJNA597160	SAMN13668183
+Etheostoma cragini	Arkansas darter	isolate: CJK2018	417921	CSU_Ecrag_1.0	GCF_013103735.1	RefSeq	NCBI Annotation Release 100	Chromosome	45088	643078674	2020-05-15	27709	PRJNA611833	SAMN14351042
+Hippoglossus stenolepis	Pacific halibut	isolate: PH-IPHC-18, sex: female	195615	IPHC_HiSten_1.0	GCF_013339905.1	RefSeq	NCBI Annotation Release 100	Chromosome	17826919	594127359	2020-06-16	28138	PRJNA622249	SAMN14503176
+Scophthalmus maximus	turbot	ecotype: atlantic turbot, isolate: AOZZmale01, sex: male	52904	ASM1334776v1	GCF_013347765.1	RefSeq	NCBI Annotation Release 100	Chromosome	20466349	556679315	2020-06-18	38190	PRJNA631898	SAMN14896287
+Micropterus salmoides	largemouth bass	ecotype: aquatic, isolate: LMB-PRFRI, sex: female	27706	ASM1485139v1	GCF_014851395.1	RefSeq	NCBI Annotation Release 100	Scaffold	1227323	963597430	2020-10-05	37622	PRJNA640112	SAMN15299117
+Nematolebias whitei	Rio pearlfish	isolate: Nwh7, sex: female	451745	NemWhi1	GCF_014905685.1	RefSeq	NCBI Annotation Release 100	Scaffold	19984	1218316901	2020-10-22	23454	PRJNA560526	SAMN12588121
+Sebastes umbrosus	honeycomb rockfish	isolate: fSebUmb1, sex: male	72105	fSebUmb1.pri	GCF_015220745.1	RefSeq	NCBI Annotation Release 100	Chromosome	11445908	800904020	2020-11-03	30334	PRJNA562005	SAMN12629503
+Cyprinodon tularosa		sex: male, strain: WSP-4	77115	ASM1607723v1	GCF_016077235.1	RefSeq	NCBI Annotation Release 100	Contig	1362150	1086882241	2020-12-15	28267	PRJNA670474	SAMN16509697
+Labrus bergylta	ballan wrasse	sex: female	56723	BallGen_V1	GCF_900080235.1	RefSeq	NCBI Annotation Release 101	Scaffold	703847	805480521	2016-05-03	35339	PRJEB13687	SAMEA3939555
+Astatotilapia calliptera	eastern happy		8154	fAstCal1.2	GCF_900246225.1	RefSeq	NCBI Annotation Release 100	Chromosome	4438245	880428986	2018-05-30	31331	PRJEB24325	SAMEA104026430
+Anabas testudineus	climbing perch	sex: male	64144	fAnaTes1.2	GCF_900324465.2	RefSeq	NCBI Annotation Release 101	Chromosome	7055436	555641398	2018-12-19	26944	PRJEB25768	SAMEA104026376
+Mastacembelus armatus	zig-zag eel		205130	fMasArm1.2	GCF_900324485.2	RefSeq	NCBI Annotation Release 101	Chromosome	8014513	591935101	2019-03-16	25164	PRJEB25769	SAMEA104026378
+Cottoperca gobio			56716	fCotGob3.1	GCF_900634415.1	RefSeq	NCBI Annotation Release 100	Chromosome	6330900	609391784	2019-02-06	25595	PRJEB30248	SAMEA104242975
+Parambassis ranga	Indian glassy fish		210632	fParRan2.1	GCF_900634625.1	RefSeq	NCBI Annotation Release 100	Chromosome	5080925	551012959	2019-02-06	27955	PRJEB30257	SAMEA4675621
+Gouania willdenowi	blunt-snouted clingfish		441366	fGouWil2.1	GCF_900634775.1	RefSeq	NCBI Annotation Release 100	Chromosome	1838341	937150793	2019-02-06	28295	PRJEB30359	SAMEA104026382
+Betta splendens	Siamese fighting fish		158456	fBetSpl5.2	GCF_900634795.2	RefSeq	NCBI Annotation Release 100	Chromosome	2497747	441371523	2019-03-20	29111	PRJEB30365	SAMEA104381735
+Sparus aurata	gilthead seabream		8175	fSpaAur1.1	GCF_900880675.1	RefSeq	NCBI Annotation Release 100	Chromosome	2862625	833578411	2019-07-30	32008	PRJEB31901	SAMEA104384835
+Echeneis naucrates	live sharksucker		173247	fEcheNa1.1	GCF_900963305.1	RefSeq	NCBI Annotation Release 100	Chromosome	12371513	544212633	2019-04-11	27253	PRJEB31992	SAMEA4966390
+Takifugu rubripes	torafugu		31033	fTakRub1.2	GCF_901000725.2	RefSeq	NCBI Annotation Release 103	Chromosome	3136617	384110215	2019-06-05	27412	PRJEB31988	SAMEA104384834
+Syngnathus acus	greater pipefish		161584	fSynAcu1.2	GCF_901709675.1	RefSeq	NCBI Annotation Release 100	Chromosome	11959915	324331233	2020-07-31	24927	PRJEB32741	SAMEA104381750
+Salarias fasciatus	jewelled blenny		181472	fSalaFa1.1	GCF_902148845.1	RefSeq	NCBI Annotation Release 100	Chromosome	2597836	797490645	2019-07-03	29119	PRJEB33184	SAMEA4966329
+Sphaeramia orbicularis	orbiculate cardinalfish		375764	fSphaOr1.1	GCF_902148855.1	RefSeq	NCBI Annotation Release 100	Chromosome	2360121	1342662642	2019-07-03	29725	PRJEB33177	SAMEA4966328
+Myripristis murdjan	pinecone soldierfish		586833	fMyrMur1.1	GCF_902150065.1	RefSeq	NCBI Annotation Release 100	Chromosome	14475636	835254674	2019-07-03	26968	PRJEB33188	SAMEA4872133
+Gadus morhua	Atlantic cod		8049	gadMor3.0	GCF_902167405.1	RefSeq	NCBI Annotation Release 100	Chromosome	1015663	669949713	2019-07-16	33093	PRJEB33455	SAMEA5574046
+Thalassophryne amazonica			390379	fThaAma1.1	GCF_902500255.1	RefSeq	NCBI Annotation Release 100	Chromosome	2329598	2446592878	2019-09-30	31773	PRJEB34606	SAMEA104129913
+Pungitius pungitius	ninespine stickleback		134920	NSP_V7	GCF_902500615.1	RefSeq	NCBI Annotation Release 100	Scaffold	2775277	466582808	2020-10-12	36370	PRJEB33823	SAMEA5986199
+Pseudochaenichthys georgianus	South Georgia icefish		52239	fPseGeo1.1	GCF_902827115.1	RefSeq	NCBI Annotation Release 100	Chromosome	661283	1026101545	2020-04-15	29469	PRJEB37648	SAMEA104132832
+Trematomus bernacchii	emerald rockcod		40690	fTreBer1.1	GCF_902827165.1	RefSeq	NCBI Annotation Release 100	Scaffold	1402669	867125071	2020-04-15	32112	PRJEB37642	SAMEA104132834
+Gymnodraco acuticeps			8218	fGymAcu1.1	GCF_902827175.1	RefSeq	NCBI Annotation Release 100	Scaffold	534678	996888495	2020-04-15	30850	PRJEB37639	SAMEA104242997
+Acanthopagrus latus	yellowfin seabream	isolate: v.2019	8177	fAcaLat1.1	GCF_904848185.1	RefSeq	NCBI Annotation Release 100	Chromosome	14880455	685127588	2020-10-12	30246	PRJEB40700	SAMN16236878

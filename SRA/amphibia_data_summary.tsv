@@ -1,0 +1,35 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Xenopus tropicalis	tropical clawed frog	sex: female, strain: Nigerian	8364	UCB_Xtro_10.0	GCA_000004195.4	GenBank	From INSDC submitter	Chromosome	14634335	1451283599	2019-11-14	25015	PRJNA577946	SAMN13041969
+Nanorana parkeri		isolate: BGI_ZX_2015, sex: female	125878	ASM93562v1	GCA_000935625.1	GenBank		Scaffold	32798	2053849526	2015-03-02		PRJNA243398	SAMN02720813
+Xenopus laevis	African clawed frog	sex: female, strain: J	8355	Xenopus_laevis_v2	GCA_001663975.1	GenBank	From INSDC submitter	Chromosome	19713	2718416252	2016-08-09	45942	PRJNA313213	SAMN04518361
+Lithobates catesbeianus	American bullfrog	isolate: Bruno, sex: male	8400	RCv2.1	GCA_002284835.2	GenBank	From INSDC submitter	Scaffold	5415	6250335504	2017-09-01	22238	PRJNA285814	SAMN03760860
+Ambystoma mexicanum	axolotl	sex: male, strain: DD151	8296	ASM291563v2	GCA_002915635.2	GenBank		Chromosome	216366	32396370977	2018-12-04		PRJNA378970	SAMN06554622
+Pyxicephalus adspersus		isolate: 1538, sex: female	30357	Pads_1.0	GCA_004786255.1	GenBank		Chromosome	30445	1563367516	2019-04-17		PRJNA439445	SAMN08767028
+Spea multiplicata	Mexican spadefoot toad	ecotype: Arizona Cochise, sex: male	30317	usc_Smult_1.0	GCA_009364415.1	GenBank		Scaffold	30692	1075972709	2019-10-28		PRJNA529692	SAMN10605271
+Scaphiopus couchii	Couch's spadefoot toad	ecotype: Arizona Cochise, sex: male	85089	usc_Scouchii_0.1	GCA_009364435.1	GenBank		Scaffold	362	484148731	2019-10-28		PRJNA529692	SAMN11282385
+Scaphiopus holbrookii	eastern spadefoot toad	ecotype: North Carolina Richmond, sex: male	8435	usc_Sholbrookii_0.1	GCA_009364455.1	GenBank		Scaffold	514	710849620	2019-10-28		PRJNA529692	SAMN11282362
+Spea bombifrons	plains spadefoot toad	ecotype: Arizona Cochise, sex: male	233779	usc_Sbombifrons_0.1	GCA_009364475.1	GenBank		Scaffold	522	765304928	2019-10-28		PRJNA529692	SAMN11282360
+Leptobrachium leishanense	Leishan spiny toad	isolate: GZLS1, sex: male	445787	ASM966780v1	GCA_009667805.1	GenBank		Chromosome	1946319	3549060464	2019-11-19		PRJNA505224	SAMN10412277
+Oophaga pumilio	strawberry poison frog	ecotype: red morph, Isla Bastimentos	51950	UCB_Opum_1.0	GCA_009801035.1	GenBank		Scaffold	5836	3493380730	2019-12-27		PRJNA550263	SAMN09702071
+Rana temporaria	common frog	ecotype: Viango, isolate: 935	8407	UCB_Rtem_1.0	GCA_009802015.1	GenBank		Scaffold	2889	4282724626	2019-12-27		PRJNA550264	SAMN12123141
+Limnodynastes dumerilii		isolate: SAMAR66870, sex: female	104065	BGI_Ldum_1.0	GCA_011038615.1	GenBank		Scaffold	10550	2378679715	2020-02-28		PRJNA597531	SAMN13677064
+Xenopus tropicalis	tropical clawed frog	strain: Nigerian	8364	ASM1336827v1	GCA_013368275.1	GenBank		Chromosome	377941	1485568097	2020-06-23		PRJNA606649	SAMN14253885
+Bufo gargarizans	Asiatic toad	isolate: SCDJY-AF-19, sex: female	30331	ASM1485885v1	GCA_014858855.1	GenBank		Chromosome	1738317	4545465442	2020-10-21		PRJNA628553	SAMN14734018
+Platyplectrum ornatum		ecotype: NSW-aus, isolate: SVE-2020	2741728	ASM1661782v1	GCA_016617825.1	GenBank		Scaffold	4707	1065311793	2021-01-12		PRJNA637083	SAMN15105358
+Rhinella marina	marine toad	sex: female	8386	RM170330	GCA_900303285.1	GenBank		Contig	167498	2551760146	2018-03-26		PRJEB24695	SAMEA104558286
+Rhinatrema bivittatum	two-lined caecilian		194408	aRhiBiv1.1	GCA_901001135.1	GenBank		Chromosome	3216284	5319222779	2019-06-02		PRJEB32111	SAMEA104387956
+Rhinatrema bivittatum	two-lined caecilian		194408	aRhiBiv1.1 alternate haplotype	GCA_901001175.1	GenBank		Scaffold	259119	4615304139	2019-06-02		PRJEB32112	SAMEA104387956
+Microcaecilia unicolor			1415580	aMicUni1.1	GCA_901765095.1	GenBank		Chromosome	3661507	4685923413	2019-06-22		PRJEB32737	SAMEA104387962
+Microcaecilia unicolor			1415580	aMicUni1.1 alternate haplotype	GCA_901765105.1	GenBank		Scaffold	245207	3698322623	2019-07-08		PRJEB32738	SAMEA104387962
+Geotrypetes seraphini	Gabon caecilian		260995	aGeoSer1.1 alternate haplotype	GCA_902459495.1	GenBank		Scaffold	564027	3271590920	2019-08-18		PRJEB33991	SAMEA104387963
+Geotrypetes seraphini	Gabon caecilian		260995	aGeoSer1.1	GCA_902459505.1	GenBank		Chromosome	20656571	3779413726	2019-08-18		PRJEB33992	SAMEA104387963
+Bufo bufo	common toad		8384	aBufBuf1.1 alternate haplotype	GCA_905171715.1	GenBank		Scaffold	241528	3744894388	2021-01-28		PRJEB42169	SAMEA7521636
+Rana temporaria	common frog		8407	aRanTem1.1 alternate haplotype	GCA_905171725.1	GenBank		Scaffold	547939	3686210129	2021-01-28		PRJEB42170	SAMEA7521635
+Bufo bufo	common toad		8384	aBufBuf1.1	GCA_905171765.1	GenBank		Chromosome	3959750	5044744194	2021-01-28		PRJEB42168	SAMEA7521636
+Rana temporaria	common frog		8407	aRanTem1.1	GCA_905171775.1	GenBank		Chromosome	6264810	4111422596	2021-01-28		PRJEB42171	SAMEA7521635
+Xenopus tropicalis	tropical clawed frog	sex: female, strain: Nigerian	8364	UCB_Xtro_10.0	GCF_000004195.4	RefSeq	NCBI Annotation Release 104	Chromosome	14634335	1451283599	2019-11-14	28858	PRJNA577946	SAMN13041969
+Nanorana parkeri		isolate: BGI_ZX_2015, sex: female	125878	ASM93562v1	GCF_000935625.1	RefSeq	NCBI Annotation Release 100	Scaffold	32798	2053849526	2015-03-17	21416	PRJNA243398	SAMN02720813
+Xenopus laevis	African clawed frog	sex: female, strain: J	8355	Xenopus_laevis_v2	GCF_001663975.1	RefSeq	NCBI Annotation Release 100	Chromosome	19713	2718416252	2016-08-09	37031	PRJNA313213	SAMN04518361
+Rhinatrema bivittatum	two-lined caecilian		194408	aRhiBiv1.1	GCF_901001135.1	RefSeq	NCBI Annotation Release 100	Chromosome	3216284	5319222779	2019-06-02	28114	PRJEB32111	SAMEA104387956
+Microcaecilia unicolor			1415580	aMicUni1.1	GCF_901765095.1	RefSeq	NCBI Annotation Release 100	Chromosome	3661507	4685923413	2019-06-22	26246	PRJEB32737	SAMEA104387962
+Geotrypetes seraphini	Gabon caecilian		260995	aGeoSer1.1	GCF_902459505.1	RefSeq	NCBI Annotation Release 100	Chromosome	20656571	3779413726	2019-08-18	24027	PRJEB33992	SAMEA104387963

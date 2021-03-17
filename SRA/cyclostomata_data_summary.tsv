@@ -1,0 +1,11 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Petromyzon marinus	sea lamprey	isolate: animal number 11	7757	Petromyzon_marinus-7.0	GCA_000148955.1	GenBank		Scaffold	13108	885534757	2010-10-07		PRJNA12880	SAMN02981275
+Lethenteron camtschaticum	Arctic lamprey	sex: male	980415	LetJap1.0	GCA_000466285.1	GenBank		Scaffold	9240	1030662718	2013-09-13		PRJNA192554	SAMN02981514
+Petromyzon marinus	sea lamprey	ecotype: Ocean Run, isolate: W1, sex: male	7757	Pmar_germline 1.0	GCA_002833325.1	GenBank		Scaffold	170712	1130417696	2017-12-11		PRJNA357048	SAMN06131802
+Petromyzon marinus	sea lamprey	isolate: kPetMar1, sex: male	7757	kPetMar1.alt	GCA_010993595.1	GenBank		Scaffold	397345	841632067	2020-02-24		PRJNA562012	SAMN12629506
+Petromyzon marinus	sea lamprey	isolate: kPetMar1, sex: male	7757	kPetMar1.pri	GCA_010993605.1	GenBank		Chromosome	2540784	1089034212	2020-02-24		PRJNA562011	SAMN12629506
+Entosphenus tridentatus	Pacific lamprey	ecotype: Columbia River large-bodied, stream-maturing ecotype, isolate: CRITFC18_GStd-0006, sex: female	245074	ETRf_v1	GCA_014621495.2	GenBank		Chromosome	19580	927744424	2020-11-02		PRJNA615919	SAMN14476405
+Entosphenus tridentatus	Pacific lamprey	isolate: CRITFC18_GStd-0003, sex: male	245074	ETRm_v1	GCA_014656915.2	GenBank		Scaffold	19287	898970771	2020-10-05		PRJNA613923	SAMN14452420
+Lethenteron reissneri	Far Eastern brook lamprey	isolate: LAM-NWPU_2019-01, sex: male	7753	ASM1570882v1	GCA_015708825.1	GenBank		Chromosome	1412731	1063012140	2020-12-01		PRJNA558325	SAMN12436412
+Eptatretus burgeri	inshore hagfish	sex: male	7764	Eburgeri_3.2	GCA_900186335.2	GenBank		Scaffold	7991	2608383542	2017-10-24		PRJEB21290	SAMEA104124530
+Petromyzon marinus	sea lamprey	isolate: kPetMar1, sex: male	7757	kPetMar1.pri	GCF_010993605.1	RefSeq	NCBI Annotation Release 100	Chromosome	2540784	1089034212	2020-02-24	22167	PRJNA562011	SAMN12629506

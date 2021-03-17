@@ -1,0 +1,112 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Danio rerio	zebrafish	strain: Tuebingen	7955	GRCz10	GCA_000002035.3	GenBank		Chromosome	1258148	1371702787	2014-09-02		PRJNA11776	SAMN03020626
+Danio rerio	zebrafish	strain: Tuebingen	7955	GRCz11	GCA_000002035.4	GenBank		Chromosome	1422317	1373454788	2017-05-09		PRJNA11776	SAMN06930106
+Astyanax mexicanus	Mexican tetra	isolate: Rio Sabinas/Rio Valles surface cross, sex: female	7994	Astyanax_mexicanus-2.0	GCA_000372685.2	GenBank		Chromosome	1767240	1335239194	2017-09-25		PRJNA89115	SAMN02981523
+Pimephales promelas	fathead minnow		90988	FHM_SOAPdenovo	GCA_000700825.1	GenBank		Scaffold	7468	1219326373	2014-06-10		PRJNA227290	SAMN02418978
+Pimephales promelas	fathead minnow		90988	FHM_SGA	GCA_000700965.1	GenBank		Scaffold	1668	957809772	2014-06-11		PRJNA227290	SAMN02418978
+Danio rerio	zebrafish	strain: Tuebingen	7955	WGS31	GCA_000767325.1	GenBank		Scaffold	24925	1411763065	2010-05-24		PRJNA11776	SAMEA3146315
+Cyprinus carpio	common carp		7962	common carp genome	GCA_000951615.2	GenBank		Chromosome	75080	1713641436	2014-11-03		PRJEB7241	SAMEA2757102
+Clupea harengus	Atlantic herring		7950	ASM96633v1	GCA_000966335.1	GenBank		Scaffold	22277	807695261	2015-03-30		PRJNA265919	SAMN03154066
+Cyprinus carpio	common carp	isolate: UL-001, sex: female	7962	ASM127010v1	GCA_001270105.1	GenBank	From INSDC submitter	Scaffold	7872	1380095472	2015-08-18	50485	PRJNA73579	SAMN03856486
+Danio rerio	zebrafish	sex: male, strain: CG2	7955	CG2v1.0	GCA_001483285.1	GenBank		Scaffold	2585	1228672559	2015-12-29		PRJNA292113	SAMN03964926
+Danio rerio	zebrafish	strain: Tuebingen	7955	Zebrafish Genome Assembly WGS32	GCA_001487895.1	GenBank		Scaffold	24356	1442815812	2015-12-23		PRJEB11588	SAMEA3642453
+Sinocyclocheilus anshuiensis		isolate: Anshui, sex: female	1608454	SAMN03320099.WGS_v1.1	GCA_001515605.1	GenBank		Scaffold	17271	1632701648	2015-12-14		PRJNA274017	SAMN03320099
+Sinocyclocheilus rhinocerous		isolate: Xijiao, sex: female	307959	SAMN03320098_v1.1	GCA_001515625.1	GenBank		Scaffold	18758	1655769822	2015-12-14		PRJNA274017	SAMN03320098
+Sinocyclocheilus grahami		isolate: Dianchi, sex: female	75366	SAMN03320097.WGS_v1.1	GCA_001515645.1	GenBank		Scaffold	29354	1750271176	2015-12-16		PRJNA274017	SAMN03320097
+Ictalurus punctatus	channel catfish	breed: USDA103, sex: female	7998	IpCoco_1.2	GCA_001660625.2	GenBank		Chromosome	81424	821751792	2019-01-25		PRJNA281269	SAMN03486842
+Pygocentrus nattereri	red-bellied piranha	isolate: Pna-1, sex: female	42514	Pygocentrus_nattereri-1.0.2	GCA_001682695.1	GenBank		Scaffold	57732	1285335786	2016-07-12		PRJNA301891	SAMN04522165
+Ageneiosus marmoratus		ecotype: South American, isolate: Aqua-BC-2015, sex: male	2066578	ASM334716v1	GCA_003347165.1	GenBank		Scaffold	7741	1030000983	2018-07-31		PRJNA427361	SAMN08271869
+Carassius auratus	goldfish	strain: Wakin	7957	ASM336829v1	GCA_003368295.1	GenBank		Chromosome	821153	1820618472	2018-08-09		PRJNA481500	SAMN09670328
+Oxygymnocypris stewartii		isolate: Jianluoli-Novo-2018, sex: female	361644	Novo_Ost_1.0	GCA_003573665.1	GenBank		Scaffold	257093	1849224471	2018-09-18		PRJNA485858	SAMN09762613
+Sardina pilchardus	sardine	isolate: SPI-2018	27697	UP_Spi	GCA_003604335.1	GenBank		Scaffold	10878	641491539	2018-10-01		PRJNA481265	SAMN09664902
+Tenualosa ilisha	Hilsa shad	isolate: padma bd, sex: female	373995	ASM365119v1	GCA_003651195.1	GenBank		Scaffold	129889	815647530	2018-10-15		PRJNA490156	SAMN10026359
+Electrophorus electricus	electric eel	isolate: MRS-EE1	8005	Ee_SOAP_WITH_SSPACE	GCA_003665695.2	GenBank		Scaffold	37141	551880868	2018-10-30		PRJNA249073	SAMN02802636
+Pangasianodon hypophthalmus	striped catfish	isolate: VN_RIA2_2014, sex: male	310915	VN_pangasius	GCA_003671635.1	GenBank		Scaffold	62522	715760110	2018-10-23		PRJNA448819	SAMN08866743
+Tachysurus fulvidraco	yellow catfish	isolate: Tf-2017, sex: female	1234273	ASM372403v1	GCA_003724035.1	GenBank		Scaffold	980445	713794198	2018-11-13		PRJNA494039	SAMN10147840
+Anabarilius grahami		isolate: AG-KIZ, sex: male	495550	BGI_Agra_1.0	GCA_003731715.1	GenBank	From INSDC submitter	Scaffold	36058	991887266	2018-11-15	23906	PRJNA477399	SAMN09469597
+Clarias batrachus	walking catfish	isolate: FL201406	59899	ASM398787v1	GCA_003987875.1	GenBank		Scaffold	24893	821750104	2018-12-31		PRJNA477835	SAMN09480820
+Ictalurus punctatus	channel catfish	sex: male, strain: USDA103-YYmale1	7998	ASM400665v3	GCA_004006655.3	GenBank		Chromosome	1694657	1036985268	2019-01-25		PRJNA427343	SAMN08235469
+Cyprinus carpio	common carp	breed: German Mirror carp, sex: female, strain: GM00	7962	German_Mirror_carp_1.0	GCA_004011555.1	GenBank		Scaffold	94545	1414711435	2019-01-10		PRJNA510861	SAMN10617437
+Cyprinus carpio	common carp	breed: Yuxuan Yellow River carp, sex: female, strain: YR00	7962	Hunaghe_carp_2.0	GCA_004011575.1	GenBank		Scaffold	59678	1423633724	2019-01-10		PRJNA510861	SAMN10617435
+Cyprinus carpio	common carp	breed: Wuyuan Hebao red carp, sex: female, strain: HB00	7962	Hebao_red_carp_1.0	GCA_004011595.1	GenBank		Scaffold	36306	1457977772	2019-01-10		PRJNA510861	SAMN10617436
+Cirrhinus molitorella	mud carp	strain: Cmo-2017	172907	ASM402844v1	GCA_004028445.1	GenBank		Scaffold	2738	920272578	2019-01-17		PRJNA511029	SAMN10663080
+Labeo rohita	rohu	breed: JAYANTI, isolate: DASCIFA01, sex: male	84645	ASM412021v1	GCA_004120215.1	GenBank	From INSDC submitter	Scaffold	522833	1484714364	2019-01-30	37462	PRJNA437789	SAMN08685245
+Poropuntius huangchuchieni		strain: Phu-2017	357532	ASM412479v1	GCA_004124795.1	GenBank		Scaffold	2273	760177161	2019-01-31		PRJNA511031	SAMN10662616
+Hypophthalmichthys nobilis	bighead carp	isolate: Mississippi River	7965	HypNob1.0	GCA_004193235.1	GenBank		Scaffold	4840	1012063666	2019-02-12		PRJNA305141	SAMN04317176
+Tenualosa ilisha	Hilsa shad	isolate: BoB_02, sex: female	373995	BAU_Tilisha_2.1	GCA_004329175.1	GenBank		Scaffold	1092	710279582	2019-03-06		PRJNA400122	SAMN07556897
+Hypophthalmichthys molitrix	silver carp	isolate: Mississippi River	13095	HypMol1.0	GCA_004764525.1	GenBank		Scaffold	2130	1104676189	2019-04-09		PRJNA305140	SAMN04317213
+Astyanax mexicanus	Mexican tetra	isolate: Pachon cavefish, sex: female	7994	Astyanax_mexicanus-1.0.2	GCA_004802775.1	GenBank		Scaffold	14739	1191242572	2019-04-22		PRJNA533584	SAMN11404277
+Bagarius yarrelli	goonch	isolate: JWS20170419001, sex: female	175774	ASM578450v1	GCA_005784505.1	GenBank	From INSDC submitter	Scaffold	1854961	570806968	2019-05-22	17182	PRJNA523489	SAMN10979322
+Triplophysa siluroides		isolate: SN-2019	422203	ASM603009v1	GCA_006030095.1	GenBank		Scaffold	2549348	583428323	2019-06-05		PRJNA543715	SAMN11775600
+Danionella translucida		sex: pooled male and female, strain: Bolton	623744	ASM722483v1	GCA_007224835.1	GenBank	From INSDC submitter	Scaffold	133131	735303417	2019-07-22	35803	PRJNA445947	SAMN11288624
+Coilia nasus	Japanese grenadier anchovy	isolate: PX2019, sex: female	365059	knifefish_assembly_2.0	GCA_007927625.1	GenBank		Chromosome	1632759	812159898	2019-08-16		PRJNA421870	SAMN08159314
+Triplophysa tibetana		isolate: TTIB1903HZAU, sex: female	1572043	ASM836982v1	GCA_008369825.1	GenBank	From INSDC submitter	Chromosome	2833080	652930317	2019-09-12	24398	PRJNA526292	SAMN11094431
+Danio rerio	zebrafish	sex: male, strain: AB	7955	ASM869237v1	GCA_008692375.1	GenBank		Chromosome	416828	1306177993	2019-10-07		PRJNA482893	SAMN09717249
+Carassius auratus red var.	red crucian carp	isolate: GRCC, sex: female	657186	ASM906956v1	GCA_009069565.1	GenBank		Scaffold	34411	1436409119	2019-10-15		PRJNA289059	SAMN03859971
+Pangasianodon hypophthalmus	striped catfish	sex: male, strain: Indonesia	310915	GENO_Phyp_1.0	GCA_009078355.1	GenBank	From INSDC submitter	Chromosome	16187036	758973678	2019-10-22	25113	PRJNA547555	SAMN11969507
+Ompok bimaculatus	butter catfish	isolate: KarmakarAIIMS	209166	ASM910824v1	GCA_009108245.1	GenBank		Scaffold	81474	718108919	2019-10-15		PRJNA552450	SAMN12206647
+Culter alburnus	topmouth culter	isolate: TC-2014, sex: male	194366	ASM986977v1	GCA_009869775.1	GenBank		Scaffold	121415	1017706352	2020-01-14		PRJNA269572	SAMN10457884
+Megalobrama amblycephala	Wuchang bream	isolate: BSB-2015, sex: female	75352	ASM986986v1	GCA_009869865.1	GenBank		Scaffold	322873	1087899576	2020-01-14		PRJNA269572	SAMN10457791
+Clarias macrocephalus	bighead catfish	isolate: CM_001, sex: female	35657	DU_Cmac_1.0	GCA_011419295.1	GenBank		Scaffold	47837	883399353	2020-03-18		PRJNA604477	SAMN13972449
+Colossoma macropomum	tambaqui	ecotype: Neotropical, isolate: CMA-2020	42526	UP_Cma	GCA_012026605.1	GenBank		Scaffold	18011	2314107020	2020-04-03		PRJNA596735	SAMN13634674
+Ameiurus melas	black bullhead	isolate: M_S1, sex: male	219545	AMELA_1.0	GCA_012411365.1	GenBank	From INSDC submitter	Chromosome	7408031	868496679	2020-04-16	29840	PRJNA603265	SAMN13926790
+Onychostoma macrolepis		isolate: SWU-2019, sex: female	369639	ASM1243209v1	GCA_012432095.1	GenBank	From INSDC submitter	Chromosome	10809623	886569841	2020-04-17	24754	PRJNA608076	SAMN14163390
+Labeo catla	catla	isolate: CC01, sex: male	72446	CIFA_Catla 1.0	GCA_012976165.1	GenBank		Scaffold	719175	1019782285	2020-05-05		PRJNA557138	SAMN12390082
+Carassius auratus	goldfish	sex: male, strain: U3B.INRA	7957	ASM1311583v1	GCA_013115835.1	GenBank		Scaffold	7773	2197778650	2020-05-18		PRJNA592334	SAMN13497183
+Electrophorus electricus	electric eel	isolate: fEleEle1	8005	fEleEle1.alt	GCA_013347915.1	GenBank		Contig	216154	428136346	2020-06-12		PRJNA561982	SAMN12623625
+Electrophorus electricus	electric eel	isolate: fEleEle1	8005	fEleEle1.pri	GCA_013358815.1	GenBank		Chromosome	7062559	589358956	2020-06-12		PRJNA561981	SAMN12623625
+Labeo gonius	Kuria labeo	isolate: CIFRI	295400	ASM1346156v1	GCA_013461565.1	GenBank		Scaffold	2199	738294552	2020-07-22		PRJNA387501	SAMN07156107
+Clarias magur		isolate: CIFAMagur01, sex: male	1594786	C_magur1.0	GCA_013621035.1	GenBank	From INSDC submitter	Scaffold	1226249	941297321	2020-07-24	23712	PRJNA448280	SAMN08826798
+Carassius auratus	goldfish	isolate: G-12, sex: female	7957	ASM1433265v1	GCA_014332655.1	GenBank		Chromosome	483444	1739639290	2020-08-28		PRJNA561458	SAMN12618612
+Labeo catla	catla	ecotype: Bengal, isolate: CB5	72446	HRRL_MCC_1.0	GCA_014525385.1	GenBank		Scaffold	4548	1232079142	2020-09-11		PRJNA623322	SAMN14544131
+Silurus glanis	European catfish	sex: female, strain: Hod-8	94993	S_gla_Hod_UTU_1.0	GCA_014706435.1	GenBank		Scaffold	13869	793342335	2020-09-23		PRJNA605930	SAMN14055911
+Silurus meridionalis		isolate: SWU-2019-XX, sex: female	175797	ASM1480568v1	GCA_014805685.1	GenBank	From INSDC submitter	Chromosome	13195069	742579920	2020-09-30	22769	PRJNA623722	SAMN14558653
+Pygocentrus nattereri	red-bellied piranha	isolate: fPygNat1, sex: male	42514	fPygNat1.alt	GCA_015220065.1	GenBank		Contig	289653	289313524	2020-11-02		PRJNA561976	SAMN12623623
+Pygocentrus nattereri	red-bellied piranha	isolate: fPygNat1, sex: male	42514	fPygNat1.pri	GCA_015220715.1	GenBank		Chromosome	12898870	1222050449	2020-11-02		PRJNA561975	SAMN12623623
+Tenualosa ilisha	Hilsa shad	isolate: NBFGR-960, sex: male	373995	TenIli1.0	GCA_015244755.2	GenBank		Contig	2624235	762512129	2020-11-05		PRJNA422030	SAMN08162886
+Triplophysa dalaica		isolate: WHDGS20190420, sex: female	1582913	ASM1584641v1	GCA_015846415.1	GenBank		Chromosome	9273388	607923607	2020-12-02		PRJNA624716	SAMN14582390
+Pimephales promelas	fathead minnow	strain: EPAAWBERC	90988	EPA_FHM_2.0	GCA_016745375.1	GenBank	From INSDC submitter	Scaffold	295770	1066412313	2021-01-24	26150	PRJNA565199	SAMN12875914
+Pangasianodon hypophthalmus	striped catfish	isolate: ZG-2020, sex: female	310915	ASM1680104v1	GCA_016801045.1	GenBank		Chromosome	3478581	742562378	2021-02-02		PRJNA669124	SAMN16435360
+Leuciscus waleckii	Amur ide		155063	Amur ide genome	GCA_900092035.1	GenBank		Scaffold	38877	752538629	2016-06-28		PRJEB12292	SAMEA3723233
+Clupea harengus	Atlantic herring		7950	C.harengus	GCA_900323705.1	GenBank		Scaffold	28410	789621745	2018-04-12		PRJEB25669	SAMEA104710403
+Danionella dracula			623740	fDanDra1.1	GCA_900490495.1	GenBank		Scaffold	2300191	665208374	2018-07-01		PRJEB27320	SAMEA104026433
+Sardina pilchardus	sardine		27697	SP_G	GCA_900499035.1	GenBank		Scaffold	9398	949617276	2018-09-24		PRJEB27990	SAMEA4809151
+Denticeps clupeoides	denticle herring		299321	fDenClu1.1 alternate haplotype	GCA_900700345.2	GenBank		Scaffold	384267	457704509	2019-03-27		PRJEB31546	SAMEA104129917
+Denticeps clupeoides	denticle herring		299321	fDenClu1.2	GCA_900700375.2	GenBank		Chromosome	3059612	567401054	2020-07-31		PRJEB31545	SAMEA104129917
+Clupea harengus	Atlantic herring		7950	Ch_v2.0.2	GCA_900700415.1	GenBank		Chromosome	1151065	725670187	2019-04-16		PRJEB31270	SAMEA5339254
+Clupea harengus	Atlantic herring		7950	ChASM_A3	GCA_902175115.3	GenBank		Scaffold	22496	790426535	2019-08-15		PRJEB25669	SAMEA5815659
+Chanos chanos	milkfish		29144	fChaCha1.1 alternate haplotype	GCA_902362175.1	GenBank		Scaffold	508005	637484823	2019-08-16		PRJEB33881	SAMEA5159473
+Chanos chanos	milkfish		29144	fChaCha1.1	GCA_902362185.1	GenBank		Chromosome	23134051	656912816	2019-08-14		PRJEB33882	SAMEA5159473
+Danio rerio	zebrafish		7955	fDreTuH1.2	GCA_903684855.2	GenBank		Chromosome	3603372	1360489499	2020-07-31		PRJEB38588	SAMEA4760849
+Danio rerio	zebrafish		7955	fDreABH1.1	GCA_903684865.1	GenBank		Chromosome	4531818	1354075779	2020-06-28		PRJEB38589	SAMEA4760846
+Danionella translucida			623744	fDanTra1.1	GCA_903798025.1	GenBank		Scaffold	53453	657501202	2020-06-16		PRJEB38563	SAMEA104129915
+Danio albolineatus	pearl danio		27699	fDanAlb1.1	GCA_903798035.1	GenBank		Scaffold	18826	1463018096	2020-06-16		PRJEB38565	SAMEA104026392
+Danio jaintianensis			1982067	fDanJai1.1	GCA_903798115.1	GenBank		Scaffold	22545	1122503336	2020-06-16		PRJEB38569	SAMEA104026422
+Danio choprai			299714	fDanCho1.1	GCA_903798125.1	GenBank		Scaffold	13929	1102162037	2020-06-16		PRJEB38567	SAMEA104026429
+Danio aesculapii			1142201	fDanAes4.1 alternate haplotype	GCA_903798135.1	GenBank		Scaffold	278599	1212462820	2020-06-16		PRJEB38582	SAMEA104240212
+Danio aesculapii			1142201	fDanAes4.1	GCA_903798145.1	GenBank		Chromosome	1517104	1381485597	2020-06-27		PRJEB38583	SAMEA104240212
+Danio kyathit			242068	fDanKya3.1 alternate haplotype	GCA_903798155.1	GenBank		Scaffold	419190	1550397046	2020-06-16		PRJEB38579	SAMEA104130240
+Danio rerio	zebrafish	strain: Cooch Behar (CB)	7955	fDreCBz1.1	GCA_903798165.1	GenBank		Chromosome	17459	1421796480	2020-06-27		PRJEB38573	SAMEA104026434
+Danio rerio	zebrafish	strain: Nadia (NA)	7955	fDreNAz1.1	GCA_903798175.1	GenBank		Chromosome	17829	1465089175	2020-06-27		PRJEB38577	SAMEA104026421
+Danio rerio	zebrafish		7955	fDreABz2.1	GCA_903798185.1	GenBank		Chromosome	17916	1405097869	2020-06-28		PRJEB38575	SAMEA104026428
+Danio kyathit			242068	fDanKya3.1	GCA_903798195.1	GenBank		Chromosome	1264270	1708446541	2020-06-27		PRJEB38580	SAMEA104130240
+Danio tinwini	gold ring danio		1093597	fDanTin1.1	GCA_903798205.1	GenBank		Scaffold	16685	1497358328	2020-06-16		PRJEB38571	SAMEA104026413
+Colossoma macropomum	tambaqui		42526	Colossoma_macropomum	GCA_904425465.1	GenBank		Scaffold	5645235	1221847006	2020-09-25		PRJEB40318	SAMEA7302664
+Danio rerio	zebrafish	strain: Tuebingen	7955	GRCz10	GCF_000002035.5	RefSeq		Chromosome	1258148	1371702787	2014-09-02		PRJNA11776	SAMN03020626
+Danio rerio	zebrafish	strain: Tuebingen	7955	GRCz11	GCF_000002035.6	RefSeq	NCBI Annotation Release 106	Chromosome	1422317	1373454788	2017-05-09	40031	PRJNA11776	SAMN06930106
+Astyanax mexicanus	Mexican tetra	isolate: Rio Sabinas/Rio Valles surface cross, sex: female	7994	Astyanax_mexicanus-2.0	GCF_000372685.2	RefSeq	NCBI Annotation Release 102	Chromosome	1767240	1335239194	2017-09-25	31695	PRJNA89115	SAMN02981523
+Cyprinus carpio	common carp		7962	common carp genome	GCF_000951615.1	RefSeq	NCBI Annotation Release 100	Chromosome	75080	1713641436	2014-11-03	69065	PRJEB7241	SAMEA2757102
+Sinocyclocheilus anshuiensis		isolate: Anshui, sex: female	1608454	SAMN03320099.WGS_v1.1	GCF_001515605.1	RefSeq	NCBI Annotation Release 100	Scaffold	17271	1632701648	2015-12-14	52005	PRJNA274017	SAMN03320099
+Sinocyclocheilus rhinocerous		isolate: Xijiao, sex: female	307959	SAMN03320098_v1.1	GCF_001515625.1	RefSeq	NCBI Annotation Release 100	Scaffold	18758	1655769822	2015-12-14	53875	PRJNA274017	SAMN03320098
+Sinocyclocheilus grahami		isolate: Dianchi, sex: female	75366	SAMN03320097.WGS_v1.1	GCF_001515645.1	RefSeq	NCBI Annotation Release 100	Scaffold	29354	1750271176	2015-12-16	55200	PRJNA274017	SAMN03320097
+Ictalurus punctatus	channel catfish	breed: USDA103, sex: female	7998	IpCoco_1.2	GCF_001660625.1	RefSeq	NCBI Annotation Release 100	Chromosome	77201	783258224	2016-06-21	27801	PRJNA281269	SAMN03486842
+Carassius auratus	goldfish	strain: Wakin	7957	ASM336829v1	GCF_003368295.1	RefSeq	NCBI Annotation Release 100	Chromosome	821153	1820618472	2018-08-09	83650	PRJNA481500	SAMN09670328
+Tachysurus fulvidraco	yellow catfish	isolate: Tf-2017, sex: female	1234273	ASM372403v1	GCF_003724035.1	RefSeq	NCBI Annotation Release 100	Scaffold	980445	713794198	2018-11-13	30231	PRJNA494039	SAMN10147840
+Pangasianodon hypophthalmus	striped catfish	sex: male, strain: Indonesia	310915	GENO_Phyp_1.0	GCF_009078355.1	RefSeq	NCBI Annotation Release 101	Chromosome	16187036	758973678	2019-10-22	27472	PRJNA547555	SAMN11969507
+Electrophorus electricus	electric eel	isolate: fEleEle1	8005	fEleEle1.pri	GCF_013358815.1	RefSeq	NCBI Annotation Release 101	Chromosome	7062559	589358956	2020-06-23	25923	PRJNA561981	SAMN12623625
+Pygocentrus nattereri	red-bellied piranha	isolate: fPygNat1, sex: male	42514	fPygNat1.pri	GCF_015220715.1	RefSeq	NCBI Annotation Release 101	Chromosome	12898870	1222050449	2020-11-03	30575	PRJNA561975	SAMN12623623
+Pimephales promelas	fathead minnow	strain: EPAAWBERC	90988	EPA_FHM_2.0	GCF_016745375.1	RefSeq	NCBI Annotation Release 100	Scaffold	295770	1066412313	2021-01-24	36695	PRJNA565199	SAMN12875914
+Denticeps clupeoides	denticle herring		299321	fDenClu1.1	GCF_900700375.1	RefSeq	NCBI Annotation Release 100	Chromosome	3059612	567401054	2019-03-16	40130	PRJEB31545	SAMEA104129917
+Clupea harengus	Atlantic herring		7950	Ch_v2.0.2	GCF_900700415.1	RefSeq	NCBI Annotation Release 101	Chromosome	1151065	725670187	2019-04-16	28557	PRJEB31270	SAMEA5339254
+Chanos chanos	milkfish		29144	fChaCha1.1	GCF_902362185.1	RefSeq	NCBI Annotation Release 100	Chromosome	23134051	656912816	2019-08-14	26078	PRJEB33882	SAMEA5159473
+Colossoma macropomum	tambaqui		42526	Colossoma_macropomum	GCF_904425465.1	RefSeq	NCBI Annotation Release 100	Scaffold	5645235	1221847006	2020-09-25	31149	PRJEB40318	SAMEA7302664

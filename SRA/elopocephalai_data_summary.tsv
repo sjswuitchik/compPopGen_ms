@@ -1,0 +1,16 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Anguilla japonica	Japanese eel	sex: female	7937	japanese_eel_genome_v1_25_oct_2011_japonica_c401b400k25m200_sspacepremiumk3a02n24_extra.final.scaffolds	GCA_000470695.1	GenBank		Scaffold	3215	1151120721	2014-03-18		PRJNA158309	SAMN03004389
+Anguilla anguilla	European eel	sex: female	7936	Anguilla_anguilla_v1_09_nov_10	GCA_000695075.1	GenBank		Scaffold	2544	1018701900	2014-05-20		PRJNA73577	SAMN02777865
+Anguilla rostrata	American eel	isolate: LakeOntario-01-2011, sex: female	7938	ASM160608v1	GCA_001606085.1	GenBank		Scaffold	7355	1413015927	2016-04-04		PRJNA285069	SAMN03737505
+Anguilla japonica	Japanese eel	isolate: 13eel01	7937	Ajaponica_ver_D2	GCA_002723815.1	GenBank		Scaffold	7661	1151067796	2017-10-25		PRJDB5760	SAMD00080929
+Anguilla japonica	Japanese eel		7937	Ajp_01	GCA_003597225.1	GenBank		Scaffold	11014	966917315	2018-09-14		PRJDB6433	SAMD00098195
+Anguilla japonica	Japanese eel	isolate: CB-2019, sex: female	7937	ASM635231v1	GCA_006352315.1	GenBank		Scaffold	11787	1181134743	2019-06-18		PRJNA533944	SAMN11472315
+Anguilla anguilla	European eel	isolate: fAngAng1	7936	fAngAng1.pri	GCA_013347855.1	GenBank		Chromosome	5114673	979029243	2020-06-12		PRJNA561979	SAMN12623627
+Anguilla anguilla	European eel	isolate: fAngAng1	7936	fAngAng1.alt	GCA_013347865.1	GenBank		Contig	723285	965248483	2020-06-12		PRJNA561984	SAMN12623627
+Megalops cyprinoides	Indo-Pacific tarpon	isolate: fMegCyp1	118141	fMegCyp1.alt	GCA_013368575.1	GenBank		Scaffold	465753	920469332	2020-06-23		PRJNA561968	SAMN12623619
+Megalops cyprinoides	Indo-Pacific tarpon	isolate: fMegCyp1	118141	fMegCyp1.pri	GCA_013368585.1	GenBank		Chromosome	26850664	959241634	2020-06-23		PRJNA561967	SAMN12623619
+Anguilla obscura	Pacific shortfinned eel		86964	Anguilla_obscura_assembly	GCA_901111295.1	GenBank		Scaffold	12681	882390062	2020-02-10		PRJEB32187	SAMEA5568837
+Anguilla megastoma	Polynesian longfinned eel		86963	Anguilla_megastoma_assembly	GCA_901111305.1	GenBank		Scaffold	14572	877765645	2020-02-10		PRJEB32187	SAMEA5568836
+Anguilla marmorata	giant mottled eel		7939	Anguilla_marmorata_assembly	GCA_901111315.1	GenBank		Scaffold	16529	882006954	2020-02-10		PRJEB32187	SAMEA5568835
+Anguilla anguilla	European eel	isolate: fAngAng1	7936	fAngAng1.pri	GCF_013347855.1	RefSeq	NCBI Annotation Release 100	Chromosome	5114673	979029243	2020-06-18	31451	PRJNA561979	SAMN12623627
+Megalops cyprinoides	Indo-Pacific tarpon	isolate: fMegCyp1	118141	fMegCyp1.pri	GCF_013368585.1	RefSeq	NCBI Annotation Release 100	Chromosome	26850664	959241634	2020-06-23	27986	PRJNA561967	SAMN12623619

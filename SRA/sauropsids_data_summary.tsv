@@ -1,21 +1,30 @@
 Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
 Gallus gallus	chicken	breed: Red Jungle fowl, inbred line UCD001, isolate: RJF #256, sex: female	9031	Gallus_gallus-5.0	GCA_000002315.3	GenBank		Chromosome	2894815	1230241782	2015-12-16		PRJNA13342	SAMN02981218
 Gallus gallus	chicken	breed: Red Jungle fowl, inbred line UCD001, isolate: RJF #256, sex: female	9031	GRCg6a	GCA_000002315.5	GenBank		Chromosome	17655422	1065348650	2018-03-27		PRJNA13342	SAMN02981218
+Anolis carolinensis	green anole		28377	AnoCar2.0	GCA_000090745.2	GenBank		Chromosome	79867	1799126364	2011-01-10		PRJNA18787	SAMN02981230
 Meleagris gallopavo	turkey	breed: Aviagen turkey brand Nicholas breeding stock, isolate: NT-WF06-2002-E0010, sex: female	9103	Turkey_5.1	GCA_000146605.4	GenBank		Chromosome	27076	1115457962	2019-10-21		PRJNA42129	SAMN02981253
 Taeniopygia guttata	zebra finch	isolate: Black17, sex: male	59729	Taeniopygia_guttata-3.2.4	GCA_000151805.2	GenBank		Chromosome	38644	1232118738	2013-02-08		PRJNA17289	SAMN02981239
+Python bivittatus	Burmese python	sex: female	176946	Python_molurus_bivittatus-5.0.2	GCA_000186305.2	GenBank		Scaffold	10658	1435034535	2013-09-15		PRJNA61243	SAMN02981298
+Pelodiscus sinensis	Chinese soft-shelled turtle	isolate: Daiwa-1, sex: female	13735	PelSin_1.0	GCA_000230535.1	GenBank		Scaffold	21993	2202466388	2012-07-24		PRJNA68233	SAMN02981371
 Melopsittacus undulatus	budgerigar	sex: male	13146	Melopsittacus_undulatus_6.3	GCA_000238935.1	GenBank		Scaffold	55633	1117355426	2012-01-02		PRJNA72527	SAMN02981360
+Chrysemys picta bellii	western painted turtle	isolate: RCT428, sex: female	8478	Chrysemys_picta_BioNano-3.0.4	GCA_000241765.5	GenBank		Chromosome	21318	2481351664	2020-08-21		PRJNA78657	SAMN02713681
 Ficedula albicollis	Collared flycatcher	isolate: OC2, sex: male	59894	FicAlb1.5	GCA_000247815.2	GenBank		Chromosome	410964	1118326800	2013-06-27		PRJNA75089	SAMN02981387
 Geospiza fortis	medium ground-finch	sex: female	48883	GeoFor_1.0	GCA_000277835.1	GenBank		Scaffold	30521	1065292181	2012-07-25		PRJNA156703	SAMN00839579
+Alligator mississippiensis	American alligator	isolate: KSC_2009_1	8496	ASM28112v4	GCA_000281125.4	GenBank	From INSDC submitter	Scaffold	16665	2161713562	2016-03-28	24712	PRJNA159843	SAMN02981418
 Pseudopodoces humilis	Tibetan ground-tit		181119	PseHum1.0	GCA_000331425.1	GenBank		Scaffold	165265	1042980823	2013-01-11		PRJNA175930	SAMN02981490
 Amazona vittata	Puerto Rican parrot	isolate: LU 182127, sex: female	241585	ASM33237v2	GCA_000332375.2	GenBank		Scaffold	29306	1446649664	2020-08-28		PRJNA171587	SAMN02981494
 Columba livia	rock pigeon	breed: Danish Tumbler, sex: male	8932	Cliv_2.1	GCA_000337935.2	GenBank	From INSDC submitter	Scaffold	26627	1108534737	2017-12-13	15392	PRJNA167554	SAMN02981415
 Falco peregrinus	peregrine falcon	sex: male	8954	F_peregrinus_v1.0	GCA_000337955.1	GenBank		Scaffold	28645	1171955363	2013-02-05		PRJNA159791	SAMN02981425
 Falco cherrug	Saker falcon	sex: male	345164	F_cherrug_v1.0	GCA_000337975.1	GenBank		Scaffold	31327	1174811715	2013-02-05		PRJNA168071	SAMN02981426
+Chelonia mydas	Green sea turtle		8469	CheMyd_1.0	GCA_000344595.1	GenBank	From INSDC submitter	Scaffold	29240	2208393880	2013-03-18	19273	PRJNA104937	SAMN02981410
 Anas platyrhynchos	mallard	breed: Pekin duck, sex: female	8839	BGI_duck_1.0	GCA_000355885.1	GenBank	From INSDC submitter	Scaffold	26114	1105035747	2013-04-26	18146	PRJNA46621	SAMN00011637
 Zonotrichia albicollis	white-throated sparrow	isolate: Tan morph, sex: male	44394	Zonotrichia_albicollis-1.0.1	GCA_000385455.1	GenBank		Scaffold	112748	1052600561	2013-04-30		PRJNA197293	SAMN02981528
+Apalone spinifera	spiny softshell turtle	sex: male	55534	ASM38561v1	GCA_000385615.1	GenBank		Scaffold	4693	1931078847	2013-05-03		PRJNA177958	SAMN03004388
 Ara macao	Scarlet macaw	sex: female	176014	SMACv1.0	GCA_000400545.1	GenBank		Contig	6366	1035921044	2013-05-20		PRJNA175470	SAMN02981465
 Ara macao	Scarlet macaw	sex: female	176014	SMACv1.1	GCA_000400695.1	GenBank		Scaffold	4399	1204683257	2013-06-26		PRJNA189648	SAMN03000706
+Alligator sinensis	Chinese alligator	sex: male	38654	ASM45574v1	GCA_000455745.1	GenBank		Scaffold	23412	2270550999	2013-08-29		PRJNA215016	SAMN02981559
 Coturnix japonica	Japanese quail	strain: L	93934	Coja_2.0a	GCA_000511605.2	GenBank		Scaffold	32115	898141602	2016-06-29		PRJDB1146	SAMD00009971
+Ophiophagus hannah	king cobra	sex: male	8665	OphHan1.0	GCA_000516915.1	GenBank	From INSDC submitter	Scaffold	5201	1594074654	2013-12-11	18579	PRJNA201683	SAMN02439592
 Serinus canaria	Common canary		9135	SCA1	GCA_000534875.1	GenBank		Scaffold	53884	1152083301	2014-01-15		PRJEB1766	SAMEA3138919
 Lyrurus tetrix tetrix			162951	tetTet1	GCA_000586395.1	GenBank		Contig	1029	657025294	2014-03-08		PRJNA179551	SAMN01814332
 Colinus virginianus	northern bobwhite	sex: female, strain: Texas	9014	ASM59946v2	GCA_000599465.2	GenBank	From INSDC submitter	Scaffold	56067	1254146751	2017-07-13	17165	PRJNA188411	SAMN02981558
@@ -59,25 +68,39 @@ Cuculus canorus	common cuckoo	isolate: BGI_N303, sex: male	55661	ASM70932v1	GCA_
 Tauraco erythrolophus	red-crested turaco	isolate: BGI_N340, sex: male	121530	ASM70936v1	GCA_000709365.1	GenBank	From INSDC submitter	Scaffold	22885	1155540733	2014-06-25	14943	PRJNA212908	SAMN02339893
 Balearica regulorum gibbericeps	East African grey crowned-crane	isolate: BGI_N312, sex: male	100784	ASM70989v1	GCA_000709895.1	GenBank	From INSDC submitter	Scaffold	23333	1127605500	2014-06-25	13794	PRJNA212879	SAMN02318095
 Buceros rhinoceros silvestris		isolate: BGI_N320, sex: male	175836	ASM71030v1	GCA_000710305.1	GenBank	From INSDC submitter	Scaffold	14587	1065782791	2014-06-25	13337	PRJNA212887	SAMN02318191
+Crotalus pyrrhus		sex: female	384069	CrotMitch1.0	GCA_000737285.1	GenBank		Scaffold	4103	1126791715	2014-08-01		PRJNA255393	SAMN02918464
 Haliaeetus leucocephalus	bald eagle	isolate: CR32, sex: male	52644	Haliaeetus_leucocephalus-4.0	GCA_000737465.1	GenBank		Scaffold	105493	1178409481	2014-08-04		PRJNA237821	SAMN02664716
 Corvus cornix cornix		isolate: S_Up_H32, sex: male	932674	ASM73873v5	GCA_000738735.5	GenBank		Chromosome	8553235	1030864775	2021-02-04		PRJNA192205	SAMN02143031
 Chaetura pelagica	chimney swift	isolate: M959, sex: female	8897	ChaPel_1.0	GCA_000747805.1	GenBank	From INSDC submitter	Scaffold	30757	1119188094	2014-09-04	15321	PRJNA210808	SAMN03018471
 Aquila chrysaetos canadensis		isolate: GSEH35GE, sex: male	216574	Aquila_chrysaetos-1.0.2	GCA_000766835.1	GenBank		Scaffold	172329	1192725744	2014-10-14		PRJNA256103	SAMN03079786
+Crocodylus porosus	Australian saltwater crocodile	isolate: Cpor-Errol, sex: male	8502	Cpor_3.0	GCA_000768395.2	GenBank		Scaffold	32925	2125619597	2020-02-05		PRJNA163131	SAMN03102602
+Gavialis gangeticus	Gharial	isolate: Ggan-Ray, sex: female	94835	ggan_v0.2	GCA_000775435.1	GenBank		Scaffold	14195	2188353730	2014-11-14		PRJNA172383	SAMN03102901
+Vipera berus berus	common viper	isolate: VBER.BE-female, sex: female	31156	Vber.be_1.0	GCA_000800605.1	GenBank		Scaffold	11725	1532390814	2014-12-10		PRJNA170536	SAMN02780930
 Anser cygnoides domesticus		breed: Zhedong, sex: male	381198	AnsCyg_PRJNA183603_v1.0	GCA_000971095.1	GenBank		Scaffold	27608	1119134887	2015-04-08		PRJNA183603	SAMN01830643
 Apteryx mantelli mantelli			202946	AptMant0	GCA_001039765.2	GenBank		Contig	16159	1595278775	2015-06-23		PRJEB6383	SAMEA2560515
+Thamnophis sirtalis		isolate: EDBJR-23777, sex: female	35019	Thamnophis_sirtalis-6.0	GCA_001077635.2	GenBank		Scaffold	10447	1424897867	2015-06-26		PRJNA189551	SAMN03759628
+Pantherophis guttatus		isolate: EG266, sex: male	94885	UNIGE_PanGut_3.0	GCA_001185365.2	GenBank		Scaffold	37981	1706961544	2020-04-13		PRJNA268069	SAMN12106767
 Zosterops lateralis melanops			1220523	ASM128173v1	GCA_001281735.1	GenBank		Scaffold	34514	1036003386	2015-09-14		PRJNA277310	SAMN03389315
 Amazona aestiva	blue-fronted amazon	isolate: FVVF132	12930	ASM142067v1	GCA_001420675.1	GenBank	From INSDC submitter	Scaffold	26171	1129535839	2015-10-30	16315	PRJNA294082	SAMN04014659
 Calidris pugnax	ruff	isolate: Ruff	198806	ASM143184v1	GCA_001431845.1	GenBank		Scaffold	109237	1229094286	2015-11-04		PRJNA281024	SAMN03491621
 Sturnus vulgaris	Common starling	isolate: 715, sex: male	9172	Sturnus_vulgaris-1.0	GCA_001447265.1	GenBank		Scaffold	151865	1036755994	2015-11-20		PRJNA293892	SAMN04029017
+Gekko japonicus		isolate: JY-2015, sex: male	146911	Gekko_japonicus_V1.1	GCA_001447785.1	GenBank		Scaffold	29575	2490257917	2015-11-25		PRJNA298277	SAMN04157958
 Calidris pugnax	ruff		198806	ruff_EG1	GCA_001458055.1	GenBank		Scaffold	65145	1173203933	2015-11-06		PRJEB11427	SAMEA3535133
 Parus major	Great Tit	isolate: Abel, sex: male	9157	Parus_major1.1	GCA_001522545.3	GenBank		Chromosome	148693	1020293992	2019-01-15		PRJNA208335	SAMN03083587
+Protobothrops mucrosquamatus	Chinese habu	isolate: PMUCROS	103944	P.Mucros_1.0	GCA_001527695.3	GenBank		Scaffold	21948	1673859098	2016-01-22		PRJDB4386	SAMD00043515
+Alligator mississippiensis	American alligator	isolate: KSC_2009_1	8496	Algmis_Hirise_1.0	GCA_001541155.1	GenBank		Scaffold	16665	2161708281	2016-01-26		PRJNA305630	SAMN02981418
+Alligator mississippiensis	American alligator	isolate: KSC_2009_1	8496	Algmis_1.0	GCA_001541185.1	GenBank		Scaffold	16660	2156978045	2016-01-26		PRJNA301461	SAMN02981418
 Coturnix japonica	Japanese quail	isolate: 7356, sex: male	93934	Coturnix japonica 2.1	GCA_001577835.2	GenBank		Chromosome	511217	927640260	2016-03-01		PRJNA292031	SAMN03989050
 Lepidothrix coronata	blue-crowned manakin	isolate: B3197, sex: male	321398	Lepidothrix_coronata-1.0	GCA_001604755.1	GenBank		Scaffold	141849	1079577334	2016-03-31		PRJNA300662	SAMN04274560
+Crotalus horridus	timber rattlesnake	isolate: 016-059-111, sex: female	35024	ASM162548v1	GCA_001625485.1	GenBank		Scaffold	5835	1520321693	2016-04-21		PRJNA181087	SAMN01815951
 Phylloscopus trochiloides viridanus		isolate: TL2	144762	GWvir1.0	GCA_001655095.1	GenBank		Scaffold	11055	1003330590	2016-06-02		PRJNA238808	SAMN02646017
 Phylloscopus plumbeitarsus		isolate: BK2, sex: male	56441	GWplu1.0	GCA_001655115.1	GenBank		Scaffold	5094	997399373	2016-06-02		PRJNA314915	SAMN04545452
 Phylloscopus trochiloides trochiloides		isolate: LN10, sex: male	144761	GWtro1.0	GCA_001655135.1	GenBank		Scaffold	2938	975891682	2016-06-02		PRJNA314720	SAMN04539782
 Passer domesticus	House sparrow	isolate: 8887266, sex: female	48849	Passer_domesticus-1.0	GCA_001700915.1	GenBank		Chromosome	51426	1042703894	2016-08-31		PRJNA255814	SAMN02929199
 Manacus vitellinus	golden-collared manakin	isolate: BGI_N305, sex: female	328815	ASM171598v3	GCA_001715985.3	GenBank		Scaffold	290580	1072328541	2019-07-03		PRJNA335611	SAMN02299332
+Crocodylus porosus	Australian saltwater crocodile	isolate: Cpor-Errol, sex: male	8502	CroPor_comp1	GCA_001723895.1	GenBank		Scaffold	34073	2049519336	2016-09-13		PRJNA163131	SAMN03102602
+Gavialis gangeticus	Gharial	isolate: Ggan-Ray, sex: female	94835	GavGan_comp1	GCA_001723915.1	GenBank		Scaffold	14799	2640775248	2016-09-13		PRJNA172383	SAMN03102901
+Malaclemys terrapin terrapin		sex: female	391341	terp_v2_2	GCA_001728815.2	GenBank		Contig	437266	2439737865	2016-09-20		PRJNA339452	SAMN05591378
 Setophaga coronata coronata	myrtle warbler	isolate: EE26A12, sex: male	1037456	mywa_2.1	GCA_001746935.2	GenBank		Chromosome	43576	1022634526	2020-12-08		PRJNA325157	SAMN05224218
 Tympanuchus cupido pinnatus		isolate: GPC 3440, sex: female	211916	T_cupido_pinnatus_GPC_3440_v1	GCA_001870855.1	GenBank		Scaffold	47484	983776544	2016-11-07		PRJNA330991	SAMN05433571
 Falco peregrinus	peregrine falcon	sex: male	8954	falPer2	GCA_001887755.1	GenBank		Chromosome	33994	1112064469	2016-12-02		PRJNA347893	SAMN02981425
@@ -111,9 +134,13 @@ Limosa lapponica baueri		isolate: BTGAFAM01, sex: pooled male and female	1758121
 Acridotheres javanicus	Javan myna	isolate: NGS004	451385	ASM284967v1	GCA_002849675.1	GenBank		Scaffold	144184	1051582182	2018-01-02		PRJNA415335	SAMN07828064
 Zonotrichia albicollis	white-throated sparrow	isolate: Super-white morph, sex: female	44394	WTSP-SWSv1	GCA_002850735.1	GenBank		Scaffold	10896	1017281565	2018-01-03		PRJNA341682	SAMN05726874
 Psittacula krameri	Rose-ringed parakeet	isolate: jrs2016, sex: female	9228	P.krameri1.0	GCA_002870145.1	GenBank		Scaffold	23132	1417809960	2018-01-09		PRJNA377329	SAMN06459718
+Gopherus agassizii	Agassiz's desert tortoise	sex: male	38772	ASM289641v1	GCA_002896415.1	GenBank		Scaffold	43735	2184966080	2018-01-24		PRJNA352726	SAMN05991319
 Cyanistes caeruleus	blue tit	isolate: BT333_1, sex: male	156563	cyaCae2	GCA_002901205.1	GenBank		Scaffold	105778	1186980630	2018-01-26		PRJNA284903	SAMN03734925
 Bambusicola thoracicus	Chinese bamboo-partridge	isolate: RTK389, sex: female	9083	Bthov1.0	GCA_002909625.1	GenBank	From INSDC submitter	Scaffold	10597	1032295167	2018-01-31	17763	PRJNA396570	SAMN07428836
+Terrapene carolina triunguis	Three-toed box turtle	isolate: 2854851, sex: male	2587831	T_m_triunguis-2.0	GCA_002925995.2	GenBank		Scaffold	76614	2571267249	2018-09-21		PRJNA415469	SAMN08285364
 Empidonax traillii	willow flycatcher	ecotype: Southwest subspecies, isolate: 1590-97213	164674	ASM303162v1	GCA_003031625.1	GenBank		Scaffold	86564	1123485537	2018-04-03		PRJNA437496	SAMN08663748
+Sphenodon punctatus	tuatara	isolate: mauimua-1, sex: male	8508	ASM311381v1	GCA_003113815.1	GenBank		Scaffold	27065	4272214985	2018-05-10		PRJNA418887	SAMN08038466
+Paroedura picta			143630	Ppicta_assembly_v1	GCA_003118565.1	GenBank	From INSDC submitter	Scaffold	15225	1694157353	2018-03-22	26739	PRJDB5392	SAMD00069447
 Athene cunicularia	burrowing owl	isolate: RWA, sex: male	194338	athCun1	GCA_003259725.1	GenBank		Scaffold	64091	1157069330	2018-06-21		PRJNA431202	SAMN08961563
 Spheniscus magellanicus	Magellanic penguin	isolate: CH406B	37081	ASM326453v1	GCA_003264535.1	GenBank		Scaffold	22336	1209851208	2018-06-25		PRJNA382168	SAMN06701111
 Spheniscus humboldti	Humboldt's penguin	isolate: CH48	9240	ASM326454v1	GCA_003264545.1	GenBank		Scaffold	22341	1209857164	2018-06-25		PRJNA382168	SAMN06701109
@@ -139,11 +166,16 @@ Apteryx haastii	Great spotted kiwi	isolate: R29945, sex: male	8823	aptHaa1	GCA_0
 Rhea americana	greater rhea	isolate: MKP2758, sex: male	8797	rheAme1	GCA_003343005.1	GenBank		Scaffold	88762	1160836514	2018-07-26		PRJNA433110	SAMN08476460
 Apteryx rowi	Okarito brown kiwi	isolate: R43461, sex: male	308060	aptRow1	GCA_003343035.1	GenBank		Scaffold	129376	1228902913	2018-07-26		PRJNA433110	SAMN08476454
 Chlamydotis undulata undulata		ecotype: North Africa, sex: male	187383	REN_Cundu_1.1	GCA_003400225.2	GenBank		Scaffold	90121	1167170754	2020-12-15		PRJNA473697	SAMN09281226
+Crotalus viridis viridis	prairie rattlesnake	sex: male	8742	UTA_CroVir_3.0	GCA_003400415.2	GenBank		Chromosome	14888	1340198908	2019-01-08		PRJNA413201	SAMN07738522
+Protobothrops flavoviridis	habu	sex: female	88087	HabAm_1.0	GCA_003402635.1	GenBank		Scaffold	18879	1413200976	2018-08-02		PRJDB5507	SAMD00115727
 Corvus hawaiiensis	hawaiian crow	isolate: Ho'ike i ka pono, sex: male	134902	Coha_1.0	GCA_003402825.1	GenBank		Contig	7737654	1064970991	2018-08-16		PRJNA475267	SAMN09383001
 Chrysolophus pictus	golden pheasant	breed: wild golden pheasant, sex: male	9089	Chrysolophus_pictus_GenomeV1.0	GCA_003413605.1	GenBank		Scaffold	38217	1023990748	2018-08-20		PRJNA257945	SAMN02980944
 Eopsaltria australis	eastern yellow robin	isolate: EYR054, sex: female	44318	eyr_v1	GCA_003426825.1	GenBank		Scaffold	641411	1228344903	2018-08-23		PRJNA476023	SAMN09425179
 Syrmaticus mikado	Mikado pheasant	isolate: TWDZ01, sex: female	9065	NTU_Smik_1.2	GCA_003435085.1	GenBank		Scaffold	107959	1066426119	2018-08-31		PRJNA389983	SAMN07211794
+Thermophis baileyi		ecotype: Yangbajing, isolate: 1-13, sex: female	527827	DSBC_Tbai_1.0	GCA_003457575.1	GenBank		Scaffold	18227	1747678728	2018-09-05		PRJNA473624	SAMN09279788
 Mixornis gularis	Striped tit-babbler	isolate: PRS3255, sex: female	1948886	ASM354603v1	GCA_003546035.1	GenBank		Scaffold	71550	1036102025	2018-09-11		PRJNA392017	SAMN07281160
+Salvator merianae	Argentine black and white tegu	sex: male, strain: LG2117	96440	HLtupMer6	GCA_003586115.2	GenBank		Scaffold	500019	2068170046	2018-12-11		PRJNA473319	SAMN09273531
+Chelonoidis abingdonii	Abingdon island giant tortoise	isolate: Lonesome George, sex: male	106734	ASM359739v1	GCA_003597395.1	GenBank		Scaffold	73186	2300739315	2018-09-25		PRJNA416050	SAMN07840320
 Chloebia gouldiae	Gouldian finch	isolate: Red01, sex: male	44316	GouldianFinch	GCA_003676055.1	GenBank	From INSDC submitter	Scaffold	137954	1070785140	2018-10-23	18989	PRJNA478907	SAMN09689584
 Hirundo rustica rustica		isolate: Chelidonia, sex: female	333673	Chelidonia	GCA_003692655.1	GenBank	From INSDC submitter	Scaffold	6124600	1213743879	2018-10-29	35006	PRJNA481100	SAMN09657529
 Calidris pygmaea	Spoon-billed sandpiper	sex: female, strain: Meinypilgyno	425635	ASM369795v1	GCA_003697955.1	GenBank		Scaffold	189165	1178350366	2018-10-30		PRJNA419629	SAMN09355691
@@ -153,7 +185,9 @@ Diphyllodes magnificus		isolate: F569, sex: female	28716	DipMag_1.0	GCA_00371328
 Parotia lawesii	Lawes's parotia	isolate: F631, sex: female	39961	ParLaw_1.0	GCA_003713295.1	GenBank		Scaffold	432029	1056922331	2018-11-06		PRJNA491255	SAMN10096785
 Cicinnurus regius	king bird of paradise	isolate: F628, sex: female	36263	CicReg_1.0	GCA_003713305.1	GenBank		Scaffold	465502	1059540104	2018-11-06		PRJNA491255	SAMN10096784
 Junco hyemalis	dark-eyed junco	ecotype: carolinensis	40217	ASM382977v1	GCA_003829775.1	GenBank		Scaffold	80164	958315288	2018-11-26		PRJNA493001	SAMN10120167
+Cuora mccordi	McCord's box turtle	isolate: ISIS_951048, sex: male	241437	ASM384633v1	GCA_003846335.1	GenBank		Scaffold	74338	2390374423	2018-11-28		PRJNA491715	SAMN10392581
 Anas platyrhynchos	mallard	isolate: PK-2015	8839	IASCAAS_PekingDuck_PBH1.5	GCA_003850225.1	GenBank		Chromosome	36811	1126159488	2018-11-29		PRJNA496533	SAMN10245527
+Platysternon megacephalum	big-headed turtle	isolate: DO16091913, sex: male	55544	ASM394214v1	GCA_003942145.1	GenBank	From INSDC submitter	Scaffold	213602	2319087892	2018-12-12	21529	PRJNA479402	SAMN09536731
 Pipra filicauda	Wire-tailed manakin	isolate: LSUMZ 115617, sex: male	649802	ASM394559v2	GCA_003945595.2	GenBank		Scaffold	1677444	1081944082	2020-12-01		PRJNA445296	SAMN08774045
 Corapipo altera	White-ruffed manakin	isolate: COAL_440, sex: female	415028	ASM394572v1	GCA_003945725.1	GenBank		Scaffold	262501	1095745976	2018-12-14		PRJNA505529	SAMN10424454
 Amazona collaria	yellow-billed parrot	isolate: JAMY3	241587	ASM394721v1	GCA_003947215.1	GenBank		Scaffold	208912	1258720284	2018-12-14		PRJNA490036	SAMN10023852
@@ -164,27 +198,47 @@ Calypte anna	Anna's hummingbird	isolate: BGI_N300, sex: female	9244	bCalAnn1_v1.
 Neopelma chrysocephalum	saffron-crested tyrant-manakin	sex: female	114329	ASM398488v2	GCA_003984885.2	GenBank		Scaffold	237029	1142796179	2018-12-28		PRJNA445439	SAMN08784363
 Himantopus leucocephalus		isolate: B60480	507594	UO_Hhiman_2.0	GCA_003993805.1	GenBank		Scaffold	36551	1116806074	2019-01-04		PRJNA503940	SAMN10386166
 Strigops habroptila	Kakapo	isolate: Jane, sex: female	2489341	bStrHab1_v1.h	GCA_004011185.1	GenBank		Scaffold	153928	285706558	2019-01-10		PRJNA489134	SAMN09948751
+Hydrophis cyanocinctus	Asian annulated sea snake	isolate: QH_1-3	8686	ASM402372v1	GCA_004023725.1	GenBank		Scaffold	3626	1389857256	2019-01-15		PRJNA506024	SAMN10441167
 Recurvirostra avosetta	Pied Avocet	isolate: S068744-2018	171275	ASM402374v1	GCA_004023745.1	GenBank		Scaffold	10462	1193282475	2019-01-15		PRJNA508229	SAMN10518521
+Hydrophis hardwickii	Hardwick's sea snake	isolate: PK_1-3	8781	ASM402376v1	GCA_004023765.1	GenBank		Scaffold	2852	1296394113	2019-01-15		PRJNA506024	SAMN10441168
 Strigops habroptila	Kakapo	isolate: Jane, sex: female	2489341	bStrHab1.2.pri	GCA_004027225.2	GenBank		Chromosome	9454087	1148597545	2020-03-04		PRJNA489135	SAMN09948751
+Cuora amboinensis	Amboina box turtle	sex: male	74909	ASM402862v2	GCA_004028625.2	GenBank		Scaffold	47152	2214832461	2019-03-22		PRJNA511034	SAMN10722981
 Phasianus colchicus	Ring-necked pheasant	isolate: SZU-A5-319, sex: male	9054	ASM414374v1	GCA_004143745.1	GenBank		Scaffold	197843	1017507340	2019-02-06		PRJNA449162	SAMN08888240
+Emydocephalus ijimae			34996	emyIji_1.0	GCA_004319985.1	GenBank		Scaffold	18545	1625199642	2019-01-09		PRJDB7221	SAMD00132326
+Hydrophis melanocephalus			34990	hydMel_1.0	GCA_004320005.1	GenBank		Scaffold	7411	1402639853	2019-02-13		PRJDB7271	SAMD00134211
+Laticauda laticaudata	blue-ringed sea krait		8630	latLat_1.0	GCA_004320025.1	GenBank		Scaffold	35581	1558706106	2019-01-09		PRJDB7226	SAMD00132327
+Laticauda colubrina	yellow-lipped sea krait		8628	latCor_1.0	GCA_004320045.1	GenBank		Scaffold	26721	2024687924	2019-01-09		PRJDB7284	SAMD00134349
 Scolopax mira	Amami woodcock		1381582	Scolopax mira_ver1.0	GCA_004320125.1	GenBank		Scaffold	61187	1091292641	2019-02-15		PRJDB7801	SAMD00156786
 Accipiter nisus	Eurasian sparrowhawk		211598	Accipiter nisus_ver1.0	GCA_004320145.1	GenBank		Scaffold	35336	1190649881	2019-02-16		PRJDB7807	SAMD00156791
 Dendrocopos noguchii	Okinawa woodpecker		1517798	Dendrocopos noguchii_ver1.0	GCA_004320165.1	GenBank		Scaffold	18451	1134561427	2019-02-16		PRJDB7802	SAMD00156787
 Haliaeetus albicilla	white-tailed eagle		8969	Haliaeetus albicilla_ver1.0	GCA_004320185.1	GenBank		Scaffold	53802	1196539455	2019-02-16		PRJDB7806	SAMD00156790
 Lagopus muta japonica			1604048	Lagopus muta japonica_ver1.0	GCA_004320205.1	GenBank		Scaffold	56225	1002559668	2019-02-15		PRJDB7799	SAMD00156785
 Bubo blakistoni	Blakiston's fish-owl		1564486	Bubo blakistoni_ver1.0	GCA_004320225.1	GenBank		Scaffold	65049	1193862756	2019-02-16		PRJDB7800	SAMD00160568
+Podarcis muralis	Common wall lizard	ecotype: yellow, sex: male	64176	PodMur_1.0	GCA_004329235.1	GenBank		Chromosome	714612	1511002858	2019-03-07		PRJNA515813	SAMN10820182
 Grus nigricollis	black-necked crane	isolate: BSYUE-LAB-201903, sex: female	40817	ASM436023v1	GCA_004360235.1	GenBank		Scaffold	17886166	1230910289	2019-03-22		PRJNA523951	SAMN11096029
+Varanus komodoensis	Komodo dragon	sex: male, strain: SLA01	61221	ASM479886v1	GCA_004798865.1	GenBank	From INSDC submitter	Scaffold	189463	1507945839	2019-04-17	18293	PRJNA523222	SAMN10967258
 Pavo cristatus	Indian peafowl	isolate: SKPea2016_SI, sex: male	9049	AIIM_Pcri_1.0	GCA_005519975.1	GenBank		Scaffold	103131	1027510962	2019-05-20		PRJNA413288	SAMN07739105
 Lonchura striata domestica	Bengalese finch	isolate: Mets1, sex: male	299123	lonStrDom2	GCA_005870125.1	GenBank		Chromosome	100423	1060252993	2019-06-05		PRJNA369279	SAMN11521339
 Centrocercus minimus	Gunnison sage-grouse	isolate: UT7, sex: male	211967	Cmin_1.0	GCA_005890655.1	GenBank		Scaffold	3500535	1000026669	2019-06-14		PRJNA529426	SAMN11266852
 Branta canadensis	Canada goose	isolate: SJ_97	8853	GSC_cangoose_1.0	GCA_006130075.1	GenBank		Scaffold	220846	1153386549	2019-06-05		PRJNA524684	SAMN11031539
 Anser indicus	Bar-headed goose	isolate: heart tissue	8846	ASM622913v1	GCA_006229135.1	GenBank		Scaffold	120377	1143091872	2019-06-11		PRJNA542959	SAMN11890447
+Dermochelys coriacea	leatherback sea turtle	isolate: 2018-Dc-14, sex: female	27794	GSC_toitle_1.0	GCA_006547105.1	GenBank		Scaffold	45261	2154166173	2019-07-01		PRJNA528992	SAMN11567340
 Anomalopteryx didiformis	little bush moa	isolate: TW95	8811	anoDid_nucDNA_orig	GCA_006937325.1	GenBank		Scaffold	824	1190759065	2019-07-12		PRJNA433423	SAMN08482543
 Anomalopteryx didiformis	little bush moa	isolate: TW95	8811	anoDid_nucDNA_mapDamage	GCA_006938045.1	GenBank		Scaffold	774	1189933016	2019-07-12		PRJNA534317	SAMN08482543
 Serinus canaria	Common canary	ecotype: domestic yellow, isolate: sc_yellow_7_cibi, sex: male	9135	cibio_Scana_2019	GCA_007115625.1	GenBank		Scaffold	90869	1071638426	2019-07-29		PRJNA548289	SAMN12017177
 Zosterops borbonicus		ecotype: Highland grey morph, isolate: HGM_15179, sex: female	364589	ZoBo_15179_v2.0	GCA_007252995.1	GenBank	From INSDC submitter	Scaffold	20903	1213662640	2019-07-22	22558	PRJNA530916	SAMN11339519
+Gopherus evgoodei	Goodes thornscrub tortoise	ecotype: Sinaloan lineage, sex: male	1825980	rGopEvg1_v1.alt	GCA_007399395.1	GenBank		Contig	655454	1961129424	2019-07-24		PRJNA489104	SAMN03496275
+Gopherus evgoodei	Goodes thornscrub tortoise	ecotype: Sinaloan lineage, sex: male	1825980	rGopEvg1_v1.p	GCA_007399415.1	GenBank		Chromosome	13026736	2298547364	2019-07-25		PRJNA489103	SAMN03496275
 Zosterops pallidus	pale white-eye	sex: female	43580	ZoPa_MNHNZO2015-572_v1.0	GCA_007556475.1	GenBank		Scaffold	26333	1149599252	2019-07-26		PRJNA530916	SAMN11339534
 Tachycineta bicolor	Tree swallow	ecotype: Ithaca, isolate: 2401-50270	72873	CLO_TRES_1	GCA_007636935.1	GenBank		Scaffold	16265	1135351544	2019-07-30		PRJNA553513	SAMN12236919
+Varanus komodoensis	Komodo dragon	isolate: Tujah, sex: male	61221	VCOM_VKom_1.0	GCA_007859595.1	GenBank		Scaffold	37135	1606418949	2019-08-07		PRJNA490211	SAMN10030706
+Mesoclemmys tuberculata	tuberculate toadhead turtle	sex: male	904206	Mesoclemmys_tuberculata-1.0	GCA_007922155.1	GenBank		Scaffold	146430	2027505490	2019-08-05		PRJNA512125	SAMN10734026
+Chelydra serpentina	Common snapping turtle	sex: male	8475	Chelydra_serpentina-1.0	GCA_007922165.1	GenBank		Scaffold	80593	2401360239	2019-08-05		PRJNA512119	SAMN10724079
+Pelusios castaneus	West African mud turtle	sex: male	367368	Pelusios_castaneus-1.0	GCA_007922175.1	GenBank		Scaffold	74864	2044278682	2019-08-01		PRJNA512121	SAMN10724078
+Carettochelys insculpta	pitted-shelled turtle	sex: male	44489	Carettochelys_insculpta-1.0	GCA_007922185.1	GenBank		Scaffold	116202	2356570494	2019-08-05		PRJNA512133	SAMN10723924
+Podocnemis expansa		sex: male	44507	Podocnemis_expansa-1.0	GCA_007922195.1	GenBank		Scaffold	134824	2447092617	2019-08-05		PRJNA512135	SAMN10723688
+Emydura subglobosa		sex: male	251359	Emydura_subglobosa-1.0	GCA_007922225.1	GenBank		Scaffold	350989	1986702056	2019-08-05		PRJNA512130	SAMN10723686
+Dermatemys mawii		sex: male	55550	Dermatemys_mawii-1.0	GCA_007922305.1	GenBank		Scaffold	183958	1866975060	2019-08-05		PRJNA512129	SAMN10723923
 Pseudorectes ferrugineus	Rusty pitohui	isolate: Z43706, sex: female	1743254	NUS_rp_v1	GCA_008033365.1	GenBank		Scaffold	10773	995897499	2019-08-20		PRJNA487682	SAMN09908057
 Lichenostomus cassidix	helmeted honeyeater	isolate: B80296, sex: female	1497555	HeHo_1.0	GCA_008360975.1	GenBank		Scaffold	7673876	1102302466	2019-09-09		PRJNA554936	SAMN12287370
 Alca torda	razorbill	isolate: 2006_11_07_Graehlm_vinge_78, sex: male	28689	bAlcTor1 alternate	GCA_008658355.1	GenBank		Contig	1949609	1220378950	2019-09-23		PRJNA554521	SAMN12292087
@@ -198,27 +252,35 @@ Taeniopygia guttata	zebra finch	isolate: Blue55, sex: female	59729	bTaeGut2.mat.
 Taeniopygia guttata	zebra finch	isolate: Blue55, sex: female	59729	bTaeGut2pat	GCA_008822125.1	GenBank		Chromosome	4443179	1047569904	2019-10-03		PRJNA489101	SAMN09946140
 Burhinus oedicnemus	Eurasian thick-knee	ecotype: Morocco, isolate: B10M00005, sex: female	85105	REN_Boedic_1.0	GCA_008921705.1	GenBank		Scaffold	93678	1228108199	2019-10-08		PRJNA473697	SAMN11554498
 Cairina moschata domestica	Muscovy Duck (domestic type)	isolate: CanardBarbarie3_02_2015_G	1240228	CaiMos1.0	GCA_009194515.1	GenBank		Chromosome	89133	1109207201	2019-11-25		PRJNA417448	SAMN08035743
+Actinemys marmorata	Northwestern pond turtle	sex: female	335395	Amar_v1	GCA_009430475.1	GenBank		Scaffold	59125	2388727788	2019-10-31		PRJNA512124	SAMN10724089
 Anthochaera phrygia	Regent honeyeater	ecotype: Blue Mountains, sex: female	2020318	ANU_Anthochaera_phrygia_1.0	GCA_009430485.1	GenBank		Scaffold	944	815187911	2019-10-31		PRJNA549051	SAMN12070213
 Corvus moneduloides	New Caledonian crow	isolate: NC3	1196302	UO_Cmon_1.0	GCA_009650515.1	GenBank		Scaffold	331397	1056558033	2019-11-12		PRJNA557728	SAMN12418287
 Corvus moneduloides	New Caledonian crow	isolate: bCorMon1, sex: female	1196302	bCorMon1.pri	GCA_009650955.1	GenBank		Chromosome	11524098	1112734094	2019-11-14		PRJNA560983	SAMN12368441
 Corvus moneduloides	New Caledonian crow	isolate: bCorMon1, sex: female	1196302	bCorMon1.alt	GCA_009651025.1	GenBank		Contig	2563033	905198257	2019-11-12		PRJNA560982	SAMN12368441
 Hemignathus wilsoni	Akiapolaau	isolate: USGS band number 1581-74856, sex: male	2518271	HemiWil1.0	GCA_009690805.1	GenBank		Scaffold	69851	1032496179	2019-11-22		PRJNA520783	SAMN10867508
+Naja naja	Indian cobra	isolate: NN01, sex: male	35670	Nana_v5	GCA_009733165.1	GenBank		Chromosome	302474	1768535092	2019-12-11		PRJNA527614	SAMN11155092
 Malurus cyaneus samueli		sex: female	2593467	mCya_1.0	GCA_009741485.1	GenBank		Chromosome	210412	1078874851	2019-12-12		PRJNA553115	SAMN12217597
+Dermochelys coriacea	leatherback sea turtle	isolate: rDerCor1, sex: male	27794	rDerCor1.alt.v2	GCA_009762595.2	GenBank		Scaffold	246490	1444786651	2020-12-08		PRJNA561994	SAMN12629498
 Tauraco erythrolophus	red-crested turaco	isolate: bTauEry1, sex: female	121530	bTauEry1.alt	GCA_009764505.1	GenBank		Contig	1233539	1084112861	2019-12-18		PRJNA561948	SAMN12621036
 Geothlypis trichas	common yellowthroat	isolate: bGeoTri1, sex: female	135433	bGeoTri1.alt	GCA_009764545.1	GenBank		Scaffold	1049351	976433058	2019-12-18		PRJNA589704	SAMN12631222
+Dermochelys coriacea	leatherback sea turtle	isolate: rDerCor1, sex: male	27794	rDerCor1.pri.v3	GCA_009764565.3	GenBank		Chromosome	7029801	2164762090	2020-12-08		PRJNA561993	SAMN12629498
 Geothlypis trichas	common yellowthroat	isolate: bGeoTri1, sex: female	135433	bGeoTri1.pri	GCA_009764595.1	GenBank		Chromosome	3247339	1078128490	2019-12-19		PRJNA589703	SAMN12631222
 Tauraco erythrolophus	red-crested turaco	isolate: bTauEry1, sex: female	121530	bTauEry1.pri	GCA_009769465.1	GenBank		Chromosome	11927027	1252271553	2019-12-19		PRJNA561947	SAMN12621036
 Cygnus olor	mute swan	isolate: bCygOlo1, sex: male	8869	bCygOlo1.alt	GCA_009769485.1	GenBank		Scaffold	328714	814162536	2019-12-19		PRJNA561961	SAMN12621369
 Pterocles gutturalis	yellow-throated sandgrouse	isolate: bPteGut1, sex: male	240206	bPteGut1.alt	GCA_009769505.1	GenBank		Contig	1147717	1037717354	2019-12-19		PRJNA561959	SAMN12623217
 Pterocles gutturalis	yellow-throated sandgrouse	isolate: bPteGut1, sex: male	240206	bPteGut1.pri	GCA_009769525.1	GenBank		Chromosome	12131577	1127398289	2019-12-23		PRJNA561958	SAMN12623217
+Thamnophis elegans	Western terrestrial garter snake	isolate: rThaEle1, sex: female	35005	rThaEle1.pri	GCA_009769535.1	GenBank		Chromosome	4620601	1672190305	2019-12-23		PRJNA561996	SAMN12629499
 Bucorvus abyssinicus	Abyssinian ground-hornbill	isolate: bBucAby1, sex: female	153643	bBucAby1.alt	GCA_009769595.1	GenBank		Contig	954952	1024138499	2019-12-19		PRJNA561886	SAMN12614799
 Bucorvus abyssinicus	Abyssinian ground-hornbill	isolate: bBucAby1, sex: female	153643	bBucAby1.pri	GCA_009769605.1	GenBank		Chromosome	12039478	1132597561	2019-12-23		PRJNA561887	SAMN12614799
 Cygnus olor	mute swan	isolate: bCygOlo1, sex: male	8869	bCygOlo1.pri	GCA_009769625.1	GenBank		Chromosome	7743145	1134992545	2019-12-23		PRJNA561960	SAMN12621369
+Thamnophis elegans	Western terrestrial garter snake	isolate: rThaEle1, sex: female	35005	rThaEle1.alt	GCA_009769695.1	GenBank		Scaffold	432811	1814330211	2019-12-19		PRJNA561997	SAMN12629499
 Eremophila alpestris peregrina		isolate: EALPPER07, sex: male	2668079	CLO_EAlp_1.0	GCA_009792885.1	GenBank		Scaffold	193817	1041021471	2019-12-23		PRJNA575884	SAMN12913182
 Tetrax tetrax		isolate: T08N04531, sex: male	172684	REN_Tetrax_1.0	GCA_009806455.1	GenBank		Scaffold	43434	1259185357	2019-12-27		PRJNA473697	SAMN11607794
 Sialia sialis	eastern bluebird	sex: female, strain: Louisiana	172413	Ss_LA_1.0	GCA_009812075.1	GenBank		Scaffold	53982	958522825	2019-12-31		PRJNA557459	SAMN12412825
 Cariama cristata	Red-legged seriema	isolate: bCarCri1, sex: female	54380	bCarCri1.alt	GCA_009819485.1	GenBank		Scaffold	1876668	930239327	2019-12-23		PRJNA561893	SAMN12614807
 Catharus ustulatus	Swainson's thrush	isolate: bCatUst1, sex: female	91951	bCatUst1.alt.v2	GCA_009819505.2	GenBank		Scaffold	1498444	1128658440	2020-11-05		PRJNA561934	SAMN12618602
+Lacerta agilis	Sand lizard	isolate: rLacAgi1, sex: female	80427	rLacAgi1.pri	GCA_009819535.1	GenBank		Chromosome	6613248	1391387079	2019-12-31		PRJNA562018	SAMN12629509
+Lacerta agilis	Sand lizard	isolate: rLacAgi1, sex: female	80427	rLacAgi1.alt	GCA_009819545.1	GenBank		Scaffold	365044	1429379209	2019-12-23		PRJNA562019	SAMN12629509
 Merops nubicus	carmine bee-eater	isolate: bMerNub1, sex: female	57421	bMerNub1.alt	GCA_009819585.1	GenBank		Contig	1966515	1122486764	2019-12-23		PRJNA561895	SAMN12621035
 Merops nubicus	carmine bee-eater	isolate: bMerNub1, sex: female	57421	bMerNub1.pri	GCA_009819595.1	GenBank		Chromosome	12372304	1149337515	2019-12-31		PRJNA561894	SAMN12621035
 Sterna hirundo	Common tern	isolate: bSteHir1, sex: female	108405	bSteHir1.pri	GCA_009819605.1	GenBank		Chromosome	22002498	1229953488	2019-12-31		PRJNA558062	SAMN12369541
@@ -282,6 +344,7 @@ Nettapus auritus		breed: African pygmy goose, isolate: SHBP007, sex: female	6589
 Oxyura jamaicensis	ruddy duck	breed: ruddy duck, isolate: SHBP4307, sex: female	8884	BPBGC_Ojam_1.0	GCA_011077185.1	GenBank		Chromosome	128592	1147585764	2020-03-10		PRJNA588796	SAMN13257492
 Melanerpes aurifrons	Golden-fronted woodpecker	sex: female	371916	OU_Melaur_1	GCA_011125475.1	GenBank		Contig	16045987	1309609574	2020-03-17		PRJNA598863	SAMN13719207
 Eupsittula pertinax	brown-throated parakeet	isolate: EF1EG5NQXF	492513	ASM1131718v1	GCA_011317185.1	GenBank		Scaffold	70940	1171654275	2020-03-16		PRJNA596746	SAMN13635021
+Chrysemys picta	Painted turtle	breed: male, sex: male	8479	ASM1138683v1	GCA_011386835.1	GenBank		Scaffold	86765	2335704405	2020-03-16		PRJNA589899	SAMN13293682
 Poecile atricapillus	Black-capped chickadee	sex: male	48891	CUB_Patr_1.0	GCA_011421415.1	GenBank		Chromosome	109509	1047790189	2020-03-19		PRJNA589043	SAMN13264372
 Pionus senilis	white-capped parrot	isolate: 7NLP3JS58T, sex: female	30456	ASM1176272v1	GCA_011762725.1	GenBank		Scaffold	96461	1067577099	2020-03-27		PRJNA481561	SAMN09688240
 Pyrrhura molinae	Green-cheeked parakeet	isolate: RFTQM1ZJYB	311895	ASM1176335v1	GCA_011763355.1	GenBank		Scaffold	82819	1122251672	2020-03-27		PRJNA481548	SAMN09681958
@@ -290,6 +353,7 @@ Eclectus roratus	Eclectus parrot	isolate: TSMLLNO8PM	176024	ASM1176353v1	GCA_011
 Chlamydotis macqueenii	Macqueen's bustard	ecotype: Wild, isolate: M05N06140, sex: male	187382	REN_Cmacq_1.0	GCA_011799995.1	GenBank		Scaffold	60940	1325814780	2020-03-31		PRJNA473697	SAMN11607796
 Chlamydotis macqueenii	Macqueen's bustard	ecotype: Wild, isolate: M01N03509, sex: male	187382	REN_Cmacq_2.0	GCA_011800025.1	GenBank		Scaffold	88943	1206946485	2020-03-31		PRJNA473697	SAMN11607797
 Guaruba guarouba		isolate: 1TTDQCT4G4, sex: female	51906	ASM1180009v1	GCA_011800095.1	GenBank		Scaffold	126760	1151548123	2020-03-31		PRJNA551769	SAMN12165723
+Zootoca vivipara	common lizard	isolate: ELT05324, sex: female	8524	UG_Zviv_1	GCA_011800845.1	GenBank		Chromosome	219893	1464283545	2020-04-01		PRJNA610958	SAMN14329711
 Ardeotis arabs		ecotype: Yemen, isolate: R09N00325, sex: male	172690	REN_Aarabs_1.0	GCA_011801015.1	GenBank		Scaffold	34349	1297600582	2020-03-31		PRJNA473697	SAMN11607792
 Aquila chrysaetos japonica			335091	Achrysaetos_1.0	GCA_012057345.1	GenBank		Scaffold	54768	1196037330	2020-04-03		PRJDB7992	SAMD00161055
 Taeniopygia guttata	zebra finch	isolate: Blue55, sex: female	59729	zebrafinch.Unzip_purge_haplotigs	GCA_012069535.1	GenBank		Contig	320958	922729557	2020-04-06		PRJNA604785	SAMN09946140
@@ -307,8 +371,11 @@ Nisaetus nipalensis	mountain hawk-eagle		214438	Nnipalensis_1.0	GCA_012487455.1	
 Grus monacha	hooded crane		40818	Gmonacha_1.0	GCA_012487855.1	GenBank		Scaffold	38530	1182186797	2020-04-08		PRJDB7809	SAMD00156792
 Antigone vipio	White-naped crane		2717088	Gvipio_1.0	GCA_012488435.1	GenBank		Scaffold	32896	1181556295	2020-04-08		PRJDB7810	SAMD00156793
 Falco peregrinus	peregrine falcon		8954	Fperegrinus_1.0	GCA_012488915.1	GenBank		Scaffold	88635	1183345687	2020-04-08		PRJDB7811	SAMD00156794
+Ptyas mucosa	Dhaman	isolate: Pmuc001, sex: female	31142	UNIGE_Pmuc_v1.0	GCA_012654045.1	GenBank		Scaffold	41154	1721466642	2020-04-22		PRJNA588151	SAMN13229211
+Pantherophis obsoletus	Western rat snake	isolate: EOBS11, sex: female	39099	UNIGE_PanObs_1.0	GCA_012654085.1	GenBank		Scaffold	38205	1692461844	2020-04-22		PRJNA587592	SAMN13195742
 Anser cygnoides	Swan goose	isolate: Tianfu, sex: female	8845	ASM1303099v1	GCA_013030995.1	GenBank		Scaffold	1849874	1113895350	2020-05-11		PRJNA589208	SAMN13281505
 Myiopsitta monachus	monk parakeet	isolate: Lily_M87LX5JFBJ, sex: female	176066	ASM1303600v1	GCA_013036005.1	GenBank		Scaffold	69906	1118816385	2020-05-11		PRJNA528952	SAMN11250504
+Trachemys scripta elegans		isolate: TJP31775	31138	CAS_Tse_1.0	GCA_013100865.1	GenBank		Chromosome	204575	2126182493	2020-05-15		PRJNA552319	SAMN12189062
 Turdus rufiventris	rufous-bellied thrush	sex: female	311356	ASM1318643v1	GCA_013186435.1	GenBank	From INSDC submitter	Scaffold	34001	1046948833	2020-05-28	18632	PRJNA437639	SAMN08668864
 Nyctibius grandis		isolate: bNycGra1, sex: female	48427	bNycGra1.alt	GCA_013368595.1	GenBank		Scaffold	2458434	1041284291	2020-06-23		PRJNA562021	SAMN12622411
 Nyctibius grandis		isolate: bNycGra1, sex: female	48427	bNycGra1.pri	GCA_013368605.1	GenBank		Chromosome	23231768	1256393467	2020-06-23		PRJNA562020	SAMN12622411
@@ -583,6 +650,7 @@ Ceyx cyanopectus	Indigo-banded kingfisher	isolate: B10K-DU-013-51, sex: female	3
 Spizella passerina	chipping sparrow	isolate: B10K-DU-023-52, sex: female	40210	ASM1340137v1	GCA_013401375.1	GenBank	From INSDC submitter	Scaffold	9017	1018792982	2020-07-10	10272	PRJNA545868	SAMN12253929
 Coloeus monedula	jackdaw	isolate: S_Up_J01, sex: male	30423	ASM1340703v1	GCA_013407035.1	GenBank		Chromosome	23262489	1035863955	2020-07-13		PRJNA626609	SAMN14646012
 Ara glaucogularis	Blue-throated macaw	ecotype: Bolivia, sex: male	303304	TAMU_Btm_v1.0	GCA_013433245.1	GenBank		Scaffold	11243935	1139702960	2020-07-21		PRJNA642113	SAMN15376960
+Aspidoscelis marmoratus	Marbled whiptail	isolate: SIMRID8450	403789	AspMar1.0	GCA_014337955.1	GenBank		Scaffold	17774	1639530780	2020-08-31		PRJNA360150	SAMN06204250
 Cygnus cygnus	common whooper		219595	C_cygnus_scaffold_01	GCA_014362685.1	GenBank		Scaffold	25015	1052375201	2020-08-22		PRJDB10192	SAMD00237433
 Columba janthina nitens			985682	C_janthina_scaffold_01	GCA_014362705.1	GenBank		Scaffold	109998	1083634036	2020-08-22		PRJDB10189	SAMD00237431
 Corvus macrorhynchos	Large-billed crow		36249	C_macrorhynchos_scaffold_01	GCA_014363025.1	GenBank		Scaffold	52265	1018435877	2020-08-22		PRJDB10193	SAMD00237434
@@ -602,6 +670,7 @@ Lycocorax pyrrhopterus obiensis		sex: female, strain: lycPyrILPB	2767082	ASM1470
 Lycocorax pyrrhopterus obiensis		sex: female, strain: lycPyrPB	2767082	ASM1470628v1	GCA_014706285.1	GenBank		Contig	6103580	1097015798	2020-09-23		PRJNA604967	SAMN15881066
 Lycocorax pyrrhopterus obiensis		sex: female, strain: lycPyr6	2767082	ASM1470629v1	GCA_014706295.1	GenBank		Scaffold	7380351	1107771238	2020-09-23		PRJNA604967	SAMN15881065
 Lycocorax pyrrhopterus obiensis		sex: female, strain: lycPyrSN1	2767082	ASM1470639v1	GCA_014706395.1	GenBank		Scaffold	98550	1076351741	2020-09-23		PRJNA604967	SAMN15881069
+Podarcis muralis nigriventris		isolate: SMA-M2-Green, sex: male	1534827	LU_Pmuni_1.1	GCA_014706415.1	GenBank		Chromosome	8570969	1786136138	2020-10-02		PRJNA662234	SAMN16078633
 Passer montanus	Eurasian tree sparrow	isolate: IOZ18808, sex: pooled male and female	9160	ASM1480565v1	GCA_014805655.1	GenBank		Scaffold	1083540	1039949367	2020-09-30		PRJNA417520	SAMN07998528
 Sylvia borin	garden warbler	isolate: bSylBor1, sex: male	73324	bSylBor1.pri	GCA_014839755.1	GenBank		Chromosome	31914676	1045652180	2020-09-30		PRJNA561945	SAMN12618613
 Sylvia borin	garden warbler	isolate: bSylBor1, sex: male	73324	bSylBor1.alt	GCA_014839765.1	GenBank		Contig	4687358	1032649170	2020-09-30		PRJNA561946	SAMN12618613
@@ -611,29 +680,43 @@ Pyrrhura lepida	Pearly parakeet	isolate: JXJJFZ24I5	311896	ASM1516397v1	GCA_0151
 Falco rusticolus	gyrfalcon	isolate: bFalRus1, sex: female	120794	bFalRus1.pri	GCA_015220075.1	GenBank		Chromosome	15323486	1195829278	2020-11-02		PRJNA561988	SAMN12629496
 Falco rusticolus	gyrfalcon	isolate: bFalRus1, sex: female	120794	bFalRus1.alt	GCA_015220155.1	GenBank		Contig	76252	516243243	2020-11-02		PRJNA561989	SAMN12629496
 Pogoniulus pusillus	Red-fronted tinkerbird	isolate: bPogPus1, sex: female	488313	bPogPus1.alt	GCA_015220175.1	GenBank		Scaffold	647387	1101771457	2020-11-02		PRJNA637954	SAMN15098508
+Chelonia mydas	Green sea turtle	isolate: rCheMyd1, sex: male	8469	rCheMyd1.alt	GCA_015220195.1	GenBank		Scaffold	454332	1896142417	2020-11-02		PRJNA561942	SAMN12612360
 Pogoniulus pusillus	Red-fronted tinkerbird	isolate: bPogPus1, sex: female	488313	bPogPus1.pri	GCA_015220805.1	GenBank		Chromosome	16792259	1272338968	2020-11-02		PRJNA637953	SAMN15098508
 Phasianus colchicus	Ring-necked pheasant	breed: Chinese Ring-neck, sex: female	9054	ASM1522760v1	GCA_015227605.1	GenBank		Scaffold	1328716	988730982	2020-11-04		PRJNA380312	SAMN12811331
 Hirundo rustica	Barn swallow	isolate: bHirRus1, sex: female	43150	bHirRus1.pri	GCA_015227805.1	GenBank		Chromosome	2794774	1104070652	2020-11-04		PRJNA636192	SAMN14675488
 Hirundo rustica	Barn swallow	isolate: bHirRus1, sex: female	43150	bHirRus1.alt.v2	GCA_015227815.2	GenBank		Scaffold	992690	936354595	2021-03-02		PRJNA636191	SAMN14675488
 Colaptes auratus	northern flicker	ecotype: New Mexico	51355	Caur_TTU_1.0	GCA_015227895.1	GenBank		Chromosome	826960	1378187165	2020-11-04		PRJNA616131	SAMN14482758
+Chelonia mydas	Green sea turtle	isolate: rCheMyd1, sex: male	8469	rCheMyd1.pri	GCA_015237465.1	GenBank		Chromosome	39415510	2134576752	2020-11-02		PRJNA561941	SAMN12612360
 Lycocorax pyrrhopterus obiensis		sex: female, strain: lycPyrSN2	2767082	lycPyrSN2	GCA_015343275.1	GenBank		Scaffold	97575	1094041302	2020-11-10		PRJNA604967	SAMN15881070
+Laticauda colubrina	yellow-lipped sea krait		8628	latCor_2.0	GCA_015471245.1	GenBank		Scaffold	38278	2038820311	2020-11-04		PRJDB7284	SAMD00134349
 Anas platyrhynchos	mallard	breed: Pekin duck, isolate: Z2, sex: pooled male and female	8839	ZJU1.0	GCA_015476345.1	GenBank		Chromosome	5679408	1188516685	2020-11-15		PRJNA636121	SAMN15588841
 Fringilla coelebs coelebs		isolate: 17-825	1471794	FrCoel	GCA_015532645.1	GenBank		Chromosome	67082	907372602	2020-11-17		PRJNA674347	SAMN16636146
 Motacilla alba alba		isolate: MOTALB_02, sex: male	1094192	Motacilla_alba_V1.0_pri	GCA_015832195.1	GenBank		Chromosome	8515530	1072653902	2020-12-08		PRJNA662706	SAMN16093224
 Motacilla alba alba		isolate: MOTALB_02, sex: male	1094192	Motacilla_alba_V1.0_alt	GCA_015832205.1	GenBank		Contig	251690	797430388	2020-12-08		PRJNA662705	SAMN16093224
 Lamprotornis superbus		isolate: SS15, sex: female	245042	CU_Lasu_v1	GCA_015883425.1	GenBank	From INSDC submitter	Scaffold	150333	1067625052	2020-12-09	15209	PRJNA666448	SAMN16294059
 Dromaius novaehollandiae	emu	isolate: ZJU1.0, sex: female	8790	ZJU1.0	GCA_016128335.1	GenBank		Chromosome	14094718	1247468792	2020-12-15		PRJNA638233	SAMN15183959
+Mauremys reevesii	Reeves's turtle	isolate: NIE-2019, sex: female	260615	ASM1616193v1	GCA_016161935.1	GenBank		Chromosome	33352699	2367590653	2020-12-21		PRJNA663192	SAMN16454374
 Pyrrhura cruentata	Blue-throated parakeet	isolate: YUI5UZIPG5	311901	ASM1654556v1	GCA_016545565.1	GenBank		Scaffold	100025	1125645419	2021-01-06		PRJNA481551	SAMN09683515
+Crotalus tigris	Tiger rattlesnake	ecotype: Arizona, isolate: CLP2741	88082	ASM1654583v1	GCA_016545835.1	GenBank		Contig	2106662	1612002213	2021-01-06		PRJNA558767	SAMN12497667
 Phylloscopus trochilus trochilus		isolate: CP59525, sex: male	209781	LUNI_Phtr_3	GCA_016584745.1	GenBank		Scaffold	81642	1168570690	2021-01-08		PRJNA550489	SAMN13496861
 Pavo muticus	green peafowl	isolate: YNLC101, sex: female	9050	ASM1664771v1	GCA_016647715.1	GenBank		Scaffold	161314	1061110005	2021-01-15		PRJNA644939	SAMN15486085
 Gallus gallus	chicken	isolate: bGalGal1, sex: female	9031	bGalGal1.mat.broiler.GRCg7b	GCA_016699485.1	GenBank		Chromosome	18834961	1053315467	2021-01-19		PRJNA660757	SAMN15960293
 Gallus gallus	chicken	isolate: bGalGal1, sex: female	9031	bGalGal1.pat.whiteleghornlayer.GRCg7w	GCA_016700215.1	GenBank		Chromosome	19675474	953182234	2021-01-13		PRJNA660758	SAMN15960293
+Sceloporus tristichus	plateau fence lizard	isolate: Voucher No. AMNH 153954. CUST_Tissue_1076. Female, sex: female	190870	ASM1680106v1	GCA_016801065.1	GenBank		Chromosome	91782	1815771249	2021-02-02		PRJNA644186	SAMN15450893
+Sceloporus tristichus	plateau fence lizard	isolate: Voucher No. AMNH 154032. CUST_Tissue_1075. Female, sex: female	190870	ASM1680141v1	GCA_016801415.1	GenBank		Chromosome	90701	1792659486	2021-02-02		PRJNA644186	SAMN15450894
 Pogoniulus pusillus pusillus		isolate: AR93139, sex: male	2517103	ASM1685975v1	GCA_016859755.1	GenBank		Scaffold	2301	1198715191	2021-02-10		PRJNA630018	SAMN14819987
 Acanthisitta chloris	rifleman	isolate: bAcaChl1, sex: female	57068	bAcaChl1.alt	GCA_016880875.1	GenBank		Scaffold	1753226	827793803	2021-02-10		PRJNA561955	SAMN16442762
 Acanthisitta chloris	rifleman	isolate: bAcaChl1, sex: female	57068	bAcaChl1.pri	GCA_016904835.1	GenBank		Chromosome	16681756	1077368553	2021-02-17		PRJNA561954	SAMN16442762
+Pogona vitticeps	central bearded dragon	sex: male	103695	pvi1.1	GCA_900067755.1	GenBank		Scaffold	33259	1816116151	2017-02-28		PRJEB5206	SAMEA2300447
 Saxicola maurus maurus			1187130	Saxicola_maurus.2	GCA_900205225.1	GenBank		Scaffold	96283	1020367763	2017-09-28		PRJEB19453	SAMEA94256668
+Lacerta bilineata		sex: female	95620	L. bilineata genome assembly	GCA_900245895.1	GenBank		Contig	368212	1418148937	2018-04-26		PRJEB24178	SAMEA104452608
+Lacerta viridis	green lizard	sex: female	65476	ASM90024590v1	GCA_900245905.1	GenBank		Contig	662519	1439843026	2018-04-26		PRJEB24178	SAMEA104452607
 Anas platyrhynchos	mallard		8839	duckbase.refseq.v4	GCA_900411745.1	GenBank		Chromosome	29908	1087903987	2020-06-28		PRJEB26619	SAMEA4646736
 Aquila chrysaetos chrysaetos			223781	bAquChr1.3	GCA_900496995.3	GenBank		Chromosome	21924221	1203454851	2020-07-31		PRJEB27699	SAMEA994725
+Notechis scutatus	mainland tiger snake		8663	TS10Xv2-PRI	GCA_900518725.1	GenBank		Scaffold	31763	1665525958	2018-09-24		PRJEB27871	SAMEA4800209
+Pseudonaja textilis	eastern brown snake		8673	EBS10Xv2-PRI	GCA_900518735.1	GenBank		Scaffold	50443	1590035073	2018-09-24		PRJEB27869	SAMEA4800208
+Notechis scutatus	mainland tiger snake		8663	TS10Xv2-ALT	GCA_900608555.1	GenBank		Scaffold	37180	1259915822	2020-11-22		PRJEB29452	SAMEA4800209
+Pseudonaja textilis	eastern brown snake		8673	EBS10Xv2-ALT	GCA_900608585.1	GenBank		Scaffold	54646	1234590605	2020-11-22		PRJEB29451	SAMEA4800208
 Streptopelia turtur			177155	bStrTur1.1	GCA_901699155.1	GenBank		Chromosome	3790373	1178928410	2019-06-05		PRJEB32724	SAMEA994735
 Streptopelia turtur			177155	bStrTur1.1 alternate haplotype	GCA_901699165.1	GenBank		Contig	776317	1035214426	2019-06-02		PRJEB32725	SAMEA994735
 Camarhynchus parvulus			87175	STF_HiC	GCA_901933205.1	GenBank		Chromosome	16035651	1051609828	2019-09-06		PRJEB32528	SAMEA5603054
@@ -646,14 +729,20 @@ Erithacus rubecula	European robin		37610	bEriRub2.1 alternate haplotype	GCA_9037
 Erithacus rubecula	European robin		37610	bEriRub2.1	GCA_903797595.1	GenBank		Chromosome	5585877	1086738318	2020-06-27		PRJEB38658	SAMEA4760689
 Gallus gallus	chicken	breed: Red Jungle fowl, inbred line UCD001, isolate: RJF #256, sex: female	9031	Gallus_gallus-5.0	GCF_000002315.4	RefSeq		Chromosome	2894815	1230241782	2015-12-16		PRJNA13342	SAMN02981218
 Gallus gallus	chicken	breed: Red Jungle fowl, inbred line UCD001, isolate: RJF #256, sex: female	9031	GRCg6a	GCF_000002315.6	RefSeq	NCBI Annotation Release 104a	Chromosome	17655422	1065348650	2018-03-27	24397	PRJNA13342	SAMN02981218
+Anolis carolinensis	green anole		28377	AnoCar2.0	GCF_000090745.1	RefSeq	NCBI Annotation Release 102	Chromosome	79867	1799126364	2011-01-10	22292	PRJNA18787	SAMN02981230
 Meleagris gallopavo	turkey	breed: Aviagen turkey brand Nicholas breeding stock, isolate: NT-WF06-2002-E0010, sex: female	9103	Turkey_5.1	GCF_000146605.3	RefSeq	NCBI Annotation Release 103	Chromosome	27076	1115457962	2019-10-21	24368	PRJNA42129	SAMN02981253
+Python bivittatus	Burmese python	sex: female	176946	Python_molurus_bivittatus-5.0.2	GCF_000186305.1	RefSeq	NCBI Annotation Release 102	Scaffold	10658	1435034535	2013-09-15	22427	PRJNA61243	SAMN02981298
+Pelodiscus sinensis	Chinese soft-shelled turtle	isolate: Daiwa-1, sex: female	13735	PelSin_1.0	GCF_000230535.1	RefSeq	NCBI Annotation Release 102	Scaffold	21993	2202466388	2012-07-24	24856	PRJNA68233	SAMN02981371
+Chrysemys picta bellii	western painted turtle	isolate: RCT428, sex: female	8478	Chrysemys_picta_bellii-3.0.3	GCF_000241765.3	RefSeq	NCBI Annotation Release 102	Chromosome	21349	2365749696	2014-03-31	25751	PRJNA78657	SAMN02713681
 Ficedula albicollis	Collared flycatcher	isolate: OC2, sex: male	59894	FicAlb1.5	GCF_000247815.1	RefSeq	NCBI Annotation Release 101	Chromosome	410964	1118326800	2013-06-27	16880	PRJNA75089	SAMN02981387
 Geospiza fortis	medium ground-finch	sex: female	48883	GeoFor_1.0	GCF_000277835.1	RefSeq	NCBI Annotation Release 102	Scaffold	30521	1065292181	2012-07-25	16009	PRJNA156703	SAMN00839579
+Alligator mississippiensis	American alligator	isolate: KSC_2009_1	8496	ASM28112v4	GCF_000281125.3	RefSeq	NCBI Annotation Release 102	Scaffold	16665	2161713562	2016-03-28	25279	PRJNA159843	SAMN02981418
 Pseudopodoces humilis	Tibetan ground-tit		181119	PseHum1.0	GCF_000331425.1	RefSeq	NCBI Annotation Release 101	Scaffold	165265	1042980823	2013-01-11	16415	PRJNA175930	SAMN02981490
 Columba livia	rock pigeon	breed: Danish Tumbler, sex: male	8932	Cliv_1.0	GCF_000337935.1	RefSeq	NCBI Annotation Release 102	Scaffold	26580	1107971856	2013-02-11	26677	PRJNA167554	SAMN02981415
 Falco peregrinus	peregrine falcon	sex: male	8954	F_peregrinus_v1.0	GCF_000337955.1	RefSeq	NCBI Annotation Release 102	Scaffold	28645	1171955363	2013-02-05	18971	PRJNA159791	SAMN02981425
 Falco cherrug	Saker falcon	sex: male	345164	F_cherrug_v1.0	GCF_000337975.1	RefSeq	NCBI Annotation Release 102	Scaffold	31327	1174811715	2013-02-05	18738	PRJNA168071	SAMN02981426
 Zonotrichia albicollis	white-throated sparrow	isolate: Tan morph, sex: male	44394	Zonotrichia_albicollis-1.0.1	GCF_000385455.1	RefSeq	NCBI Annotation Release 102	Scaffold	112748	1052600561	2013-04-30	17364	PRJNA197293	SAMN02981528
+Alligator sinensis	Chinese alligator	sex: male	38654	ASM45574v1	GCF_000455745.1	RefSeq	NCBI Annotation Release 102	Scaffold	23412	2270550999	2013-08-29	24654	PRJNA215016	SAMN02981559
 Egretta garzetta	little egret	isolate: BGI_Z169, sex: male	188379	ASM68718v1	GCF_000687185.1	RefSeq	NCBI Annotation Release 101	Scaffold	29019	1206484573	2014-05-09	15435	PRJNA232959	SAMN02596466
 Phaethon lepturus	White-tailed tropicbird	isolate: BGI_N335, sex: female	97097	ASM68728v1	GCF_000687285.1	RefSeq	NCBI Annotation Release 100	Scaffold	22941	1152958507	2014-05-08	15387	PRJNA212902	SAMN02339888
 Pelecanus crispus	Dalmatian pelican	isolate: BGI_N334, sex: male	36300	ASM68737v1	GCF_000687375.1	RefSeq	NCBI Annotation Release 100	Scaffold	21679	1160924693	2014-05-09	15587	PRJNA212901	SAMN02339887
@@ -691,12 +780,18 @@ Corvus cornix cornix		isolate: S_Up_H32, sex: male	932674	ASM73873v5	GCF_0007387
 Chaetura pelagica	chimney swift	isolate: M959, sex: female	8897	ChaPel_1.0	GCF_000747805.1	RefSeq	NCBI Annotation Release 100	Scaffold	30757	1119188094	2014-09-04	14275	PRJNA210808	SAMN03018471
 Anser cygnoides domesticus		breed: Zhedong, sex: male	381198	AnsCyg_PRJNA183603_v1.0	GCF_000971095.1	RefSeq	NCBI Annotation Release 100	Scaffold	27608	1119134887	2015-04-08	20704	PRJNA183603	SAMN01830643
 Apteryx mantelli mantelli			202946	AptMant0	GCF_001039765.1	RefSeq	NCBI Annotation Release 100	Contig	17252	1523972539	2015-06-21	18589	PRJEB6383	SAMEA2560515
+Thamnophis sirtalis		isolate: EDBJR-23777, sex: female	35019	Thamnophis_sirtalis-6.0	GCF_001077635.1	RefSeq	NCBI Annotation Release 100	Scaffold	10447	1424897867	2015-06-26	20076	PRJNA189551	SAMN03759628
+Pantherophis guttatus		isolate: EG266, sex: male	94885	UNIGE_PanGut_3.0	GCF_001185365.1	RefSeq	NCBI Annotation Release 100	Scaffold	37981	1706961544	2020-04-13	25732	PRJNA268069	SAMN12106767
 Calidris pugnax	ruff	isolate: Ruff	198806	ASM143184v1	GCF_001431845.1	RefSeq	NCBI Annotation Release 100	Scaffold	109237	1229094286	2015-11-04	18471	PRJNA281024	SAMN03491621
 Sturnus vulgaris	Common starling	isolate: 715, sex: male	9172	Sturnus_vulgaris-1.0	GCF_001447265.1	RefSeq	NCBI Annotation Release 100	Scaffold	151865	1036755994	2015-11-20	16715	PRJNA293892	SAMN04029017
+Gekko japonicus		isolate: JY-2015, sex: male	146911	Gekko_japonicus_V1.1	GCF_001447785.1	RefSeq	NCBI Annotation Release 100	Scaffold	29575	2490257917	2015-11-25	20954	PRJNA298277	SAMN04157958
 Parus major	Great Tit	isolate: Abel, sex: male	9157	Parus_major1.1	GCF_001522545.3	RefSeq	NCBI Annotation Release 102	Chromosome	148693	1020293992	2019-01-15	19061	PRJNA208335	SAMN03083587
+Protobothrops mucrosquamatus	Chinese habu	isolate: PMUCROS	103944	P.Mucros_1.0	GCF_001527695.2	RefSeq	From INSDC submitter	Scaffold	21948	1673859098	2016-01-22	22367	PRJDB4386	SAMD00043515
 Coturnix japonica	Japanese quail	isolate: 7356, sex: male	93934	Coturnix japonica 2.1	GCF_001577835.2	RefSeq	NCBI Annotation Release 101	Chromosome	511217	927640260	2016-03-01	20956	PRJNA292031	SAMN03989050
 Lepidothrix coronata	blue-crowned manakin	isolate: B3197, sex: male	321398	Lepidothrix_coronata-1.0	GCF_001604755.1	RefSeq	NCBI Annotation Release 100	Scaffold	141849	1079577334	2016-03-31	18817	PRJNA300662	SAMN04274560
 Manacus vitellinus	golden-collared manakin	isolate: BGI_N305, sex: female	328815	ASM171598v3	GCF_001715985.3	RefSeq	NCBI Annotation Release 103	Scaffold	290580	1072328541	2019-07-03	16636	PRJNA335611	SAMN02299332
+Crocodylus porosus	Australian saltwater crocodile	isolate: Cpor-Errol, sex: male	8502	CroPor_comp1	GCF_001723895.1	RefSeq	NCBI Annotation Release 100	Scaffold	34073	2049519336	2016-09-13	19551	PRJNA163131	SAMN03102602
+Gavialis gangeticus	Gharial	isolate: Ggan-Ray, sex: female	94835	GavGan_comp1	GCF_001723915.1	RefSeq	NCBI Annotation Release 100	Scaffold	14799	2640775248	2016-09-13	18887	PRJNA172383	SAMN03102901
 Numida meleagris	helmeted guineafowl	breed: g44 Domestic line, isolate: 19003, sex: male	8996	NumMel1.0	GCF_002078875.1	RefSeq	NCBI Annotation Release 100	Chromosome	234926	1043247365	2017-06-01	21846	PRJNA352321	SAMN05969731
 Cyanistes caeruleus	blue tit	isolate: BT333_1, sex: male	156563	cyaCae2	GCF_002901205.1	RefSeq	NCBI Annotation Release 100	Scaffold	105778	1186980630	2018-01-26	24271	PRJNA284903	SAMN03734925
 Empidonax traillii	willow flycatcher	ecotype: Southwest subspecies, isolate: 1590-97213	164674	ASM303162v1	GCF_003031625.1	RefSeq	NCBI Annotation Release 100	Scaffold	86564	1123485537	2018-04-03	19316	PRJNA437496	SAMN08663748
@@ -704,27 +799,41 @@ Athene cunicularia	burrowing owl	isolate: RWA, sex: male	194338	athCun1	GCF_0032
 Nothoprocta perdicaria		isolate: Ctin4, sex: male	30464	notPer1	GCF_003342845.1	RefSeq	NCBI Annotation Release 100	Scaffold	95599	965904370	2018-07-26	18157	PRJNA433110	SAMN08476459
 Dromaius novaehollandiae	emu	isolate: 6597, sex: male	8790	droNov1	GCF_003342905.1	RefSeq	NCBI Annotation Release 100	Scaffold	172131	1192237364	2018-07-26	18874	PRJNA433110	SAMN08476457
 Apteryx rowi	Okarito brown kiwi	isolate: R43461, sex: male	308060	aptRow1	GCF_003343035.1	RefSeq	NCBI Annotation Release 100	Scaffold	129376	1228902913	2018-07-26	18218	PRJNA433110	SAMN08476454
+Chelonoidis abingdonii	Abingdon island giant tortoise	isolate: Lonesome George, sex: male	106734	ASM359739v1	GCF_003597395.1	RefSeq	NCBI Annotation Release 100	Scaffold	73186	2300739315	2018-09-25	25634	PRJNA416050	SAMN07840320
 Pipra filicauda	Wire-tailed manakin	isolate: LSUMZ 115617, sex: male	649802	ASM394559v2	GCF_003945595.2	RefSeq	NCBI Annotation Release 101	Scaffold	1677444	1081944082	2020-12-01	20753	PRJNA445296	SAMN08774045
 Corapipo altera	White-ruffed manakin	isolate: COAL_440, sex: female	415028	ASM394572v1	GCF_003945725.1	RefSeq	NCBI Annotation Release 100	Scaffold	262501	1095745976	2018-12-14	20616	PRJNA505529	SAMN10424454
 Calypte anna	Anna's hummingbird	isolate: BGI_N300, sex: female	9244	bCalAnn1_v1.p	GCF_003957555.1	RefSeq	NCBI Annotation Release 101	Chromosome	14522327	1059687259	2019-05-16	16230	PRJNA489139	SAMN02265252
 Neopelma chrysocephalum	saffron-crested tyrant-manakin	sex: female	114329	ASM398488v2	GCF_003984885.1	RefSeq	NCBI Annotation Release 100	Scaffold	237029	1142796179	2018-12-28	21343	PRJNA445439	SAMN08784363
 Strigops habroptila	Kakapo	isolate: Jane, sex: female	2489341	bStrHab1.2.pri	GCF_004027225.2	RefSeq	NCBI Annotation Release 101	Chromosome	9454087	1148597545	2020-03-04	19379	PRJNA489135	SAMN09948751
 Phasianus colchicus	Ring-necked pheasant	isolate: SZU-A5-319, sex: male	9054	ASM414374v1	GCF_004143745.1	RefSeq	NCBI Annotation Release 100	Scaffold	197843	1017507340	2019-02-06	19413	PRJNA449162	SAMN08888240
+Podarcis muralis	Common wall lizard	ecotype: yellow, sex: male	64176	PodMur_1.0	GCF_004329235.1	RefSeq	NCBI Annotation Release 100	Chromosome	714612	1511002858	2019-03-07	26708	PRJNA515813	SAMN10820182
 Lonchura striata domestica	Bengalese finch	isolate: Mets1, sex: male	299123	lonStrDom2	GCF_005870125.1	RefSeq	NCBI Annotation Release 101	Chromosome	100423	1060252993	2019-06-05	18674	PRJNA369279	SAMN11521339
 Serinus canaria	Common canary	ecotype: domestic yellow, isolate: sc_yellow_7_cibi, sex: male	9135	cibio_Scana_2019	GCF_007115625.1	RefSeq	NCBI Annotation Release 102	Scaffold	90869	1071638426	2019-07-18	17393	PRJNA548289	SAMN12017177
+Gopherus evgoodei	Goodes thornscrub tortoise	ecotype: Sinaloan lineage, sex: male	1825980	rGopEvg1_v1.p	GCF_007399415.2	RefSeq	NCBI Annotation Release 100	Chromosome	13026736	2298547364	2019-07-25	26465	PRJNA489103	SAMN03496275
 Taeniopygia guttata	zebra finch	isolate: Blue55, sex: female	59729	bTaeGut2.pat.W.v2	GCF_008822105.2	RefSeq	NCBI Annotation Release 105	Chromosome	4378277	1068971253	2020-02-12	21543	PRJNA555095	SAMN09946140
 Corvus moneduloides	New Caledonian crow	isolate: bCorMon1, sex: female	1196302	bCorMon1.pri	GCF_009650955.1	RefSeq	NCBI Annotation Release 100	Chromosome	11524098	1112734094	2019-11-14	20781	PRJNA560983	SAMN12368441
+Dermochelys coriacea	leatherback sea turtle	isolate: rDerCor1, sex: male	27794	rDerCor1.pri.v3	GCF_009764565.2	RefSeq	NCBI Annotation Release 100	Chromosome	7029801	2164762090	2020-12-09	22935	PRJNA561993	SAMN12629498
+Thamnophis elegans	Western terrestrial garter snake	isolate: rThaEle1, sex: female	35005	rThaEle1.pri	GCF_009769535.1	RefSeq	NCBI Annotation Release 100	Chromosome	4620601	1672190305	2019-12-23	21688	PRJNA561996	SAMN12629499
+Lacerta agilis	Sand lizard	isolate: rLacAgi1, sex: female	80427	rLacAgi1.pri	GCF_009819535.1	RefSeq	NCBI Annotation Release 100	Chromosome	6613248	1391387079	2019-12-31	23190	PRJNA562018	SAMN12629509
 Aythya fuligula	tufted duck	isolate: bAytFul2, sex: female	219594	bAytFul2.pri	GCF_009819795.1	RefSeq	NCBI Annotation Release 100	Chromosome	17816505	1126988109	2019-12-31	17219	PRJNA561952	SAMN12621346
 Catharus ustulatus	Swainson's thrush	isolate: bCatUst1, sex: female	91951	bCatUst1.pri	GCF_009819885.1	RefSeq	NCBI Annotation Release 100	Chromosome	4908935	1131616430	2019-12-31	19638	PRJNA561933	SAMN12618602
 Chiroxiphia lanceolata	lance-tailed manakin	isolate: bChiLan1, sex: female	296741	bChiLan1.pri	GCF_009829145.1	RefSeq	NCBI Annotation Release 100	Chromosome	18496167	1089631598	2020-01-03	20299	PRJNA561943	SAMN12620979
 Oxyura jamaicensis	ruddy duck	breed: ruddy duck, isolate: SHBP4307, sex: female	8884	BPBGC_Ojam_1.0	GCF_011077185.1	RefSeq	NCBI Annotation Release 100	Chromosome	128592	1147585764	2020-03-10	23874	PRJNA588796	SAMN13257492
+Zootoca vivipara	common lizard	isolate: ELT05324, sex: female	8524	UG_Zviv_1	GCF_011800845.1	RefSeq	NCBI Annotation Release 100	Chromosome	219893	1464283545	2020-04-01	22831	PRJNA610958	SAMN14329711
 Melopsittacus undulatus	budgerigar	isolate: bMelUnd1, sex: female	13146	bMelUnd1.mat.Z	GCF_012275295.1	RefSeq	NCBI Annotation Release 104	Chromosome	16636420	1171617451	2020-04-13	18613	PRJNA612327	SAMN12623090
 Molothrus ater		breed: brown headed cowbird, isolate: BHLD 08-10-18, sex: female	84834	BPBGC_Mater_1.0	GCF_012460135.1	RefSeq	NCBI Annotation Release 100	Chromosome	13273966	1087312585	2020-04-20	18122	PRJNA606972	SAMN14074414
+Trachemys scripta elegans		isolate: TJP31775	31138	CAS_Tse_1.0	GCF_013100865.1	RefSeq	NCBI Annotation Release 100	Chromosome	204575	2126182493	2020-05-15	22456	PRJNA552319	SAMN12189062
 Cygnus atratus	black swan	ecotype: Queensland, Australia, isolate: AKBS03, sex: male	8868	Cygnus_atratus_primary_v1.0	GCF_013377495.1	RefSeq	NCBI Annotation Release 100	Contig	12814145	1122262644	2020-06-30	18682	PRJNA640810	SAMN15332785
 Passer montanus	Eurasian tree sparrow	isolate: IOZ18808, sex: pooled male and female	9160	ASM1480565v1	GCF_014805655.1	RefSeq	NCBI Annotation Release 100	Scaffold	1083540	1039949367	2020-09-30	18585	PRJNA417520	SAMN07998528
 Falco rusticolus	gyrfalcon	isolate: bFalRus1, sex: female	120794	bFalRus1.pri	GCF_015220075.1	RefSeq	NCBI Annotation Release 100	Chromosome	15323486	1195829278	2020-11-03	19484	PRJNA561988	SAMN12629496
+Chelonia mydas	Green sea turtle	isolate: rCheMyd1, sex: male	8469	rCheMyd1.pri	GCF_015237465.1	RefSeq	NCBI Annotation Release 102	Chromosome	39415510	2134576752	2020-11-05	24489	PRJNA561941	SAMN12612360
 Anas platyrhynchos	mallard	breed: Pekin duck, isolate: Z2, sex: pooled male and female	8839	ZJU1.0	GCF_015476345.1	RefSeq	NCBI Annotation Release 104	Chromosome	5679408	1188516685	2020-11-23	25093	PRJNA636121	SAMN15588841
 Motacilla alba alba		isolate: MOTALB_02, sex: male	1094192	Motacilla_alba_V1.0_pri	GCF_015832195.1	RefSeq	NCBI Annotation Release 100	Chromosome	8515530	1072653902	2020-12-08	18047	PRJNA662706	SAMN16093224
+Mauremys reevesii	Reeves's turtle	isolate: NIE-2019, sex: female	260615	ASM1616193v1	GCF_016161935.1	RefSeq	NCBI Annotation Release 100	Chromosome	33352699	2367590653	2020-12-22	41089	PRJNA663192	SAMN16454374
+Crotalus tigris	Tiger rattlesnake	ecotype: Arizona, isolate: CLP2741	88082	ASM1654583v1	GCF_016545835.1	RefSeq	NCBI Annotation Release 100	Contig	2106662	1612002213	2021-01-06	23820	PRJNA558767	SAMN12497667
+Pogona vitticeps	central bearded dragon	sex: male	103695	pvi1.1	GCF_900067755.1	RefSeq	NCBI Annotation Release 100	Scaffold	35501	1716675060	2017-02-28	21994	PRJEB5206	SAMEA2300447
 Aquila chrysaetos chrysaetos			223781	bAquChr1.2	GCF_900496995.1	RefSeq	NCBI Annotation Release 100	Chromosome	21924221	1203454851	2019-07-08	20678	PRJEB27699	SAMEA994725
+Notechis scutatus	mainland tiger snake		8663	TS10Xv2-PRI	GCF_900518725.1	RefSeq	NCBI Annotation Release 100	Scaffold	31763	1665525958	2018-09-24	23178	PRJEB27871	SAMEA4800209
+Pseudonaja textilis	eastern brown snake		8673	EBS10Xv2-PRI	GCF_900518735.1	RefSeq	NCBI Annotation Release 100	Scaffold	50443	1590035073	2018-09-24	22548	PRJEB27869	SAMEA4800208
 Camarhynchus parvulus			87175	STF_HiC	GCF_901933205.1	RefSeq	NCBI Annotation Release 100	Chromosome	16035651	1051609828	2019-09-06	16830	PRJEB32528	SAMEA5603054
 Tyto alba alba			507980	genome_assembly_l500	GCF_902150015.1	RefSeq	NCBI Annotation Release 101	Scaffold	141398	1219191878	2020-02-10	19354	PRJEB33158	SAMEA5733888
