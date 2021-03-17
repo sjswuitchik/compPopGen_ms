@@ -15,3 +15,11 @@ do
   sort -k1,1 -k2,2n $file > $file.sorted
   ./brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
 done
+
+mkdir -p $1/unsortedBG/
+mv $1/*.dedup.sorted.bam.bg $1/unsortedBG
+
+for file in $1/*.bg;
+do
+  ./bedGraphToBigWig $file.bg $1.chrom.sizes $file.bw
+done
