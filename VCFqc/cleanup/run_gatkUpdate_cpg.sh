@@ -12,7 +12,7 @@
 
 source activate gatk
 
-bgzip -dc $1_combined.vcf.gz | sed -e 's/\<nan\>/NaN/g' | bgzip $1_combined.vcf.gz 
+bgzip -dc $1_combined.vcf.gz | sed -e 's/\<nan\>/NaN/g' | bgzip > $1_combined.vcf.gz 
 
 bcftools index -t $1_combined.vcf.gz
 
