@@ -8,7 +8,7 @@
 #SBATCH --mem=10000
 
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
-# sbatch run_bedgSort.sh spp_name
+# sbatch run_bedg2bw.sh spp_name
 
 for file in $1/*.bg;
 do
