@@ -29,3 +29,15 @@ However, because of historical quirks in how we tracked references, the BioProje
 Any BioProject that only occurs once is assumed to have the correct publication information.
 
 For BioProjects that are linked to more than one publication, initial check is to open the full text of the linked publication and search for the BioProject id. If it is found, keep it. If it is not found, check to see if a data availablity statement is present. If another BioProject is listed, then delete the pub/bioProject link. If no BioProject is listed, manually investigate.
+
+### Oddball specices
+
+A few species don't fit into the general rules above, for various reasons. These are detailed below.
+
+The cod genus (Gadus species) are excluded, as these are the focus of a separate project using the same pipelines and any cod data will be synced from that project.
+
+Cyanistes cyanus and Parkesia noveboracensis were sequenced for this project and do not have current BioProject IDs, and so were removed.
+
+### Sample Metadata
+
+Finally, we'll take the list of BioProjects and go back to our SRA data to make more detailed metadata files.

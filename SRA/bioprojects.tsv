@@ -53,6 +53,17 @@ Gadus morhua	PRJEB15516	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gadus morhua	PRJEB20524	32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gadus morhua	PRJEB29231	180	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gadus morhua	PRJNA301002	18	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Gasterosteus aculeatus	PRJDB7611	32	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJEB15181	15	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJEB37366	13	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJEB5198	66	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA247503	206	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA374462	58	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA437980	13	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA485717	15	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA530695	23	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA681039	94	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
+Gasterosteus aculeatus	PRJNA693136	16	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
 Gasterosteus nipponicus	PRJNA437980	15	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Haplochromis burtoni	PRJNA485198	132	Hburtoni	n	scripts	n	n/a	1	Oniloticus	NA	https://www.ncbi.nlm.nih.gov/pubmed/25186727	PRJNA60363
 Hippocampus comes	PRJNA612146	19	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -135,7 +146,6 @@ Ficedula hyperythra	NA	NA	Fhyperythra	y	scripts	y	scripts	1	Falbicollis	NA	NA	PR
 Ficedula hypoleuca	NA	NA	Fhypoleuca	y	scripts	n	n/a	77	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
 Ficedula parva	NA	NA	Fparva	y	scripts	n	n/a	34	no data in spreadsheets that I could find?	NA	NA	NA
 Ficedula speculigera	NA	NA	Fspeculigera	y	scripts	n	n/a	20	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
-Gasterosteus aculeatus	NA	NA	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
 Gambusia affinis	NA	NA	Gaffinis	y	scripts	n	n/a	1	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/	SRR5601729
 Gadus chalcogrammus	NA	NA	Gchalcogrammus	y	scripts	n	n/a	1	Gmorhua	NA	https://www.biorxiv.org/content/early/2015/12/20/034926	PRJNA301002
 Gadus macrocephalus	NA	NA	Gmacrocephalus	y	scripts	n	n/a	1	Gmorhua	NA	https://www.biorxiv.org/content/early/2015/12/20/034926	PRJNA301002

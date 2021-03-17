@@ -1,0 +1,105 @@
+Organism	BioProject	BioSample	SampleName	Sex	Isolate	Ecotype	Strain
+Clupea_harengus	PRJNA356817	SAMN06127792	ABPO4	not determined	not applicable	not applicable	ABPO41
+Clupea_harengus	PRJNA356817	SAMN06127786	AAPO6	not determined	not applicable	not applicable	AAPO61
+Clupea_harengus	PRJNA356817	SAMN06127785	AAPO5	not determined	not applicable	not applicable	AAPO51
+Clupea_harengus	PRJNA356817	SAMN06127781	AAPO1	not determined	not applicable	not applicable	AAPO11
+Clupea_harengus	PRJNA356817	SAMN06127783	AAPO3	not determined	not applicable	not applicable	AAPO31
+Clupea_harengus	PRJNA356817	SAMN06127793	ABPO5	not determined	not applicable	not applicable	ABPO51
+Clupea_harengus	PRJNA356817	SAMN06127789	ABPO1	not determined	not applicable	not applicable	ABPO11
+Clupea_harengus	PRJNA356817	SAMN06127787	ABPM	male	not applicable	not applicable	ABPM1
+Clupea_harengus	PRJNA356817	SAMN06127790	ABPO2	not determined	not applicable	not applicable	ABPO21
+Clupea_harengus	PRJNA356817	SAMN06127794	ABPO6	not determined	not applicable	not applicable	ABPO61
+Clupea_harengus	PRJNA356817	SAMN06127791	ABPO3	not determined	not applicable	not applicable	ABPO31
+Clupea_harengus	PRJNA356817	SAMN06127784	AAPO4	not determined	not applicable	not applicable	AAPO41
+Clupea_harengus	PRJNA356817	SAMN06127779	AAPM	male	not applicable	not applicable	AAPM1
+Clupea_harengus	PRJNA356817	SAMN06127782	AAPO2	not determined	not applicable	not applicable	AAPO21
+Clupea_harengus	PRJNA356817	SAMN06127780	AAPF	female	not applicable	not applicable	AAPF1
+Clupea_harengus	PRJNA356817	SAMN07292367	APO001	not collected	NA	Atlantic3	NA
+Clupea_harengus	PRJNA356817	SAMN07292368	APO002	not collected	NA	Atlantic4	NA
+Clupea_harengus	PRJNA356817	SAMN07292365	APM001	male	NA	Atlantic1	NA
+Clupea_harengus	PRJNA356817	SAMN07292366	APF001	female	NA	Atlantic2	NA
+Clupea_harengus	PRJNA356817	SAMN07292371	APO005	not collected	NA	Atlantic7	NA
+Clupea_harengus	PRJNA356817	SAMN07292372	APO006	not collected	NA	Atlantic8	NA
+Clupea_harengus	PRJNA356817	SAMN07292369	APO003	not collected	NA	Atlantic5	NA
+Clupea_harengus	PRJNA356817	SAMN07292370	APO004	not collected	NA	Atlantic6	NA
+Clupea_harengus	PRJNA356817	SAMN07292375	BPO001	not collected	NA	Baltic3	NA
+Clupea_harengus	PRJNA356817	SAMN07292376	BPO002	not collected	NA	Baltic4	NA
+Clupea_harengus	PRJNA356817	SAMN06127788	ABPF	female	not applicable	not applicable	ABPF1
+Clupea_harengus	PRJNA642736	SAMN15398084	HGS20_CapeWrath	not applicable	NA	Cape Wrath	NA
+Clupea_harengus	PRJNA642736	SAMN15398089	HGS22_CapeWrath	not applicable	NA	Cape Wrath	NA
+Clupea_harengus	PRJNA642736	SAMN15398088	HGS16_Orkney	not applicable	NA	North Sea:Orkney	NA
+Clupea_harengus	PRJNA642736	SAMN15398087	HGS18_CelticSea	not applicable	NA	Celtic Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398086	HGS21_Hebrides	not applicable	NA	North Sea:Hebrides	NA
+Clupea_harengus	PRJNA642736	SAMN15398085	HGS27_Gloppen	not applicable	NA	Norway:Gloppen	NA
+Clupea_harengus	PRJNA642736	SAMN15398083	HGS15_NSSH	not applicable	NA	Norway	NA
+Clupea_harengus	PRJNA642736	SAMN15398082	HGS9_Greenland	not applicable	NA	Greenland	NA
+Clupea_harengus	PRJNA642736	SAMN15398080	HGS19_TeelinBay	not applicable	NA	Teelin Bay	NA
+Clupea_harengus	PRJNA642736	SAMN15398079	HGS17_IsleOfMan	not applicable	NA	Irish Sea:Isle Of Man	NA
+Clupea_harengus	PRJNA642736	SAMN15398078	HGS23_Clyde	not applicable	NA	Clyde	NA
+Clupea_harengus	PRJNA642736	SAMN15398077	HGS26_Lusterfjorden	not applicable	NA	Norway:Lusterfjorden	NA
+Clupea_harengus	PRJNA642736	SAMN15398076	HGS25_Lindas	not applicable	NA	Norway:Lindas	NA
+Clupea_harengus	PRJNA642736	SAMN15398075	HGS8_KattegatNorth	not applicable	NA	Kattegat	NA
+Clupea_harengus	PRJNA642736	SAMN15398074	LandvikS32	not applicable	NA	Norway:Landvik	NA
+Clupea_harengus	PRJNA642736	SAMN15398073	LandvikS17	not applicable	NA	Norway:Landvik	NA
+Clupea_harengus	PRJNA642736	SAMN15398072	HGS24_Landvik	not applicable	NA	Norway:Landvik	NA
+Clupea_harengus	PRJNA642736	SAMN15398071	HGS11_RingkobingFjord	not applicable	NA	Denmark:Ringkobing Fjord	NA
+Clupea_harengus	PRJNA642736	SAMN15398070	HGS5_Schlei	not applicable	NA	Baltic Sea:Schlei	NA
+Clupea_harengus	PRJNA642736	SAMN15398069	HGS6_Schlei	not applicable	NA	Baltic Sea:Schlei	NA
+Clupea_harengus	PRJNA642736	SAMN15398067	TysklandS33	not applicable	NA	Baltic Sea:Ariadnegrund	NA
+Clupea_harengus	PRJNA642736	SAMN15398065	HGS72_Rugen	not applicable	NA	Baltic Sea: Rugen	NA
+Clupea_harengus	PRJNA642736	SAMN15398064	HGS71_Rugen	not applicable	NA	Baltic Sea: Rugen	NA
+Clupea_harengus	PRJNA642736	SAMN15398063	HGS4_Riga	not applicable	NA	Baltic Sea: Riga	NA
+Clupea_harengus	PRJNA642736	SAMN15398062	HGS3_Riga	not applicable	NA	Baltic Sea: Riga	NA
+Clupea_harengus	PRJNA642736	SAMN15398061	HGS2_Riga	not applicable	NA	Baltic Sea: Riga	NA
+Clupea_harengus	PRJNA642736	SAMN15398060	HGS1_Riga	not applicable	NA	Baltic Sea: Riga	NA
+Clupea_harengus	PRJNA642736	SAMN15398059	Fehmarn44	not determined	NA	Baltic Sea: Fehmarn	NA
+Clupea_harengus	PRJNA642736	SAMN15398058	Fehmarn6	not determined	NA	Baltic Sea: Fehmarn	NA
+Clupea_harengus	PRJNA642736	SAMN15398057	Fehmarn3	not determined	NA	Baltic Sea: Fehmarn	NA
+Clupea_harengus	PRJNA642736	SAMN15398056	Gavle100	not determined	NA	Baltic Sea: Gavle	NA
+Clupea_harengus	PRJNA642736	SAMN15398053	AAL3_CelticSea	not determined	NA	Celtic Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398052	AAL2_CelticSea	not determined	NA	Celtic Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398051	AAL1_CelticSea	not determined	NA	Celtic Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398050	AK3_Downs	not determined	NA	English channel:Downs	NA
+Clupea_harengus	PRJNA642736	SAMN15398049	AK2_Downs	not determined	NA	English channel:Downs	NA
+Clupea_harengus	PRJNA642736	SAMN15398048	AK1_Downs	not determined	NA	English channel:Downs	NA
+Clupea_harengus	PRJNA642736	SAMN15398047	Z14_IsleofMan	not determined	NA	Irish Sea:Isle Of Man	NA
+Clupea_harengus	PRJNA642736	SAMN15398046	Z12_IsleofMan	not determined	NA	Irish Sea:Isle Of Man	NA
+Clupea_harengus	PRJNA642736	SAMN15398045	Z4_IsleofMan	not determined	NA	Irish Sea:Isle Of Man	NA
+Clupea_harengus	PRJNA642736	SAMN15398044	NorthSea34	not determined	NA	North Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398043	NorthSea19	not determined	NA	North Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398042	NorthSea13	not determined	NA	North Sea	NA
+Clupea_harengus	PRJNA642736	SAMN15398041	NSSH36	not determined	NA	Norway	NA
+Clupea_harengus	PRJNA642736	SAMN15398040	NSSH34	not determined	NA	Norway	NA
+Clupea_harengus	PRJNA642736	SAMN15398039	NSSH33	not determined	NA	Norway	NA
+Clupea_harengus	PRJNA642736	SAMN15398055	Gavle98	not determined	NA	Baltic Sea: Gavle	NA
+Clupea_harengus	PRJNA642736	SAMN15398068	HGS12_BornholmBasin	not applicable	NA	Baltic Sea:Bornholm	NA
+Clupea_harengus	PRJNA642736	SAMN15398081	HGS10_Downs	not applicable	NA	English channel:Downs	NA
+Clupea_harengus	PRJNA642736	SAMN15398066	TysklandS18	not applicable	NA	Baltic Sea:Ariadnegrund	NA
+Clupea_harengus	PRJNA642736	SAMN15398054	Gavle54	not determined	NA	Baltic Sea: Gavle	NA
+Clupea_harengus	PRJNA338612	SAMN05589101	NsSB	missing	Individual CA-6B	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589100	NsSA	missing	Individual CA-6A	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589099	NsFB	missing	Individual CA-5B	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589098	NsFA	missing	Individual CA-5A	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589096	InBA	missing	Individual CA-4A	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589094	GeBA	missing	Individual CA-3A	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589093	FBB	missing	Individual CA-2B	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589090	BoBA	missing	Individual CA-1A	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589089	NS3	missing	Individual NS3	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589088	NS2	missing	Individual NS2	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589085	BAH2	missing	Individual BAH2	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589084	BAH1	missing	Individual BAH1	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589083	BF3	missing	Individual BF3	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589082	BF2	missing	Individual BF2	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589081	BF1	missing	Individual BF1	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589080	NsS	missing	Population CA-6p	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589079	NsF	missing	Population CA-5p	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589078	InB	missing	Population CA-4p	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589077	GeB	missing	Population CA-3p	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589076	FB	missing	Population CA-2p	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589075	BoB	missing	Population CA-1p	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589091	BoBB	missing	Individual CA-1B	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589087	NS1	missing	Individual NS1	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589092	FBA	missing	Individual CA-2A	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589086	BAH3	missing	Individual BAH3	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589095	GeBB	missing	Individual CA-3B	NA	NA
+Clupea_harengus	PRJNA338612	SAMN05589097	InBB	missing	Individual CA-4B	NA	NA
