@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J bedgSort
+#SBATCH -J bedg2bw
 #SBATCH -e logs/slurm-%j.err
 #SBATCH -o logs/slurm-%j.out
 #SBATCH -p shared
