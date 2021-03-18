@@ -33,8 +33,9 @@ get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
   
 ```
 
+## METADATA CODE BELOW ##
 
-#### Amphilophus citrinellus
+### Amphilophus citrinellus
 
 Sample metadata downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.bcc2fqz91
 
@@ -122,14 +123,6 @@ Will need to think a bit about whether this is usable, but the metadata is here 
 sp="Astatotilapia_calliptera"
 bp="PRJEB1254"
 
-split_biosample <- function(text) {
-  seq2 <- Vectorize(seq.default, vectorize.args = c("from", "to"))
-  split_input <- as_tibble(str_split(text, "-", simplify = TRUE)) %>% 
-    mutate(V2 = ifelse(V2 == "", V1, V2)) %>%
-    mutate(output = sapply(seq2(from=str_remove(V1, "SAMEA"), to=str_remove(V2, "SAMEA"), by=1), paste, sep="", collapse=",")) %>%
-    pull(output)
-}
-  
 sra<-get_sra(bp, opt_cols = c("Organism", "Alias")) %>% 
   rename(Submitter_Id = Alias)
 
@@ -176,4 +169,18 @@ full_join(paper1, paper2, by=c("BioSample" = "BioSample")) %>% distinct() %>%
 ```
 
 
+### Astyanax mexicanus
+
+Beautiful metadata, everything in SRA submission
+
+```{r}
+sp="Astyanax_mexicanus"
+  
+sra<-get_sra(sp, opt_cols = c("Sample Name")) %>% 
+  rename(Submitter_Id = `Sample Name`) %>%
+  separate(Submitter_Id, into=c("Population"), remove=FALSE, extra="drop")
+
+sra %>% write_csv(str_c(clean_metadata_path, bp, "_meta.csv"))
+
+```
 
