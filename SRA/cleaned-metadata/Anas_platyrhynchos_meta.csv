@@ -1,107 +1,107 @@
-sample,breed,BioProject,BioSample,sex
-10,Mallard,PRJNA450892,SAMN08952547,female
-102,Mallard,PRJNA450892,SAMN08952580,female
-16,Mallard,PRJNA450892,SAMN08952548,female
-17,Mallard,PRJNA450892,SAMN08952549,female
-18,Mallard,PRJNA450892,SAMN08952550,female
-21,Mallard,PRJNA450892,SAMN08952551,female
-25,Mallard,PRJNA450892,SAMN08952552,female
-26,Mallard,PRJNA450892,SAMN08952553,female
-28,Mallard,PRJNA450892,SAMN08952554,female
-29,Mallard,PRJNA450892,SAMN08952555,female
-32,Mallard,PRJNA450892,SAMN08952556,female
-33,Mallard,PRJNA450892,SAMN08952557,female
-34,Mallard,PRJNA450892,SAMN08952558,female
-45,Mallard,PRJNA450892,SAMN08952559,female
-46,Mallard,PRJNA450892,SAMN08952560,female
-49,Mallard,PRJNA450892,SAMN08952561,female
-51,Mallard,PRJNA450892,SAMN08952562,female
-52,Mallard,PRJNA450892,SAMN08952563,female
-53,Mallard,PRJNA450892,SAMN08952564,female
-58,Mallard,PRJNA450892,SAMN08952565,female
-59,Mallard,PRJNA450892,SAMN08952566,female
-6,Mallard,PRJNA450892,SAMN08952544,female
-64,Mallard,PRJNA450892,SAMN08952567,female
-65,Mallard,PRJNA450892,SAMN08952568,female
-7,Mallard,PRJNA450892,SAMN08952545,female
-70,Mallard,PRJNA450892,SAMN08952569,female
-71,Mallard,PRJNA450892,SAMN08952570,female
-76,Mallard,PRJNA450892,SAMN08952571,female
-78,Mallard,PRJNA450892,SAMN08952572,female
-80,Mallard,PRJNA450892,SAMN08952573,female
-82,Mallard,PRJNA450892,SAMN08952574,female
-83,Mallard,PRJNA450892,SAMN08952575,female
-84,Mallard,PRJNA450892,SAMN08952576,female
-9,Mallard,PRJNA450892,SAMN08952546,female
-90,Mallard,PRJNA450892,SAMN08952577,female
-95,Mallard,PRJNA450892,SAMN08952578,female
-96,Mallard,PRJNA450892,SAMN08952579,female
-B,Mallard,PRJNA450892,SAMN08952581,male
-C,Mallard,PRJNA450892,SAMN08952582,male
-D,Mallard,PRJNA450892,SAMN08952583,male
-1-2a,Pekin duck,PRJNA450892,SAMN08952620,female
-1-2b,Pekin duck,PRJNA450892,SAMN08952621,male
-1-3a,Pekin duck,PRJNA450892,SAMN08952622,female
-1-3b,Pekin duck,PRJNA450892,SAMN08952623,male
-2-1a,Pekin duck,PRJNA450892,SAMN08952624,female
-2-1b,Pekin duck,PRJNA450892,SAMN08952625,male
-2-2a,Pekin duck,PRJNA450892,SAMN08952626,female
-2-2b,Pekin duck,PRJNA450892,SAMN08952627,male
-2-3a,Pekin duck,PRJNA450892,SAMN08952628,female
-2-3b,Pekin duck,PRJNA450892,SAMN08952629,male
-5-3a,Pekin duck,PRJNA450892,SAMN08952630,female
-5-3b,Pekin duck,PRJNA450892,SAMN08952631,male
-PK-10,Pekin duck,PRJNA450892,SAMN08952632,male
-PK-11,Pekin duck,PRJNA450892,SAMN08952633,male
-PK-12,Pekin duck,PRJNA450892,SAMN08952634,male
-PK-13,Pekin duck,PRJNA450892,SAMN08952635,male
-PK-14,Pekin duck,PRJNA450892,SAMN08952636,male
-PK-2,Pekin duck,PRJNA450892,SAMN08952637,female
-PK-3,Pekin duck,PRJNA450892,SAMN08952638,female
-PK-4,Pekin duck,PRJNA450892,SAMN08952639,female
-PK-5,Pekin duck,PRJNA450892,SAMN08952640,female
-PK-6,Pekin duck,PRJNA450892,SAMN08952641,female
-yz-1a,Pekin duck,PRJNA450892,SAMN08952642,female
-yz-1b,Pekin duck,PRJNA450892,SAMN08952643,male
-yz-2a,Pekin duck,PRJNA450892,SAMN08952644,female
-yz-2b,Pekin duck,PRJNA450892,SAMN08952645,male
-yz-3a,Pekin duck,PRJNA450892,SAMN08952646,female
-yz-3b,Pekin duck,PRJNA450892,SAMN08952647,male
-yz-4a,Pekin duck,PRJNA450892,SAMN08952648,female
-yz-4b,Pekin duck,PRJNA450892,SAMN08952649,male
-GY1,Gaoyou duck,PRJNA450892,SAMN08952587,male
-GY2,Gaoyou duck,PRJNA450892,SAMN08952588,female
-GY-ci3,Gaoyou duck,PRJNA450892,SAMN08952589,female
-GA1,Ji'an red duck,PRJNA450892,SAMN08952584,male
-GA2,Ji'an red duck,PRJNA450892,SAMN08952585,female
-GA-ci2,Ji'an red duck,PRJNA450892,SAMN08952586,female
-JD1,Jinding duck,PRJNA450892,SAMN08952590,male
-JD2,Jinding duck,PRJNA450892,SAMN08952591,female
-JD-ci2,Jinding duck,PRJNA450892,SAMN08952592,female
-LC1,Liancheng white duck,PRJNA450892,SAMN08952593,male
-LC2,Liancheng white duck,PRJNA450892,SAMN08952594,female
-LC-ci2,Liancheng white duck,PRJNA450892,SAMN08952595,female
-LS1,Longsheng jade-green duck,PRJNA450892,SAMN08952596,male
-LS2,Longsheng jade-green duck,PRJNA450892,SAMN08952597,female
-LS-ci2,Longsheng jade-green duck,PRJNA450892,SAMN08952598,female
-MW1,Mawang duck,PRJNA450892,SAMN08952599,male
-MW2,Mawang duck,PRJNA450892,SAMN08952600,female
-MW-ci2,Mawang duck,PRJNA450892,SAMN08952601,female
-PT1,Putian black duck,PRJNA450892,SAMN08952602,male
-PT2,Putian black duck,PRJNA450892,SAMN08952603,female
-PT-ci2,Putian black duck,PRJNA450892,SAMN08952604,female
-SS1,Sansui duck,PRJNA450892,SAMN08952608,male
-SS2,Sansui duck,PRJNA450892,SAMN08952609,female
-SS-ci2,Sansui duck,PRJNA450892,SAMN08952610,female
-SM1,Shan sheldrake,PRJNA450892,SAMN08952605,male
-SM2,Shan sheldrake,PRJNA450892,SAMN08952606,female
-SM-ci2,Shan sheldrake,PRJNA450892,SAMN08952607,female
-SX1,Shaoxing duck,PRJNA450892,SAMN08952611,male
-SX2,Shaoxing duck,PRJNA450892,SAMN08952612,female
-SX-ci2,Shaoxing duck,PRJNA450892,SAMN08952613,female
-TW1,Taiwan duck,PRJNA450892,SAMN08952614,male
-TW2,Taiwan duck,PRJNA450892,SAMN08952615,female
-TW-ci2,Taiwan duck,PRJNA450892,SAMN08952616,female
-YX1,Youxian sheldrake,PRJNA450892,SAMN08952617,male
-YX2,Youxian sheldrake,PRJNA450892,SAMN08952618,female
-YX-ci2,Youxian sheldrake,PRJNA450892,SAMN08952619,female
+sample,breed,BioProject,BioSample,Organism,sex
+10,Mallard,PRJNA450892,SAMN08952547,Anas_platyrhynchos,female
+102,Mallard,PRJNA450892,SAMN08952580,Anas_platyrhynchos,female
+16,Mallard,PRJNA450892,SAMN08952548,Anas_platyrhynchos,female
+17,Mallard,PRJNA450892,SAMN08952549,Anas_platyrhynchos,female
+18,Mallard,PRJNA450892,SAMN08952550,Anas_platyrhynchos,female
+21,Mallard,PRJNA450892,SAMN08952551,Anas_platyrhynchos,female
+25,Mallard,PRJNA450892,SAMN08952552,Anas_platyrhynchos,female
+26,Mallard,PRJNA450892,SAMN08952553,Anas_platyrhynchos,female
+28,Mallard,PRJNA450892,SAMN08952554,Anas_platyrhynchos,female
+29,Mallard,PRJNA450892,SAMN08952555,Anas_platyrhynchos,female
+32,Mallard,PRJNA450892,SAMN08952556,Anas_platyrhynchos,female
+33,Mallard,PRJNA450892,SAMN08952557,Anas_platyrhynchos,female
+34,Mallard,PRJNA450892,SAMN08952558,Anas_platyrhynchos,female
+45,Mallard,PRJNA450892,SAMN08952559,Anas_platyrhynchos,female
+46,Mallard,PRJNA450892,SAMN08952560,Anas_platyrhynchos,female
+49,Mallard,PRJNA450892,SAMN08952561,Anas_platyrhynchos,female
+51,Mallard,PRJNA450892,SAMN08952562,Anas_platyrhynchos,female
+52,Mallard,PRJNA450892,SAMN08952563,Anas_platyrhynchos,female
+53,Mallard,PRJNA450892,SAMN08952564,Anas_platyrhynchos,female
+58,Mallard,PRJNA450892,SAMN08952565,Anas_platyrhynchos,female
+59,Mallard,PRJNA450892,SAMN08952566,Anas_platyrhynchos,female
+6,Mallard,PRJNA450892,SAMN08952544,Anas_platyrhynchos,female
+64,Mallard,PRJNA450892,SAMN08952567,Anas_platyrhynchos,female
+65,Mallard,PRJNA450892,SAMN08952568,Anas_platyrhynchos,female
+7,Mallard,PRJNA450892,SAMN08952545,Anas_platyrhynchos,female
+70,Mallard,PRJNA450892,SAMN08952569,Anas_platyrhynchos,female
+71,Mallard,PRJNA450892,SAMN08952570,Anas_platyrhynchos,female
+76,Mallard,PRJNA450892,SAMN08952571,Anas_platyrhynchos,female
+78,Mallard,PRJNA450892,SAMN08952572,Anas_platyrhynchos,female
+80,Mallard,PRJNA450892,SAMN08952573,Anas_platyrhynchos,female
+82,Mallard,PRJNA450892,SAMN08952574,Anas_platyrhynchos,female
+83,Mallard,PRJNA450892,SAMN08952575,Anas_platyrhynchos,female
+84,Mallard,PRJNA450892,SAMN08952576,Anas_platyrhynchos,female
+9,Mallard,PRJNA450892,SAMN08952546,Anas_platyrhynchos,female
+90,Mallard,PRJNA450892,SAMN08952577,Anas_platyrhynchos,female
+95,Mallard,PRJNA450892,SAMN08952578,Anas_platyrhynchos,female
+96,Mallard,PRJNA450892,SAMN08952579,Anas_platyrhynchos,female
+B,Mallard,PRJNA450892,SAMN08952581,Anas_platyrhynchos,male
+C,Mallard,PRJNA450892,SAMN08952582,Anas_platyrhynchos,male
+D,Mallard,PRJNA450892,SAMN08952583,Anas_platyrhynchos,male
+1-2a,Pekin duck,PRJNA450892,SAMN08952620,Anas_platyrhynchos,female
+1-2b,Pekin duck,PRJNA450892,SAMN08952621,Anas_platyrhynchos,male
+1-3a,Pekin duck,PRJNA450892,SAMN08952622,Anas_platyrhynchos,female
+1-3b,Pekin duck,PRJNA450892,SAMN08952623,Anas_platyrhynchos,male
+2-1a,Pekin duck,PRJNA450892,SAMN08952624,Anas_platyrhynchos,female
+2-1b,Pekin duck,PRJNA450892,SAMN08952625,Anas_platyrhynchos,male
+2-2a,Pekin duck,PRJNA450892,SAMN08952626,Anas_platyrhynchos,female
+2-2b,Pekin duck,PRJNA450892,SAMN08952627,Anas_platyrhynchos,male
+2-3a,Pekin duck,PRJNA450892,SAMN08952628,Anas_platyrhynchos,female
+2-3b,Pekin duck,PRJNA450892,SAMN08952629,Anas_platyrhynchos,male
+5-3a,Pekin duck,PRJNA450892,SAMN08952630,Anas_platyrhynchos,female
+5-3b,Pekin duck,PRJNA450892,SAMN08952631,Anas_platyrhynchos,male
+PK-10,Pekin duck,PRJNA450892,SAMN08952632,Anas_platyrhynchos,male
+PK-11,Pekin duck,PRJNA450892,SAMN08952633,Anas_platyrhynchos,male
+PK-12,Pekin duck,PRJNA450892,SAMN08952634,Anas_platyrhynchos,male
+PK-13,Pekin duck,PRJNA450892,SAMN08952635,Anas_platyrhynchos,male
+PK-14,Pekin duck,PRJNA450892,SAMN08952636,Anas_platyrhynchos,male
+PK-2,Pekin duck,PRJNA450892,SAMN08952637,Anas_platyrhynchos,female
+PK-3,Pekin duck,PRJNA450892,SAMN08952638,Anas_platyrhynchos,female
+PK-4,Pekin duck,PRJNA450892,SAMN08952639,Anas_platyrhynchos,female
+PK-5,Pekin duck,PRJNA450892,SAMN08952640,Anas_platyrhynchos,female
+PK-6,Pekin duck,PRJNA450892,SAMN08952641,Anas_platyrhynchos,female
+yz-1a,Pekin duck,PRJNA450892,SAMN08952642,Anas_platyrhynchos,female
+yz-1b,Pekin duck,PRJNA450892,SAMN08952643,Anas_platyrhynchos,male
+yz-2a,Pekin duck,PRJNA450892,SAMN08952644,Anas_platyrhynchos,female
+yz-2b,Pekin duck,PRJNA450892,SAMN08952645,Anas_platyrhynchos,male
+yz-3a,Pekin duck,PRJNA450892,SAMN08952646,Anas_platyrhynchos,female
+yz-3b,Pekin duck,PRJNA450892,SAMN08952647,Anas_platyrhynchos,male
+yz-4a,Pekin duck,PRJNA450892,SAMN08952648,Anas_platyrhynchos,female
+yz-4b,Pekin duck,PRJNA450892,SAMN08952649,Anas_platyrhynchos,male
+GY1,Gaoyou duck,PRJNA450892,SAMN08952587,Anas_platyrhynchos,male
+GY2,Gaoyou duck,PRJNA450892,SAMN08952588,Anas_platyrhynchos,female
+GY-ci3,Gaoyou duck,PRJNA450892,SAMN08952589,Anas_platyrhynchos,female
+GA1,Ji'an red duck,PRJNA450892,SAMN08952584,Anas_platyrhynchos,male
+GA2,Ji'an red duck,PRJNA450892,SAMN08952585,Anas_platyrhynchos,female
+GA-ci2,Ji'an red duck,PRJNA450892,SAMN08952586,Anas_platyrhynchos,female
+JD1,Jinding duck,PRJNA450892,SAMN08952590,Anas_platyrhynchos,male
+JD2,Jinding duck,PRJNA450892,SAMN08952591,Anas_platyrhynchos,female
+JD-ci2,Jinding duck,PRJNA450892,SAMN08952592,Anas_platyrhynchos,female
+LC1,Liancheng white duck,PRJNA450892,SAMN08952593,Anas_platyrhynchos,male
+LC2,Liancheng white duck,PRJNA450892,SAMN08952594,Anas_platyrhynchos,female
+LC-ci2,Liancheng white duck,PRJNA450892,SAMN08952595,Anas_platyrhynchos,female
+LS1,Longsheng jade-green duck,PRJNA450892,SAMN08952596,Anas_platyrhynchos,male
+LS2,Longsheng jade-green duck,PRJNA450892,SAMN08952597,Anas_platyrhynchos,female
+LS-ci2,Longsheng jade-green duck,PRJNA450892,SAMN08952598,Anas_platyrhynchos,female
+MW1,Mawang duck,PRJNA450892,SAMN08952599,Anas_platyrhynchos,male
+MW2,Mawang duck,PRJNA450892,SAMN08952600,Anas_platyrhynchos,female
+MW-ci2,Mawang duck,PRJNA450892,SAMN08952601,Anas_platyrhynchos,female
+PT1,Putian black duck,PRJNA450892,SAMN08952602,Anas_platyrhynchos,male
+PT2,Putian black duck,PRJNA450892,SAMN08952603,Anas_platyrhynchos,female
+PT-ci2,Putian black duck,PRJNA450892,SAMN08952604,Anas_platyrhynchos,female
+SS1,Sansui duck,PRJNA450892,SAMN08952608,Anas_platyrhynchos,male
+SS2,Sansui duck,PRJNA450892,SAMN08952609,Anas_platyrhynchos,female
+SS-ci2,Sansui duck,PRJNA450892,SAMN08952610,Anas_platyrhynchos,female
+SM1,Shan sheldrake,PRJNA450892,SAMN08952605,Anas_platyrhynchos,male
+SM2,Shan sheldrake,PRJNA450892,SAMN08952606,Anas_platyrhynchos,female
+SM-ci2,Shan sheldrake,PRJNA450892,SAMN08952607,Anas_platyrhynchos,female
+SX1,Shaoxing duck,PRJNA450892,SAMN08952611,Anas_platyrhynchos,male
+SX2,Shaoxing duck,PRJNA450892,SAMN08952612,Anas_platyrhynchos,female
+SX-ci2,Shaoxing duck,PRJNA450892,SAMN08952613,Anas_platyrhynchos,female
+TW1,Taiwan duck,PRJNA450892,SAMN08952614,Anas_platyrhynchos,male
+TW2,Taiwan duck,PRJNA450892,SAMN08952615,Anas_platyrhynchos,female
+TW-ci2,Taiwan duck,PRJNA450892,SAMN08952616,Anas_platyrhynchos,female
+YX1,Youxian sheldrake,PRJNA450892,SAMN08952617,Anas_platyrhynchos,male
+YX2,Youxian sheldrake,PRJNA450892,SAMN08952618,Anas_platyrhynchos,female
+YX-ci2,Youxian sheldrake,PRJNA450892,SAMN08952619,Anas_platyrhynchos,female

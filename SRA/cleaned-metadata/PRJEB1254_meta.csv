@@ -1,45 +1,306 @@
-BioProject,BioSample,Submitter_Id,Population
-PRJNA260715,SAMN03734634,Texas_Surface,Texas
-PRJNA260715,SAMN03421319,Tinaja_C,Tinaja
-PRJNA260715,SAMN03421321,Tinaja_D,Tinaja
-PRJNA260715,SAMN03421322,Tinaja_5,Tinaja
-PRJNA260715,SAMN03421323,Tinaja_E,Tinaja
-PRJNA260715,SAMN03421324,Rascon_13,Rascon
-PRJNA260715,SAMN03421325,Rascon_15,Rascon
-PRJNA260715,SAMN03421326,Rascon_8,Rascon
-PRJNA260715,SAMN03421314,Tinaja_11,Tinaja
-PRJNA260715,SAMN03421315,Tinaja_6,Tinaja
-PRJNA260715,SAMN03421316,Tinaja_12,Tinaja
-PRJNA260715,SAMN03421317,Tinaja_B,Tinaja
-PRJNA260715,SAMN03421318,Tinaja_2,Tinaja
-PRJNA260715,SAMN03421320,Tinaja_3,Tinaja
-PRJNA260715,SAMN03421327,Rascon_6,Rascon
-PRJNA260715,SAMN03024475,Choy_01,Choy
-PRJNA260715,SAMN03024476,Choy_05,Choy
-PRJNA260715,SAMN03024477,Choy_06,Choy
-PRJNA260715,SAMN03024478,Choy_09,Choy
-PRJNA260715,SAMN03024479,Choy_10,Choy
-PRJNA260715,SAMN03024480,Choy_11,Choy
-PRJNA260715,SAMN03024481,Choy_12,Choy
-PRJNA260715,SAMN03024482,Choy_13,Choy
-PRJNA260715,SAMN03024483,Choy_14,Choy
-PRJNA260715,SAMN03024484,Pach_3,Pach
-PRJNA260715,SAMN03024485,Pach_7,Pach
-PRJNA260715,SAMN03024486,Pach_8,Pach
-PRJNA260715,SAMN03024487,Pach_9,Pach
-PRJNA260715,SAMN03024488,Pach_11,Pach
-PRJNA260715,SAMN03024489,Pach_12,Pach
-PRJNA260715,SAMN03024490,Pach_14,Pach
-PRJNA260715,SAMN03024491,Pach_15,Pach
-PRJNA260715,SAMN03024492,Pach_17,Pach
-PRJNA260715,SAMN03024493,Molino_2a,Molino
-PRJNA260715,SAMN03024494,Molino_7a,Molino
-PRJNA260715,SAMN03024495,Molino_9b,Molino
-PRJNA260715,SAMN03024496,Molino_10b,Molino
-PRJNA260715,SAMN03024497,Molino_11a,Molino
-PRJNA260715,SAMN03024498,Molino_12a,Molino
-PRJNA260715,SAMN03024499,Molino_13b,Molino
-PRJNA260715,SAMN03024500,Molino_14a,Molino
-PRJNA260715,SAMN03024501,Molino_15b,Molino
-PRJNA260715,SAMN03024502,Rascon_02,Rascon
-PRJNA260715,SAMN03024503,Rascon_04,Rascon
+BioSample,SampleName1,SampleName2,BioProject,Organism,sex,Submitter_Id
+SAMEA1904323,A. calliptera,Indian ocean catchments,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Rovuma_-sc-2013-01-28T12:01:16Z-1530723
+SAMEA1904326,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Mbaka_-sc-2013-01-28T12:01:19Z-1530726
+SAMEA1904327,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Chizumulu_-sc-2013-01-28T12:01:17Z-1530724
+SAMEA1904328,A. calliptera,Indian ocean catchments,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Chilwa_-sc-2013-01-28T12:01:18Z-1530725
+SAMEA1920090,A. calliptera,Lake Malawi trios,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Salima___mother_-sc-2013-01-28T12:01:10Z-1530718
+SAMEA1920092,A. calliptera,Lake Malawi trios,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Salima___father_-sc-2013-01-28T12:01:07Z-1530717
+SAMEA2661381,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Chitimba-sc-2016910
+SAMEA2661382,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_North_Rukuru-sc-2016911
+SAMEA2661383,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Songwe_River-sc-2016912
+SAMEA2661384,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_South_Rukuru-sc-2016913
+SAMEA2661385,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Enukweni-sc-2016914
+SAMEA2661386,A. calliptera,Indian ocean catchments,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Lake_Chidya-sc-2016915
+SAMEA2661387,A. calliptera,Indian ocean catchments,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Kitai_Dam-sc-2016916
+SAMEA2661389,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Near_Kyela-sc-2016918
+SAMEA2661390,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Luwawa-sc-2016919
+SAMEA2661391,A. calliptera,Malawi catchment,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Bua-sc-2016920
+SAMEA1877404,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Massoko_blue_6-sc-2012-12-14T14:26:21Z-1512688
+SAMEA1877436,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Massoko_blue_5-sc-2012-12-14T14:26:19Z-1512687
+SAMEA1877511,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Massoko_blue_4-sc-2012-12-14T14:26:17Z-1512686
+SAMEA1877425,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Massoko_blue_3-sc-2012-12-14T14:26:16Z-1512685
+SAMEA1877494,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Massoko_blue_2-sc-2012-12-14T14:26:12Z-1512681
+SAMEA1877464,Massoko benthic,Lake Malawi populations,PRJEB1254,Astatotilapia,missing,Massoko_blue_1-sc-2012-12-14T14:26:09Z-1512680
+SAMEA2661333,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__1-sc-2016850
+SAMEA2661334,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__2-sc-2016851
+SAMEA2661335,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__3-sc-2016852
+SAMEA2661336,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__4-sc-2016853
+SAMEA2661337,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__5-sc-2016854
+SAMEA2661338,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__6-sc-2016855
+SAMEA2661339,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__7-sc-2016856
+SAMEA2661341,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__9-sc-2016858
+SAMEA2661342,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__10-sc-2016859
+SAMEA2661343,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__11-sc-2016860
+SAMEA2661344,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__12-sc-2016861
+SAMEA2661345,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__13-sc-2016862
+SAMEA2661346,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__14-sc-2016863
+SAMEA2661347,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__15-sc-2016864
+SAMEA2661349,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__17-sc-2016866
+SAMEA2661350,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__18-sc-2016867
+SAMEA2661351,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__19-sc-2016868
+SAMEA2661352,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__20-sc-2016869
+SAMEA2661353,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__21-sc-2016870
+SAMEA2661354,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__22-sc-2016871
+SAMEA2661355,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__23-sc-2016872
+SAMEA2661357,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__25-sc-2016874
+SAMEA2661358,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__26-sc-2016875
+SAMEA2661359,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__27-sc-2016876
+SAMEA2661362,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__30-sc-2016879
+SAMEA2661363,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__31-sc-2016880
+SAMEA2661365,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__33-sc-2016882
+SAMEA2661366,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__34-sc-2016883
+SAMEA2661367,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__35-sc-2016884
+SAMEA2661368,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__36-sc-2016885
+SAMEA2661369,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__37-sc-2016886
+SAMEA2661370,Massoko benthic,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__38-sc-2016887
+SAMEA1877400,Massoko littoral,Malawi catchment,PRJEB1254,Astatotilapia,missing,Massoko_Yellow_1-sc-2012-12-14T14:26:14Z-1512683
+SAMEA1877402,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Massoko_Yellow_1-sc-2012-12-14T14:26:42Z-1512706
+SAMEA1877407,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Massoko_Yellow_4-sc-2012-12-14T14:26:28Z-1512694
+SAMEA1877442,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Massoko_Yellow_3-sc-2012-12-14T14:26:22Z-1512689
+SAMEA1877447,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Massoko_Yellow_2-sc-2012-12-14T14:26:15Z-1512684
+SAMEA1877507,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Massoko_Yellow_2-sc-2012-12-14T14:26:43Z-1512707
+SAMEA2661297,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__1-sc-2016814
+SAMEA2661298,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__2-sc-2016815
+SAMEA2661299,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__3-sc-2016816
+SAMEA2661300,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__4-sc-2016817
+SAMEA2661301,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__5-sc-2016818
+SAMEA2661303,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__7-sc-2016820
+SAMEA2661304,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__8-sc-2016821
+SAMEA2661306,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__10-sc-2016823
+SAMEA2661307,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__11-sc-2016824
+SAMEA2661308,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__12-sc-2016825
+SAMEA2661309,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__13-sc-2016826
+SAMEA2661310,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__14-sc-2016827
+SAMEA2661313,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__17-sc-2016830
+SAMEA2661316,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__20-sc-2016833
+SAMEA2661318,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__22-sc-2016835
+SAMEA2661319,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__23-sc-2016836
+SAMEA2661320,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__24-sc-2016837
+SAMEA2661321,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__25-sc-2016838
+SAMEA2661322,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__26-sc-2016839
+SAMEA2661324,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__28-sc-2016841
+SAMEA2661325,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__29-sc-2016842
+SAMEA2661326,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__30-sc-2016843
+SAMEA2661327,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__31-sc-2016844
+SAMEA2661328,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__32-sc-2016845
+SAMEA2661330,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__34-sc-2016847
+SAMEA2661331,Massoko littoral,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__35-sc-2016848
+SAMEA2661371,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__1-sc-2016888
+SAMEA2661373,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__3-sc-2016890
+SAMEA2661374,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__4-sc-2016891
+SAMEA2661375,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__5-sc-2016892
+SAMEA2661376,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__6-sc-2016893
+SAMEA2661377,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__7-sc-2016894
+SAMEA2661378,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__8-sc-2016895
+SAMEA2661379,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__9-sc-2016896
+SAMEA2661380,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__10-sc-2016897
+SAMEA2661392,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__11-sc-2016921
+SAMEA2661393,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__12-sc-2016922
+SAMEA2661394,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__13-sc-2016923
+SAMEA2661395,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__14-sc-2016924
+SAMEA2661396,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__15-sc-2016925
+SAMEA2661397,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__16-sc-2016926
+SAMEA2661398,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__17-sc-2016927
+SAMEA2661399,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__18-sc-2016928
+SAMEA2661400,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__19-sc-2016929
+SAMEA2661402,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__21-sc-2016931
+SAMEA2661403,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__1-sc-2016932
+SAMEA2661404,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__2-sc-2016933
+SAMEA2661405,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__3-sc-2016934
+SAMEA2661406,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__4-sc-2016935
+SAMEA2661407,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__5-sc-2016936
+SAMEA2661408,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__6-sc-2016937
+SAMEA2661409,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__7-sc-2016938
+SAMEA2661410,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__8-sc-2016939
+SAMEA2661411,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__9-sc-2016940
+SAMEA2661412,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__10-sc-2016941
+SAMEA2661413,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__11-sc-2016942
+SAMEA2661414,Massoko small,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_small_yellow__12-sc-2016943
+SAMEA2661415,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__1-sc-2016944
+SAMEA2661417,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__3-sc-2016946
+SAMEA2661418,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__4-sc-2016947
+SAMEA2661419,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__5-sc-2016948
+SAMEA2661420,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__6-sc-2016949
+SAMEA2661421,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__7-sc-2016950
+SAMEA2661422,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__8-sc-2016951
+SAMEA2661423,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__9-sc-2016952
+SAMEA2661424,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__10-sc-2016953
+SAMEA2661425,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__11-sc-2016954
+SAMEA2661426,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__12-sc-2016955
+SAMEA2661427,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__13-sc-2016956
+SAMEA2661428,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__14-sc-2016957
+SAMEA2661429,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__15-sc-2016958
+SAMEA2661430,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__1-sc-2016959
+SAMEA2661431,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__2-sc-2016960
+SAMEA2661432,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__3-sc-2016961
+SAMEA2661433,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__4-sc-2016962
+SAMEA2661434,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__5-sc-2016963
+SAMEA2661435,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__6-sc-2016964
+SAMEA2661436,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__7-sc-2016965
+SAMEA2661437,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__8-sc-2016966
+SAMEA2661438,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__9-sc-2016967
+SAMEA2661439,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__10-sc-2016968
+SAMEA2661440,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__11-sc-2016969
+SAMEA2661442,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__13-sc-2016971
+SAMEA2661443,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__14-sc-2016972
+SAMEA2661444,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__15-sc-2016973
+SAMEA2661445,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__16-sc-2016974
+SAMEA2661446,Lake Itamba,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__17-sc-2016975
+SAMEA1877409,NA,Lake Malawi populations,PRJEB1254,Placidochromis_electra,missing,Placidochromis_electra-sc-2012-12-14T14:26:33Z-1512698
+SAMEA1877411,NA,Lake Malawi populations,PRJEB1254,Nimbochromis_linni,missing,Nimbochromis_linni-sc-2012-12-14T14:26:37Z-1512702
+SAMEA1877414,NA,Lake Malawi populations,PRJEB1254,Buccochromis,missing,Buccochromis_rhoadesii-sc-2012-12-14T14:26:23Z-1512690
+SAMEA1877417,NA,Lake Malawi populations,PRJEB1254,Lethrinops_albus,missing,Lethrinops_albus-sc-2012-12-14T14:26:43Z-1512708
+SAMEA1877421,NA,Lake Malawi populations,PRJEB1254,Nimbochromis_livingstonii,missing,Nimbochromis_livingstoni-sc-2012-12-14T14:26:34Z-1512699
+SAMEA1877429,NA,Lake Malawi populations,PRJEB1254,Alticorpus,missing,Alticorpus_macrocleithrum-sc-2012-12-14T14:26:31Z-1512696
+SAMEA1877440,NA,Lake Malawi populations,PRJEB1254,Aulonocara,missing,Aulonocara_steveni-sc-2012-12-14T14:26:41Z-1512705
+SAMEA1877451,NA,Lake Malawi populations,PRJEB1254,Placidochromis_johnstoni,missing,Placidochromis_johnstoni-sc-2012-12-14T14:26:36Z-1512701
+SAMEA1877455,NA,Lake Malawi populations,PRJEB1254,Lethrinops_auritus,missing,Lethrinops_auritus-sc-2012-12-14T14:26:45Z-1512710
+SAMEA1877459,NA,Lake Malawi populations,PRJEB1254,Trematocranus_placodon,missing,Tremitochranus_placodon-sc-2012-12-14T14:26:30Z-1512695
+SAMEA1877472,NA,Lake Malawi populations,PRJEB1254,Otopharynx_brooksi,missing,Otopharynx__brooksi_nkhata_-sc-2012-12-14T14:26:13Z-1512682
+SAMEA1877476,NA,Lake Malawi populations,PRJEB1254,Nimbochromis_polystigma,missing,Nimbochromis_polystigma-sc-2012-12-14T14:26:38Z-1512703
+SAMEA1877480,NA,Lake Malawi populations,PRJEB1254,Placidochromis_milomo,missing,Placidochromis_milomo-sc-2012-12-14T14:26:32Z-1512697
+SAMEA1877484,NA,Lake Malawi populations,PRJEB1254,Lethrinops_gossei,missing,Lethrinops_gossei-sc-2012-12-14T14:26:46Z-1512711
+SAMEA1877499,NA,Lake Malawi populations,PRJEB1254,Lethrinops_lethrinus,missing,Lethrinops_lethrinus-sc-2012-12-14T14:26:35Z-1512700
+SAMEA1877503,NA,Lake Malawi populations,PRJEB1254,Otopharynx,missing,Otopharynx_tetrastigma-sc-2012-12-14T14:26:44Z-1512709
+SAMEA1904322,NA,Lake Malawi populations,PRJEB1254,Lethrinops_longimanus,missing,Lethrinops_longimanus__redhead_-sc-2013-01-28T12:01:24Z-1530730
+SAMEA1904324,NA,Lake Malawi populations,PRJEB1254,Copadichromis_quadrimaculatus,missing,Copadichromis_quadrimaculatus-sc-2013-01-28T12:01:26Z-1530731
+SAMEA1904329,NA,Lake Malawi populations,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis-sc-2013-01-28T12:01:27Z-1530732
+SAMEA1904330,NA,Lake Malawi populations,PRJEB1254,Lethrinops_sp._'oliveri',missing,Lethrinops_sp__oliveri-sc-2013-01-28T12:01:28Z-1530733
+SAMEA1904331,NA,Lake Malawi populations,PRJEB1254,Alticorpus_geoffreyi,missing,Alticorpus_geoffreyi-sc-2013-01-28T12:01:29Z-1530734
+SAMEA2661216,NA,Lake Malawi populations,PRJEB1254,Mylochromis_anaphyrmus,missing,Mylochromis_anaphyrmus_2-sc-2016526
+SAMEA2661217,NA,Lake Malawi populations,PRJEB1254,Mylochromis_anaphyrmus,missing,Mylochromis_anaphyrmus_3-sc-2016527
+SAMEA2661218,NA,Lake Malawi populations,PRJEB1254,Mylochromis_anaphyrmus,missing,Mylochromis_anaphyrmus_4-sc-2016528
+SAMEA2661219,NA,Lake Malawi populations,PRJEB1254,Mylochromis_anaphyrmus,missing,Mylochromis_anaphyrmus_5-sc-2016529
+SAMEA2661220,NA,Lake Malawi populations,PRJEB1254,Otopharynx_speciosus,missing,Otopharynx_speciosus_1-sc-2016530
+SAMEA2661221,NA,Lake Malawi populations,PRJEB1254,Otopharynx_speciosus,missing,Otopharynx_speciosus_2-sc-2016531
+SAMEA2661222,NA,Lake Malawi populations,PRJEB1254,Copadichromis_trimaculatus,missing,Copadichromis_trimaculatus-sc-2016532
+SAMEA2661223,NA,Lake Malawi populations,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis_2-sc-2016533
+SAMEA2661224,NA,Lake Malawi populations,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis_3-sc-2016534
+SAMEA2661225,NA,Lake Malawi populations,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis_4-sc-2016535
+SAMEA2661226,NA,Lake Malawi populations,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis_5-sc-2016536
+SAMEA2661227,NA,Lake Malawi populations,PRJEB1254,Chilotilapia_rhoadesii,missing,Chilotilapia_rhoadesii_1-sc-2016537
+SAMEA2661228,NA,Lake Malawi populations,PRJEB1254,Chilotilapia_rhoadesii,missing,Chilotilapia_rhoadesii_2-sc-2016538
+SAMEA2661229,NA,Lake Malawi populations,PRJEB1254,Chilotilapia_rhoadesii,missing,Chilotilapia_rhoadesii_3-sc-2016539
+SAMEA2661230,NA,Lake Malawi populations,PRJEB1254,Ctenopharynx_intermedius,missing,Ctenopharynx_intermedius_1-sc-2016540
+SAMEA2661231,NA,Lake Malawi populations,PRJEB1254,Ctenopharynx_intermedius,missing,Ctenopharynx_intermedius_2-sc-2016541
+SAMEA2661232,NA,Lake Malawi populations,PRJEB1254,Ctenopharynx_intermedius,missing,Ctenopharynx_intermedius_3-sc-2016542
+SAMEA2661233,NA,Lake Malawi populations,PRJEB1254,Trematocranus_placodon,missing,Trematocranus_placodon_2-sc-2016543
+SAMEA2661234,NA,Lake Malawi populations,PRJEB1254,Trematocranus_placodon,missing,Trematocranus_placodon_3-sc-2016544
+SAMEA2661235,NA,Lake Malawi populations,PRJEB1254,Trematocranus_placodon,missing,Trematocranus_placodon_4-sc-2016545
+SAMEA2661236,NA,Lake Malawi populations,PRJEB1254,Trematocranus_placodon,missing,Trematocranus_placodon_5-sc-2016546
+SAMEA2661237,NA,Lake Malawi populations,PRJEB1254,Champsochromis,missing,Champsochromis_caeruelus_1-sc-2016547
+SAMEA2661238,NA,Lake Malawi populations,PRJEB1254,Champsochromis,missing,Champsochromis_caeruelus_2-sc-2016548
+SAMEA2661239,NA,Lake Malawi populations,PRJEB1254,Buccochromis_nototaenia,missing,Buccochromis_nototaenia-sc-2016549
+SAMEA2661240,NA,Lake Malawi populations,PRJEB1254,Eclectochromis_ornatus,missing,Protomelas_ornatus_1-sc-2016550
+SAMEA2661241,NA,Lake Malawi populations,PRJEB1254,Eclectochromis_ornatus,missing,Protomelas_ornatus_2-sc-2016551
+SAMEA2661242,NA,Lake Malawi populations,PRJEB1254,Ctenopharynx,missing,Ctenopharynx_nitidus-sc-2016552
+SAMEA2661243,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_1-sc-2016553
+SAMEA2661244,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_2-sc-2016554
+SAMEA2661245,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_3-sc-2016555
+SAMEA2661246,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_4-sc-2016556
+SAMEA2661250,NA,Lake Malawi populations,PRJEB1254,Chilotilapia_rhoadesii,missing,Chilotilapia_rhoadesii_4-sc-2016560
+SAMEA2661253,NA,Lake Malawi populations,PRJEB1254,Cynotilapia_afra,missing,Cynotilapia_afra-sc-2016563
+SAMEA2661255,NA,Lake Malawi populations,PRJEB1254,Aulonocara_sp._'yellow',missing,Aulonocara__yellow_-sc-2016565
+SAMEA2661256,NA,Lake Malawi populations,PRJEB1254,Aulonocara,missing,Aulonocara__minutus_-sc-2016566
+SAMEA2661257,NA,Lake Malawi populations,PRJEB1254,Cynotilapia,missing,Cynotilapia_axelrodi-sc-2016567
+SAMEA2661258,NA,Lake Malawi populations,PRJEB1254,Alticorpus,missing,Alticorpus_peterdaviesi-sc-2016568
+SAMEA2661260,NA,Lake Malawi populations,PRJEB1254,Diplotaxodon_limnothrissa,missing,Diplotaxodon_limnothrissa-sc-2016570
+SAMEA2661262,NA,Lake Malawi populations,PRJEB1254,Genyochromis_mento,missing,Genyochromis_mento-sc-2016572
+SAMEA2661264,NA,Lake Malawi populations,PRJEB1254,Fossorochromis_rostratus,missing,Fossorochromis_rostratus_3-sc-2016574
+SAMEA2661265,NA,Lake Malawi populations,PRJEB1254,Protomelas_spilopterus,missing,Hemitaenichromis_spilopterus-sc-2016575
+SAMEA2661266,NA,Lake Malawi populations,PRJEB1254,Iodotropheus_sprengerae,missing,Iodotropheus_sprengerae-sc-2016576
+SAMEA2661267,NA,Lake Malawi populations,PRJEB1254,Labeotropheus_trewavasae,missing,Labeotropheus_trewavasae-sc-2016577
+SAMEA2661268,NA,Lake Malawi populations,PRJEB1254,Fossorochromis_rostratus,missing,Fossorochromis_rostratus_4-sc-2016578
+SAMEA2661269,NA,Lake Malawi populations,PRJEB1254,Diplotaxodon_macrops,missing,Diplotaxodon_macrops-sc-2016579
+SAMEA2661270,NA,Lake Malawi populations,PRJEB1254,Hemitilapia_oxyrhynchus,missing,Hemitilapia_oxyrhynchus-sc-2016580
+SAMEA2661272,NA,Lake Malawi populations,PRJEB1254,Tropheops_tropheops,missing,Tropheops_tropheops-sc-2016582
+SAMEA2661275,NA,Lake Malawi populations,PRJEB1254,Petrotilapia_genalutea,missing,Petrotilapia_genalutea-sc-2016585
+SAMEA2661276,NA,Lake Malawi populations,PRJEB1254,Mylochromis_lateristriga,missing,Mylochromis_lateristriga-sc-2016586
+SAMEA2661277,NA,Lake Malawi populations,PRJEB1254,Dimidiochromis_strigatus,missing,Dimidiochromis_strigatus-sc-2016587
+SAMEA2661278,NA,Lake Malawi populations,PRJEB1254,Placidochromis,missing,Placidochromis_longimanus_1-sc-2016588
+SAMEA2661279,NA,Lake Malawi populations,PRJEB1254,Placidochromis,missing,Placidochromis_longimanus_2-sc-2016589
+SAMEA2661280,NA,Lake Malawi populations,PRJEB1254,Placidochromis,missing,Placidochromis_longimanus_3-sc-2016590
+SAMEA2661281,NA,Lake Malawi populations,PRJEB1254,Placidochromis,missing,Placidochromis_longimanus_4-sc-2016591
+SAMEA2661282,NA,Lake Malawi populations,PRJEB1254,Placidochromis,missing,Placidochromis_longimanus_5-sc-2016592
+SAMEA2661287,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_5-sc-2016597
+SAMEA2661288,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_6-sc-2016598
+SAMEA2661289,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_7-sc-2016599
+SAMEA2661290,NA,Lake Malawi populations,PRJEB1254,Placidochromis_cf._subocularis_MRI-2005,missing,Placidochromis_subocularis_8-sc-2016600
+SAMEA3388853,NA,Lake Malawi populations,PRJEB1254,Rhamphochromis_longiceps,missing,Rhamphochromis_longiceps-sc-2288157
+SAMEA3388854,NA,Lake Malawi populations,PRJEB1254,Stigmatochromis,missing,Stigmatochromis__guttatus_-sc-2288158
+SAMEA3388855,NA,Lake Malawi populations,PRJEB1254,Tyrannochromis_nigriventer,missing,Tyrannochromis_nigriventer-sc-2288159
+SAMEA3388856,NA,Lake Malawi populations,PRJEB1254,Rhamphochromis_woodi,missing,Rhamphochromis_woodi-sc-2288160
+SAMEA3388857,NA,Lake Malawi populations,PRJEB1254,Taeniochromis_holotaenia,missing,Taeniochromis_holotaenia-sc-2288161
+SAMEA3388858,NA,Lake Malawi populations,PRJEB1254,Taeniolethrinops,missing,Taeniolethrinops_macrorhynchus-sc-2288162
+SAMEA3388859,NA,Lake Malawi populations,PRJEB1254,Dimidiochromis_kiwinge,missing,Dimidiochromis_kiwinge-sc-2288163
+SAMEA3388860,NA,Lake Malawi populations,PRJEB1254,Taeniolethrinops_praeorbitalis,missing,Taeniolethrinops_praeorbitalis-sc-2288165
+SAMEA3388862,NA,Lake Malawi populations,PRJEB1254,Mylochromis_ericotaenia,missing,Mylochromis_ericotaenia-sc-2288167
+SAMEA3388863,NA,Lake Malawi populations,PRJEB1254,Stigmatochromis_modestus,missing,Stigmatochromis_modestus-sc-2288169
+SAMEA3388864,NA,Lake Malawi populations,PRJEB1254,Hemitilapia_oxyrhynchus,missing,Hemitilapia_oxyrhynchus-sc-2288170
+SAMEA3388868,NA,Lake Malawi populations,PRJEB1254,Taeniolethrinops_furcicauda,missing,Taeniolethrinops_furcicauda-sc-2288178
+SAMEA3388870,NA,Lake Malawi populations,PRJEB1254,Dimidiochromis_strigatus,missing,Dimidiochromis_strigatus-sc-2288182
+SAMEA3388871,NA,Lake Malawi populations,PRJEB1254,Pallidochromis_tokolosh,missing,Pallidochromis_tokolosh-sc-2288183
+SAMEA3388872,NA,Lake Malawi populations,PRJEB1254,Otopharynx_lithobates,missing,Otopharynx_lithobates-sc-2288186
+SAMEA3388873,NA,Lake Malawi populations,PRJEB1254,Rhamphochromis_esox,missing,Rhamphochromis_esox-sc-2288187
+SAMEA3388874,NA,Lake Malawi populations,PRJEB1254,Maylandia_zebra,missing,Metriaclima_zebra-sc-2288188
+SAMEA1920096,NA,Lake Malawi trios,PRJEB1254,Aulonocara_stuartgranti,missing,Aulonocara_stuartgranti__Usisya___father_-sc-2013-01-28T12:01:21Z-1530727
+SAMEA1920097,NA,Lake Malawi trios,PRJEB1254,Aulonocara_stuartgranti,missing,Aulonocara_stuartgranti__Usisya___mother_-sc-2013-01-28T12:01:22Z-1530728
+SAMEA1920098,NA,Lake Malawi trios,PRJEB1254,Aulonocara_stuartgranti,missing,Aulonocara_stuartgranti__Usisya___offspring_-sc-2013-01-28T12:01:23Z-1530729
+SAMEA1920093,NA,Lake Malawi trios,PRJEB1254,Lethrinops_lethrinus,missing,Lethrinops_lethrinus__Mazinzi___father_-sc-2013-01-28T12:01:12Z-1530720
+SAMEA1920094,NA,Lake Malawi trios,PRJEB1254,Lethrinops_lethrinus,missing,Lethrinops_lethrinus__Mazinzi___mother_-sc-2013-01-28T12:01:13Z-1530721
+SAMEA1920095,NA,Lake Malawi trios,PRJEB1254,Lethrinops_lethrinus,missing,Lethrinops_lethrinus__Mazinzi___offspring_-sc-2013-01-28T12:01:15Z-1530722
+SAMEA1920091,NA,Lake Malawi trios,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Salima___offspring_-sc-2013-01-28T12:01:11Z-1530719
+SAMEA2661273,NA,Malawi catchment,PRJEB1254,Serranochromis_robustus,missing,Serranochromis_robustus-sc-2016583
+SAMEA2661388,NA,Indian ocean catchments,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera_Upper_Rovuma-sc-2016917
+SAMEA2661249,NA,Outgroup,PRJEB1254,Astatotilapia,missing,Astatotilapia__rujewa_-sc-2016559
+SAMEA3388867,NA,Outgroup,PRJEB1254,Haplochromis_tweddlei,missing,Astatotilapia_tweddlei-sc-2288176
+SAMEA3480882,NA,NA,PRJEB1254,Protomelas_spilopterus,missing,Hemitaeniochromis_spilopterus-sc-2288164
+SAMEA3388865,NA,NA,PRJEB1254,Serranochromis_robustus,missing,Serranochromis_robustus-sc-2288171
+SAMEA2661302,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__6-sc-2016819
+SAMEA2661332,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__36-sc-2016849
+SAMEA2661340,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__8-sc-2016857
+SAMEA2661348,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__16-sc-2016865
+SAMEA2661441,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_yellow__12-sc-2016970
+SAMEA2661447,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__22-sc-2016976
+SAMEA2661448,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__24-sc-2016977
+SAMEA2661449,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__25-sc-2016978
+SAMEA2661450,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__26-sc-2016979
+SAMEA2661451,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__27-sc-2016980
+SAMEA2661263,NA,NA,PRJEB1254,Fossorochromis_rostratus,missing,Fossorochromis_rostratus_2-sc-2016573
+SAMEA1877489,NA,NA,PRJEB1254,Aulonocara_stuartgranti,missing,Aulonocara_stuartgranti__maisoni_-sc-2012-12-14T14:26:39Z-1512704
+SAMEA1877433,NA,NA,PRJEB1254,Mylochromis_anaphyrmus,missing,Mylochromis_anaphyrmus-sc-2012-12-14T14:26:24Z-1512691
+SAMEA1877497,NA,NA,PRJEB1254,Copadichromis_mloto,missing,Copadichromis_mloto-sc-2012-12-14T14:26:25Z-1512692
+SAMEA1877469,NA,NA,PRJEB1254,Placidochromis_vulgaris,missing,Placidochromis_vulgaris-sc-2012-12-14T14:26:27Z-1512693
+SAMEA2661311,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__15-sc-2016828
+SAMEA2661364,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__32-sc-2016881
+SAMEA2661372,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__2-sc-2016889
+SAMEA2661401,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_olive__20-sc-2016930
+SAMEA2661416,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Itamba_blue__2-sc-2016945
+SAMEA2661323,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_littoral__27-sc-2016840
+SAMEA2661356,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__24-sc-2016873
+SAMEA2661361,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__29-sc-2016878
+SAMEA2661283,NA,NA,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis_LM_1-sc-2016593
+SAMEA2661285,NA,NA,PRJEB1254,Copadichromis_virginalis,missing,Copadichromis_virginalis_LM_3-sc-2016595
+SAMEA2661247,NA,NA,PRJEB1254,Aulonocara_sp._'gold',missing,Aulonocara__gold_-sc-2016557
+SAMEA2661248,NA,NA,PRJEB1254,Aulonocara,missing,Aulonocara__blue_chilumba_-sc-2016558
+SAMEA2661251,NA,NA,PRJEB1254,Dimidiochromis_compressiceps,missing,Dimidiochromis_compressiceps-sc-2016561
+SAMEA2661252,NA,NA,PRJEB1254,Diplotaxodon_cf._macrops_'black_dorsal',missing,Diplotaxodon_macrops_black_dorsal-sc-2016562
+SAMEA2661259,NA,NA,PRJEB1254,Cyathochromis_obliquidens,missing,Cyathochromis_obliquidens-sc-2016569
+SAMEA2661261,NA,NA,PRJEB1254,Fossorochromis_rostratus,missing,Fossorochromis_rostratus_1-sc-2016571
+SAMEA2661292,NA,NA,PRJEB1254,Aulonocara_stuartgranti,missing,A__stuartgranti_female_offspring_1-sc-2016623
+SAMEA2661296,NA,NA,PRJEB1254,Andinoacara_coeruleopunctatus,missing,Andinoacara_coeruleopunctatus-sc-2016627
+SAMEA2661360,NA,NA,PRJEB1254,Astatotilapia,missing,Astatotilapia__Massoko_benthic__28-sc-2016877
+SAMEA1904832,NA,NA,PRJEB1254,Lethrinops_lethrinus,missing,Lethrinops_lethrinus__offspring_mate_pair_-sc-2013-03-08T16:19:19Z-1581603
+SAMEA1904837,NA,NA,PRJEB1254,Aulonocara_stuartgranti,missing,Aulonocara_stuartgranti__offspring_mate_pair_-sc-2013-03-08T16:19:27Z-1581604
+SAMEA6147773,NA,NA,PRJEB1254,Copadichromis_likomae,missing,NA
+SAMEA6147774,NA,NA,PRJEB1254,Diplotaxodon_sp._'macrops_ngulube',missing,NA
+SAMEA2661294,NA,NA,PRJEB1254,Aulonocara_stuartgranti,missing,A__stuartgranti_female_offspring_2-sc-2016625
+SAMEA2661254,NA,NA,PRJEB1254,Copadichromis_borleyi,missing,Copadichromis_borleyi-sc-2016564
+SAMEA3388875,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Itupi_-sc-2288189
+SAMEA3388876,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Itupi_-sc-2288190
+SAMEA3388877,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Itupi_-sc-2288191
+SAMEA2661291,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,A__calliptera_Salima_male_offspring_1-sc-2016622
+SAMEA2661293,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,A__calliptera_Salima_male_offspring_2-sc-2016624
+SAMEA2661295,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,A__calliptera_Salima_female_offspring-sc-2016626
+SAMEA1904833,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__offspring_mate_pair_-sc-2013-03-08T16:19:09Z-1581602
+SAMEA3388878,NA,NA,PRJEB1254,Astatotilapia_calliptera,missing,Astatotilapia_calliptera__Itupi_-sc-2288192

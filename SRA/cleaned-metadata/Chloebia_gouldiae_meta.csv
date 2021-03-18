@@ -1,0 +1,25 @@
+BioProject,BioSample,Organism,Ecotype,Collection_date,Country,Continent,Locality,lat_lon,sex,Submitter_Id
+PRJNA515277,SAMN10751928,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,221
+PRJNA515277,SAMN10751929,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,222
+PRJNA515277,SAMN10751926,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,215
+PRJNA515277,SAMN10751927,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,216
+PRJNA515277,SAMN10751907,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,29
+PRJNA515277,SAMN10751906,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,23
+PRJNA515277,SAMN10751909,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,91
+PRJNA515277,SAMN10751908,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,61
+PRJNA515277,SAMN10751911,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,131
+PRJNA515277,SAMN10751910,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,114
+PRJNA515277,SAMN10751913,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,133
+PRJNA515277,SAMN10751912,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,132
+PRJNA515277,SAMN10751915,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,138
+PRJNA515277,SAMN10751914,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,137
+PRJNA515277,SAMN10751925,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,212
+PRJNA515277,SAMN10751924,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,207
+PRJNA515277,SAMN10751919,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,185
+PRJNA515277,SAMN10751918,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,179
+PRJNA515277,SAMN10751917,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,170
+PRJNA515277,SAMN10751916,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,139
+PRJNA515277,SAMN10751923,Chloebia_gouldiae,red,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,female,206
+PRJNA515277,SAMN10751922,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,202
+PRJNA515277,SAMN10751921,Chloebia_gouldiae,black,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,196
+PRJNA515277,SAMN10751920,Chloebia_gouldiae,yellow,2016-03-06,USA,North America,USA: Ithaca,42.480188 N 76.473953 W,male,187

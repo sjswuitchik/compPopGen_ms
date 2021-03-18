@@ -2,6 +2,8 @@
 
 For each species, manual curation is necessary to produce a usable sample sheet (in most cases). These are processing notes on each species.
 
+At the moment, there is no automated way to add assembly / publication data for each metadata file, and so this is manually tracked via Google Sheet, here
+
 ### Setup
 
 First we load libraries
@@ -123,11 +125,11 @@ Will need to think a bit about whether this is usable, but the metadata is here 
 sp="Astatotilapia_calliptera"
 bp="PRJEB1254"
 
-sra<-get_sra(bp, opt_cols = c("Organism", "Alias")) %>% 
+sra<-get_sra(bp, opt_cols = c("Alias")) %>% 
   rename(Submitter_Id = Alias)
 
 supmat1<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4700518/bin/NIHMS66047-supplement-01.pdf"
-table16<-do.call(rbind,extract_tables(supmat, pages=c(47:47)))
+table16<-do.call(rbind,extract_tables(supmat1, pages=c(47:47)))
 colnames(table16) <- c("SampleName", "BioSample")
 
 paper1<-as_tibble(table16) %>% separate_rows(BioSample, sep=",") %>% filter(SampleName != "Samples") %>%
@@ -180,7 +182,105 @@ sra<-get_sra(sp, opt_cols = c("Sample Name")) %>%
   rename(Submitter_Id = `Sample Name`) %>%
   separate(Submitter_Id, into=c("Population"), remove=FALSE, extra="drop")
 
-sra %>% write_csv(str_c(clean_metadata_path, bp, "_meta.csv"))
+sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 
 ```
+
+### Athene cunicularia
+
+SRA submission mostly looks good, although there does not appear to be a way to link the SRA populations (A, B, C) to the real world places they are from.
+
+```{r}
+
+sp="Athene_cunicularia"
+  
+sra<-get_sra(sp, opt_cols = c("Sample Name", "Ecotype")) %>% 
+  rename(Submitter_Id = `Sample Name`) %>%
+  separate(Ecotype, into=c("Site", "Site_Type", "Year"), remove=FALSE, extra="drop")
+
+sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+```
+
+### Chaenogobius annularis
+
+Adding information about population defined in the paper (Pacific Ocean vs Sea of Japan). 
+
+Japan:Misaki -> PO
+Japan:Misaki -> PO
+Japan:Onagawa -> PO
+Japan:Onagawa -> PO
+Japan:Aomori -> SJ
+Japan:Aomori -> SJ
+Japan:Aomori -> SJ
+Japan:Murakami -> SJ
+Japan:Murakami -> SJ
+Japan:Murakami -> SJ
+Japan:Misaki -> PO
+Japan:Onagawa -> PO
+
+(from Table S4 from the paper)
+
+```{r}
+
+sp="Chaenogobius_annularis"
+  
+sra<-get_sra(sp, opt_cols = c("Isolate", "Collection_date", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "Sample_Name")) %>% 
+  rename(Submitter_Id = Sample_Name, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality = geo_loc_name) %>%
+  mutate(Population = case_when(
+    Locality == "Japan:Misaki" | Locality == "Japan:Onagawa" ~ "Pacific Ocean",
+    Locality == "Japan:Aomori" | Locality == "Japan:Murakami" ~ "Sea of Japan"    
+  ))
+
+sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+
+```
+
+
+### Chloebia gouldiae
+
+Very nice SRA metadata
+
+```{r}
+
+sp="Chloebia_gouldiae"
+  
+sra<-get_sra(sp, opt_cols = c("Ecotype", "Collection_date", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "lat_lon", "Strain", "Cultivar")) %>% 
+  rename(Submitter_Id = Cultivar, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality = geo_loc_name) %>%
+  select(-sex) %>%
+  rename(sex = Strain)
+
+sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+
+```
+
+### Clupea harengus
+
+Complicated by the fact that different metadata fields are used for different BioProjects; will probably need to parse by BioProject and then combined to avoid lots of complicated case_when statements.
+
+Skipping for now.
+
+
+```{r}
+
+sp="Clupea_harengus"
+
+
+
+```
+
+### Coilia nasus
+
+
+
+```{r}
+
+sp="Coilia_nasus"
+
+
+
+```
+
+
+
+
 
