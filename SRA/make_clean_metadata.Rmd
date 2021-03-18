@@ -8,6 +8,7 @@ R setup:
 library(tidyverse)
 library(stringr)
 library(tabulizer)
+library(readxl)
 clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
 raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
 ```
@@ -21,10 +22,13 @@ Keyed on sample it / submitter id.
 
 
 ```{r}
-sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_Amphilophus_citrinellus.tsv")) %>% select(BioProject, BioSample, Submitter_Id) %>% mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS"))
+sp="Amphilophus_citrinellus"
+sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
+  select(BioProject, BioSample, Submitter_Id) %>% 
+  mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS"))
 dryad_link<-"https://datadryad.org/stash/downloads/file_stream/561311"
 paper<-read_csv(dryad_link) %>% select(Sample_name, Species, Lake, Sampling_Year)
-inner_join(paper,sra,by=c("Sample_name" = "Submitter_Id")) %>% write_csv(str_c(clean_metadata_path, "Amphilophus-citrinellus-meta.csv"))
+inner_join(paper,sra,by=c("Sample_name" = "Submitter_Id")) %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 ```
 
 ### Anas platyrhynchos
@@ -32,7 +36,9 @@ inner_join(paper,sra,by=c("Sample_name" = "Submitter_Id")) %>% write_csv(str_c(c
 Sample metadata embedded in PDF in supplemental material: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf
 
 ```{r}
-sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_Anas_platyrhynchos.tsv")) %>% select(BioProject, BioSample, Sample_Type, sex) %>% 
+sp="Anas_platyrhynchos"
+sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
+  select(BioProject, BioSample, Sample_Type, sex) %>% 
   mutate(Sample_Type = str_remove(Sample_Type, "_F"))
 
 supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf"
@@ -42,6 +48,46 @@ colnames(paper) <- c("sample", "breed", "mapping_rate", "insert_size", "depth")
 paper %>% as_tibble %>% select(sample, breed) %>% 
   filter(breed != "Breed", breed != "") %>% 
   left_join(sra, by=c("sample" = "Sample_Type")) %>%
-  write_csv(str_c(clean_metadata_path, "Anas-platyrhynchos-meta.csv"))
+  write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 ```
+
+### Anguilla anguilla
+
+Metadata provided to SRA is great and totally complete, no need to dig into paper.
+Generally this is very low coverage data, with only a fraction of individuals above 5x, so may not be great.
+Closely related species Anguilla rostrata also available
+
+```{r}
+sp="Anguilla_anguilla"
+sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
+  select(BioProject, BioSample, Isolate, Ecotype, Collection_date, lat_lon,
+         Country=geo_loc_name_country, Continent=geo_loc_name_country_continent,
+         Locality=geo_loc_name) %>% 
+    write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+```
+
+### Anolis carolinensis
+
+Single individuals of A. porcatus and A. allisoni in same BioProject.
+
+Metadata is okay, but need to get more info about location from the paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/
+
+Locked in a Zip archive so need to process
+
+```{r}
+sp="Anolis_carolinensis"
+sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
+  select(BioProject, BioSample, Submitter_Id = `Sample Name`, Isolate = Sample_Type)
+
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/bin/evz110_supplementary_data.zip"
+temp <- tempfile()
+download.file(supmat,temp)
+unzip(temp, files=c("Table_S1.xlsx"), junkpaths=TRUE, exdir=raw_metadata_path)
+paper<-read_excel(str_c(raw_metadata_path, "Table_S1.xlsx")) %>% select(Sample:Longitude)
+unlink(temp)
+
+inner_join(paper, sra, by=c("Sample" = "Submitter_Id")) %>% 
+  write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+```
+
 
