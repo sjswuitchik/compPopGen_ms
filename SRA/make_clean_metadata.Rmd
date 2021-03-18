@@ -114,22 +114,66 @@ inner_join(paper, sra, by=c("Sample" = "Submitter_Id")) %>%
 
 ### Astatotilapia calliptera
 
-This dataset is complex, spanning many species in the cichild flock. Best to process by BioProject, not species.
+This dataset is complex, spanning many species in the cichild flock. Best to process by BioProject, not species. The metadata is also terrible and poorly organized / hard to parse.
+
+Will need to think a bit about whether this is usable, but the metadata is here if needed.
 
 ```{r}
 sp="Astatotilapia_calliptera"
 bp="PRJEB1254"
 
+split_biosample <- function(text) {
+  seq2 <- Vectorize(seq.default, vectorize.args = c("from", "to"))
+  split_input <- as_tibble(str_split(text, "-", simplify = TRUE)) %>% 
+    mutate(V2 = ifelse(V2 == "", V1, V2)) %>%
+    mutate(output = sapply(seq2(from=str_remove(V1, "SAMEA"), to=str_remove(V2, "SAMEA"), by=1), paste, sep="", collapse=",")) %>%
+    pull(output)
+}
+  
 sra<-get_sra(bp, opt_cols = c("Organism", "Alias")) %>% 
   rename(Submitter_Id = Alias)
 
-
----
-supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4700518/bin/NIHMS66047-supplement-01.pdf"
+supmat1<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4700518/bin/NIHMS66047-supplement-01.pdf"
 table16<-do.call(rbind,extract_tables(supmat, pages=c(47:47)))
 colnames(table16) <- c("SampleName", "BioSample")
-paper<-as_tibble(table16) %>% separate_rows(BioSample) %>% filter(SampleName != "Samples") %>%
-  full_join(sra, by=c("BioSample" = "BioSample"))
-  
 
+paper1<-as_tibble(table16) %>% separate_rows(BioSample, sep=",") %>% filter(SampleName != "Samples") %>%
+  filter(BioSample != "") %>%
+  separate_rows(BioSample, sep=",") %>%
+  mutate(BioSample = str_remove(BioSample, "\\r")) %>%
+  mutate(BioSample = trimws(BioSample)) %>%
+  mutate(BioSample = split_biosample(BioSample)) %>%
+  separate_rows(BioSample) %>% select(BioSample, SampleName) %>%
+  mutate(BioSample = str_c("SAMEA", BioSample))
+
+supmat2<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443041/bin/NIHMS82209-supplement-Supplementary_information.pdf"
+table4 <- do.call(rbind,extract_tables(supmat2, pages=c(50:50)))
+colnames(table4) <- c("SampleName", "BioSample")
+
+paper2<-as_tibble(table4) %>% filter(SampleName != "Samples") %>%
+  mutate(SampleNameClean = c(rep("Lake Malawi populations",11), rep("Lake Malawi trios",3), 
+                        rep("Malawi catchment", 2), rep("Indian ocean catchments", 2),
+                        rep("Outgroup", 6))) %>%
+  filter(BioSample != "") %>%
+  separate_rows(BioSample, sep=",") %>%
+  mutate(BioSample = str_remove(BioSample, "A. stuartgranti")) %>%
+  mutate(BioSample = str_remove(BioSample, "L. lethrinus")) %>%
+  mutate(BioSample = str_remove(BioSample, "A. calliptera Salima")) %>%
+  mutate(BioSample = trimws(BioSample)) %>%
+  filter(str_detect(BioSample, "SAMEA")) %>%
+  mutate(BioSample = str_replace(BioSample, "SAMEA1904329-", "SAMEA1904329-SAMEA1904331")) %>%
+  mutate(BioSample = str_replace(BioSample, "SAMEA1904350-", "SAMEA1904350-SAMEA1904353")) %>%
+  mutate(BioSample = trimws(BioSample)) %>%
+  mutate(BioSample = split_biosample(BioSample)) %>%
+  separate_rows(BioSample) %>% select(BioSample, SampleNameClean) %>%
+  mutate(BioSample = str_c("SAMEA", BioSample))
+
+full_join(paper1, paper2, by=c("BioSample" = "BioSample")) %>% distinct() %>% 
+  full_join(sra, by=c("BioSample" = "BioSample")) %>% distinct() %>%
+  rename(SampleName1 = SampleName, SampleName2 = SampleNameClean) %>%
+  filter(!is.na(BioProject)) %>%
+  write_csv(str_c(clean_metadata_path, bp, "_meta.csv"))
 ```
+
+
+
