@@ -168,8 +168,15 @@ bioprojects %>%
   left_join(sra_full, by=c("BioProject" = "BioProject")) %>%
   mutate(use_species = ifelse(Organism %in% bioprojects$Organism, 1, 0)) %>%
   mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>%
+  mutate(sex = case_when(
+    is.na(sex) ~ "missing",
+    sex == "male and female" | sex == "mixed" | sex == "pooled male and female" ~ "pooled",
+    tolower(sex) == "na" | tolower(sex) == "not applicable"  ~ "missing",
+    tolower(sex) == "not collected" | tolower(sex) == "not determined" ~ "unknown",
+    TRUE ~ sex
+  )) %>%
   split(., .$Organism) %>%
-  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), path = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
+  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
 
 #also make a version by bioproject
 
@@ -178,8 +185,15 @@ bioprojects %>%
   left_join(sra_full, by=c("BioProject" = "BioProject")) %>%
   mutate(use_species = ifelse(Organism %in% bioprojects$Organism, 1, 0)) %>%
   mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>%
+  mutate(sex = case_when(
+    is.na(sex) ~ "missing",
+    sex == "male and female" | sex == "mixed" | sex == "pooled male and female" ~ "pooled",
+    tolower(sex) == "na" | tolower(sex) == "not applicable"  ~ "missing",
+    tolower(sex) == "not collected" | tolower(sex) == "not determined" ~ "unknown",
+    TRUE ~ sex
+  )) %>%
   split(., .$BioProject) %>%
-  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), path = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
+  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
 
 
 #organism metadata - genome assembly accession and annotation information

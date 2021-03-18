@@ -13,14 +13,14 @@ library(tabulizer)
 library(readxl)
 ```
 
-Then we set some default processing
+Then we set some default processing. For all datasets, we need the BioProject (to link to publication), the BioSample (to link to VCF), and Organism. 
 
 ```{r}
 clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
 raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
 
 get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
-  default_cols = c("BioProject", "BioSample")
+  default_cols = c("BioProject", "BioSample", "Organism")
   if (missing(opt_cols)) {
     cols = enquo(default_cols)
   } else {
