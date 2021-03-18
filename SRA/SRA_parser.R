@@ -176,7 +176,7 @@ bioprojects %>%
     TRUE ~ sex
   )) %>%
   split(., .$Organism) %>%
-  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
+  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA-sample-metadata/SRA_Metadata_', .y, '.tsv')))
 
 #also make a version by bioproject
 
@@ -193,7 +193,7 @@ bioprojects %>%
     TRUE ~ sex
   )) %>%
   split(., .$BioProject) %>%
-  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
+  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA-sample-metadata/SRA_Metadata_', .y, '.tsv')))
 
 
 #organism metadata - genome assembly accession and annotation information

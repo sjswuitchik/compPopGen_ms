@@ -4,7 +4,7 @@ For each species, manual curation is necessary to produce a usable sample sheet 
 
 ### Setup
 
-First we load librarys
+First we load libraries
 
 ```{r}
 library(tidyverse)
@@ -20,7 +20,7 @@ clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
 raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
 
 get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
-  default_cols = c("BioProject", "BioSample", "Organism")
+  default_cols = c("BioProject", "BioSample", "Organism", "sex")
   if (missing(opt_cols)) {
     cols = enquo(default_cols)
   } else {
