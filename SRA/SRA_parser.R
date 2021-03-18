@@ -17,6 +17,10 @@ read_sra_clean <- function(file, path) {
            Ecotype, Strain)
 }
 
+read_sra_full <- function(file, path) {
+  df<-read_csv(paste0(path, "/", file), cols(.default="c"), col_names = TRUE)
+}
+
 read_assembly_clean <- function(file, path) {
   df<-read_tsv(paste0(path, "/", file, "_data_summary.tsv"), col_names = TRUE) %>%
     rename_with(~ gsub(" ", "", .x, fixed=TRUE))
@@ -145,13 +149,38 @@ datasets_final %>% filter(Organism %in% ingroups$Organism) %>%
 
 #sample metadata -- much of this will be incomplete since it needs to be linked to the publication, but it is a start
 
+#start by reloading original SRA runselector metadata, since people use all sorts of weird fields for the "original" sample id
+
+sra_list_full<-lapply(files, read_sra_full, path="~/Projects/popgen/compPopGen_ms/SRA")
+
+#may be some parsing errors due to heading issues but shouldn't matter
+
+#flatten to single tibble, with distinct in case of duplicates in searches
+
+sra_full<-bind_rows(sra_list_full) %>% distinct()
+
 not_all_na <- function(x) {!all(is.na(x))}
 
-datasets_final %>% filter(Organism %in% ingroups$Organism) %>% 
-  select(Organism, BioProject = BioProject.popgen, BioSample = BioSample.popgen, SampleName, Sex = sex, Isolate, Country, Continent, Locality, Ecotype, Strain) %>% 
+#this makes more metadata than we need, but should be more complete and not require re-downloading anything from run selector
+
+bioprojects %>% 
+  select(BioProject) %>% distinct() %>% 
+  left_join(sra_full, by=c("BioProject" = "BioProject")) %>%
+  mutate(use_species = ifelse(Organism %in% bioprojects$Organism, 1, 0)) %>%
   mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>%
   split(., .$Organism) %>%
   imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), path = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
+
+#also make a version by bioproject
+
+bioprojects %>% 
+  select(BioProject) %>% distinct() %>% 
+  left_join(sra_full, by=c("BioProject" = "BioProject")) %>%
+  mutate(use_species = ifelse(Organism %in% bioprojects$Organism, 1, 0)) %>%
+  mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>%
+  split(., .$BioProject) %>%
+  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), path = str_c(path_to_write, '/SRA_Metadata_', .y, '.tsv')))
+
 
 #organism metadata - genome assembly accession and annotation information
 

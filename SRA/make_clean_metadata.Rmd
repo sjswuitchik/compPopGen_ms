@@ -1,0 +1,47 @@
+## Notes
+
+For each species, manual curation is necessary to produce a usable sample sheet (in most cases). These are processing notes on each species.
+
+R setup:
+
+```{r}
+library(tidyverse)
+library(stringr)
+library(tabulizer)
+clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
+raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
+```
+
+
+#### Amphilophus citrinellus
+
+Sample metadata downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.bcc2fqz91
+
+Keyed on sample it / submitter id.
+
+
+```{r}
+sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_Amphilophus_citrinellus.tsv")) %>% select(BioProject, BioSample, Submitter_Id) %>% mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS"))
+dryad_link<-"https://datadryad.org/stash/downloads/file_stream/561311"
+paper<-read_csv(dryad_link) %>% select(Sample_name, Species, Lake, Sampling_Year)
+inner_join(paper,sra,by=c("Sample_name" = "Submitter_Id")) %>% write_csv(str_c(clean_metadata_path, "Amphilophus-citrinellus-meta.csv"))
+```
+
+### Anas platyrhynchos
+
+Sample metadata embedded in PDF in supplemental material: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf
+
+```{r}
+sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_Anas_platyrhynchos.tsv")) %>% select(BioProject, BioSample, Sample_Type, sex) %>% 
+  mutate(Sample_Type = str_remove(Sample_Type, "_F"))
+
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf"
+paper<-do.call(rbind,extract_tables(supmat, pages=c(38:40)))
+colnames(paper) <- c("sample", "breed", "mapping_rate", "insert_size", "depth")
+
+paper %>% as_tibble %>% select(sample, breed) %>% 
+  filter(breed != "Breed", breed != "") %>% 
+  left_join(sra, by=c("sample" = "Sample_Type")) %>%
+  write_csv(str_c(clean_metadata_path, "Anas-platyrhynchos-meta.csv"))
+```
+

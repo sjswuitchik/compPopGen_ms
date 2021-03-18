@@ -1,9 +1,9 @@
-Organism	BioProject	BioSample	SampleName	Sex	Strain
-Takifugu_flavidus	PRJNA522329	SAMN10928548	F04	not determined	F04
-Takifugu_flavidus	PRJNA522329	SAMN10928551	F11	not determined	F11
-Takifugu_flavidus	PRJNA522329	SAMN10928550	F10	not determined	F10
-Takifugu_flavidus	PRJNA522329	SAMN10928553	F14	not determined	F14
-Takifugu_flavidus	PRJNA522329	SAMN10928552	F13	not determined	F13
-Takifugu_flavidus	PRJNA522329	SAMN10928555	F17	not determined	F17
-Takifugu_flavidus	PRJNA522329	SAMN10928554	F16	not determined	F16
-Takifugu_flavidus	PRJNA522329	SAMN10928549	F08	not determined	F08
+BioProject	Run	Assay Type	AvgSpotLen	Bases	BioSample	Bytes	Center Name	Consent	DATASTORE filetype	DATASTORE provider	DATASTORE region	Experiment	Instrument	Library Name	LibraryLayout	LibrarySelection	LibrarySource	Organism	Platform	ReleaseDate	Sample Name	SRA Study	BioSampleModel	sex	Tissue	dev_stage	Strain	use_species
+PRJNA522329	SRR8585980	WGS	300	4821997500	SAMN10928548	1510027637	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386614	HiSeq X Ten	F04	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F04	SRP186117	Model organism or animal	not determined	fin	adult	F04	0
+PRJNA522329	SRR8585981	WGS	300	6460809000	SAMN10928551	1962426079	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386613	HiSeq X Ten	F11	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F11	SRP186117	Model organism or animal	not determined	fin	adult	F11	0
+PRJNA522329	SRR8585982	WGS	300	4517325300	SAMN10928550	1467893716	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386612	HiSeq X Ten	F10	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F10	SRP186117	Model organism or animal	not determined	fin	adult	F10	0
+PRJNA522329	SRR8585983	WGS	300	5163055200	SAMN10928553	1615603252	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386611	HiSeq X Ten	F14	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F14	SRP186117	Model organism or animal	not determined	fin	adult	F14	0
+PRJNA522329	SRR8585984	WGS	300	4789647000	SAMN10928552	1540755285	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386610	HiSeq X Ten	F13	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F13	SRP186117	Model organism or animal	not determined	fin	adult	F13	0
+PRJNA522329	SRR8585985	WGS	300	4695105900	SAMN10928555	1524385519	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386609	HiSeq X Ten	F17	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F17	SRP186117	Model organism or animal	not determined	fin	adult	F17	0
+PRJNA522329	SRR8585986	WGS	300	5507718300	SAMN10928554	1689287422	CAFS	public	fastq,sra	gs,ncbi,s3	gs.US,ncbi.public,s3.us-east-1	SRX5386608	HiSeq X Ten	F16	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F16	SRP186117	Model organism or animal	not determined	fin	adult	F16	0
+PRJNA522329	SRR8586069	WGS	300	4080783900	SAMN10928549	1272035312	CAFS	public	fastq,sra	gs,s3,ncbi	ncbi.public,s3.us-east-1,gs.US	SRX5386525	HiSeq X Ten	F08	PAIRED	RANDOM	GENOMIC	Takifugu_flavidus	ILLUMINA	2019-02-17T00:00:00Z	F08	SRP186117	Model organism or animal	not determined	fin	adult	F08	0
