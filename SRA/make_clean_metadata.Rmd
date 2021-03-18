@@ -2,15 +2,35 @@
 
 For each species, manual curation is necessary to produce a usable sample sheet (in most cases). These are processing notes on each species.
 
-R setup:
+### Setup
+
+First we load librarys
 
 ```{r}
 library(tidyverse)
 library(stringr)
 library(tabulizer)
 library(readxl)
+```
+
+Then we set some default processing
+
+```{r}
 clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
 raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
+
+get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
+  default_cols = c("BioProject", "BioSample")
+  if (missing(opt_cols)) {
+    cols = enquo(default_cols)
+  } else {
+    default_cols = c(default_cols, opt_cols)
+    cols = enquo(default_cols)
+  }
+  read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
+    select(!!cols)
+}
+  
 ```
 
 
@@ -23,8 +43,7 @@ Keyed on sample it / submitter id.
 
 ```{r}
 sp="Amphilophus_citrinellus"
-sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
-  select(BioProject, BioSample, Submitter_Id) %>% 
+sra<-get_sra(sp, opt_cols = c("Submitter_Id")) %>%
   mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS"))
 dryad_link<-"https://datadryad.org/stash/downloads/file_stream/561311"
 paper<-read_csv(dryad_link) %>% select(Sample_name, Species, Lake, Sampling_Year)
@@ -37,8 +56,7 @@ Sample metadata embedded in PDF in supplemental material: https://www.ncbi.nlm.n
 
 ```{r}
 sp="Anas_platyrhynchos"
-sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
-  select(BioProject, BioSample, Sample_Type, sex) %>% 
+sra<-get_sra(sp, opt_cols = c("Sample_Type", "sex")) %>% 
   mutate(Sample_Type = str_remove(Sample_Type, "_F"))
 
 supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf"
@@ -59,9 +77,12 @@ Closely related species Anguilla rostrata also available
 
 ```{r}
 sp="Anguilla_anguilla"
-sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
-  select(BioProject, BioSample, Isolate, Ecotype, Collection_date, lat_lon,
-         Country=geo_loc_name_country, Continent=geo_loc_name_country_continent,
+
+sra<-get_sra(sp, opt_cols = c("Isolate", "Ecotype", "Collection_date", "lat_lon", 
+                              "geo_loc_name_country", "geo_loc_name_country_continent", 
+                              "geo_loc_name")) %>%
+  rename(Country=geo_loc_name_country, 
+         Continent=geo_loc_name_country_continent,
          Locality=geo_loc_name) %>% 
     write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 ```
@@ -76,8 +97,9 @@ Locked in a Zip archive so need to process
 
 ```{r}
 sp="Anolis_carolinensis"
-sra<-read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
-  select(BioProject, BioSample, Submitter_Id = `Sample Name`, Isolate = Sample_Type)
+
+sra<-get_sra(sp, opt_cols = c("Sample Name", "Sample_Type")) %>% 
+  rename(Submitter_Id = `Sample Name`, Isolate = Sample_Type)
 
 supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/bin/evz110_supplementary_data.zip"
 temp <- tempfile()
@@ -90,4 +112,24 @@ inner_join(paper, sra, by=c("Sample" = "Submitter_Id")) %>%
   write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 ```
 
+### Astatotilapia calliptera
 
+This dataset is complex, spanning many species in the cichild flock. Best to process by BioProject, not species.
+
+```{r}
+sp="Astatotilapia_calliptera"
+bp="PRJEB1254"
+
+sra<-get_sra(bp, opt_cols = c("Organism", "Alias")) %>% 
+  rename(Submitter_Id = Alias)
+
+
+---
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4700518/bin/NIHMS66047-supplement-01.pdf"
+table16<-do.call(rbind,extract_tables(supmat, pages=c(47:47)))
+colnames(table16) <- c("SampleName", "BioSample")
+paper<-as_tibble(table16) %>% separate_rows(BioSample) %>% filter(SampleName != "Samples") %>%
+  full_join(sra, by=c("BioSample" = "BioSample"))
+  
+
+```
