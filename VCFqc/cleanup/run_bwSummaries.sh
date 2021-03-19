@@ -10,6 +10,8 @@
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
 # sbatch run_bwSummaries.sh spp_name
 
+set -o errexit
+
 awk 'BEGIN{FS=OFS="\t"}{print $1, 0, $2, $1}' $1/$1.chrom.sizes > $1/$1.genome.bed
 
 ./bedGraphToBigWig $1/$1.merge.bg $1/$1.chrom.sizes $1/$1.merge.bw
