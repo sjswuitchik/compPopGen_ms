@@ -8,7 +8,7 @@
 #SBATCH --mem=8000
 
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
-# sbatch write_coverage_beds.sh spp_name 
+# sbatch write_coverage_beds.sh spp_name genomewideavgcov
 
 ## untested as written here 
 
