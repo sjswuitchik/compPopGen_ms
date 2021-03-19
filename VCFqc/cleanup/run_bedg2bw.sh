@@ -18,7 +18,6 @@ done
 
 mkdir -p $1/unsortedBG
 mv $1/*.dedup.sorted.bam.bg $1/unsortedBG
-gzip $1/unsortedBG/*.bg
 
 for file in $1/*.bg;
 do
