@@ -1,6 +1,6 @@
 #!/usr/bin/awk -f
 
-# usage: gzip -dc spp_name.merge.bg.gz | awk -v avg=x -v spp=spp_name -f sum_cov.awk
+# usage when not called in write_coverage_beds.sh: gzip -dc spp_name.merge.bg.gz | awk -v avg=x -v spp=spp_name -f sum_cov.awk
 
 BEGIN { 
     FS = OFS = "\t"
