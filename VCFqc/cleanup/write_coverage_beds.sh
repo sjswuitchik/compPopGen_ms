@@ -10,7 +10,6 @@
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
 # sbatch write_coverage_beds.sh spp_name genomewideavgcov
 
-## untested as written here 
+mean=$(awk '{sum = sum+$4}{size=size+$2}{avg=sum/size}END{print avg}' $1.summary.tab)
 
-cd $1/
-gzip -dc $1.merge.bg.gz | awk -v "avg=$2" "spp=$1" -f sum_cov.awk
+gzip -dc $1.merge.bg.gz | awk -v avg=$mean spp=$1 -f sum_cov.awk
