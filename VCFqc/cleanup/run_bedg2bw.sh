@@ -21,8 +21,9 @@ mv $1/*.dedup.sorted.bam.bg $1/unsortedBG
 
 for file in $1/*.bg;
 do
-  ./bedGraphToBigWig $file $1.chrom.sizes $file.bw
+  ./bedGraphToBigWig $file $1/$1.chrom.sizes $1/$file.bw
 done
 
 ls $1/*.bw > $1/list
-./bigWigMerge -inList $1/list $1.merge.bg
+cd $1/ 
+.././bigWigMerge -inList list $1.merge.bg
