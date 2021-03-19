@@ -10,6 +10,8 @@
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
 # sbatch run_bedg2bw.sh spp_name
 
+set -o errexit
+
 for file in $1/*.bg;
 do
   sort -k1,1 -k2,2n $file > $file.sorted
