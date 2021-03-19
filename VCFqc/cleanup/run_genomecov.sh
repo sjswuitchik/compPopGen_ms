@@ -10,6 +10,8 @@
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir
 # sbatch run_genomecov.sh spp_name
 
+set -o errexit
+
 module load bedtools2/2.26.0-fasrc01
 
 for file in ../$1/dedup/*.dedup.sorted.bam;
