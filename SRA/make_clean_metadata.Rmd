@@ -8,7 +8,7 @@ At the moment, there is no automated way to add publication data for each metada
 
 To add a new species, you'll need to do the following:
 
-First, run the setup blocks. Input and output of sra metadata should be done using the get_sra and write_metadata functions, which standardize formats. You'll need to change the paths to point to the correct location on your computer of these files. **to change**
+First, run the setup blocks. Input and output of sra metadata should be done using the get_sra and write_metadata functions, which standardize formats. Note that the paths are relative, and by default R markdown will use the location of the document as the working directory. So you shouldn't need to change any paths as long as you don't move files around.
 
 The get_sra function takes a BioProject ID (or species, but better to use BioProjects in most cases), and reads in the default columns from the sample metadata file (BioProjet, BioSample, Organism, sex). You'll likely want to read in additional columns, but which changes from dataset to dataset. Generally I try to capture location / population information, but for the moment have not been worrying about much else, except fields I'll need to filter on later (to remove domesticated samples, pooled samples, etc). 
 
@@ -40,14 +40,14 @@ Then we set some default processing. For all datasets, we need the BioProject (t
 Paths for input and output:
 
 ```{r}
-clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
-raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
+clean_metadata_path <- "cleaned-metadata/"
+raw_metadata_path <- "SRA-sample-metadata/"
 ```
 
 A genome key file that links reference species to GenBank accession:
 
 ```{r}
-genome_key_file <- "~/Projects/popgen/compPopGen_ms/SRA/Organism_Metadata.tsv"
+genome_key_file <- "Organism_Metadata.tsv"
 genome_key <- read_tsv(file=genome_key_file)
 ```
 
