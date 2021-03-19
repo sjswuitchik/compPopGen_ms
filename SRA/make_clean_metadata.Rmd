@@ -1,8 +1,26 @@
-## Notes
+# Notes
 
 For each species, manual curation is necessary to produce a usable sample sheet (in most cases). These are processing notes on each species.
 
-At the moment, there is no automated way to add assembly / publication data for each metadata file, and so this is manually tracked via Google Sheet, here
+At the moment, there is no automated way to add publication data for each metadata file, and so this is manually tracked via Google Sheet.
+
+### Workflow
+
+To add a new species, you'll need to do the following:
+
+First, run the setup blocks. Input and output of sra metadata should be done using the get_sra and write_metadata functions, which standardize formats. You'll need to change the paths to point to the correct location on your computer of these files. **to change**
+
+The get_sra function takes a BioProject ID (or species, but better to use BioProjects in most cases), and reads in the default columns from the sample metadata file (BioProjet, BioSample, Organism, sex). You'll likely want to read in additional columns, but which changes from dataset to dataset. Generally I try to capture location / population information, but for the moment have not been worrying about much else, except fields I'll need to filter on later (to remove domesticated samples, pooled samples, etc). 
+
+It helps to look at the metadata file in Excel or a text editor to see what may be useful to read in, and also check the original paper to see what metadata they provide. Once you know what you want, specify the additional columns as a character vector to the opt_cols argument.
+
+Now, you'll have the metadata from SRA. In some cases, you are done. In other cases you'll need to parse supplemental data from papers. The readxl (Excel spreadsheets), tabulizer (PDF tables), and rvest (html) packages are helpful here; the goal is that you should not need to manually touch anything. I try to use PMC links rather than journal links as they are probably more stable. 
+
+Then you'll need to merge the sra and paper metadata, which can be tricky. If you really can't figure it out, and the SRA metadata is not sufficient on its own (the paper indicates multiple populations were sampled but you cannot link those populations to BioSamples), indicate metadata is inadequate and move on. 
+
+Finally, you'll need to do some last cleanup and export. The Organism field is key here, as the export code splits on this field to produce one file per species. Check to make sure this field is correct (some datasets have a separate "Species" field or something that is more accuracte than Organism). Anything only identified to the genus level (e.g., Genus cf. species; Genus spp; Genus) should be renamed to Genus_spp, and all bionomials should be renamed to replace spaces with underscores (since these will become filenames). Then, run the export code, write_metadata. This splits the input dataframe by Organism, and adds a reference genome column based on the reference species indicated in the sp argument and the genome_key file.
+
+All done! Don't forget to git commit and git push, with a helpful commit message, such as "Added metadata for species xxxx".
 
 ### Setup
 
@@ -86,7 +104,7 @@ sra<-get_sra(sp, opt_cols = c("Submitter_Id")) %>%
   select(-Species) %>%
   mutate(Organism = str_replace_all(Organism, " ", "_"))
 
-write_metadata(sra, "GCA_013435755.1")
+write_metadata(sra, sp)
 ```
 
 ### Anas platyrhynchos
@@ -104,12 +122,14 @@ supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_486
 paper<-do.call(rbind,extract_tables(supmat, pages=c(38:40)))
 colnames(paper) <- c("sample", "breed", "mapping_rate", "insert_size", "depth")
 
-paper %>% as_tibble %>% select(sample, breed) %>% 
+meta<-paper %>% as_tibble %>% select(sample, breed) %>% 
   filter(breed != "Breed", breed != "") %>% 
   left_join(sra, by=c("sample" = "Sample_Type")) %>%
   filter(breed == "Mallard") %>%
-  mutate(Continent = "Asia", Country = "China", Locality = "Aoji Duck Farm, Zhejiang Province") %>%
-  write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+  mutate(Continent = "Asia", Country = "China", Locality = "Aoji Duck Farm, Zhejiang Province")
+
+write_metadata(meta, sp)
+
 ```
 
 ### Anguilla anguilla
@@ -119,15 +139,17 @@ Generally this is very low coverage data, with only a fraction of individuals ab
 Closely related species Anguilla rostrata also available
 
 ```{r}
-sp="Anguilla_anguilla"
+sp <- "Anguilla_anguilla"
+bp <- "PRJNA668259"
 
-sra<-get_sra(sp, opt_cols = c("Isolate", "Ecotype", "Collection_date", "lat_lon", 
+sra<-get_sra(bp, opt_cols = c("Isolate", "Ecotype", "Collection_date", "lat_lon", 
                               "geo_loc_name_country", "geo_loc_name_country_continent", 
                               "geo_loc_name")) %>%
   rename(Country=geo_loc_name_country, 
          Continent=geo_loc_name_country_continent,
-         Locality=geo_loc_name) %>% 
-    write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+         Locality=geo_loc_name)
+
+write_metadata(sra, sp)
 ```
 
 ### Anolis carolinensis
@@ -139,9 +161,10 @@ Metadata is okay, but need to get more info about location from the paper: https
 Locked in a Zip archive so need to process
 
 ```{r}
-sp="Anolis_carolinensis"
-
-sra<-get_sra(sp, opt_cols = c("Sample Name", "Sample_Type")) %>% 
+sp <- "Anolis_carolinensis"
+bp <- "PRJNA533001"
+  
+sra<-get_sra(bp, opt_cols = c("Sample Name", "Sample_Type")) %>% 
   rename(Submitter_Id = `Sample Name`, Isolate = Sample_Type)
 
 supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/bin/evz110_supplementary_data.zip"
@@ -151,8 +174,10 @@ unzip(temp, files=c("Table_S1.xlsx"), junkpaths=TRUE, exdir=raw_metadata_path)
 paper<-read_excel(str_c(raw_metadata_path, "Table_S1.xlsx")) %>% select(Sample:Longitude)
 unlink(temp)
 
-inner_join(paper, sra, by=c("Sample" = "Submitter_Id")) %>% 
-  write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+meta<-inner_join(paper, sra, by=c("Sample" = "Submitter_Id"))
+
+write_metadata(meta, sp)
+
 ```
 
 ### Astatotilapia calliptera
@@ -164,6 +189,15 @@ Will need to think a bit about whether this is usable, but the metadata is here 
 ```{r}
 sp="Astatotilapia_calliptera"
 bp="PRJEB1254"
+
+split_biosample <- function(text) {
+   seq2 <- Vectorize(seq.default, vectorize.args = c("from", "to"))
+   split_input <- as_tibble(str_split(text, "-", simplify = TRUE)) %>% 
+     mutate(V2 = ifelse(V2 == "", V1, V2)) %>%
+     mutate(output = sapply(seq2(from=str_remove(V1, "SAMEA"), to=str_remove(V2, "SAMEA"), by=1), paste, sep="", collapse=",")) %>%
+     pull(output)
+ }
+
 
 sra<-get_sra(bp, opt_cols = c("Alias")) %>% 
   rename(Submitter_Id = Alias)
@@ -203,11 +237,14 @@ paper2<-as_tibble(table4) %>% filter(SampleName != "Samples") %>%
   separate_rows(BioSample) %>% select(BioSample, SampleNameClean) %>%
   mutate(BioSample = str_c("SAMEA", BioSample))
 
-full_join(paper1, paper2, by=c("BioSample" = "BioSample")) %>% distinct() %>% 
+meta<-full_join(paper1, paper2, by=c("BioSample" = "BioSample")) %>% distinct() %>% 
   full_join(sra, by=c("BioSample" = "BioSample")) %>% distinct() %>%
   rename(SampleName1 = SampleName, SampleName2 = SampleNameClean) %>%
-  filter(!is.na(BioProject)) %>%
-  write_csv(str_c(clean_metadata_path, bp, "_meta.csv"))
+  filter(!is.na(BioProject))
+
+meta %>% filter(Organism == "Astatotilapia_calliptera" | Organism == "Astatotilapia") %>%
+  mutate(Organism = ifelse(Organism == "Astatotilapia", "Astatotilapia_spp", Organism)) %>%
+  write_metadata(sp)
 ```
 
 
@@ -217,12 +254,13 @@ Beautiful metadata, everything in SRA submission
 
 ```{r}
 sp="Astyanax_mexicanus"
+bp<-"PRJNA260715"
   
-sra<-get_sra(sp, opt_cols = c("Sample Name")) %>% 
+sra<-get_sra(bp, opt_cols = c("Sample Name")) %>% 
   rename(Submitter_Id = `Sample Name`) %>%
   separate(Submitter_Id, into=c("Population"), remove=FALSE, extra="drop")
 
-sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+write_metadata(sra, sp)
 
 ```
 
@@ -233,12 +271,13 @@ SRA submission mostly looks good, although there does not appear to be a way to 
 ```{r}
 
 sp="Athene_cunicularia"
+bp="PRJNA431202"
   
-sra<-get_sra(sp, opt_cols = c("Sample Name", "Ecotype")) %>% 
+sra<-get_sra(bp, opt_cols = c("Sample Name", "Ecotype")) %>% 
   rename(Submitter_Id = `Sample Name`) %>%
   separate(Ecotype, into=c("Site", "Site_Type", "Year"), remove=FALSE, extra="drop")
 
-sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+write_metadata(sra, sp)
 ```
 
 ### Chaenogobius annularis
@@ -263,15 +302,16 @@ Japan:Onagawa -> PO
 ```{r}
 
 sp="Chaenogobius_annularis"
+bp="PRJDB7125"
   
-sra<-get_sra(sp, opt_cols = c("Isolate", "Collection_date", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "Sample_Name")) %>% 
+sra<-get_sra(bp, opt_cols = c("Isolate", "Collection_date", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "Sample_Name")) %>% 
   rename(Submitter_Id = Sample_Name, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality = geo_loc_name) %>%
   mutate(Population = case_when(
     Locality == "Japan:Misaki" | Locality == "Japan:Onagawa" ~ "Pacific Ocean",
     Locality == "Japan:Aomori" | Locality == "Japan:Murakami" ~ "Sea of Japan"    
   ))
 
-sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+write_metadata(sra, sp)
 
 ```
 
@@ -283,13 +323,14 @@ Very nice SRA metadata
 ```{r}
 
 sp="Chloebia_gouldiae"
+bp="PRJNA515277"
   
-sra<-get_sra(sp, opt_cols = c("Ecotype", "Collection_date", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "lat_lon", "Strain", "Cultivar")) %>% 
+sra<-get_sra(bp, opt_cols = c("Ecotype", "Collection_date", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "lat_lon", "Strain", "Cultivar")) %>% 
   rename(Submitter_Id = Cultivar, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality = geo_loc_name) %>%
   select(-sex) %>%
   rename(sex = Strain)
 
-sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+write_metadata(sra, sp)
 
 ```
 
@@ -305,6 +346,7 @@ Additional metadata could be added froom "meta1" and "meta2" tables, but it is a
 ```{r}
 
 #PRJNA642736 filter to keep only Sample_Type == "individual"
+sp="Clupea_harengus"
 
 sra1<-get_sra("PRJNA642736", opt_cols = c("Library Name", "Ecotype", "Sample_Type")) %>% 
   rename(Submitter_Id = `Library Name`, Locality = Ecotype) %>%
@@ -346,7 +388,8 @@ sra3<-get_sra("PRJNA356817", opt_cols = c("Sample Name")) %>%
     filter(!is.na(Locality))  %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
 
 #export
-bind_rows(sra1, sra2, sra3) %>% 
+bind_rows(sra1, sra2, sra3) %>%
+  write_metadata(sp)
 
 ```
 
@@ -357,9 +400,9 @@ bind_rows(sra1, sra2, sra3) %>%
 ```{r}
 
 sp="Coilia_nasus"
+bp="PRJNA422339"
 
-
-
+sra<-get_sra(bp)
 ```
 
 
