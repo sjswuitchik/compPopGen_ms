@@ -12,4 +12,4 @@
 
 mean=$(awk '{sum = sum+$4}{size=size+$2}{avg=sum/size}END{print avg}' $1.summary.tab)
 
-gzip -dc $1.merge.bg.gz | awk -v avg=$mean spp=$1 -f sum_cov.awk
+gzip -dc $1.merge.bg.gz | awk -v avg="$mean" spp=$1 -f sum_cov.awk
