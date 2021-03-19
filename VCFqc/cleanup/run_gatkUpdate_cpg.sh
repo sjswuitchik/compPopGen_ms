@@ -10,6 +10,8 @@
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/vcfs
 # sbatch run_gatkUpdate.sh spp_name
 
+set -o errexit
+
 source activate gatk
 
 bgzip -dc $1_combined.vcf.gz | sed -e 's/\<nan\>/NaN/g' | bgzip > $1_combined.rep.vcf.gz 
