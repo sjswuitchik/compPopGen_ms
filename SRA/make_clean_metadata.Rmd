@@ -395,6 +395,8 @@ bind_rows(sra1, sra2, sra3) %>%
 
 ### Coilia nasus
 
+Sample metadata is in a word document, will need to find a way to parse that...
+
 
 
 ```{r}
