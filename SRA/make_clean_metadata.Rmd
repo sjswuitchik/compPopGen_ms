@@ -9,17 +9,33 @@ At the moment, there is no automated way to add assembly / publication data for 
 First we load libraries
 
 ```{r}
-library(tidyverse)
+library(rvest)
 library(stringr)
 library(tabulizer)
 library(readxl)
+library(tidyverse)
+
 ```
 
 Then we set some default processing. For all datasets, we need the BioProject (to link to publication), the BioSample (to link to VCF), and Organism. 
 
+Paths for input and output:
+
 ```{r}
 clean_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/cleaned-metadata/"
 raw_metadata_path <- "~/Projects/popgen/compPopGen_ms/SRA/SRA-sample-metadata/"
+```
+
+A genome key file that links reference species to GenBank accession:
+
+```{r}
+genome_key_file <- "~/Projects/popgen/compPopGen_ms/SRA/Organism_Metadata.tsv"
+genome_key <- read_tsv(file=genome_key_file)
+```
+
+Functions for reading and writing metadata:
+
+```{r}
 
 get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
   default_cols = c("BioProject", "BioSample", "Organism", "sex")
@@ -31,6 +47,13 @@ get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
   }
   read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
     select(!!cols)
+}
+
+write_metadata <- function(df, refSp) {
+  refGenome <- genome_key %>% filter(Organism == refSp) %>% pull(AssemblyAccession)
+  df %>% mutate(refGenome = refGenome) %>%
+  split(., .$Organism) %>%
+  imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_metadata.csv')))
 }
   
 ```
@@ -45,17 +68,32 @@ Keyed on sample it / submitter id.
 
 
 ```{r}
-sp="Amphilophus_citrinellus"
-sra<-get_sra(sp, opt_cols = c("Submitter_Id")) %>%
-  mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS"))
+sp<-"Amphilophus_citrinellus"
+bp<-"PRJEB38173"
+
+#metadata from paper
 dryad_link<-"https://datadryad.org/stash/downloads/file_stream/561311"
 paper<-read_csv(dryad_link) %>% select(Sample_name, Species, Lake, Sampling_Year)
-inner_join(paper,sra,by=c("Sample_name" = "Submitter_Id")) %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
+
+sra<-get_sra(sp, opt_cols = c("Submitter_Id")) %>%
+  mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS")) %>% 
+  inner_join(paper,by=c("Submitter_Id" = "Sample_name")) %>%
+  mutate(Organism = case_when(
+    Species == "Amphilophus cf. citrinellus" ~ "Amphilophus spp",
+    Species == "Amphilophus spp. (hybrid)" ~ "Amphilophus spp",
+    TRUE ~ Species
+   )) %>%
+  select(-Species) %>%
+  mutate(Organism = str_replace_all(Organism, " ", "_"))
+
+write_metadata(sra, "GCA_013435755.1")
 ```
 
 ### Anas platyrhynchos
 
 Sample metadata embedded in PDF in supplemental material: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf
+
+Location of mallard sampling taken from paper text.
 
 ```{r}
 sp="Anas_platyrhynchos"
@@ -69,6 +107,8 @@ colnames(paper) <- c("sample", "breed", "mapping_rate", "insert_size", "depth")
 paper %>% as_tibble %>% select(sample, breed) %>% 
   filter(breed != "Breed", breed != "") %>% 
   left_join(sra, by=c("sample" = "Sample_Type")) %>%
+  filter(breed == "Mallard") %>%
+  mutate(Continent = "Asia", Country = "China", Locality = "Aoji Duck Farm, Zhejiang Province") %>%
   write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 ```
 
@@ -253,18 +293,60 @@ sra %>% write_csv(str_c(clean_metadata_path, sp, "_meta.csv"))
 
 ```
 
-### Clupea harengus
+### Clupea spp.
 
 Complicated by the fact that different metadata fields are used for different BioProjects; will probably need to parse by BioProject and then combined to avoid lots of complicated case_when statements.
 
-Skipping for now.
+Parse by BioProject, then output by species.
+
+Additional metadata could be added froom "meta1" and "meta2" tables, but it is a confusing mess and I haven't done this yet.
 
 
 ```{r}
 
-sp="Clupea_harengus"
+#PRJNA642736 filter to keep only Sample_Type == "individual"
 
+sra1<-get_sra("PRJNA642736", opt_cols = c("Library Name", "Ecotype", "Sample_Type")) %>% 
+  rename(Submitter_Id = `Library Name`, Locality = Ecotype) %>%
+  filter(Sample_Type == "individual") %>%
+  select(-Sample_Type) %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
 
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7738190/bin/elife-61076-supp2.xlsx"
+download.file(supmat,temp)
+meta1<-read_excel(temp, skip=1, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+#PRJNA338612 filter to keep only Sample_Type == "individual"
+
+#grab pop info from paper
+
+paper2<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5410801/pdf/pnas.201617728.pdf"
+table1 <- extract_tables(paper2, pages=c(3:3))[[2]]
+colnames(table1) <- c("Locality", "N", "blank", "lat", "lon", "salinity", "date", "spawn_season")
+meta2<-as_tibble(table1) %>% 
+  filter(date != "") %>% 
+  select(-blank, -N) %>% 
+  separate(Locality, into=c("Locality", "Population"), remove=FALSE, sep="[†*]") %>% 
+  mutate(Population = trimws(str_replace(Population, "[Ww]", ""))) %>%
+  mutate(Population = str_replace(Population, "[Ä]", "A"))
+
+sra2<-get_sra("PRJNA338612", opt_cols = c("Sample Name", "Sample_Type")) %>% 
+  rename(Submitter_Id = `Sample Name`) %>%
+  filter(Sample_Type == "Individual DNA") %>%
+  select(-Sample_Type) %>% separate(Submitter_Id, into=c("Population", "Sample"), sep=-1, remove=FALSE) %>%
+  left_join(meta2, by=c("Population" = "Population")) %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
+
+sra3<-get_sra("PRJNA356817", opt_cols = c("Sample Name")) %>% 
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Locality = case_when(
+    Submitter_Id == "AAPF" | Submitter_Id == "AAPM" ~ "Norway:Bergen",
+    Submitter_Id == "ABPF" | Submitter_Id ==  "ABPM" ~ "Sweden:Hästskär",
+    TRUE ~ NA_character_)) %>%
+    filter(!is.na(Locality))  %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
+
+#export
+bind_rows(sra1, sra2, sra3) %>% 
 
 ```
 

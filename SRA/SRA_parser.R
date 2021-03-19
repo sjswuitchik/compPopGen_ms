@@ -139,14 +139,6 @@ datasets_final %>% group_by(BioProject.popgen) %>% summarise(used_sp = mean(use_
 ingroups <- datasets_final %>% group_by(Organism) %>% filter(!is.na(AssemblyAccession)) %>% count() %>% filter(n >= 5)
 
 #so, to clean up, let's make the following
-#sra download / mapping metadata, which should be a file with a column for bioproject, biosample, run, one file per species
-
-datasets_final %>% filter(Organism %in% ingroups$Organism) %>% 
-  select(Organism, BioProject = BioProject.popgen, BioSample = BioSample.popgen, Run) %>% 
-  mutate(Organism = str_replace_all(Organism, " ", "_")) %>%
-  split(., .$Organism) %>%
-  imap(~ write_tsv(as.data.frame(.x), path = str_c(path_to_write, '/SRA_Run_', .y, '.tsv')))
-
 #sample metadata -- much of this will be incomplete since it needs to be linked to the publication, but it is a start
 
 #start by reloading original SRA runselector metadata, since people use all sorts of weird fields for the "original" sample id
@@ -195,6 +187,15 @@ bioprojects %>%
   split(., .$BioProject) %>%
   imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA-sample-metadata/SRA_Metadata_', .y, '.tsv')))
 
+#sra download / mapping metadata, which should be a file with a column for bioproject, biosample, run, one file per bioproject
+
+bioprojects %>% 
+  select(BioProject) %>% distinct() %>% 
+  left_join(sra_full, by=c("BioProject" = "BioProject")) %>%
+  select(Organism, BioProject, BioSample, Run) %>% 
+  mutate(Organism = str_replace_all(Organism, " ", "_")) %>%
+  split(., .$BioProject) %>%
+  imap(~ write_tsv(as.data.frame(.x), file = str_c(path_to_write, '/SRA-run-metadata/SRA_Run_', .y, '.tsv')))
 
 #organism metadata - genome assembly accession and annotation information
 
