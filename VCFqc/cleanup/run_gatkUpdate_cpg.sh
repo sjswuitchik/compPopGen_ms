@@ -16,7 +16,7 @@ bgzip -dc $1_combined.vcf.gz | sed -e 's/\<nan\>/NaN/g' | bgzip > $1_combined.re
 
 bcftools index -t $1_combined.rep.vcf.gz
 
-picard SortVcf -Xmx8g -I $1_combined.rep.vcf.gz -O $1_comboSorted.vcf.gz
+picard SortVcf -Xmx8g --TMP_DIR=$PWD/tmp -I $1_combined.rep.vcf.gz -O $1_comboSorted.vcf.gz
 
 gatk IndexFeatureFile -I $1_comboSorted.vcf.gz
 
