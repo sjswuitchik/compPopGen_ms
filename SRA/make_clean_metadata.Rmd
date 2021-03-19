@@ -432,11 +432,16 @@ write_metadata(sra, sp)
 PRJNA430094	
 https://pubmed.ncbi.nlm.nih.gov/29507380/
 
+
 ```{r}
 sp<-"Coryphaenoides_rupestris"
 bp<-"PRJNA430094"
 
-sra<-get_sra(bp, )
+sra<-get_sra(bp, opt_cols = c("Sample Name", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name", "lat_lon", "Depth")) %>%
+  rename(Submitter_Id = `Sample Name`, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality=geo_loc_name)
+
+write_metadata(sra, sp)
+
 
 ```
 
