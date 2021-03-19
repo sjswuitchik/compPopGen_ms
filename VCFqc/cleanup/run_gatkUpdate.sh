@@ -10,6 +10,8 @@
 # for duck filtering update
 # sbatch run_gatkUpdate.sh Combined_hardFiltered spp_name
 
+set -o errexit
+
 source activate gatk
 
 picard SortVcf -I $1.vcf.gz -O $1_sorted.vcf.gz
