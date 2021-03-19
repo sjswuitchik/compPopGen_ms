@@ -25,4 +25,5 @@ do
 done
 
 ls $1/*.bw > $1/list
-./bigWigMerge -inList $1/list $1.merge.bg
+cd $1/ 
+.././bigWigMerge -inList list $1.merge.bg
