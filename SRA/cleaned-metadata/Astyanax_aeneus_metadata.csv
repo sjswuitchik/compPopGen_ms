@@ -1,0 +1,3 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Population,refGenome
+PRJNA260715,SAMN03421328,Astyanax_aeneus,unknown,Aeneus_Surface,Aeneus,GCF_000372685.2
+PRJNA260715,SAMN03024504,Astyanax_aeneus,unknown,Granadas_2-2,Granadas,GCF_000372685.2
