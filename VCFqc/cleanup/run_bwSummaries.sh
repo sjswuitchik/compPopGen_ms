@@ -15,3 +15,6 @@ awk 'BEGIN{FS=OFS="\t"}{print $1, 0, $2, $1}' $1/$1.chrom.sizes > $1/$1.genome.b
 ./bedGraphToBigWig $1/$1.merge.bg $1/$1.chrom.sizes $1/$1.merge.bw
 
 ./bigWigAverageOverBed $1/$1.merge.bw $1/$1.genome.bed $1/$1.summary.tab
+
+gzip $1.merge.bg
+gzip $1.merge.bw
