@@ -398,7 +398,6 @@ bind_rows(sra1, sra2, sra3) %>%
 Sample metadata is in a word document, will need to find a way to parse that...
 
 
-
 ```{r}
 
 sp="Coilia_nasus"
@@ -408,6 +407,388 @@ sra<-get_sra(bp)
 ```
 
 
+### Corvus species
 
+BioProject: PRJNA192205
+Papers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738
+Genome: Corvus_brachyrhynchos or Corvus_cornix_cornix
+
+```{r}
+
+```
+
+
+### Coryphaenoides rupestris
+
+PRJNA430094	
+https://pubmed.ncbi.nlm.nih.gov/29507380/
+
+```{r}
+
+```
+
+
+### Coturnix japonica	
+
+PRJNA339911	https://academic.oup.com/gigascience/article/7/5/giy049/4995262
+
+```{r}
+
+```
+
+
+### Cyanistes caeruleus	
+
+PRJNA284903 https://www.ncbi.nlm.nih.gov/pubmed/26220359
+
+```{r}
+
+```
+
+
+### Cyprinodon variegatus	
+
+PRJNA690558	https://www.biorxiv.org/content/10.1101/2020.03.12.988774v1.full
+PRJNA89149	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3810-7
+
+```{r}
+
+```
+
+### Cyprinus carpio	
+
+PRJNA510861 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789147/
+
+
+```{r}
+
+```
+
+
+### Dicentrarchus labrax	
+
+PRJNA472842	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6023918/
+PRJNA628166	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7293100/
+
+```{r}
+
+```
+
+### Egretta garzetta	
+
+PRJNA309350	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+
+```{r}
+
+```
+
+### Eopsaltria australis	
+
+PRJNA476023   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6736294/
+
+```{r}
+
+```
+
+
+### Falco peregrinus
+
+PRJNA686418
+https://www.nature.com/articles/s41586-021-03265-0
+	
+```{r}
+
+```
+
+### Fidecula species
+
+PRJEB11502	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5340341/
+PRJEB12616	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878770/
+PRJEB7359	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+PRJEB7359	Ficedula hyperythra	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+PRJEB7359	Ficedula hypoleuca	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+PRJEB7359	Ficedula parva	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+PRJEB7359	Ficedula speculigera	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+
+```{r}
+
+
+```
+
+### Fundulus heteroclitus
+
+PRJNA323589   http://science.sciencemag.org/content/354/6317/1305.full
+
+```{r}
+
+```
+
+### Gambusia affinis	
+
+PRJNA386810	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/
+
+```{r}
+
+```
+
+### Gasterosteus species
+
+PRJEB15181	Gasterosteus aculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+PRJDB2374	Gasterosteus wheatlandi	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3953013/
+
+**more BioProjects may be added -- sort first before doing any processing!**
+
+```{r}
+
+
+```
+
+
+###	Haplochromis burtoni 
+
+PRJNA485198   https://www.biorxiv.org/content/10.1101/2021.01.12.426414v1
+PRJNA60363    https://www.ncbi.nlm.nih.gov/pubmed/25186727
+
+```{r}
+
+
+```
+
+### Hippocampus spp
+
+PRJNA612146	Hippocampus comes	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889852/	
+PRJNA612146	Hippocampus kuda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889852/	
+
+```{r}
+
+```
+
+### Hypoplectrus puella
+
+PRJEB27858    https://www.nature.com/articles/s41559-019-0814-5
+
+```{r}
+
+```
+
+
+### Larimichthys crocea	
+
+PRJNA629649
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7645154/
+
+```{r}
+
+
+```
+
+### Leuciscus waleckii	
+
+PRJNA298374
+https://academic.oup.com/mbe/article/34/1/145/2655148
+
+```{r}
+
+
+```
+
+###	Maylandia zebra	
+
+PRJEB15289
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443041/
+
+```{r}
+
+```
+
+###	Nipponia nippon	
+
+PRJNA308878
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290368/
+
+```{r}
+
+
+```
+
+
+### Oreochromis species	
+
+PRJNA59571    Oreochromis niloticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4353498/
+PRJDB1657   Oreochromis niloticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570987/
+PRJDB1657	Oreochromis mossambicus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570987/
+
+```{r}
+
+```
+
+### Oryzias latipes	
+
+PRJEB2759	https://www.ncbi.nlm.nih.gov/pubmed/24408034
+
+```{r}
+
+```
+
+### Parus major
+
+
+PRJNA274877	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
+PRJNA304164	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/
+
+```{r}
+
+
+```
+
+### Passer species
+
+PRJEB27649	Passer domesticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/
+PRJNA255814	Passer domesticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
+PRJNA255814	Passer hispaniolensis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
+PRJNA255814	Passer italiae	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
+PRJNA255814	Passer montanus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
+PRJEB22939	Passer italiae	https://www.nature.com/articles/s41559-017-0437-7
+PRJNA634228	Passer montanus	http://advances.sciencemag.org/content/3/6/e1602996.full
+
+```{r}
+
+```
+
+### Pelecanus crispus
+
+PRJNA212901	Pelecanus crispus	https://www.ncbi.nlm.nih.gov/pubmed/25504712
+
+```{r}
+
+```
+
+
+### Phylloscopus species
+
+PRJEB21643	Phylloscopus collybita abietinus	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+PRJEB21643	Phylloscopus collybita tristis	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+PRJNA319295	Phylloscopus trochilus acredula	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
+PRJNA319295	Phylloscopus trochilus trochilus	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
+
+
+```{r}
+
+
+```
+
+###	Pimephales promelas	
+
+
+PRJNA227290   https://www.ncbi.nlm.nih.gov/pubmed/26513338
+
+```{r}
+
+
+```
+
+
+### Plectropomus leopardus	
+
+PRJNA622646	    https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13207
+
+```{r}
+
+
+```
+
+### Podarcis muralis
+
+PRJNA515813	    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431182/
+
+```{r}
+
+```
+
+### Poecilia species
+
+PRJNA89109	Poecilia formosa	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866774/
+PRJNA196862	Poecilia latipinna	https://www.nature.com/articles/s41559-018-0473-y
+PRJEB10680	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/
+PRJEB22221	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452659/
+PRJEB36450	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/
+PRJEB39998	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/
+PRJNA238429	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+PRJNA353986	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/
+PRJEB10586	Poephila acuticauda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+
+```{r}
+
+
+```
+
+### Pungitius pungitius
+
+PRJDB2321	Pungitius pungitius	https://www.ncbi.nlm.nih.gov/pubmed/25818858
+PRJNA477377	Pungitius pungitius	https://academic.oup.com/mbe/article/36/1/28/5112968
+
+```{r}
+
+```
+
+
+### Strix occidentalis caurina
+
+PRJNA338167	https://www.ncbi.nlm.nih.gov/pubmed/28992302
+
+```{r}
+
+
+```
+
+###Sylvia atricapilla
+
+PRJNA616371	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173969/
+
+```{r}
+
+
+```
+
+###	Symphodus melops
+
+PRJNA354496   https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310
+
+```{r}
+
+
+```
+
+### Taeniopygia species
+PRJEB10586	Taeniopygia bichenovii	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+PRJEB10586	Taeniopygia guttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+
+```{r}
+
+```
+
+
+### Takifugu species
+
+
+PRJNA522329	Takifugu bimaculatus	https://dx.doi.org/10.21203/rs.2.16620/v1
+PRJNA522329	Takifugu rubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
+
+```{r}
+
+```
+
+
+### Thunnus albacares	
+
+PRJEB14402	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/
+
+```{r}
+
+```
+
+### Tyto alba
+
+PRJNA212909	Tyto alba	https://www.ncbi.nlm.nih.gov/pubmed/25504712
 
 
