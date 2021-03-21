@@ -12,18 +12,18 @@
 
 set -o errexit
 
-for file in $1/*.gz;
+for file in $1/*.bg;
 do
   sort -k1,1 -k2,2n $file > $file.sorted
-  ./brename -p ".dedup.sorted.bam.bg.gz.sorted" -r ".bg.gz" -R
+  ./brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
 done
 
 mkdir -p $1/unsortedBG
-mv $1/*.dedup.sorted.bam.bg.gz $1/unsortedBG
+mv $1/*.dedup.sorted.bam.bg $1/unsortedBG
 
-for file in $1/*.gz;
+for file in $1/*.bg;
 do
-  zcat $file | ./bedGraphToBigWig $1/$1.chrom.sizes $file.bw
+  ./bedGraphToBigWig $1/$1.chrom.sizes $file.bw
 done
 
 cd $1/ 
