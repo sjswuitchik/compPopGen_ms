@@ -503,15 +503,6 @@ write_metadata(meta, sp)
 ```
 
 
-### Cyanistes caeruleus	
-
-PRJNA284903 https://www.ncbi.nlm.nih.gov/pubmed/26220359
-
-```{r}
-
-```
-
-
 ### Cyprinodon variegatus	
 
 PRJNA690558	https://www.biorxiv.org/content/10.1101/2020.03.12.988774v1.full
