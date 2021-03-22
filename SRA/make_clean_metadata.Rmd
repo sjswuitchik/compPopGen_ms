@@ -485,10 +485,20 @@ table11<-read_docx(str_c(raw_metadata_path, "Additional file 1-updated.docx")) %
   docx_extract_tbl(11) %>% 
   select(Submitter_Id = Sample, Description, source) %>%
   filter(Description == "Wild quail") %>%
-  select(-Description)
+  select(-Description) %>%
+  mutate(Submitter_Id = str_remove(Submitter_Id, "-[MF]$")) %>%
+  mutate(Submitter_Id = str_replace(Submitter_Id, "-", "_"))
 unlink(temp)
 
 #paper metadata and SRA metadata disagree on sex of samples, so change sex to missing
+
+sra<-get_sra(bp, opt_cols=c("Sample Name")) %>%
+  mutate(sex = "missing") %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Submitter_Id = str_remove(Submitter_Id, "_[MF]_new$"))
+  
+meta<-left_join(table11, sra, by=c("Submitter_Id" = "Submitter_Id"))
+write_metadata(meta, sp)
 
 ```
 
