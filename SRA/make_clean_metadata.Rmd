@@ -32,6 +32,7 @@ library(stringr)
 library(tabulizer)
 library(readxl)
 library(tidyverse)
+library(docxtractr)
 
 ```
 
@@ -396,14 +397,39 @@ bind_rows(sra1, sra2, sra3) %>%
 ### Coilia nasus
 
 Sample metadata is in a word document, will need to find a way to parse that...
-
+Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939831/
 
 ```{r}
 
 sp="Coilia_nasus"
 bp="PRJNA422339"
 
-sra<-get_sra(bp)
+sra<-get_sra(bp, opt_cols=c("Library Name")) %>%
+  rename(Submitter_Id = `Library Name`)
+
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939831/bin/giz157_supplemental_figures_and_tables.zip"
+temp <- tempfile()
+download.file(supmat,temp)
+unzip(temp, files=c("Supplementary materials revised.docx"), junkpaths=TRUE, exdir=raw_metadata_path)
+table8<-read_docx(str_c(raw_metadata_path, "Supplementary materials revised.docx")) %>% 
+  docx_extract_tbl(8) %>% 
+  select(Library, Sample) %>%
+  separate(Sample, into=c("Population", "Sample"))
+unlink(temp)
+
+#need to remove trailing numbers from population and drop Sample
+table8 <- mutate(table8, Population = str_remove(Population, "[0-9]+$")) %>% select(-Sample)
+
+table1<-extract_tables("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939831/pdf/giz157.pdf", pages=c(4))[[1]] 
+colnames(table1)<-table1[1,]
+table1[4:6,1] <- "River"
+table1[8,1] <- "Lake"
+table1<-as_tibble(table1[2:8,]) %>% right_join(table8, by=c("Sample" = "Population")) %>%
+  rename(Population = Sample)
+
+meta<-left_join(sra, table1, by=c("Submitter_Id" = "Library"))
+
+write_metadata(meta, sp)
 ```
 
 
@@ -422,8 +448,6 @@ sra<-get_sra(bp, opt_cols=c("Sample Name", "geo_loc_name_country", "geo_loc_name
   rename(Submitter_Id = `Sample Name`, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality=geo_loc_name)
 
 write_metadata(sra, sp)
-
-
 ```
 
 
@@ -442,7 +466,6 @@ sra<-get_sra(bp, opt_cols = c("Sample Name", "geo_loc_name_country", "geo_loc_na
 
 write_metadata(sra, sp)
 
-
 ```
 
 
@@ -451,15 +474,31 @@ write_metadata(sra, sp)
 PRJNA339911	https://academic.oup.com/gigascience/article/7/5/giy049/4995262
 
 ```{r}
+sp<-"Coturnix_japonica"
+bp<-"PRJNA339911"
 
-```
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5961004/bin/giy049_supp.zip"
+temp <- tempfile()
+download.file(supmat,temp)
+unzip(temp, files=c("Additional file 1-updated.docx"), junkpaths=TRUE, exdir=raw_metadata_path)
+table11<-read_docx(str_c(raw_metadata_path, "Additional file 1-updated.docx")) %>% 
+  docx_extract_tbl(11) %>% 
+  select(Submitter_Id = Sample, Description, source) %>%
+  filter(Description == "Wild quail") %>%
+  select(-Description) %>%
+  mutate(Submitter_Id = str_remove(Submitter_Id, "-[MF]$")) %>%
+  mutate(Submitter_Id = str_replace(Submitter_Id, "-", "_"))
+unlink(temp)
 
+#paper metadata and SRA metadata disagree on sex of samples, so change sex to missing
 
-### Cyanistes caeruleus	
-
-PRJNA284903 https://www.ncbi.nlm.nih.gov/pubmed/26220359
-
-```{r}
+sra<-get_sra(bp, opt_cols=c("Sample Name")) %>%
+  mutate(sex = "missing") %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Submitter_Id = str_remove(Submitter_Id, "_[MF]_new$"))
+  
+meta<-left_join(table11, sra, by=c("Submitter_Id" = "Submitter_Id"))
+write_metadata(meta, sp)
 
 ```
 
