@@ -12,20 +12,21 @@
 
 set -o errexit
 
-for file in $1/*.bg;
+cd $1/
+
+for file in *.bg;
 do
   sort -k1,1 -k2,2n $file > $file.sorted
-  ./brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
+  .././brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
 done
 
-mkdir -p $1/unsortedBG
-mv $1/*.dedup.sorted.bam.bg $1/unsortedBG
+mkdir -p unsortedBG
+mv *.dedup.sorted.bam.bg unsortedBG
 
-for file in $1/*.bg;
+for file in *.bg;
 do
-  ./bedGraphToBigWig $1/$1.chrom.sizes $file.bw
+  ./bedGraphToBigWig $1.chrom.sizes $file.bw
 done
-
-cd $1/ 
+ 
 ls *.bw > list
 .././bigWigMerge -inList list $1.merge.bg
