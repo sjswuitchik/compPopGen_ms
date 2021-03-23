@@ -4,7 +4,7 @@
 #SBATCH -o logs/slurm-%j.out
 #SBATCH -p shared
 #SBATCH -n 1
-#SBATCH -t 05-00:00:00
+#SBATCH -t 06-23:00:00
 #SBATCH --mem=10000
 
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
