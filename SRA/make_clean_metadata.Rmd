@@ -515,6 +515,14 @@ PRJNA686418
 https://www.nature.com/articles/s41586-021-03265-0
 	
 ```{r}
+sp<-"Falco_peregrinus"
+bp<-"PRJNA686418"
+
+sra<-get_sra(bp, opt_cols = c("Sample Name")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Population = str_remove(Submitter_Id, "[\\-0-9]+$"))
+
+write_metadata(sra, sp)
 
 ```
 
@@ -529,6 +537,9 @@ PRJEB7359	Ficedula parva	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
 PRJEB7359	Ficedula speculigera	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
 
 ```{r}
+sp<-"Ficedula_albicollis"
+bp<-PRJEB11502
+
 
 
 ```
