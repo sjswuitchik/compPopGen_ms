@@ -62,7 +62,7 @@ rule cds_genes:
 	output:
 		bed = "onlyCDS.genes.bed"
 	shell:
-		"""awk -F '["\t ]' -v OFS='\t' '$(NF - 1) {print $1, $2, $3, $(NF-1)}' {input.bed} > {output.bed}
+		"""awk -F '["\t ]' -v OFS='\t' '$(NF - 1) {print $1, $2, $3, $(NF-1)}' {input.bed} > {output.bed}"""
 
 rule vcf_filter:
 	"""
