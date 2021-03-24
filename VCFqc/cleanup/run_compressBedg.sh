@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J bgMove
+#SBATCH -J bgComp
 #SBATCH -o logs/slurm-%j
 #SBATCH -e logs/slurm-%j
 #SBATCH -p shared
