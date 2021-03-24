@@ -14,14 +14,14 @@ set -o errexit
 
 cd $1/
 
-for file in *.bg;
+for file in *.gz;
 do
-  sort -k1,1 -k2,2n $file > $file.sorted
-  .././brename -p ".dedup.sorted.bam.bg.sorted" -r ".bg" -R
+  zcat $file | sort -k1,1 -k2,2n - > $file.sorted
+  .././brename -p ".dedup.sorted.bam.bg.gz.sorted" -r ".bg" -R
 done
 
 mkdir -p unsortedBG
-mv *.dedup.sorted.bam.bg unsortedBG
+mv *.dedup.sorted.bam.bg.gz unsortedBG/
 
 for file in *.bg;
 do
