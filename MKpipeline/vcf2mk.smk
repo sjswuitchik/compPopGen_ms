@@ -58,12 +58,11 @@ rule cds_genes:
 	This rule associates the CDS regions from the GFF with the gene names to be used in the gene_annot rule
 	"""
 	input:
-		script = "helper_scripts/genenames.py",
 		bed = "onlyCDS.bed"
 	output:
 		bed = "onlyCDS.genes.bed"
 	shell:
-		"cat {input.bed} | python3 {input.script} > {output.bed}"
+		"""awk -F '["\t ]' -v OFS='\t' '$(NF - 1) {print $1, $2, $3, $(NF-1)}' {input.bed} > {output.bed}
 
 rule vcf_filter:
 	"""
