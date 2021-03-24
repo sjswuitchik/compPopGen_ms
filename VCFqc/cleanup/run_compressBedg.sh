@@ -7,8 +7,8 @@
 #SBATCH -t 00:30:00
 #SBATCH --mem=4000
 
-# run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS
-# sbatch moveBedgraphs.sh spp_name
+# run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
+# sbatch run_compressBedg.sh spp_name
 
 cd $1
 gzip *.bg
