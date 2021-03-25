@@ -1,4 +1,0 @@
-The index will now be built. This can take some time (e.g., 2-3 hours with Skew7 for the human genome).
-Create fwd Index ... done!
-Create bwd Index ... done!
-Index created successfully.
