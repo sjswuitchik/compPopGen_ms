@@ -21,7 +21,7 @@ do
   sort -k1,1 -k2,2n - > $file.sorted
 done
 
-for file in $1/*.bw;
+for file in $1/*.sorted;
 do
   bedGraphToBigWig $file $1/$1.chrom.sizes $file.bw
 done
