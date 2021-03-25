@@ -17,3 +17,7 @@ In your working directory you should have:
 - `mappability.smk`
 - `samples.txt`
 - `Directories containing fasta file` 
+
+Execute the pipeline using snakemake:
+
+`snakemake -s mappability.smk --cores <n>
