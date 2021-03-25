@@ -1,0 +1,7 @@
+Index was loaded (dna5 alphabet, sampling rate of 10).
+- The BWT is represented by 32 bit values.
+- The sampled suffix array is represented by pairs of 16 and 32 bit values.
+- Index was built on a single fasta file.
+Progress: 100.00%[K
+- bedgraph file written in 0 seconds
+Mappability computed in 0.02 seconds
