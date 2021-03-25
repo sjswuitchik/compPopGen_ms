@@ -11,6 +11,8 @@ And then activate it:
 
 ``` conda activate <env> ```
 
+The `samples.txt`file should contain the names (1 per line) of the names of the directories containing the fasta (.fna) file you would like to process.
+
 In your working directory you should have:
 - `mappability.smk`
 - `samples.txt`
