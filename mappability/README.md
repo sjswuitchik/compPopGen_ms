@@ -20,4 +20,4 @@ In your working directory you should have:
 
 Execute the pipeline using snakemake:
 
-`snakemake -s mappability.smk --cores <n>
+`snakemake -s mappability.smk --cores <n>`
