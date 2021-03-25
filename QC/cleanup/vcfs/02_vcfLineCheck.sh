@@ -5,3 +5,5 @@
 
 zgrep -v '^#' $1_combined.vcf.gz | wc -l > $1.log
 zgrep -v '^#' ../../$1/vcf/*.vcf.gz | wc -l >> $1_split.log
+
+## NB: not needed when refactoring to snakemake
