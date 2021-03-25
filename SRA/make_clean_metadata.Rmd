@@ -22,6 +22,10 @@ Finally, you'll need to do some last cleanup and export. The Organism field is k
 
 All done! Don't forget to git commit and git push, with a helpful commit message, such as "Added metadata for species xxxx".
 
+#### New BioProjects
+
+Sometimes, there may be a BioProject that was missed by the SRA parsing code, which is not perfect. You can use RunSelector to manually download needed metadata, and then put file (named appropriately) in the metadata directory, and then parse as normal. Be sure to add BioProject and publication link to spreadsheet. Note that it downloads as a csv and the read function expects tsv, so you'll need to clean up. There is a script, cleanup_runselector.R, that can help.
+
 ### Setup
 
 First we load libraries
@@ -528,7 +532,7 @@ write_metadata(sra, sp)
 
 ### Fidecula species
 
-PRJEB11502	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5340341/
+PRJEB11502	Ficedula albicollis	https://pubmed.ncbi.nlm.nih.gov/26649993/
 PRJEB12616	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878770/
 PRJEB7359	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
 PRJEB7359	Ficedula hyperythra	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
@@ -536,11 +540,84 @@ PRJEB7359	Ficedula hypoleuca	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC461796
 PRJEB7359	Ficedula parva	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
 PRJEB7359	Ficedula speculigera	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
 
+
 ```{r}
 sp<-"Ficedula_albicollis"
-bp<-PRJEB11502
+
+##Bioproject 1##
+
+bp<-"PRJEB7359"
+
+sra1<-get_sra(bp, opt_cols=c("geo_loc_name_country", "geo_loc_name_country_continent", "Title", "Description")) %>%
+  rename(Submitter_Id = Title, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent) %>%
+  separate(Submitter_Id, into=c("Population", "Sample"), remove=FALSE, extra="merge")
+
+#ugly clean up because some things are missing information
+#source of NRM996601 https://www.gbif.org/occurrence/2248760844
+#source of pop key is Fig1 at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/ as it doesn't seem to be provided as text anywhere
+
+sra1 <- sra1 %>%
+  mutate(Country = case_when(
+    Population == "I" ~ "Italy",
+    Population == "OC" ~ "Sweden",
+    Population == "NRM996601" ~ "Sweden",
+    Population == "SP" ~ "Sweden",
+    Population == "FHYP" ~ "Unknown",
+    TRUE ~ Country
+  )) %>%
+  mutate(Continent = case_when(
+    Country == "Italy" ~ "Europe",
+    Country == "Sweden" ~ "Europe",
+    Country == "Unknown" ~ "Unknown",
+    TRUE ~ Continent
+  )) %>% 
+  mutate(Locality = case_when(
+    Population == "SP" ~ "Uppsala",
+    Population == "OC" ~ "Öland",
+    Population == "OP" ~ "Öland",
+    TRUE ~ "Unknown"
+  ))
+
+#last cleanup of NRM996601 and removing description field
+
+sra1 <- sra1 %>%
+  mutate(Population = ifelse(Population == "NRM996601", "FPAR", Population)) %>%
+  mutate(Sample = ifelse(is.na(Sample), Submitter_Id, Sample)) %>%
+  select(-Description)
+
+##Bioproject 2##
 
 
+bp<-"PRJEB12616"
+
+#keeping only parents based on pedigree in Fig 1 here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878770/
+
+sra2<-get_sra(bp, opt_cols=c("Alias")) %>%
+  rename(Submitter_Id = Alias) %>%
+  mutate(Sample = str_remove(Submitter_Id, "[0-9]*$")) %>%
+  mutate(Country = "Sweden", Continent = "Europe", Locality = "Öland") %>%
+  filter(Sample == "CJ" | Sample == "BL" | Sample == "BY") %>%
+  mutate(Population = "OC")
+
+##Bioproject 3##
+
+bp<-"PRJEB11502"
+
+#keeping only parents based on pedigree in Fig 1 here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878770/
+
+sra3<-get_sra(bp, opt_cols=c("Alias")) %>%
+  rename(Submitter_Id = Alias) %>%
+  mutate(Country = "Sweden", Continent = "Europe", Locality = "Öland", Population = "OC")
+
+#some extraneous stuff in the BioProject for some reason, so filter to keep only samples from paper to be sure the metadata is correct
+
+samples<-read_delim("https://datadryad.org/stash/downloads/file_stream/332334", delim=" ")
+
+sra3 <- filter(sra3, Submitter_Id %in% samples$id) %>% mutate(sex = "male")
+
+meta <- bind_rows(sra1, sra2, sra3)
+
+write_metadata(meta, sp)
 
 ```
 
