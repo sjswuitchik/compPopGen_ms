@@ -5,13 +5,13 @@
 For snakemake env build  
 
 
-channels:
-  - bioconda
-  - defaults
-dependencies:
-  - ucsc-fatotwobit==377
-  - ucsc-twobitinfo==377
-  - bedtools==2.30.0
-  - ucsc-bedgraphtobigwig==377
-  - ucsc-bigwigmerge==377
-  - ucsc-bigwigaverageoverbed==377
+channels:  
+  \- bioconda  
+  \- defaults  
+dependencies:  
+  \- ucsc-fatotwobit==377  
+  \- ucsc-twobitinfo==377  
+  \- bedtools==2.30.0  
+  \- ucsc-bedgraphtobigwig==377  
+  \- ucsc-bigwigmerge==377  
+  \- ucsc-bigwigaverageoverbed==377  
