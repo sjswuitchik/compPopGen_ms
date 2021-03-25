@@ -14,7 +14,7 @@ rule setup_genome:
           "faToTwoBit {input.genome} {output.twoBit}\n"
           "twoBitInfo {output.twoBit} stdout | sort -k2rn > {output.sizes}\n"
           """awk -f helper_scripts/genome.awk {output.sizes} > {output.bed}"""
-  
+
 rule missingness:
   """
   Calculate relative missingness per individual to output both a table and a dotplot
