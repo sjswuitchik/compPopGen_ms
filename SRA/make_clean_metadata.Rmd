@@ -534,11 +534,9 @@ write_metadata(sra, sp)
 
 PRJEB11502	Ficedula albicollis	https://pubmed.ncbi.nlm.nih.gov/26649993/
 PRJEB12616	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878770/
-PRJEB7359	Ficedula albicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
-PRJEB7359	Ficedula hyperythra	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
-PRJEB7359	Ficedula hypoleuca	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
-PRJEB7359	Ficedula parva	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
-PRJEB7359	Ficedula speculigera	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+PRJEB2984   Ficedula spp https://www.nature.com/articles/nature11584
+PRJEB7359	Ficedula spp	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+
 
 
 ```{r}
@@ -585,6 +583,9 @@ sra1 <- sra1 %>%
   mutate(Sample = ifelse(is.na(Sample), Submitter_Id, Sample)) %>%
   select(-Description)
 
+#for reference later
+pop_meta <- sra1 %>% select(Country, Continent, Population, Locality, Organism) %>% distinct()
+
 ##Bioproject 2##
 
 
@@ -615,7 +616,19 @@ samples<-read_delim("https://datadryad.org/stash/downloads/file_stream/332334", 
 
 sra3 <- filter(sra3, Submitter_Id %in% samples$id) %>% mutate(sex = "male")
 
-meta <- bind_rows(sra1, sra2, sra3)
+## Biorproject 4 ##
+
+bp<-"PRJEB2984"
+sra4<-get_sra(bp, opt_cols=c("LibrarySource", "Title")) %>%
+  filter(LibrarySource == "GENOMIC") %>% 
+  rename(Submitter_Id = Title) %>% select(-LibrarySource) %>% distinct() %>%
+  mutate(Population = case_when(
+    Organism=="Ficedula_albicollis" ~ "OC",
+    Organism=="Ficedula_hypoleuca" ~ "SP"
+  )) %>%
+  left_join(pop_meta, by = c("Population" = "Population"))
+
+meta <- bind_rows(sra1, sra2, sra3, sra4)
 
 write_metadata(meta, sp)
 
