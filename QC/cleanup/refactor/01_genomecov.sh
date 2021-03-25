@@ -4,8 +4,8 @@
 #SBATCH -o logs/out_%j
 #SBATCH -p shared
 #SBATCH -n 1
-#SBATCH -t 02-00:00:00
-#SBATCH --mem=8000
+#SBATCH -t 05-00:00:00
+#SBATCH --mem=10000
 
 # sbatch 01_genomecov.sh spp_name
 
