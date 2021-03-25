@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	genmap_index
+	1	genmap_map
+	1	sort
+	4
+Select jobs to execute...
+
+[Thu Mar 25 12:48:16 2021]
+rule genmap_index:
+    input: testgenome/testgenome_genomic.fna
+    output: testgenome/genmap_index
+    log: testgenome/index_log.txt
+    jobid: 3
+    wildcards: sample=testgenome
+
+ImproperOutputException in line 10 of /home/cade/compPopGen_ms/mappability/tests/mappability_test.smk:
+Outputs of incorrect type (directories when expecting files or vice versa). Output directories must be flagged with directory(). for rule genmap_index:
+testgenome/genmap_index
+  File "/home/cade/miniconda3/envs/genmap_snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 581, in handle_job_success
+  File "/home/cade/miniconda3/envs/genmap_snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 252, in handle_job_success
+Removing output files of failed job genmap_index since they might be corrupted:
+testgenome/genmap_index
+Skipped removing non-empty directory testgenome/genmap_index
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/cade/compPopGen_ms/mappability/tests/.snakemake/log/2021-03-25T124816.834177.snakemake.log

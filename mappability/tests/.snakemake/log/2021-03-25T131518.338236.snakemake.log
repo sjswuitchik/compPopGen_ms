@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 7 of /home/cade/compPopGen_ms/mappability/tests/mappability_test.smk:
+Missing input files for rule all:
+testgenome/genmap_output/testgenome.genmap.sorted.bedgraph
