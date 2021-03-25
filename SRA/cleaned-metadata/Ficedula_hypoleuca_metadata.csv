@@ -1,0 +1,80 @@
+BioProject,BioSample,Organism,sex,Country,Continent,Submitter_Id,Population,Sample,Locality,Organism.x,Organism.y,refGenome
+PRJEB7359,SAMEA3167980,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_312350,CZP,312350,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167982,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_312466,CZP,312466,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167983,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_312467,CZP,312467,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167984,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_312470,CZP,312470,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167985,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_312472,CZP,312472,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167986,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_312480,CZP,312480,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167987,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_312490,CZP,312490,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167988,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_312496,CZP,312496,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167989,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_522953,CZP,522953,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167990,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_522954,CZP,522954,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167992,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_522956,CZP,522956,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167993,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_522957,CZP,522957,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167995,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_522960,CZP,522960,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167996,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_522961,CZP,522961,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167997,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_522963,CZP,522963,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167998,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_522964,CZP,522964,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167999,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_522965,CZP,522965,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172316,Ficedula_hypoleuca,female,Sweden,Europe,OP_CA91255,OP,CA91255,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172317,Ficedula_hypoleuca,male,Sweden,Europe,OP_CA91262,OP,CA91262,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172318,Ficedula_hypoleuca,female,Sweden,Europe,OP_CC30243,OP,CC30243,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172319,Ficedula_hypoleuca,male,Sweden,Europe,OP_CJ23028,OP,CJ23028,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172320,Ficedula_hypoleuca,female,Sweden,Europe,OP_CJ23501,OP,CJ23501,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172321,Ficedula_hypoleuca,female,Sweden,Europe,OP_CJ23689,OP,CJ23689,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172323,Ficedula_hypoleuca,male,Sweden,Europe,OP_CK53268,OP,CK53268,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172324,Ficedula_hypoleuca,female,Sweden,Europe,OP_CK53444,OP,CK53444,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172325,Ficedula_hypoleuca,female,Sweden,Europe,OP_CK53825,OP,CK53825,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172327,Ficedula_hypoleuca,male,Sweden,Europe,OP_CK53886,OP,CK53886,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172328,Ficedula_hypoleuca,female,Sweden,Europe,OP_CK53888,OP,CK53888,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172329,Ficedula_hypoleuca,male,Sweden,Europe,OP_CK53891,OP,CK53891,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172330,Ficedula_hypoleuca,male,Sweden,Europe,OP_CK53898,OP,CK53898,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172331,Ficedula_hypoleuca,male,Sweden,Europe,OP_CL7_5or6,OP,CL7_5or6,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172332,Ficedula_hypoleuca,female,Sweden,Europe,OP_CL76147,OP,CL76147,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172333,Ficedula_hypoleuca,male,Sweden,Europe,OP_CL76505,OP,CL76505,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172334,Ficedula_hypoleuca,male,Sweden,Europe,OP_CL76525,OP,CL76525,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172489,Ficedula_hypoleuca,female,Spain,Europe,E_F14,E,F14,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172490,Ficedula_hypoleuca,female,Spain,Europe,E_F_1,E,F_1,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172491,Ficedula_hypoleuca,female,Spain,Europe,E_F_28,E,F_28,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172492,Ficedula_hypoleuca,female,Spain,Europe,E_F31,E,F31,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172493,Ficedula_hypoleuca,female,Spain,Europe,E_F_45,E,F_45,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172494,Ficedula_hypoleuca,female,Spain,Europe,E_F4,E,F4,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172495,Ficedula_hypoleuca,female,Spain,Europe,E_F_52,E,F_52,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172497,Ficedula_hypoleuca,female,Spain,Europe,E_F_83,E,F_83,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172498,Ficedula_hypoleuca,female,Spain,Europe,E_F_84,E,F_84,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172499,Ficedula_hypoleuca,male,Spain,Europe,E_M_14,E,M_14,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172500,Ficedula_hypoleuca,male,Spain,Europe,E_M_230_1,E,M_230_1,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172501,Ficedula_hypoleuca,male,Spain,Europe,E_M_29,E,M_29,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172502,Ficedula_hypoleuca,male,Spain,Europe,E_M_40,E,M_40,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172503,Ficedula_hypoleuca,male,Spain,Europe,E_M_4,E,M_4,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172505,Ficedula_hypoleuca,male,Spain,Europe,E_M_7,E,M_7,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172506,Ficedula_hypoleuca,male,Spain,Europe,E_M_90,E,M_90,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172507,Ficedula_hypoleuca,male,Spain,Europe,E_M_97,E,M_97,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172508,Ficedula_hypoleuca,male,Spain,Europe,E_M_D1_1,E,M_D1_1,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785538,Ficedula_hypoleuca,male,Sweden,Europe,SP_11,SP,11,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785539,Ficedula_hypoleuca,male,Sweden,Europe,SP_12,SP,12,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785540,Ficedula_hypoleuca,male,Sweden,Europe,SP_13,SP,13,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785541,Ficedula_hypoleuca,male,Sweden,Europe,SP_14,SP,14,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785542,Ficedula_hypoleuca,male,Sweden,Europe,SP_15,SP,15,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785543,Ficedula_hypoleuca,female,Sweden,Europe,SP_16,SP,16,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785544,Ficedula_hypoleuca,female,Sweden,Europe,SP_18-2,SP,18-2,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785545,Ficedula_hypoleuca,female,Sweden,Europe,SP_19,SP,19,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785546,Ficedula_hypoleuca,female,Sweden,Europe,SP_20-1,SP,20-1,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785547,Ficedula_hypoleuca,female,Sweden,Europe,SP_SP17-2,SP,SP17-2,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785548,Ficedula_hypoleuca,female,Sweden,Europe,SP_SV10,SP,SV10,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785549,Ficedula_hypoleuca,male,Sweden,Europe,SP_SV1,SP,SV1,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785550,Ficedula_hypoleuca,male,Sweden,Europe,SP_SV2,SP,SV2,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785551,Ficedula_hypoleuca,male,Sweden,Europe,SP_SV3,SP,SV3,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785553,Ficedula_hypoleuca,male,Sweden,Europe,SP_SV5,SP,SV5,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785554,Ficedula_hypoleuca,female,Sweden,Europe,SP_SV6,SP,SV6,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785555,Ficedula_hypoleuca,female,Sweden,Europe,SP_SV7,SP,SV7,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785557,Ficedula_hypoleuca,female,Sweden,Europe,SP_SV9,SP,SV9,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167991,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_522955,CZP,522955,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172504,Ficedula_hypoleuca,male,Spain,Europe,E_M_57,E,M_57,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167981,Ficedula_hypoleuca,female,Czech Republic,Europe,CZP_312382,CZP,312382,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3167994,Ficedula_hypoleuca,male,Czech Republic,Europe,CZP_522958,CZP,522958,Unknown,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172326,Ficedula_hypoleuca,female,Sweden,Europe,OP_CK53848,OP,CK53848,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785552,Ficedula_hypoleuca,male,Sweden,Europe,SP_SV4,SP,SV4,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172322,Ficedula_hypoleuca,male,Sweden,Europe,OP_CK53198,OP,CK53198,Öland,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA2785556,Ficedula_hypoleuca,female,Sweden,Europe,SP_SV8,SP,SV8,Uppsala,NA,NA,GCF_000247815.1
+PRJEB7359,SAMEA3172496,Ficedula_hypoleuca,female,Spain,Europe,E_F_57,E,F_57,Unknown,NA,NA,GCF_000247815.1

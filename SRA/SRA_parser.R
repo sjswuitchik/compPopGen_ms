@@ -27,7 +27,7 @@ read_assembly_clean <- function(file, path) {
 }
 
 files<-c("SRA-Agnatha.txt", "SRA-Amphibia.txt", "SRA-Aves.txt", "SRA-Chondrichthyes.txt", 
-         "SRA-Reptilia.txt", "SRA-Sarcopterygii.txt", "SRA-fish-1.txt", "SRA-fish-2..txt", "SRA-stickleback.txt")
+         "SRA-Reptilia.txt", "SRA-Sarcopterygii.txt", "SRA-fish-1.txt", "SRA-fish-2.txt", "SRA-stickleback.txt")
 
 sra_list<-lapply(files, read_sra_clean, path="~/Projects/popgen/compPopGen_ms/SRA")
 
