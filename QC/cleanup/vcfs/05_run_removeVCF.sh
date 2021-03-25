@@ -11,3 +11,6 @@
 # sbatch run_removeVCF.sh spp_name
 
 rm -r $1/vcf/*
+
+
+## NB: not needed when refactoring to snakemake
