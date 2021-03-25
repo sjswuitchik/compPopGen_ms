@@ -14,3 +14,6 @@ module load bcftools/1.5-fasrc02
 
 bcftools concat ../$1/vcf/*.gz -O z -o vcfs/$1_combined.vcf.gz -a 
 bcftools index vcfs/$1_combined.vcf.gz -t 
+
+
+## NB: not needed when refactoring to snakemake
