@@ -2,7 +2,8 @@
 # Variables you need to change #
 ################################
 
-ingroup: "hetAtr" # the name/code for your ingroup species
+ingroup: "hetAtr" # the name/code for your ingroup species  
+genome: "directory/to/genome.fa"  # the location of the reference genome
 
 ####################################
 # Variables you may need to change #
