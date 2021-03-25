@@ -12,3 +12,6 @@
 
 cd $1dedup
 mv *.bg /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage/$1
+
+
+## NB: not needed when refactoring to snakemake
