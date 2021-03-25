@@ -540,7 +540,12 @@ PRJNA628166	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7293100/
 PRJNA309350	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
 
 ```{r}
+sp <- "Egretta_garzetta"
+bp <- "PRJNA309350"
 
+sra <- get_sra(bp, opt_cols = c("geo_loc_name")) %>%
+  rename(Locality=geo_loc_name)
+write_metadata(sra, sp)
 ```
 
 ### Eopsaltria australis	
@@ -764,8 +769,18 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443041/
 PRJNA308878
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290368/
 
-```{r}
+Info all in SRA table - note that more than one line per BioSample (individual) in original table.
 
+```{r}
+sp <- "Nipponia_nippon"
+bp <- "PRJNA308878"
+
+#More than one file per sample, so only keeping unique BioSamples
+sra <- get_sra(bp, opt_cols = c("geo_loc_name","Sample Name")) %>%
+  rename(Locality=geo_loc_name) %>%
+  distinct(BioSample,.keep_all=T)
+
+write_metadata(sra,sp)
 
 ```
 
@@ -791,10 +806,42 @@ PRJEB2759	https://www.ncbi.nlm.nih.gov/pubmed/24408034
 ### Parus major
 
 
-PRJNA274877	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
-PRJNA304164	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/
+PRJNA274877	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/
+
+Specific sample localities are in the sra file, but broader population groups are in Supplemental Table S8 embedded in the pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/bin/srep14256-s1.pdf
+
+PRJNA304164	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
 
 ```{r}
+sp <- "Parus_major"
+bp1 <- "PRJNA274877"
+bp2 <- "PRJNA304164"
+
+
+
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/bin/srep14256-s1.pdf"
+paper<-do.call(rbind,extract_tables(supmat, method="stream",pages=c(18)))
+#colnames(paper) <- c("sample", "breed", "mapping_rate", "insert_size", "depth")
+
+#meta<-paper %>% as_tibble %>% select(sample, breed) %>% 
+#  filter(breed != "Breed", breed != "") %>% 
+#  left_join(sra, by=c("sample" = "Sample_Type")) %>%
+#  filter(breed == "Mallard") %>%
+#  mutate(Continent = "Asia", Country = "China", Locality = "Aoji Duck Farm, Zhejiang Province")
+
+
+sra1 <- get_sra(bp1, opt_cols=c("birth_location", "Sample Name"))
+
+
+
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/bin/ncomms10474-s3.xlsx"
+download.file(supmat,temp)
+meta2<-read_excel(temp, skip=1, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+sra2 <- get_sra(bp2)
+
 
 
 ```
