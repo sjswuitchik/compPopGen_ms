@@ -1,5 +1,20 @@
 localrules: vcfqc
 
+rule setup_genome:
+  """
+  Describe rule here
+  """
+  input:
+          genome = config['genome']
+  output:
+          twoBit = config['ingroup'] + ".2bit",
+          sizes = config['ingroup'] + ".chrom.sizes",
+          bed = config['ingroup'] + ".genome.bed"
+  shell:
+          "faToTwoBit {input.genome} {output.twoBit}\n"
+          "twoBitInfo {output.twoBit} stdout | sort -k2rn > {output.sizes}\n"
+          """awk -f helper_scripts/genome.awk {output.sizes} > {output.bed}"""
+  
 rule missingness:
   """
   Calculate relative missingness per individual to output both a table and a dotplot
