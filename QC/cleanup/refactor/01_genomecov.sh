@@ -21,7 +21,11 @@ do
   sort -k1,1 -k2,2n - > $file.sorted
 done
 
-for file in $1/*.sorted;
+rename 's/\.dedup\.sorted\.bam\.bg\.sorted/\.bg/' $1/*.sorted 
+mkdir -p $1/unsortedBG
+mv $1/*.dedup.sorted.bam.bg $1/unsortedBG/
+
+for file in $1/*.bg;
 do
   bedGraphToBigWig $file $1/$1.chrom.sizes $file.bw
 done
