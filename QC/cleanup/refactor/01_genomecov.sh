@@ -20,7 +20,7 @@ done
 
 for file in $1/*.bg;
 do
-  sort -k1,1 -k2,2n - > $file.sorted
+  sort -k1,1 -k2,2n $file > $file.sorted
 done
 
 rename 's/\.dedup\.sorted\.bam\.bg\.sorted/\.bg/' $1/*.sorted 
