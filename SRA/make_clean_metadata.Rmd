@@ -74,7 +74,7 @@ get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
 
 write_metadata <- function(df, refSp) {
   refGenome <- genome_key %>% filter(Organism == refSp) %>% pull(AssemblyAccession)
-  df %>% mutate(refGenome = refGenome) %>%
+  df %>% mutate(refGenome = refGenome) %>% distinct() %>%
   split(., .$Organism) %>%
   imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_metadata.csv')))
 }
