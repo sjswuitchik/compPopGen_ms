@@ -9,6 +9,6 @@
 
 # sbatch 00_setup_genome.sh spp_name
 
-faToTwoBit $1/$1.fa $1/$1.2bit
+faToTwoBit -long $1/$1.fa $1/$1.2bit
 twoBitInfo $1/$1.2bit stdout | sort -k2rn > $1/$1.chrom.sizes
 awk 'BEGIN{FS=OFS="\t"}{print $1, 0, $2, $1}' $1/$1.chrom.sizes > $1/$1.genome.bed
