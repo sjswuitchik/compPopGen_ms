@@ -11,6 +11,8 @@
 
 set -o errexit
 
+source activate qc
+
 ls $1/*.bw > $1/list
 bigWigMerge -inList $1/list $1/$1.merge.bg
 
