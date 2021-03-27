@@ -7,7 +7,7 @@
 #SBATCH -t 24:00:00
 #SBATCH --mem=12000
 
-# nb: mem=8000 is fine for most, some spp needed 10000 - 12000
+# nb: mem=8000 is fine for most, some spp needed 10000
 
 # run from /n/holylfs/LABS/informatics/ashultz/CompPopGen/SPECIES_DATASETS/gatherVCFs_dir/coverage
 # sbatch run_bwSummaries.sh spp_name
