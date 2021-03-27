@@ -5,7 +5,7 @@
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 24:00:00
-#SBATCH --mem=12000
+#SBATCH --mem=8000
 
 # nb: mem=8000 is fine for most, some spp needed 10000
 
