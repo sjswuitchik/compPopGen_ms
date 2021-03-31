@@ -9,6 +9,8 @@
 
 # sbatch 01_genomecov.sh spp_name
 
+source activate qc
+
 set -o errexit
 
 source activate qc
