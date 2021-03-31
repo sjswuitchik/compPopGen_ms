@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J genomecov
-#SBATCH -e logs/err_%j
-#SBATCH -o logs/out_%j
+#SBATCH -e logs/slurm-%j.err
+#SBATCH -o logs/slurm-%j.out
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 05-00:00:00
