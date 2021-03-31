@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J covBeds
-#SBATCH -o logs/slurm-%j
-#SBATCH -e logs/slurm-%j
+#SBATCH -o logs/out_%j
+#SBATCH -e logs/err_%j
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 24:00:00
