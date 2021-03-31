@@ -13,8 +13,6 @@ source activate qc
 
 set -o errexit
 
-source activate qc
-
 for file in $1/*.bam;
 do
   bedtools genomecov -bga -ibam $file -g $1/$1.chrom.sizes > $file.bg
