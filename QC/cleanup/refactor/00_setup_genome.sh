@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J genome_set
-#SBATCH -o logs/out_%j.out
-#SBATCH -e logs/err_%j.err
+#SBATCH -o logs/out_%j
+#SBATCH -e logs/err_%j
 #SBATCH -p shared
 #SBATCH -n 1
 #SBATCH -t 00:30:00
