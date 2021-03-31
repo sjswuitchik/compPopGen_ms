@@ -9,6 +9,8 @@
 
 # sbatch 02_mergeBedgraphs.sh spp_name
 
+source activate qc
+
 set -o errexit
 
 source activate qc
