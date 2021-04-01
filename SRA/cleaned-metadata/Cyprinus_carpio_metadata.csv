@@ -1,0 +1,53 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Breed,Strain,refGenome
+PRJNA510861,SAMN10617437,Cyprinus_carpio,female,GM00,German Mirror carp,GM00,GCF_000951615.1
+PRJNA510861,SAMN10617436,Cyprinus_carpio,female,HB00,Wuyuan Hebao red carp,HB00,GCF_000951615.1
+PRJNA510861,SAMN10617513,Cyprinus_carpio,unknown,SP20,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617512,Cyprinus_carpio,unknown,SP19,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617511,Cyprinus_carpio,unknown,SP18,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617505,Cyprinus_carpio,unknown,SP11,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617506,Cyprinus_carpio,unknown,SP12,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617507,Cyprinus_carpio,unknown,SP14,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617508,Cyprinus_carpio,unknown,SP15,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617501,Cyprinus_carpio,unknown,SP03,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617502,Cyprinus_carpio,unknown,SP04,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617503,Cyprinus_carpio,unknown,SP05,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617504,Cyprinus_carpio,unknown,SP09,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617509,Cyprinus_carpio,unknown,SP16,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617510,Cyprinus_carpio,unknown,SP17,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617480,Cyprinus_carpio,unknown,HB17,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617479,Cyprinus_carpio,unknown,HB15,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617478,Cyprinus_carpio,unknown,HB14,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617477,Cyprinus_carpio,unknown,HB13,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617476,Cyprinus_carpio,unknown,HB12,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617475,Cyprinus_carpio,unknown,HB11,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617474,Cyprinus_carpio,unknown,HB10,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617473,Cyprinus_carpio,unknown,HB9,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617472,Cyprinus_carpio,unknown,HB8,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617471,Cyprinus_carpio,unknown,HB7,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617469,Cyprinus_carpio,unknown,HB5,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617470,Cyprinus_carpio,unknown,HB6,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617465,Cyprinus_carpio,unknown,HB1,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617466,Cyprinus_carpio,unknown,HB2,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617468,Cyprinus_carpio,unknown,HB4,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617496,Cyprinus_carpio,unknown,Y14,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617495,Cyprinus_carpio,unknown,Y13,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617498,Cyprinus_carpio,unknown,Y16,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617497,Cyprinus_carpio,unknown,Y15,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617492,Cyprinus_carpio,unknown,Y10,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617491,Cyprinus_carpio,unknown,Y09,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617494,Cyprinus_carpio,unknown,Y12,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617493,Cyprinus_carpio,unknown,Y11,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617500,Cyprinus_carpio,unknown,SP02,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617499,Cyprinus_carpio,unknown,SP01,German Mirror carp,Mirror carp,GCF_000951615.1
+PRJNA510861,SAMN10617435,Cyprinus_carpio,female,YR00,Yuxuan Yellow River carp,YR00,GCF_000951615.1
+PRJNA510861,SAMN10617487,Cyprinus_carpio,unknown,Y05,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617488,Cyprinus_carpio,unknown,Y06,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617485,Cyprinus_carpio,unknown,Y03,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617486,Cyprinus_carpio,unknown,Y04,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617483,Cyprinus_carpio,unknown,Y01,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617484,Cyprinus_carpio,unknown,Y02,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617481,Cyprinus_carpio,unknown,HB18,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617482,Cyprinus_carpio,unknown,HB19,Wuyuan Hebao red carp,Hebao,GCF_000951615.1
+PRJNA510861,SAMN10617489,Cyprinus_carpio,unknown,Y07,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617490,Cyprinus_carpio,unknown,Y08,Yuxuan Yellow River carp,Yellow River,GCF_000951615.1
+PRJNA510861,SAMN10617467,Cyprinus_carpio,unknown,HB3,Wuyuan Hebao red carp,Hebao,GCF_000951615.1

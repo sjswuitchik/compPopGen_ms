@@ -507,21 +507,20 @@ write_metadata(meta, sp)
 ```
 
 
-### Cyprinodon variegatus	
-
-PRJNA690558	https://www.biorxiv.org/content/10.1101/2020.03.12.988774v1.full
-PRJNA89149	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3810-7
-
-```{r}
-
-```
-
 ### Cyprinus carpio	
 
 PRJNA510861 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789147/
 
+SRA metadata seems complete enough, although can't find any mention of the resequencing dataset in the PMC link
 
 ```{r}
+bp<-"PRJNA510861"
+sp<-"Cyprinus_carpio"
+
+sra<-get_sra(bp, opt_cols=c("Sample Name", "Breed", "Strain")) %>%
+  rename(Submitter_Id = `Sample Name`)
+
+write_metadata(sra, sp)
 
 ```
 
