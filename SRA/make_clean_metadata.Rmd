@@ -770,16 +770,6 @@ write_metadata(sra, sp)
 
 ```
 
-### Gambusia affinis	
-
-PRJNA386810	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/
-
-
-```{r}
-
-
-```
-
 ### Gasterosteus species
 
 PRJEB15181	Gasterosteus aculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
@@ -796,10 +786,18 @@ PRJDB2374	Gasterosteus wheatlandi	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3
 ###	Haplochromis burtoni 
 
 PRJNA485198   https://www.biorxiv.org/content/10.1101/2021.01.12.426414v1
-PRJNA60363    https://www.ncbi.nlm.nih.gov/pubmed/25186727
+PRJNA60363    https://www.ncbi.nlm.nih.gov/pubmed/25186727 <- this is genome paper, skip it
+
+More metadata at bioRxiv but not posted, could add when paper is published
 
 ```{r}
+bp1<-"PRJNA485198"
+sp<-"Haplochromis_burtoni"
 
+sra<-get_sra(bp1, opt_cols=c("Ecotype", "Collection_date", "Sample Name")) %>%
+  rename(Submitter_Id = `Sample Name`, Population = Ecotype)
+
+write_metadata(sra, sp)
 
 ```
 
@@ -808,7 +806,29 @@ PRJNA60363    https://www.ncbi.nlm.nih.gov/pubmed/25186727
 PRJNA612146	Hippocampus comes	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889852/	
 PRJNA612146	Hippocampus kuda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889852/	
 
+There is apparently a better Hippocampus erectus assembly associated with the manuscript, but the genome sequence does not seem to be available anywhere, at least not at NCBI. So using the lower-quality, but not terrible, H. comes assembly
+
 ```{r}
+sp<-"Hippocampus_comes"
+bp<-"PRJNA612146"
+
+sra<-get_sra(bp, opt_cols = c("Sample Name", "Ecotype")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  separate(Ecotype, into=c("Location", "Country"), extra="merge", sep=",") %>%
+  mutate(Location = str_remove_all(Location,fixed("\\"))) %>%
+  separate(Country, into=c("State", "Country"), sep=",", fill="left") %>%
+  mutate(Country = str_remove(Country, "^[[:space:]]")) %>%
+  mutate(State = str_remove_all(State,fixed("\\"))) %>%
+  mutate(State = case_when(
+    Country == "Fujian Province" | Country == "Hainan Province" ~ Country,
+    TRUE ~ State)) %>%
+  mutate(Country = case_when(
+    Country == "Fujian Province" | Country == "Hainan Province" ~ "China",
+    TRUE ~ Country))
+
+#decided to filter species without 10 individuals, just for simplicity
+
+sra %>% filter(Organism != "Hippocampus_casscsio", Organism != "Hippocampus_camelopardalis", Organism != "Hippocampus_capensis") %>% write_metadata(sp)
 
 ```
 
