@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Country,Continent,Submitter_Id,Population,Sample,Locality,Organism.x,Organism.y,refGenome
+PRJEB7359,SAMEA3175226,Ficedula_hyperythra,male,Unknown,Unknown,FHYP_148317,FHYP,148317,Unknown,NA,NA,GCF_000247815.1
