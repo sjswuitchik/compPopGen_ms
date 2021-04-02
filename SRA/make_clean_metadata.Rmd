@@ -507,21 +507,20 @@ write_metadata(meta, sp)
 ```
 
 
-### Cyprinodon variegatus	
-
-PRJNA690558	https://www.biorxiv.org/content/10.1101/2020.03.12.988774v1.full
-PRJNA89149	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3810-7
-
-```{r}
-
-```
-
 ### Cyprinus carpio	
 
 PRJNA510861 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789147/
 
+SRA metadata seems complete enough, although can't find any mention of the resequencing dataset in the PMC link
 
 ```{r}
+bp<-"PRJNA510861"
+sp<-"Cyprinus_carpio"
+
+sra<-get_sra(bp, opt_cols=c("Sample Name", "Breed", "Strain")) %>%
+  rename(Submitter_Id = `Sample Name`)
+
+write_metadata(sra, sp)
 
 ```
 
@@ -531,7 +530,28 @@ PRJNA510861 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789147/
 PRJNA472842	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6023918/
 PRJNA628166	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7293100/
 
+There is more precise location data for these samples, but only reported as a figure with no table linking to samples, so can't use it.
+
+
 ```{r}
+sp<-"Dicentrarchus_labrax"
+bp1<-"PRJNA472842"
+bp2<-"PRJNA628166"
+
+sra1<-get_sra(bp1, opt_cols=c("Sample Name", "Ecotype")) %>% rename(Submitter_Id = `Sample Name`)
+sra2<-get_sra(bp2, opt_cols=c("Sample Name", "Ecotype")) %>% rename(Submitter_Id = `Sample Name`)
+sra<-bind_rows(sra1, sra2)
+
+sra<-mutate(sra, Subpopulation=case_when(
+  str_detect(Submitter_Id, "^AT") ~ "Atlantic",
+  str_detect(Submitter_Id, "^WM") ~ "W_Mediterranean",
+  str_detect(Submitter_Id, "^SE") ~ "SE_Mediterranean",
+  str_detect(Submitter_Id, "^NE") ~ "NE_Mediterranean",
+  TRUE ~ "Unknown")
+) %>%
+  rename(Population = Ecotype)
+
+write_metadata(sra, sp)
 
 ```
 
@@ -547,7 +567,41 @@ PRJNA309350	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-
 
 PRJNA476023   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6736294/
 
+SRA metadata very good, except info for genome species is absent, grab from Excel
+
 ```{r}
+bp<-"PRJNA476023"
+sp<-"Eopsaltria_australis"
+
+
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6736294/bin/giz111_supplemental_table1.xlsx"
+download.file(supmat,temp)
+meta1<-read_excel(temp, skip=1, col_types = "text", trim_ws = TRUE) %>%
+  mutate(ID = str_replace(ID, " ", "-"))
+unlink(temp)
+
+sra<-get_sra(bp, opt_cols=c("geo_loc_name_country",	"geo_loc_name_country_continent",	
+                            "geo_loc_name", "lat_lon", "Sample Name")) %>%
+  rename(Submitter_Id = `Sample Name`)
+
+meta <- full_join(sra, meta1, by=c("Submitter_Id" = "ID")) %>%
+  select(BioProject, BioSample, Submitter_Id, Organism, sex, Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent, Location = geo_loc_name, lat_lon, 
+         Latitude, Longitude, Population, State) %>%
+  mutate(Country = ifelse(is.na(Country), "Australia", Country),
+         Continent = ifelse(is.na(Continent), "Oceania", Continent),
+         Location = case_when(
+           State == "VIC" & Location != "Australia:Victoria" ~ "Australia:Victoria",
+           State == "VIC" & is.na(Location) ~ "Australia:Victoria",
+           TRUE ~ Location
+         ),
+         lat_lon = ifelse(is.na(lat_lon), 
+                         str_c(abs(round(as.numeric(Latitude),3)), " S", " ", round(as.numeric(Longitude),3), " E"), 
+                         lat_lon)) %>%
+  select(-Latitude, -Longitude)
+
+write_metadata(meta, sp)
 
 ```
 
@@ -677,7 +731,24 @@ write_metadata(meta, sp)
 
 PRJNA323589   http://science.sciencemag.org/content/354/6317/1305.full
 
+
+SRA is clean and nice, could add phenotype from Table S1 though
+
+
 ```{r}
+bp<-"PRJNA323589"
+sp<-"Fundulus_heteroclitus"
+
+sra<-get_sra(bp, opt_cols=c("Sample Name", "Ecotype", "lat_lon", "Collection_date")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Phenotype = case_when(
+    Ecotype == "New Bedford Harbor" | Ecotype == "Bridgeport" | Ecotype == "Newark" | Ecotype == "Elizabeth River" ~ "Tolerant", 
+    Ecotype == "Block Island" | Ecotype == "Flax Pond" | Ecotype == "Sandy Hook" | Ecotype == "Kings Creek" ~ "Sensitive", 
+    TRUE ~ NA_character_
+  )) %>%
+  rename(Population = Ecotype)
+
+write_metadata(sra, sp)
 
 ```
 
@@ -685,7 +756,9 @@ PRJNA323589   http://science.sciencemag.org/content/354/6317/1305.full
 
 PRJNA386810	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/
 
+
 ```{r}
+
 
 ```
 
