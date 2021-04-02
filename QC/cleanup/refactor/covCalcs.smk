@@ -65,7 +65,7 @@ rule bigWig_summary:
               "bigWigAverageOverBed {output.bwmerge} {input.bed} {output.summ}\n"                
               "gzip {output.bgmerge}"                
                               
-rule coverage_beds:
+rule coverage_beds: ## will need to add bedtools merge to this eventually?  
       """
       Describe rule
       """
@@ -73,13 +73,15 @@ rule coverage_beds:
               summ = bamsDir + config['spp'] + ".summary.tab",                  
               bgmerge = bamsDir + config['spp'] + ".merge.bg.gz"                
       output:
-              clean = bamsDir + config['spp'] + "
-              low = bamsDir + config['spp'] + " 
-              high = bamsDir + config['spp'] + "                 
+              clean = bamsDir + config['spp'] + "_coverage_sites_clean.bed",
+              low = bamsDir + config['spp'] + "_coverage_sites_low.bed", 
+              high = bamsDir + config['spp'] + "_coverage_sites_high.bed"                 
       params:
               spp = config['spp]                 
       shell:                        
-                              
-                              
+              ## talk to Tim about best way to snakemake this awkward awk
+                           
+                         
+                             
                               
                               
