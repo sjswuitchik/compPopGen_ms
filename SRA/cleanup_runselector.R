@@ -15,7 +15,7 @@ read_sra_full <- function(file, path) {
 
 not_all_na <- function(x) {!all(is.na(x))}
 
-write_sample_metadata <- function(df) {
+write_sample_metadata <- function(df, path_to_write) {
   df %>%
   mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>%
   mutate(sex = case_when(
@@ -33,5 +33,5 @@ write_sample_metadata <- function(df) {
   imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA-sample-metadata/SRA_Metadata_', .y, '.tsv')))
 }
 
-temp<-read_sra_full("SRA_Metadata_PRJEB2984.txt", "~/Downloads")
+temp<-read_sra_full("SraRunTable.txt", "~/Downloads")
 write_sample_metadata(temp, "~/Projects/popgen/compPopGen_ms/SRA")
