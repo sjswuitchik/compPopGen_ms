@@ -1,0 +1,38 @@
+BioProject,BioSample,Organism,sex,Country,Continent,lat_lon,Submitter_Id,Collection_date,Location,refGenome
+PRJEB27858,SAMEA4799712,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18902,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799711,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18901,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799713,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18903,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799708,Hypoplectrus_nigricans,missing,Panama,North America,10.2392 N 83.1731 E,18424,2004-05-12,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799709,Hypoplectrus_nigricans,missing,Panama,North America,10.2392 N 83.1731 E,18428,2004-05-12,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799707,Hypoplectrus_nigricans,missing,Panama,North America,9.3775 N 82.3039 E,18418,2004-05-12,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799717,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18907,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799718,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18909,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799715,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18905,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799710,Hypoplectrus_nigricans,missing,Panama,North America,9.3775 N 82.3039 E,18436,2004-05-12,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799716,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18906,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799714,Hypoplectrus_nigricans,missing,Panama,North America,9.2983 N 82.2894 E,18904,2005-03-25,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799706,Hypoplectrus_nigricans,missing,Panama,North America,NA,16_21-30,2016,Bocas del Toro,GCA_900610375.1
+PRJEB27858,SAMEA4799682,Hypoplectrus_nigricans,missing,Belize,North America,16.7653 N 88.1442 E,18151,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799683,Hypoplectrus_nigricans,missing,Belize,North America,16.7653 N 88.1442 E,18153,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799684,Hypoplectrus_nigricans,missing,Belize,North America,16.8008 N 88.0789 E,18155,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799685,Hypoplectrus_nigricans,missing,Belize,North America,16.8008 N 88.0789 E,18156,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799686,Hypoplectrus_nigricans,missing,Belize,North America,16.8008 N 88.0789 E,18157,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799687,Hypoplectrus_nigricans,missing,Belize,North America,16.8008 N 88.0789 E,18158,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799688,Hypoplectrus_nigricans,missing,Belize,North America,16.8008 N 88.0789 E,18159,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799689,Hypoplectrus_nigricans,missing,Belize,North America,16.7653 N 88.1442 E,18162,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799690,Hypoplectrus_nigricans,missing,Belize,North America,16.7653 N 88.1442 E,18165,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799691,Hypoplectrus_nigricans,missing,Belize,North America,16.7653 N 88.1442 E,18171,2004-07-25,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799692,Hypoplectrus_nigricans,missing,Belize,North America,16.8058 N 88.0792 E,18185,2004-07-26,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799693,Hypoplectrus_nigricans,missing,Belize,North America,16.8058 N 88.0792 E,18187,2004-07-26,Carrie Bow Cay,GCA_900610375.1
+PRJEB27858,SAMEA4799694,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20599,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799695,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20600,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799696,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20601,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799697,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20602,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799698,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20603,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799699,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20604,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799700,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20605,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799701,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20606,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799702,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20607,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799703,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20608,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799704,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20609,2006-06-04,Cayos Becerros,GCA_900610375.1
+PRJEB27858,SAMEA4799705,Hypoplectrus_nigricans,missing,Honduras,North America,15.9558 N 83.2931 E,20610,2006-06-04,Cayos Becerros,GCA_900610375.1

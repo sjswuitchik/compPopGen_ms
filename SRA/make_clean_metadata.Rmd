@@ -837,6 +837,16 @@ sra %>% filter(Organism != "Hippocampus_casscsio", Organism != "Hippocampus_came
 PRJEB27858    https://www.nature.com/articles/s41559-019-0814-5
 
 ```{r}
+bp<-"PRJEB27858"
+sp<-"Hypoplectrus_puella"
+
+sra<-get_sra(bp, opt_cols=c("geo_loc_name_country", "geo_loc_name_country_continent", "lat_lon",
+                            "Alias", "Collection_date", "geographic_location_(region_and_locality)")) %>%
+  rename(Submitter_Id = Alias, Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent, Location = `geographic_location_(region_and_locality)`) %>%
+  mutate(LibraryName = Submitter_Id)
+
+write_metadata(sra, sp)
 
 ```
 
