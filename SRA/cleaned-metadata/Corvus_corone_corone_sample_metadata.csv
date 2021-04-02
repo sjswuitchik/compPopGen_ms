@@ -1,0 +1,31 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome
+PRJNA192205,SAMN02743818,Corvus_corone_corone,male,D_Ko_C02,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743819,Corvus_corone_corone,male,D_Ko_C04,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743820,Corvus_corone_corone,male,D_Ko_C05,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743821,Corvus_corone_corone,male,D_Ko_C08,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743822,Corvus_corone_corone,male,D_Ko_C11,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743823,Corvus_corone_corone,male,D_Ko_C13,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743824,Corvus_corone_corone,male,D_Ko_C15,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743825,Corvus_corone_corone,male,D_Ko_C19,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743826,Corvus_corone_corone,female,D_Ko_C20,Germany,Europe,Germany: Konstanz,GCF_000738735.5
+PRJNA192205,SAMN02743827,Corvus_corone_corone,male,D_Ra_C01,Germany,Europe,Germany: Radolfzell,GCF_000738735.5
+PRJNA192205,SAMN02743828,Corvus_corone_corone,male,D_Ra_C05,Germany,Europe,Germany: Radolfzell,GCF_000738735.5
+PRJNA192205,SAMN02743829,Corvus_corone_corone,male,D_Ra_C06,Germany,Europe,Germany: Radolfzell,GCF_000738735.5
+PRJNA192205,SAMN02743830,Corvus_corone_corone,male,D_Ra_C11,Germany,Europe,Germany: Radolfzell,GCF_000738735.5
+PRJNA192205,SAMN02743831,Corvus_corone_corone,male,D_Ra_C14,Germany,Europe,Germany: Radolfzell,GCF_000738735.5
+PRJNA192205,SAMN02743832,Corvus_corone_corone,male,D_Ra_C16,Germany,Europe,Germany: Radolfzell,GCF_000738735.5
+PRJNA192205,SAMN02743833,Corvus_corone_corone,male,E_Vi_C01,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743834,Corvus_corone_corone,male,E_Vi_C05,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743835,Corvus_corone_corone,male,E_Vi_C08,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743836,Corvus_corone_corone,male,E_Vi_C14,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743837,Corvus_corone_corone,male,E_Vi_C19,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743838,Corvus_corone_corone,male,E_Vi_C22,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743839,Corvus_corone_corone,male,E_Vi_C23,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743840,Corvus_corone_corone,male,E_Vi_C32,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743841,Corvus_corone_corone,male,E_Vi_C37,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743842,Corvus_corone_corone,male,E_Vi_C44,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743843,Corvus_corone_corone,male,E_Vi_C46,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743844,Corvus_corone_corone,male,E_Vi_C48,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743845,Corvus_corone_corone,male,E_Vi_C51,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743846,Corvus_corone_corone,male,E_Vi_C57,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5
+PRJNA192205,SAMN02743847,Corvus_corone_corone,male,E_Vi_C58,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5

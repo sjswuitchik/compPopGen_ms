@@ -1,0 +1,3 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome
+PRJNA192205,SAMN02843224,Coloeus_monedula,male,S_Ri_J01,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5
+PRJNA192205,SAMN02843225,Coloeus_monedula,male,S_Ri_J08,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5

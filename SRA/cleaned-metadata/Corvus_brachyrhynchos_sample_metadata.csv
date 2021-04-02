@@ -1,0 +1,6 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome
+PRJNA192205,SAMN02743852,Corvus_brachyrhynchos,male,USA_NY_B04,USA,North America,USA: New York,GCF_000738735.5
+PRJNA192205,SAMN02743848,Corvus_brachyrhynchos,male,USA_CA_B01,USA,North America,USA: California,GCF_000738735.5
+PRJNA192205,SAMN02743850,Corvus_brachyrhynchos,male,USA_CA_B03,USA,North America,USA: California,GCF_000738735.5
+PRJNA192205,SAMN02743849,Corvus_brachyrhynchos,male,USA_NJ_B02,USA,North America,USA: New Jersey,GCF_000738735.5
+PRJNA192205,SAMN02743851,Corvus_brachyrhynchos,male,USA_NY_B03,USA,North America,USA: New York,GCF_000738735.5

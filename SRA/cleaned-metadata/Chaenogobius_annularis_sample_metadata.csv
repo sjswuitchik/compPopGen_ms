@@ -1,0 +1,13 @@
+BioProject,BioSample,Organism,sex,Isolate,Collection_date,Country,Continent,Locality,Submitter_Id,Population,refGenome
+PRJDB7125,SAMD00131486,Chaenogobius_annularis,missing,MIsaki16,2006-09,Japan,Asia,Japan:Misaki,OS16,Pacific Ocean,GCA_015082035.1
+PRJDB7125,SAMD00131488,Chaenogobius_annularis,missing,MIsaki18,2006-09,Japan,Asia,Japan:Misaki,OS18,Pacific Ocean,GCA_015082035.1
+PRJDB7125,SAMD00131634,Chaenogobius_annularis,missing,07Onagawa01,2007-05/2007-06,Japan,Asia,Japan:Onagawa,07KN01,Pacific Ocean,GCA_015082035.1
+PRJDB7125,SAMD00131636,Chaenogobius_annularis,missing,07Onagawa04,2007-05/2007-08,Japan,Asia,Japan:Onagawa,07KN04,Pacific Ocean,GCA_015082035.1
+PRJDB7125,SAMD00131637,Chaenogobius_annularis,missing,Aomori23,2009-04,Japan,Asia,Japan:Aomori,AS23,Sea of Japan,GCA_015082035.1
+PRJDB7125,SAMD00131638,Chaenogobius_annularis,missing,Aomori32,2009-04,Japan,Asia,Japan:Aomori,AS32,Sea of Japan,GCA_015082035.1
+PRJDB7125,SAMD00131639,Chaenogobius_annularis,missing,Aomori37,2009-04,Japan,Asia,Japan:Aomori,AS37,Sea of Japan,GCA_015082035.1
+PRJDB7125,SAMD00131640,Chaenogobius_annularis,missing,Murakami40,2007-09,Japan,Asia,Japan:Murakami,MJ40,Sea of Japan,GCA_015082035.1
+PRJDB7125,SAMD00131641,Chaenogobius_annularis,missing,Murakami41,2007-09,Japan,Asia,Japan:Murakami,MJ41,Sea of Japan,GCA_015082035.1
+PRJDB7125,SAMD00131642,Chaenogobius_annularis,missing,Murakami49,2007-09,Japan,Asia,Japan:Murakami,MJ49,Sea of Japan,GCA_015082035.1
+PRJDB7125,SAMD00131643,Chaenogobius_annularis,missing,Misaki28,2006-09,Japan,Asia,Japan:Misaki,MS28,Pacific Ocean,GCA_015082035.1
+PRJDB7125,SAMD00131635,Chaenogobius_annularis,missing,07Onagawa03,2007-05/2007-07,Japan,Asia,Japan:Onagawa,07KN03,Pacific Ocean,GCA_015082035.1
