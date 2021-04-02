@@ -1,0 +1,19 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome
+PRJNA612146,SAMN14363112,Hippocampus_algiricus,missing,Hag_S8,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363107,Hippocampus_algiricus,missing,Hag_S12,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363106,Hippocampus_algiricus,missing,Hag_S11,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363111,Hippocampus_algiricus,missing,Hag_S6,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363109,Hippocampus_algiricus,missing,Hag_S4,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363104,Hippocampus_algiricus,missing,Hag_12,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363098,Hippocampus_algiricus,missing,Hag_4,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363096,Hippocampus_algiricus,missing,Hag_2,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363101,Hippocampus_algiricus,missing,Hag_8,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363100,Hippocampus_algiricus,missing,Hag_6,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363108,Hippocampus_algiricus,missing,Hag_S3,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363105,Hippocampus_algiricus,missing,Hag_S10,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363103,Hippocampus_algiricus,missing,Hag_11,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363097,Hippocampus_algiricus,missing,Hag_3,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363102,Hippocampus_algiricus,missing,Hag_10,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363099,Hippocampus_algiricus,missing,Hag_5,Luanda,NA,Angola,GCF_001891065.1
+PRJNA612146,SAMN14363110,Hippocampus_algiricus,missing,Hag_S5,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1
+PRJNA612146,SAMN14363095,Hippocampus_algiricus,missing,Hag_1,Luanda,NA,Angola,GCF_001891065.1
