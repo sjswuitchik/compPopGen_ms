@@ -1,180 +1,180 @@
-Organism	BioProject.popgen	n.x	directory	fastq2vcf	fastq2vcf_version (scripts or snakemake)	vcf2mk	vcf2mk_version (scripts or snakemake)	n.y	ref_genome	qc_info	publication	bioproject
-Acanthochromis polyacanthus	PRJNA348663	24	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Amphilophus citrinellus	PRJEB38173	439	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anas platyrhynchos	PRJNA450892	106	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anas platyrhynchos	PRJNA471401	749	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anas platyrhynchos	PRJNA599025	43	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anas platyrhynchos	PRJNA636121	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anas platyrhynchos	PRJNA668048	49	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anguilla anguilla	PRJNA668259	54	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Anolis carolinensis	PRJNA533001	27	Acarolinensis	y	scripts	y	scripts	28	Acarolinensis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/	PRJNA533001
-Anser cygnoides	PRJNA575503	22	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Archocentrus centrarchus	PRJNA682530	20	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Astatotilapia calliptera	PRJEB10014	107	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Astatotilapia calliptera	PRJEB1254	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Astatotilapia calliptera	PRJEB27804	336	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Astyanax mexicanus	PRJNA260715	44	Amexicanus	y	scripts	y	scripts	36	Amexicanus	NA	https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14877	PRJNA260715
-Athene cunicularia	PRJNA431202	130	Acunicularia	y	scripts	y	scripts	20	Acunicularia	NA	http://rspb.royalsocietypublishing.org/content/285/1878/20180206?cpetoc	PRJNA431202
-Betta splendens	PRJEB25124	22	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Calidris pugnax	NA	37	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Calidris pygmaea	PRJNA419629	13	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Carassius auratus	PRJDB8110	48	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Chaenogobius annularis	PRJDB7125	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Chloebia gouldiae	PRJNA515277	16	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Clupea harengus	PRJEB25669	12	Charengus	n	scripts	n	n/a	21	Charengus	NA	http://www.pnas.org/content/114/17/E3452.full	PRJNA338612
-Clupea harengus	PRJEB32358	13	Charengus	n	scripts	n	n/a	21	Charengus	NA	http://www.pnas.org/content/114/17/E3452.full	PRJNA338612
-Clupea harengus	PRJNA356817	26	Charengus	n	scripts	n	n/a	21	Charengus	NA	http://www.pnas.org/content/114/17/E3452.full	PRJNA338612
-Clupea harengus	PRJNA642736	51	Charengus	n	scripts	n	n/a	21	Charengus	NA	http://www.pnas.org/content/114/17/E3452.full	PRJNA338612
-Coilia nasus	PRJNA422339	96	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Columba livia	PRJNA167554	51	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Columba livia	PRJNA513877	27	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Columba livia	PRJNA532675	95	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Corvus cornix cornix	PRJNA192205	31	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Coryphaenoides rupestris	PRJNA430094	60	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Coturnix japonica	PRJNA339911	83	Cjaponica	y	scripts	y	scripts	10	Cjaponica	NA	https://academic.oup.com/gigascience/article/7/5/giy049/4995262	PRJNA339911
-Coturnix japonica	PRJNA339911	83	Cjaponica_Ggal	y	scripts	n	n/a	10	Gallus gallus	NA	https://academic.oup.com/gigascience/article/7/5/giy049/4995262	PRJNA339911
-Cyprinodon variegatus	PRJNA690558	58	Cvariegatus_Fhet	y	scripts	n	n/a	1	Fheteroclitus	NA	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3810-7	PRJNA89149
-Cyprinus carpio	PRJNA202478	33	Ccarpio	y	scripts	y	scripts	1	Ccarpio	NA	NA	PRJNA510861
-Cyprinus carpio	PRJNA510861	53	Ccarpio	y	scripts	y	scripts	1	Ccarpio	NA	NA	PRJNA510861
-Cyprinus carpio	PRJNA684676	36	Ccarpio	y	scripts	y	scripts	1	Ccarpio	NA	NA	PRJNA510861
-Cyprinus carpio	PRJNA684797	26	Ccarpio	y	scripts	y	scripts	1	Ccarpio	NA	NA	PRJNA510861
-Dicentrarchus labrax	PRJEB40423	39	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Dicentrarchus labrax	PRJNA472842	23	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Dicentrarchus labrax	PRJNA628166	59	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Eopsaltria australis	PRJNA476023	21	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Etheostoma cragini	PRJNA611833	25	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Falco peregrinus	PRJNA686418	34	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Ficedula albicollis	PRJEB11502	86	Falbicollis	y	scripts	y	scripts	12	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
-Ficedula albicollis	PRJEB12616	11	Falbicollis	y	scripts	y	scripts	12	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
-Ficedula albicollis	PRJEB7359	79	Falbicollis	y	scripts	y	scripts	12	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
-Fundulus heteroclitus	PRJNA323589	76	Fheteroclitus	y	scripts	n	n/a	95	Fheteroclitus	NA	http://science.sciencemag.org/content/354/6317/1305.full	PRJNA323589
-Gadus morhua	PRJEB12803	104	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Gadus morhua	PRJEB15516	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Gadus morhua	PRJEB20524	32	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Gadus morhua	PRJEB29231	180	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Gadus morhua	PRJNA301002	18	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Gasterosteus aculeatus	PRJDB7611	32	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJEB15181	15	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJEB37366	13	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJEB5198	66	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA247503	206	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA374462	58	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA437980	13	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA485717	15	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA530695	23	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA681039	94	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus aculeatus	PRJNA693136	16	Gaculeatus	y	scripts	n	n/a	20	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27569902	PRJEB15181
-Gasterosteus nipponicus	PRJNA437980	15	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Haplochromis burtoni	PRJNA485198	132	Hburtoni	n	scripts	n	n/a	1	Oniloticus	NA	https://www.ncbi.nlm.nih.gov/pubmed/25186727	PRJNA60363
-Hippocampus comes	PRJNA612146	19	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Hippocampus kuda	PRJNA612146	18	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Hypoplectrus puella	PRJEB27858	38	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Kryptolebias marmoratus	PRJNA385014	14	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Larimichthys crocea	PRJNA553026	118	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Larimichthys crocea	PRJNA629649	82	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Larimichthys crocea	NA	19	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Lateolabrax maculatus	PRJNA701455	100	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Lates calcarifer	PRJNA311498	60	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Mastacembelus armatus	PRJNA608290	21	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Maylandia zebra	PRJEB15289	14	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Maylandia zebra	PRJEB21343	60	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Neolamprologus toae	PRJEB25984	15	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Nibea albiflora	PRJNA431723	104	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Nipponia nippon	PRJNA481495	57	Nnippon	y	scripts	y	scripts	8	Nnippon	NA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1	PRJNA308878
-Nipponia nippon	PRJNA481495	57	Nnippon_Egar	y	scripts	n	n/a	8	Egarzetta	NA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1	PRJNA308878
-Nipponia nippon	PRJNA508426	42	Nnippon	y	scripts	y	scripts	8	Nnippon	NA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1	PRJNA308878
-Nipponia nippon	PRJNA508426	42	Nnippon_Egar	y	scripts	n	n/a	8	Egarzetta	NA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1	PRJNA308878
-Nothobranchius furzeri	PRJEB5837	27	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Numida meleagris	PRJNA639777	124	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Oreochromis aureus	PRJNA609616	18	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Oreochromis niloticus	PRJDB1657	31	Oniloticus	y	scripts	n	n/a	1	Oniloticus	NA	https://www.ncbi.nlm.nih.gov/pubmed/25186727	PRJNA59571
-Oreochromis niloticus	PRJNA634901	207	Oniloticus	y	scripts	n	n/a	1	Oniloticus	NA	https://www.ncbi.nlm.nih.gov/pubmed/25186727	PRJNA59571
-Oryzias latipes	PRJEB17699	115	Olatipes	y	scripts	n	n/a	16	Olatipes	NA	https://www.ncbi.nlm.nih.gov/pubmed/24408034	PRJEB2759
-Oryzias latipes	PRJEB23586	18	Olatipes	y	scripts	n	n/a	16	Olatipes	NA	https://www.ncbi.nlm.nih.gov/pubmed/24408034	PRJEB2759
-Oryzias latipes	PRJEB2759	24	Olatipes	y	scripts	n	n/a	16	Olatipes	NA	https://www.ncbi.nlm.nih.gov/pubmed/24408034	PRJEB2759
-Paralichthys olivaceus	PRJNA490566	11	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Paralichthys olivaceus	PRJNA613641	116	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Paralichthys olivaceus	PRJNA639001	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Parus major	PRJNA274877	31	Pmajor	y	scripts	y	scripts	32;30	Pmajor	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/ , https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/	PRJNA274877,PRJNA304164
-Parus major	PRJNA304164	30	Pmajor	y	scripts	y	scripts	32;30	Pmajor	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/ , https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/	PRJNA274877,PRJNA304164
-Passer domesticus	PRJEB27649	14	Pdomesticus	y	scripts	n	n/a	10	Pdomesticus	NA	http://advances.sciencemag.org/content/3/6/e1602996.full	PRJNA255814
-Passer domesticus	PRJNA255814	11	Pdomesticus	y	scripts	n	n/a	10	Pdomesticus	NA	http://advances.sciencemag.org/content/3/6/e1602996.full	PRJNA255814
-Passer montanus	PRJNA634228	25	Pmontanus	y	scripts	n	n/a	1	Pdomesticus	NA	http://advances.sciencemag.org/content/3/6/e1602996.full	PRJNA255814
-Pavo muticus	PRJNA644939	24	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Plectropomus leopardus	PRJNA622646	54	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Podarcis muralis	PRJNA515813	15	Pmuralis	y	scripts	y	scripts	1	Acarolinensis	NA	NA	PRJNA515813
-Poecilia formosa	PRJNA89109	23	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Poecilia reticulata	PRJEB10680	148	Preticulata	y	scripts	n	n/a	20	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/	PRJNA238429
-Poecilia reticulata	PRJEB22221	16	Preticulata	y	scripts	n	n/a	20	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/	PRJNA238429
-Poecilia reticulata	PRJEB36450	12	Preticulata	y	scripts	n	n/a	20	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/	PRJNA238429
-Poecilia reticulata	PRJEB39998	120	Preticulata	y	scripts	n	n/a	20	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/	PRJNA238429
-Poecilia reticulata	PRJNA353986	28	Preticulata	y	scripts	n	n/a	20	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/	PRJNA238429
-Poecilia reticulata	PRJNA490183	17	Preticulata	y	scripts	n	n/a	20	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/	PRJNA238429
-Pseudopodoces humilis	PRJNA293020	15	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Pseudosimochromis curvifrons	PRJEB25984	20	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Pungitius pungitius	PRJDB9073	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Pungitius pungitius	PRJNA477377	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Pygoscelis adeliae	PRJNA210803	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Pygoscelis adeliae	PRJNA544154	71	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Sander lucioperca	PRJNA626522	394	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Seriola dumerili	PRJDB6634	20	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Silurus glanis	PRJNA645600	60	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Sparus aurata	PRJEB40423	47	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Sparus aurata	PRJNA551969	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Sylvia atricapilla	PRJNA616371	110	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Symphodus melops	PRJNA354496	65	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Takifugu rubripes	PRJDB7538	20	Trubripes	y	scripts	y	scripts	29	Trubripes	NA	https://dx.doi.org/10.21203/rs.2.16620/v1	PRJNA522329
-Takifugu rubripes	PRJNA522329	29	Trubripes	y	scripts	y	scripts	29	Trubripes	NA	https://dx.doi.org/10.21203/rs.2.16620/v1	PRJNA522329
-Thunnus albacares	PRJEB14402	42	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Trachinotus ovatus	PRJNA554506	102	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Xiphophorus maculatus	PRJNA700566	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Zonotrichia albicollis	PRJNA643514	12	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Bambusicola thoracious	NA	NA	Bthoracicus	y	scripts	n	n/a	1	Gallus gallus	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5941490/	PRJNA396570
-Corvus brachyrhynchos	NA	NA	Cbrachyrhynchos	y	scripts	n	n/a	5;5	Cbrachyrhynchos	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738	PRJEB9057, PRJNA192205
-Cyanistes caeruleus	NA	NA	Ccaeruleus_Pmaj	y	scripts	y	scripts	1	Pmajor	NA	https://www.ncbi.nlm.nih.gov/pubmed/26220359	PRJNA284903
-Corvus cornix	NA	NA	Ccornix	y	scripts	y	scripts	19	Ccornix	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738	PRJEB9057, PRJNA192205
-Corus corone corone	NA	NA	Ccorone	y	scripts	n	n/a	30	Ccornix	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738	PRJNA192205
-Cyanistes cyanus	NA	NA	Ccyanus_Pmaj	y	scripts	n	n/a	1	Pmajor	NA	seq by AJS	NA
-Corvus dauuricus	NA	NA	Cdauuricus	y	scripts	n	n/a	16	Ccornix	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/	PRJEB9057
-Corvus frugilegus	NA	NA	Cfrugilegus	y	scripts	n	n/a	10;2	Ccornix	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738	PRJEB9057, PRJNA192205
-Corvus monedula	NA	NA	Cmonedula	y	scripts	y	scripts	10	Ccornix	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738	PRJEB9057, PRJNA192205
-Clupea pallasii	NA	NA	Cpallasii	n	scripts	n	n/a	6	Charengus	NA	http://www.pnas.org/content/114/17/E3452.full	PRJNA338612
-Corvus pectoralis	NA	NA	Cpectoralis	y	scripts	n	n/a	6	Ccornix	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/	PRJEB9057
-Egretta garzetta	NA	NA	Egarzetta	y	scripts	y	scripts	5	Egarzetta	NA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1	PRJNA309350
-Egretta garzetta	NA	NA	Egarzetta_Nnip	y	scripts	n	n/a	5	Nnippon	NA	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1	PRJNA309350
-Ficedula hyperythra	NA	NA	Fhyperythra	y	scripts	y	scripts	1	Falbicollis	NA	NA	PRJEB7359 - best guess
-Ficedula hypoleuca	NA	NA	Fhypoleuca	y	scripts	n	n/a	77	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
-Ficedula parva	NA	NA	Fparva	y	scripts	n	n/a	34	no data in spreadsheets that I could find?	NA	NA	NA
-Ficedula speculigera	NA	NA	Fspeculigera	y	scripts	n	n/a	20	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/	PRJEB7359
-Gambusia affinis	NA	NA	Gaffinis	y	scripts	n	n/a	1	Preticulata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/	SRR5601729
-Gadus chalcogrammus	NA	NA	Gchalcogrammus	y	scripts	n	n/a	1	Gmorhua	NA	https://www.biorxiv.org/content/early/2015/12/20/034926	PRJNA301002
-Gadus macrocephalus	NA	NA	Gmacrocephalus	y	scripts	n	n/a	1	Gmorhua	NA	https://www.biorxiv.org/content/early/2015/12/20/034926	PRJNA301002
-Gadhus morhua	NA	NA	Gmorhua	n	scripts	n	n/a	198	Gmorhua	NA	https://www.biorxiv.org/content/early/2015/12/20/034926; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4976360/#S1	PRJNA301002; PRJEB14672
-Gadus ogac	NA	NA	Gogac	y	scripts	n	n/a	1	Gmorhua	NA	https://www.biorxiv.org/content/early/2015/12/20/034926	PRJNA301002
-Gallus varius	NA	NA	Gvarius	y	scripts	n	n/a	9	Gallus gallus	NA	https://www.ncbi.nlm.nih.gov/pubmed/27142387	PRJDB4092
-Gallus varius	NA	NA	Gvarius_Cjap	y	scripts	y	scripts	9	Cjaponica	NA	https://www.ncbi.nlm.nih.gov/pubmed/27142387	PRJDB4092
-Gasterosteus wheatlandi	NA	NA	Gwheatlandi	y	scripts	n	n/a	1	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3953013/	PRJDB2374
-Leuciscus waleckii	NA	NA	Lwaleckii	y	scripts	n	n/a	16	Lwaleckii	NA	https://academic.oup.com/mbe/article/34/1/145/2655148	PRJNA298374
-Oryzias melastigma	NA	NA	Omossambicus	y	scripts	n	n/a	1	Olatipes	NA	https://www.ncbi.nlm.nih.gov/pubmed/29451363	PRJNA401159
-Poephila acuticauda	NA	NA	Pacticauda	y	scripts	y	scripts	20	Tguttata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/	PRJEB10586
-Phylloscopus collybita	NA	NA	Pcollybita	y	scripts	n	n/a	20	Ptrochilus	NA	https://www.ncbi.nlm.nih.gov/pubmed/29054864	PRJEB21643
-Phylloscopus collybita	NA	NA	Pcollybita_Falb	n	scripts	n	n/a	20	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pubmed/29054864	PRJEB21643
-Pelecanus crispus	NA	NA	Pcrispus_Egar	y	scripts	y	scripts	1	Egarzetta	NA	https://www.ncbi.nlm.nih.gov/pubmed/25504712	PRJNA212901
-Pelecanus crispus	NA	NA	Pcrispus_Nnip	y	scripts	y	scripts	1	Nnippon	NA	https://www.ncbi.nlm.nih.gov/pubmed/25504712	PRJNA212901
-Passer hispaniolensis	NA	NA	Phispaniolensis	y	scripts	n	n/a	10	Pdomesticus	NA	http://advances.sciencemag.org/content/3/6/e1602996.full	PRJNA255814
-Passer italiae	NA	NA	Pitaliae	y	scripts	n	n/a	10;51	Pdomesticus	NA	http://advances.sciencemag.org/content/3/6/e1602996.full,https://www-nature-com.ezp-prod1.hul.harvard.edu/articles/s41559-017-0437-7	PRJNA255814,PRJEB22939
-Poecilia latipinna	NA	NA	Platipinna	y	scripts	n	n/a	1	Preticulata	NA	https://www.nature.com/articles/s41559-018-0473-y	PRJNA196862
-Parkesia noveboracensis	NA	NA	Pnoveboracensis	y	scripts	n	n/a	1	Setophaga coronata coronata	NA	seq by AJS	NA
-Pimephales promelas	NA	NA	Ppromelas	y	scripts	n	n/a	1	Lwaleckii	NA	https://www.ncbi.nlm.nih.gov/pubmed/26513338	PRJNA227290
-Ninespine stickleback	NA	NA	Ppungitius	y	scripts	n	n/a	1	Gaculeatus	NA	https://www.ncbi.nlm.nih.gov/pubmed/25818858	PRJDB2321
-Phylloscopus tristis	NA	NA	Ptristis	y	scripts	n	n/a	20	Ptrochilus	NA	https://www.ncbi.nlm.nih.gov/pubmed/29054864	PRJEB21643
-Phylloscopus tristis	NA	NA	Ptristis_Falb	n	scripts	n	n/a	20	Falbicollis	NA	https://www.ncbi.nlm.nih.gov/pubmed/29054864	PRJEB21643
-Phylloscopus trochilus	NA	NA	Ptrochilus	y	scripts	n	n/a	17	Ptrochilus	NA	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15	PRJNA319295
-Setophaga coronata coronata	NA	NA	Scoronata	y	scripts	n	n/a	1	Scoronata	NA	https://www.ncbi.nlm.nih.gov/pubmed/27546575	PRJNA325157
-Strix occidentalis	NA	NA	Soccidentalis_Acun	y	scripts	y	scripts	1	Acunicularia	NA	https://www.ncbi.nlm.nih.gov/pubmed/28992302	PRJNA338167
-Tyto alba	NA	NA	Talba_Acun	y	scripts	n	n/a	1	Acunicularia	NA	https://www.ncbi.nlm.nih.gov/pubmed/25504712	PRJNA212909
-Taeniopygia bichenovii	NA	NA	Tbichenovii	y	scripts	n	n/a	1	Tguttata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/	PRJEB10586
-Takifugu bimaculatus	NA	NA	Tbimaculatus	y	scripts	y	scripts	8	Trubripes	NA	https://dx.doi.org/10.21203/rs.2.16620/v1	PRJNA522329
-Taeniopygia guttata	NA	NA	Tguttata	y	scripts	y	scripts	19	Tguttata	NA	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/	PRJEB10586
-Vermivora chrysoptera	NA	NA	Vchrysoptera	y	scripts	n	n/a	10	Scoronata	NA	https://www.ncbi.nlm.nih.gov/pubmed/27546575	PRJNA325126
-Vermivora cyanoptera	NA	NA	Vcyanoptera	y	scripts	n	n/a	10	Scoronata	NA	https://www.ncbi.nlm.nih.gov/pubmed/27546575	PRJNA325126
+Organism	BioProject.popgen	bioproject.orig	fastq2vcf	ref_genome	publication
+Acanthochromis polyacanthus	PRJNA348663	NA	NA	NA	NA
+Amphilophus citrinellus	PRJEB38173	NA	NA	NA	NA
+Anas platyrhynchos	PRJNA450892	NA	NA	NA	NA
+Anas platyrhynchos	PRJNA471401	NA	NA	NA	NA
+Anas platyrhynchos	PRJNA599025	NA	NA	NA	NA
+Anas platyrhynchos	PRJNA636121	NA	NA	NA	NA
+Anas platyrhynchos	PRJNA668048	NA	NA	NA	NA
+Anguilla anguilla	PRJNA668259	NA	NA	NA	NA
+Anolis carolinensis	PRJNA533001	PRJNA533001	y	Acarolinensis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/
+Anser cygnoides	PRJNA575503	NA	NA	NA	NA
+Archocentrus centrarchus	PRJNA682530	NA	NA	NA	NA
+Astatotilapia calliptera	PRJEB10014	NA	NA	NA	NA
+Astatotilapia calliptera	PRJEB1254	NA	NA	NA	NA
+Astatotilapia calliptera	PRJEB27804	NA	NA	NA	NA
+Astyanax mexicanus	PRJNA260715	PRJNA260715	y	Amexicanus	https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14877
+Athene cunicularia	PRJNA431202	PRJNA431202	y	Acunicularia	http://rspb.royalsocietypublishing.org/content/285/1878/20180206?cpetoc
+Betta splendens	PRJEB25124	NA	NA	NA	NA
+Calidris pugnax	NA	NA	NA	NA	NA
+Calidris pygmaea	PRJNA419629	NA	NA	NA	NA
+Carassius auratus	PRJDB8110	NA	NA	NA	NA
+Chaenogobius annularis	PRJDB7125	NA	NA	NA	NA
+Chloebia gouldiae	PRJNA515277	NA	NA	NA	NA
+Clupea harengus	PRJEB25669	PRJNA338612	n	Charengus	http://www.pnas.org/content/114/17/E3452.full
+Clupea harengus	PRJEB32358	PRJNA338612	n	Charengus	http://www.pnas.org/content/114/17/E3452.full
+Clupea harengus	PRJNA356817	PRJNA338612	n	Charengus	http://www.pnas.org/content/114/17/E3452.full
+Clupea harengus	PRJNA642736	PRJNA338612	n	Charengus	http://www.pnas.org/content/114/17/E3452.full
+Coilia nasus	PRJNA422339	NA	NA	NA	NA
+Columba livia	PRJNA167554	NA	NA	NA	NA
+Columba livia	PRJNA513877	NA	NA	NA	NA
+Columba livia	PRJNA532675	NA	NA	NA	NA
+Corvus cornix cornix	PRJNA192205	NA	NA	NA	NA
+Coryphaenoides rupestris	PRJNA430094	NA	NA	NA	NA
+Coturnix japonica	PRJNA339911	PRJNA339911	y	Cjaponica	https://academic.oup.com/gigascience/article/7/5/giy049/4995262
+Coturnix japonica	PRJNA339911	PRJNA339911	y	Gallus gallus	https://academic.oup.com/gigascience/article/7/5/giy049/4995262
+Cyprinodon variegatus	PRJNA690558	PRJNA89149	y	Fheteroclitus	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3810-7
+Cyprinus carpio	PRJNA202478	PRJNA510861	y	Ccarpio	NA
+Cyprinus carpio	PRJNA510861	PRJNA510861	y	Ccarpio	NA
+Cyprinus carpio	PRJNA684676	PRJNA510861	y	Ccarpio	NA
+Cyprinus carpio	PRJNA684797	PRJNA510861	y	Ccarpio	NA
+Dicentrarchus labrax	PRJEB40423	NA	NA	NA	NA
+Dicentrarchus labrax	PRJNA472842	NA	NA	NA	NA
+Dicentrarchus labrax	PRJNA628166	NA	NA	NA	NA
+Eopsaltria australis	PRJNA476023	NA	NA	NA	NA
+Etheostoma cragini	PRJNA611833	NA	NA	NA	NA
+Falco peregrinus	PRJNA686418	NA	NA	NA	NA
+Ficedula albicollis	PRJEB11502	PRJEB7359	y	Falbicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+Ficedula albicollis	PRJEB12616	PRJEB7359	y	Falbicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+Ficedula albicollis	PRJEB7359	PRJEB7359	y	Falbicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+Fundulus heteroclitus	PRJNA323589	PRJNA323589	y	Fheteroclitus	http://science.sciencemag.org/content/354/6317/1305.full
+Gadus morhua	PRJEB12803	NA	NA	NA	NA
+Gadus morhua	PRJEB15516	NA	NA	NA	NA
+Gadus morhua	PRJEB20524	NA	NA	NA	NA
+Gadus morhua	PRJEB29231	NA	NA	NA	NA
+Gadus morhua	PRJNA301002	NA	NA	NA	NA
+Gasterosteus aculeatus	PRJDB7611	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJEB15181	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJEB37366	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJEB5198	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA247503	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA374462	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA437980	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA485717	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA530695	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA681039	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus aculeatus	PRJNA693136	PRJEB15181	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+Gasterosteus nipponicus	PRJNA437980	NA	NA	NA	NA
+Haplochromis burtoni	PRJNA485198	PRJNA60363	n	Oniloticus	https://www.ncbi.nlm.nih.gov/pubmed/25186727
+Hippocampus comes	PRJNA612146	NA	NA	NA	NA
+Hippocampus kuda	PRJNA612146	NA	NA	NA	NA
+Hypoplectrus puella	PRJEB27858	NA	NA	NA	NA
+Kryptolebias marmoratus	PRJNA385014	NA	NA	NA	NA
+Larimichthys crocea	PRJNA553026	NA	NA	NA	NA
+Larimichthys crocea	PRJNA629649	NA	NA	NA	NA
+Larimichthys crocea	NA	NA	NA	NA	NA
+Lateolabrax maculatus	PRJNA701455	NA	NA	NA	NA
+Lates calcarifer	PRJNA311498	NA	NA	NA	NA
+Mastacembelus armatus	PRJNA608290	NA	NA	NA	NA
+Maylandia zebra	PRJEB15289	NA	NA	NA	NA
+Maylandia zebra	PRJEB21343	NA	NA	NA	NA
+Neolamprologus toae	PRJEB25984	NA	NA	NA	NA
+Nibea albiflora	PRJNA431723	NA	NA	NA	NA
+Nipponia nippon	PRJNA481495	PRJNA308878	y	Egarzetta	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+Nipponia nippon	PRJNA481495	PRJNA308878	y	Nnippon	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+Nipponia nippon	PRJNA508426	PRJNA308878	y	Egarzetta	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+Nipponia nippon	PRJNA508426	PRJNA308878	y	Nnippon	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+Nothobranchius furzeri	PRJEB5837	NA	NA	NA	NA
+Numida meleagris	PRJNA639777	NA	NA	NA	NA
+Oreochromis aureus	PRJNA609616	NA	NA	NA	NA
+Oreochromis niloticus	PRJDB1657	PRJNA59571	y	Oniloticus	https://www.ncbi.nlm.nih.gov/pubmed/25186727
+Oreochromis niloticus	PRJNA634901	PRJNA59571	y	Oniloticus	https://www.ncbi.nlm.nih.gov/pubmed/25186727
+Oryzias latipes	PRJEB17699	PRJEB2759	y	Olatipes	https://www.ncbi.nlm.nih.gov/pubmed/24408034
+Oryzias latipes	PRJEB23586	PRJEB2759	y	Olatipes	https://www.ncbi.nlm.nih.gov/pubmed/24408034
+Oryzias latipes	PRJEB2759	PRJEB2759	y	Olatipes	https://www.ncbi.nlm.nih.gov/pubmed/24408034
+Paralichthys olivaceus	PRJNA490566	NA	NA	NA	NA
+Paralichthys olivaceus	PRJNA613641	NA	NA	NA	NA
+Paralichthys olivaceus	PRJNA639001	NA	NA	NA	NA
+Parus major	PRJNA274877	PRJNA274877,PRJNA304164	y	Pmajor	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/ , https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
+Parus major	PRJNA304164	PRJNA274877,PRJNA304164	y	Pmajor	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/ , https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
+Passer domesticus	PRJEB27649	PRJNA255814	y	Pdomesticus	http://advances.sciencemag.org/content/3/6/e1602996.full
+Passer domesticus	PRJNA255814	PRJNA255814	y	Pdomesticus	http://advances.sciencemag.org/content/3/6/e1602996.full
+Passer montanus	PRJNA634228	PRJNA255814	y	Pdomesticus	http://advances.sciencemag.org/content/3/6/e1602996.full
+Pavo muticus	PRJNA644939	NA	NA	NA	NA
+Plectropomus leopardus	PRJNA622646	NA	NA	NA	NA
+Podarcis muralis	PRJNA515813	PRJNA515813	y	Acarolinensis	NA
+Poecilia formosa	PRJNA89109	NA	NA	NA	NA
+Poecilia reticulata	PRJEB10680	PRJNA238429	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+Poecilia reticulata	PRJEB22221	PRJNA238429	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+Poecilia reticulata	PRJEB36450	PRJNA238429	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+Poecilia reticulata	PRJEB39998	PRJNA238429	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+Poecilia reticulata	PRJNA353986	PRJNA238429	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+Poecilia reticulata	PRJNA490183	PRJNA238429	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
+Pseudopodoces humilis	PRJNA293020	NA	NA	NA	NA
+Pseudosimochromis curvifrons	PRJEB25984	NA	NA	NA	NA
+Pungitius pungitius	PRJDB9073	NA	NA	NA	NA
+Pungitius pungitius	PRJNA477377	NA	NA	NA	NA
+Pygoscelis adeliae	PRJNA210803	NA	NA	NA	NA
+Pygoscelis adeliae	PRJNA544154	NA	NA	NA	NA
+Sander lucioperca	PRJNA626522	NA	NA	NA	NA
+Seriola dumerili	PRJDB6634	NA	NA	NA	NA
+Silurus glanis	PRJNA645600	NA	NA	NA	NA
+Sparus aurata	PRJEB40423	NA	NA	NA	NA
+Sparus aurata	PRJNA551969	NA	NA	NA	NA
+Sylvia atricapilla	PRJNA616371	NA	NA	NA	NA
+Symphodus melops	PRJNA354496	NA	NA	NA	NA
+Takifugu rubripes	PRJDB7538	PRJNA522329	y	Trubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
+Takifugu rubripes	PRJNA522329	PRJNA522329	y	Trubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
+Thunnus albacares	PRJEB14402	NA	NA	NA	NA
+Trachinotus ovatus	PRJNA554506	NA	NA	NA	NA
+Xiphophorus maculatus	PRJNA700566	NA	NA	NA	NA
+Zonotrichia albicollis	PRJNA643514	NA	NA	NA	NA
+Strix occidentalis	NA	PRJNA338167	y	Acunicularia	https://www.ncbi.nlm.nih.gov/pubmed/28992302
+Tyto alba	NA	PRJNA212909	y	Acunicularia	https://www.ncbi.nlm.nih.gov/pubmed/25504712
+Corvus brachyrhynchos	NA	PRJEB9057, PRJNA192205	y	Cbrachyrhynchos	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738
+Corvus cornix	NA	PRJEB9057, PRJNA192205	y	Ccornix	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738
+Corus corone corone	NA	PRJNA192205	y	Ccornix	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738
+Corvus dauuricus	NA	PRJEB9057	y	Ccornix	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/
+Corvus frugilegus	NA	PRJEB9057, PRJNA192205	y	Ccornix	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738
+Corvus monedula	NA	PRJEB9057, PRJNA192205	y	Ccornix	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/, https://www.ncbi.nlm.nih.gov/pubmed/24948738
+Corvus pectoralis	NA	PRJEB9057	y	Ccornix	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/
+Clupea pallasii	NA	PRJNA338612	n	Charengus	http://www.pnas.org/content/114/17/E3452.full
+Gallus varius	NA	PRJDB4092	y	Cjaponica	https://www.ncbi.nlm.nih.gov/pubmed/27142387
+Egretta garzetta	NA	PRJNA309350	y	Egarzetta	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+Pelecanus crispus	NA	PRJNA212901	y	Egarzetta	https://www.ncbi.nlm.nih.gov/pubmed/25504712
+Ficedula hyperythra	NA	PRJEB7359 - best guess	y	Falbicollis	NA
+Ficedula hypoleuca	NA	PRJEB7359	y	Falbicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+Ficedula speculigera	NA	PRJEB7359	y	Falbicollis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/
+Phylloscopus collybita	NA	PRJEB21643	n	Falbicollis	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+Phylloscopus tristis	NA	PRJEB21643	n	Falbicollis	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+Gasterosteus wheatlandi	NA	PRJDB2374	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3953013/
+Ninespine stickleback	NA	PRJDB2321	y	Gaculeatus	https://www.ncbi.nlm.nih.gov/pubmed/25818858
+Bambusicola thoracious	NA	PRJNA396570	y	Gallus gallus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5941490/
+Gallus varius	NA	PRJDB4092	y	Gallus gallus	https://www.ncbi.nlm.nih.gov/pubmed/27142387
+Gadus chalcogrammus	NA	PRJNA301002	y	Gmorhua	https://www.biorxiv.org/content/early/2015/12/20/034926
+Gadus macrocephalus	NA	PRJNA301002	y	Gmorhua	https://www.biorxiv.org/content/early/2015/12/20/034926
+Gadhus morhua	NA	PRJNA301002; PRJEB14672	n	Gmorhua	https://www.biorxiv.org/content/early/2015/12/20/034926; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4976360/#S1
+Gadus ogac	NA	PRJNA301002	y	Gmorhua	https://www.biorxiv.org/content/early/2015/12/20/034926
+Leuciscus waleckii	NA	PRJNA298374	y	Lwaleckii	https://academic.oup.com/mbe/article/34/1/145/2655148
+Pimephales promelas	NA	PRJNA227290	y	Lwaleckii	https://www.ncbi.nlm.nih.gov/pubmed/26513338
+Egretta garzetta	NA	PRJNA309350	y	Nnippon	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+Pelecanus crispus	NA	PRJNA212901	y	Nnippon	https://www.ncbi.nlm.nih.gov/pubmed/25504712
+Ficedula parva	NA	NA	y	no data in spreadsheets that I could find?	NA
+Oreochromis mossambicus	NA	PRJDB1657	y	Oniloticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570987/
+Passer hispaniolensis	NA	PRJNA255814	y	Pdomesticus	http://advances.sciencemag.org/content/3/6/e1602996.full
+Passer italiae	NA	PRJNA255814,PRJEB22939	y	Pdomesticus	http://advances.sciencemag.org/content/3/6/e1602996.full,https://www-nature-com.ezp-prod1.hul.harvard.edu/articles/s41559-017-0437-7
+Cyanistes caeruleus	NA	PRJNA284903	y	Pmajor	https://www.ncbi.nlm.nih.gov/pubmed/26220359
+Cyanistes cyanus	NA	NA	y	Pmajor	seq by AJS
+Gambusia affinis	NA	SRR5601729	y	Preticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/
+Poecilia latipinna	NA	PRJNA196862	y	Preticulata	https://www.nature.com/articles/s41559-018-0473-y
+Phylloscopus collybita	NA	PRJEB21643	y	Ptrochilus	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+Phylloscopus tristis	NA	PRJEB21643	y	Ptrochilus	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+Phylloscopus trochilus	NA	PRJNA319295	y	Ptrochilus	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
+Setophaga coronata coronata	NA	PRJNA325157	y	Scoronata	https://www.ncbi.nlm.nih.gov/pubmed/27546575
+Vermivora chrysoptera	NA	PRJNA325126	y	Scoronata	https://www.ncbi.nlm.nih.gov/pubmed/27546575
+Vermivora cyanoptera	NA	PRJNA325126	y	Scoronata	https://www.ncbi.nlm.nih.gov/pubmed/27546575
+Parkesia noveboracensis	NA	NA	y	Setophaga coronata coronata	seq by AJS
+Poephila acuticauda	NA	PRJEB10586	y	Tguttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+Taeniopygia bichenovii	NA	PRJEB10586	y	Tguttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+Taeniopygia guttata	NA	PRJEB10586	y	Tguttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+Takifugu bimaculatus	NA	PRJNA522329	y	Trubripes	https://dx.doi.org/10.21203/rs.2.16620/v1

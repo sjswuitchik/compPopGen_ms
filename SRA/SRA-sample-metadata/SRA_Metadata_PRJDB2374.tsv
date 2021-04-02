@@ -1,2 +1,0 @@
-BioProject	Run	Assay Type	AvgSpotLen	Bases	BioSample	Bytes	Center Name	Consent	DATASTORE filetype	DATASTORE provider	DATASTORE region	Experiment	Instrument	LibraryLayout	LibrarySelection	LibrarySource	Organism	Platform	ReleaseDate	Sample Name	SRA Study	sex	Sample_Name	use_species
-PRJDB2374	DRR013347	WGS	202	37826042674	SAMD00010751	23936816836	Hokkaido System Science	public	sra	ncbi	ncbi.public	DRX012174	Illumina HiSeq 2000	PAIRED	RANDOM	GENOMIC	Gasterosteus_wheatlandi	ILLUMINA	2014-04-02T00:00:00Z	SAMD00010751	DRP001133	missing	DRS012042	1
