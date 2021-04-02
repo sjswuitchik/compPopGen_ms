@@ -10,15 +10,17 @@ To add a new species, you'll need to do the following:
 
 First, run the setup blocks. Input and output of sra metadata should be done using the get_sra and write_metadata functions, which standardize formats. Note that the paths are relative, and by default R markdown will use the location of the document as the working directory. So you shouldn't need to change any paths as long as you don't move files around.
 
-The get_sra function takes a BioProject ID (or species, but better to use BioProjects in most cases), and reads in the default columns from the sample metadata file (BioProjet, BioSample, Organism, sex). You'll likely want to read in additional columns, but which changes from dataset to dataset. Generally I try to capture location / population information, but for the moment have not been worrying about much else, except fields I'll need to filter on later (to remove domesticated samples, pooled samples, etc). If locality information is available, fill in country and continent where possible. I also keep the original submitter ID, sample name, alias, whatever it is called, but rename to Submitter_Id for consistency.
+The get_sra function takes a BioProject ID (or species, but better to use BioProjects in most cases), and reads in the default columns from the sample metadata file (BioProjet, BioSample, Run, Library Name, Organism, sex). You'll likely want to read in additional columns, but which changes from dataset to dataset. Generally I try to capture location / population information, but for the moment have not been worrying about much else, except fields I'll need to filter on later (to remove domesticated samples, pooled samples, etc). If locality information is available, fill in country and continent where possible. I also keep the original submitter ID, sample name, alias, whatever it is called, but rename to Submitter_Id for consistency.
 
 It helps to look at the metadata file in Excel or a text editor to see what may be useful to read in, and also check the original paper to see what metadata they provide. Once you know what you want, specify the additional columns as a character vector to the opt_cols argument.
 
-Now, you'll have the metadata from SRA. In some cases, you are done. In other cases you'll need to parse supplemental data from papers. The readxl (Excel spreadsheets), tabulizer (PDF tables), and rvest (html) packages are helpful here; the goal is that you should not need to manually touch anything. I try to use PMC links rather than journal links as they are probably more stable. 
+Now, you'll have the metadata from SRA. In some cases, you are done. In other cases you'll need to parse supplemental data from papers. The readxl (Excel spreadsheets), tabulizer (PDF tables), and rvest (html) packages are helpful here; the goal is that you should not need to manually touch anything. I try to use PMC links rather than journal links as they are probably more stable. Occasionally I will hard code information from figures as needed to fill in e.g. populations or similar information.
 
 Then you'll need to merge the sra and paper metadata, which can be tricky. If you really can't figure it out, and the SRA metadata is not sufficient on its own (the paper indicates multiple populations were sampled but you cannot link those populations to BioSamples), indicate metadata is inadequate and move on. 
 
-Finally, you'll need to do some last cleanup and export. The Organism field is key here, as the export code splits on this field to produce one file per species. Check to make sure this field is correct (some datasets have a separate "Species" field or something that is more accuracte than Organism). Anything only identified to the genus level (e.g., Genus cf. species; Genus spp; Genus) should be renamed to Genus_spp, and all bionomials should be renamed to replace spaces with underscores (since these will become filenames). Then, run the export code, write_metadata. This splits the input dataframe by Organism, and adds a reference genome column based on the reference species indicated in the sp argument and the genome_key file.
+Finally, you'll need to do some last cleanup and export. The Organism field is key here, as the export code splits on this field to produce one file per species. Check to make sure this field is correct (some datasets have a separate "Species" field or something that is more accuracte than Organism). Anything only identified to the genus level (e.g., Genus cf. species; Genus spp; Genus) should be renamed to Genus_spp, and all bionomials should be renamed to replace spaces with underscores (since these will become filenames). Then, run the export code, write_metadata. This splits the input dataframe by Organism, and adds a reference genome column based on the reference species indicated in the sp argument and the genome_key file. This function then writes out a run metadata (with Run, LibraryName and other columns for mapping), and a sample metadata (population information and the like). 
+
+*Critical: make sure that if you use select statements in your code, you only remove columns, or if you must use select to pick columns to keep, be sure to keep at least Organism, BioProject, BioSample, Run, and LibraryName, since those are needed by the write_metadata function to produce the sample sheet for SRA download and mapping.*
 
 All done! Don't forget to git commit and git push, with a helpful commit message, such as "Added metadata for species xxxx".
 
@@ -61,7 +63,7 @@ Functions for reading and writing metadata:
 ```{r}
 
 get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
-  default_cols = c("BioProject", "BioSample", "Organism", "sex")
+  default_cols = c("BioProject", "BioSample", "Run", "Library Name", "Organism", "sex")
   if (missing(opt_cols)) {
     cols = enquo(default_cols)
   } else {
@@ -69,14 +71,26 @@ get_sra <- function(sp, path=raw_metadata_path, opt_cols) {
     cols = enquo(default_cols)
   }
   read_tsv(str_c(raw_metadata_path, "SRA_Metadata_", sp, ".tsv")) %>% 
-    select(!!cols)
+    select(!!cols) %>% rename(LibraryName = `Library Name`)
 }
 
 write_metadata <- function(df, refSp) {
   refGenome <- genome_key %>% filter(Organism == refSp) %>% pull(AssemblyAccession)
-  df %>% mutate(refGenome = refGenome) %>% distinct() %>%
-  split(., .$Organism) %>%
-  imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_metadata.csv')))
+  
+  #Run metadata
+  
+  df %>% mutate(refGenome = refGenome) %>% 
+    select(Organism, BioProject, BioSample, Run, LibraryName, refGenome) %>% distinct() %>%
+    split(., .$Organism) %>%
+    imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_run_metadata.csv')))
+  
+  #Sample metadata
+  
+  df %>% mutate(refGenome = refGenome) %>% 
+    select(-Run, -LibraryName) %>% distinct() %>%
+    split(., .$Organism) %>%
+    imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_sample_metadata.csv')))
+
 }
   
 ```
@@ -127,11 +141,12 @@ supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_486
 paper<-do.call(rbind,extract_tables(supmat, pages=c(38:40)))
 colnames(paper) <- c("sample", "breed", "mapping_rate", "insert_size", "depth")
 
-meta<-paper %>% as_tibble %>% select(sample, breed) %>% 
+meta<-paper %>% as_tibble %>%
   filter(breed != "Breed", breed != "") %>% 
   left_join(sra, by=c("sample" = "Sample_Type")) %>%
   filter(breed == "Mallard") %>%
-  mutate(Continent = "Asia", Country = "China", Locality = "Aoji Duck Farm, Zhejiang Province")
+  mutate(Continent = "Asia", Country = "China", Locality = "Aoji Duck Farm, Zhejiang Province") %>%
+  select(-mapping_rate, -insert_size, -depth)
 
 write_metadata(meta, sp)
 
@@ -356,7 +371,7 @@ sp="Clupea_harengus"
 sra1<-get_sra("PRJNA642736", opt_cols = c("Library Name", "Ecotype", "Sample_Type")) %>% 
   rename(Submitter_Id = `Library Name`, Locality = Ecotype) %>%
   filter(Sample_Type == "individual") %>%
-  select(-Sample_Type) %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
+  select(-Sample_Type) %>% select(Organism, BioProject, Run, LibraryName, BioSample, sex, Submitter_Id, Locality)
 
 temp <- tempfile()
 supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7738190/bin/elife-61076-supp2.xlsx"
@@ -382,7 +397,7 @@ sra2<-get_sra("PRJNA338612", opt_cols = c("Sample Name", "Sample_Type")) %>%
   rename(Submitter_Id = `Sample Name`) %>%
   filter(Sample_Type == "Individual DNA") %>%
   select(-Sample_Type) %>% separate(Submitter_Id, into=c("Population", "Sample"), sep=-1, remove=FALSE) %>%
-  left_join(meta2, by=c("Population" = "Population")) %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
+  left_join(meta2, by=c("Population" = "Population")) %>% select(Organism, BioProject, Run, LibraryName, BioSample, sex, Submitter_Id, Locality)
 
 sra3<-get_sra("PRJNA356817", opt_cols = c("Sample Name")) %>% 
   rename(Submitter_Id = `Sample Name`) %>%
@@ -390,7 +405,7 @@ sra3<-get_sra("PRJNA356817", opt_cols = c("Sample Name")) %>%
     Submitter_Id == "AAPF" | Submitter_Id == "AAPM" ~ "Norway:Bergen",
     Submitter_Id == "ABPF" | Submitter_Id ==  "ABPM" ~ "Sweden:Hästskär",
     TRUE ~ NA_character_)) %>%
-    filter(!is.na(Locality))  %>% select(Organism, BioProject, BioSample, sex, Submitter_Id, Locality)
+    filter(!is.na(Locality))  %>% select(Organism, BioProject,  Run, LibraryName, BioSample, sex, Submitter_Id, Locality)
 
 #export
 bind_rows(sra1, sra2, sra3) %>%
@@ -586,7 +601,7 @@ sra<-get_sra(bp, opt_cols=c("geo_loc_name_country",	"geo_loc_name_country_contin
   rename(Submitter_Id = `Sample Name`)
 
 meta <- full_join(sra, meta1, by=c("Submitter_Id" = "ID")) %>%
-  select(BioProject, BioSample, Submitter_Id, Organism, sex, Country = geo_loc_name_country, 
+  select(BioProject, BioSample, Run, LibraryName, Submitter_Id, Organism, sex, Country = geo_loc_name_country, 
          Continent = geo_loc_name_country_continent, Location = geo_loc_name, lat_lon, 
          Latitude, Longitude, Population, State) %>%
   mutate(Country = ifelse(is.na(Country), "Australia", Country),
