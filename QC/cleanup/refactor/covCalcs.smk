@@ -5,11 +5,11 @@ rule prep_genome:
       Describe rule
       """
       input: 
-              genome = config['spp] + ".fa"
+              genome = config['spp] + ".fa"             
       output:
               twobit = bamsDir + config['spp'] + ".2bit",
               chrom = bamsDir + config['spp'] + ".chrom.sizes",
-              bed = bamsDir + config['spp'] + ".genome.bed"
+              bed = bamsDir + config['spp'] + ".genome.bed"                        
       shell:
               "faToTwoBit -long {input.genome} {output.twobit}\n"
               "twoBitInfo {output.twobit} stdout | sort -k2rn > {output.chrom}\n"
@@ -64,5 +64,22 @@ rule bigWig_summary:
               "bedGraphToBigWig {output.bgmerge} {input.chrom} {output.bwmerge}\n"
               "bigWigAverageOverBed {output.bwmerge} {input.bed} {output.summ}\n"                
               "gzip {output.bgmerge}"                
+                              
+rule coverage_beds:
+      """
+      Describe rule
+      """
+      input:                        
+              summ = bamsDir + config['spp'] + ".summary.tab",                  
+              bgmerge = bamsDir + config['spp'] + ".merge.bg.gz"                
+      output:
+              clean = bamsDir + config['spp'] + "
+              low = bamsDir + config['spp'] + " 
+              high = bamsDir + config['spp'] + "                 
+      params:
+              spp = config['spp]                 
+      shell:                        
+                              
+                              
                               
                               
