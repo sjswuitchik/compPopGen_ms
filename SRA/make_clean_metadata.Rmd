@@ -112,7 +112,7 @@ bp<-"PRJEB38173"
 dryad_link<-"https://datadryad.org/stash/downloads/file_stream/561311"
 paper<-read_csv(dryad_link) %>% select(Sample_name, Species, Lake, Sampling_Year)
 
-sra<-get_sra(sp, opt_cols = c("Submitter_Id")) %>%
+sra<-get_sra(bp, opt_cols = c("Submitter_Id")) %>%
   mutate(Submitter_Id = str_remove(Submitter_Id, "_WGS")) %>% 
   inner_join(paper,by=c("Submitter_Id" = "Sample_name")) %>%
   mutate(Organism = case_when(
@@ -133,8 +133,10 @@ Sample metadata embedded in PDF in supplemental material: https://www.ncbi.nlm.n
 Location of mallard sampling taken from paper text.
 
 ```{r}
-sp="Anas_platyrhynchos"
-sra<-get_sra(sp, opt_cols = c("Sample_Type", "sex")) %>% 
+sp<-"Anas_platyrhynchos"
+bp<-"PRJNA450892"
+
+sra<-get_sra(bp, opt_cols = c("Sample_Type", "sex")) %>% 
   mutate(Sample_Type = str_remove(Sample_Type, "_F"))
 
 supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/bin/41467_2018_4868_MOESM1_ESM.pdf"
@@ -368,8 +370,9 @@ Additional metadata could be added froom "meta1" and "meta2" tables, but it is a
 #PRJNA642736 filter to keep only Sample_Type == "individual"
 sp="Clupea_harengus"
 
-sra1<-get_sra("PRJNA642736", opt_cols = c("Library Name", "Ecotype", "Sample_Type")) %>% 
-  rename(Submitter_Id = `Library Name`, Locality = Ecotype) %>%
+sra1<-get_sra("PRJNA642736", opt_cols = c("Ecotype", "Sample_Type")) %>% 
+  rename(Locality = Ecotype) %>%
+  mutate(Submitter_Id = LibraryName) %>% 
   filter(Sample_Type == "individual") %>%
   select(-Sample_Type) %>% select(Organism, BioProject, Run, LibraryName, BioSample, sex, Submitter_Id, Locality)
 
@@ -423,8 +426,8 @@ Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939831/
 sp="Coilia_nasus"
 bp="PRJNA422339"
 
-sra<-get_sra(bp, opt_cols=c("Library Name")) %>%
-  rename(Submitter_Id = `Library Name`)
+sra<-get_sra(bp) %>%
+  mutate(Submitter_Id = LibraryName)
 
 supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939831/bin/giz157_supplemental_figures_and_tables.zip"
 temp <- tempfile()
@@ -656,7 +659,7 @@ bp<-"PRJEB7359"
 
 sra1<-get_sra(bp, opt_cols=c("geo_loc_name_country", "geo_loc_name_country_continent", "Title", "Description")) %>%
   rename(Submitter_Id = Title, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent) %>%
-  separate(Submitter_Id, into=c("Population", "Sample"), remove=FALSE, extra="merge")
+  separate(Submitter_Id, into=c("Population", "Sample"), remove=FALSE, extra="merge", fill = "right")
 
 #ugly clean up because some things are missing information
 #source of NRM996601 https://www.gbif.org/occurrence/2248760844
@@ -724,7 +727,7 @@ samples<-read_delim("https://datadryad.org/stash/downloads/file_stream/332334", 
 
 sra3 <- filter(sra3, Submitter_Id %in% samples$id) %>% mutate(sex = "male")
 
-## Biorproject 4 ##
+## Biorproject 4 ## 
 
 bp<-"PRJEB2984"
 sra4<-get_sra(bp, opt_cols=c("LibrarySource", "Title")) %>%

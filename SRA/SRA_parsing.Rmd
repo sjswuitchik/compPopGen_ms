@@ -1,0 +1,201 @@
+# SRA search and metadata setup code
+
+This code reads in the results of manual SRA searches (in sra_searches.txt) and does cleanup and parsing to accomplish a few goals:
+* identify candidate BioProjects for further examination to see if they are useable for this project
+* produce metadata output for selected BioProjects to be parsed for read mapping and variant calling
+
+Setup: load libraries, create functions
+
+```{r}
+library(tidyverse)
+library(purrr)
+library(stringr)
+library(googlesheets4)
+
+path_to_write = "."
+
+read_sra_clean <- function(file, path) {
+  df<-read_csv(paste0(path, "/", file), cols(.default="c"), col_names = TRUE) %>%
+    select(Run, BioSample, Experiment, Instrument, LibrarySelection, LibrarySource, Organism, Platform, 
+           SampleName = `Sample Name`, SRAStudy = `SRA Study`, Bases, AvgSpotLen, BioProject, sex, Isolate,
+           Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality = geo_loc_name, lat_lon,
+           Ecotype, Strain)
+}
+
+read_sra_full <- function(file, path) {
+  df<-read_csv(paste0(path, "/", file), cols(.default="c"), col_names = TRUE)
+}
+
+read_assembly_clean <- function(file, path) {
+  df<-read_tsv(paste0(path, "/", file, "_data_summary.tsv"), col_names = TRUE) %>%
+    rename_with(~ gsub(" ", "", .x, fixed=TRUE))
+}
+```
+
+Now, load in all the SRA searches, combined, and parse. Use the read_sra_clean function just for ease of viewing. There may be some parsing errors (there are weird things in some column headers), but so far this has not seemed to matter. 
+
+```{r}
+
+files<-c("SRA-Agnatha.txt", "SRA-Amphibia.txt", "SRA-Aves.txt", "SRA-Chondrichthyes.txt", 
+         "SRA-Reptilia.txt", "SRA-Sarcopterygii.txt", "SRA-fish-1.txt", "SRA-fish-2.txt", "SRA-stickleback.txt")
+
+sra_list<-lapply(files, read_sra_clean, path=".")
+
+#flatten to single tibble, with distinct in case of duplicates in searches
+
+sra<-bind_rows(sra_list) %>% distinct()
+```
+
+Take a look at issues, first cleaning up metagenomic and suspcicious library selection methods, this may miss a few things but should be cleaner
+
+```{r}
+
+table(sra$LibrarySource)
+table(sra$LibrarySelection)
+
+sra_clean <- sra %>% filter(LibrarySource == "GENOMIC", 
+              LibrarySelection == "RANDOM" | LibrarySelection == "unspecified" | LibrarySelection == "PCR" | LibrarySelection == "other" | LibrarySelection == "RANDOM PCR")
+```
+
+Next, get genome information, to filter out species that don't have a reference genome. Again, this will load manual searches. 
+
+```{r}
+
+genome_search_list <- c("amphibia", "sauropsids", "chondrichthyes", "cyclostomata", "elopocephalai", "otomorpha", "neoteleostei")
+
+genome_list <- lapply(genome_search_list, read_assembly_clean, path="~/Projects/popgen/compPopGen_ms/SRA")
+assemblies <- bind_rows(genome_list) %>% distinct() %>% 
+  arrange(Taxonomyid, desc(Source), Level, desc(ContigN50)) %>%
+  distinct(Taxonomyid, .keep_all = TRUE)
+
+assemblies %>% ggplot(aes(log10(ContigN50))) + geom_histogram()
+
+#some arbitrary filtering
+
+assemblies <- assemblies %>% filter(ContigN50 > 1e4)
+```
+
+Next, make the preliminary list of possible popgen projects.
+
+```{r}
+popgen <- right_join(sra_clean, assemblies, by=c("Organism" = "OrganismScientificName"), 
+                     suffix = c(".popgen", ".assembly")) %>% 
+  select(-Run, -Experiment) %>% group_by(BioSample.popgen) %>%
+  mutate(bases_total = sum(as.numeric(Bases))) %>% 
+  select(-Bases, -AvgSpotLen) %>%
+  distinct() %>% 
+  mutate(coverage = as.numeric(bases_total) / as.numeric(Size))
+
+#some quick analysis
+
+popgen %>% mutate(covplot = ifelse(coverage < 100, coverage, 100)) %>% ggplot(aes(covplot)) + geom_histogram()
+```
+
+For simplicity when cleaning up, we'll merge with the list of datasets we've already processed, using the googlesheets R package.
+
+```{r}
+
+#collate with stuff we've processed
+
+processed<-read_sheet("https://docs.google.com/spreadsheets/d/1bK6X3I83WftBk3UYI6Ht794PRpjPsOArrK2-CJjgII0", sheet="processed")
+
+#write out 
+
+popgen %>% filter(coverage > 5) %>% group_by(Organism, BioProject.popgen) %>% count() %>% filter(n > 10) %>% 
+  full_join(processed, by=c("Organism" = "species")) %>% 
+  select(Organism, BioProject.popgen, bioproject.orig = bioproject, fastq2vcf, ref_genome, publication) %>%
+  write_tsv(file="bioprojects.tsv")
+```
+
+The output here, bioprojects.tsv, is manually curated to verify publication information and useability. This step is of course time consuming but hard to see how else to proceed as links between BioProjects and publications are spotty at best in databases.
+
+Next, we read in the processed datasets, again with googlesheets4.
+
+```{r}
+
+datasets <- read_sheet("https://docs.google.com/spreadsheets/d/1bK6X3I83WftBk3UYI6Ht794PRpjPsOArrK2-CJjgII0", sheet="sra") %>% 
+  filter(use == "yes") %>%
+  select(Organism, bioproject1 = BioProject.popgen, bioproject2 = bioproject.orig, publication)
+
+
+#clean up -- ugly code
+
+datasets_clean <- rbind(tibble(Organism = datasets$Organism, 
+                               BioProject = datasets$bioproject1, 
+                               Pub = datasets$publication),
+                        tibble(Organism = datasets$Organism, 
+                               BioProject = datasets$bioproject2, 
+                               Pub = datasets$publication)) %>%
+  filter(!is.na(BioProject), BioProject != "NA") %>% 
+  separate_rows(BioProject) %>%
+  separate_rows(Pub, sep="[,; ]") %>%
+  arrange(Organism) %>%
+  filter(Pub != "") %>%
+  distinct()
+
+#write this out to manually clean up publications/SRA link
+
+datasets_clean %>% write_tsv("~/Projects/popgen/compPopGen_ms/SRA/datasets_initial.tsv")
+
+```
+
+Now, more manual cleanup occurs, to verify links and reorganize, delete unneeded stuff. This becomes the final datasets file.
+
+```{r}
+
+bioprojects <- read_sheet("https://docs.google.com/spreadsheets/d/1bK6X3I83WftBk3UYI6Ht794PRpjPsOArrK2-CJjgII0", sheet="datasets") %>%
+  select(BioProject, Organism) %>% distinct()
+
+```
+
+Finally, we take the final bioprojects sheet and get metadata for each one from the full sra output. We assume (perhaps incorrectly) that all species in the same bioproject can be mapped to a single reference organism, even if that means mapping across species.
+
+We'll also ensure that certain metadata is present for all samples. 
+
+Start by reloading original SRA runselector metadata, since people use all sorts of weird fields for the "original" sample id
+
+```{r}
+
+sra_list_full<-lapply(files, read_sra_full, path=".")
+sra_full<-bind_rows(sra_list_full) %>% distinct()
+```
+
+Next, we will parse this big honking thing to get what we need, a metadata file per BioProject with RunSelector info we can then manually curate with the code in make_clean_metadata.Rmd.
+
+One key assumption we make - if Libary Name is NA, we use sample name for the library name, with library_ prefix. This may not always be 100% correct but should not make a big difference. 
+
+
+```{r}
+
+not_all_na <- function(x) {!all(is.na(x))}
+
+bioprojects %>% 
+  select(BioProject) %>% distinct() %>% 
+  left_join(sra_full, by=c("BioProject" = "BioProject")) %>%
+  mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>%
+  mutate(sex = case_when(
+    is.na(sex) ~ "missing",
+    sex == "male and female" | sex == "mixed" | sex == "pooled male and female" ~ "pooled",
+    tolower(sex) == "na" | tolower(sex) == "not applicable"  ~ "missing",
+    tolower(sex) == "not collected" | tolower(sex) == "not determined" ~ "unknown",
+    TRUE ~ sex
+  )) %>%
+  mutate(`Library Name` = case_when(
+    is.na(`Library Name`) ~ str_c("library_", `Sample Name`),
+    TRUE ~ `Library Name`
+  )) %>%
+  split(., .$BioProject) %>%
+  imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA-sample-metadata/SRA_Metadata_', .y, '.tsv')))
+
+
+```
+
+Finally, we need to make the organism / assembly metadata. 
+
+```{r}
+
+bioprojects %>% left_join(assemblies, by=c("Organism" = "OrganismScientificName")) %>%
+  select(Organism, AssemblyName, AssemblyAccession, Annotation, Level, ContigN50, Size) %>%
+  mutate(Organism = str_replace_all(Organism, " ", "_")) %>% distinct() %>% 
+  write_tsv(file = str_c(path_to_write, '/Organism_Metadata.tsv'))
+```
