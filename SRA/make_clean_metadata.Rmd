@@ -731,7 +731,24 @@ write_metadata(meta, sp)
 
 PRJNA323589   http://science.sciencemag.org/content/354/6317/1305.full
 
+
+SRA is clean and nice, could add phenotype from Table S1 though
+
+
 ```{r}
+bp<-"PRJNA323589"
+sp<-"Fundulus_heteroclitus"
+
+sra<-get_sra(bp, opt_cols=c("Sample Name", "Ecotype", "lat_lon", "Collection_date")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Phenotype = case_when(
+    Ecotype == "New Bedford Harbor" | Ecotype == "Bridgeport" | Ecotype == "Newark" | Ecotype == "Elizabeth River" ~ "Tolerant", 
+    Ecotype == "Block Island" | Ecotype == "Flax Pond" | Ecotype == "Sandy Hook" | Ecotype == "Kings Creek" ~ "Sensitive", 
+    TRUE ~ NA_character_
+  )) %>%
+  rename(Population = Ecotype)
+
+write_metadata(sra, sp)
 
 ```
 
@@ -739,7 +756,9 @@ PRJNA323589   http://science.sciencemag.org/content/354/6317/1305.full
 
 PRJNA386810	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982815/
 
+
 ```{r}
+
 
 ```
 
