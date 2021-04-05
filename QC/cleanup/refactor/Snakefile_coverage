@@ -1,5 +1,7 @@
 configfile: "config.yaml"
 
+bamDir = config["fastq2bamDir"] + config["bamDir"]
+
 ### workflow ###
 
 rule all:
