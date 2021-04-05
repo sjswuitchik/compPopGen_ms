@@ -2,7 +2,8 @@
 # Snakemake Pipeline for Computing Mappability
 This small Snakemake pipeline makes use of Genmap (https://github.com/cpockrandt/genmap) to compute the mappability of an input genome fasta file.
 
-# Setup and Usage
+# Setup and Usage  
+#### note from Sara: Dependabot gave three high severity alerts regarding requirements.txt. For now, created env.yml and commented out content of requirements.txt
 First, setup your conda environment:
 
 ``` conda create --name <env> --file <requirements> ```
