@@ -7,9 +7,9 @@ rule prep_genome:
       input: 
               genome = config['spp] + ".fa"             
       output:
-              twobit = bamsDir + config['spp'] + ".2bit",
-              chrom = bamsDir + config['spp'] + ".chrom.sizes",
-              bed = bamsDir + config['spp'] + ".genome.bed" 
+              twobit = bamDir + config['spp'] + ".2bit",
+              chrom = bamDir + config['spp'] + ".chrom.sizes",
+              bed = bamDir + config['spp'] + ".genome.bed" 
       conda:
               "../envs/coverage.yml"
       shell:
@@ -22,12 +22,12 @@ rule make_bigWigs:
       Describe rule
       """
       input:
-              bam = bamsDir + "{sample}" + bam_suffix,
-              chrom = bamsDir + config['spp'] + ".chrom.sizes" 
+              bam = bamDir + "{sample}" + bam_suffix,
+              chrom = bamDir + config['spp'] + ".chrom.sizes" 
       output:
-              bg = bamsDir + "{sample}" + ".bg",
-              bgsort = bamsDir + "{sample}" + ".sorted.bg",
-              bw = bamsDir + "{sample}" + ".bw"                 
+              bg = bamDir + "{sample}" + ".bg",
+              bgsort = bamDir + "{sample}" + ".sorted.bg",
+              bw = bamDir + "{sample}" + ".bw"                 
       shell:
               "bedtools genomecov -bga -ibam {input.bam} -g {input.chrom} > {output.bg}\n"
               "sort -k1,1 -k2,2n {output.bg} > {output.bgsort}\n"
@@ -38,11 +38,11 @@ rule compress_bedgraphs:
       Describe rule
       """
       input:
-              bg = bamsDir + "{sample}" + ".bg",
-              bgsort = bamsDir + "{sample}" + ".sorted.bg"                   
+              bg = bamDir + "{sample}" + ".bg",
+              bgsort = bamDir + "{sample}" + ".sorted.bg"                   
       output:                        
-              bgzip = bamsDir + "{sample}" + ".bg.gz",
-              bgsortzip = bamsDir + "{sample}" + ".sorted.bg.gz"  
+              bgzip = bamDir + "{sample}" + ".bg.gz",
+              bgsortzip = bamDir + "{sample}" + ".sorted.bg.gz"  
       conda:
               "../envs/coverage.yml"
       shell:                       
@@ -54,14 +54,14 @@ rule bigWig_summary:
       Describe rule
       """
       input:                        
-              bws = bamsDir + "{sample}" + ".bw",
-              chrom = bamsDir + config['spp'] + ".chrom.sizes",
-              bed = bamsDir + config['spp'] + ".genome.bed"                
+              bws = bamDir + "{sample}" + ".bw",
+              chrom = bamDir + config['spp'] + ".chrom.sizes",
+              bed = bamDir + config['spp'] + ".genome.bed"                
       output:                        
-              sample_list = bamsDir + "list",
-              bgmerge = bamsDir + config['spp'] + ".merge.bg",
-              bwmerge = bamsDir + config['spp'] + ".merge.bw",                
-              summ = bamsDir + config['spp'] + ".summary.tab" 
+              sample_list = bamDir + "list",
+              bgmerge = bamDir + config['spp'] + ".merge.bg",
+              bwmerge = bamDir + config['spp'] + ".merge.bw",                
+              summ = bamDir + config['spp'] + ".summary.tab" 
       conda:
               "../envs/coverage.yml"
       shell:                        
@@ -76,12 +76,12 @@ rule coverage_beds: ## will need to add bedtools merge to this eventually?
       Describe rule
       """
       input:                        
-              summ = bamsDir + config['spp'] + ".summary.tab",                  
-              bgmerge = bamsDir + config['spp'] + ".merge.bg.gz"                
+              summ = bamDir + config['spp'] + ".summary.tab",                  
+              bgmerge = bamDir + config['spp'] + ".merge.bg.gz"                
       output:
-              clean = bamsDir + config['spp'] + "_coverage_sites_clean.bed",
-              low = bamsDir + config['spp'] + "_coverage_sites_low.bed", 
-              high = bamsDir + config['spp'] + "_coverage_sites_high.bed"
+              clean = bamDir + config['spp'] + "_coverage_sites_clean.bed",
+              low = bamDir + config['spp'] + "_coverage_sites_low.bed", 
+              high = bamDir + config['spp'] + "_coverage_sites_high.bed"
       conda:
               "../envs/coverage.yml"
       params:
