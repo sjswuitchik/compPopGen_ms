@@ -1,4 +1,7 @@
+import yaml
+
 configfile: "config.yaml"
+res_config = yaml.load(open("resources.yaml"))
 
 bamDir = config["fastq2bamDir"] + config["bamDir"]
 
