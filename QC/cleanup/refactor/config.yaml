@@ -1,0 +1,14 @@
+################################
+# Variables you need to change #
+################################
+
+spp: "Egarzetta"   # the name/code for your species
+
+####################################
+# Variables you may need to change #
+####################################
+
+## nb: if using this pipeline after completeing the fastq2vcf pipeline, do not change these paths as they are organized to work with that architecture
+
+fastq2bamDir: "fastq2bam/"  
+bamDir: "01_mappedReads/"  
