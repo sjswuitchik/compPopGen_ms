@@ -12,3 +12,4 @@ spp: "Egarzetta"   # the name/code for your species
 
 fastq2bamDir: "fastq2bam/"  
 bamDir: "01_mappedReads/"  
+bam_suffix: "_dedup.bam"
