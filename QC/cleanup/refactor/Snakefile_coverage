@@ -1,0 +1,18 @@
+configfile: "config.yaml"
+
+# rename variables from config file for clarity downstream
+fastqDir = config["fastqDir"]
+
+# this is where Snakemake output will go, specify with baseDir in config.yml
+bamDir = config["fastq2bamDir"] + config["bamDir"]
+
+
+### workflow ###
+
+rule all:
+    input:
+    	config['spp'] + "_coverage_sites_clean.bed",
+	    config['spp'] + "_coverage_sites_low.bed",
+	    config['spp'] + "_coverage_sites_high.bed"
+
+include: "covCalcs.smk"
