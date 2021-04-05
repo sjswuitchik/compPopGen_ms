@@ -1,12 +1,5 @@
 configfile: "config.yaml"
 
-# rename variables from config file for clarity downstream
-fastqDir = config["fastqDir"]
-
-# this is where Snakemake output will go, specify with baseDir in config.yml
-bamDir = config["fastq2bamDir"] + config["bamDir"]
-
-
 ### workflow ###
 
 rule all:
