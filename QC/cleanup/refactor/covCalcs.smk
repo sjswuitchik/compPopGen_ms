@@ -9,7 +9,9 @@ rule prep_genome:
       output:
               twobit = bamsDir + config['spp'] + ".2bit",
               chrom = bamsDir + config['spp'] + ".chrom.sizes",
-              bed = bamsDir + config['spp'] + ".genome.bed"                        
+              bed = bamsDir + config['spp'] + ".genome.bed" 
+      conda:
+              "../envs/coverage.yml"
       shell:
               "faToTwoBit -long {input.genome} {output.twobit}\n"
               "twoBitInfo {output.twobit} stdout | sort -k2rn > {output.chrom}\n"
@@ -40,7 +42,9 @@ rule compress_bedgraphs:
               bgsort = bamsDir + "{sample}" + ".sorted.bg"                   
       output:                        
               bgzip = bamsDir + "{sample}" + ".bg.gz",
-              bgsortzip = bamsDir + "{sample}" + ".sorted.bg.gz"                
+              bgsortzip = bamsDir + "{sample}" + ".sorted.bg.gz"  
+      conda:
+              "../envs/coverage.yml"
       shell:                       
               "gzip {input.bg}\n"                
               "gzip {input.bgsort}"                
@@ -57,7 +61,9 @@ rule bigWig_summary:
               sample_list = bamsDir + "list",
               bgmerge = bamsDir + config['spp'] + ".merge.bg",
               bwmerge = bamsDir + config['spp'] + ".merge.bw",                
-              summ = bamsDir + config['spp'] + ".summary.tab"                
+              summ = bamsDir + config['spp'] + ".summary.tab" 
+      conda:
+              "../envs/coverage.yml"
       shell:                        
               "ls {input.bws} > {output.sample_list}\n"
               "bigWigMerge -inList {output.sample_list} {output.bgmerge}\n"
@@ -75,7 +81,9 @@ rule coverage_beds: ## will need to add bedtools merge to this eventually?
       output:
               clean = bamsDir + config['spp'] + "_coverage_sites_clean.bed",
               low = bamsDir + config['spp'] + "_coverage_sites_low.bed", 
-              high = bamsDir + config['spp'] + "_coverage_sites_high.bed"                 
+              high = bamsDir + config['spp'] + "_coverage_sites_high.bed"
+      conda:
+              "../envs/coverage.yml"
       params:
               spp = config['spp]                 
       shell:                        
