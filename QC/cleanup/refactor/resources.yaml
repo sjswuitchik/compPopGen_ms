@@ -1,0 +1,18 @@
+##################################
+# coverage calculations workflow #
+##################################
+
+prep_genome:
+    mem: 4000
+    
+make_bigWigs:
+    mem: 10000
+
+compress_bedgraphs:
+    mem: 8000
+    
+bigWig_summary:
+    mem: 10000
+    
+coverage_beds:
+    mem: 8000
