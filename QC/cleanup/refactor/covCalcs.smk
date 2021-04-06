@@ -27,7 +27,9 @@ rule make_bigWigs:
       output:
               bg = bamDir + "{sample}" + ".bg",
               bgsort = bamDir + "{sample}" + ".sorted.bg",
-              bw = bamDir + "{sample}" + ".bw"                 
+              bw = bamDir + "{sample}" + ".bw" 
+      conda:
+              "../envs/coverage.yml"
       shell:
               "bedtools genomecov -bga -ibam {input.bam} -g {input.chrom} > {output.bg}\n"
               "sort -k1,1 -k2,2n {output.bg} > {output.bgsort}\n"
