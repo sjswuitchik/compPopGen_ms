@@ -13,4 +13,4 @@ rule prep_genome:
       shell:
               "faToTwoBit -long {input.genome} {output.twobit}\n"
               "twoBitInfo {output.twobit} stdout | sort -k2rn > {output.chrom}\n"
-              """awk -f helper_scripts/sizes2genome.awk {output.chrom} > {output.bed}"""
+              """awk -f scripts/sizes2genome.awk {output.chrom} > {output.bed}"""
