@@ -20,7 +20,7 @@ rule prep_snipre:
 	This rule calculates the missingness on a per-site basis and, with the final BED files, outputs an MK table that is ready for use in the mk_snipre_stats rule
 	"""
 	input:
-		script = "helper_scripts/prep_snipre.R",
+		script = "scripts/prep_snipre.R",
 		ingroupBED = config['ingroup'] + ".final.bed",
 		outgroupBED = config['outgroup'] + ".final.bed",
 		ingroupM = config['ingroup'] + ".lmiss",
@@ -37,7 +37,7 @@ rule mk_snipre_stats:
 	This rule takes the MK table formatted for SnIPRE and runs an MK test, SnIPRE, and calculates a number of statistics 
 	"""
 	input:
-		script = "helper_scripts/run_snipre.R",
+		script = "scripts/run_snipre.R",
 		data = "snipre_data.tsv"
 	output:
 		"mk_output.tsv",
