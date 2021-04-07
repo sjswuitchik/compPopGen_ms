@@ -49,3 +49,17 @@ rule cds_genes:
 		bed = "onlyCDS.genes.bed"
 	shell:
 		"""awk -F '["\t ]' -v OFS='\t' '$(NF - 1) {print $1, $2, $3, $(NF-1)}' {input.bed} > {output.bed}"""
+
+rule callable_cds:
+	"""
+	This rule intersects the callable site and the gene names for CDS regions for use in the prep_snipre rule
+	"""
+	input:
+		call = "callable.bed",
+		cds = "onlyCDS.genes.bed"
+	output:
+		call = "callable.cds.bed"
+	shell:
+		"bedtools intersect -a {input.call} -b {input.cds} -wb | cut -f1,2,3,7 | bedtools sort -i - | bedtools merge -i - -c 4 -o distinct > {output.call}"
+
+
