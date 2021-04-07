@@ -5,12 +5,19 @@ res_config = yaml.load(open("resources.yaml"))
 
 bamDir = config["fastq2bamDir"] + config["bamDir"]
 
-### workflow ###
+### Target rules ###
 
 rule all:
     input:
     	config['spp'] + "_coverage_sites_clean.bed",
-	    config['spp'] + "_coverage_sites_low.bed",
-	    config['spp'] + "_coverage_sites_high.bed"
+	config['spp'] + "_coverage_sites_low.bed",
+	config['spp'] + "_coverage_sites_high.bed"
 
-include: "covCalcs.smk"
+
+##### Modules #####
+
+
+include: "rules/setup_genome.smk"
+include: "rules/genome_cov.smk"
+include: "rules/mergeBedgraphs.smk"
+include: "rules/write_coverageBeds.smk"
