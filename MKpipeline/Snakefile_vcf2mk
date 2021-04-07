@@ -1,6 +1,6 @@
 configfile: "config.yaml"
 
-### workflow ###
+##### Target rules #####
 
 rule all:
     input:
@@ -8,4 +8,9 @@ rule all:
 	"mk_output.tsv",
 	"snipre_output.tsv"
 
-include: "vcf2mk.smk"
+##### Modules #####
+
+include: "rules/setup_files.smk"
+include: "rules/vcf_filter.smk"
+include: "rules/vcf_annotation.smk"
+include: "rules/run_mk_snipre.smk"
