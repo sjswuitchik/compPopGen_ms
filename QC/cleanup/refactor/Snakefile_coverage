@@ -5,7 +5,7 @@ res_config = yaml.load(open("resources.yaml"))
 
 bamDir = config["fastq2bamDir"] + config["bamDir"]
 
-### Target rules ###
+### Target rule ###
 
 rule all:
     input:
