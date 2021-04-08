@@ -1,3 +1,3 @@
-### Conda env build notes
+### Coverage calculations for pipeline QC
 
-`conda create -n qc -c bioconda ucsc-fatotwobit ucsc-twobitinfo bedtools ucsc-bedgraphtobigwig ucsc-bigwigmerge ucsc-bigwigaverageoverbed`  
+Coverage calculations written first in shell scripts, then reorganized, then refactored into Snakemake. Eventually to be added to the fastq2vcf workflow/organization.
