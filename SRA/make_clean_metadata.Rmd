@@ -578,7 +578,13 @@ write_metadata(sra, sp)
 PRJNA309350	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
 
 ```{r}
+sp <- "Egretta_garzetta"
+bp <- "PRJNA309350"
 
+sra <- get_sra(bp, opt_cols = c("geo_loc_name")) %>%
+  separate(geo_loc_name,into=c("Country","Locality"))
+  
+write_metadata(sra, sp)
 ```
 
 ### Eopsaltria australis	
@@ -856,7 +862,14 @@ PRJNA308878
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290368/
 
 ```{r}
+sp <- "Nipponia_nippon"
+bp <- "PRJNA308878"
 
+#More than one file per sample, so only keeping unique BioSamples
+sra <- get_sra(bp, opt_cols = c("geo_loc_name","Sample Name")) %>%
+  separate(geo_loc_name,into=c("Country","Locality"))
+
+write_metadata(sra,sp)
 
 ```
 
