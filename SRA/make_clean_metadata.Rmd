@@ -582,7 +582,8 @@ sp <- "Egretta_garzetta"
 bp <- "PRJNA309350"
 
 sra <- get_sra(bp, opt_cols = c("geo_loc_name")) %>%
-  separate(geo_loc_name,into=c("Country","Locality"))
+  separate(geo_loc_name,into=c("Country","Locality")) %>%
+  mutate(Continent = "Asia")
   
 write_metadata(sra, sp)
 ```
@@ -865,9 +866,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290368/
 sp <- "Nipponia_nippon"
 bp <- "PRJNA308878"
 
-#More than one file per sample, so only keeping unique BioSamples
 sra <- get_sra(bp, opt_cols = c("geo_loc_name","Sample Name")) %>%
-  separate(geo_loc_name,into=c("Country","Locality"))
+  separate(geo_loc_name,into=c("Country","Locality")) %>%
+  mutate(Continent = "Asia")
 
 write_metadata(sra,sp)
 
@@ -898,9 +899,57 @@ PRJEB2759	https://www.ncbi.nlm.nih.gov/pubmed/24408034
 PRJNA274877	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
 PRJNA304164	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/
 
+There is a supplemental table for PRJNA274877 on page 18 here: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/bin/srep14256-s1.pdf", but tabulizer will not read it correctly, even after specifying the area and column locations. So, I classifyed each locality into the appropriate population grouping.
+
 ```{r}
+sp <- "Parus_major"
+bp1 <- "PRJNA274877"
+bp2 <- "PRJNA304164"
 
+#First BP
+sra1 <- get_sra(bp1, opt_cols=c("birth_location", "Sample Name")) %>%
+  separate(birth_location,into=c("Locality","Province"),extra="drop",sep=",") %>%
+  separate(Province,sep=" [0-9]",into=c("Province"),extra="drop") %>%
+  mutate(Province = str_sub(Province, 2, -1)) %>%
+  mutate(Population = case_when(Province == "Sichuan" ~ "EH",
+                                Province == "Yunnan" ~ "EH",
+                                Province == "Inner Mongolia" ~ "MON",
+                                Province == "Mongolia" ~ "MON",
+                                Province == "Russia" ~ "MON",
+                                Province == "Hubei" ~ "CE",
+                                Province == "Anhui" ~ "CE",
+                                Province == "Liaoning" ~ "CE",
+                                Province == "Gansu" ~ "CE")) %>%
+  mutate(Continent = "Asia",
+         Country = case_when(Province == "Sichuan" ~ "China",
+                                Province == "Yunnan" ~ "China",
+                                Province == "Inner Mongolia" ~ "China",
+                                Province == "Mongolia" ~ "Mongolia",
+                                Province == "Russia" ~ "Russia",
+                                Province == "Hubei" ~ "China",
+                                Province == "Anhui" ~ "China",
+                                Province == "Liaoning" ~ "China",
+                                Province == "Gansu" ~ "China"))
 
+#Second BP
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/bin/ncomms10474-s3.xlsx"
+download.file(supmat,temp)
+meta2<-read_excel(temp, skip=1, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+sra2 <- get_sra(bp2, opt_cols="Isolate") %>%
+  left_join(meta2,by=c("Isolate"="Individual Name")) %>%
+  mutate(Country = if_else(Country =="Cambridge, UK","UK",Country)) %>%
+  mutate(Country = if_else(Country == "UK", "United Kingdom",Country)) %>%
+  select(-Gender,-'Volume(ul)',-'Concentration (ng/ul)') %>%
+  mutate(Continent = "Europe") %>%
+  rename(Locality=Ciry)
+
+#Combine BPs
+sra <- bind_rows(sra1,sra2)
+
+write_metadata(sra,sp)
 ```
 
 ### Passer species
