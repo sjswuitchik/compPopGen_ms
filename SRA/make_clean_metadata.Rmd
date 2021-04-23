@@ -959,16 +959,103 @@ PRJNA255814	Passer domesticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC54708
 PRJNA255814	Passer hispaniolensis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
 PRJNA255814	Passer italiae	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
 PRJNA255814	Passer montanus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
+*Individual 8887266 is the reference genome, dropping.
+
 PRJEB22939	Passer italiae	https://www.nature.com/articles/s41559-017-0437-7
-PRJNA634228	Passer montanus	http://advances.sciencemag.org/content/3/6/e1602996.full
+
+**The pub was incorrect for PRJNA634228, and I can't find a matching pub to grab locality information for samples. Not including this bioproject for now.
+PRJNA634228	Passer montanus	
 
 ```{r}
+sp <- "Passer_domesticus"
+bp1 <- "PRJEB27649"
+bp2 <- "PRJNA255814"
+bp3 <- "PRJEB22939"
+bp4 <- "PRJNA634228"
 
+#BP PRJEB27649
+sra1 <- get_sra(bp1, opt_cols=c("Sample_Name","Title")) %>%
+  select(-sex)
+
+temp <- tempfile()
+supmat <- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/bin/rspb20181246supp2.xlsx"
+download.file(supmat,temp)
+meta1<-read_excel(temp, skip=0, col_types = "text", trim_ws = TRUE) %>%
+  select(Individual,Sex,Population,Longitude,Latidue) %>%
+  rename(sex=Sex,Latitude=Latidue)
+unlink(temp)
+
+sra1 <- left_join(sra1,meta1,by=c("Title"="Individual")) %>%
+  separate(Population,into=c("Locality","Country")) %>%
+  mutate(Locality = if_else(Locality == "Cape","Cape Verde",Locality)) %>%
+  mutate(Country=if_else(Locality == "Tenerife","Canary Islands",Country),
+         Country=if_else(Locality == "Cape Verde","Cape Verde",Country),
+         Country=if_else(Locality == "Sardinia", "Italy",Country),
+         Country=if_else(Locality == "Malta", "Malta",Country)) %>%
+  mutate(Continent=case_when(Country == "Canary Islands"~"Africa",
+                             Country == "Cape Verde"~"Africa",
+                             Country == "Italy"~"Europe",
+                             Country == "France"~"Europe",
+                             Country == "Kazahkstan"~"Asia",
+                             Country == "Norway"~"Europe",
+                             Country == "Iran"~"Asia",
+                             Country == "Malta"~"Europe")) %>%
+  mutate(Sample_Name=Title)
+
+#BP PRJNA255814
+sra2 <- get_sra(bp2, opt_cols=c("Library Name","Isolate")) %>%
+  filter(Isolate != "8887266") %>%
+  separate(LibraryName, into=c("drop1","drop2","drop3","drop4","Sample_ID"),sep="\\.",extra="drop",fill="right") %>%
+  select(-drop1,-drop2,-drop3,-drop4) 
+
+suppmat<-"https://advances.sciencemag.org/highwire/filestream/196328/field_highwire_adjunct_files/0/1602996_SM.pdf"
+table1 <- extract_tables(suppmat, pages=c(9:10))[[1]]
+table2 <- extract_tables(suppmat, pages=c(9:10))[[2]]
+colnames(table1) <- colnames(table2) <- c("Species", "Sample_ID", "Sex", "Date", "Location", "Latitude", "Longitude")
+table1 <- table1[2:nrow(table1),] %>%
+  as_tibble
+table2 <- table2 %>%
+  as_tibble
+table1 <- bind_rows(table1,table2)
+
+#Have to fix typo in table names
+table1 <- table1 %>%
+  mutate(Sample_ID = if_else(Sample_ID == "Pitaliae_30_Guglionesi_336","Pitaliae_30_Guglionesi_436",Sample_ID))
+
+sra2 <- sra2 %>%
+  left_join(table1,by=c("Sample_ID"="Sample_ID")) %>%
+  separate(Location, into=c("Locality","Country"),sep=",") %>%
+  rename(Sample_Name=Sample_ID) %>%
+  mutate(Continent="Europe",
+         Locality=str_trim(Locality),
+         Country=str_trim(Country)) %>%
+  select(-Sex,-Species,-Isolate,-Date)
+
+
+#BP PRJEB22939
+sra3 <- get_sra(bp3,opt_cols=c("geographic_location_(region_and_locality)")) %>%
+  rename(Locality=`geographic_location_(region_and_locality)`) %>%
+  mutate(Country="Italy",
+         Continent="Europe")
+
+
+sra <- bind_rows(sra1,sra2,sra3) %>%
+  mutate(sex=if_else(sex=="M","male",sex),
+         sex=if_else(sex=="F","female",sex),
+         sex=if_else(sex=="U"|sex=="J","undetermined",sex)) %>%
+  rename(Submitter_Id=Sample_Name) %>%
+  select(-Title) %>%
+  separate(Organism,into=c("genus","species"),extra="drop") %>%
+  unite(genus,species,col="Organism")
+
+write_metadata(sra,sp)
 ```
 
 ### Pelecanus crispus
 
 PRJNA212901	Pelecanus crispus	https://www.ncbi.nlm.nih.gov/pubmed/25504712
+
+Only 3 samples, so skipped (intended for use as outgroup)
 
 ```{r}
 
