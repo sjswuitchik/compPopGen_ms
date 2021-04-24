@@ -1066,12 +1066,42 @@ Only 3 samples, so skipped (intended for use as outgroup)
 
 PRJEB21643	Phylloscopus collybita abietinus	https://www.ncbi.nlm.nih.gov/pubmed/29054864
 PRJEB21643	Phylloscopus collybita tristis	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+*Unfortunately locality information was not included at the sample level for the P. collybita samples. The only information avaiable is whether they were from sympatric or allopatric distributions, but this is not very helpful as sampling sites within those categories were widely distributed.
+
 PRJNA319295	Phylloscopus trochilus acredula	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
 PRJNA319295	Phylloscopus trochilus trochilus	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
 
 
 ```{r}
+sp1 <- "Phylloscopus_trochilus_acredula"
+sp2 <- "Phylloscopus_trochilus_trochilus"
 
+bp1 <- "PRJEB21643"
+bp2 <- "PRJNA319295"
+
+#BP PRJEB21643 (P. collybita)
+
+sra1 <- get_sra(bp1)
+
+write_metadata(sra1,refSp = sp2)
+
+#BP PRJNA319295 (P. trochilus)
+
+sra2 <- get_sra(bp2, opt_cols=c("geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name", "Library Name")) %>%
+  rename(Country=geo_loc_name_country,
+         Continent=geo_loc_name_country_continent,
+         Locality=geo_loc_name) %>%
+  separate(Locality,into=c("Country2","Locality")) %>%
+  filter(str_detect(LibraryName,"ww_reseq_*")) %>%
+  select(-Country2)
+
+sra2_acredula <- sra2 %>%
+  filter(Organism == "Phylloscopus_trochilus_acredula")
+sra2_trochilus <- sra2 %>%
+  filter(Organism == "Phylloscopus_trochilus_trochilus")
+
+write_metadata(sra2_acredula,sp1)
+write_metadata(sra2_trochilus,sp2)
 
 ```
 
