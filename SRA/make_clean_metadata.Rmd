@@ -1162,10 +1162,22 @@ PRJNA477377	Pungitius pungitius	https://academic.oup.com/mbe/article/36/1/28/511
 
 ### Strix occidentalis caurina
 
-PRJNA338167	https://www.ncbi.nlm.nih.gov/pubmed/28992302
+PRJNA406821	https://pubmed.ncbi.nlm.nih.gov/30355766/
 
 ```{r}
+sp1 <- "Strix_occidentalis_caurina"
+sp2 <- "Strix_varia"
 
+bp <- "PRJNA406821"
+
+sra <- get_sra(bp,opt_cols = c("geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name")) %>%
+   rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent) %>%
+  separate(geo_loc_name, into=c("drop","locality"),sep=": ") %>%
+  mutate(locality=str_replace_all(locality,"[^[:alnum:]]","_"))%>%
+  mutate(locality=str_replace_all(locality,"_{2,}","_"))
+
+write_metadata(sra1,refSp = sp2)
 
 ```
 
