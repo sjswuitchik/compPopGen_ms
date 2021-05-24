@@ -17,12 +17,12 @@ rule plink_pruning:
   (Aggressively) prune for LD to process for PCA
   """
   input:
-          vcf = "Combined_hardFiltered.vcf"
+          vcf = config['spp'] + "_final.vcf.gz"
   output:
-          prune = config['ingroup'] + ".prune.in",
-          ld = config['ingroup'] + ".ld_pruned"
+          prune = config['spp'] + ".prune.in",
+          ld = config['spp'] + ".ld_pruned"
   params:
-          ingroup = config['ingroup']
+          ingroup = config['spp']
   shell:
           "plink --vcf {input.vcf} --make-bed --out {params.ingroup} --allow-extra-chr\n"
           "plink --bfile {params.ingroup} --indep-pairwise 500 50 0.1 --out {params.ingroup} --allow-extra-chr\n"
@@ -34,8 +34,8 @@ rule pca_raw:
   """
   input:
           script = "helper_scripts/PCA.R",
-          val = config['ingroup'] + ".eigenval",
-          vec = config['ingroup'] + ".eigencev"
+          val = config['spp'] + ".eigenval",
+          vec = config['spp'] + ".eigencev"
   output:
           plot = "PCA.pdf"
   shell:
@@ -46,28 +46,28 @@ rule relatedness:
   Output relatedness statistic from Yang et al. (2010) (doi:10.1038/ng.608)
   """
   input:
-          vcf = "Combined_hardFiltered.vcf"
+          vcf = config['spp'] + "_final.vcf.gz"
   output:
-          rel = config['ingroup'] + ".relatedness"
+          rel = config['spp'] + ".relatedness"
   params:
-          ingroup = config['ingroup']
+          ingroup = config['spp']
   shell:
-          "vcftools --vcf {input.vcf} --out {params.ingroup} --relatedness
+          "vcftools --gzvcf {input.vcf} --out {params.ingroup} --relatedness
 
 rule matrix:
   """
   Creating a 012 matrix for PCA input
   """
   input:
-        vcf = "Combined_hardFiltered.vcf"
+        vcf = config['spp'] + "_final.vcf.gz"
   output:
-        pos = config['ingroup'] + ".012.pos",
-        indv = config['ingroup'] + ".012.indv",
-        matrix = config['ingroup'] + ".012"
+        pos = config['spp'] + ".012.pos",
+        indv = config['spp'] + ".012.indv",
+        matrix = config['spp'] + ".012"
   params:
-        ingroup = config['ingroup']
+        ingroup = config['spp']
   shell:
-        "vcftools --vcf {input.vcf} --out {params.ingroup} --012"
+        "vcftools --gzvcf {input.vcf} --out {params.ingroup} --012"
 
 rule pca_clean:
   """
@@ -75,9 +75,9 @@ rule pca_clean:
   """
   input:
         script = "helper_scripts/SOMETHING.R"
-        pos = config['ingroup'] + ".012.pos",
-        indv = config['ingroup'] + ".012.indv",
-        matrix = config['ingroup'] + ".012"
+        pos = config['spp'] + ".012.pos",
+        indv = config['spp'] + ".012.indv",
+        matrix = config['spp'] + ".012"
   output:
         SOMETHING
   shell:
