@@ -2,7 +2,7 @@
 # Variables you need to change #
 ################################
 
-ingroup: "hetAtr" # the name/code for your ingroup species
+spp: "hetAtr" # the name/code for your ingroup species
 
 ####################################
 # Variables you may need to change #
