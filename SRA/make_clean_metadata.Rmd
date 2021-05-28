@@ -1233,6 +1233,7 @@ sra <- sra %>%
   left_join(meta,by=c("Alias"="sample")) %>%
   filter(Locality!="captive-born; domesticated")
 
+write_metadata(sra,refSp = sp)
 ```
 
 
@@ -1251,12 +1252,36 @@ PRJNA522329	Takifugu rubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
 
 PRJEB14402	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/
 
-```{r}
+Instead of "Continent", including "FAO_Fishing_Area"
 
+```{r}
+sp <- "Thunnus_albacares"
+bp <- "PRJEB14402"
+
+sra <- get_sra(bp,opt_cols = c("Alias"))
+
+supmat <- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/bin/evx067_Supp.pdf"
+paper<-do.call(rbind,extract_tables(supmat, pages=c(5:5)))
+colnames(paper) <- c("sample","FAO_Fishing_Area","Locality","Date")
+meta <- as.data.frame(paper[3:nrow(paper),]) %>%
+  as_tibble %>%
+  mutate_all(as.character) %>%
+  mutate(Locality=if_else(Locality=="3° N, 154° W","NA, 3° N, 154° W",Locality)) %>%
+  mutate(Locality=if_else(Locality=="5° N, 104° W","NA, 5° N, 104° W",Locality)) %>%
+  separate(Locality,into=c("Country","Locality"),sep=", ",extra="merge") %>%
+  mutate(Country=if_else(Country=="U.S.A.","USA",Country)) %>%
+  select(-Date)
+
+sra <- sra %>%
+  left_join(meta,by=c("Alias"="sample"))
+
+write_metadata(sra,refSp = sp)
 ```
 
 ### Tyto alba
 
 PRJNA212909	Tyto alba	https://www.ncbi.nlm.nih.gov/pubmed/25504712
 
+```{r}
 
+```
