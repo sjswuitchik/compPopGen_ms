@@ -1143,7 +1143,6 @@ PRJEB36450	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643
 PRJEB39998	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/
 PRJNA238429	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
 PRJNA353986	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/
-PRJEB10586	Poephila acuticauda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
 
 ```{r}
 
@@ -1207,8 +1206,32 @@ PRJNA354496   https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310
 ### Taeniopygia species
 PRJEB10586	Taeniopygia bichenovii	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
 PRJEB10586	Taeniopygia guttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+PRJEB10586	Poephila acuticauda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
 
 ```{r}
+sp <- "Taeniopygia_guttata"
+bp <- "PRJEB10586"
+
+#Used sex and Organism from metadata table, because of updated taxonomy and availability of sex data
+sra<-get_sra(bp, opt_cols = c("Alias")) %>%
+  select(-Organism,-sex)
+
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/bin/NIHMS67644-supplement-SuppMat.pdf"
+area <- list(c(95.58621,65.45889,410.7056,540.2387))
+paper<-do.call(rbind,extract_tables(supmat, pages=c(56:56), area = area))
+colnames(paper) <- paper[1,]
+meta <- as.data.frame(paper[2:nrow(paper),]) %>%
+  as_tibble %>%
+  separate(species,into=c("genus","species","subspecies")) %>%
+  unite(genus,species,col="Organism",sep="_") %>%
+  separate(locality,into=c("Locality","Province","Country"),sep=", ") %>%
+  mutate(Country=if_else(is.na(Country),"Australia",Country)) %>%
+  mutate(Continent=Country) %>%
+  select(sample,Organism,subspecies,sex,Locality,Province,Country,Continent)
+
+sra <- sra %>%
+  left_join(meta,by=c("Alias"="sample")) %>%
+  filter(Locality!="captive-born; domesticated")
 
 ```
 
