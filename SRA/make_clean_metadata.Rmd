@@ -1243,8 +1243,40 @@ write_metadata(sra,refSp = sp)
 PRJNA522329	Takifugu bimaculatus	https://dx.doi.org/10.21203/rs.2.16620/v1
 PRJNA522329	Takifugu rubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
 
-```{r}
+T. rubripes was reference genome used in paper, so used for all species but bimaculatus
 
+```{r}
+sp1 <- "Takifugu_bimaculatus"
+sp2 <- "Takifugu_rubripes"
+
+bp <- "PRJNA522329"
+
+sra <- get_sra(bp, opt_cols=c("Strain"))
+
+temp <- tempfile()
+supmat<- "https://assets.researchsquare.com/files/d47b4c1b-2ab6-4ef1-9d9e-4e13cdfa4bc5/v1/Supplementary%20Table%201-12.xlsx"
+download.file(supmat,temp)
+meta1<-read_excel(temp, skip=2, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+meta <- meta1 %>%
+  rename(Sample=`Sample ID`,Location=`Sampling site`) %>%
+  separate(Location,into=c("Specific","City","Country"),sep=", ") %>%
+  unite(Specific,City,col="Locality",sep=", ") %>%
+  mutate(Continent="Asia") %>%
+  select(-Species,-Population)
+
+sra <- sra %>%
+  left_join(meta,by=c("Strain"="Sample"))
+
+sra_bimaculatus <- sra %>%
+  filter(Organism == "Takifugu_bimaculatus")
+
+sra_others <- sra %>%
+  filter(Organism != "Takifugu_bimaculatus")
+
+write_metadata(sra_bimaculatus, sp1)
+write_metadata(sra_others, sp2)
 ```
 
 
