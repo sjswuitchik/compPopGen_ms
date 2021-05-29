@@ -1190,7 +1190,39 @@ write_metadata(sra,refSp = sp)
 PRJNA616371	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173969/
 
 ```{r}
+sp <- "Sylvia_atricapilla"
+bp <- "PRJNA616371"
 
+sra <- get_sra(bp,opt_cols = c("Isolate"))
+
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173969/bin/elife-54462-supp4.xlsx"
+download.file(supmat,temp)
+meta<-read_excel(temp, skip=2, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+meta1 <- meta %>%
+  rename(Country=location,Locality=additional_location_info, Isolate=bird) %>%
+  mutate(Continent=case_when(Country=="Azores / Terceira" ~"Europe",
+                             Country == "Canary Islands / La Palma" ~"Africa",
+                             Country == "Cape Verde" ~ "Africa",
+                             Country == "Morocco" ~ "Africa",
+                             Country == "Germany" ~ "Europe",
+                             Country == "Ireland" ~ "Europe",
+                             Country == "United Kingdom" ~ "Europe",
+                             Country == "Belgium" ~ "Europe",
+                             Country == "Austria" ~ "Europe",
+                             Country == "Spain" ~ "Europe",
+                             Country == "Poland" ~ "Europe",
+                             Country == "Kenya" ~ "Africa",
+                             Country == "Sweden" ~ "Europe")) %>%
+  select(Isolate,Continent,Country,Locality)
+
+sra1 <- sra %>%
+  left_join(meta1, by="Isolate") %>%
+  rename(Submitter_ID = Isolate)
+
+write_metadata(sra1,sp)
 
 ```
 
