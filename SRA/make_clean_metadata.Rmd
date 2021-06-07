@@ -921,21 +921,30 @@ write_metadata(sra,sp)
 ```
 
 
-### Oreochromis species	
-
-PRJNA59571    Oreochromis niloticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4353498/
-PRJDB1657   Oreochromis niloticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570987/
-PRJDB1657	Oreochromis mossambicus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570987/
-
-```{r}
-
-```
-
 ### Oryzias latipes	
 
 PRJEB2759	https://www.ncbi.nlm.nih.gov/pubmed/24408034
 
+Location information same for all samples, recovered from here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3962483/#s1title
+
+trio data so parsing and removing "child" but this could be changed
+
 ```{r}
+bp<-"PRJEB2759"
+sp<-"Oryzias_latipes"
+
+gps<-"34.780885° N, 137.347818° E"
+country<-"Japan"
+locality<-"Kiyosu, Toyohashi, Aichi Prefecture"
+continent<-"Asia"
+
+sra<-get_sra(bp, opt_cols=c("Alias")) %>%
+  rename(Submitter_Id = "Alias") %>%
+  filter(!str_detect(Submitter_Id, "_C-")) %>%
+  mutate(lat_lon = gps, Continent = continent, Country = country, Locality = locality)
+
+write_metadata(sra, sp)
+  
 
 ```
 
@@ -1152,33 +1161,6 @@ write_metadata(sra2_trochilus,sp2)
 
 ```
 
-###	Pimephales promelas	
-
-
-PRJNA227290   https://www.ncbi.nlm.nih.gov/pubmed/26513338
-
-```{r}
-
-
-```
-
-
-### Plectropomus leopardus	
-
-PRJNA622646	    https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13207
-
-```{r}
-
-
-```
-
-### Podarcis muralis
-
-PRJNA515813	    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431182/
-
-```{r}
-
-```
 
 ### Poecilia species
 
@@ -1279,7 +1261,17 @@ write_metadata(sra1,sp)
 PRJNA354496   https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310
 
 ```{r}
+bp<-"PRJNA354496"
+sp<-"Symphodus_melops"
 
+sra <- get_sra(bp,opt_cols = c("Sample Name", "geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name", "lat_lon", "Ecotype")) %>%
+  rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent,
+         Population = Ecotype,
+         Locality = geo_loc_name, 
+         Submitter_Id = `Sample Name`)
+
+write_metadata(sra, sp)
 
 ```
 
@@ -1391,12 +1383,4 @@ sra <- sra %>%
   rename(Submitter_ID=Alias)
 
 write_metadata(sra,refSp = sp)
-```
-
-### Tyto alba
-
-PRJNA212909	Tyto alba	https://www.ncbi.nlm.nih.gov/pubmed/25504712
-
-```{r}
-
 ```
