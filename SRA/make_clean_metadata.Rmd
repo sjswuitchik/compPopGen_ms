@@ -1172,7 +1172,26 @@ PRJNA353986	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC529
 PRJDB2321	Pungitius pungitius	https://www.ncbi.nlm.nih.gov/pubmed/25818858
 PRJNA477377	Pungitius pungitius	https://academic.oup.com/mbe/article/36/1/28/5112968
 
+Locality info for PRJD231: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4635650/#__sec10title
+
 ```{r}
+bp1<-"PRJDB2321"
+bp2<-"PRJNA477377"
+sp<-"Pungitius_pungitius"
+
+sra1<-get_sra(bp1, opt_cols=c("Sample_Name")) %>%
+  rename(Submitter_Id = Sample_Name) %>%
+  mutate(Continent = "Asia",
+         Country = "Japan",
+         Locality = "Biwase_tide_pool")
+
+sra2<-get_sra(bp2, opt_cols=c("Ecotype", "Sample Name")) %>%
+  rename(Submitter_Id = `Sample Name`,
+         Locality = Ecotype) %>%
+  mutate(Continent = "Asia",
+         Country = "Japan")
+
+write_metadata(rbind(sra1, sra2), sp)
 
 ```
 
