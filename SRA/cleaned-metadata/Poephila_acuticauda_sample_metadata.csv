@@ -1,0 +1,21 @@
+BioProject,BioSample,Alias,Organism,subspecies,sex,Locality,Province,Country,Continent,refGenome
+PRJEB10586,SAMEA3532832,G111,Poephila_acuticauda,acuticauda,female,Mount House,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532834,G163,Poephila_acuticauda,acuticauda,female,Mount House,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532835,G169,Poephila_acuticauda,acuticauda,male,Mount House,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532836,G183,Poephila_acuticauda,acuticauda,male,Mount House,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532837,G250,Poephila_acuticauda,acuticauda,male,Nelson’s Hole,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532838,G276,Poephila_acuticauda,acuticauda,male,Nelson’s Hole,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532839,G294,Poephila_acuticauda,acuticauda,male,Nelson’s Hole,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532840,W2703,Poephila_acuticauda,acuticauda,male,captive-born from parents from Mount House,NA,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532841,W2994,Poephila_acuticauda,acuticauda,female,captive-born from mother from Mount House and father from Nelson’s Hole,NA,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532842,73783,Poephila_acuticauda,hecki,male,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532843,73788,Poephila_acuticauda,hecki,female,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532844,73790,Poephila_acuticauda,hecki,female,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532845,73900,Poephila_acuticauda,hecki,female,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532846,73903,Poephila_acuticauda,hecki,female,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532847,73907,Poephila_acuticauda,hecki,male,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532848,73933,Poephila_acuticauda,hecki,male,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532850,73948,Poephila_acuticauda,hecki,female,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532851,73958,Poephila_acuticauda,hecki,male,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532833,G118,Poephila_acuticauda,acuticauda,male,Mount House,Western Australia,Australia,Australia,GCF_008822105.2
+PRJEB10586,SAMEA3532849,73942,Poephila_acuticauda,hecki,male,October Creek,Northern Territory,Australia,Australia,GCF_008822105.2

@@ -578,7 +578,14 @@ write_metadata(sra, sp)
 PRJNA309350	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
 
 ```{r}
+sp <- "Egretta_garzetta"
+bp <- "PRJNA309350"
 
+sra <- get_sra(bp, opt_cols = c("geo_loc_name")) %>%
+  separate(geo_loc_name,into=c("Country","Locality")) %>%
+  mutate(Continent = "Asia")
+  
+write_metadata(sra, sp)
 ```
 
 ### Eopsaltria australis	
@@ -856,7 +863,14 @@ PRJNA308878
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290368/
 
 ```{r}
+sp <- "Nipponia_nippon"
+bp <- "PRJNA308878"
 
+sra <- get_sra(bp, opt_cols = c("geo_loc_name","Sample Name")) %>%
+  separate(geo_loc_name,into=c("Country","Locality")) %>%
+  mutate(Continent = "Asia")
+
+write_metadata(sra,sp)
 
 ```
 
@@ -885,9 +899,58 @@ PRJEB2759	https://www.ncbi.nlm.nih.gov/pubmed/24408034
 PRJNA274877	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/
 PRJNA304164	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/
 
+There is a supplemental table for PRJNA274877 on page 18 here: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/bin/srep14256-s1.pdf", but tabulizer will not read it correctly, even after specifying the area and column locations. So, I classifyed each locality into the appropriate population grouping.
+
 ```{r}
+sp <- "Parus_major"
+bp1 <- "PRJNA274877"
+bp2 <- "PRJNA304164"
 
+#First BP
+sra1 <- get_sra(bp1, opt_cols=c("birth_location", "Sample Name")) %>%
+  separate(birth_location,into=c("Locality","Province"),extra="drop",sep=",") %>%
+  separate(Province,sep=" [0-9]",into=c("Province"),extra="drop") %>%
+  mutate(Province = str_sub(Province, 2, -1)) %>%
+  mutate(Population = case_when(Province == "Sichuan" ~ "EH",
+                                Province == "Yunnan" ~ "EH",
+                                Province == "Inner Mongolia" ~ "MON",
+                                Province == "Mongolia" ~ "MON",
+                                Province == "Russia" ~ "MON",
+                                Province == "Hubei" ~ "CE",
+                                Province == "Anhui" ~ "CE",
+                                Province == "Liaoning" ~ "CE",
+                                Province == "Gansu" ~ "CE")) %>%
+  mutate(Continent = "Asia",
+         Country = case_when(Province == "Sichuan" ~ "China",
+                                Province == "Yunnan" ~ "China",
+                                Province == "Inner Mongolia" ~ "China",
+                                Province == "Mongolia" ~ "Mongolia",
+                                Province == "Russia" ~ "Russia",
+                                Province == "Hubei" ~ "China",
+                                Province == "Anhui" ~ "China",
+                                Province == "Liaoning" ~ "China",
+                                Province == "Gansu" ~ "China"))
 
+#Second BP
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/bin/ncomms10474-s3.xlsx"
+download.file(supmat,temp)
+meta2<-read_excel(temp, skip=1, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+sra2 <- get_sra(bp2, opt_cols="Isolate") %>%
+  left_join(meta2,by=c("Isolate"="Individual Name")) %>%
+  mutate(Country = if_else(Country =="Cambridge, UK","UK",Country)) %>%
+  mutate(Country = if_else(Country == "UK", "United Kingdom",Country)) %>%
+  select(-Gender,-'Volume(ul)',-'Concentration (ng/ul)') %>%
+  mutate(Continent = "Europe") %>%
+  rename(Locality=Ciry)
+
+#Combine BPs
+sra <- bind_rows(sra1,sra2) %>%
+  rename(Submitter_ID=Isolate)
+
+write_metadata(sra,sp)
 ```
 
 ### Passer species
@@ -897,16 +960,103 @@ PRJNA255814	Passer domesticus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC54708
 PRJNA255814	Passer hispaniolensis	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
 PRJNA255814	Passer italiae	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
 PRJNA255814	Passer montanus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/
+*Individual 8887266 is the reference genome, dropping.
+
 PRJEB22939	Passer italiae	https://www.nature.com/articles/s41559-017-0437-7
-PRJNA634228	Passer montanus	http://advances.sciencemag.org/content/3/6/e1602996.full
+
+**The pub was incorrect for PRJNA634228, and I can't find a matching pub to grab locality information for samples. Not including this bioproject for now.
+PRJNA634228	Passer montanus	
 
 ```{r}
+sp <- "Passer_domesticus"
+bp1 <- "PRJEB27649"
+bp2 <- "PRJNA255814"
+bp3 <- "PRJEB22939"
+bp4 <- "PRJNA634228"
 
+#BP PRJEB27649
+sra1 <- get_sra(bp1, opt_cols=c("Sample_Name","Title")) %>%
+  select(-sex)
+
+temp <- tempfile()
+supmat <- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/bin/rspb20181246supp2.xlsx"
+download.file(supmat,temp)
+meta1<-read_excel(temp, skip=0, col_types = "text", trim_ws = TRUE) %>%
+  select(Individual,Sex,Population,Longitude,Latidue) %>%
+  rename(sex=Sex,Latitude=Latidue)
+unlink(temp)
+
+sra1 <- left_join(sra1,meta1,by=c("Title"="Individual")) %>%
+  separate(Population,into=c("Locality","Country")) %>%
+  mutate(Locality = if_else(Locality == "Cape","Cape Verde",Locality)) %>%
+  mutate(Country=if_else(Locality == "Tenerife","Canary Islands",Country),
+         Country=if_else(Locality == "Cape Verde","Cape Verde",Country),
+         Country=if_else(Locality == "Sardinia", "Italy",Country),
+         Country=if_else(Locality == "Malta", "Malta",Country)) %>%
+  mutate(Continent=case_when(Country == "Canary Islands"~"Africa",
+                             Country == "Cape Verde"~"Africa",
+                             Country == "Italy"~"Europe",
+                             Country == "France"~"Europe",
+                             Country == "Kazahkstan"~"Asia",
+                             Country == "Norway"~"Europe",
+                             Country == "Iran"~"Asia",
+                             Country == "Malta"~"Europe")) %>%
+  mutate(Sample_Name=Title)
+
+#BP PRJNA255814
+sra2 <- get_sra(bp2, opt_cols=c("Library Name","Isolate")) %>%
+  filter(Isolate != "8887266") %>%
+  separate(LibraryName, into=c("drop1","drop2","drop3","drop4","Sample_ID"),sep="\\.",extra="drop",fill="right") %>%
+  select(-drop1,-drop2,-drop3,-drop4) 
+
+suppmat<-"https://advances.sciencemag.org/highwire/filestream/196328/field_highwire_adjunct_files/0/1602996_SM.pdf"
+table1 <- extract_tables(suppmat, pages=c(9:10))[[1]]
+table2 <- extract_tables(suppmat, pages=c(9:10))[[2]]
+colnames(table1) <- colnames(table2) <- c("Species", "Sample_ID", "Sex", "Date", "Location", "Latitude", "Longitude")
+table1 <- table1[2:nrow(table1),] %>%
+  as_tibble
+table2 <- table2 %>%
+  as_tibble
+table1 <- bind_rows(table1,table2)
+
+#Have to fix typo in table names
+table1 <- table1 %>%
+  mutate(Sample_ID = if_else(Sample_ID == "Pitaliae_30_Guglionesi_336","Pitaliae_30_Guglionesi_436",Sample_ID))
+
+sra2 <- sra2 %>%
+  left_join(table1,by=c("Sample_ID"="Sample_ID")) %>%
+  separate(Location, into=c("Locality","Country"),sep=",") %>%
+  rename(Sample_Name=Sample_ID) %>%
+  mutate(Continent="Europe",
+         Locality=str_trim(Locality),
+         Country=str_trim(Country)) %>%
+  select(-Sex,-Species,-Isolate,-Date)
+
+
+#BP PRJEB22939
+sra3 <- get_sra(bp3,opt_cols=c("geographic_location_(region_and_locality)")) %>%
+  rename(Locality=`geographic_location_(region_and_locality)`) %>%
+  mutate(Country="Italy",
+         Continent="Europe")
+
+
+sra <- bind_rows(sra1,sra2,sra3) %>%
+  mutate(sex=if_else(sex=="M","male",sex),
+         sex=if_else(sex=="F","female",sex),
+         sex=if_else(sex=="U"|sex=="J","undetermined",sex)) %>%
+  rename(Submitter_Id=Sample_Name) %>%
+  select(-Title) %>%
+  separate(Organism,into=c("genus","species"),extra="drop") %>%
+  unite(genus,species,col="Organism")
+
+write_metadata(sra,sp)
 ```
 
 ### Pelecanus crispus
 
 PRJNA212901	Pelecanus crispus	https://www.ncbi.nlm.nih.gov/pubmed/25504712
+
+Only 3 samples, so skipped (intended for use as outgroup)
 
 ```{r}
 
@@ -917,12 +1067,42 @@ PRJNA212901	Pelecanus crispus	https://www.ncbi.nlm.nih.gov/pubmed/25504712
 
 PRJEB21643	Phylloscopus collybita abietinus	https://www.ncbi.nlm.nih.gov/pubmed/29054864
 PRJEB21643	Phylloscopus collybita tristis	https://www.ncbi.nlm.nih.gov/pubmed/29054864
+*Unfortunately locality information was not included at the sample level for the P. collybita samples. The only information avaiable is whether they were from sympatric or allopatric distributions, but this is not very helpful as sampling sites within those categories were widely distributed.
+
 PRJNA319295	Phylloscopus trochilus acredula	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
 PRJNA319295	Phylloscopus trochilus trochilus	https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15
 
 
 ```{r}
+sp1 <- "Phylloscopus_trochilus_acredula"
+sp2 <- "Phylloscopus_trochilus_trochilus"
 
+bp1 <- "PRJEB21643"
+bp2 <- "PRJNA319295"
+
+#BP PRJEB21643 (P. collybita)
+
+sra1 <- get_sra(bp1)
+
+write_metadata(sra1,refSp = sp2)
+
+#BP PRJNA319295 (P. trochilus)
+
+sra2 <- get_sra(bp2, opt_cols=c("geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name", "Library Name")) %>%
+  rename(Country=geo_loc_name_country,
+         Continent=geo_loc_name_country_continent,
+         Locality=geo_loc_name) %>%
+  separate(Locality,into=c("Country2","Locality")) %>%
+  filter(str_detect(LibraryName,"ww_reseq_*")) %>%
+  select(-Country2)
+
+sra2_acredula <- sra2 %>%
+  filter(Organism == "Phylloscopus_trochilus_acredula")
+sra2_trochilus <- sra2 %>%
+  filter(Organism == "Phylloscopus_trochilus_trochilus")
+
+write_metadata(sra2_acredula,sp1)
+write_metadata(sra2_trochilus,sp2)
 
 ```
 
@@ -964,7 +1144,6 @@ PRJEB36450	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643
 PRJEB39998	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/
 PRJNA238429	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
 PRJNA353986	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/
-PRJEB10586	Poephila acuticauda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
 
 ```{r}
 
@@ -983,10 +1162,28 @@ PRJNA477377	Pungitius pungitius	https://academic.oup.com/mbe/article/36/1/28/511
 
 ### Strix occidentalis caurina
 
-PRJNA338167	https://www.ncbi.nlm.nih.gov/pubmed/28992302
+PRJNA406821	https://pubmed.ncbi.nlm.nih.gov/30355766/
+
+Specific localities are kind of a mess, but they are so different that they'll be impossible to parse in a logical way.
 
 ```{r}
+sp <- "Strix_occidentalis_caurina"
 
+bp <- "PRJNA406821"
+
+sra <- get_sra(bp,opt_cols = c("geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name")) %>%
+   rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent) %>%
+  separate(geo_loc_name, into=c("drop","Locality"),sep=": ") %>%
+  mutate(Locality=str_replace_all(Locality,"[^[:alnum:]]","_"))%>%
+  mutate(Locality=str_replace_all(Locality,"_{2,}","_")) %>%
+  mutate(Organism = str_replace_all(Organism," ","_"))
+
+sra <- sra %>%
+  filter(Organism == "Strix_occidentalis_caurina" | Organism == "Strix_varia") %>%
+  select(-drop)
+
+write_metadata(sra,refSp = sp)
 
 ```
 
@@ -995,7 +1192,39 @@ PRJNA338167	https://www.ncbi.nlm.nih.gov/pubmed/28992302
 PRJNA616371	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173969/
 
 ```{r}
+sp <- "Sylvia_atricapilla"
+bp <- "PRJNA616371"
 
+sra <- get_sra(bp,opt_cols = c("Isolate"))
+
+temp <- tempfile()
+supmat<- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173969/bin/elife-54462-supp4.xlsx"
+download.file(supmat,temp)
+meta<-read_excel(temp, skip=2, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+meta1 <- meta %>%
+  rename(Country=location,Locality=additional_location_info, Isolate=bird) %>%
+  mutate(Continent=case_when(Country=="Azores / Terceira" ~"Europe",
+                             Country == "Canary Islands / La Palma" ~"Africa",
+                             Country == "Cape Verde" ~ "Africa",
+                             Country == "Morocco" ~ "Africa",
+                             Country == "Germany" ~ "Europe",
+                             Country == "Ireland" ~ "Europe",
+                             Country == "United Kingdom" ~ "Europe",
+                             Country == "Belgium" ~ "Europe",
+                             Country == "Austria" ~ "Europe",
+                             Country == "Spain" ~ "Europe",
+                             Country == "Poland" ~ "Europe",
+                             Country == "Kenya" ~ "Africa",
+                             Country == "Sweden" ~ "Europe")) %>%
+  select(Isolate,Continent,Country,Locality)
+
+sra1 <- sra %>%
+  left_join(meta1, by="Isolate") %>%
+  rename(Submitter_ID = Isolate)
+
+write_metadata(sra1,sp)
 
 ```
 
@@ -1011,9 +1240,35 @@ PRJNA354496   https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310
 ### Taeniopygia species
 PRJEB10586	Taeniopygia bichenovii	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
 PRJEB10586	Taeniopygia guttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
+PRJEB10586	Poephila acuticauda	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/
 
 ```{r}
+sp <- "Taeniopygia_guttata"
+bp <- "PRJEB10586"
 
+#Used sex and Organism from metadata table, because of updated taxonomy and availability of sex data
+sra<-get_sra(bp, opt_cols = c("Alias")) %>%
+  select(-Organism,-sex)
+
+supmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/bin/NIHMS67644-supplement-SuppMat.pdf"
+area <- list(c(95.58621,65.45889,410.7056,540.2387))
+paper<-do.call(rbind,extract_tables(supmat, pages=c(56:56), area = area))
+colnames(paper) <- paper[1,]
+meta <- as.data.frame(paper[2:nrow(paper),]) %>%
+  as_tibble %>%
+  separate(species,into=c("genus","species","subspecies")) %>%
+  unite(genus,species,col="Organism",sep="_") %>%
+  separate(locality,into=c("Locality","Province","Country"),sep=", ") %>%
+  mutate(Country=if_else(is.na(Country),"Australia",Country)) %>%
+  mutate(Continent=Country) %>%
+  select(sample,Organism,subspecies,sex,Locality,Province,Country,Continent)
+
+sra <- sra %>%
+  left_join(meta,by=c("Alias"="sample")) %>%
+  filter(Locality!="captive-born; domesticated") %>%
+  rename(Submitter_ID=Alias)
+
+write_metadata(sra,refSp = sp)
 ```
 
 
@@ -1023,8 +1278,41 @@ PRJEB10586	Taeniopygia guttata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864
 PRJNA522329	Takifugu bimaculatus	https://dx.doi.org/10.21203/rs.2.16620/v1
 PRJNA522329	Takifugu rubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
 
-```{r}
+T. rubripes was reference genome used in paper, so used for all species but bimaculatus
 
+```{r}
+sp1 <- "Takifugu_bimaculatus"
+sp2 <- "Takifugu_rubripes"
+
+bp <- "PRJNA522329"
+
+sra <- get_sra(bp, opt_cols=c("Strain"))
+
+temp <- tempfile()
+supmat<- "https://assets.researchsquare.com/files/d47b4c1b-2ab6-4ef1-9d9e-4e13cdfa4bc5/v1/Supplementary%20Table%201-12.xlsx"
+download.file(supmat,temp)
+meta1<-read_excel(temp, skip=2, col_types = "text", trim_ws = TRUE) 
+unlink(temp)
+
+meta <- meta1 %>%
+  rename(Sample=`Sample ID`,Location=`Sampling site`) %>%
+  separate(Location,into=c("Specific","City","Country"),sep=", ") %>%
+  unite(Specific,City,col="Locality",sep=", ") %>%
+  mutate(Continent="Asia") %>%
+  select(-Species,-Population)
+
+sra <- sra %>%
+  left_join(meta,by=c("Strain"="Sample")) %>%
+  rename(Submitter_ID=Strain)
+
+sra_bimaculatus <- sra %>%
+  filter(Organism == "Takifugu_bimaculatus")
+
+sra_others <- sra %>%
+  filter(Organism != "Takifugu_bimaculatus")
+
+write_metadata(sra_bimaculatus, sp1)
+write_metadata(sra_others, sp2)
 ```
 
 
@@ -1032,12 +1320,37 @@ PRJNA522329	Takifugu rubripes	https://dx.doi.org/10.21203/rs.2.16620/v1
 
 PRJEB14402	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/
 
-```{r}
+Instead of "Continent", including "FAO_Fishing_Area"
 
+```{r}
+sp <- "Thunnus_albacares"
+bp <- "PRJEB14402"
+
+sra <- get_sra(bp,opt_cols = c("Alias"))
+
+supmat <- "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/bin/evx067_Supp.pdf"
+paper<-do.call(rbind,extract_tables(supmat, pages=c(5:5)))
+colnames(paper) <- c("sample","FAO_Fishing_Area","Locality","Date")
+meta <- as.data.frame(paper[3:nrow(paper),]) %>%
+  as_tibble %>%
+  mutate_all(as.character) %>%
+  mutate(Locality=if_else(Locality=="3° N, 154° W","NA, 3° N, 154° W",Locality)) %>%
+  mutate(Locality=if_else(Locality=="5° N, 104° W","NA, 5° N, 104° W",Locality)) %>%
+  separate(Locality,into=c("Country","Locality"),sep=", ",extra="merge") %>%
+  mutate(Country=if_else(Country=="U.S.A.","USA",Country)) %>%
+  select(-Date)
+
+sra <- sra %>%
+  left_join(meta,by=c("Alias"="sample")) %>%
+  rename(Submitter_ID=Alias)
+
+write_metadata(sra,refSp = sp)
 ```
 
 ### Tyto alba
 
 PRJNA212909	Tyto alba	https://www.ncbi.nlm.nih.gov/pubmed/25504712
 
+```{r}
 
+```

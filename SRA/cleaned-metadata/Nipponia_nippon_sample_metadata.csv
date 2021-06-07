@@ -1,0 +1,9 @@
+BioProject,BioSample,Organism,sex,Country,Locality,Sample Name,Continent,refGenome
+PRJNA308878,SAMN04419253,Nipponia_nippon,missing,China,Shanxi,SZAIPI003458-11,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419260,Nipponia_nippon,missing,China,Shanxi,SZAIPI003465-5,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419255,Nipponia_nippon,missing,China,Shanxi,SZAIPI003460-4,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419257,Nipponia_nippon,missing,China,Shanxi,SZAIPI003462-12,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419258,Nipponia_nippon,missing,China,Shanxi,SZAIPI003463-6,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419256,Nipponia_nippon,missing,China,Shanxi,SZAIPI003461-8,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419254,Nipponia_nippon,missing,China,Shanxi,SZAIPI003459-3,Asia,GCF_000708225.1
+PRJNA308878,SAMN04419259,Nipponia_nippon,missing,China,Shanxi,SZAIPI003464-7,Asia,GCF_000708225.1
