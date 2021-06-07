@@ -1,30 +1,30 @@
-BioProject,BioSample,Organism,sex,Strain,refGenome
-PRJNA522329,SAMN10928628,Takifugu_rubripes,unknown,R31,GCA_016584745.1
-PRJNA522329,SAMN10928622,Takifugu_rubripes,unknown,R24,GCA_016584745.1
-PRJNA522329,SAMN10928623,Takifugu_rubripes,unknown,R25,GCA_016584745.1
-PRJNA522329,SAMN10928620,Takifugu_rubripes,unknown,R22,GCA_016584745.1
-PRJNA522329,SAMN10928621,Takifugu_rubripes,unknown,R23,GCA_016584745.1
-PRJNA522329,SAMN10928627,Takifugu_rubripes,unknown,R29,GCA_016584745.1
-PRJNA522329,SAMN10928625,Takifugu_rubripes,unknown,R27,GCA_016584745.1
-PRJNA522329,SAMN10928617,Takifugu_rubripes,unknown,R19,GCA_016584745.1
-PRJNA522329,SAMN10928616,Takifugu_rubripes,unknown,R18,GCA_016584745.1
-PRJNA522329,SAMN10928615,Takifugu_rubripes,unknown,R17,GCA_016584745.1
-PRJNA522329,SAMN10928613,Takifugu_rubripes,unknown,R15,GCA_016584745.1
-PRJNA522329,SAMN10928612,Takifugu_rubripes,unknown,R14,GCA_016584745.1
-PRJNA522329,SAMN10928611,Takifugu_rubripes,unknown,R13,GCA_016584745.1
-PRJNA522329,SAMN10928610,Takifugu_rubripes,unknown,R12,GCA_016584745.1
-PRJNA522329,SAMN10928619,Takifugu_rubripes,unknown,R21,GCA_016584745.1
-PRJNA522329,SAMN10928618,Takifugu_rubripes,unknown,R20,GCA_016584745.1
-PRJNA522329,SAMN10928601,Takifugu_rubripes,unknown,R01,GCA_016584745.1
-PRJNA522329,SAMN10928602,Takifugu_rubripes,unknown,R02,GCA_016584745.1
-PRJNA522329,SAMN10928603,Takifugu_rubripes,unknown,R03,GCA_016584745.1
-PRJNA522329,SAMN10928604,Takifugu_rubripes,unknown,R04,GCA_016584745.1
-PRJNA522329,SAMN10928605,Takifugu_rubripes,unknown,R07,GCA_016584745.1
-PRJNA522329,SAMN10928606,Takifugu_rubripes,unknown,R08,GCA_016584745.1
-PRJNA522329,SAMN10928607,Takifugu_rubripes,unknown,R09,GCA_016584745.1
-PRJNA522329,SAMN10928608,Takifugu_rubripes,unknown,R10,GCA_016584745.1
-PRJNA522329,SAMN10928609,Takifugu_rubripes,unknown,R11,GCA_016584745.1
-PRJNA522329,SAMN10928626,Takifugu_rubripes,unknown,R28,GCA_016584745.1
-PRJNA522329,SAMN10928624,Takifugu_rubripes,unknown,R26,GCA_016584745.1
-PRJNA522329,SAMN10928629,Takifugu_rubripes,unknown,R32,GCA_016584745.1
-PRJNA522329,SAMN10928614,Takifugu_rubripes,unknown,R16,GCA_016584745.1
+BioProject,BioSample,Organism,sex,Submitter_ID,Locality,Country,Continent,refGenome
+PRJNA522329,SAMN10928628,Takifugu_rubripes,unknown,R31,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928622,Takifugu_rubripes,unknown,R24,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928623,Takifugu_rubripes,unknown,R25,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928620,Takifugu_rubripes,unknown,R22,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928621,Takifugu_rubripes,unknown,R23,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928627,Takifugu_rubripes,unknown,R29,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928625,Takifugu_rubripes,unknown,R27,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928617,Takifugu_rubripes,unknown,R19,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928616,Takifugu_rubripes,unknown,R18,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928615,Takifugu_rubripes,unknown,R17,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928613,Takifugu_rubripes,unknown,R15,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928612,Takifugu_rubripes,unknown,R14,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928611,Takifugu_rubripes,unknown,R13,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928610,Takifugu_rubripes,unknown,R12,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928619,Takifugu_rubripes,unknown,R21,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928618,Takifugu_rubripes,unknown,R20,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928601,Takifugu_rubripes,unknown,R01,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928602,Takifugu_rubripes,unknown,R02,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928603,Takifugu_rubripes,unknown,R03,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928604,Takifugu_rubripes,unknown,R04,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928605,Takifugu_rubripes,unknown,R07,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928606,Takifugu_rubripes,unknown,R08,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928607,Takifugu_rubripes,unknown,R09,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928608,Takifugu_rubripes,unknown,R10,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928609,Takifugu_rubripes,unknown,R11,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928626,Takifugu_rubripes,unknown,R28,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928624,Takifugu_rubripes,unknown,R26,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928629,Takifugu_rubripes,unknown,R32,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2
+PRJNA522329,SAMN10928614,Takifugu_rubripes,unknown,R16,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2

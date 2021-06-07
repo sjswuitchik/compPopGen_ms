@@ -947,7 +947,8 @@ sra2 <- get_sra(bp2, opt_cols="Isolate") %>%
   rename(Locality=Ciry)
 
 #Combine BPs
-sra <- bind_rows(sra1,sra2)
+sra <- bind_rows(sra1,sra2) %>%
+  rename(Submitter_ID=Isolate)
 
 write_metadata(sra,sp)
 ```
@@ -1179,7 +1180,8 @@ sra <- get_sra(bp,opt_cols = c("geo_loc_name_country","geo_loc_name_country_cont
   mutate(Organism = str_replace_all(Organism," ","_"))
 
 sra <- sra %>%
-  filter(Organism == "Strix_occidentalis_caurina" | Organism == "Strix_varia")
+  filter(Organism == "Strix_occidentalis_caurina" | Organism == "Strix_varia") %>%
+  select(-drop)
 
 write_metadata(sra,refSp = sp)
 
@@ -1263,7 +1265,8 @@ meta <- as.data.frame(paper[2:nrow(paper),]) %>%
 
 sra <- sra %>%
   left_join(meta,by=c("Alias"="sample")) %>%
-  filter(Locality!="captive-born; domesticated")
+  filter(Locality!="captive-born; domesticated") %>%
+  rename(Submitter_ID=Alias)
 
 write_metadata(sra,refSp = sp)
 ```
@@ -1299,7 +1302,8 @@ meta <- meta1 %>%
   select(-Species,-Population)
 
 sra <- sra %>%
-  left_join(meta,by=c("Strain"="Sample"))
+  left_join(meta,by=c("Strain"="Sample")) %>%
+  rename(Submitter_ID=Strain)
 
 sra_bimaculatus <- sra %>%
   filter(Organism == "Takifugu_bimaculatus")
@@ -1337,7 +1341,8 @@ meta <- as.data.frame(paper[3:nrow(paper),]) %>%
   select(-Date)
 
 sra <- sra %>%
-  left_join(meta,by=c("Alias"="sample"))
+  left_join(meta,by=c("Alias"="sample")) %>%
+  rename(Submitter_ID=Alias)
 
 write_metadata(sra,refSp = sp)
 ```
