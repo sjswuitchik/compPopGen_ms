@@ -1,0 +1,66 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,lat_lon,Population,refGenome
+PRJNA354496,SAMN06046576,Symphodus_melops,missing,NH64,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046549,Symphodus_melops,missing,ARD18,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046550,Symphodus_melops,missing,ARD20,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046604,Symphodus_melops,missing,TV74,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046574,Symphodus_melops,missing,NH61,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046559,Symphodus_melops,missing,EG25,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046590,Symphodus_melops,missing,ST42,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046585,Symphodus_melops,missing,SM115,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046557,Symphodus_melops,missing,EG23,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046566,Symphodus_melops,missing,GF04,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046560,Symphodus_melops,missing,EG26,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046548,Symphodus_melops,missing,ARD15,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046582,Symphodus_melops,missing,SM112,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046602,Symphodus_melops,missing,TV70,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046571,Symphodus_melops,missing,GF38,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046554,Symphodus_melops,missing,ARD8,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046565,Symphodus_melops,missing,GF03,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046600,Symphodus_melops,missing,TV68,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046586,Symphodus_melops,missing,SM116,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046584,Symphodus_melops,missing,SM114,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046561,Symphodus_melops,missing,EG27,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046603,Symphodus_melops,missing,TV73,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046568,Symphodus_melops,missing,GF07,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046597,Symphodus_melops,missing,TV65,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046589,Symphodus_melops,missing,ST41,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046573,Symphodus_melops,missing,NH60,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046601,Symphodus_melops,missing,TV69,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046553,Symphodus_melops,missing,ARD6,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046592,Symphodus_melops,missing,ST44,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046551,Symphodus_melops,missing,ARD21,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046587,Symphodus_melops,missing,SM117,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046569,Symphodus_melops,missing,GF23,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046547,Symphodus_melops,missing,AR68,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046555,Symphodus_melops,missing,EG21,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046593,Symphodus_melops,missing,ST45,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046598,Symphodus_melops,missing,TV66,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046599,Symphodus_melops,missing,TV67,Norway,Europe,Norway,58.62 N 8.93 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046583,Symphodus_melops,missing,SM113,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046591,Symphodus_melops,missing,ST43,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046572,Symphodus_melops,missing,GF49,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046575,Symphodus_melops,missing,NH63,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046595,Symphodus_melops,missing,ST47,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046570,Symphodus_melops,missing,GF28,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046563,Symphodus_melops,missing,GF01,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046588,Symphodus_melops,missing,SM118,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046546,Symphodus_melops,missing,AR67,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046544,Symphodus_melops,missing,AR65,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046564,Symphodus_melops,missing,GF02,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046552,Symphodus_melops,missing,ARD23,United Kingdom,Europe,United Kingdom: Scotland,56.76 N 5.88 W,Scotland,GCA_002819105.1
+PRJNA354496,SAMN06046558,Symphodus_melops,missing,EG24,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046542,Symphodus_melops,missing,AR63,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046578,Symphodus_melops,missing,NH67,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046580,Symphodus_melops,missing,NH69,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046567,Symphodus_melops,missing,GF05,Sweden,Europe,Sweden,58.34 N 11.56 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046540,Symphodus_melops,missing,AR61,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046545,Symphodus_melops,missing,AR66,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046556,Symphodus_melops,missing,EG22,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046541,Symphodus_melops,missing,AR62,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046579,Symphodus_melops,missing,NH68,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046543,Symphodus_melops,missing,AR64,Norway,Europe,Norway,58.46 N 8.77 E,Southern Norway,GCA_002819105.1
+PRJNA354496,SAMN06046577,Symphodus_melops,missing,NH65,Norway,Europe,Norway,60.37 N 6.14 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046581,Symphodus_melops,missing,SM111,Norway,Europe,Norway,63.46 N 7.69 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046596,Symphodus_melops,missing,ST48,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046594,Symphodus_melops,missing,ST46,Norway,Europe,Norway,58.96 N 5.73 E,Western Norway,GCA_002819105.1
+PRJNA354496,SAMN06046562,Symphodus_melops,missing,EG28,Norway,Europe,Norway,58.45 N 5.99 E,Southern Norway,GCA_002819105.1
