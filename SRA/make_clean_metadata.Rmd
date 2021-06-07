@@ -864,27 +864,43 @@ PRJNA629649
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7645154/
 
 ```{r}
+bp<-"PRJNA629649"
+sp<-"Larimichthys_crocea"
+
+sra<-get_sra(bp, opt_cols=c("Ecotype", "Sample Name")) %>%
+  rename(Submitter_Id = `Sample Name`, population=Ecotype)
+
+write_metadata(sra, sp)
 
 
 ```
 
 ### Leuciscus waleckii	
 
+
 PRJNA298374
 https://academic.oup.com/mbe/article/34/1/145/2655148
 
 ```{r}
+bp<-"PRJNA298374"
+sp<-"Leuciscus_waleckii"
 
+sra<-get_sra(bp, opt_cols=c("Library Name")) %>%
+  mutate(Submitter_Id = LibraryName) %>%
+  mutate(Locality = case_when(
+    str_detect(Submitter_Id, "FW") ~ "River Ussuri",
+    str_detect(Submitter_Id, "ALK") ~ "Lake Dali Nor",
+    TRUE ~ NA_character_
+  )) %>%
+  mutate(State = case_when(
+    str_detect(Submitter_Id, "FW") ~ "Fuyuan",
+    str_detect(Submitter_Id, "ALK") ~ "Inner Mongolia",
+    TRUE ~ NA_character_
+  )) %>%
+  mutate(Country = "China", Continent = "Asia")
 
-```
-
-###	Maylandia zebra	
-
-PRJEB15289
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443041/
-
-```{r}
-
+write_metadata(sra, sp)
+  
 ```
 
 ###	Nipponia nippon	
