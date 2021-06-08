@@ -1151,20 +1151,142 @@ write_metadata(sra2_trochilus,sp2)
 ```
 
 
-### Poecilia species
+### Poecilia formosa
 
 PRJNA89109	Poecilia formosa	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866774/
-PRJNA196862	Poecilia latipinna	https://www.nature.com/articles/s41559-018-0473-y
+
+```{r}
+sp<-"Poecilia_formosa"
+bp<-"PRJNA89109"
+
+
+sra<-get_sra(bp, opt_cols=c("Experiment", "Sample Name")) %>%
+  rename(Submitter_Id = `Sample Name`)
+
+suppmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866774/bin/NIHMS933714-supplement-1.pdf"
+tableS3 <- do.call(rbind, extract_tables(suppmat, pages=c(35:37), method="lattice"))[,c(1,3,5,6)]
+colnames(tableS3) <- c("Sample", "Locality", "lat_lon", "Experiment")
+
+tableS3 <- as_tibble(tableS3) %>% filter(Experiment != "SRA Exp\rAcc", !str_detect(Experiment, "Assembly"))
+
+sra <- left_join(sra, tableS3, by=c("Experiment" = "Experiment"))
+
+# a number of samples are missing metadata; I belive, but can't be positive, these are the genome assembly samples and can be ignored
+
+# also, remove 476645 and 476649 (Submitter_Id) which are lab strains
+
+sra <- sra %>% filter(!is.na(lat_lon), Submitter_Id != "476645", Submitter_Id != "476649") %>%
+  mutate(Country = "Mexico", Continent = "North America")
+
+write_metadata(sra, sp)
+
+```
+
+
+### Poecilia reticulata
 PRJEB10680	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/
 PRJEB22221	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452659/
 PRJEB36450	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/
 PRJEB39998	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/
-PRJNA238429	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5199103/
 PRJNA353986	Poecilia reticulata	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/
 
 ```{r}
+sp<-"Poecilia_reticulata"
+bp1<-"PRJEB10680"
+
+#population is in the "Description" field
+#intro = Introduced; HP = high predation; LP = low predation
+
+sra1<-get_sra(bp1, opt_cols=c("Description", "Alias")) %>%
+  rename(Submitter_Id = Alias) %>%
+  separate(Description, into=c("Ecotype", "Locality"), extra="merge")
+
+#fix missing entries via Library Name
+
+sra1<-mutate(sra1, Locality = ifelse(BioSample == "SAMEA3539959" | BioSample == "SAMEA3539961",
+                              "Upper Lalaja", Locality),
+       Ecotype = ifelse(BioSample == "SAMEA3539959" | BioSample == "SAMEA3539961",
+                              "Intro", Ecotype),
+       Submitter_Id = case_when(
+         BioSample == "SAMEA3539959" ~ "UL10",
+         BioSample == "SAMEA3539961" ~ "UL12",
+         TRUE ~ Submitter_Id
+       ))
 
 
+bp2<-"PRJEB22221"	
+
+sra2<-get_sra(bp2, opt_cols=c("Description", "Alias")) %>%
+  rename(Submitter_Id = Alias) %>%
+  filter(Organism == "Poecilia_reticulata") %>%
+  select(-sex) %>%
+  separate(Description, into=c("Locality", "sex"), extra="merge") %>%
+  mutate(Ecotype = "HP") #from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452659/#s6title
+
+bp3<-"PRJEB36450"	
+
+sra3<-get_sra(bp3, opt_cols=c("Submitter_Id", "Title")) %>%
+  separate(Title, into=c("Popkey", "Drop")) %>%
+  mutate(Ecotype = case_when(
+    Popkey == "GHP" ~ "HP",
+    Popkey == "MHP" ~ "HP",
+    Popkey == "OHP" ~ "HP",
+    Popkey == "GLP" ~ "LP",
+    Popkey == "MLP" ~ "LP",
+    Popkey == "OLP" ~ "LP",
+    TRUE ~ NA_character_
+  ),
+  Locality = case_when(
+    Popkey == "GHP" ~ "Guanapo",
+    Popkey == "MHP" ~ "Marrianne",
+    Popkey == "OHP" ~ "Oropuche",
+    Popkey == "GLP" ~ "Guanapo",
+    Popkey == "MLP" ~ "Marrianne",
+    Popkey == "OLP" ~ "Oropuche",
+  )) %>%
+  select(-Popkey, -Drop)
+
+bp4<-"PRJEB39998"
+
+suppmat<-"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/bin/msaa257_supplementary_data.pdf"
+tableS1 <- do.call(rbind,extract_tables(suppmat, pages=c(2:6)))[,c(1,3,4)]
+colnames(tableS1) <- c("Sample", "Locality", "Ecotype")
+tableS1 <- as_tibble(tableS1) %>% filter(Sample != "Sample", Sample != "")
+
+sra4<-get_sra(bp4, opt_cols=c("Sample_Name")) %>% 
+  rename(Submitter_Id = Sample_Name) %>%
+  left_join(tableS1, by=c("Submitter_Id" = "Sample"))
+
+bp5<-"PRJNA353986"
+sra5<-get_sra(bp5, opt_cols=c("Sample Name")) %>% 
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(LibraryName = as.character(LibraryName)) %>%
+  separate(Submitter_Id, into=c("drop", "drop2", "Locality", "Ecotype"), fill="right", remove=FALSE) %>%
+  filter(!is.na(Ecotype)) %>%
+  select(-drop, -drop2)
+  
+#final clean up
+#per https://doi-org.ezp-prod1.hul.harvard.edu/10.1111/j.1365-294x.2005.02764.x downstream = high predation, upstream = low predation
+#add country and continent
+#assign introduced populations to the Guanapo Locality with Sublocation as tributary/introduced
+
+sra<-bind_rows(sra1,sra2,sra3,sra4,sra5) %>%
+  mutate(Country = "Trinidad and Tobago", Continent = "North America",
+         Sublocation = case_when(
+           Ecotype == "Downstream" | Ecotype == "HP" | Ecotype == "high" ~ "Downstream",
+           Ecotype == "Upstream" | Ecotype == "LP" | Ecotype == "low" ~ "Upstream",
+           Ecotype == "Intro" ~ Locality,
+           TRUE ~ NA_character_),
+         Locality = case_when(
+           Ecotype == "Intro" ~ "Guanapo",
+           TRUE ~ Locality),
+         Ecotype = case_when(
+           Sublocation == "Downstream" ~ "High Predation",
+           Sublocation == "Upstream" ~ "Low Predation",
+           Ecotype == "Intro" ~ "Introduced"),
+         )
+
+write_metadata(sra, sp)
 ```
 
 ### Pungitius pungitius
