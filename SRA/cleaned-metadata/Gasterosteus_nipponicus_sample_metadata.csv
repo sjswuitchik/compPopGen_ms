@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,lat_lon,Ecotype,refGenome
+PRJDB5176,SAMD00063037,Gasterosteus_nipponicus,female,Shinj,Japan,Asia,Japan:Shimane prefecture,NA,marine,GCA_000180675.1

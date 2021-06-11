@@ -1,0 +1,297 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,lat_lon,Ecotype,refGenome
+PRJDB2614,SAMD00013064,Gasterosteus_aculeatus,missing,SAMD00013064,Japan,Asia,Japan: Akkeshi,"43.069444 N\, 144.886837 E",marine,GCA_000180675.1
+PRJDB2614,SAMD00013068,Gasterosteus_aculeatus,missing,SAMD00013068,Japan,Asia,Japan: Akkeshi,"43.069444 N\, 144.886837 E",marine,GCA_000180675.1
+PRJDB2614,SAMD00013057,Gasterosteus_aculeatus,missing,SAMD00013057,Japan,Asia,Japan: Akkeshi,"43.099569 N\, 144.881902 E",marine,GCA_000180675.1
+PRJDB2614,SAMD00013056,Gasterosteus_aculeatus,missing,SAMD00013056,Japan,Asia,Japan: Akkeshi,"43.099569 N\, 144.881902 E",marine,GCA_000180675.1
+PRJDB5056,SAMD00056765,Gasterosteus_aculeatus,missing,SAMD00056765,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056767,Gasterosteus_aculeatus,missing,SAMD00056767,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056772,Gasterosteus_aculeatus,missing,SAMD00056772,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056774,Gasterosteus_aculeatus,missing,SAMD00056774,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056779,Gasterosteus_aculeatus,missing,SAMD00056779,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056780,Gasterosteus_aculeatus,missing,SAMD00056780,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056784,Gasterosteus_aculeatus,female,SAMD00056784,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056786,Gasterosteus_aculeatus,female,SAMD00056786,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056794,Gasterosteus_aculeatus,male,SAMD00056794,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056795,Gasterosteus_aculeatus,male,SAMD00056795,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056797,Gasterosteus_aculeatus,male,SAMD00056797,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056766,Gasterosteus_aculeatus,missing,SAMD00056766,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056770,Gasterosteus_aculeatus,missing,SAMD00056770,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056773,Gasterosteus_aculeatus,missing,SAMD00056773,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056775,Gasterosteus_aculeatus,missing,SAMD00056775,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056777,Gasterosteus_aculeatus,missing,SAMD00056777,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056778,Gasterosteus_aculeatus,missing,SAMD00056778,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056781,Gasterosteus_aculeatus,missing,SAMD00056781,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056783,Gasterosteus_aculeatus,missing,SAMD00056783,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056785,Gasterosteus_aculeatus,female,SAMD00056785,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056790,Gasterosteus_aculeatus,female,SAMD00056790,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056791,Gasterosteus_aculeatus,male,SAMD00056791,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056793,Gasterosteus_aculeatus,male,SAMD00056793,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056796,Gasterosteus_aculeatus,male,SAMD00056796,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056801,Gasterosteus_aculeatus,male,SAMD00056801,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056802,Gasterosteus_aculeatus,male,SAMD00056802,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056803,Gasterosteus_aculeatus,male,SAMD00056803,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056776,Gasterosteus_aculeatus,missing,SAMD00056776,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056782,Gasterosteus_aculeatus,missing,SAMD00056782,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056764,Gasterosteus_aculeatus,missing,SAMD00056764,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056769,Gasterosteus_aculeatus,missing,SAMD00056769,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056798,Gasterosteus_aculeatus,male,SAMD00056798,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056799,Gasterosteus_aculeatus,male,SAMD00056799,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056787,Gasterosteus_aculeatus,female,SAMD00056787,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056768,Gasterosteus_aculeatus,missing,SAMD00056768,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056800,Gasterosteus_aculeatus,male,SAMD00056800,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056792,Gasterosteus_aculeatus,male,SAMD00056792,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056789,Gasterosteus_aculeatus,female,SAMD00056789,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056788,Gasterosteus_aculeatus,female,SAMD00056788,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5056,SAMD00056771,Gasterosteus_aculeatus,missing,SAMD00056771,Canada,North America,Canada:British Columbia,49.01587 N 122.77996 W,marine,GCA_000180675.1
+PRJDB5097,SAMD00057639,Gasterosteus_aculeatus,missing,Ono,Japan,Asia,"Japan:Fukui\, Ono\, Honganshozu",NA,marine,GCA_000180675.1
+PRJDB5097,SAMD00057640,Gasterosteus_aculeatus,missing,Nasu,Japan,Asia,"Japan:Tochigi\, Nasu\, Utagawa River",NA,marine,GCA_000180675.1
+PRJDB5097,SAMD00057642,Gasterosteus_aculeatus,missing,Tsuya,Japan,Asia,"Japan:Gifu\, Tsuya River",NA,marine,GCA_000180675.1
+PRJDB5097,SAMD00057643,Gasterosteus_aculeatus,missing,Gifu_keizai7,Japan,Asia,"Japan:Gifu\, Ogaki\, Gifu-keizai University",NA,marine,GCA_000180675.1
+PRJDB5097,SAMD00057645,Gasterosteus_aculeatus,missing,Shiga,Japan,Asia,"Japan:Shiga\, Maibara\, Samegai",NA,marine,GCA_000180675.1
+PRJDB5097,SAMD00057641,Gasterosteus_aculeatus,missing,Aizu,Japan,Asia,"Japan:Fukushima\, Tajima\, Aizu",NA,marine,GCA_000180675.1
+PRJDB5097,SAMD00057644,Gasterosteus_aculeatus,missing,Gifu_keizai5,Japan,Asia,"Japan:Gifu\, Ogaki\, Gifu-keizai University",NA,marine,GCA_000180675.1
+PRJEB15181,SAMEA4385615,Gasterosteus_aculeatus,missing,Hal_L1,Denmark,Europe,Lake Hald,"56°22025.59′′N, 9°20047.10′′E",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385616,Gasterosteus_aculeatus,missing,Hal_L2,Denmark,Europe,Lake Hald,"56°22025.59′′N, 9°20047.10′′E",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385617,Gasterosteus_aculeatus,missing,Hal_L6,Denmark,Europe,Lake Hald,"56°22025.59′′N, 9°20047.10′′E",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385618,Gasterosteus_aculeatus,missing,Kob_L31,Greenland,North America,Kobbefjord Lake,"64° 7051.77′′N, 51°22018.18′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385620,Gasterosteus_aculeatus,missing,Kob_L33,Greenland,North America,Kobbefjord Lake,"64° 7051.77′′N, 51°22018.18′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385621,Gasterosteus_aculeatus,missing,Kob_M26,Greenland,North America,Kobbefjord,"64° 8016.77′′N, 51°23027.52′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385622,Gasterosteus_aculeatus,missing,Kob_M27,Greenland,North America,Kobbefjord,"64° 8016.77′′N, 51°23027.52′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385623,Gasterosteus_aculeatus,missing,Kob_M28,Greenland,North America,Kobbefjord,"64° 8016.77′′N, 51°23027.52′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385624,Gasterosteus_aculeatus,missing,Qar_L31,Greenland,North America,Qarajat,"63°59027.60′′N, 51°26045.60′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385625,Gasterosteus_aculeatus,missing,Qar_L33,Greenland,North America,Qarajat,"63°59027.60′′N, 51°26045.60′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385626,Gasterosteus_aculeatus,missing,Qar_L35,Greenland,North America,Qarajat,"63°59027.60′′N, 51°26045.60′′W",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385627,Gasterosteus_aculeatus,missing,Ran_M1,Denmark,Europe,Udbyhøj,"56°36024.07′′N, 10°1807.27′′E",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385628,Gasterosteus_aculeatus,missing,Ran_M3,Denmark,Europe,Udbyhøj,"56°36024.07′′N, 10°1807.27′′E",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385629,Gasterosteus_aculeatus,missing,Ran_M5,Denmark,Europe,Udbyhøj,"56°36024.07′′N, 10°1807.27′′E",marine,GCA_000180675.1
+PRJEB15181,SAMEA4385619,Gasterosteus_aculeatus,missing,Kob_L32,Greenland,North America,Kobbefjord Lake,"64° 7051.77′′N, 51°22018.18′′W",marine,GCA_000180675.1
+PRJEB5198,SAMEA2338557,Gasterosteus_aculeatus,female,BS10,Germany,Europe,Grosser Ploener See,54.156003 N 10.430144 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338582,Gasterosteus_aculeatus,female,BS11,Germany,Europe,Malenter Au,54.204189 N 10.561639 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338545,Gasterosteus_aculeatus,male,BS12,Germany,Europe,Grosser Ploener See,54.156003 N 10.430144 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338575,Gasterosteus_aculeatus,female,BS14,Germany,Europe,Westensee,54.283867 N 9.948808 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338595,Gasterosteus_aculeatus,female,BS15,Germany,Europe,Eider,54.263617 N 10.040131 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338584,Gasterosteus_aculeatus,male,BS17,Germany,Europe,Eider,54.263617 N 10.040131 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338541,Gasterosteus_aculeatus,male,BS18,Germany,Europe,Westensee,54.283867 N 9.948808 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338539,Gasterosteus_aculeatus,female,BS19,Germany,Europe,Eider,54.263617 N 10.040131 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338587,Gasterosteus_aculeatus,female,BS1,Germany,Europe,Malenter Au,54.204189 N 10.561639 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338592,Gasterosteus_aculeatus,female,BS20,Germany,Europe,Westensee,54.283867 N 9.948808 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338560,Gasterosteus_aculeatus,male,BS21,Germany,Europe,Eider,54.263617 N 10.040131 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338549,Gasterosteus_aculeatus,male,BS22,Germany,Europe,Westensee,54.283867 N 9.948808 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338581,Gasterosteus_aculeatus,female,BS23,Germany,Europe,Eider,54.263617 N 10.040131 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338567,Gasterosteus_aculeatus,female,BS24,Germany,Europe,Westensee,54.283867 N 9.948808 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA1523621,Gasterosteus_aculeatus,missing,BS25,Denmark,Europe,Limfjord,"54°12'15.08N,10°33'41.90E",marine,GCA_000180675.1
+PRJEB5198,SAMEA1523618,Gasterosteus_aculeatus,missing,BS26,Denmark,Europe,Limfjord,"54°12'15.08N,10°33'41.90E",marine,GCA_000180675.1
+PRJEB5198,SAMEA1523619,Gasterosteus_aculeatus,missing,BS28,Denmark,Europe,Limfjord,"54°12'15.08N,10°33'41.90E",marine,GCA_000180675.1
+PRJEB5198,SAMEA1523623,Gasterosteus_aculeatus,missing,BS29,Denmark,Europe,Limfjord,"54°12'15.08N,10°33'41.90E",marine,GCA_000180675.1
+PRJEB5198,SAMEA2338598,Gasterosteus_aculeatus,female,BS2,Germany,Europe,Grosser Ploener See,54.156003 N 10.430144 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA1523620,Gasterosteus_aculeatus,missing,BS30,Denmark,Europe,Limfjord,"54°12'15.08N,10°33'41.90E",marine,GCA_000180675.1
+PRJEB5198,SAMEA2338569,Gasterosteus_aculeatus,male,BS3,Germany,Europe,Malenter Au,54.204189 N 10.561639 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338546,Gasterosteus_aculeatus,male,BS4,Germany,Europe,Grosser Ploener See,54.156003 N 10.430144 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338559,Gasterosteus_aculeatus,male,BS5,Germany,Europe,Malenter Au,54.204189 N 10.561639 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338594,Gasterosteus_aculeatus,male,BS6,Germany,Europe,Grosser Ploener See,54.156003 N 10.430144 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338552,Gasterosteus_aculeatus,female,BS7,Germany,Europe,Malenter Au,54.204189 N 10.561639 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338579,Gasterosteus_aculeatus,female,BS8,Germany,Europe,Grosser Ploener See,54.156003 N 10.430144 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338593,Gasterosteus_aculeatus,male,BS9,Germany,Europe,Malenter Au,54.204189 N 10.561639 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338580,Gasterosteus_aculeatus,male,BS13,Germany,Europe,Eider,54.263617 N 10.040131 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338565,Gasterosteus_aculeatus,male,BS16,Germany,Europe,Westensee,54.283867 N 9.948808 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA1523622,Gasterosteus_aculeatus,missing,BS27,Denmark,Europe,Limfjord,"54°12'15.08N,10°33'41.90E",marine,GCA_000180675.1
+PRJEB5198,SAMEA2338570,Gasterosteus_aculeatus,female,BS31b,USA,North America,Meadow Creek,61.5691 N 149.76 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338583,Gasterosteus_aculeatus,female,BS32b,USA,North America,Long Lake,61.5761 N 149.77375 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338566,Gasterosteus_aculeatus,male,BS33,USA,North America,Meadow Creek,61.5691 N 149.76 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338597,Gasterosteus_aculeatus,male,BS34b,USA,North America,Long Lake,61.5761 N 149.77375 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338550,Gasterosteus_aculeatus,female,BS35,USA,North America,Meadow Creek,61.5691 N 149.76 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338578,Gasterosteus_aculeatus,female,BS36b,USA,North America,Long Lake,61.5761 N 149.77375 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338562,Gasterosteus_aculeatus,male,BS38b,USA,North America,Long Lake,61.5761 N 149.77375 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338577,Gasterosteus_aculeatus,female,BS39,USA,North America,Meadow Creek,61.5691 N 149.76 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338544,Gasterosteus_aculeatus,female,BS40b,USA,North America,Long Lake,61.5761 N 149.77375 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338574,Gasterosteus_aculeatus,male,BS41,USA,North America,Meadow Creek,61.5691 N 149.76 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338591,Gasterosteus_aculeatus,female,BS42b,USA,North America,Long Lake,61.5761 N 149.77375 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338563,Gasterosteus_aculeatus,male,BS43,Canada,North America,Misty Stream Inlet,50.602889 N 127.252306 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338558,Gasterosteus_aculeatus,male,BS44,Canada,North America,Misty Lake,50.604556 N 127.26175 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338554,Gasterosteus_aculeatus,female,BS45,Canada,North America,Misty Stream Inlet,50.602889 N 127.252306 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338540,Gasterosteus_aculeatus,female,BS46,Canada,North America,Misty Lake,50.604556 N 127.26175 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338585,Gasterosteus_aculeatus,male,BS47,Canada,North America,Misty Stream Inlet,50.602889 N 127.252306 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338571,Gasterosteus_aculeatus,male,BS48,Canada,North America,Misty Lake,50.604556 N 127.26175 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338573,Gasterosteus_aculeatus,female,BS49,Canada,North America,Misty Stream Inlet,50.602889 N 127.252306 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338586,Gasterosteus_aculeatus,female,BS50b,Canada,North America,Misty Lake,50.604556 N 127.26175 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338556,Gasterosteus_aculeatus,male,BS51,Canada,North America,Misty Stream Inlet,50.602889 N 127.252306 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338547,Gasterosteus_aculeatus,male,BS52b,Canada,North America,Misty Lake,50.604556 N 127.26175 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338564,Gasterosteus_aculeatus,female,BS53,Canada,North America,Misty Stream Inlet,50.602889 N 127.252306 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338548,Gasterosteus_aculeatus,female,BS54,Canada,North America,Misty Lake,50.604556 N 127.26175 W,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338589,Gasterosteus_aculeatus,male,BS55,Norway,Europe,Skogseidvatn River,60.255369 N 5.926577 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338553,Gasterosteus_aculeatus,male,BS56,Norway,Europe,Skogseidvatn Lake,60.244881 N 5.915387 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338576,Gasterosteus_aculeatus,female,BS57,Norway,Europe,Skogseidvatn River,60.255369 N 5.926577 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338572,Gasterosteus_aculeatus,female,BS58b,Norway,Europe,Skogseidvatn Lake,60.244881 N 5.915387 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338561,Gasterosteus_aculeatus,male,BS59,Norway,Europe,Skogseidvatn River,60.255369 N 5.926577 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338588,Gasterosteus_aculeatus,male,BS60,Norway,Europe,Skogseidvatn Lake,60.244881 N 5.915387 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338543,Gasterosteus_aculeatus,female,BS61,Norway,Europe,Skogseidvatn River,60.255369 N 5.926577 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338551,Gasterosteus_aculeatus,male,BS62,Norway,Europe,Skogseidvatn Lake,60.244881 N 5.915387 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338555,Gasterosteus_aculeatus,male,BS63b,Norway,Europe,Skogseidvatn River,60.255369 N 5.926577 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338568,Gasterosteus_aculeatus,male,BS64b,Norway,Europe,Skogseidvatn Lake,60.244881 N 5.915387 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338596,Gasterosteus_aculeatus,female,BS65,Norway,Europe,Skogseidvatn River,60.255369 N 5.926577 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338542,Gasterosteus_aculeatus,female,BS66,Norway,Europe,Skogseidvatn Lake,60.244881 N 5.915387 E,marine,GCA_000180675.1
+PRJEB5198,SAMEA2338590,Gasterosteus_aculeatus,male,BS37,USA,North America,Meadow Creek,61.5691 N 149.76 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323936,Gasterosteus_aculeatus,female,WDPL_X_2009#05,Canada,North America,WDPL,53.647121802 N 132.098328481 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323935,Gasterosteus_aculeatus,female,WATT_X_2009#05,Canada,North America,WATT,53.764633599 N 132.070859784 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323934,Gasterosteus_aculeatus,female,STIU_X_2009#03,Canada,North America,STIU,53.244507898 N 132.588068083 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323933,Gasterosteus_aculeatus,female,SPNC_O_2010#14,Canada,North America,SPNC,53.974716204 N 131.781403361 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323932,Gasterosteus_aculeatus,female,SPNC_O_2010#08,Canada,North America,SPNC,53.974716204 N 131.781403361 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323931,Gasterosteus_aculeatus,female,SPNC_L_2009#02,Canada,North America,SPNC,53.974716204 N 131.781403361 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323930,Gasterosteus_aculeatus,female,SPNC_L_2009#01,Canada,North America,SPNC,53.974716204 N 131.781403361 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323929,Gasterosteus_aculeatus,female,SLVR|X|2009#29996,Canada,North America,SLVR,54.103117883 N 131.685371428 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323928,Gasterosteus_aculeatus,female,SLTC|X|X#90458,Canada,North America,SLTC,53.940503904 N 131.931242677 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323927,Gasterosteus_aculeatus,female,SKON|X|X#12,Canada,North America,SKON,53.910133626 N 132.030670465 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323925,Gasterosteus_aculeatus,female,SDPY_X_2006#24,Canada,North America,SDPY,54.0277 N 131.7599 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323923,Gasterosteus_aculeatus,female,RDSP|X|2012#70385,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323922,Gasterosteus_aculeatus,female,RDSP|X|2012#70368,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323921,Gasterosteus_aculeatus,female,RDSP|X|2012#70364,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323920,Gasterosteus_aculeatus,female,RDSP|X|2012#70353,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323918,Gasterosteus_aculeatus,female,RDSP|X|2012#70337,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323917,Gasterosteus_aculeatus,female,RDSP|X|2012#70332,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323916,Gasterosteus_aculeatus,female,RDSP|X|2012#70314,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323915,Gasterosteus_aculeatus,female,RDSP|X|2012#70311,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323914,Gasterosteus_aculeatus,female,RDSP|X|2012#70307,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323913,Gasterosteus_aculeatus,female,RDSP_X_2010#02,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323912,Gasterosteus_aculeatus,female,POQU|X|2009#29995,Canada,North America,POQU,52.601780387 N 131.703347232 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323911,Gasterosteus_aculeatus,female,MNYN|X|X#29997,Canada,North America,MNYN,53.599066419 N 132.963419768 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323909,Gasterosteus_aculeatus,female,MAYR|X|2004#30,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323907,Gasterosteus_aculeatus,female,MAYR|X|2004#24,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323905,Gasterosteus_aculeatus,female,MAYR|X|2004#17,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323904,Gasterosteus_aculeatus,female,MAYR|X|2004#14,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323902,Gasterosteus_aculeatus,female,MAYR|X|2004#09,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323901,Gasterosteus_aculeatus,female,MAYR|X|2004#04,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323900,Gasterosteus_aculeatus,female,MAYR|X|2004#03,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323899,Gasterosteus_aculeatus,female,MAYR_X_2009#11,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323898,Gasterosteus_aculeatus,female,MAYR_X_2009#05,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323897,Gasterosteus_aculeatus,female,LUTE|X|2003#76_4,Canada,North America,LUTE,52.336771878 N 131.370217351 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323896,Gasterosteus_aculeatus,male,LAUR|X|1993#9_5,Canada,North America,LAUR,53.929794435 N 132.026397308 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323895,Gasterosteus_aculeatus,female,GOLD|X|X#12,Canada,North America,GOLD,53.631887767 N 132.053583058 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323894,Gasterosteus_aculeatus,female,GOLD_X_2009#02,Canada,North America,GOLD,53.631887767 N 132.053583058 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323893,Gasterosteus_aculeatus,female,ESCP|X|1993#75_8,Canada,North America,ESCP,52.552792859 N 131.797371474 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323891,Gasterosteus_aculeatus,female,DRIZ_O_2009#03,Canada,North America,DRIZ,53.937475 N 132.061285 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323890,Gasterosteus_aculeatus,female,DRIZ_L_2009#15,Canada,North America,DRIZ,53.934427366 N 132.074177561 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323889,Gasterosteus_aculeatus,female,DRIZ_L_2009#02,Canada,North America,DRIZ,53.934427366 N 132.074177561 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323888,Gasterosteus_aculeatus,female,DRIZ_I_2010#01,Canada,North America,DRIZ,53.929314857 N 132.076985378 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323887,Gasterosteus_aculeatus,female,DAWS_X_2009#02,Canada,North America,DAWS,53.225721945 N 132.476814402 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323886,Gasterosteus_aculeatus,female,DARW_X_2009#03,Canada,North America,DARW,52.553616267 N 131.645954237 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323884,Gasterosteus_aculeatus,female,BRNT_X_2009#05,Canada,North America,BRNT,53.967297303 N 132.017326469 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323883,Gasterosteus_aculeatus,female,BOUL_X_2010#02,Canada,North America,BOUL,53.783625751 N 132.100340209 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323882,Gasterosteus_aculeatus,female,BOUL_X_2010#01,Canada,North America,BOUL,53.783625751 N 132.100340209 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323881,Gasterosteus_aculeatus,female,BKW2_X_2010#01,Canada,North America,BKW2,53.375089 N 130.177378 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323880,Gasterosteus_aculeatus,male,BK70_X_2010#02,Canada,North America,BK70,53.358478 N 130.157146 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323879,Gasterosteus_aculeatus,female,ANSR_X_2009#01,Canada,North America,ANSR,54.11632135 N 131.68673362 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323910,Gasterosteus_aculeatus,female,MDPC_X_1993#01,Canada,North America,MDPC,45 N 174 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323924,Gasterosteus_aculeatus,female,ROUG|X|2000#f03,Canada,North America,ROUG,54.033414516 N 131.87631256 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323903,Gasterosteus_aculeatus,female,MAYR|X|2004#13,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323919,Gasterosteus_aculeatus,female,RDSP|X|2012#70346,Canada,North America,RDSP,53.624899798 N 132.036489197 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323908,Gasterosteus_aculeatus,female,MAYR|X|2004#26,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323892,Gasterosteus_aculeatus,female,EDEN_X_2010#01,Canada,North America,EDEN,53.85098257 N 132.745284302 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323906,Gasterosteus_aculeatus,female,MAYR|X|2004#21,Canada,North America,MAYR,53.657404509 N 132.062371212 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323926,Gasterosteus_aculeatus,female,SKID_X_2009#01,Canada,North America,SKID,53.099731997 N 131.916021266 W,marine,GCA_000180675.1
+PRJNA374462,SAMN06323885,Gasterosteus_aculeatus,female,COAT|X|2009#90234,Canada,North America,COAT,53.668602304 N 132.864534204 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162959,Gasterosteus_aculeatus,female,North,Canada,North America,North,49.748275 N 123.9703 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162958,Gasterosteus_aculeatus,female,Klein,Canada,North America,Klein,49.730087 N 123.9686 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162962,Gasterosteus_aculeatus,male,Paq,Canada,North America,Paq,49.613543 N 124.0229 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162961,Gasterosteus_aculeatus,female,Pachena,Canada,North America,Pachena,48.838338 N 125.0290 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162963,Gasterosteus_aculeatus,female,Rosseau,Canada,North America,Rosseau,48.830345 N 124.9927 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162968,Gasterosteus_aculeatus,female,Little Campbell River,Canada,North America,Little Campbell River,49.014982 N 122.7725 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162970,Gasterosteus_aculeatus,female,Salmon River,Canada,North America,Salmon River,49.175163 N 122.5943 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162971,Gasterosteus_aculeatus,female,Seyward Estuary,Canada,North America,Seyward Estuary,50.373634 N 125.9295 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162972,Gasterosteus_aculeatus,female,West Creek Marine,Canada,North America,West Creek Marine,49.191545 N 122.6557 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162967,Gasterosteus_aculeatus,female,Bamfield,Canada,North America,Bamfield,48.824876 N 125.1363 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162969,Gasterosteus_aculeatus,female,Oyster Bay,Canada,North America,Oyster Bay,49.612097 N 124.0600 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162957,Gasterosteus_aculeatus,female,Kirk,Canada,North America,Kirk,49.739441 N 124.5863 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162955,Gasterosteus_aculeatus,female,Cranby,Canada,North America,Cranby,49.696084 N 124.5065 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162954,Gasterosteus_aculeatus,male,Cedar,Canada,North America,Cedar,50.204813 N 125.5657 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162953,Gasterosteus_aculeatus,female,Bullock,Canada,North America,Bullock,48.874112 N 123.5090 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162952,Gasterosteus_aculeatus,female,Brown,Canada,North America,Brown,49.741765 N 123.9151 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162951,Gasterosteus_aculeatus,male,Black,Canada,North America,Black,48.773234 N 125.0966 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162950,Gasterosteus_aculeatus,female,Ambrose,Canada,North America,Ambrose,49.733195 N 124.0244 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162956,Gasterosteus_aculeatus,female,Hoggan,Canada,North America,Hoggan,49.152667 N 123.8282 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162966,Gasterosteus_aculeatus,female,Trout,Canada,North America,Trout,49.50843 N 123.8761 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162965,Gasterosteus_aculeatus,female,Tom,Canada,North America,Tom,50.256375 N 124.9233 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162964,Gasterosteus_aculeatus,female,Stowell,Canada,North America,Stowell,48.781861 N 123.4441 W,marine,GCA_000180675.1
+PRJNA387728,SAMN07162960,Gasterosteus_aculeatus,female,Ormond,Canada,North America,Ormond,50.180256 N 125.5258 W,marine,GCA_000180675.1
+PRJNA485717,SAMN09813050,Gasterosteus_aculeatus,unknown,OBSM297,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813052,Gasterosteus_aculeatus,unknown,OBSM299,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813053,Gasterosteus_aculeatus,unknown,OBSM302,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813056,Gasterosteus_aculeatus,unknown,OBSM635,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813058,Gasterosteus_aculeatus,unknown,OBSM637,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813057,Gasterosteus_aculeatus,unknown,OBSM636,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813068,Gasterosteus_aculeatus,unknown,OBSM722,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813062,Gasterosteus_aculeatus,unknown,OBSM645,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813061,Gasterosteus_aculeatus,unknown,OBSM644,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813060,Gasterosteus_aculeatus,unknown,OBSM643,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813059,Gasterosteus_aculeatus,unknown,OBSM642,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813066,Gasterosteus_aculeatus,unknown,OBSM720,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813065,Gasterosteus_aculeatus,unknown,OBSM719,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813064,Gasterosteus_aculeatus,unknown,OBSM718,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813063,Gasterosteus_aculeatus,unknown,OBSM716,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813072,Gasterosteus_aculeatus,unknown,ARDH4,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813069,Gasterosteus_aculeatus,unknown,ARDH1,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813070,Gasterosteus_aculeatus,unknown,ARDH2,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813075,Gasterosteus_aculeatus,unknown,ARDH7,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813076,Gasterosteus_aculeatus,unknown,ARDH8,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813073,Gasterosteus_aculeatus,unknown,ARDH5,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813074,Gasterosteus_aculeatus,unknown,ARDH6,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813077,Gasterosteus_aculeatus,unknown,ARDH9,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813055,Gasterosteus_aculeatus,unknown,OBSM349,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813078,Gasterosteus_aculeatus,unknown,ARDH24,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813054,Gasterosteus_aculeatus,unknown,OBSM346,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813051,Gasterosteus_aculeatus,unknown,OBSM298,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813067,Gasterosteus_aculeatus,unknown,OBSM721,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813071,Gasterosteus_aculeatus,unknown,ARDH3,Scotland,Europe,ARDH,NA,marine,GCA_000180675.1
+PRJNA485717,SAMN09813049,Gasterosteus_aculeatus,unknown,OBSM295,Scotland,Europe,OBSM,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322346,Gasterosteus_aculeatus,female,LITC_UP_14,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322345,Gasterosteus_aculeatus,female,LITC_UP_13,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322329,Gasterosteus_aculeatus,male,Tyne2_16_2014,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322328,Gasterosteus_aculeatus,male,Tyne2_14,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322327,Gasterosteus_aculeatus,male,Tyne2_12,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322348,Gasterosteus_aculeatus,female,LITC_UP_16,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322347,Gasterosteus_aculeatus,female,LITC_UP_15,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322344,Gasterosteus_aculeatus,female,LITC_UP_12,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322343,Gasterosteus_aculeatus,female,LITC_DWN_9,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322342,Gasterosteus_aculeatus,female,LITC_DWN_8,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322341,Gasterosteus_aculeatus,female,LITC_DWN_7,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322339,Gasterosteus_aculeatus,female,LITC_DWN_5,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322340,Gasterosteus_aculeatus,female,LITC_DWN_6,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322331,Gasterosteus_aculeatus,female,Tyne2_18,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322332,Gasterosteus_aculeatus,female,Tyne2_20,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322334,Gasterosteus_aculeatus,female,Tyne8_27,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322335,Gasterosteus_aculeatus,male,Tyne8_2,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322336,Gasterosteus_aculeatus,female,Tyne8_4,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322337,Gasterosteus_aculeatus,female,Tyne8_7,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322338,Gasterosteus_aculeatus,female,LITC_DWN_4,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322349,Gasterosteus_aculeatus,female,LITC_UP_18,Canada,North America,Little Campbell River,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322333,Gasterosteus_aculeatus,male,Tyne8_1,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA530695,SAMN11322330,Gasterosteus_aculeatus,female,Tyne2_16_2015,Scotland,Europe,River Tyne,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377791,Gasterosteus_aculeatus,female,Klubbvatnet_12,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377789,Gasterosteus_aculeatus,female,Klubbvatnet_10,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377788,Gasterosteus_aculeatus,female,Klubbvatnet_9,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377787,Gasterosteus_aculeatus,female,Klubbvatnet_8,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377785,Gasterosteus_aculeatus,male,Klubbvatnet_7,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377782,Gasterosteus_aculeatus,female,Klubbvatnet_6,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377679,Gasterosteus_aculeatus,male,Klubbvatnet_5,Norway,Europe,Klubbvatnet,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377898,Gasterosteus_aculeatus,missing,Altafjord_5,Norway,Europe,Altafjord,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377889,Gasterosteus_aculeatus,missing,Altafjord_4,Norway,Europe,Altafjord,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377888,Gasterosteus_aculeatus,missing,Altafjord_3,Norway,Europe,Altafjord,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377887,Gasterosteus_aculeatus,missing,Altafjord_2,Norway,Europe,Altafjord,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377886,Gasterosteus_aculeatus,missing,Altafjord_1,Norway,Europe,Altafjord,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377807,Gasterosteus_aculeatus,missing,Jossavannet_9,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377806,Gasterosteus_aculeatus,female,Jossavannet_8,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377805,Gasterosteus_aculeatus,male,Jossavannet_7,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377676,Gasterosteus_aculeatus,female,Klubbvatnet_3,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377800,Gasterosteus_aculeatus,male,Jossavannet_5,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377798,Gasterosteus_aculeatus,male,Jossavannet_4,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377797,Gasterosteus_aculeatus,female,Jossavannet_3,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377796,Gasterosteus_aculeatus,male,Jossavannet_2,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377795,Gasterosteus_aculeatus,female,Jossavannet_1,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377793,Gasterosteus_aculeatus,female,Klubbvatnet_15,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377794,Gasterosteus_aculeatus,male,Klubbvatnet_14,Norway,Europe,Klubbvatnet,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377792,Gasterosteus_aculeatus,male,Klubbvatnet_13,Norway,Europe,Klubbvatnet,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377790,Gasterosteus_aculeatus,female,Klubbvatnet_11,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17375686,Gasterosteus_aculeatus,female,Klubbvatnet_1,Norway,Europe,Klubbvatnet,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377678,Gasterosteus_aculeatus,female,Klubbvatnet_4,Norway,Europe,Klubbvatnet,NA,marine,GCA_000180675.1
+PRJNA693136,SAMN17377651,Gasterosteus_aculeatus,female,Klubbvatnet_2,Norway,Europe,Klubbvatnet,70.36 N 23.37 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377799,Gasterosteus_aculeatus,missing,Jossavannet_10,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
+PRJNA693136,SAMN17377804,Gasterosteus_aculeatus,male,Jossavannet_6,Norway,Europe,Jossavannet,70.27 N 23.47 E,marine,GCA_000180675.1
