@@ -80,13 +80,17 @@ write_metadata <- function(df, refSp) {
   #Run metadata
   
   df %>% mutate(refGenome = refGenome) %>% 
-    select(Organism, BioProject, BioSample, Run, LibraryName, refGenome) %>% distinct() %>%
+    select(BioSample, LibraryName, refGenome, Run, Organism, BioProject) %>% distinct() %>%
+    mutate(LibraryName = case_when(
+      LibraryName == "unspecified" ~ str_c("library_", BioSample),
+      TRUE ~ LibraryName
+    )) %>%
     split(., .$Organism) %>%
     imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_run_metadata.csv')))
   
   #Sample metadata
   
-  df %>% mutate(refGenome = refGenome) %>% 
+  df %>% mutate(refGenome = refGenome, refSpecies = refSp) %>% 
     select(-Run, -LibraryName) %>% distinct() %>%
     split(., .$Organism) %>%
     imap(~ write_csv(as.data.frame(.x), file = str_c(clean_metadata_path, .y, '_sample_metadata.csv')))
