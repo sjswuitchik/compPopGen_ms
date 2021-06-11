@@ -1,0 +1,30 @@
+
+Going to read in all the sample metdata and check to see what we have
+
+```{r}
+library(tidyverse)
+file_list<-list.files(paste0(getwd(), "/cleaned-metadata"), pattern="*_sample_metadata.csv")
+samples<-lapply(file_list, function(x) read_csv(str_c("cleaned-metadata/",x)) %>% select(BioSample, BioProject,Organism, sex, refSpecies))
+all_meta<-bind_rows(samples)
+```
+
+Now let's do some analysis
+
+```{r}
+all_meta %>% group_by(refSpecies) %>% summarize(count=n()) %>% filter(count == 1)
+all_meta %>% group_by(Organism, refSpecies) %>% summarize(count=n()) %>% filter(count == 1)
+
+all_meta %>% group_by(refSpecies) %>% summarize(count=n()) %>% mutate(countsum = case_when(
+  count <= 10 ~ "below 10",
+  count > 10 & count <= 20 ~ "b/w 10 and 20",
+  count > 20 & count < 100 ~ "b/w 20 and 100",
+  count >= 100 ~ "over 100"
+)) %>% group_by(countsum) %>% summarize(count=n()) %>% View()
+
+all_meta %>% group_by(Organism, refSpecies) %>% summarize(count=n()) %>% select(refSpecies, Organism) %>% 
+  ungroup %>% group_by(refSpecies) %>%
+  summarize(count=n()) %>% View()
+
+all_meta %>% group_by(Organism) %>% summarize(count=n()) %>% View()
+
+```
