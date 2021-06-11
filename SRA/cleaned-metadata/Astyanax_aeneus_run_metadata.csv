@@ -1,3 +1,3 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Astyanax_aeneus,PRJNA260715,SAMN03421328,SRR1927238,library_Aeneus_Surface,GCF_000372685.2
-Astyanax_aeneus,PRJNA260715,SAMN03024504,SRR1575299,library_Granadas_2-2,GCF_000372685.2
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMN03421328,library_Aeneus_Surface,GCF_000372685.2,SRR1927238,Astyanax_aeneus,PRJNA260715
+SAMN03024504,library_Granadas_2-2,GCF_000372685.2,SRR1575299,Astyanax_aeneus,PRJNA260715

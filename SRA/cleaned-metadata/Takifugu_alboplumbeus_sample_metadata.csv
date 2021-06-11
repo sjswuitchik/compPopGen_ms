@@ -1,16 +1,16 @@
-BioProject,BioSample,Organism,sex,Submitter_ID,Locality,Country,Continent,refGenome
-PRJNA522329,SAMN10928557,Takifugu_alboplumbeus,unknown,N03,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928556,Takifugu_alboplumbeus,unknown,N02,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928559,Takifugu_alboplumbeus,unknown,N07,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928558,Takifugu_alboplumbeus,unknown,N04,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928570,Takifugu_alboplumbeus,unknown,N29,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928564,Takifugu_alboplumbeus,unknown,N17,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928565,Takifugu_alboplumbeus,unknown,N20,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928566,Takifugu_alboplumbeus,unknown,N21,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928567,Takifugu_alboplumbeus,unknown,N22,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928560,Takifugu_alboplumbeus,unknown,N08,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928561,Takifugu_alboplumbeus,unknown,N09,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928563,Takifugu_alboplumbeus,unknown,N15,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928568,Takifugu_alboplumbeus,unknown,N23,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928569,Takifugu_alboplumbeus,unknown,N24,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
-PRJNA522329,SAMN10928562,Takifugu_alboplumbeus,unknown,N13,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2
+BioProject,BioSample,Organism,sex,Submitter_ID,Locality,Country,Continent,refGenome,refSpecies
+PRJNA522329,SAMN10928557,Takifugu_alboplumbeus,unknown,N03,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928556,Takifugu_alboplumbeus,unknown,N02,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928559,Takifugu_alboplumbeus,unknown,N07,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928558,Takifugu_alboplumbeus,unknown,N04,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928570,Takifugu_alboplumbeus,unknown,N29,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928564,Takifugu_alboplumbeus,unknown,N17,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928565,Takifugu_alboplumbeus,unknown,N20,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928566,Takifugu_alboplumbeus,unknown,N21,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928567,Takifugu_alboplumbeus,unknown,N22,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928560,Takifugu_alboplumbeus,unknown,N08,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928561,Takifugu_alboplumbeus,unknown,N09,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928563,Takifugu_alboplumbeus,unknown,N15,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928568,Takifugu_alboplumbeus,unknown,N23,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928569,Takifugu_alboplumbeus,unknown,N24,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928562,Takifugu_alboplumbeus,unknown,N13,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes

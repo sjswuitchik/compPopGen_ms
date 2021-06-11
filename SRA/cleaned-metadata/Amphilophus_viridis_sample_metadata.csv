@@ -1,18 +1,18 @@
-BioProject,BioSample,Organism,sex,Submitter_Id,Lake,Sampling_Year,refGenome
-PRJEB38173,SAMEA6816057,Amphilophus_viridis,missing,Xil_vir_d_ben_00877,CL Xiloá,2007,GCA_013435755.1
-PRJEB38173,SAMEA6816058,Amphilophus_viridis,missing,Xil_vir_d_ben_01247,CL Xiloá,2007,GCA_013435755.1
-PRJEB38173,SAMEA6816059,Amphilophus_viridis,missing,Xil_vir_d_ben_01254,CL Xiloá,2007,GCA_013435755.1
-PRJEB38173,SAMEA6816060,Amphilophus_viridis,missing,Xil_vir_d_ben_01263,CL Xiloá,2007,GCA_013435755.1
-PRJEB38173,SAMEA6816061,Amphilophus_viridis,missing,Xil_vir_d_ben_13014,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816062,Amphilophus_viridis,missing,Xil_vir_d_ben_13016,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816063,Amphilophus_viridis,missing,Xil_vir_d_ben_13051,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816064,Amphilophus_viridis,missing,Xil_vir_d_ben_13075,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816065,Amphilophus_viridis,missing,Xil_vir_d_ben_13076,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816066,Amphilophus_viridis,missing,Xil_vir_d_ben_13079,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816067,Amphilophus_viridis,missing,Xil_vir_d_ben_13080,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816068,Amphilophus_viridis,missing,Xil_vir_d_ben_13109,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816069,Amphilophus_viridis,missing,Xil_vir_d_ben_13178,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816070,Amphilophus_viridis,missing,Xil_vir_d_ben_13180,CL Xiloá,2010,GCA_013435755.1
-PRJEB38173,SAMEA6816072,Amphilophus_viridis,missing,Xil_vir_d_ben_19319,CL Xiloá,2015,GCA_013435755.1
-PRJEB38173,SAMEA6816073,Amphilophus_viridis,missing,Xil_vir_d_ben_19323,CL Xiloá,2015,GCA_013435755.1
-PRJEB38173,SAMEA6816074,Amphilophus_viridis,missing,Xil_vir_d_ben_19494,CL Xiloá,2015,GCA_013435755.1
+BioProject,BioSample,Organism,sex,Submitter_Id,Lake,Sampling_Year,refGenome,refSpecies
+PRJEB38173,SAMEA6816057,Amphilophus_viridis,missing,Xil_vir_d_ben_00877,CL Xiloá,2007,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816058,Amphilophus_viridis,missing,Xil_vir_d_ben_01247,CL Xiloá,2007,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816059,Amphilophus_viridis,missing,Xil_vir_d_ben_01254,CL Xiloá,2007,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816060,Amphilophus_viridis,missing,Xil_vir_d_ben_01263,CL Xiloá,2007,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816061,Amphilophus_viridis,missing,Xil_vir_d_ben_13014,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816062,Amphilophus_viridis,missing,Xil_vir_d_ben_13016,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816063,Amphilophus_viridis,missing,Xil_vir_d_ben_13051,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816064,Amphilophus_viridis,missing,Xil_vir_d_ben_13075,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816065,Amphilophus_viridis,missing,Xil_vir_d_ben_13076,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816066,Amphilophus_viridis,missing,Xil_vir_d_ben_13079,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816067,Amphilophus_viridis,missing,Xil_vir_d_ben_13080,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816068,Amphilophus_viridis,missing,Xil_vir_d_ben_13109,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816069,Amphilophus_viridis,missing,Xil_vir_d_ben_13178,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816070,Amphilophus_viridis,missing,Xil_vir_d_ben_13180,CL Xiloá,2010,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816072,Amphilophus_viridis,missing,Xil_vir_d_ben_19319,CL Xiloá,2015,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816073,Amphilophus_viridis,missing,Xil_vir_d_ben_19323,CL Xiloá,2015,GCA_013435755.1,Amphilophus_citrinellus
+PRJEB38173,SAMEA6816074,Amphilophus_viridis,missing,Xil_vir_d_ben_19494,CL Xiloá,2015,GCA_013435755.1,Amphilophus_citrinellus

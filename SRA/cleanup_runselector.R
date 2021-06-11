@@ -1,6 +1,14 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
+
 #this is a simple script to take a BioProject downloaded from RunSelector, and make it compatible with the clean metadata pipeline.
 
 #ideally this should be refactored into functions shared with the SRA_parser.R script
+
+# test if there is at least one argument: if not, return an error
+if (length(args)==0) {
+  stop("At least one argument must be supplied (input file).n", call.=FALSE)
+}
 
 library(tidyverse)
 library(purrr)
@@ -8,8 +16,8 @@ library(stringr)
 
 not_all_na <- function(x) {!all(is.na(x))}
 
-read_sra_full <- function(file, path) {
-  df<-read_csv(paste0(path, "/", file), cols(.default="c"), col_names = TRUE)
+read_sra_full <- function(file) {
+  df<-read_csv(file, cols(.default="c"), col_names = TRUE)
 }
 
 
@@ -33,5 +41,5 @@ write_sample_metadata <- function(df, path_to_write) {
   imap(~ write_tsv(select_if(as.data.frame(.x), not_all_na), file = str_c(path_to_write, '/SRA-sample-metadata/SRA_Metadata_', .y, '.tsv')))
 }
 
-temp<-read_sra_full("SraRunTable.txt", "~/Downloads")
+temp<-read_sra_full(args[1])
 write_sample_metadata(temp, "~/Projects/popgen/compPopGen_ms/SRA")

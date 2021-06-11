@@ -1,323 +1,323 @@
-BioProject,BioSample,Organism,sex,Ecotype,Locality,Submitter_Id,Country,Continent,Sublocation,refGenome
-PRJEB10680,SAMEA3522226,Poecilia_reticulata,male,Introduced,Guanapo,C1,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3522227,Poecilia_reticulata,male,Introduced,Guanapo,C12,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3522228,Poecilia_reticulata,male,Introduced,Guanapo,C13,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539925,Poecilia_reticulata,male,Introduced,Guanapo,C1_2,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539926,Poecilia_reticulata,male,Introduced,Guanapo,C12_2,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539927,Poecilia_reticulata,male,Introduced,Guanapo,C14,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539928,Poecilia_reticulata,male,Introduced,Guanapo,C15,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539929,Poecilia_reticulata,male,Introduced,Guanapo,C16,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539930,Poecilia_reticulata,male,Introduced,Guanapo,C17,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539931,Poecilia_reticulata,male,Introduced,Guanapo,C4,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539932,Poecilia_reticulata,male,Introduced,Guanapo,C6,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539933,Poecilia_reticulata,male,Introduced,Guanapo,C8,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539934,Poecilia_reticulata,male,Introduced,Guanapo,C9,Trinidad and Tobago,North America,Caigual,GCF_000633615.1
-PRJEB10680,SAMEA3539935,Poecilia_reticulata,male,Introduced,Guanapo,LL1,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539936,Poecilia_reticulata,female,Introduced,Guanapo,LL10,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539937,Poecilia_reticulata,female,Introduced,Guanapo,LL11,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539938,Poecilia_reticulata,female,Introduced,Guanapo,LL13,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539939,Poecilia_reticulata,female,Introduced,Guanapo,LL14,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539940,Poecilia_reticulata,male,Introduced,Guanapo,LL2,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539941,Poecilia_reticulata,male,Introduced,Guanapo,LL3,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539942,Poecilia_reticulata,female,Introduced,Guanapo,LL5,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539943,Poecilia_reticulata,female,Introduced,Guanapo,LL6,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539944,Poecilia_reticulata,female,Introduced,Guanapo,LL7,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539945,Poecilia_reticulata,female,Introduced,Guanapo,LL9,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539946,Poecilia_reticulata,male,Introduced,Guanapo,T10,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539947,Poecilia_reticulata,female,Introduced,Guanapo,T13,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539948,Poecilia_reticulata,female,Introduced,Guanapo,T14,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539949,Poecilia_reticulata,female,Introduced,Guanapo,T15,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539951,Poecilia_reticulata,male,Introduced,Guanapo,T2,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539952,Poecilia_reticulata,male,Introduced,Guanapo,T3,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539953,Poecilia_reticulata,male,Introduced,Guanapo,T4,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539954,Poecilia_reticulata,male,Introduced,Guanapo,T5,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539955,Poecilia_reticulata,male,Introduced,Guanapo,T6,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539956,Poecilia_reticulata,male,Introduced,Guanapo,T7,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3539958,Poecilia_reticulata,male,Introduced,Guanapo,UL1,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539959,Poecilia_reticulata,male,Introduced,Guanapo,UL10,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539960,Poecilia_reticulata,male,Introduced,Guanapo,UL11,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539961,Poecilia_reticulata,male,Introduced,Guanapo,UL12,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539962,Poecilia_reticulata,male,Introduced,Guanapo,UL13,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539963,Poecilia_reticulata,male,Introduced,Guanapo,UL15,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539964,Poecilia_reticulata,male,Introduced,Guanapo,UL16,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539965,Poecilia_reticulata,female,Introduced,Guanapo,UL17,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539966,Poecilia_reticulata,female,Introduced,Guanapo,UL18,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539967,Poecilia_reticulata,female,Introduced,Guanapo,UL19,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539968,Poecilia_reticulata,male,Introduced,Guanapo,UL2,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539969,Poecilia_reticulata,female,Introduced,Guanapo,UL20,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539970,Poecilia_reticulata,male,Introduced,Guanapo,UL3,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539971,Poecilia_reticulata,male,Introduced,Guanapo,UL4,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539972,Poecilia_reticulata,male,Introduced,Guanapo,UL5,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539973,Poecilia_reticulata,male,Introduced,Guanapo,UL6,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539974,Poecilia_reticulata,male,Introduced,Guanapo,UL7,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539975,Poecilia_reticulata,male,Introduced,Guanapo,UL8,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3539976,Poecilia_reticulata,male,Introduced,Guanapo,UL9,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1
-PRJEB10680,SAMEA3628558,Poecilia_reticulata,female,High Predation,Guanapo,GH1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628559,Poecilia_reticulata,female,High Predation,Guanapo,GH10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628560,Poecilia_reticulata,female,High Predation,Guanapo,GH2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628561,Poecilia_reticulata,female,High Predation,Guanapo,GH3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628562,Poecilia_reticulata,female,High Predation,Guanapo,GH4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628563,Poecilia_reticulata,female,High Predation,Guanapo,GH5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628564,Poecilia_reticulata,female,High Predation,Guanapo,GH6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628565,Poecilia_reticulata,female,High Predation,Guanapo,GH7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628566,Poecilia_reticulata,female,High Predation,Guanapo,GH8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628567,Poecilia_reticulata,female,High Predation,Guanapo,GH9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3628568,Poecilia_reticulata,female,Low Predation,Guanapo,GL1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628569,Poecilia_reticulata,female,Low Predation,Guanapo,GL10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628570,Poecilia_reticulata,female,Low Predation,Guanapo,GL2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628571,Poecilia_reticulata,female,Low Predation,Guanapo,GL4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628572,Poecilia_reticulata,female,Low Predation,Guanapo,GL5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628573,Poecilia_reticulata,female,Low Predation,Guanapo,GL6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628574,Poecilia_reticulata,female,Low Predation,Guanapo,GL7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628575,Poecilia_reticulata,female,Low Predation,Guanapo,GL8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3628576,Poecilia_reticulata,female,Low Predation,Guanapo,GL9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3638068,Poecilia_reticulata,female,High Predation,Oropuche,LO1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638069,Poecilia_reticulata,male,High Predation,Oropuche,LO10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638070,Poecilia_reticulata,male,High Predation,Oropuche,LO11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638071,Poecilia_reticulata,male,High Predation,Oropuche,LO12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638072,Poecilia_reticulata,female,High Predation,Oropuche,LO13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638073,Poecilia_reticulata,female,High Predation,Oropuche,LO15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638074,Poecilia_reticulata,female,High Predation,Oropuche,LO16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638075,Poecilia_reticulata,female,High Predation,Oropuche,LO17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638076,Poecilia_reticulata,female,High Predation,Oropuche,LO18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638077,Poecilia_reticulata,female,High Predation,Oropuche,LO19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638078,Poecilia_reticulata,male,High Predation,Oropuche,LO2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638079,Poecilia_reticulata,female,High Predation,Oropuche,LO20,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638080,Poecilia_reticulata,female,High Predation,Oropuche,LO21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638081,Poecilia_reticulata,female,High Predation,Oropuche,LO22,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638082,Poecilia_reticulata,male,High Predation,Oropuche,LO3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638084,Poecilia_reticulata,male,High Predation,Oropuche,LO5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638085,Poecilia_reticulata,male,High Predation,Oropuche,LO6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3638086,Poecilia_reticulata,male,High Predation,Oropuche,LO7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3644431,Poecilia_reticulata,male,Low Predation,Oropuche,UQ1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644432,Poecilia_reticulata,female,Low Predation,Oropuche,UQ10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644433,Poecilia_reticulata,female,Low Predation,Oropuche,UQ11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644435,Poecilia_reticulata,female,Low Predation,Oropuche,UQ13,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644436,Poecilia_reticulata,female,Low Predation,Oropuche,UQ14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644437,Poecilia_reticulata,female,Low Predation,Oropuche,UQ15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644438,Poecilia_reticulata,female,Low Predation,Oropuche,UQ16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644439,Poecilia_reticulata,female,Low Predation,Oropuche,UQ17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644440,Poecilia_reticulata,female,Low Predation,Oropuche,UQ18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644441,Poecilia_reticulata,female,Low Predation,Oropuche,UQ19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644442,Poecilia_reticulata,male,Low Predation,Oropuche,UQ2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644443,Poecilia_reticulata,female,Low Predation,Oropuche,UQ20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644444,Poecilia_reticulata,male,Low Predation,Oropuche,UQ3,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644445,Poecilia_reticulata,male,Low Predation,Oropuche,UQ4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644447,Poecilia_reticulata,male,Low Predation,Oropuche,UQ6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644448,Poecilia_reticulata,male,Low Predation,Oropuche,UQ7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644449,Poecilia_reticulata,male,Low Predation,Oropuche,UQ8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644450,Poecilia_reticulata,female,Low Predation,Oropuche,UQ9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649937,Poecilia_reticulata,male,High Predation,Marrianne,LM1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649938,Poecilia_reticulata,male,High Predation,Marrianne,LM10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649939,Poecilia_reticulata,female,High Predation,Marrianne,LM11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649940,Poecilia_reticulata,female,High Predation,Marrianne,LM12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649941,Poecilia_reticulata,female,High Predation,Marrianne,LM13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649942,Poecilia_reticulata,female,High Predation,Marrianne,LM14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649943,Poecilia_reticulata,female,High Predation,Marrianne,LM15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649944,Poecilia_reticulata,female,High Predation,Marrianne,LM16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649945,Poecilia_reticulata,female,High Predation,Marrianne,LM17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649946,Poecilia_reticulata,female,High Predation,Marrianne,LM18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649947,Poecilia_reticulata,female,High Predation,Marrianne,LM19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649948,Poecilia_reticulata,male,High Predation,Marrianne,LM2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649949,Poecilia_reticulata,female,High Predation,Marrianne,LM20,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649950,Poecilia_reticulata,male,High Predation,Marrianne,LM3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649951,Poecilia_reticulata,male,High Predation,Marrianne,LM4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649952,Poecilia_reticulata,male,High Predation,Marrianne,LM5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649953,Poecilia_reticulata,male,High Predation,Marrianne,LM6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649954,Poecilia_reticulata,male,High Predation,Marrianne,LM7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649955,Poecilia_reticulata,male,High Predation,Marrianne,LM8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649956,Poecilia_reticulata,male,High Predation,Marrianne,LM9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3649957,Poecilia_reticulata,male,Low Predation,Marrianne,UM1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649959,Poecilia_reticulata,female,Low Predation,Marrianne,UM11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649960,Poecilia_reticulata,female,Low Predation,Marrianne,UM12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649961,Poecilia_reticulata,female,Low Predation,Marrianne,UM13,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649962,Poecilia_reticulata,female,Low Predation,Marrianne,UM14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649963,Poecilia_reticulata,female,Low Predation,Marrianne,UM15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649964,Poecilia_reticulata,female,Low Predation,Marrianne,UM16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649965,Poecilia_reticulata,female,Low Predation,Marrianne,UM17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649967,Poecilia_reticulata,male,Low Predation,Marrianne,UM2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649968,Poecilia_reticulata,male,Low Predation,Marrianne,UM3,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649969,Poecilia_reticulata,male,Low Predation,Marrianne,UM5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649970,Poecilia_reticulata,male,Low Predation,Marrianne,UM6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649971,Poecilia_reticulata,male,Low Predation,Marrianne,UM7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649972,Poecilia_reticulata,male,Low Predation,Marrianne,UM8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649973,Poecilia_reticulata,male,Low Predation,Marrianne,UM9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644434,Poecilia_reticulata,female,Low Predation,Oropuche,UQ12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3644446,Poecilia_reticulata,male,Low Predation,Oropuche,UQ5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3649958,Poecilia_reticulata,female,Low Predation,Marrianne,UM10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3539950,Poecilia_reticulata,female,Introduced,Guanapo,T16,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB10680,SAMEA3649966,Poecilia_reticulata,female,Low Predation,Marrianne,UM18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB10680,SAMEA3638083,Poecilia_reticulata,male,High Predation,Oropuche,LO4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB10680,SAMEA3539957,Poecilia_reticulata,male,Introduced,Guanapo,T8,Trinidad and Tobago,North America,Taylor,GCF_000633615.1
-PRJEB22221,SAMEA104219275,Poecilia_reticulata,male,High Predation,Aripo,PR1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219276,Poecilia_reticulata,male,High Predation,Aripo,PR2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219277,Poecilia_reticulata,male,High Predation,Aripo,PR3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219278,Poecilia_reticulata,male,High Predation,Aripo,PR4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219279,Poecilia_reticulata,male,High Predation,Aripo,PR5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219280,Poecilia_reticulata,male,High Predation,Aripo,PR6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219281,Poecilia_reticulata,male,High Predation,Aripo,PR7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219282,Poecilia_reticulata,male,High Predation,Aripo,PR8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219283,Poecilia_reticulata,male,High Predation,Aripo,PR9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219284,Poecilia_reticulata,male,High Predation,Aripo,PR10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219285,Poecilia_reticulata,female,High Predation,Aripo,PR11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219286,Poecilia_reticulata,female,High Predation,Aripo,PR12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219287,Poecilia_reticulata,female,High Predation,Aripo,PR13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219288,Poecilia_reticulata,female,High Predation,Aripo,PR14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219289,Poecilia_reticulata,female,High Predation,Aripo,PR15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB22221,SAMEA104219290,Poecilia_reticulata,female,High Predation,Aripo,PR16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504475,Poecilia_reticulata,male,High Predation,Guanapo,GH male11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504476,Poecilia_reticulata,female,High Predation,Guanapo,GH female8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504477,Poecilia_reticulata,male,Low Predation,Guanapo,GL male12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB36450,SAMEA6504478,Poecilia_reticulata,female,Low Predation,Guanapo,GL female5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB36450,SAMEA6504479,Poecilia_reticulata,female,High Predation,Marrianne,MH female12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504480,Poecilia_reticulata,male,High Predation,Marrianne,MH male7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504482,Poecilia_reticulata,male,High Predation,Oropuche,OH male7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504483,Poecilia_reticulata,female,Low Predation,Marrianne,ML female18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB36450,SAMEA6504484,Poecilia_reticulata,male,Low Predation,Marrianne,ML male6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB36450,SAMEA6504485,Poecilia_reticulata,female,Low Predation,Oropuche,OL female18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB36450,SAMEA6504481,Poecilia_reticulata,female,High Predation,Oropuche,OH female19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB36450,SAMEA6504486,Poecilia_reticulata,male,Low Predation,Oropuche,OL male5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230561,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M25,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230498,Poecilia_reticulata,male,High Predation,Quare,QuH-M17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230534,Poecilia_reticulata,male,High Predation,Yarra,YaH-M10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230449,Poecilia_reticulata,female,High Predation,Aripo,ARH-F2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230458,Poecilia_reticulata,male,High Predation,Aripo,ARH-M16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230495,Poecilia_reticulata,male,High Predation,Quare,QUH-M9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230529,Poecilia_reticulata,female,High Predation,Yarra,YAH-F12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230476,Poecilia_reticulata,male,Low Predation,Aripo,ARL-M15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230478,Poecilia_reticulata,male,Low Predation,Aripo,ARL-M17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230508,Poecilia_reticulata,female,Low Predation,Quare,QUL-F5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230552,Poecilia_reticulata,male,Low Predation,Yarra,YAL-M8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230451,Poecilia_reticulata,female,High Predation,Aripo,ARH-F24,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230452,Poecilia_reticulata,male,High Predation,Aripo,ARH-M1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230481,Poecilia_reticulata,male,Low Predation,Aripo,ARL-M25,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230494,Poecilia_reticulata,male,High Predation,Quare,QUH-M4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230510,Poecilia_reticulata,female,Low Predation,Quare,QUL-F16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230512,Poecilia_reticulata,male,Low Predation,Quare,QUL-M4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230550,Poecilia_reticulata,female,Low Predation,Yarra,YAL-F20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230553,Poecilia_reticulata,male,Low Predation,Yarra,YAL-M10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230450,Poecilia_reticulata,female,High Predation,Aripo,ArH-F11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230457,Poecilia_reticulata,male,High Predation,Aripo,ArH-M12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230461,Poecilia_reticulata,male,High Predation,Aripo,ArH-M24,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230454,Poecilia_reticulata,male,High Predation,Aripo,ArH-M5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230469,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230470,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230471,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F22,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230474,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230475,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230477,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230479,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230472,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230473,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230509,Poecilia_reticulata,female,Low Predation,Quare,QuL-F11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230513,Poecilia_reticulata,male,Low Predation,Quare,QuL-M5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230490,Poecilia_reticulata,female,High Predation,Quare,QuH-F21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230491,Poecilia_reticulata,female,High Predation,Quare,QuH-F25,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230489,Poecilia_reticulata,female,High Predation,Quare,QuH-F3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230496,Poecilia_reticulata,male,High Predation,Quare,QuH-M10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230497,Poecilia_reticulata,male,High Predation,Quare,QuH-M13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230500,Poecilia_reticulata,male,High Predation,Quare,QuH-M22,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230492,Poecilia_reticulata,male,High Predation,Quare,QuH-M2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230516,Poecilia_reticulata,male,Low Predation,Quare,QuL-M11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230517,Poecilia_reticulata,male,Low Predation,Quare,QuL-M15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230518,Poecilia_reticulata,male,Low Predation,Quare,QuL-M17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230514,Poecilia_reticulata,male,Low Predation,Quare,QuL-M6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230515,Poecilia_reticulata,male,Low Predation,Quare,QuL-M8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230530,Poecilia_reticulata,female,High Predation,Yarra,YaH-F19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230537,Poecilia_reticulata,male,High Predation,Yarra,YaH-M17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230531,Poecilia_reticulata,male,High Predation,Yarra,YaH-M2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230548,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230549,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F13,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230555,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230560,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M23,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230535,Poecilia_reticulata,male,High Predation,Yarra,YaH-M11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230536,Poecilia_reticulata,male,High Predation,Yarra,YaH-M16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230539,Poecilia_reticulata,male,High Predation,Yarra,YaH-M21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230532,Poecilia_reticulata,male,High Predation,Yarra,YaH-M5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230459,Poecilia_reticulata,male,High Predation,Aripo,ArH-M19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230460,Poecilia_reticulata,male,High Predation,Aripo,ArH-M21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230453,Poecilia_reticulata,male,High Predation,Aripo,ArH-M2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230455,Poecilia_reticulata,male,High Predation,Aripo,ArH-M7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230456,Poecilia_reticulata,male,High Predation,Aripo,ArH-M9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230480,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M24,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230519,Poecilia_reticulata,male,Low Predation,Quare,QuL-M20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230511,Poecilia_reticulata,male,Low Predation,Quare,QuL-M2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230499,Poecilia_reticulata,male,High Predation,Quare,QuH-M19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230493,Poecilia_reticulata,male,High Predation,Quare,QuH-M3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230520,Poecilia_reticulata,male,Low Predation,Quare,QuL-M25,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230528,Poecilia_reticulata,female,High Predation,Yarra,YaH-F1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230538,Poecilia_reticulata,male,High Predation,Yarra,YaH-M18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230540,Poecilia_reticulata,male,High Predation,Yarra,YaH-M23,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230533,Poecilia_reticulata,male,High Predation,Yarra,YaH-M6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230554,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230556,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230557,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230558,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230559,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M21,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230551,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230442,Poecilia_reticulata,female,High Predation,Aripo,ArH-F1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230444,Poecilia_reticulata,female,High Predation,Aripo,ArH-F10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230445,Poecilia_reticulata,female,High Predation,Aripo,ArH-F13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230447,Poecilia_reticulata,female,High Predation,Aripo,ArH-F23,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230448,Poecilia_reticulata,female,High Predation,Aripo,ArH-F25,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230482,Poecilia_reticulata,female,High Predation,Quare,QuH-F4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230483,Poecilia_reticulata,female,High Predation,Quare,QuH-F6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230504,Poecilia_reticulata,female,Low Predation,Quare,QuL-F14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230505,Poecilia_reticulata,female,Low Predation,Quare,QuL-F15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230501,Poecilia_reticulata,female,Low Predation,Quare,QuL-F4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230503,Poecilia_reticulata,female,Low Predation,Quare,QuL-F7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230446,Poecilia_reticulata,female,High Predation,Aripo,ArH-F14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230443,Poecilia_reticulata,female,High Predation,Aripo,ArH-F9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230488,Poecilia_reticulata,female,High Predation,Quare,QuH-F22,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230522,Poecilia_reticulata,female,High Predation,Yarra,YaH-F13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230524,Poecilia_reticulata,female,High Predation,Yarra,YaH-F15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230525,Poecilia_reticulata,female,High Predation,Yarra,YaH-F18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230526,Poecilia_reticulata,female,High Predation,Yarra,YaH-F21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230527,Poecilia_reticulata,female,High Predation,Yarra,YaH-F24,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230521,Poecilia_reticulata,female,High Predation,Yarra,YaH-F9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230545,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230547,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F24,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230541,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230542,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230465,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230466,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230467,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230468,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230462,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230463,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230464,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230486,Poecilia_reticulata,female,High Predation,Quare,QuH-F12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230487,Poecilia_reticulata,female,High Predation,Quare,QuH-F13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230484,Poecilia_reticulata,female,High Predation,Quare,QuH-F7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230543,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230546,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F22,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230506,Poecilia_reticulata,female,Low Predation,Quare,QuL-F19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230544,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230523,Poecilia_reticulata,female,High Predation,Yarra,YaH-F14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230485,Poecilia_reticulata,female,High Predation,Quare,QuH-F9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJEB39998,SAMEA7230507,Poecilia_reticulata,female,Low Predation,Quare,QuL-F23,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJEB39998,SAMEA7230502,Poecilia_reticulata,female,Low Predation,Quare,QuL-F6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036149,Poecilia_reticulata,male,High Predation,Aripo,Male_J001_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036166,Poecilia_reticulata,male,High Predation,Yarra,Male_J042_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036154,Poecilia_reticulata,male,Low Predation,Yarra,Male_J013_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036152,Poecilia_reticulata,male,High Predation,Aripo,Male_J005_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036157,Poecilia_reticulata,male,High Predation,Quare,Male_J016_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036168,Poecilia_reticulata,male,High Predation,Yarra,Male_J044_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036162,Poecilia_reticulata,male,Low Predation,Aripo,Male_J033_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036156,Poecilia_reticulata,male,Low Predation,Yarra,Male_J015_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036172,Poecilia_reticulata,male,Low Predation,Quare,Male_J054_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036170,Poecilia_reticulata,male,Low Predation,Quare,Male_J052_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036151,Poecilia_reticulata,male,High Predation,Aripo,Male_J004_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036164,Poecilia_reticulata,male,Low Predation,Aripo,Male_J035_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036163,Poecilia_reticulata,male,Low Predation,Aripo,Male_J034_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036150,Poecilia_reticulata,male,High Predation,Aripo,Male_J003_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036167,Poecilia_reticulata,male,High Predation,Yarra,Male_J043_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036165,Poecilia_reticulata,male,High Predation,Yarra,Male_J041_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036171,Poecilia_reticulata,male,Low Predation,Quare,Male_J053_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036169,Poecilia_reticulata,male,Low Predation,Quare,Male_J051_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036158,Poecilia_reticulata,male,High Predation,Quare,Male_J017_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036153,Poecilia_reticulata,male,Low Predation,Yarra,Male_J012_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036160,Poecilia_reticulata,male,High Predation,Quare,Male_J020_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036161,Poecilia_reticulata,male,Low Predation,Aripo,Male_J032_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
-PRJNA353986,SAMN06036159,Poecilia_reticulata,male,High Predation,Quare,Male_J019_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1
-PRJNA353986,SAMN06036155,Poecilia_reticulata,male,Low Predation,Yarra,Male_J014_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1
+BioProject,BioSample,Organism,sex,Ecotype,Locality,Submitter_Id,Country,Continent,Sublocation,refGenome,refSpecies
+PRJEB10680,SAMEA3522226,Poecilia_reticulata,male,Introduced,Guanapo,C1,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3522227,Poecilia_reticulata,male,Introduced,Guanapo,C12,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3522228,Poecilia_reticulata,male,Introduced,Guanapo,C13,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539925,Poecilia_reticulata,male,Introduced,Guanapo,C1_2,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539926,Poecilia_reticulata,male,Introduced,Guanapo,C12_2,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539927,Poecilia_reticulata,male,Introduced,Guanapo,C14,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539928,Poecilia_reticulata,male,Introduced,Guanapo,C15,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539929,Poecilia_reticulata,male,Introduced,Guanapo,C16,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539930,Poecilia_reticulata,male,Introduced,Guanapo,C17,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539931,Poecilia_reticulata,male,Introduced,Guanapo,C4,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539932,Poecilia_reticulata,male,Introduced,Guanapo,C6,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539933,Poecilia_reticulata,male,Introduced,Guanapo,C8,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539934,Poecilia_reticulata,male,Introduced,Guanapo,C9,Trinidad and Tobago,North America,Caigual,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539935,Poecilia_reticulata,male,Introduced,Guanapo,LL1,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539936,Poecilia_reticulata,female,Introduced,Guanapo,LL10,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539937,Poecilia_reticulata,female,Introduced,Guanapo,LL11,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539938,Poecilia_reticulata,female,Introduced,Guanapo,LL13,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539939,Poecilia_reticulata,female,Introduced,Guanapo,LL14,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539940,Poecilia_reticulata,male,Introduced,Guanapo,LL2,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539941,Poecilia_reticulata,male,Introduced,Guanapo,LL3,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539942,Poecilia_reticulata,female,Introduced,Guanapo,LL5,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539943,Poecilia_reticulata,female,Introduced,Guanapo,LL6,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539944,Poecilia_reticulata,female,Introduced,Guanapo,LL7,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539945,Poecilia_reticulata,female,Introduced,Guanapo,LL9,Trinidad and Tobago,North America,Lower Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539946,Poecilia_reticulata,male,Introduced,Guanapo,T10,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539947,Poecilia_reticulata,female,Introduced,Guanapo,T13,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539948,Poecilia_reticulata,female,Introduced,Guanapo,T14,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539949,Poecilia_reticulata,female,Introduced,Guanapo,T15,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539951,Poecilia_reticulata,male,Introduced,Guanapo,T2,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539952,Poecilia_reticulata,male,Introduced,Guanapo,T3,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539953,Poecilia_reticulata,male,Introduced,Guanapo,T4,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539954,Poecilia_reticulata,male,Introduced,Guanapo,T5,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539955,Poecilia_reticulata,male,Introduced,Guanapo,T6,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539956,Poecilia_reticulata,male,Introduced,Guanapo,T7,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539958,Poecilia_reticulata,male,Introduced,Guanapo,UL1,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539959,Poecilia_reticulata,male,Introduced,Guanapo,UL10,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539960,Poecilia_reticulata,male,Introduced,Guanapo,UL11,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539961,Poecilia_reticulata,male,Introduced,Guanapo,UL12,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539962,Poecilia_reticulata,male,Introduced,Guanapo,UL13,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539963,Poecilia_reticulata,male,Introduced,Guanapo,UL15,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539964,Poecilia_reticulata,male,Introduced,Guanapo,UL16,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539965,Poecilia_reticulata,female,Introduced,Guanapo,UL17,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539966,Poecilia_reticulata,female,Introduced,Guanapo,UL18,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539967,Poecilia_reticulata,female,Introduced,Guanapo,UL19,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539968,Poecilia_reticulata,male,Introduced,Guanapo,UL2,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539969,Poecilia_reticulata,female,Introduced,Guanapo,UL20,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539970,Poecilia_reticulata,male,Introduced,Guanapo,UL3,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539971,Poecilia_reticulata,male,Introduced,Guanapo,UL4,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539972,Poecilia_reticulata,male,Introduced,Guanapo,UL5,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539973,Poecilia_reticulata,male,Introduced,Guanapo,UL6,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539974,Poecilia_reticulata,male,Introduced,Guanapo,UL7,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539975,Poecilia_reticulata,male,Introduced,Guanapo,UL8,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539976,Poecilia_reticulata,male,Introduced,Guanapo,UL9,Trinidad and Tobago,North America,Upper Lalaja,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628558,Poecilia_reticulata,female,High Predation,Guanapo,GH1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628559,Poecilia_reticulata,female,High Predation,Guanapo,GH10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628560,Poecilia_reticulata,female,High Predation,Guanapo,GH2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628561,Poecilia_reticulata,female,High Predation,Guanapo,GH3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628562,Poecilia_reticulata,female,High Predation,Guanapo,GH4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628563,Poecilia_reticulata,female,High Predation,Guanapo,GH5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628564,Poecilia_reticulata,female,High Predation,Guanapo,GH6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628565,Poecilia_reticulata,female,High Predation,Guanapo,GH7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628566,Poecilia_reticulata,female,High Predation,Guanapo,GH8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628567,Poecilia_reticulata,female,High Predation,Guanapo,GH9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628568,Poecilia_reticulata,female,Low Predation,Guanapo,GL1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628569,Poecilia_reticulata,female,Low Predation,Guanapo,GL10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628570,Poecilia_reticulata,female,Low Predation,Guanapo,GL2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628571,Poecilia_reticulata,female,Low Predation,Guanapo,GL4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628572,Poecilia_reticulata,female,Low Predation,Guanapo,GL5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628573,Poecilia_reticulata,female,Low Predation,Guanapo,GL6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628574,Poecilia_reticulata,female,Low Predation,Guanapo,GL7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628575,Poecilia_reticulata,female,Low Predation,Guanapo,GL8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3628576,Poecilia_reticulata,female,Low Predation,Guanapo,GL9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638068,Poecilia_reticulata,female,High Predation,Oropuche,LO1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638069,Poecilia_reticulata,male,High Predation,Oropuche,LO10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638070,Poecilia_reticulata,male,High Predation,Oropuche,LO11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638071,Poecilia_reticulata,male,High Predation,Oropuche,LO12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638072,Poecilia_reticulata,female,High Predation,Oropuche,LO13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638073,Poecilia_reticulata,female,High Predation,Oropuche,LO15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638074,Poecilia_reticulata,female,High Predation,Oropuche,LO16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638075,Poecilia_reticulata,female,High Predation,Oropuche,LO17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638076,Poecilia_reticulata,female,High Predation,Oropuche,LO18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638077,Poecilia_reticulata,female,High Predation,Oropuche,LO19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638078,Poecilia_reticulata,male,High Predation,Oropuche,LO2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638079,Poecilia_reticulata,female,High Predation,Oropuche,LO20,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638080,Poecilia_reticulata,female,High Predation,Oropuche,LO21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638081,Poecilia_reticulata,female,High Predation,Oropuche,LO22,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638082,Poecilia_reticulata,male,High Predation,Oropuche,LO3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638084,Poecilia_reticulata,male,High Predation,Oropuche,LO5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638085,Poecilia_reticulata,male,High Predation,Oropuche,LO6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638086,Poecilia_reticulata,male,High Predation,Oropuche,LO7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644431,Poecilia_reticulata,male,Low Predation,Oropuche,UQ1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644432,Poecilia_reticulata,female,Low Predation,Oropuche,UQ10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644433,Poecilia_reticulata,female,Low Predation,Oropuche,UQ11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644435,Poecilia_reticulata,female,Low Predation,Oropuche,UQ13,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644436,Poecilia_reticulata,female,Low Predation,Oropuche,UQ14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644437,Poecilia_reticulata,female,Low Predation,Oropuche,UQ15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644438,Poecilia_reticulata,female,Low Predation,Oropuche,UQ16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644439,Poecilia_reticulata,female,Low Predation,Oropuche,UQ17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644440,Poecilia_reticulata,female,Low Predation,Oropuche,UQ18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644441,Poecilia_reticulata,female,Low Predation,Oropuche,UQ19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644442,Poecilia_reticulata,male,Low Predation,Oropuche,UQ2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644443,Poecilia_reticulata,female,Low Predation,Oropuche,UQ20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644444,Poecilia_reticulata,male,Low Predation,Oropuche,UQ3,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644445,Poecilia_reticulata,male,Low Predation,Oropuche,UQ4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644447,Poecilia_reticulata,male,Low Predation,Oropuche,UQ6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644448,Poecilia_reticulata,male,Low Predation,Oropuche,UQ7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644449,Poecilia_reticulata,male,Low Predation,Oropuche,UQ8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644450,Poecilia_reticulata,female,Low Predation,Oropuche,UQ9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649937,Poecilia_reticulata,male,High Predation,Marrianne,LM1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649938,Poecilia_reticulata,male,High Predation,Marrianne,LM10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649939,Poecilia_reticulata,female,High Predation,Marrianne,LM11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649940,Poecilia_reticulata,female,High Predation,Marrianne,LM12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649941,Poecilia_reticulata,female,High Predation,Marrianne,LM13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649942,Poecilia_reticulata,female,High Predation,Marrianne,LM14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649943,Poecilia_reticulata,female,High Predation,Marrianne,LM15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649944,Poecilia_reticulata,female,High Predation,Marrianne,LM16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649945,Poecilia_reticulata,female,High Predation,Marrianne,LM17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649946,Poecilia_reticulata,female,High Predation,Marrianne,LM18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649947,Poecilia_reticulata,female,High Predation,Marrianne,LM19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649948,Poecilia_reticulata,male,High Predation,Marrianne,LM2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649949,Poecilia_reticulata,female,High Predation,Marrianne,LM20,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649950,Poecilia_reticulata,male,High Predation,Marrianne,LM3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649951,Poecilia_reticulata,male,High Predation,Marrianne,LM4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649952,Poecilia_reticulata,male,High Predation,Marrianne,LM5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649953,Poecilia_reticulata,male,High Predation,Marrianne,LM6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649954,Poecilia_reticulata,male,High Predation,Marrianne,LM7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649955,Poecilia_reticulata,male,High Predation,Marrianne,LM8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649956,Poecilia_reticulata,male,High Predation,Marrianne,LM9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649957,Poecilia_reticulata,male,Low Predation,Marrianne,UM1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649959,Poecilia_reticulata,female,Low Predation,Marrianne,UM11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649960,Poecilia_reticulata,female,Low Predation,Marrianne,UM12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649961,Poecilia_reticulata,female,Low Predation,Marrianne,UM13,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649962,Poecilia_reticulata,female,Low Predation,Marrianne,UM14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649963,Poecilia_reticulata,female,Low Predation,Marrianne,UM15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649964,Poecilia_reticulata,female,Low Predation,Marrianne,UM16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649965,Poecilia_reticulata,female,Low Predation,Marrianne,UM17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649967,Poecilia_reticulata,male,Low Predation,Marrianne,UM2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649968,Poecilia_reticulata,male,Low Predation,Marrianne,UM3,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649969,Poecilia_reticulata,male,Low Predation,Marrianne,UM5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649970,Poecilia_reticulata,male,Low Predation,Marrianne,UM6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649971,Poecilia_reticulata,male,Low Predation,Marrianne,UM7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649972,Poecilia_reticulata,male,Low Predation,Marrianne,UM8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649973,Poecilia_reticulata,male,Low Predation,Marrianne,UM9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644434,Poecilia_reticulata,female,Low Predation,Oropuche,UQ12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3644446,Poecilia_reticulata,male,Low Predation,Oropuche,UQ5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649958,Poecilia_reticulata,female,Low Predation,Marrianne,UM10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539950,Poecilia_reticulata,female,Introduced,Guanapo,T16,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3649966,Poecilia_reticulata,female,Low Predation,Marrianne,UM18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3638083,Poecilia_reticulata,male,High Predation,Oropuche,LO4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB10680,SAMEA3539957,Poecilia_reticulata,male,Introduced,Guanapo,T8,Trinidad and Tobago,North America,Taylor,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219275,Poecilia_reticulata,male,High Predation,Aripo,PR1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219276,Poecilia_reticulata,male,High Predation,Aripo,PR2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219277,Poecilia_reticulata,male,High Predation,Aripo,PR3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219278,Poecilia_reticulata,male,High Predation,Aripo,PR4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219279,Poecilia_reticulata,male,High Predation,Aripo,PR5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219280,Poecilia_reticulata,male,High Predation,Aripo,PR6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219281,Poecilia_reticulata,male,High Predation,Aripo,PR7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219282,Poecilia_reticulata,male,High Predation,Aripo,PR8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219283,Poecilia_reticulata,male,High Predation,Aripo,PR9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219284,Poecilia_reticulata,male,High Predation,Aripo,PR10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219285,Poecilia_reticulata,female,High Predation,Aripo,PR11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219286,Poecilia_reticulata,female,High Predation,Aripo,PR12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219287,Poecilia_reticulata,female,High Predation,Aripo,PR13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219288,Poecilia_reticulata,female,High Predation,Aripo,PR14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219289,Poecilia_reticulata,female,High Predation,Aripo,PR15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB22221,SAMEA104219290,Poecilia_reticulata,female,High Predation,Aripo,PR16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504475,Poecilia_reticulata,male,High Predation,Guanapo,GH male11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504476,Poecilia_reticulata,female,High Predation,Guanapo,GH female8,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504477,Poecilia_reticulata,male,Low Predation,Guanapo,GL male12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504478,Poecilia_reticulata,female,Low Predation,Guanapo,GL female5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504479,Poecilia_reticulata,female,High Predation,Marrianne,MH female12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504480,Poecilia_reticulata,male,High Predation,Marrianne,MH male7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504482,Poecilia_reticulata,male,High Predation,Oropuche,OH male7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504483,Poecilia_reticulata,female,Low Predation,Marrianne,ML female18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504484,Poecilia_reticulata,male,Low Predation,Marrianne,ML male6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504485,Poecilia_reticulata,female,Low Predation,Oropuche,OL female18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504481,Poecilia_reticulata,female,High Predation,Oropuche,OH female19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB36450,SAMEA6504486,Poecilia_reticulata,male,Low Predation,Oropuche,OL male5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230561,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M25,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230498,Poecilia_reticulata,male,High Predation,Quare,QuH-M17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230534,Poecilia_reticulata,male,High Predation,Yarra,YaH-M10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230449,Poecilia_reticulata,female,High Predation,Aripo,ARH-F2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230458,Poecilia_reticulata,male,High Predation,Aripo,ARH-M16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230495,Poecilia_reticulata,male,High Predation,Quare,QUH-M9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230529,Poecilia_reticulata,female,High Predation,Yarra,YAH-F12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230476,Poecilia_reticulata,male,Low Predation,Aripo,ARL-M15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230478,Poecilia_reticulata,male,Low Predation,Aripo,ARL-M17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230508,Poecilia_reticulata,female,Low Predation,Quare,QUL-F5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230552,Poecilia_reticulata,male,Low Predation,Yarra,YAL-M8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230451,Poecilia_reticulata,female,High Predation,Aripo,ARH-F24,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230452,Poecilia_reticulata,male,High Predation,Aripo,ARH-M1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230481,Poecilia_reticulata,male,Low Predation,Aripo,ARL-M25,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230494,Poecilia_reticulata,male,High Predation,Quare,QUH-M4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230510,Poecilia_reticulata,female,Low Predation,Quare,QUL-F16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230512,Poecilia_reticulata,male,Low Predation,Quare,QUL-M4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230550,Poecilia_reticulata,female,Low Predation,Yarra,YAL-F20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230553,Poecilia_reticulata,male,Low Predation,Yarra,YAL-M10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230450,Poecilia_reticulata,female,High Predation,Aripo,ArH-F11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230457,Poecilia_reticulata,male,High Predation,Aripo,ArH-M12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230461,Poecilia_reticulata,male,High Predation,Aripo,ArH-M24,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230454,Poecilia_reticulata,male,High Predation,Aripo,ArH-M5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230469,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230470,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230471,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F22,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230474,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230475,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230477,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230479,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230472,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M1,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230473,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230509,Poecilia_reticulata,female,Low Predation,Quare,QuL-F11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230513,Poecilia_reticulata,male,Low Predation,Quare,QuL-M5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230490,Poecilia_reticulata,female,High Predation,Quare,QuH-F21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230491,Poecilia_reticulata,female,High Predation,Quare,QuH-F25,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230489,Poecilia_reticulata,female,High Predation,Quare,QuH-F3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230496,Poecilia_reticulata,male,High Predation,Quare,QuH-M10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230497,Poecilia_reticulata,male,High Predation,Quare,QuH-M13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230500,Poecilia_reticulata,male,High Predation,Quare,QuH-M22,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230492,Poecilia_reticulata,male,High Predation,Quare,QuH-M2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230516,Poecilia_reticulata,male,Low Predation,Quare,QuL-M11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230517,Poecilia_reticulata,male,Low Predation,Quare,QuL-M15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230518,Poecilia_reticulata,male,Low Predation,Quare,QuL-M17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230514,Poecilia_reticulata,male,Low Predation,Quare,QuL-M6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230515,Poecilia_reticulata,male,Low Predation,Quare,QuL-M8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230530,Poecilia_reticulata,female,High Predation,Yarra,YaH-F19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230537,Poecilia_reticulata,male,High Predation,Yarra,YaH-M17,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230531,Poecilia_reticulata,male,High Predation,Yarra,YaH-M2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230548,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230549,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F13,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230555,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230560,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M23,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230535,Poecilia_reticulata,male,High Predation,Yarra,YaH-M11,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230536,Poecilia_reticulata,male,High Predation,Yarra,YaH-M16,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230539,Poecilia_reticulata,male,High Predation,Yarra,YaH-M21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230532,Poecilia_reticulata,male,High Predation,Yarra,YaH-M5,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230459,Poecilia_reticulata,male,High Predation,Aripo,ArH-M19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230460,Poecilia_reticulata,male,High Predation,Aripo,ArH-M21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230453,Poecilia_reticulata,male,High Predation,Aripo,ArH-M2,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230455,Poecilia_reticulata,male,High Predation,Aripo,ArH-M7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230456,Poecilia_reticulata,male,High Predation,Aripo,ArH-M9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230480,Poecilia_reticulata,male,Low Predation,Aripo,ArL-M24,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230519,Poecilia_reticulata,male,Low Predation,Quare,QuL-M20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230511,Poecilia_reticulata,male,Low Predation,Quare,QuL-M2,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230499,Poecilia_reticulata,male,High Predation,Quare,QuH-M19,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230493,Poecilia_reticulata,male,High Predation,Quare,QuH-M3,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230520,Poecilia_reticulata,male,Low Predation,Quare,QuL-M25,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230528,Poecilia_reticulata,female,High Predation,Yarra,YaH-F1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230538,Poecilia_reticulata,male,High Predation,Yarra,YaH-M18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230540,Poecilia_reticulata,male,High Predation,Yarra,YaH-M23,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230533,Poecilia_reticulata,male,High Predation,Yarra,YaH-M6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230554,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M11,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230556,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M16,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230557,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M17,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230558,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230559,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M21,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230551,Poecilia_reticulata,male,Low Predation,Yarra,YaL-M7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230442,Poecilia_reticulata,female,High Predation,Aripo,ArH-F1,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230444,Poecilia_reticulata,female,High Predation,Aripo,ArH-F10,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230445,Poecilia_reticulata,female,High Predation,Aripo,ArH-F13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230447,Poecilia_reticulata,female,High Predation,Aripo,ArH-F23,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230448,Poecilia_reticulata,female,High Predation,Aripo,ArH-F25,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230482,Poecilia_reticulata,female,High Predation,Quare,QuH-F4,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230483,Poecilia_reticulata,female,High Predation,Quare,QuH-F6,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230504,Poecilia_reticulata,female,Low Predation,Quare,QuL-F14,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230505,Poecilia_reticulata,female,Low Predation,Quare,QuL-F15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230501,Poecilia_reticulata,female,Low Predation,Quare,QuL-F4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230503,Poecilia_reticulata,female,Low Predation,Quare,QuL-F7,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230446,Poecilia_reticulata,female,High Predation,Aripo,ArH-F14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230443,Poecilia_reticulata,female,High Predation,Aripo,ArH-F9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230488,Poecilia_reticulata,female,High Predation,Quare,QuH-F22,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230522,Poecilia_reticulata,female,High Predation,Yarra,YaH-F13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230524,Poecilia_reticulata,female,High Predation,Yarra,YaH-F15,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230525,Poecilia_reticulata,female,High Predation,Yarra,YaH-F18,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230526,Poecilia_reticulata,female,High Predation,Yarra,YaH-F21,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230527,Poecilia_reticulata,female,High Predation,Yarra,YaH-F24,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230521,Poecilia_reticulata,female,High Predation,Yarra,YaH-F9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230545,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230547,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F24,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230541,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F4,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230542,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230465,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F15,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230466,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F18,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230467,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230468,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F20,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230462,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F5,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230463,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F8,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230464,Poecilia_reticulata,female,Low Predation,Aripo,ArL-F9,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230486,Poecilia_reticulata,female,High Predation,Quare,QuH-F12,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230487,Poecilia_reticulata,female,High Predation,Quare,QuH-F13,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230484,Poecilia_reticulata,female,High Predation,Quare,QuH-F7,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230543,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F10,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230546,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F22,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230506,Poecilia_reticulata,female,Low Predation,Quare,QuL-F19,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230544,Poecilia_reticulata,female,Low Predation,Yarra,YaL-F12,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230523,Poecilia_reticulata,female,High Predation,Yarra,YaH-F14,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230485,Poecilia_reticulata,female,High Predation,Quare,QuH-F9,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230507,Poecilia_reticulata,female,Low Predation,Quare,QuL-F23,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJEB39998,SAMEA7230502,Poecilia_reticulata,female,Low Predation,Quare,QuL-F6,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036149,Poecilia_reticulata,male,High Predation,Aripo,Male_J001_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036166,Poecilia_reticulata,male,High Predation,Yarra,Male_J042_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036154,Poecilia_reticulata,male,Low Predation,Yarra,Male_J013_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036152,Poecilia_reticulata,male,High Predation,Aripo,Male_J005_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036157,Poecilia_reticulata,male,High Predation,Quare,Male_J016_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036168,Poecilia_reticulata,male,High Predation,Yarra,Male_J044_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036162,Poecilia_reticulata,male,Low Predation,Aripo,Male_J033_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036156,Poecilia_reticulata,male,Low Predation,Yarra,Male_J015_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036172,Poecilia_reticulata,male,Low Predation,Quare,Male_J054_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036170,Poecilia_reticulata,male,Low Predation,Quare,Male_J052_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036151,Poecilia_reticulata,male,High Predation,Aripo,Male_J004_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036164,Poecilia_reticulata,male,Low Predation,Aripo,Male_J035_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036163,Poecilia_reticulata,male,Low Predation,Aripo,Male_J034_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036150,Poecilia_reticulata,male,High Predation,Aripo,Male_J003_Aripo_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036167,Poecilia_reticulata,male,High Predation,Yarra,Male_J043_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036165,Poecilia_reticulata,male,High Predation,Yarra,Male_J041_Yarra_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036171,Poecilia_reticulata,male,Low Predation,Quare,Male_J053_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036169,Poecilia_reticulata,male,Low Predation,Quare,Male_J051_Quare_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036158,Poecilia_reticulata,male,High Predation,Quare,Male_J017_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036153,Poecilia_reticulata,male,Low Predation,Yarra,Male_J012_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036160,Poecilia_reticulata,male,High Predation,Quare,Male_J020_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036161,Poecilia_reticulata,male,Low Predation,Aripo,Male_J032_Aripo_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036159,Poecilia_reticulata,male,High Predation,Quare,Male_J019_Quare_high,Trinidad and Tobago,North America,Downstream,GCF_000633615.1,Poecilia_reticulata
+PRJNA353986,SAMN06036155,Poecilia_reticulata,male,Low Predation,Yarra,Male_J014_Yarra_low,Trinidad and Tobago,North America,Upstream,GCF_000633615.1,Poecilia_reticulata

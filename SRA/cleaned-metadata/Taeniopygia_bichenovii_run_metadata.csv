@@ -1,2 +1,2 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Taeniopygia_bichenovii,PRJEB10586,SAMEA3516844,ERR993524,unspecified,GCF_008822105.2
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMEA3516844,library_SAMEA3516844,GCF_008822105.2,ERR993524,Taeniopygia_bichenovii,PRJEB10586

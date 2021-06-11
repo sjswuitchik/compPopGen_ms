@@ -1,82 +1,82 @@
-BioProject,BioSample,Organism,Submitter_Id,sex,Locality,Country,Longitude,Latitude,Continent,refGenome
-PRJEB27649,SAMEA4785070,Passer_italiae,Crotone498,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785071,Passer_italiae,Crotone500,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785072,Passer_italiae,Crotone501,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785073,Passer_italiae,Crotone502,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785074,Passer_italiae,Crotone505,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785075,Passer_italiae,Crotone510,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785076,Passer_italiae,Crotone512,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785078,Passer_italiae,Crotone517,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785079,Passer_italiae,Crotone518,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785121,Passer_italiae,Rimini_100,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785122,Passer_italiae,Rimini_103,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785123,Passer_italiae,Rimini_104,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785124,Passer_italiae,Rimini_110,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785125,Passer_italiae,Rimini_112,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785126,Passer_italiae,Rimini_85,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785127,Passer_italiae,Rimini_88,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785128,Passer_italiae,Rimini_91,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785129,Passer_italiae,Rimini_93,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785130,Passer_italiae,Rimini_94,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785150,Passer_italiae,PO430,female,Lesina,Italy,"15°27'03"" E","41°51'30.84"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785077,Passer_italiae,Crotone514,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619721,Passer_italiae,Pitaliae_30_Guglionesi_436,male,Guglionesi,Italy,"~ 14° 54' 50.""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619719,Passer_italiae,Pitaliae_28_Guglionesi_434,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619718,Passer_italiae,Pitaliae_27_Guglionesi_433,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619717,Passer_italiae,Pitaliae_26_Guglionesi_432,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619716,Passer_italiae,Pitaliae_25_Guglionesi_431,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619715,Passer_italiae,Pitaliae_24_Guglionesi_429,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619714,Passer_italiae,Pitaliae_23_Guglionesi_428,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619712,Passer_italiae,Pitaliae_21_Guglionesi_426,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619713,Passer_italiae,Pitaliae_22_Guglionesi_427,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619720,Passer_italiae,Pitaliae_29_Guglionesi_435,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363372,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363373,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363374,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363375,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363376,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363377,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363378,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363379,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363380,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363381,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363382,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363383,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363384,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363385,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363386,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363387,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363388,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363389,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363390,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363391,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363392,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363393,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363394,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363395,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363397,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363398,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363399,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363400,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363401,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363402,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363403,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363404,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363405,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363406,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363408,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363409,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363410,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363411,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363412,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363413,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363414,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363415,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363416,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363417,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363418,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363419,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363420,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363421,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363422,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
-PRJEB22939,SAMEA104363407,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1
+BioProject,BioSample,Organism,Submitter_Id,sex,Locality,Country,Longitude,Latitude,Continent,refGenome,refSpecies
+PRJEB27649,SAMEA4785070,Passer_italiae,Crotone498,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785071,Passer_italiae,Crotone500,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785072,Passer_italiae,Crotone501,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785073,Passer_italiae,Crotone502,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785074,Passer_italiae,Crotone505,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785075,Passer_italiae,Crotone510,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785076,Passer_italiae,Crotone512,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785078,Passer_italiae,Crotone517,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785079,Passer_italiae,Crotone518,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785121,Passer_italiae,Rimini_100,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785122,Passer_italiae,Rimini_103,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785123,Passer_italiae,Rimini_104,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785124,Passer_italiae,Rimini_110,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785125,Passer_italiae,Rimini_112,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785126,Passer_italiae,Rimini_85,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785127,Passer_italiae,Rimini_88,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785128,Passer_italiae,Rimini_91,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785129,Passer_italiae,Rimini_93,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785130,Passer_italiae,Rimini_94,male,Rimini,Italy,"12°33'59.9"" E","44°01'41.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785150,Passer_italiae,PO430,female,Lesina,Italy,"15°27'03"" E","41°51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785077,Passer_italiae,Crotone514,male,Crotone,Italy,"17°06'59.4"" E","39°04'31.7"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619721,Passer_italiae,Pitaliae_30_Guglionesi_436,male,Guglionesi,Italy,"~ 14° 54' 50.""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619719,Passer_italiae,Pitaliae_28_Guglionesi_434,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619718,Passer_italiae,Pitaliae_27_Guglionesi_433,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619717,Passer_italiae,Pitaliae_26_Guglionesi_432,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619716,Passer_italiae,Pitaliae_25_Guglionesi_431,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619715,Passer_italiae,Pitaliae_24_Guglionesi_429,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619714,Passer_italiae,Pitaliae_23_Guglionesi_428,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619712,Passer_italiae,Pitaliae_21_Guglionesi_426,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619713,Passer_italiae,Pitaliae_22_Guglionesi_427,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619720,Passer_italiae,Pitaliae_29_Guglionesi_435,male,Guglionesi,Italy,"~ 14° 54' 50""E","~ 41° 54'48.25"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363372,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363373,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363374,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363375,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363376,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363377,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363378,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363379,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363380,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363381,Passer_italiae,NA,male,Crete,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363382,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363383,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363384,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363385,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363386,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363387,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363388,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363389,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363390,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363391,Passer_italiae,NA,male,Sicily,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363392,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363393,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363394,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363395,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363397,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363398,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363399,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363400,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363401,Passer_italiae,NA,male,Malta,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363402,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363403,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363404,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363405,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363406,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363408,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363409,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363410,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363411,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363412,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363413,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363414,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363415,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363416,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363417,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363418,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363419,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363420,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363421,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363422,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus
+PRJEB22939,SAMEA104363407,Passer_italiae,NA,male,Corsica,Italy,NA,NA,Europe,GCA_001700915.1,Passer_domesticus

@@ -1,133 +1,133 @@
-BioProject,BioSample,Organism,sex,Population,Collection_date,Submitter_Id,refGenome
-PRJNA485198,SAMN09786120,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKB6,GCF_000239415.1
-PRJNA485198,SAMN09786121,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKB7,GCF_000239415.1
-PRJNA485198,SAMN09786118,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKB3,GCF_000239415.1
-PRJNA485198,SAMN09786119,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKB5,GCF_000239415.1
-PRJNA485198,SAMN09786116,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKA9,GCF_000239415.1
-PRJNA485198,SAMN09786117,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKB2,GCF_000239415.1
-PRJNA485198,SAMN09786114,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKA5,GCF_000239415.1
-PRJNA485198,SAMN09786115,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKA6,GCF_000239415.1
-PRJNA485198,SAMN09786122,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC1,GCF_000239415.1
-PRJNA485198,SAMN09786123,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC2,GCF_000239415.1
-PRJNA485198,SAMN09786107,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH9,GCF_000239415.1
-PRJNA485198,SAMN09786106,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH8,GCF_000239415.1
-PRJNA485198,SAMN09786105,Haplochromis_burtoni,female,Kalambo River 1,2015-12,LKH6,GCF_000239415.1
-PRJNA485198,SAMN09786104,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH5,GCF_000239415.1
-PRJNA485198,SAMN09786111,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MJI8,GCF_000239415.1
-PRJNA485198,SAMN09786110,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MJI7,GCF_000239415.1
-PRJNA485198,SAMN09786109,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKI2,GCF_000239415.1
-PRJNA485198,SAMN09786108,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKI1,GCF_000239415.1
-PRJNA485198,SAMN09786113,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKA4,GCF_000239415.1
-PRJNA485198,SAMN09786077,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF6,GCF_000239415.1
-PRJNA485198,SAMN09786076,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF5,GCF_000239415.1
-PRJNA485198,SAMN09786125,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MKC4,GCF_000239415.1
-PRJNA485198,SAMN09786075,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF4,GCF_000239415.1
-PRJNA485198,SAMN09786080,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKF9,GCF_000239415.1
-PRJNA485198,SAMN09786079,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKF8,GCF_000239415.1
-PRJNA485198,SAMN09786078,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF7,GCF_000239415.1
-PRJNA485198,SAMN09786174,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKE6,GCF_000239415.1
-PRJNA485198,SAMN09786175,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE8,GCF_000239415.1
-PRJNA485198,SAMN09786176,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE9,GCF_000239415.1
-PRJNA485198,SAMN09786177,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF2,GCF_000239415.1
-PRJNA485198,SAMN09786178,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKF3,GCF_000239415.1
-PRJNA485198,SAMN09786179,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF5,GCF_000239415.1
-PRJNA485198,SAMN09786180,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF7,GCF_000239415.1
-PRJNA485198,SAMN09786181,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF8,GCF_000239415.1
-PRJNA485198,SAMN09786102,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH3,GCF_000239415.1
-PRJNA485198,SAMN09786103,Haplochromis_burtoni,female,Kalambo River 1,2015-12,LKH4,GCF_000239415.1
-PRJNA485198,SAMN09786098,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKG8,GCF_000239415.1
-PRJNA485198,SAMN09786100,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH1,GCF_000239415.1
-PRJNA485198,SAMN09786101,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH2,GCF_000239415.1
-PRJNA485198,SAMN09786094,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG8,GCF_000239415.1
-PRJNA485198,SAMN09786095,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG9,GCF_000239415.1
-PRJNA485198,SAMN09786096,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNH2,GCF_000239415.1
-PRJNA485198,SAMN09786097,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNH3,GCF_000239415.1
-PRJNA485198,SAMN09786193,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA2,GCF_000239415.1
-PRJNA485198,SAMN09786192,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA1,GCF_000239415.1
-PRJNA485198,SAMN09786191,Haplochromis_burtoni,male,Rusizi River,2015-01,KBG7,GCF_000239415.1
-PRJNA485198,SAMN09786190,Haplochromis_burtoni,male,Rusizi River,2015-01,KBG6,GCF_000239415.1
-PRJNA485198,SAMN09786189,Haplochromis_burtoni,female,Rusizi River,2015-01,KBC9,GCF_000239415.1
-PRJNA485198,SAMN09786188,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC8,GCF_000239415.1
-PRJNA485198,SAMN09786187,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC7,GCF_000239415.1
-PRJNA485198,SAMN09786186,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC6,GCF_000239415.1
-PRJNA485198,SAMN09786185,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC5,GCF_000239415.1
-PRJNA485198,SAMN09786184,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC4,GCF_000239415.1
-PRJNA485198,SAMN09786164,Haplochromis_burtoni,female,Lunzua River,2015-08,MJG3,GCF_000239415.1
-PRJNA485198,SAMN09786167,Haplochromis_burtoni,female,Lunzua River,2015-08,MJH2,GCF_000239415.1
-PRJNA485198,SAMN09786166,Haplochromis_burtoni,female,Lunzua River,2015-08,MJH1,GCF_000239415.1
-PRJNA485198,SAMN09786169,Haplochromis_burtoni,male,Lunzua River,2015-08,MJH4,GCF_000239415.1
-PRJNA485198,SAMN09786168,Haplochromis_burtoni,male,Lunzua River,2015-08,MJH3,GCF_000239415.1
-PRJNA485198,SAMN09786171,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE1,GCF_000239415.1
-PRJNA485198,SAMN09786170,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKD8,GCF_000239415.1
-PRJNA485198,SAMN09786173,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE5,GCF_000239415.1
-PRJNA485198,SAMN09786172,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKE4,GCF_000239415.1
-PRJNA485198,SAMN09786074,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF3,GCF_000239415.1
-PRJNA485198,SAMN09786093,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG7,GCF_000239415.1
-PRJNA485198,SAMN09786092,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG6,GCF_000239415.1
-PRJNA485198,SAMN09786085,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKG5,GCF_000239415.1
-PRJNA485198,SAMN09786086,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNF3,GCF_000239415.1
-PRJNA485198,SAMN09786089,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNG2,GCF_000239415.1
-PRJNA485198,SAMN09786088,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNF7,GCF_000239415.1
-PRJNA485198,SAMN09786091,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG5,GCF_000239415.1
-PRJNA485198,SAMN09786090,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNG3,GCF_000239415.1
-PRJNA485198,SAMN09786153,Haplochromis_burtoni,female,Lufubu River,2015-11,MFF4,GCF_000239415.1
-PRJNA485198,SAMN09786152,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF3,GCF_000239415.1
-PRJNA485198,SAMN09786081,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG1,GCF_000239415.1
-PRJNA485198,SAMN09786150,Haplochromis_burtoni,male,Lufubu River,2015-11,MFE9,GCF_000239415.1
-PRJNA485198,SAMN09786149,Haplochromis_burtoni,female,Lufubu River,2015-11,MFE8,GCF_000239415.1
-PRJNA485198,SAMN09786148,Haplochromis_burtoni,female,Lufubu River,2015-11,MFE6,GCF_000239415.1
-PRJNA485198,SAMN09786145,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFE1,GCF_000239415.1
-PRJNA485198,SAMN09786144,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD9,GCF_000239415.1
-PRJNA485198,SAMN09786202,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB9,GCF_000239415.1
-PRJNA485198,SAMN09786196,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZA9,GCF_000239415.1
-PRJNA485198,SAMN09786197,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB2,GCF_000239415.1
-PRJNA485198,SAMN09786194,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA3,GCF_000239415.1
-PRJNA485198,SAMN09786195,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA5,GCF_000239415.1
-PRJNA485198,SAMN09786200,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB6,GCF_000239415.1
-PRJNA485198,SAMN09786201,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB8,GCF_000239415.1
-PRJNA485198,SAMN09786198,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZB3,GCF_000239415.1
-PRJNA485198,SAMN09786199,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB5,GCF_000239415.1
-PRJNA485198,SAMN09786156,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF7,GCF_000239415.1
-PRJNA485198,SAMN09786157,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF9,GCF_000239415.1
-PRJNA485198,SAMN09786154,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF5,GCF_000239415.1
-PRJNA485198,SAMN09786155,Haplochromis_burtoni,female,Lufubu River,2015-11,MFF6,GCF_000239415.1
-PRJNA485198,SAMN09786160,Haplochromis_burtoni,female,Lunzua River,2015-08,MJF5,GCF_000239415.1
-PRJNA485198,SAMN09786161,Haplochromis_burtoni,female,Lunzua River,2015-08,MJF6,GCF_000239415.1
-PRJNA485198,SAMN09786158,Haplochromis_burtoni,male,Lunzua River,2015-08,MJF3,GCF_000239415.1
-PRJNA485198,SAMN09786159,Haplochromis_burtoni,male,Lunzua River,2015-08,MJF4,GCF_000239415.1
-PRJNA485198,SAMN09786162,Haplochromis_burtoni,female,Lunzua River,2015-08,MJF9,GCF_000239415.1
-PRJNA485198,SAMN09786163,Haplochromis_burtoni,male,Lunzua River,2015-08,MJG2,GCF_000239415.1
-PRJNA485198,SAMN09786142,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD5,GCF_000239415.1
-PRJNA485198,SAMN09786134,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC1,GCF_000239415.1
-PRJNA485198,SAMN09786136,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC3,GCF_000239415.1
-PRJNA485198,SAMN09786137,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFC4,GCF_000239415.1
-PRJNA485198,SAMN09786138,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC6,GCF_000239415.1
-PRJNA485198,SAMN09786139,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC7,GCF_000239415.1
-PRJNA485198,SAMN09786140,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFD1,GCF_000239415.1
-PRJNA485198,SAMN09786141,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD4,GCF_000239415.1
-PRJNA485198,SAMN09786205,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZC8,GCF_000239415.1
-PRJNA485198,SAMN09786204,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZC7,GCF_000239415.1
-PRJNA485198,SAMN09786151,Haplochromis_burtoni,female,Lufubu River,2015-11,MFF1,GCF_000239415.1
-PRJNA485198,SAMN09786129,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MKG2,GCF_000239415.1
-PRJNA485198,SAMN09786128,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC9,GCF_000239415.1
-PRJNA485198,SAMN09786131,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MLE3,GCF_000239415.1
-PRJNA485198,SAMN09786130,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MKG7,GCF_000239415.1
-PRJNA485198,SAMN09786124,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC3,GCF_000239415.1
-PRJNA485198,SAMN09786127,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC7,GCF_000239415.1
-PRJNA485198,SAMN09786126,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC5,GCF_000239415.1
-PRJNA485198,SAMN09786133,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MLE6,GCF_000239415.1
-PRJNA485198,SAMN09786132,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MLE5,GCF_000239415.1
-PRJNA485198,SAMN09786083,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG3,GCF_000239415.1
-PRJNA485198,SAMN09786165,Haplochromis_burtoni,male,Lunzua River,2015-08,MJG4,GCF_000239415.1
-PRJNA485198,SAMN09786143,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD6,GCF_000239415.1
-PRJNA485198,SAMN09786147,Haplochromis_burtoni,female,Lufubu River,2015-11,MFE5,GCF_000239415.1
-PRJNA485198,SAMN09786099,Haplochromis_burtoni,female,Kalambo River 1,2015-12,LKG9,GCF_000239415.1
-PRJNA485198,SAMN09786084,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG4,GCF_000239415.1
-PRJNA485198,SAMN09786146,Haplochromis_burtoni,male,Lufubu River,2015-11,MFE3,GCF_000239415.1
-PRJNA485198,SAMN09786183,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC3,GCF_000239415.1
-PRJNA485198,SAMN09786203,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZC6,GCF_000239415.1
-PRJNA485198,SAMN09786135,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC2,GCF_000239415.1
-PRJNA485198,SAMN09786112,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKA1,GCF_000239415.1
-PRJNA485198,SAMN09786082,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG2,GCF_000239415.1
-PRJNA485198,SAMN09786087,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNF4,GCF_000239415.1
-PRJNA485198,SAMN09786182,Haplochromis_burtoni,female,Rusizi River,2015-01,KBB9,GCF_000239415.1
+BioProject,BioSample,Organism,sex,Population,Collection_date,Submitter_Id,refGenome,refSpecies
+PRJNA485198,SAMN09786120,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKB6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786121,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKB7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786118,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKB3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786119,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKB5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786116,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKA9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786117,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKB2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786114,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKA5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786115,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKA6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786122,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786123,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786107,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786106,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786105,Haplochromis_burtoni,female,Kalambo River 1,2015-12,LKH6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786104,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786111,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MJI8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786110,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MJI7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786109,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKI2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786108,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKI1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786113,Haplochromis_burtoni,female,Kalambo Lake,2015-08,MKA4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786077,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786076,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786125,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MKC4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786075,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786080,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKF9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786079,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKF8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786078,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786174,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKE6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786175,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786176,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786177,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786178,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKF3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786179,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786180,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786181,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKF8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786102,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786103,Haplochromis_burtoni,female,Kalambo River 1,2015-12,LKH4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786098,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKG8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786100,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786101,Haplochromis_burtoni,male,Kalambo River 1,2015-12,LKH2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786094,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786095,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786096,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNH2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786097,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNH3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786193,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786192,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786191,Haplochromis_burtoni,male,Rusizi River,2015-01,KBG7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786190,Haplochromis_burtoni,male,Rusizi River,2015-01,KBG6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786189,Haplochromis_burtoni,female,Rusizi River,2015-01,KBC9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786188,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786187,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786186,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786185,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786184,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786164,Haplochromis_burtoni,female,Lunzua River,2015-08,MJG3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786167,Haplochromis_burtoni,female,Lunzua River,2015-08,MJH2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786166,Haplochromis_burtoni,female,Lunzua River,2015-08,MJH1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786169,Haplochromis_burtoni,male,Lunzua River,2015-08,MJH4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786168,Haplochromis_burtoni,male,Lunzua River,2015-08,MJH3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786171,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786170,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKD8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786173,Haplochromis_burtoni,male,Lunzua Lake,2015-08,MKE5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786172,Haplochromis_burtoni,female,Lunzua Lake,2015-08,MKE4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786074,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKF3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786093,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786092,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786085,Haplochromis_burtoni,female,Chitili Lake,2015-12,LKG5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786086,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNF3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786089,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNG2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786088,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNF7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786091,Haplochromis_burtoni,female,Chitili Creek,2015-12,MNG5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786090,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNG3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786153,Haplochromis_burtoni,female,Lufubu River,2015-11,MFF4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786152,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786081,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786150,Haplochromis_burtoni,male,Lufubu River,2015-11,MFE9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786149,Haplochromis_burtoni,female,Lufubu River,2015-11,MFE8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786148,Haplochromis_burtoni,female,Lufubu River,2015-11,MFE6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786145,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFE1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786144,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786202,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786196,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZA9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786197,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786194,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786195,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZA5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786200,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786201,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786198,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZB3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786199,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZB5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786156,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786157,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786154,Haplochromis_burtoni,male,Lufubu River,2015-11,MFF5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786155,Haplochromis_burtoni,female,Lufubu River,2015-11,MFF6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786160,Haplochromis_burtoni,female,Lunzua River,2015-08,MJF5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786161,Haplochromis_burtoni,female,Lunzua River,2015-08,MJF6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786158,Haplochromis_burtoni,male,Lunzua River,2015-08,MJF3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786159,Haplochromis_burtoni,male,Lunzua River,2015-08,MJF4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786162,Haplochromis_burtoni,female,Lunzua River,2015-08,MJF9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786163,Haplochromis_burtoni,male,Lunzua River,2015-08,MJG2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786142,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786134,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786136,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786137,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFC4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786138,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786139,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786140,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFD1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786141,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786205,Haplochromis_burtoni,male,Rusizi Lake,2015-01,KZC8,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786204,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZC7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786151,Haplochromis_burtoni,female,Lufubu River,2015-11,MFF1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786129,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MKG2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786128,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786131,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MLE3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786130,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MKG7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786124,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786127,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC7,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786126,Haplochromis_burtoni,male,Kalambo River 2,2015-08,MKC5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786133,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MLE6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786132,Haplochromis_burtoni,female,Kalambo River 2,2015-08,MLE5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786083,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786165,Haplochromis_burtoni,male,Lunzua River,2015-08,MJG4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786143,Haplochromis_burtoni,female,Lufubu Lake,2015-11,MFD6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786147,Haplochromis_burtoni,female,Lufubu River,2015-11,MFE5,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786099,Haplochromis_burtoni,female,Kalambo River 1,2015-12,LKG9,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786084,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786146,Haplochromis_burtoni,male,Lufubu River,2015-11,MFE3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786183,Haplochromis_burtoni,male,Rusizi River,2015-01,KBC3,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786203,Haplochromis_burtoni,female,Rusizi Lake,2015-01,KZC6,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786135,Haplochromis_burtoni,male,Lufubu Lake,2015-11,MFC2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786112,Haplochromis_burtoni,male,Kalambo Lake,2015-08,MKA1,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786082,Haplochromis_burtoni,male,Chitili Lake,2015-12,LKG2,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786087,Haplochromis_burtoni,male,Chitili Creek,2015-12,MNF4,GCF_000239415.1,Haplochromis_burtoni
+PRJNA485198,SAMN09786182,Haplochromis_burtoni,female,Rusizi River,2015-01,KBB9,GCF_000239415.1,Haplochromis_burtoni

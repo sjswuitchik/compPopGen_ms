@@ -1,22 +1,22 @@
-BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome
-PRJNA612146,SAMN14363178,Hippocampus_erectus,missing,Het_11,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363177,Hippocampus_erectus,missing,Het_10,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363175,Hippocampus_erectus,missing,Het_8,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363174,Hippocampus_erectus,missing,Het_7,Chesapeake Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363172,Hippocampus_erectus,missing,Het_4,Chesapeake Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363170,Hippocampus_erectus,missing,Het_2,Chesapeake Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363189,Hippocampus_erectus,missing,Het_S2,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363188,Hippocampus_erectus,missing,Het_S1,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363187,Hippocampus_erectus,missing,Het_20,Palm Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363185,Hippocampus_erectus,missing,Het_18,Palm Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363184,Hippocampus_erectus,missing,Het_17,Palm Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363176,Hippocampus_erectus,missing,Het_9,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363173,Hippocampus_erectus,missing,Het_6,Chesapeake Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363171,Hippocampus_erectus,missing,Het_3,Chesapeake Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363169,Hippocampus_erectus,missing,Het_1,Chesapeake Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363186,Hippocampus_erectus,missing,Het_19,Palm Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363183,Hippocampus_erectus,missing,Het_16,Palm Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363181,Hippocampus_erectus,missing,Het_14,Palm Bay,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363179,Hippocampus_erectus,missing,Het_12,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363180,Hippocampus_erectus,missing,Het_13,Tampa,NA,US,GCF_001891065.1
-PRJNA612146,SAMN14363182,Hippocampus_erectus,missing,Het_15,Palm Bay,NA,US,GCF_001891065.1
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome,refSpecies
+PRJNA612146,SAMN14363178,Hippocampus_erectus,missing,Het_11,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363177,Hippocampus_erectus,missing,Het_10,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363175,Hippocampus_erectus,missing,Het_8,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363174,Hippocampus_erectus,missing,Het_7,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363172,Hippocampus_erectus,missing,Het_4,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363170,Hippocampus_erectus,missing,Het_2,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363189,Hippocampus_erectus,missing,Het_S2,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363188,Hippocampus_erectus,missing,Het_S1,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363187,Hippocampus_erectus,missing,Het_20,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363185,Hippocampus_erectus,missing,Het_18,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363184,Hippocampus_erectus,missing,Het_17,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363176,Hippocampus_erectus,missing,Het_9,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363173,Hippocampus_erectus,missing,Het_6,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363171,Hippocampus_erectus,missing,Het_3,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363169,Hippocampus_erectus,missing,Het_1,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363186,Hippocampus_erectus,missing,Het_19,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363183,Hippocampus_erectus,missing,Het_16,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363181,Hippocampus_erectus,missing,Het_14,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363179,Hippocampus_erectus,missing,Het_12,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363180,Hippocampus_erectus,missing,Het_13,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363182,Hippocampus_erectus,missing,Het_15,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes

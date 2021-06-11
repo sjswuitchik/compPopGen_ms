@@ -1,21 +1,21 @@
-BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome
-PRJNA612146,SAMN14363266,Hippocampus_ingens,missing,Hig_S2,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363264,Hippocampus_ingens,missing,Hig_22,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363261,Hippocampus_ingens,missing,Hig_18,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363259,Hippocampus_ingens,missing,Hig_16,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363258,Hippocampus_ingens,missing,Hig_14,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363256,Hippocampus_ingens,missing,Hig_12,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363250,Hippocampus_ingens,missing,Hig_5,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363247,Hippocampus_ingens,missing,Hig_1,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363265,Hippocampus_ingens,missing,Hig_S1,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363263,Hippocampus_ingens,missing,Hig_20,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363262,Hippocampus_ingens,missing,Hig_19,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363260,Hippocampus_ingens,missing,Hig_17,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363257,Hippocampus_ingens,missing,Hig_13,Lima,NA,Peru,GCF_001891065.1
-PRJNA612146,SAMN14363253,Hippocampus_ingens,missing,Hig_8,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363251,Hippocampus_ingens,missing,Hig_6,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363249,Hippocampus_ingens,missing,Hig_4,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363248,Hippocampus_ingens,missing,Hig_3,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363255,Hippocampus_ingens,missing,Hig_11,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363254,Hippocampus_ingens,missing,Hig_9,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
-PRJNA612146,SAMN14363252,Hippocampus_ingens,missing,Hig_7,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome,refSpecies
+PRJNA612146,SAMN14363266,Hippocampus_ingens,missing,Hig_S2,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363264,Hippocampus_ingens,missing,Hig_22,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363261,Hippocampus_ingens,missing,Hig_18,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363259,Hippocampus_ingens,missing,Hig_16,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363258,Hippocampus_ingens,missing,Hig_14,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363256,Hippocampus_ingens,missing,Hig_12,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363250,Hippocampus_ingens,missing,Hig_5,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363247,Hippocampus_ingens,missing,Hig_1,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363265,Hippocampus_ingens,missing,Hig_S1,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363263,Hippocampus_ingens,missing,Hig_20,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363262,Hippocampus_ingens,missing,Hig_19,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363260,Hippocampus_ingens,missing,Hig_17,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363257,Hippocampus_ingens,missing,Hig_13,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363253,Hippocampus_ingens,missing,Hig_8,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363251,Hippocampus_ingens,missing,Hig_6,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363249,Hippocampus_ingens,missing,Hig_4,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363248,Hippocampus_ingens,missing,Hig_3,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363255,Hippocampus_ingens,missing,Hig_11,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363254,Hippocampus_ingens,missing,Hig_9,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363252,Hippocampus_ingens,missing,Hig_7,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes

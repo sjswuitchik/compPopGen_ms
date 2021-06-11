@@ -81,6 +81,7 @@ write_metadata <- function(df, refSp) {
   
   df %>% mutate(refGenome = refGenome) %>% 
     select(BioSample, LibraryName, refGenome, Run, Organism, BioProject) %>% distinct() %>%
+    mutate(LibraryName = as.character(LibraryName)) %>%
     mutate(LibraryName = case_when(
       LibraryName == "unspecified" ~ str_c("library_", BioSample),
       TRUE ~ LibraryName
@@ -113,7 +114,7 @@ sp<-"Amphilophus_citrinellus"
 bp<-"PRJEB38173"
 
 #metadata from paper
-dryad_link<-"https://datadryad.org/stash/downloads/file_stream/561311"
+dryad_link<-"https://datadryad.org/stash/downloads/file_stream/354529"
 paper<-read_csv(dryad_link) %>% select(Sample_name, Species, Lake, Sampling_Year)
 
 sra<-get_sra(bp, opt_cols = c("Submitter_Id")) %>%
@@ -734,13 +735,17 @@ sra3<-get_sra(bp, opt_cols=c("Alias")) %>%
 
 #some extraneous stuff in the BioProject for some reason, so filter to keep only samples from paper to be sure the metadata is correct
 
-samples<-read_delim("https://datadryad.org/stash/downloads/file_stream/332334", delim=" ")
+samples<-read_delim("https://datadryad.org/stash/downloads/file_stream/238534", delim=" ")
 
 sra3 <- filter(sra3, Submitter_Id %in% samples$id) %>% mutate(sex = "male")
 
 ## Biorproject 4 ## 
 
 bp<-"PRJEB2984"
+#need to download this from RunSelector, not automated but the SraRunTable file is in the repo
+#this is a truly horrible way to do this
+system("Rscript --vanilla cleanup_runselector.R SraRunTablePRJEB2984.txt")
+##back to normal processing
 sra4<-get_sra(bp, opt_cols=c("LibrarySource", "Title")) %>%
   filter(LibrarySource == "GENOMIC") %>% 
   rename(Submitter_Id = Title) %>% select(-LibrarySource) %>% distinct() %>%

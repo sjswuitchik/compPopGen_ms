@@ -1,2 +1,2 @@
-BioProject,BioSample,Alias,Organism,subspecies,sex,Locality,Province,Country,Continent,refGenome
-PRJEB10586,SAMEA3516844,DBF,Taeniopygia_bichenovii,NA,male,captive-born,NA,Australia,Australia,GCF_008822105.2
+BioProject,BioSample,Submitter_ID,Organism,subspecies,sex,Locality,Province,Country,Continent,refGenome,refSpecies
+PRJEB10586,SAMEA3516844,DBF,Taeniopygia_bichenovii,NA,male,captive-born,NA,Australia,Australia,GCF_008822105.2,Taeniopygia_guttata

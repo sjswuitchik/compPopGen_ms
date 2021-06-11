@@ -1,2 +1,2 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Anolis_porcatus,PRJNA533001,SAMN11458512,SRR8983025,AP08,GCF_000090745.1
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMN11458512,AP08,GCF_000090745.1,SRR8983025,Anolis_porcatus,PRJNA533001

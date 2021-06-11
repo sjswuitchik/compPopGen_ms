@@ -1,45 +1,45 @@
-BioProject,BioSample,Organism,Submitter_Id,sex,Locality,Country,Longitude,Latitude,Continent,refGenome
-PRJEB27649,SAMEA4785080,Passer_domesticus,FR041,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785081,Passer_domesticus,FR044,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785082,Passer_domesticus,FR046,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785083,Passer_domesticus,FR048,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785084,Passer_domesticus,FR049,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785085,Passer_domesticus,FR050,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785086,Passer_domesticus,FR051,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785088,Passer_domesticus,FR063,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785089,Passer_domesticus,FR064,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785093,Passer_domesticus,KAZ14005,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785094,Passer_domesticus,KAZ14011,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785095,Passer_domesticus,KAZ14014,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785096,Passer_domesticus,KAZ14016,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785097,Passer_domesticus,KAZ14018,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785098,Passer_domesticus,KAZ14019,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785099,Passer_domesticus,KAZ14020,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785100,Passer_domesticus,KAZ14021,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785101,Passer_domesticus,KAZ14022,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785102,Passer_domesticus,KAZ14026,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785111,Passer_domesticus,PO250,male,Oslo,Norway,"10°43'29.6"" E","59°56'03.5"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785112,Passer_domesticus,Pdomesticus_10_Golestan_109,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785113,Passer_domesticus,Pdomesticus_2_Kardeh_1,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785114,Passer_domesticus,Pdomesticus_3_Kardeh_2,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785116,Passer_domesticus,Pdomesticus_5_Kardeh_7,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785117,Passer_domesticus,Pdomesticus_6-Golestan_102,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785118,Passer_domesticus,Pdomesticus_7_Goestan_103,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785119,Passer_domesticus,Pdomesticus_8_Golestan_104,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785120,Passer_domesticus,Pdomesticus_9_Golestan_105,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1
-PRJEB27649,SAMEA4785151,Passer_domesticus,8934547,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785152,Passer_domesticus,8L19766,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785153,Passer_domesticus,8L52830,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785154,Passer_domesticus,8N05240,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785087,Passer_domesticus,FR061,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1
-PRJEB27649,SAMEA4785115,Passer_domesticus,Pdomesticus_4_Kardeh_4,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1
-PRJNA255814,SAMN06619701,Passer_domesticus,8N73604,male,Lauvøya,Norway,~ 09° 56' 07'' E,"~ 63° 55' 36''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619700,Passer_domesticus,8N73248,male,Lauvøya,Norway,~ 09° 56' 07'' E,"~ 63° 55' 36''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619699,Passer_domesticus,8N06612,male,Linesøya,Norway,~ 09° 55' 15'' E,"~ 64° 01' 40''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619698,Passer_domesticus,8N05890,male,Leka,Norway,~ 11° 36' 12'' E,"~ 65° 02' 58''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619697,Passer_domesticus,8M72455,male,Kvål,Norway,~ 10° 16' 33'' E,"~ 63° 14' 12''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619696,Passer_domesticus,8M71932,male,Løkta,Norway,~ 12° 43' 16'' E,"~ 66° 10' 51''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619695,Passer_domesticus,8M31651,male,Leka,Norway,~ 11° 42' 00'' E,"~ 65° 05' 53''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619694,Passer_domesticus,8L89915,male,Træna,Norway,~ 12° 06' 02'' E,"~ 66° 30' 04''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619693,Passer_domesticus,8L64869,male,Leka,Norway,~ 11° 43' 20'' E,"~ 65° 05' 28''N",Europe,GCA_001700915.1
-PRJNA255814,SAMN06619692,Passer_domesticus,8L19786,male,Alta,Norway,~ 23° 29' 01'' E,"~ 69° 58' 23.''N",Europe,GCA_001700915.1
+BioProject,BioSample,Organism,Submitter_Id,sex,Locality,Country,Longitude,Latitude,Continent,refGenome,refSpecies
+PRJEB27649,SAMEA4785080,Passer_domesticus,FR041,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785081,Passer_domesticus,FR044,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785082,Passer_domesticus,FR046,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785083,Passer_domesticus,FR048,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785084,Passer_domesticus,FR049,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785085,Passer_domesticus,FR050,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785086,Passer_domesticus,FR051,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785088,Passer_domesticus,FR063,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785089,Passer_domesticus,FR064,male,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785093,Passer_domesticus,KAZ14005,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785094,Passer_domesticus,KAZ14011,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785095,Passer_domesticus,KAZ14014,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785096,Passer_domesticus,KAZ14016,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785097,Passer_domesticus,KAZ14018,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785098,Passer_domesticus,KAZ14019,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785099,Passer_domesticus,KAZ14020,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785100,Passer_domesticus,KAZ14021,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785101,Passer_domesticus,KAZ14022,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785102,Passer_domesticus,KAZ14026,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785111,Passer_domesticus,PO250,male,Oslo,Norway,"10°43'29.6"" E","59°56'03.5"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785112,Passer_domesticus,Pdomesticus_10_Golestan_109,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785113,Passer_domesticus,Pdomesticus_2_Kardeh_1,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785114,Passer_domesticus,Pdomesticus_3_Kardeh_2,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785116,Passer_domesticus,Pdomesticus_5_Kardeh_7,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785117,Passer_domesticus,Pdomesticus_6-Golestan_102,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785118,Passer_domesticus,Pdomesticus_7_Goestan_103,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785119,Passer_domesticus,Pdomesticus_8_Golestan_104,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785120,Passer_domesticus,Pdomesticus_9_Golestan_105,male,Golestan,Iran,"54°37'53.5"" E","37°03'07.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785151,Passer_domesticus,8934547,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785152,Passer_domesticus,8L19766,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785153,Passer_domesticus,8L52830,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785154,Passer_domesticus,8N05240,male,Aldra,Norway,"13° 06' 29"" E","66° 24' 03"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785087,Passer_domesticus,FR061,female,Sales,France,"5°57'40"" E","45°52'27"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785115,Passer_domesticus,Pdomesticus_4_Kardeh_4,male,Kardeh,Iran,"59°40'03.5"" E","36°39'21.7"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619701,Passer_domesticus,8N73604,male,Lauvøya,Norway,~ 09° 56' 07'' E,"~ 63° 55' 36''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619700,Passer_domesticus,8N73248,male,Lauvøya,Norway,~ 09° 56' 07'' E,"~ 63° 55' 36''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619699,Passer_domesticus,8N06612,male,Linesøya,Norway,~ 09° 55' 15'' E,"~ 64° 01' 40''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619698,Passer_domesticus,8N05890,male,Leka,Norway,~ 11° 36' 12'' E,"~ 65° 02' 58''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619697,Passer_domesticus,8M72455,male,Kvål,Norway,~ 10° 16' 33'' E,"~ 63° 14' 12''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619696,Passer_domesticus,8M71932,male,Løkta,Norway,~ 12° 43' 16'' E,"~ 66° 10' 51''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619695,Passer_domesticus,8M31651,male,Leka,Norway,~ 11° 42' 00'' E,"~ 65° 05' 53''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619694,Passer_domesticus,8L89915,male,Træna,Norway,~ 12° 06' 02'' E,"~ 66° 30' 04''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619693,Passer_domesticus,8L64869,male,Leka,Norway,~ 11° 43' 20'' E,"~ 65° 05' 28''N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619692,Passer_domesticus,8L19786,male,Alta,Norway,~ 23° 29' 01'' E,"~ 69° 58' 23.''N",Europe,GCA_001700915.1,Passer_domesticus

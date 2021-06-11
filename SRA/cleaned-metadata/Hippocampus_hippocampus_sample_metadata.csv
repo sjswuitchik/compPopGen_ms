@@ -1,17 +1,17 @@
-BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome
-PRJNA612146,SAMN14363212,Hippocampus_hippocampus,missing,Hhc_4,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363210,Hippocampus_hippocampus,missing,Hhc_2,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363223,Hippocampus_hippocampus,missing,Hhc_19,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363222,Hippocampus_hippocampus,missing,Hhc_18,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363217,Hippocampus_hippocampus,missing,Hhc_11,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363215,Hippocampus_hippocampus,missing,Hhc_7,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363214,Hippocampus_hippocampus,missing,Hhc_6,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363211,Hippocampus_hippocampus,missing,Hhc_3,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363221,Hippocampus_hippocampus,missing,Hhc_16,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363219,Hippocampus_hippocampus,missing,Hhc_13,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363216,Hippocampus_hippocampus,missing,Hhc_8,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363213,Hippocampus_hippocampus,missing,Hhc_5,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363220,Hippocampus_hippocampus,missing,Hhc_15,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363224,Hippocampus_hippocampus,missing,Hhc_20,Tunis,NA,Tunisia,GCF_001891065.1
-PRJNA612146,SAMN14363209,Hippocampus_hippocampus,missing,Hhc_1,Las Palmas,NA,Spain,GCF_001891065.1
-PRJNA612146,SAMN14363218,Hippocampus_hippocampus,missing,Hhc_12,Tunis,NA,Tunisia,GCF_001891065.1
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome,refSpecies
+PRJNA612146,SAMN14363212,Hippocampus_hippocampus,missing,Hhc_4,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363210,Hippocampus_hippocampus,missing,Hhc_2,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363223,Hippocampus_hippocampus,missing,Hhc_19,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363222,Hippocampus_hippocampus,missing,Hhc_18,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363217,Hippocampus_hippocampus,missing,Hhc_11,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363215,Hippocampus_hippocampus,missing,Hhc_7,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363214,Hippocampus_hippocampus,missing,Hhc_6,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363211,Hippocampus_hippocampus,missing,Hhc_3,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363221,Hippocampus_hippocampus,missing,Hhc_16,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363219,Hippocampus_hippocampus,missing,Hhc_13,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363216,Hippocampus_hippocampus,missing,Hhc_8,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363213,Hippocampus_hippocampus,missing,Hhc_5,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363220,Hippocampus_hippocampus,missing,Hhc_15,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363224,Hippocampus_hippocampus,missing,Hhc_20,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363209,Hippocampus_hippocampus,missing,Hhc_1,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363218,Hippocampus_hippocampus,missing,Hhc_12,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes

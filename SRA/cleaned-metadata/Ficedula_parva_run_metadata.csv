@@ -1,2 +1,2 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Ficedula_parva,PRJEB7359,SAMEA3175208,ERR700626,NRM996601_450,GCF_000247815.1
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMEA3175208,NRM996601_450,GCF_000247815.1,ERR700626,Ficedula_parva,PRJEB7359

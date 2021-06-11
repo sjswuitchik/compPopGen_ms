@@ -1,3 +1,3 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Hypoplectrus_gummigutta,PRJEB27858,SAMEA4799792,ERR2751063,18449,GCA_900610375.1
-Hypoplectrus_gummigutta,PRJEB27858,SAMEA4799792,ERR2751064,18449,GCA_900610375.1
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMEA4799792,18449,GCA_900610375.1,ERR2751063,Hypoplectrus_gummigutta,PRJEB27858
+SAMEA4799792,18449,GCA_900610375.1,ERR2751064,Hypoplectrus_gummigutta,PRJEB27858

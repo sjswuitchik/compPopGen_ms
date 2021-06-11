@@ -1,59 +1,59 @@
-Organism,BioProject,BioSample,sex,Submitter_Id,Locality,refGenome
-Clupea_harengus,PRJNA642736,SAMN15398059,unknown,Fehmarn44_Fehmarn_Baltic_Autumn_rg1,Baltic Sea: Fehmarn,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398058,unknown,Fehmarn6_Fehmarn_Baltic_Autumn_rg1,Baltic Sea: Fehmarn,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398057,unknown,Fehmarn3_Fehmarn_Baltic_Autumn_rg1,Baltic Sea: Fehmarn,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398056,unknown,Gavle100_Gavle_Baltic_Autumn_rg1,Baltic Sea: Gavle,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398053,unknown,AAL3_CelticSea_Atlantic_Winter_rg2,Celtic Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398053,unknown,AAL3_CelticSea_Atlantic_Winter_rg1,Celtic Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398052,unknown,AAL2_CelticSea_Atlantic_Winter_rg1,Celtic Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398051,unknown,AAL1_CelticSea_Atlantic_Winter_rg1,Celtic Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398050,unknown,AK3_Downs_Atlantic_Winter_rg2,English channel:Downs,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398050,unknown,AK3_Downs_Atlantic_Winter_rg1,English channel:Downs,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398049,unknown,AK2_Downs_Atlantic_Winter_rg2,English channel:Downs,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398049,unknown,AK2_Downs_Atlantic_Winter_rg1,English channel:Downs,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398048,unknown,AK1_Downs_Atlantic_Winter_rg2,English channel:Downs,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398048,unknown,AK1_Downs_Atlantic_Winter_rg1,English channel:Downs,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398047,unknown,Z14_IsleofMan_Atlantic_Autumn_rg2,Irish Sea:Isle Of Man,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398047,unknown,Z14_IsleofMan_Atlantic_Autumn_rg1,Irish Sea:Isle Of Man,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398046,unknown,Z12_IsleofMan_Atlantic_Autumn_rg2,Irish Sea:Isle Of Man,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398046,unknown,Z12_IsleofMan_Atlantic_Autumn_rg1,Irish Sea:Isle Of Man,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398045,unknown,Z4_IsleofMan_Atlantic_Autumn_rg2,Irish Sea:Isle Of Man,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398044,unknown,NorthSea34_NorthSea_Atlantic_Autumn_rg1,North Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398043,unknown,NorthSea19_NorthSea_Atlantic_Autumn_rg1,North Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398042,unknown,NorthSea13_NorthSea_Atlantic_Autumn_rg1,North Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398041,unknown,NSSH36_Norway_Atlantic_Spring_rg2,Norway,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398041,unknown,NSSH36_Norway_Atlantic_Spring_rg1,Norway,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398040,unknown,NSSH34_Norway_Atlantic_Spring_rg2,Norway,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398040,unknown,NSSH34_Norway_Atlantic_Spring_rg1,Norway,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398039,unknown,NSSH33_Norway_Atlantic_Spring_rg2,Norway,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398055,unknown,Gavle98_Gavle_Baltic_Autumn_rg1,Baltic Sea: Gavle,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398051,unknown,AAL1_CelticSea_Atlantic_Winter_rg2,Celtic Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398039,unknown,NSSH33_Norway_Atlantic_Spring_rg1,Norway,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398052,unknown,AAL2_CelticSea_Atlantic_Winter_rg2,Celtic Sea,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398045,unknown,Z4_IsleofMan_Atlantic_Autumn_rg1,Irish Sea:Isle Of Man,GCF_900700415.1
-Clupea_harengus,PRJNA642736,SAMN15398054,unknown,Gavle54_Gavle_Baltic_Autumn_rg1,Baltic Sea: Gavle,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589101,missing,NsSB,Northumberland Strait,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589100,missing,NsSA,Northumberland Strait,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589099,missing,NsFB,Northumberland Strait,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589098,missing,NsFA,Northumberland Strait,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589096,missing,InBA,Inner Baie Des Chaleurs,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589094,missing,GeBA,German Banks,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589093,missing,FBB,Fortune Bay,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589090,missing,BoBA,Bonavista Bay,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589089,missing,NS3,North Sea,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589088,missing,NS2,North Sea,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589085,missing,BAH2,Bothnian Sea (Gävle),GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589084,missing,BAH1,Bothnian Sea (Gävle),GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589083,missing,BF3,Southern Baltic Sea (Fehmarn),GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589082,missing,BF2,Southern Baltic Sea (Fehmarn),GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589081,missing,BF1,Southern Baltic Sea (Fehmarn),GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589091,missing,BoBB,Bonavista Bay,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589087,missing,NS1,North Sea,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589092,missing,FBA,Fortune Bay,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589086,missing,BAH3,Bothnian Sea (Gävle),GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589095,missing,GeBB,German Banks,GCF_900700415.1
-Clupea_harengus,PRJNA338612,SAMN05589097,missing,InBB,Inner Baie Des Chaleurs,GCF_900700415.1
-Clupea_harengus,PRJNA356817,SAMN06127787,male,ABPM,Sweden:Hästskär,GCF_900700415.1
-Clupea_harengus,PRJNA356817,SAMN06127779,male,AAPM,Norway:Bergen,GCF_900700415.1
-Clupea_harengus,PRJNA356817,SAMN06127780,female,AAPF,Norway:Bergen,GCF_900700415.1
-Clupea_harengus,PRJNA356817,SAMN06127788,female,ABPF,Sweden:Hästskär,GCF_900700415.1
+Organism,BioProject,BioSample,sex,Submitter_Id,Locality,refGenome,refSpecies
+Clupea_harengus,PRJNA642736,SAMN15398059,unknown,Fehmarn44_Fehmarn_Baltic_Autumn_rg1,Baltic Sea: Fehmarn,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398058,unknown,Fehmarn6_Fehmarn_Baltic_Autumn_rg1,Baltic Sea: Fehmarn,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398057,unknown,Fehmarn3_Fehmarn_Baltic_Autumn_rg1,Baltic Sea: Fehmarn,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398056,unknown,Gavle100_Gavle_Baltic_Autumn_rg1,Baltic Sea: Gavle,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398053,unknown,AAL3_CelticSea_Atlantic_Winter_rg2,Celtic Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398053,unknown,AAL3_CelticSea_Atlantic_Winter_rg1,Celtic Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398052,unknown,AAL2_CelticSea_Atlantic_Winter_rg1,Celtic Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398051,unknown,AAL1_CelticSea_Atlantic_Winter_rg1,Celtic Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398050,unknown,AK3_Downs_Atlantic_Winter_rg2,English channel:Downs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398050,unknown,AK3_Downs_Atlantic_Winter_rg1,English channel:Downs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398049,unknown,AK2_Downs_Atlantic_Winter_rg2,English channel:Downs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398049,unknown,AK2_Downs_Atlantic_Winter_rg1,English channel:Downs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398048,unknown,AK1_Downs_Atlantic_Winter_rg2,English channel:Downs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398048,unknown,AK1_Downs_Atlantic_Winter_rg1,English channel:Downs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398047,unknown,Z14_IsleofMan_Atlantic_Autumn_rg2,Irish Sea:Isle Of Man,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398047,unknown,Z14_IsleofMan_Atlantic_Autumn_rg1,Irish Sea:Isle Of Man,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398046,unknown,Z12_IsleofMan_Atlantic_Autumn_rg2,Irish Sea:Isle Of Man,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398046,unknown,Z12_IsleofMan_Atlantic_Autumn_rg1,Irish Sea:Isle Of Man,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398045,unknown,Z4_IsleofMan_Atlantic_Autumn_rg2,Irish Sea:Isle Of Man,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398044,unknown,NorthSea34_NorthSea_Atlantic_Autumn_rg1,North Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398043,unknown,NorthSea19_NorthSea_Atlantic_Autumn_rg1,North Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398042,unknown,NorthSea13_NorthSea_Atlantic_Autumn_rg1,North Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398041,unknown,NSSH36_Norway_Atlantic_Spring_rg2,Norway,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398041,unknown,NSSH36_Norway_Atlantic_Spring_rg1,Norway,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398040,unknown,NSSH34_Norway_Atlantic_Spring_rg2,Norway,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398040,unknown,NSSH34_Norway_Atlantic_Spring_rg1,Norway,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398039,unknown,NSSH33_Norway_Atlantic_Spring_rg2,Norway,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398055,unknown,Gavle98_Gavle_Baltic_Autumn_rg1,Baltic Sea: Gavle,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398051,unknown,AAL1_CelticSea_Atlantic_Winter_rg2,Celtic Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398039,unknown,NSSH33_Norway_Atlantic_Spring_rg1,Norway,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398052,unknown,AAL2_CelticSea_Atlantic_Winter_rg2,Celtic Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398045,unknown,Z4_IsleofMan_Atlantic_Autumn_rg1,Irish Sea:Isle Of Man,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA642736,SAMN15398054,unknown,Gavle54_Gavle_Baltic_Autumn_rg1,Baltic Sea: Gavle,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589101,missing,NsSB,Northumberland Strait,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589100,missing,NsSA,Northumberland Strait,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589099,missing,NsFB,Northumberland Strait,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589098,missing,NsFA,Northumberland Strait,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589096,missing,InBA,Inner Baie Des Chaleurs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589094,missing,GeBA,German Banks,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589093,missing,FBB,Fortune Bay,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589090,missing,BoBA,Bonavista Bay,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589089,missing,NS3,North Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589088,missing,NS2,North Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589085,missing,BAH2,Bothnian Sea (Gävle),GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589084,missing,BAH1,Bothnian Sea (Gävle),GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589083,missing,BF3,Southern Baltic Sea (Fehmarn),GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589082,missing,BF2,Southern Baltic Sea (Fehmarn),GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589081,missing,BF1,Southern Baltic Sea (Fehmarn),GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589091,missing,BoBB,Bonavista Bay,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589087,missing,NS1,North Sea,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589092,missing,FBA,Fortune Bay,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589086,missing,BAH3,Bothnian Sea (Gävle),GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589095,missing,GeBB,German Banks,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA338612,SAMN05589097,missing,InBB,Inner Baie Des Chaleurs,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA356817,SAMN06127787,male,ABPM,Sweden:Hästskär,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA356817,SAMN06127779,male,AAPM,Norway:Bergen,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA356817,SAMN06127780,female,AAPF,Norway:Bergen,GCF_900700415.1,Clupea_harengus
+Clupea_harengus,PRJNA356817,SAMN06127788,female,ABPF,Sweden:Hästskär,GCF_900700415.1,Clupea_harengus

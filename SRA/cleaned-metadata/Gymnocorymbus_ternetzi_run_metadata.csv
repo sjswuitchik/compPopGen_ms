@@ -1,2 +1,2 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Gymnocorymbus_ternetzi,PRJNA260715,SAMN03734669,SRR2040422,library_White Long Fin,GCF_000372685.2
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMN03734669,library_White Long Fin,GCF_000372685.2,SRR2040422,Gymnocorymbus_ternetzi,PRJNA260715

@@ -1,2 +1,2 @@
-Organism,BioProject,BioSample,Run,LibraryName,refGenome
-Gasterosteus_nipponicus,PRJDB5176,SAMD00063037,DRR072169,library_SAMD00063037,GCA_000180675.1
+BioSample,LibraryName,refGenome,Run,Organism,BioProject
+SAMD00063037,library_SAMD00063037,GCA_000180675.1,DRR072169,Gasterosteus_nipponicus,PRJDB5176
