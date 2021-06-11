@@ -34,8 +34,7 @@ Ficedula_speculigera	NA	NA	NA	NA	NA	NA
 Fundulus_heteroclitus	MU-UCD_Fhet_4.1	GCF_011125445.2	NCBI Annotation Release 102	Chromosome	587965	1203489213
 Gallus_varius	NA	NA	NA	NA	NA	NA
 Gambusia_affinis	ASM309773v1	GCA_003097735.1	From INSDC submitter	Scaffold	17511	598663367
-Gasterosteus_aculeatus	ASM18067v1	GCA_000180675.1	NA	Contig	83204	446610788
-Gasterosteus_wheatlandi	NA	NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA	NA	NA
 Haplochromis_burtoni	AstBur1.0	GCF_000239415.1	NCBI Annotation Release 101	Scaffold	21886	831411547
 Hippocampus_comes	H_comes_QL1_v1	GCF_001891065.1	NCBI Annotation Release 100	Scaffold	39546	493759415
 Hippocampus_kuda	Hippocampus_kuda_assembly	GCA_901007745.1	NA	Scaffold	10411	444947940
@@ -45,8 +44,8 @@ Leuciscus_waleckii	Amur ide genome	GCA_900092035.1	NA	Scaffold	38877	752538629
 Maylandia_zebra	M_zebra_UMD2a	GCF_000238955.4	NCBI Annotation Release 104	Chromosome	1407748	957468680
 Nipponia_nippon	ASM70822v1	GCF_000708225.1	NCBI Annotation Release 100	Scaffold	29116	1223846297
 Oreochromis_niloticus	O_niloticus_UMD_NMBU	GCF_001858045.2	NCBI Annotation Release 104	Chromosome	2923640	1005664923
-Oryzias_latipes	ASM223467v1	GCF_002234675.1	NCBI Annotation Release 103	Chromosome	2530934	734040372
 Oreochromis_mossambicus	NA	NA	NA	NA	NA	NA
+Oryzias_latipes	ASM223467v1	GCF_002234675.1	NCBI Annotation Release 103	Chromosome	2530934	734040372
 Parus_major	Parus_major1.1	GCF_001522545.3	NCBI Annotation Release 102	Chromosome	148693	1020293992
 Passer_domesticus	Passer_domesticus-1.0	GCA_001700915.1	NA	Chromosome	51426	1042703894
 Passer_hispaniolensis	NA	NA	NA	NA	NA	NA
@@ -67,13 +66,21 @@ Poephila_acuticauda	NA	NA	NA	NA	NA	NA
 Pungitius_pungitius	NSP_V7	GCF_902500615.1	NCBI Annotation Release 100	Scaffold	2775277	466582808
 Setophaga_coronata_coronata	mywa_2.1	GCA_001746935.2	NA	Chromosome	43576	1022634526
 Strix_occidentalis_caurina	Soccid_v01	GCA_002372975.1	NA	Scaffold	159062	1255541132
+Strix_varia_varia	NA	NA	NA	NA	NA	NA
 Sylvia_atricapilla	bSylAtr1.pri	GCA_009819655.1	NA	Chromosome	7345957	1066786587
+Sylvia_abyssinica	NA	NA	NA	NA	NA	NA
+Sylvia_borin	bSylBor1.pri	GCA_014839755.1	NA	Chromosome	31914676	1045652180
 Symphodus_melops	ASM281910v1	GCA_002819105.1	NA	Contig	461652	614569099
 Taeniopygia_bichenovii	NA	NA	NA	NA	NA	NA
 Taeniopygia_guttata	bTaeGut2.pat.W.v2	GCF_008822105.2	NCBI Annotation Release 105	Chromosome	4378277	1068971253
 Takifugu_bimaculatus	XU_Tbim_1.0	GCA_004026145.2	From INSDC submitter	Chromosome	1312995	404311738
+Takifugu_flavidus	ASM371156v2	GCA_003711565.2	From INSDC submitter	Chromosome	4357567	366286831
+Takifugu_niphobles	NA	NA	NA	NA	NA	NA
+Takifugu_obscurus	NA	NA	NA	NA	NA	NA
 Takifugu_rubripes	fTakRub1.2	GCF_901000725.2	NCBI Annotation Release 103	Chromosome	3136617	384110215
 Thunnus_albacares	ASM90030262v1	GCA_900302625.1	NA	Scaffold	16808	728212003
 Tyto_alba	ASM68720v1	GCA_000687205.1	From INSDC submitter	Scaffold	17226	1120143088
 Vermivora_chrysoptera	NA	NA	NA	NA	NA	NA
 Vermivora_cyanoptera	NA	NA	NA	NA	NA	NA
+Gasterosteus_wheatlandi	NA	NA	NA	NA	NA	NA
+Gasterosteus_aculeatus	ASM18067v1	GCA_000180675.1	NA	Contig	83204	446610788

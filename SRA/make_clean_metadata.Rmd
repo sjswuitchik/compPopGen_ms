@@ -1514,3 +1514,161 @@ sra <- sra %>%
 
 write_metadata(sra,refSp = sp)
 ```
+
+
+
+### Gasterosteus aculeatus
+
+1 PRJDB2614	Gasterosteus aculeatus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3953013/
+2 PRJDB5056	Gasterosteus aculeatus	https://onlinelibrary-wiley-com.ezp-prod1.hul.harvard.edu/doi/full/10.1111/evo.13175
+3 PRJDB5097	Gasterosteus aculeatus	https://academic.oup.com/gbe/article/12/4/479/5814213?login=true
+
+4 PRJDB9016	Gasterosteus aculeatus	https://onlinelibrary.wiley.com/doi/full/10.1111/jeb.13664
+5 PRJEB15181	Gasterosteus aculeatus	https://www.ncbi.nlm.nih.gov/pubmed/27569902
+6 PRJEB5198	Gasterosteus aculeatus	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004966
+7 PRJNA374462	Gasterosteus aculeatus	https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001627
+8 PRJNA387728	Gasterosteus aculeatus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371808/
+9 PRJNA485717	Gasterosteus aculeatus	https://onlinelibrary.wiley.com/doi/full/10.1002/evl3.99
+10 PRJNA530695	Gasterosteus aculeatus	https://elifesciences.org/articles/43785
+11 PRJNA693136	Gasterosteus aculeatus	https://doi.org/10.1016/j.cub.2021.02.027
+
+
+```{r}
+sp<-"Gasterosteus_aculeatus"
+
+bp1<-"PRJDB2614"
+sra1 <- get_sra(bp1,opt_cols = c("Sample Name", "geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name", "lat_lon")) %>%
+  rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent,
+         Locality = geo_loc_name, 
+         Submitter_Id = `Sample Name`) %>%
+  mutate(Ecotype = NA_character_) %>% relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp2<-"PRJDB5056"
+sra2 <- get_sra(bp2,opt_cols = c("Sample Name", "geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name", "lat_lon", "env_biome")) %>%
+  rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent,
+         Locality = geo_loc_name, 
+         Ecotype = env_biome,
+         Submitter_Id = `Sample Name`) %>% relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp3<-"PRJDB5097"
+sra3<-get_sra(bp3,opt_cols = c("Sample_Name", "geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name", "env_feature")) %>%
+  rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent,
+         Locality = geo_loc_name, 
+         Ecotype = env_feature,
+         Submitter_Id = Sample_Name) %>%
+  mutate(lat_lon = NA_character_) %>% relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp4<-"PRJDB5176"
+sra4<-get_sra(bp4,opt_cols = c("Sample_Name", "geo_loc_name_country","geo_loc_name_country_continent","geo_loc_name")) %>%
+  rename(Country = geo_loc_name_country, 
+         Continent = geo_loc_name_country_continent,
+         Locality = geo_loc_name, 
+         Submitter_Id = Sample_Name) %>%
+  mutate(lat_lon = NA_character_, Ecotype= NA_character_) %>% relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp5<-"PRJEB15181"
+sra5<-get_sra(bp5,opt_cols = c("Alias")) %>%
+  rename( Submitter_Id = Alias) %>%
+  mutate(Sample_Key = str_remove(Submitter_Id, "[0-9]+"))
+
+#need to get metadata from paper not available from PMC or other full text sources so dumped PDF in repository.
+
+meta5<-extract_tables(str_c(raw_metadata_path, "mec.13827.pdf"), pages=c(4))[[1]] %>% as_tibble(.name_repair="unique")
+colnames(meta5) <- c("Sample_Key", "Locality", "Ecotype", "lat_lon", "ss", "nd", "cite")
+meta5 <- meta5 %>% select(Sample_Key, Locality, Ecotype, lat_lon) %>% 
+  filter(Sample_Key != "", Sample_Key != "Population", Sample_Key != "abbreviation") %>%
+  separate(Locality, into=c("Locality"), sep=",", extra="drop")
+
+#table formatting is messed up, so extraction just locality from population and using the following state, country, and continent vectors:
+
+m5_country<-c("Canada", "Canada", "United States", "United States", "Greenland", "Greenland", 
+            "Greenland", "Norway", "Norway", "Denmark", "Denmark", "Denmark", "Germany",
+            "Germany", "Germany", "Germany")
+
+m5_continent<-c(rep(c("North America"), times=7), rep(c("Europe"), times=9))
+
+meta5$Country = m5_country
+meta5$Continent = m5_continent
+
+sra5<-left_join(sra5, meta5, by=c("Sample_Key" = "Sample_Key")) %>% select(-Sample_Key) %>%
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp6<-"PRJEB5198"
+sra6<-get_sra(bp6,opt_cols = c("geo_loc_name_country","geo_loc_name_country_continent", "lat_lon","Title", "Description")) %>%
+  separate(Title, into=c("Submitter_Id", "Ecotype", "drop"), extra="drop") %>% select(-drop) %>%
+  rename(Country = geo_loc_name_country, Continent = geo_loc_name_country_continent)
+
+#there is information on locality and lat_lon for those missing that information in the description; however, this is a real huge pain to parse. 
+
+sra6<-sra6 %>% mutate(Description = str_remove(Description, "[\\-A-Za-z0-9 ]*2010 ")) %>%
+  mutate(Description = str_remove(Description, "in ")) %>%
+  mutate(Description = str_remove(Description, " at.*")) %>% 
+  mutate(Locality = ifelse(Ecotype == "Marine", "Limfjord", Description),
+         lat_lon = ifelse(Ecotype == "Marine", "54°12'15.08N,10°33'41.90E",lat_lon),
+         Country = ifelse(Ecotype == "Marine", "Denmark", Country),
+         Continent = ifelse(Ecotype == "Marine", "Europe", Continent)) %>%
+  select(-Description) %>%
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp7<-"PRJNA374462"
+sra7<- get_sra(bp7,opt_cols = c("Sample Name", "lat_lon", "Ecotype")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  separate(Submitter_Id, into=c("Locality"), extra="drop", remove=FALSE) %>%
+  mutate(Country = ifelse(Ecotype == "Marine", "North Pacific", "Canada"), 
+         Continent = ifelse(Ecotype == "Marine", "Pacific Ocean", "North America")) %>% 
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp8<-"PRJNA387728"	#Gasterosteus aculeatus	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371808/
+sra8<-get_sra(bp8, opt_cols = c("Sample Name", "lat_lon", "Ecotype")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Country = "Canada", Continent = "North America", Locality = Submitter_Id) %>% 
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp9<-"PRJNA485717"	#Gasterosteus aculeatus	https://onlinelibrary.wiley.com/doi/full/10.1002/evl3.99
+sra9<-get_sra(bp9, opt_cols = c("Sample Name", "Ecotype")) %>%
+  rename(Submitter_Id = `Sample Name`) %>%
+  mutate(Country = "Scotland", Continent = "Europe", Locality = Submitter_Id, lat_lon=NA_character_) %>% 
+  mutate(Locality = str_remove(Locality, "[0-9]+")) %>%
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+  
+bp10<-"PRJNA530695"	#Gasterosteus aculeatus	https://elifesciences.org/articles/43785
+sra10<-get_sra(bp10, opt_cols=c("sequencing_info", "Isolate", "Ecotype")) %>%
+  separate(sequencing_info, into=c("Locality", "Country"), sep=",") %>%
+  mutate(Country = str_remove(Country, " ")) %>%
+  rename(Submitter_Id = Isolate) %>%
+  mutate(lat_lon = NA_character_,
+         Continent = case_when(
+           Country == "Scotland" ~ "Europe",
+           Country == "Canada" ~ "North America",
+           TRUE ~ NA_character_)) %>%
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+bp11<-"PRJNA693136"	#Gasterosteus aculeatus	https://doi.org/10.1016/j.cub.2021.02.027
+sra11<-get_sra(bp11, opt_cols=c("geo_loc_name_country", "geo_loc_name_country_continent", "lat_lon", "Sample Name", "Ecotype")) %>%
+  rename(Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Submitter_Id = `Sample Name`) %>%
+  mutate(Locality = str_remove(Submitter_Id, "[_0-9]+")) %>%
+  mutate(Country = ifelse(is.na(Country), "Norway", Country),
+         Continent = ifelse(is.na(Continent), "Europe", Continent)) %>%
+  relocate(BioProject, BioSample, Run, LibraryName, Organism, sex, Submitter_Id, Country, Continent, Locality, lat_lon, Ecotype)
+
+sra<-bind_rows(sra1, sra2, sra3, sra4, sra5, sra6, sra7, sra8, sra9, sra10, sra11)
+
+#clean up ecotype
+
+sra<-sra %>% mutate(Ecotype = case_when(
+  Ecotype == "Marine" ~ "marine",
+  Ecotype == "Lake" ~ "lake",
+  Ecotype == "small stream" ~ "stream",
+  Ecotype == "River" ~ "river",
+  Ecotype == "no sculpin lake" ~ "lake",
+  Ecotype == "sculpin lake" ~ "lake",
+  is.na(Ecotype) && Locality == "Japan: Akkeshi" ~ "marine",
+  is.na(Ecotype) && Submitter_Id == "Shinj" ~ "freshwater",
+  TRUE ~ Ecotype
+))
+
+write_metadata(sra, sp)
+```
