@@ -2,8 +2,8 @@
 
 The following table is used to track progress of running species datasets from the SRA subdirectory.
 
-|species|link to sample sheet|status|to do|notes|path to final output|
-|---|---|---|---|---|---|
+|species|link to sample sheet|status|to do|notes|path to final output|paper|cov_params|
+|---|---|---|---|---|---|---|--|
 |Amphilophus amarillo|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_amarillo_sample_metadata.csv)|status|to do|notes|path|
 |Amphilophus astorquii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_astorquii_sample_metadata.csv)|status|to do|notes|path|
 |Amphilophus chancho|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_chancho_sample_metadata.csv)|status|to do|notes|path|
@@ -18,11 +18,11 @@ The following table is used to track progress of running species datasets from t
 |Amphilophus viridis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_viridis_sample_metadata.csv)|status|to do|notes|path|
 |Amphilophus xiloaensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_xiloaensis_sample_metadata.csv)|status|to do|notes|path|
 |Amphilophus zaliosus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_zaliosus_sample_metadata.csv)|status|to do|notes|path|
-|Anas platyrhynchos|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anas_platyrhynchos_sample_metadata.csv)|status|to do|notes|path|
+|Anas platyrhynchos|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anas_platyrhynchos_sample_metadata.csv)|*submitted by Tim*|wait|notes|path|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/)|7.5x-18x reported, using low coverage|
 |Anguilla anguilla|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anguilla_anguilla_sample_metadata.csv)|status|to do|notes|path|
 |Anguilla rostrata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anguilla_rostrata_sample_metadata.csv)|status|to do|notes|path|
 |Anolis allisoni|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_allisoni_sample_metadata.csv)|status|to do|notes|path|
-|Anolis carolinensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_carolinensis_sample_metadata.csv)|Done|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Anolis_carolinensis`|
+|Anolis carolinensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_carolinensis_sample_metadata.csv)|*done*|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Anolis_carolinensis`|
 |Anolis porcatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_porcatus_sample_metadata.csv)|status|to do|notes|path|
 |Astatotilapia calliptera|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astatotilapia_calliptera_sample_metadata.csv)|status|to do|notes|path|
 |Astatotilapia spp|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astatotilapia_spp_sample_metadata.csv)|status|to do|notes|path|
@@ -106,7 +106,7 @@ The following table is used to track progress of running species datasets from t
 |Sylvia abyssinica|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Sylvia_abyssinica_sample_metadata.csv)|status|to do|notes|path|
 |Sylvia atricapilla|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Sylvia_atricapilla_sample_metadata.csv)|status|to do|notes|path|
 |Sylvia borin|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Sylvia_borin_sample_metadata.csv)|status|to do|notes|path|
-|Symphodus melops|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Symphodus_melops_sample_metadata.csv)|status|to do|notes|path|
+|Symphodus melops|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Symphodus_melops_sample_metadata.csv)|*submitted by Tim*|wait|notes|path|[Mol Ecol](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310)|low coverage (paper reports ~9x average coverage)|
 |Taeniopygia bichenovii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Taeniopygia_bichenovii_sample_metadata.csv)|status|to do|notes|path|
 |Taeniopygia guttata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Taeniopygia_guttata_sample_metadata.csv)|status|to do|notes|path|
 |Takifugu alboplumbeus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Takifugu_alboplumbeus_sample_metadata.csv)|status|to do|notes|path|
