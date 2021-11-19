@@ -14,4 +14,8 @@ The following table is used to track progress of running species datasets from t
 |Gasterosteus aculeatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Gasterosteus_aculeatus_sample_metadata.csv)|gVCFs produced with old scripts, but needs updating|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Gaculeatus/gvcf`|
 |Leuciscus waleckii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Leuciscus_waleckii_sample_metadata.csv)|gVCFs produced but needs updating|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Lwaleckii/gvcf`|
 |Phylloscopus collybita abietinus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_abietinus_sample_metadata.csv)|gVCFs produced but needs updating|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Pcollybita/gvcf`|
+|Passer domesticus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Passer_domesticus_sample_metadata.csv)|VCFs produced but needs updating|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Pdomesticus/vcf_clean_samples`|
+
+
+
 
