@@ -1,117 +1,117 @@
 ## Tracking species dataset progress
 
-The following table is used to track progress of running species datasets from the SRA subdirectory.
+The following table is used to track progress of running species datasets from the master/SRA subdirectory.
 
 |species|link to sample sheet|status|to do|notes|path to final output|paper|cov_params|
 |---|---|---|---|---|---|---|--|
 |Amphilophus amarillo|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_amarillo_sample_metadata.csv)|status|to do|notes|path|
 |Amphilophus astorquii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_astorquii_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus chancho|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_chancho_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus citrinellus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_citrinellus_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus flaveolus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_flaveolus_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus globosus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_globosus_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus labiatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_labiatus_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus sagittae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_sagittae_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus spp|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_spp_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus supercilius|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_supercilius_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus tolteca|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_tolteca_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus viridis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_viridis_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus xiloaensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_xiloaensis_sample_metadata.csv)|status|to do|notes|path|
-|Amphilophus zaliosus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Amphilophus_zaliosus_sample_metadata.csv)|status|to do|notes|path|
-|Anas platyrhynchos|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anas_platyrhynchos_sample_metadata.csv)|**submitted by Tim**|wait|notes|path|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/)|7.5x-18x reported, using low coverage|
-|Anguilla anguilla|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anguilla_anguilla_sample_metadata.csv)|status|to do|notes|path|
-|Anguilla rostrata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anguilla_rostrata_sample_metadata.csv)|status|to do|notes|path|
-|Anolis allisoni|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_allisoni_sample_metadata.csv)|status|to do|notes|path|
-|Anolis carolinensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_carolinensis_sample_metadata.csv)|**done**|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Anolis_carolinensis`|
-|Anolis porcatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Anolis_porcatus_sample_metadata.csv)|status|to do|notes|path|
-|Astatotilapia calliptera|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astatotilapia_calliptera_sample_metadata.csv)|status|to do|notes|path|
-|Astatotilapia spp|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astatotilapia_spp_sample_metadata.csv)|status|to do|notes|path|
-|Astatotilapia stappersii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astatotilapia_stappersii_sample_metadata.csv)|status|to do|notes|path|
-|Astyanax aeneus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astyanax_aeneus_sample_metadata.csv)|status|to do|notes|path|
-|Astyanax mexicanus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Astyanax_mexicanus_sample_metadata.csv)|**done**|Done|run with previous version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Astyanax_mexicanus`|
-|Athene cunicularia|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Athene_cunicularia_sample_metadata.csv)|status|to do|notes|path|
-|Chaenogobius annularis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Chaenogobius_annularis_sample_metadata.csv)|status|to do|notes|path|
-|Chloebia gouldiae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Chloebia_gouldiae_sample_metadata.csv)|status|to do|notes|path|
-|Clupea harengus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Clupea_harengus_sample_metadata.csv)|status|to do|notes|path|
-|Clupea pallasii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Clupea_pallasii_sample_metadata.csv)|status|to do|notes|path|
-|Coilia nasus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Coilia_nasus_sample_metadata.csv)|status|to do|notes|path|
-|Coloeus monedula|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Coloeus_monedula_sample_metadata.csv)|status|to do|notes|path|
-|Corvus brachyrhynchos|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Corvus_brachyrhynchos_sample_metadata.csv)|status|to do|notes|path|
-|Corvus cornix cornix|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Corvus_cornix_cornix_sample_metadata.csv)|**done**|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Corvus_cornix_cornix`|
-|Corvus corone corone|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Corvus_corone_corone_sample_metadata.csv)|status|to do|notes|path|
-|Corvus frugilegus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Corvus_frugilegus_sample_metadata.csv)|status|to do|notes|path|
-|Coryphaenoides rupestris|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Coryphaenoides_rupestris_sample_metadata.csv)|status|to do|notes|path|
-|Coturnix japonica|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Coturnix_japonica_sample_metadata.csv)|status|to do|notes|path|
-|Ctenochromis horei|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ctenochromis_horei_sample_metadata.csv)|status|to do|notes|path|
-|Cyprinus carpio|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Cyprinus_carpio_sample_metadata.csv)|**done**|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Cyprinus_carpio`|
-|Dicentrarchus labrax|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Dicentrarchus_labrax_sample_metadata.csv)|status|to do|notes|path|
-|Dicentrarchus punctatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Dicentrarchus_punctatus_sample_metadata.csv)|status|to do|notes|path|
-|Egretta garzetta|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Egretta_garzetta_sample_metadata.csv)|status|to do|notes|path|
-|Eopsaltria australis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Eopsaltria_australis_sample_metadata.csv)|status|to do|notes|path|
-|Falco peregrinus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Falco_peregrinus_sample_metadata.csv)|status|to do|notes|path|
-|Ficedula albicollis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ficedula_albicollis_sample_metadata.csv)|**in progress (Sara)**|Finish pipeline|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/_______`|
-|Ficedula hyperythra|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ficedula_hyperythra_sample_metadata.csv)|status|to do|notes|path|
-|Ficedula hypoleuca|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ficedula_hypoleuca_sample_metadata.csv)|**gVCFs produced with old scripts, but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Fhypoleuca/gvcf`|
-|Ficedula parva|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ficedula_parva_sample_metadata.csv)|status|to do|notes|path|
-|Ficedula semitorquata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ficedula_semitorquata_sample_metadata.csv)|status|to do|notes|path|
-|Ficedula speculigera|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Ficedula_speculigera_sample_metadata.csv)|status|to do|notes|path|
-|Fundulus heteroclitus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Fundulus_heteroclitus_sample_metadata.csv)|**in progress (Sara)**|Finish pipeline|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/_______`|
-|Gasterosteus aculeatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Gasterosteus_aculeatus_sample_metadata.csv)|**gVCFs produced with old scripts, but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Gaculeatus/gvcf`|
-|Gasterosteus nipponicus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Gasterosteus_nipponicus_sample_metadata.csv)|status|to do|notes|path|
-|Gymnocorymbus ternetzi|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Gymnocorymbus_ternetzi_sample_metadata.csv)|status|to do|notes|path|
-|Haplochromis burtoni|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Haplochromis_burtoni_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus abdominalis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_abdominalis_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus algiricus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_algiricus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus barbouri|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_barbouri_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus comes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_comes_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus erectus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_erectus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus fuscus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_fuscus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus hippocampus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_hippocampus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus histrix|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_histrix_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus ingens|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_ingens_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus jayakari|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_jayakari_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus kelloggi|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_kelloggi_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus kuda|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_kuda_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus mohnikei|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_mohnikei_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus reidi|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_reidi_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus spinosissimus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_spinosissimus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus subelongatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_subelongatus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus trimaculatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_trimaculatus_sample_metadata.csv)|status|to do|notes|path|
-|Hippocampus zosterae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hippocampus_zosterae_sample_metadata.csv)|status|to do|notes|path|
-|Hypoplectrus gummigutta|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hypoplectrus_gummigutta_sample_metadata.csv)|status|to do|notes|path|
-|Hypoplectrus nigricans|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hypoplectrus_nigricans_sample_metadata.csv)|status|to do|notes|path|
-|Hypoplectrus puella|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hypoplectrus_puella_sample_metadata.csv)|status|to do|notes|path|
-|Hypoplectrus unicolor|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Hypoplectrus_unicolor_sample_metadata.csv)|status|to do|notes|path|
-|Larimichthys crocea|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Larimichthys_crocea_sample_metadata.csv)|status|to do|notes|path|
-|Leuciscus waleckii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Leuciscus_waleckii_sample_metadata.csv)|**gVCFs produced but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Lwaleckii/gvcf`|
-|Nipponia nippon|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Nipponia_nippon_sample_metadata.csv)|status|to do|notes|path|
-|Oryzias latipes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Oryzias_latipes_sample_metadata.csv)|status|to do|notes|path|
-|Parus major|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Parus_major_sample_metadata.csv)|status|to do|notes|path|
-|Passer domesticus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Passer_domesticus_sample_metadata.csv)|**VCFs produced but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Pdomesticus/vcf_clean_samples`|
-|Passer hispaniolensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Passer_hispaniolensis_sample_metadata.csv)|status|to do|notes|path|
-|Passer italiae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Passer_italiae_sample_metadata.csv)|status|to do|notes|path|
-|Passer montanus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Passer_montanus_sample_metadata.csv)|status|to do|notes|path|
-|Phylloscopus collybita abietinus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Phylloscopus_collybita_abietinus_sample_metadata.csv)|**gVCFs produced but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Pcollybita/gvcf`|
-|Phylloscopus collybita tristis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Phylloscopus_collybita_tristis_sample_metadata.csv)|status|to do|notes|path|
-|Phylloscopus trochilus acredula|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Phylloscopus_trochilus_acredula_sample_metadata.csv)|status|to do|notes|path|
-|Phylloscopus trochilus trochilus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Phylloscopus_trochilus_trochilus_sample_metadata.csv)|status|to do|notes|path|
-|Poecilia formosa|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv)|status|to do|notes|path|
-|Poecilia reticulata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Poecilia_reticulata_sample_metadata.csv)|status|to do|notes|path|
-|Poephila acuticauda|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Poephila_acuticauda_sample_metadata.csv)|status|to do|notes|path|
-|Pungitius pungitius|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Pungitius_pungitius_sample_metadata.csv)|status|to do|notes|path|
-|Pungitius sinensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Pungitius_sinensis_sample_metadata.csv)|status|to do|notes|path|
-|Pungitius tymensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Pungitius_tymensis_sample_metadata.csv)|status|to do|notes|path|
-|Strix occidentalis caurina|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Strix_occidentalis_caurina_sample_metadata.csv)|status|to do|notes|path|
-|Strix varia|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Strix_varia_sample_metadata.csv)|status|to do|notes|path|
-|Sylvia abyssinica|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Sylvia_abyssinica_sample_metadata.csv)|status|to do|notes|path|
-|Sylvia atricapilla|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Sylvia_atricapilla_sample_metadata.csv)|status|to do|notes|path|
-|Sylvia borin|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Sylvia_borin_sample_metadata.csv)|status|to do|notes|path|
-|Symphodus melops|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Symphodus_melops_sample_metadata.csv)|**submitted by Tim**|wait|notes|path|[Mol Ecol](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310)|low coverage (paper reports ~9x average coverage)|
-|Taeniopygia bichenovii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Taeniopygia_bichenovii_sample_metadata.csv)|status|to do|notes|path|
-|Taeniopygia guttata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Taeniopygia_guttata_sample_metadata.csv)|status|to do|notes|path|
-|Takifugu alboplumbeus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Takifugu_alboplumbeus_sample_metadata.csv)|status|to do|notes|path|
-|Takifugu bimaculatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Takifugu_bimaculatus_sample_metadata.csv)|status|to do|notes|path|
-|Takifugu flavidus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Takifugu_flavidus_sample_metadata.csv)|status|to do|notes|path|
-|Takifugu obscurus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Takifugu_obscurus_sample_metadata.csv)|status|to do|notes|path|
-|Takifugu rubripes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Takifugu_rubripes_sample_metadata.csv)|status|to do|notes|path|
-|Thunnus albacares|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/SRA/cleaned-metadata/Thunnus_albacares_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus chancho|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_chancho_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus citrinellus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_citrinellus_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus flaveolus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_flaveolus_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus globosus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_globosus_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus labiatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_labiatus_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus sagittae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_sagittae_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus spp|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_spp_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus supercilius|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_supercilius_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus tolteca|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_tolteca_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus viridis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_viridis_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus xiloaensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_xiloaensis_sample_metadata.csv)|status|to do|notes|path|
+|Amphilophus zaliosus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Amphilophus_zaliosus_sample_metadata.csv)|status|to do|notes|path|
+|Anas platyrhynchos|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Anas_platyrhynchos_sample_metadata.csv)|**submitted by Tim**|wait|notes|path|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/)|7.5x-18x reported, using low coverage|
+|Anguilla anguilla|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Anguilla_anguilla_sample_metadata.csv)|status|to do|notes|path|
+|Anguilla rostrata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Anguilla_rostrata_sample_metadata.csv)|status|to do|notes|path|
+|Anolis allisoni|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Anolis_allisoni_sample_metadata.csv)|status|to do|notes|path|
+|Anolis carolinensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Anolis_carolinensis_sample_metadata.csv)|**done**|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Anolis_carolinensis`|
+|Anolis porcatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Anolis_porcatus_sample_metadata.csv)|status|to do|notes|path|
+|Astatotilapia calliptera|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astatotilapia_calliptera_sample_metadata.csv)|status|to do|notes|path|
+|Astatotilapia spp|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astatotilapia_spp_sample_metadata.csv)|status|to do|notes|path|
+|Astatotilapia stappersii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astatotilapia_stappersii_sample_metadata.csv)|status|to do|notes|path|
+|Astyanax aeneus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astyanax_aeneus_sample_metadata.csv)|status|to do|notes|path|
+|Astyanax mexicanus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astyanax_mexicanus_sample_metadata.csv)|**done**|Done|run with previous version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Astyanax_mexicanus`|
+|Athene cunicularia|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Athene_cunicularia_sample_metadata.csv)|status|to do|notes|path|
+|Chaenogobius annularis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Chaenogobius_annularis_sample_metadata.csv)|status|to do|notes|path|
+|Chloebia gouldiae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Chloebia_gouldiae_sample_metadata.csv)|status|to do|notes|path|
+|Clupea harengus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Clupea_harengus_sample_metadata.csv)|status|to do|notes|path|
+|Clupea pallasii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Clupea_pallasii_sample_metadata.csv)|status|to do|notes|path|
+|Coilia nasus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coilia_nasus_sample_metadata.csv)|status|to do|notes|path|
+|Coloeus monedula|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coloeus_monedula_sample_metadata.csv)|status|to do|notes|path|
+|Corvus brachyrhynchos|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_brachyrhynchos_sample_metadata.csv)|status|to do|notes|path|
+|Corvus cornix cornix|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_cornix_cornix_sample_metadata.csv)|**done**|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Corvus_cornix_cornix`|
+|Corvus corone corone|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_corone_corone_sample_metadata.csv)|status|to do|notes|path|
+|Corvus frugilegus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_frugilegus_sample_metadata.csv)|status|to do|notes|path|
+|Coryphaenoides rupestris|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coryphaenoides_rupestris_sample_metadata.csv)|status|to do|notes|path|
+|Coturnix japonica|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coturnix_japonica_sample_metadata.csv)|status|to do|notes|path|
+|Ctenochromis horei|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ctenochromis_horei_sample_metadata.csv)|status|to do|notes|path|
+|Cyprinus carpio|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Cyprinus_carpio_sample_metadata.csv)|**done**|Done|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/Cyprinus_carpio`|
+|Dicentrarchus labrax|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Dicentrarchus_labrax_sample_metadata.csv)|status|to do|notes|path|
+|Dicentrarchus punctatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Dicentrarchus_punctatus_sample_metadata.csv)|status|to do|notes|path|
+|Egretta garzetta|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Egretta_garzetta_sample_metadata.csv)|status|to do|notes|path|
+|Eopsaltria australis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Eopsaltria_australis_sample_metadata.csv)|status|to do|notes|path|
+|Falco peregrinus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Falco_peregrinus_sample_metadata.csv)|status|to do|notes|path|
+|Ficedula albicollis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_albicollis_sample_metadata.csv)|**in progress (Sara)**|Finish pipeline|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/_______`|
+|Ficedula hyperythra|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_hyperythra_sample_metadata.csv)|status|to do|notes|path|
+|Ficedula hypoleuca|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_hypoleuca_sample_metadata.csv)|**gVCFs produced with old scripts, but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Fhypoleuca/gvcf`|
+|Ficedula parva|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_parva_sample_metadata.csv)|status|to do|notes|path|
+|Ficedula semitorquata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_semitorquata_sample_metadata.csv)|status|to do|notes|path|
+|Ficedula speculigera|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_speculigera_sample_metadata.csv)|status|to do|notes|path|
+|Fundulus heteroclitus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Fundulus_heteroclitus_sample_metadata.csv)|**in progress (Sara)**|Finish pipeline|run with release version of pipeline|`/n/holylfs05/LABS/informatics/Everyone/comppopgen_pipeline/_______`|
+|Gasterosteus aculeatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Gasterosteus_aculeatus_sample_metadata.csv)|**gVCFs produced with old scripts, but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Gaculeatus/gvcf`|
+|Gasterosteus nipponicus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Gasterosteus_nipponicus_sample_metadata.csv)|status|to do|notes|path|
+|Gymnocorymbus ternetzi|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Gymnocorymbus_ternetzi_sample_metadata.csv)|status|to do|notes|path|
+|Haplochromis burtoni|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Haplochromis_burtoni_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus abdominalis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_abdominalis_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus algiricus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_algiricus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus barbouri|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_barbouri_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus comes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_comes_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus erectus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_erectus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus fuscus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_fuscus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus hippocampus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_hippocampus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus histrix|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_histrix_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus ingens|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_ingens_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus jayakari|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_jayakari_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus kelloggi|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_kelloggi_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus kuda|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_kuda_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus mohnikei|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_mohnikei_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus reidi|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_reidi_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus spinosissimus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_spinosissimus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus subelongatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_subelongatus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus trimaculatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_trimaculatus_sample_metadata.csv)|status|to do|notes|path|
+|Hippocampus zosterae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hippocampus_zosterae_sample_metadata.csv)|status|to do|notes|path|
+|Hypoplectrus gummigutta|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hypoplectrus_gummigutta_sample_metadata.csv)|status|to do|notes|path|
+|Hypoplectrus nigricans|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hypoplectrus_nigricans_sample_metadata.csv)|status|to do|notes|path|
+|Hypoplectrus puella|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hypoplectrus_puella_sample_metadata.csv)|status|to do|notes|path|
+|Hypoplectrus unicolor|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Hypoplectrus_unicolor_sample_metadata.csv)|status|to do|notes|path|
+|Larimichthys crocea|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Larimichthys_crocea_sample_metadata.csv)|status|to do|notes|path|
+|Leuciscus waleckii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Leuciscus_waleckii_sample_metadata.csv)|**gVCFs produced but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Lwaleckii/gvcf`|
+|Nipponia nippon|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Nipponia_nippon_sample_metadata.csv)|status|to do|notes|path|
+|Oryzias latipes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Oryzias_latipes_sample_metadata.csv)|status|to do|notes|path|
+|Parus major|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Parus_major_sample_metadata.csv)|status|to do|notes|path|
+|Passer domesticus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Passer_domesticus_sample_metadata.csv)|**VCFs produced but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Pdomesticus/vcf_clean_samples`|
+|Passer hispaniolensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Passer_hispaniolensis_sample_metadata.csv)|status|to do|notes|path|
+|Passer italiae|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Passer_italiae_sample_metadata.csv)|status|to do|notes|path|
+|Passer montanus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Passer_montanus_sample_metadata.csv)|status|to do|notes|path|
+|Phylloscopus collybita abietinus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_abietinus_sample_metadata.csv)|**gVCFs produced but needs updating**|Start pipeline|will be run with release version of pipeline|gVCFs: `/n/holylfs05/LABS/informatics/Lab/holylfs/ashultz/CompPopGen/SPECIES_DATASETS/Pcollybita/gvcf`|
+|Phylloscopus collybita tristis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_tristis_sample_metadata.csv)|status|to do|notes|path|
+|Phylloscopus trochilus acredula|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_trochilus_acredula_sample_metadata.csv)|status|to do|notes|path|
+|Phylloscopus trochilus trochilus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_trochilus_trochilus_sample_metadata.csv)|status|to do|notes|path|
+|Poecilia formosa|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv)|status|to do|notes|path|
+|Poecilia reticulata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_reticulata_sample_metadata.csv)|status|to do|notes|path|
+|Poephila acuticauda|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poephila_acuticauda_sample_metadata.csv)|status|to do|notes|path|
+|Pungitius pungitius|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Pungitius_pungitius_sample_metadata.csv)|status|to do|notes|path|
+|Pungitius sinensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Pungitius_sinensis_sample_metadata.csv)|status|to do|notes|path|
+|Pungitius tymensis|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Pungitius_tymensis_sample_metadata.csv)|status|to do|notes|path|
+|Strix occidentalis caurina|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Strix_occidentalis_caurina_sample_metadata.csv)|status|to do|notes|path|
+|Strix varia|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Strix_varia_sample_metadata.csv)|status|to do|notes|path|
+|Sylvia abyssinica|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Sylvia_abyssinica_sample_metadata.csv)|status|to do|notes|path|
+|Sylvia atricapilla|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Sylvia_atricapilla_sample_metadata.csv)|status|to do|notes|path|
+|Sylvia borin|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Sylvia_borin_sample_metadata.csv)|status|to do|notes|path|
+|Symphodus melops|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Symphodus_melops_sample_metadata.csv)|**submitted by Tim**|wait|notes|path|[Mol Ecol](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310)|low coverage (paper reports ~9x average coverage)|
+|Taeniopygia bichenovii|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Taeniopygia_bichenovii_sample_metadata.csv)|status|to do|notes|path|
+|Taeniopygia guttata|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Taeniopygia_guttata_sample_metadata.csv)|status|to do|notes|path|
+|Takifugu alboplumbeus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_alboplumbeus_sample_metadata.csv)|status|to do|notes|path|
+|Takifugu bimaculatus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_bimaculatus_sample_metadata.csv)|status|to do|notes|path|
+|Takifugu flavidus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_flavidus_sample_metadata.csv)|status|to do|notes|path|
+|Takifugu obscurus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_obscurus_sample_metadata.csv)|status|to do|notes|path|
+|Takifugu rubripes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_rubripes_sample_metadata.csv)|status|to do|notes|path|
+|Thunnus albacares|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Thunnus_albacares_sample_metadata.csv)|status|to do|notes|path|
