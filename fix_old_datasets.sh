@@ -32,7 +32,7 @@ done
 #also will get index of interval number
 
 OLDINT=$(ls $OLDDIR/genome/*_interval_lists/*.interval_list)
-INTNUM=1
+INTNUM=0
 for interval in $OLDINT;
 do
    INTIDTEMP=${interval%.interval_list}
@@ -52,7 +52,7 @@ do
   cp -v --preserve=timestamps $OLDDIR/dedup/$samp.dedup.sorted.bam results/${SPECIES}/${REFGENOME}/01_mappedReads/${samp}_final.bam
   cp -v --preserve=timestamps $OLDDIR/dedup/$samp.dedup.sorted.bai results/${SPECIES}/${REFGENOME}/01_mappedReads/${samp}_final.bai
   mkdir -p results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp
-  for ((i=1; i<=$INTNUN; i++)); do
+  for i in $(eval echo "{1..$INTNUM}"); do
     cp -v --preserve=timestamps $OLDDIR/gvcf/${samp}.${i}.g.vcf.gz results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp/L${i}.raw.g.vcf.gz
     cp -v --preserve=timestamps $OLDDIR/gvcf/${samp}.${i}.g.vcf.gz.tbi results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp/L${i}.raw.g.vcf.gz.tbi
     touch -r results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp/L${i}.raw.g.vcf.gz.tbi results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp/L${i}.done
