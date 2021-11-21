@@ -51,6 +51,10 @@ for samp in $SAMPLES
 do
   cp -v --preserve=timestamps $OLDDIR/dedup/$samp.dedup.sorted.bam results/${SPECIES}/${REFGENOME}/01_mappedReads/${samp}_final.bam
   cp -v --preserve=timestamps $OLDDIR/dedup/$samp.dedup.sorted.bai results/${SPECIES}/${REFGENOME}/01_mappedReads/${samp}_final.bai
+  cp -v --preserve=timestamps $OLDDIR/stats/$samp.dedup.metrics.txt results/${SPECIES}/${REFGENOME}/02_bamSumstats/${samp}_dedupMetrics.txt
+  cp -v --preserve=timestamps $OLDDIR/stats/$samp.alignment_metrics.txt results/${SPECIES}/${REFGENOME}/02_bamSumstats/${samp}_AlnSumMets.txt
+  #intentionally skipping validate.txt as that is fast to regenerate and worth running again
+  #also skipping coverage as these seem to be different formats
   mkdir -p results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp
   for i in $(eval echo "{1..$INTNUM}"); do
     cp -v --preserve=timestamps $OLDDIR/gvcf/${samp}.${i}.g.vcf.gz results/${SPECIES}/${REFGENOME}/03_gvcfs/$samp/L${i}.raw.g.vcf.gz
