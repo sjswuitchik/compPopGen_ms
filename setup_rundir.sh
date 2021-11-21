@@ -7,7 +7,7 @@ SPECIES=Thunnus_albacares #change to species name
 branch=bugfix #change to main or dev to run on main or dev
 
 #pick one depending on coverage parameters
-#replace="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --config samples=\"${SPECIES}_run_metadata.csv\" minD=2 minP=4"
+#replace="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --config samples=\"${SPECIES}_run_metadata.csv\" minD=4 minP=2"
 replace="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --config samples=\"${SPECIES}_run_metadata.csv\""
 
 mkdir -p $SPCODE
