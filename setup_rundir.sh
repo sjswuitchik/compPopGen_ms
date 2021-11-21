@@ -7,8 +7,7 @@ SPECIES=$2
 
 mkdir -p $SPCODE
 cd $SPCODE
-cp compPopGen_ms/SRA/cleaned-metadata/${SPECIES}_run_metadata.csv .
-cd $SPCODE
+cp ../compPopGen_ms/SRA/cleaned-metadata/${SPECIES}_run_metadata.csv .
 git clone https://github.com/harvardinformatics/shortRead_mapping_variantCalling/
 mv shortRead_mapping_variantCalling/* .
 mv shortRead_mapping_variantCalling/.* .
