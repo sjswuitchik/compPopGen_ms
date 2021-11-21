@@ -114,4 +114,4 @@ The following table is used to track progress of running species datasets from t
 |Takifugu flavidus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_flavidus_sample_metadata.csv)|status|to do|notes|path|
 |Takifugu obscurus|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_obscurus_sample_metadata.csv)|status|to do|notes|path|
 |Takifugu rubripes|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Takifugu_rubripes_sample_metadata.csv)|status|to do|notes|path|
-|Thunnus albacares|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Thunnus_albacares_sample_metadata.csv)|status|to do|notes|path|
+|Thunnus albacares|[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Thunnus_albacares_sample_metadata.csv)|**Tim running**|wait|notes|path|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/)|low coverage (coverage median < 10x)|
