@@ -38,11 +38,12 @@ do
    INTIDTEMP=${interval%.interval_list}
    INTID=${INTIDTEMP##*_}
    cp --preserve=timestamps $interval results/${SPECIES}/${REFGENOME}/intervalFiles/list${INTID}.list
-   INTNUM=$INTNUM+1
+   INTNUM=$((INTNUM+1))
 done
 cat results/${SPECIES}/${REFGENOME}/intervalFiles/list*.list > results/${SPECIES}/${REFGENOME}/intervalFiles/${REFGENOME}_intervals_fb.bed
 #set timestamp on bed file to the timestamp of the first interval file
 touch -r results/${SPECIES}/${REFGENOME}/intervalFiles/list1.list results/${SPECIES}/${REFGENOME}/intervalFiles/${REFGENOME}_intervals_fb.bed
+echo "Found $INTNUM intervals"
 
 #get bams and gvcfs
 
