@@ -2,13 +2,18 @@
 
 #make the directory, copy sample sheet, set up run script
 
+####  CHANGE THESE ####
 SPCODE=tunAlb #change to species code
 SPECIES=Thunnus_albacares #change to species name
 branch=bugfix #change to main or dev to run on main or dev
+CONDAPATH="/n/holyscratch01/informatics/tsackton/snpArcher_conda/" #set to .snakemake/conda for traditional per-directory location
 
 #pick one depending on coverage parameters
-#replace="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --config samples=\"${SPECIES}_run_metadata.csv\" minD=4 minP=2"
-replace="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --config samples=\"${SPECIES}_run_metadata.csv\""
+highcov="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --use-conda --conda-prefix=\"${CONDAPATH}\" --config samples=\"${SPECIES}_run_metadata.csv\" minD=4 minP=2"
+lowcov="snakemake --snakefile workflow/Snakefile --profile ./profiles/slurm --use-conda --conda-prefix=\"${CONDAPATH}\" --config samples=\"${SPECIES}_run_metadata.csv\""
+
+#### CHANGE THIS #####
+replace=$lowcov
 
 mkdir -p $SPCODE
 cd $SPCODE
