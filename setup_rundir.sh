@@ -21,6 +21,7 @@ rmdir shortRead_mapping_variantCalling
 perl -p -i -e "s/-J sm/-J sm_${SPCODE}/" run_pipeline.sh
 perl -p -i -e "s/-o out/-o ${SPCODE}-%j.out/" run_pipeline.sh
 perl -p -i -e "s/-e err/-e ${SPCODE}-%j.err/" run_pipeline.sh
+perl -p -i -e "s/shared/shared,holy-smokes/" run_pipeline.sh
 
 head -n -1 run_pipeline.sh > ${SPCODE}.sh
 echo $replace >> ${SPCODE}.sh
