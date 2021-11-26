@@ -44,7 +44,7 @@ Chaenogobius annularis,[sample sheet](https://github.com/sjswuitchik/compPopGen_
 Chloebia gouldiae,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Chloebia_gouldiae_sample_metadata.csv),**SKIP**,-,"upon double-checking manuscript, WGS individuals are a domesticated population",-,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6478913/),-
 Clupea harengus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Clupea_harengus_sample_metadata.csv),status,to do,notes,path,ADD,ADD
 Clupea pallasii,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Clupea_pallasii_sample_metadata.csv),status,to do,notes,path,ADD,ADD
-Coilia nasus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coilia_nasus_sample_metadata.csv),status,to do,notes,path,ADD,ADD
+Coilia nasus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coilia_nasus_sample_metadata.csv),**running (Tim)**,wait,-,-,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939831/),low coverage (average 10x coverage)
 Coloeus monedula,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Coloeus_monedula_sample_metadata.csv),status,to do,notes,path,ADD,ADD
 Corvus brachyrhynchos,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_brachyrhynchos_sample_metadata.csv),status,to do,notes,path,ADD,ADD
 Corvus corone corone,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_corone_corone_sample_metadata.csv),status,to do,notes,path,ADD,ADD
