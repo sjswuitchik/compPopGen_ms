@@ -1,6 +1,5 @@
 BioProject,BioSample,Submitter_ID,Organism,subspecies,sex,Locality,Province,Country,Continent,refGenome,refSpecies
 PRJEB10586,SAMEA3532832,G111,Poephila_acuticauda,acuticauda,female,Mount House,Western Australia,Australia,Australia,GCF_008822105.2,Taeniopygia_guttata
-PRJEB10586,SAMEA3532834,G163,Poephila_acuticauda,acuticauda,female,Mount House,Western Australia,Australia,Australia,GCF_008822105.2,Taeniopygia_guttata
 PRJEB10586,SAMEA3532835,G169,Poephila_acuticauda,acuticauda,male,Mount House,Western Australia,Australia,Australia,GCF_008822105.2,Taeniopygia_guttata
 PRJEB10586,SAMEA3532836,G183,Poephila_acuticauda,acuticauda,male,Mount House,Western Australia,Australia,Australia,GCF_008822105.2,Taeniopygia_guttata
 PRJEB10586,SAMEA3532837,G250,Poephila_acuticauda,acuticauda,male,Nelson’s Hole,Western Australia,Australia,Australia,GCF_008822105.2,Taeniopygia_guttata
