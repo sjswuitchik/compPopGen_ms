@@ -21,7 +21,7 @@ rule callable_sites:
 	input:
 		ingroup = config['ingroup'] + "_coverage_sites_clean_merged.bed",
 		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed",
-		map = config['output'] + "{Organism}/{refGenome}/" + "{Organism}_{refGenome}" + ".bg.gz",
+#		map = config['output'] + "{Organism}/{refGenome}/" + "{Organism}_{refGenome}" + ".bg.gz",
 	output:
 		call = "callable.bed"
 		clean = "clean.callable.bed"
