@@ -474,6 +474,10 @@ bp <- "PRJNA192205"
 sra<-get_sra(bp, opt_cols=c("Sample Name", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name")) %>%
   rename(Submitter_Id = `Sample Name`, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality=geo_loc_name)
 
+bp2 <- "PRJEB9057"
+sra2<-get_sra(bp2, opt_cols=c("Sample Name", "geo_loc_name_country", "geo_loc_name_country_continent", "geo_loc_name")) %>%
+  rename(Submitter_Id = `Sample Name`, Country = geo_loc_name_country, Continent = geo_loc_name_country_continent, Locality=geo_loc_name)
+
 write_metadata(sra, sp)
 ```
 
