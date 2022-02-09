@@ -1,5 +1,4 @@
 BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome,refSpecies
-PRJNA192205,SAMN02743818,Corvus_corone_corone,male,D_Ko_C02,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
 PRJNA192205,SAMN02743819,Corvus_corone_corone,male,D_Ko_C04,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
 PRJNA192205,SAMN02743820,Corvus_corone_corone,male,D_Ko_C05,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
 PRJNA192205,SAMN02743821,Corvus_corone_corone,male,D_Ko_C08,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
@@ -29,3 +28,4 @@ PRJNA192205,SAMN02743844,Corvus_corone_corone,male,E_Vi_C48,Spain,Europe,Spain: 
 PRJNA192205,SAMN02743845,Corvus_corone_corone,male,E_Vi_C51,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
 PRJNA192205,SAMN02743846,Corvus_corone_corone,male,E_Vi_C57,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
 PRJNA192205,SAMN02743847,Corvus_corone_corone,male,E_Vi_C58,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743818,Corvus_corone_corone,male,D_Ko_C02,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix

@@ -1,0 +1,9 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome,refSpecies
+PRJEB9057,SAMEA3334625,Corvus_pectoralis,missing,DNA_347,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334626,Corvus_pectoralis,missing,DNA_350,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334627,Corvus_pectoralis,missing,DNA_363,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334628,Corvus_pectoralis,missing,DNA_385,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334629,Corvus_pectoralis,missing,DNA_402,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334630,Corvus_pectoralis,missing,DNA_413,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334631,Corvus_pectoralis,missing,DNA_427,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089891,Corvus_pectoralis,female,CHN_Gu_P01,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
