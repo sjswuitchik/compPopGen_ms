@@ -25,6 +25,7 @@ rule cds:
 	shell:
 		"""awk -f helper_scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
 		"""awk -f helper_scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
+
 rule cds_genes:
 	"""
 	This rule associates the CDS regions from the GFF with the gene names to be used in the gene_annot rule
