@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Ecotype,Site,Site_Type,Year,refGenome,refSpecies
+PRJNA545868,SAMN12253894,Glaucidium_brasilianum,female,B10K-DU-008-63,NA,Guyana,NA,2004,GCA_003259725.1,Athene_cunicularia
