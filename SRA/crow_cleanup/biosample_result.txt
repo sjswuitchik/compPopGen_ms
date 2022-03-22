@@ -1,0 +1,4590 @@
+1: CHN_Gu_P01 Collared crow sample
+Identifiers: BioSample: SAMEA5089891; SRA: ERS2901236
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089891"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:44:40Z"
+    /INSDC status="public"
+    /Submitter Id="CHN_Gu_P01"
+    /collected by="Lei Fumin, Chinese Academy of Sciences, Beijing, China"
+    /common name="collared crow"
+    /geographic location (region and locality)="China, Guangxi"
+    /latitude and longitude="22.758 N 108.314 E"
+    /sample name="CHN_Gu_P01"
+    /sex="female"
+Description:
+Collared crow sample
+Accession: SAMEA5089891	ID: 10472618
+
+2: RUS_Ya_O01 South Asian carrion crow sample
+Identifiers: BioSample: SAMEA5089890; SRA: ERS2901235
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2019-05-07"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089890"
+    /INSDC center alias="LMU"
+    /INSDC center name="Ludwig-Maximilians-University of Munich, Germany"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2019-05-07T14:32:27Z"
+    /INSDC status="public"
+    /Submitter Id="RUS_Ya_O01"
+    /collected by="Alexey Kryukov, Institute of Biology and Soil Science, Vladivostok, Russia"
+    /common name="South Asian carrion crow"
+    /geographic location (region and locality)="Russia, Yakutsk"
+    /latitude and longitude="62.024 N 129.724 E"
+    /sample name="RUS_Ya_O01"
+    /sex="male"
+    /sub species="orientalis"
+Description:
+South Asian carrion crow sample
+Accession: SAMEA5089890	ID: 10472617
+
+3: IRL_Lm_H16 Hybrid individual (Corvus cornix X Corvus corone)
+Identifiers: BioSample: SAMEA5089889; SRA: ERS2901234
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089889"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:37:22Z"
+    /INSDC status="public"
+    /Submitter Id="IRL_Lm_H16"
+    /collected by="Jochen Wolf, Uppsala University, Sweden (now Ludwig-Maximilians University Munich, Germany) in co-operation with Jamie Dick from Queen's University, Belfast, Ireland and Chris Harrod Queen Mary University London, U.K."
+    /common name="hooded crow"
+    /geographic location (region and locality)="Ireland, Lough Money Farm"
+    /latitude and longitude="54.313 N 5.629 W"
+    /sample name="IRL_Lm_H16"
+    /sex="male"
+    /tissue="blood"
+Description:
+Hybrid individual (Corvus cornix X Corvus corone)
+Accession: SAMEA5089889	ID: 10472616
+
+4: IRL_Lm_H15 Hybrid individual (Corvus cornix X Corvus corone)
+Identifiers: BioSample: SAMEA5089888; SRA: ERS2901233
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089888"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:36:38Z"
+    /INSDC status="public"
+    /Submitter Id="IRL_Lm_H15"
+    /collected by="Jochen Wolf, Uppsala University, Sweden (now Ludwig-Maximilians University Munich, Germany) in co-operation with Jamie Dick from Queen's University, Belfast, Ireland and Chris Harrod Queen Mary University London, U.K."
+    /common name="hooded crow"
+    /geographic location (region and locality)="Ireland, Lough Money Farm"
+    /latitude and longitude="54.313 N 5.629 W"
+    /sample name="IRL_Lm_H15"
+    /sex="female"
+    /tissue="blood"
+Description:
+Hybrid individual (Corvus cornix X Corvus corone)
+Accession: SAMEA5089888	ID: 10472615
+
+5: IRL_Lm_H12 Hybrid individual (Corvus cornix X Corvus corone)
+Identifiers: BioSample: SAMEA5089887; SRA: ERS2901232
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089887"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:38:39Z"
+    /INSDC status="public"
+    /Submitter Id="IRL_Lm_H12"
+    /collected by="Jochen Wolf, Uppsala University, Sweden (now Ludwig-Maximilians University Munich, Germany) in co-operation with Jamie Dick from Queen's University, Belfast, Ireland and Chris Harrod Queen Mary University London, U.K."
+    /common name="hooded crow"
+    /geographic location (region and locality)="Ireland, Lough Money Farm"
+    /latitude and longitude="54.313 N 5.629 W"
+    /sample name="IRL_Lm_H12"
+    /sex="male"
+    /tissue="blood"
+Description:
+Hybrid individual (Corvus cornix X Corvus corone)
+Accession: SAMEA5089887	ID: 10472614
+
+6: IRL_Lm_H10 Hybrid individual (Corvus cornix X Corvus corone)
+Identifiers: BioSample: SAMEA5089886; SRA: ERS2901231
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089886"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:39:29Z"
+    /INSDC status="public"
+    /Submitter Id="IRL_Lm_H10"
+    /collected by="Jochen Wolf, Uppsala University, Sweden (now Ludwig-Maximilians University Munich, Germany) in co-operation with Jamie Dick from Queen's University, Belfast, Ireland and Chris Harrod Queen Mary University London, U.K."
+    /common name="hooded crow"
+    /geographic location (region and locality)="Ireland, Lough Money Farm"
+    /latitude and longitude="54.313 N 5.629 W"
+    /sample name="IRL_Lm_H10"
+    /sex="female"
+    /tissue="blood"
+Description:
+Hybrid individual (Corvus cornix X Corvus corone)
+Accession: SAMEA5089886	ID: 10472613
+
+7: IRL_Lm_H08 Hybrid individual (Corvus cornix X Corvus corone)
+Identifiers: BioSample: SAMEA5089885; SRA: ERS2901230
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089885"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:39:57Z"
+    /INSDC status="public"
+    /Submitter Id="IRL_Lm_H08"
+    /collected by="Jochen Wolf, Uppsala University, Sweden (now Ludwig-Maximilians University Munich, Germany) in co-operation with Jamie Dick from Queen's University, Belfast, Ireland and Chris Harrod Queen Mary University London, U.K."
+    /common name="hooded crow"
+    /geographic location (region and locality)="Ireland, Lough Money Farm"
+    /latitude and longitude="54.313 N 5.629 W"
+    /sample name="IRL_Lm_H08"
+    /sex="female"
+    /tissue="blood"
+Description:
+Hybrid individual (Corvus cornix X Corvus corone)
+Accession: SAMEA5089885	ID: 10472612
+
+8: IRL_Lm_H07 Hybrid individual (Corvus cornix X Corvus corone)
+Identifiers: BioSample: SAMEA5089884; SRA: ERS2901229
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2018-11-15"
+    /ENA last update="2018-11-15"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA5089884"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2018-11-15T17:03:12Z"
+    /INSDC last update="2018-11-15T12:35:55Z"
+    /INSDC status="public"
+    /Submitter Id="IRL_Lm_H07"
+    /collected by="Jochen Wolf, Uppsala University, Sweden (now Ludwig-Maximilians University Munich, Germany) in co-operation with Jamie Dick from Queen's University, Belfast, Ireland and Chris Harrod Queen Mary University London, U.K."
+    /common name="hooded crow"
+    /geographic location (region and locality)="Ireland, Lough Money Farm"
+    /latitude and longitude="54.313 N 5.629 W"
+    /sample name="IRL_Lm_H07"
+    /sex="male"
+    /tissue="blood"
+Description:
+Hybrid individual (Corvus cornix X Corvus corone)
+Accession: SAMEA5089884	ID: 10472611
+
+9: RUS_Ke_Y03
+Identifiers: BioSample: SAMEA3334663; SRA: ERS700202
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334663"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:54Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_424"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_424"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334663	ID: 5554635
+
+10: RUS_Ke_Y01
+Identifiers: BioSample: SAMEA3334662; SRA: ERS700201
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334662"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:54Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_422"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_422"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334662	ID: 5554634
+
+11: RUS_Ke_Y05
+Identifiers: BioSample: SAMEA3334661; SRA: ERS700200
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334661"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_420"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_420"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334661	ID: 5554633
+
+12: RUS_Ke_Y02
+Identifiers: BioSample: SAMEA3334660; SRA: ERS700199
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334660"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_419"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_419"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334660	ID: 5554632
+
+13: RUS_Ke_Y06
+Identifiers: BioSample: SAMEA3334659; SRA: ERS700198
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334659"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_417"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_417"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334659	ID: 5554631
+
+14: RUS_Ke_Y03
+Identifiers: BioSample: SAMEA3334658; SRA: ERS700197
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334658"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_410"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_410"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334658	ID: 5554630
+
+15: RUS_Ke_Y01
+Identifiers: BioSample: SAMEA3334657; SRA: ERS700196
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334657"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_405"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_405"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334657	ID: 5554629
+
+16: RUS_Ke_Y05
+Identifiers: BioSample: SAMEA3334656; SRA: ERS700195
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334656"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_404"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_404"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334656	ID: 5554628
+
+17: RUS_Ke_Y02
+Identifiers: BioSample: SAMEA3334655; SRA: ERS700194
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334655"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_401"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_401"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334655	ID: 5554627
+
+18: RUS_Ke_Y06
+Identifiers: BioSample: SAMEA3334654; SRA: ERS700193
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334654"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_397"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_397"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334654	ID: 5554626
+
+19: RUS_Ke_Y03
+Identifiers: BioSample: SAMEA3334653; SRA: ERS700192
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334653"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_393"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_393"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334653	ID: 5554625
+
+20: RUS_Ke_Y01
+Identifiers: BioSample: SAMEA3334652; SRA: ERS700191
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334652"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_388"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_388"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334652	ID: 5554624
+
+21: RUS_Ke_Y05
+Identifiers: BioSample: SAMEA3334651; SRA: ERS700190
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334651"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_387"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_387"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334651	ID: 5554623
+
+22: RUS_Ke_Y02
+Identifiers: BioSample: SAMEA3334650; SRA: ERS700189
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334650"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_384"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_384"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334650	ID: 5554622
+
+23: RUS_Ke_Y06
+Identifiers: BioSample: SAMEA3334649; SRA: ERS700188
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334649"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_380"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_380"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334649	ID: 5554621
+
+24: RUS_Ke_Y04
+Identifiers: BioSample: SAMEA3334648; SRA: ERS700187
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334648"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:17:53Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_379"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_379"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334648	ID: 5554620
+
+25: RUS_Ke_Y03
+Identifiers: BioSample: SAMEA3334647; SRA: ERS700186
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334647"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:44Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_359"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_359"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334647	ID: 5554619
+
+26: RUS_Ke_Y01
+Identifiers: BioSample: SAMEA3334646; SRA: ERS700185
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334646"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:44Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_352"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_352"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334646	ID: 5554618
+
+27: RUS_Ke_Y05
+Identifiers: BioSample: SAMEA3334645; SRA: ERS700184
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334645"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:43Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_349"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_349"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334645	ID: 5554617
+
+28: RUS_Ke_Y02
+Identifiers: BioSample: SAMEA3334644; SRA: ERS700183
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334644"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:43Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_346"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_346"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334644	ID: 5554616
+
+29: RUS_Ke_Y06
+Identifiers: BioSample: SAMEA3334643; SRA: ERS700182
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334643"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:43Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_342"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_342"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334643	ID: 5554615
+
+30: RUS_Ke_Y04
+Identifiers: BioSample: SAMEA3334642; SRA: ERS700181
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334642"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:15Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_341"
+    /common name="Corvus corone orientalis X Corvus cornix"
+    /sample name="DNA_341"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334642	ID: 5554614
+
+31: Un_un_P01
+Identifiers: BioSample: SAMEA3334631; SRA: ERS700170
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334631"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:39Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_427"
+    /common name="collared crow"
+    /sample name="DNA_427"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334631	ID: 5554613
+
+32: Un_un_P01
+Identifiers: BioSample: SAMEA3334630; SRA: ERS700169
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334630"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:39Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_413"
+    /common name="collared crow"
+    /sample name="DNA_413"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334630	ID: 5554612
+
+33: Un_un_P02
+Identifiers: BioSample: SAMEA3334629; SRA: ERS700168
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334629"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:00:47Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_402"
+    /common name="collared crow"
+    /sample name="DNA_402"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334629	ID: 5554611
+
+34: Un_un_P02
+Identifiers: BioSample: SAMEA3334628; SRA: ERS700167
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334628"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:39Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_385"
+    /common name="collared crow"
+    /sample name="DNA_385"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334628	ID: 5554610
+
+35: Un_un_P01
+Identifiers: BioSample: SAMEA3334627; SRA: ERS700166
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334627"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:39Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_363"
+    /common name="collared crow"
+    /sample name="DNA_363"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334627	ID: 5554609
+
+36: Un_un_P01
+Identifiers: BioSample: SAMEA3334626; SRA: ERS700165
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334626"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:39Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_350"
+    /common name="collared crow"
+    /sample name="DNA_350"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334626	ID: 5554608
+
+37: Un_un_P02
+Identifiers: BioSample: SAMEA3334625; SRA: ERS700164
+Organism: Corvus pectoralis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334625"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:16:39Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_347"
+    /common name="collared crow"
+    /sample name="DNA_347"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334625	ID: 5554607
+
+38: RUS_Tv_O01
+Identifiers: BioSample: SAMEA3334624; SRA: ERS700163
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334624"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:08Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_428"
+    /sample name="DNA_428"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334624	ID: 5554606
+
+39: RUS_Pr_O02
+Identifiers: BioSample: SAMEA3334623; SRA: ERS700162
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334623"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:08Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_425"
+    /sample name="DNA_425"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334623	ID: 5554605
+
+40: RUS_Pr_O03
+Identifiers: BioSample: SAMEA3334622; SRA: ERS700161
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334622"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_421"
+    /sample name="DNA_421"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334622	ID: 5554604
+
+41: RUS_Ya_O02
+Identifiers: BioSample: SAMEA3334621; SRA: ERS700160
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334621"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_416"
+    /sample name="DNA_416"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334621	ID: 5554603
+
+42: RUS_Tv_O02
+Identifiers: BioSample: SAMEA3334620; SRA: ERS700159
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334620"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_415"
+    /sample name="DNA_415"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334620	ID: 5554602
+
+43: RUS_Tv_O01
+Identifiers: BioSample: SAMEA3334619; SRA: ERS700158
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334619"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_414"
+    /sample name="DNA_414"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334619	ID: 5554601
+
+44: RUS_Kr_O02
+Identifiers: BioSample: SAMEA3334618; SRA: ERS700157
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334618"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:08Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_409"
+    /sample name="DNA_409"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334618	ID: 5554600
+
+45: RUS_Kr_O03
+Identifiers: BioSample: SAMEA3334617; SRA: ERS700156
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334617"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:08Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_408"
+    /sample name="DNA_408"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334617	ID: 5554599
+
+46: RUS_Ya_O03
+Identifiers: BioSample: SAMEA3334616; SRA: ERS700155
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334616"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:08Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_406"
+    /sample name="DNA_406"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334616	ID: 5554598
+
+47: RUS_Kr_O01
+Identifiers: BioSample: SAMEA3334615; SRA: ERS700154
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334615"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:08Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_400"
+    /sample name="DNA_400"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334615	ID: 5554597
+
+48: RUS_Kr_O04
+Identifiers: BioSample: SAMEA3334614; SRA: ERS700153
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334614"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_396"
+    /sample name="DNA_396"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334614	ID: 5554596
+
+49: RUS_Kr_O02
+Identifiers: BioSample: SAMEA3334613; SRA: ERS700152
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334613"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_392"
+    /sample name="DNA_392"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334613	ID: 5554595
+
+50: RUS_Kr_O03
+Identifiers: BioSample: SAMEA3334612; SRA: ERS700151
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334612"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_391"
+    /sample name="DNA_391"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334612	ID: 5554594
+
+
+51: RUS_Ya_O03
+Identifiers: BioSample: SAMEA3334611; SRA: ERS700150
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334611"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_389"
+    /sample name="DNA_389"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334611	ID: 5554593
+
+52: RUS_Kr_O01
+Identifiers: BioSample: SAMEA3334610; SRA: ERS700149
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334610"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_383"
+    /sample name="DNA_383"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334610	ID: 5554592
+
+53: RUS_Kr_O04
+Identifiers: BioSample: SAMEA3334609; SRA: ERS700148
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334609"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_378"
+    /sample name="DNA_378"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334609	ID: 5554591
+
+54: RUS_Pr_O02
+Identifiers: BioSample: SAMEA3334608; SRA: ERS700147
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334608"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_376"
+    /sample name="DNA_376"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334608	ID: 5554590
+
+55: RUS_Pr_O05
+Identifiers: BioSample: SAMEA3334607; SRA: ERS700146
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334607"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_373"
+    /sample name="DNA_373"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334607	ID: 5554589
+
+56: RUS_Pr_O03
+Identifiers: BioSample: SAMEA3334606; SRA: ERS700145
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334606"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_372"
+    /sample name="DNA_372"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334606	ID: 5554588
+
+57: RUS_Pr_O04
+Identifiers: BioSample: SAMEA3334605; SRA: ERS700144
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334605"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_370"
+    /sample name="DNA_370"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334605	ID: 5554587
+
+58: RUS_Pr_O01
+Identifiers: BioSample: SAMEA3334604; SRA: ERS700143
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334604"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_368"
+    /sample name="DNA_368"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334604	ID: 5554586
+
+59: RUS_Ya_O02
+Identifiers: BioSample: SAMEA3334603; SRA: ERS700142
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334603"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_367"
+    /sample name="DNA_367"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334603	ID: 5554585
+
+60: RUS_Tv_O02
+Identifiers: BioSample: SAMEA3334602; SRA: ERS700141
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334602"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_366"
+    /sample name="DNA_366"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334602	ID: 5554584
+
+61: RUS_Tv_O01
+Identifiers: BioSample: SAMEA3334601; SRA: ERS700140
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334601"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_365"
+    /sample name="DNA_365"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334601	ID: 5554583
+
+62: RUS_Ya_O02
+Identifiers: BioSample: SAMEA3334600; SRA: ERS700139
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334600"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_361"
+    /sample name="DNA_361"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334600	ID: 5554582
+
+63: RUS_Kr_O02
+Identifiers: BioSample: SAMEA3334599; SRA: ERS700138
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334599"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_358"
+    /sample name="DNA_358"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334599	ID: 5554581
+
+64: RUS_Tv_O02
+Identifiers: BioSample: SAMEA3334598; SRA: ERS700137
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334598"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_357"
+    /sample name="DNA_357"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334598	ID: 5554580
+
+65: RUS_Kr_O03
+Identifiers: BioSample: SAMEA3334597; SRA: ERS700136
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334597"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_356"
+    /sample name="DNA_356"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334597	ID: 5554579
+
+66: RUS_Tv_O01
+Identifiers: BioSample: SAMEA3334596; SRA: ERS700135
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334596"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_355"
+    /sample name="DNA_355"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334596	ID: 5554578
+
+67: RUS_Ya_O03
+Identifiers: BioSample: SAMEA3334595; SRA: ERS700134
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334595"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_353"
+    /sample name="DNA_353"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334595	ID: 5554577
+
+68: RUS_Kr_O01
+Identifiers: BioSample: SAMEA3334594; SRA: ERS700133
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334594"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:07Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_345"
+    /sample name="DNA_345"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334594	ID: 5554576
+
+69: S_Ri_J03
+Identifiers: BioSample: SAMEA3334593; SRA: ERS700132
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334593"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_522"
+    /common name="jackdaw"
+    /sample name="DNA_522"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334593	ID: 5554575
+
+70: S_Ri_J03
+Identifiers: BioSample: SAMEA3334592; SRA: ERS700131
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334592"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_521"
+    /common name="jackdaw"
+    /sample name="DNA_521"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334592	ID: 5554574
+
+71: S_Ri_J08
+Identifiers: BioSample: SAMEA3334591; SRA: ERS700130
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334591"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_490"
+    /common name="jackdaw"
+    /sample name="DNA_490"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334591	ID: 5554573
+
+72: S_Ri_J08
+Identifiers: BioSample: SAMEA3334590; SRA: ERS700129
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334590"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_489"
+    /common name="jackdaw"
+    /sample name="DNA_489"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334590	ID: 5554572
+
+73: S_Ri_J03
+Identifiers: BioSample: SAMEA3334589; SRA: ERS700128
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334589"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_480"
+    /common name="jackdaw"
+    /sample name="DNA_480"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334589	ID: 5554571
+
+74: S_Ri_J03
+Identifiers: BioSample: SAMEA3334588; SRA: ERS700127
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334588"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_479"
+    /common name="jackdaw"
+    /sample name="DNA_479"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334588	ID: 5554570
+
+75: S_Ri_J02
+Identifiers: BioSample: SAMEA3334587; SRA: ERS700126
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334587"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_449"
+    /common name="jackdaw"
+    /sample name="DNA_449"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334587	ID: 5554569
+
+76: S_Ri_J02
+Identifiers: BioSample: SAMEA3334586; SRA: ERS700125
+Organism: Coloeus monedula
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334586"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_429"
+    /common name="jackdaw"
+    /sample name="DNA_429"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334586	ID: 5554568
+
+77: RUS_Mu_R04
+Identifiers: BioSample: SAMEA3334585; SRA: ERS700124
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334585"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_553"
+    /common name="rook"
+    /sample name="DNA_553"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334585	ID: 5554567
+
+78: RUS_Mu_R03
+Identifiers: BioSample: SAMEA3334584; SRA: ERS700123
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334584"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_547"
+    /common name="rook"
+    /sample name="DNA_547"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334584	ID: 5554566
+
+79: RUS_Mu_R04
+Identifiers: BioSample: SAMEA3334583; SRA: ERS700122
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334583"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_534"
+    /common name="rook"
+    /sample name="DNA_534"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334583	ID: 5554565
+
+80: RUS_Mu_R04
+Identifiers: BioSample: SAMEA3334582; SRA: ERS700121
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334582"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_533"
+    /common name="rook"
+    /sample name="DNA_533"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334582	ID: 5554564
+
+81: RUS_Mu_R03
+Identifiers: BioSample: SAMEA3334581; SRA: ERS700120
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334581"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_498"
+    /common name="rook"
+    /sample name="DNA_498"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334581	ID: 5554563
+
+82: RUS_Mu_R03
+Identifiers: BioSample: SAMEA3334580; SRA: ERS700119
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334580"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_497"
+    /common name="rook"
+    /sample name="DNA_497"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334580	ID: 5554562
+
+83: RUS_Mu_R04
+Identifiers: BioSample: SAMEA3334579; SRA: ERS700118
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334579"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:00:47Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_464"
+    /common name="rook"
+    /sample name="DNA_464"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334579	ID: 5554561
+
+84: RUS_Mu_R03
+Identifiers: BioSample: SAMEA3334578; SRA: ERS700117
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334578"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_453"
+    /common name="rook"
+    /sample name="DNA_453"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334578	ID: 5554560
+
+85: RUS_Mu_R04
+Identifiers: BioSample: SAMEA3334577; SRA: ERS700116
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334577"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:00:47Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_444"
+    /common name="rook"
+    /sample name="DNA_444"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334577	ID: 5554559
+
+86: RUS_Mu_R03
+Identifiers: BioSample: SAMEA3334576; SRA: ERS700115
+Organism: Corvus frugilegus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334576"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:15:42Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_433"
+    /common name="rook"
+    /sample name="DNA_433"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334576	ID: 5554558
+
+87: DDCHN_Gu_D02
+Identifiers: BioSample: SAMEA3334575; SRA: ERS700114
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334575"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:18:44Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_558"
+    /sample name="DNA_558"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334575	ID: 5554557
+
+88: MON_Kh_D02
+Identifiers: BioSample: SAMEA3334574; SRA: ERS700113
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334574"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_554"
+    /sample name="DNA_554"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334574	ID: 5554556
+
+89: MON_Kh_D03
+Identifiers: BioSample: SAMEA3334573; SRA: ERS700112
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334573"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_550"
+    /sample name="DNA_550"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334573	ID: 5554555
+
+90: MON_Kh_D01
+Identifiers: BioSample: SAMEA3334572; SRA: ERS700111
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334572"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:18:44Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_548"
+    /sample name="DNA_548"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334572	ID: 5554554
+
+91: MON_Kh_D02
+Identifiers: BioSample: SAMEA3334571; SRA: ERS700110
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334571"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:18:44Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_538"
+    /sample name="DNA_538"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334571	ID: 5554553
+
+92: MON_Kh_D02
+Identifiers: BioSample: SAMEA3334570; SRA: ERS700109
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334570"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:02Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_537"
+    /sample name="DNA_537"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334570	ID: 5554552
+
+93: MON_Kh_D03
+Identifiers: BioSample: SAMEA3334569; SRA: ERS700108
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334569"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:02Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_524"
+    /sample name="DNA_524"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334569	ID: 5554551
+
+94: MON_Kh_D03
+Identifiers: BioSample: SAMEA3334568; SRA: ERS700107
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334568"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_523"
+    /sample name="DNA_523"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334568	ID: 5554550
+
+95: MON_Kh_D01
+Identifiers: BioSample: SAMEA3334567; SRA: ERS700106
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334567"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_508"
+    /sample name="DNA_508"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334567	ID: 5554549
+
+96: MON_Kh_D01
+Identifiers: BioSample: SAMEA3334566; SRA: ERS700105
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334566"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:02Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_507"
+    /sample name="DNA_507"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334566	ID: 5554548
+
+97: MON_Kh_D02
+Identifiers: BioSample: SAMEA3334565; SRA: ERS700104
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334565"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:02Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_486"
+    /sample name="DNA_486"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334565	ID: 5554547
+
+98: MON_Kh_D02
+Identifiers: BioSample: SAMEA3334564; SRA: ERS700103
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334564"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_485"
+    /sample name="DNA_485"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334564	ID: 5554546
+
+99: MON_Kh_D03
+Identifiers: BioSample: SAMEA3334563; SRA: ERS700102
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334563"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_482"
+    /sample name="DNA_482"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334563	ID: 5554545
+
+100: MON_Kh_D03
+Identifiers: BioSample: SAMEA3334562; SRA: ERS700101
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334562"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_481"
+    /sample name="DNA_481"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334562	ID: 5554544
+
+
+101: MON_Kh_D01
+Identifiers: BioSample: SAMEA3334561; SRA: ERS700100
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334561"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_474"
+    /sample name="DNA_474"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334561	ID: 5554543
+
+102: MON_Kh_D01
+Identifiers: BioSample: SAMEA3334560; SRA: ERS700099
+Organism: Corvus dauuricus
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334560"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:04Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_473"
+    /sample name="DNA_473"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334560	ID: 5554542
+
+103: B_So_H04
+Identifiers: BioSample: SAMEA3334559; SRA: ERS700098
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334559"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_557"
+    /common name="hooded crow"
+    /sample name="DNA_557"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334559	ID: 5554541
+
+104: ITA_Ro_H04
+Identifiers: BioSample: SAMEA3334558; SRA: ERS700097
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334558"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_556"
+    /common name="hooded crow"
+    /sample name="DNA_556"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334558	ID: 5554540
+
+105: ITA_Ro_H12
+Identifiers: BioSample: SAMEA3334557; SRA: ERS700096
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334557"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_555"
+    /common name="hooded crow"
+    /sample name="DNA_555"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334557	ID: 5554539
+
+106: ISR_TA_H02
+Identifiers: BioSample: SAMEA3334556; SRA: ERS700095
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334556"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_552"
+    /common name="hooded crow"
+    /sample name="DNA_552"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334556	ID: 5554538
+
+107: ISR_TA_H04
+Identifiers: BioSample: SAMEA3334555; SRA: ERS700094
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334555"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_551"
+    /common name="hooded crow"
+    /sample name="DNA_551"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334555	ID: 5554537
+
+108: ISR_TA_H01
+Identifiers: BioSample: SAMEA3334554; SRA: ERS700093
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334554"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_549"
+    /common name="hooded crow"
+    /sample name="DNA_549"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334554	ID: 5554536
+
+109: B_So_H04
+Identifiers: BioSample: SAMEA3334553; SRA: ERS700092
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334553"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_546"
+    /common name="hooded crow"
+    /sample name="DNA_546"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334553	ID: 5554535
+
+110: B_So_H04
+Identifiers: BioSample: SAMEA3334552; SRA: ERS700091
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334552"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_545"
+    /common name="hooded crow"
+    /sample name="DNA_545"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334552	ID: 5554534
+
+111: ITA_Ro_H04
+Identifiers: BioSample: SAMEA3334551; SRA: ERS700090
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334551"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_544"
+    /common name="hooded crow"
+    /sample name="DNA_544"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334551	ID: 5554533
+
+112: ITA_Ro_H04
+Identifiers: BioSample: SAMEA3334550; SRA: ERS700089
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334550"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_543"
+    /common name="hooded crow"
+    /sample name="DNA_543"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334550	ID: 5554532
+
+113: ITA_Ro_H12
+Identifiers: BioSample: SAMEA3334549; SRA: ERS700088
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334549"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_542"
+    /common name="hooded crow"
+    /sample name="DNA_542"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334549	ID: 5554531
+
+114: ITA_Ro_H12
+Identifiers: BioSample: SAMEA3334548; SRA: ERS700087
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334548"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_541"
+    /common name="hooded crow"
+    /sample name="DNA_541"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334548	ID: 5554530
+
+115: ITA_Ro_H13
+Identifiers: BioSample: SAMEA3334547; SRA: ERS700086
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334547"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_540"
+    /common name="hooded crow"
+    /sample name="DNA_540"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334547	ID: 5554529
+
+116: ITA_Ro_H13
+Identifiers: BioSample: SAMEA3334546; SRA: ERS700085
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334546"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_539"
+    /common name="hooded crow"
+    /sample name="DNA_539"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334546	ID: 5554528
+
+117: ITA_Ro_H03
+Identifiers: BioSample: SAMEA3334545; SRA: ERS700084
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334545"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_536"
+    /common name="hooded crow"
+    /sample name="DNA_536"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334545	ID: 5554527
+
+118: ITA_Ro_H03
+Identifiers: BioSample: SAMEA3334544; SRA: ERS700083
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334544"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_535"
+    /common name="hooded crow"
+    /sample name="DNA_535"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334544	ID: 5554526
+
+119: ITA_Ro_H06
+Identifiers: BioSample: SAMEA3334543; SRA: ERS700082
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334543"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:35Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_532"
+    /common name="hooded crow"
+    /sample name="DNA_532"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334543	ID: 5554525
+
+120: ITA_Ro_H06
+Identifiers: BioSample: SAMEA3334542; SRA: ERS700081
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334542"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_531"
+    /common name="hooded crow"
+    /sample name="DNA_531"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334542	ID: 5554524
+
+121: B_un_H01
+Identifiers: BioSample: SAMEA3334541; SRA: ERS700080
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334541"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_530"
+    /common name="hooded crow"
+    /sample name="DNA_530"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334541	ID: 5554523
+
+122: B_un_H01
+Identifiers: BioSample: SAMEA3334540; SRA: ERS700079
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334540"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_529"
+    /common name="hooded crow"
+    /sample name="DNA_529"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334540	ID: 5554522
+
+123: ISR_TA_H02
+Identifiers: BioSample: SAMEA3334539; SRA: ERS700078
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334539"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_528"
+    /common name="hooded crow"
+    /sample name="DNA_528"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334539	ID: 5554521
+
+124: ISR_TA_H02
+Identifiers: BioSample: SAMEA3334538; SRA: ERS700077
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334538"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_527"
+    /common name="hooded crow"
+    /sample name="DNA_527"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334538	ID: 5554520
+
+125: ISR_TA_H04
+Identifiers: BioSample: SAMEA3334537; SRA: ERS700076
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334537"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_526"
+    /common name="hooded crow"
+    /sample name="DNA_526"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334537	ID: 5554519
+
+126: ISR_TA_H04
+Identifiers: BioSample: SAMEA3334536; SRA: ERS700075
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334536"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_525"
+    /common name="hooded crow"
+    /sample name="DNA_525"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334536	ID: 5554518
+
+127: ISR_TA_H01
+Identifiers: BioSample: SAMEA3334535; SRA: ERS700074
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334535"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_520"
+    /common name="hooded crow"
+    /sample name="DNA_520"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334535	ID: 5554517
+
+128: ISR_TA_H01
+Identifiers: BioSample: SAMEA3334534; SRA: ERS700073
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334534"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_519"
+    /common name="hooded crow"
+    /sample name="DNA_519"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334534	ID: 5554516
+
+129: ITA_Ro_H11
+Identifiers: BioSample: SAMEA3334533; SRA: ERS700072
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334533"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_518"
+    /common name="hooded crow"
+    /sample name="DNA_518"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334533	ID: 5554515
+
+130: ITA_Ro_H11
+Identifiers: BioSample: SAMEA3334532; SRA: ERS700071
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334532"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_517"
+    /common name="hooded crow"
+    /sample name="DNA_517"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334532	ID: 5554514
+
+131: ITA_Ro_H10
+Identifiers: BioSample: SAMEA3334531; SRA: ERS700070
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334531"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_516"
+    /common name="hooded crow"
+    /sample name="DNA_516"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334531	ID: 5554513
+
+132: ITA_Ro_H10
+Identifiers: BioSample: SAMEA3334530; SRA: ERS700069
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334530"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_515"
+    /common name="hooded crow"
+    /sample name="DNA_515"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334530	ID: 5554512
+
+133: ITA_Ro_H02
+Identifiers: BioSample: SAMEA3334529; SRA: ERS700068
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334529"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_514"
+    /common name="hooded crow"
+    /sample name="DNA_514"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334529	ID: 5554511
+
+134: ITA_Ro_H02
+Identifiers: BioSample: SAMEA3334528; SRA: ERS700067
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334528"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_513"
+    /common name="hooded crow"
+    /sample name="DNA_513"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334528	ID: 5554510
+
+135: B_So_H02
+Identifiers: BioSample: SAMEA3334527; SRA: ERS700066
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334527"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_512"
+    /common name="hooded crow"
+    /sample name="DNA_512"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334527	ID: 5554509
+
+136: B_So_H02
+Identifiers: BioSample: SAMEA3334526; SRA: ERS700065
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334526"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_511"
+    /common name="hooded crow"
+    /sample name="DNA_511"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334526	ID: 5554508
+
+137: B_SZ_H02
+Identifiers: BioSample: SAMEA3334525; SRA: ERS700064
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334525"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_510"
+    /common name="hooded crow"
+    /sample name="DNA_510"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334525	ID: 5554507
+
+138: B_SZ_H02
+Identifiers: BioSample: SAMEA3334524; SRA: ERS700063
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334524"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_509"
+    /common name="hooded crow"
+    /sample name="DNA_509"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334524	ID: 5554506
+
+139: ITA_Ro_H07
+Identifiers: BioSample: SAMEA3334523; SRA: ERS700062
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334523"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_506"
+    /common name="hooded crow"
+    /sample name="DNA_506"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334523	ID: 5554505
+
+140: ITA_Ro_H07
+Identifiers: BioSample: SAMEA3334522; SRA: ERS700061
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334522"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_505"
+    /common name="hooded crow"
+    /sample name="DNA_505"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334522	ID: 5554504
+
+141: ITA_Ro_H01
+Identifiers: BioSample: SAMEA3334521; SRA: ERS700060
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334521"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_504"
+    /common name="hooded crow"
+    /sample name="DNA_504"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334521	ID: 5554503
+
+142: ITA_Ro_H01
+Identifiers: BioSample: SAMEA3334520; SRA: ERS700059
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334520"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_503"
+    /common name="hooded crow"
+    /sample name="DNA_503"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334520	ID: 5554502
+
+143: ITA_Ro_H14
+Identifiers: BioSample: SAMEA3334519; SRA: ERS700058
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334519"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_502"
+    /common name="hooded crow"
+    /sample name="DNA_502"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334519	ID: 5554501
+
+144: ITA_Ro_H14
+Identifiers: BioSample: SAMEA3334518; SRA: ERS700057
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334518"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_501"
+    /common name="hooded crow"
+    /sample name="DNA_501"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334518	ID: 5554500
+
+145: B_SZ_H01
+Identifiers: BioSample: SAMEA3334517; SRA: ERS700056
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334517"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_500"
+    /common name="hooded crow"
+    /sample name="DNA_500"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334517	ID: 5554499
+
+146: B_SZ_H01
+Identifiers: BioSample: SAMEA3334516; SRA: ERS700055
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334516"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_499"
+    /common name="hooded crow"
+    /sample name="DNA_499"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334516	ID: 5554498
+
+147: ITA_Ro_H08
+Identifiers: BioSample: SAMEA3334515; SRA: ERS700054
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334515"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_496"
+    /common name="hooded crow"
+    /sample name="DNA_496"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334515	ID: 5554497
+
+148: ITA_Ro_H08
+Identifiers: BioSample: SAMEA3334514; SRA: ERS700053
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334514"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:12:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_495"
+    /common name="hooded crow"
+    /sample name="DNA_495"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334514	ID: 5554496
+
+149: ITA_Ro_H05
+Identifiers: BioSample: SAMEA3334513; SRA: ERS700052
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334513"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_494"
+    /common name="hooded crow"
+    /sample name="DNA_494"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334513	ID: 5554495
+
+150: ITA_Ro_H05
+Identifiers: BioSample: SAMEA3334512; SRA: ERS700051
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334512"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_493"
+    /common name="hooded crow"
+    /sample name="DNA_493"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334512	ID: 5554494
+
+
+151: ITA_Ro_H09
+Identifiers: BioSample: SAMEA3334511; SRA: ERS700050
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334511"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:58Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_492"
+    /common name="hooded crow"
+    /sample name="DNA_492"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334511	ID: 5554493
+
+152: ITA_Ro_H09
+Identifiers: BioSample: SAMEA3334510; SRA: ERS700049
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334510"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_491"
+    /common name="hooded crow"
+    /sample name="DNA_491"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334510	ID: 5554492
+
+153: ITA_Ro_H13
+Identifiers: BioSample: SAMEA3334509; SRA: ERS700048
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334509"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_488"
+    /common name="hooded crow"
+    /sample name="DNA_488"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334509	ID: 5554491
+
+154: ITA_Ro_H13
+Identifiers: BioSample: SAMEA3334508; SRA: ERS700047
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334508"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_487"
+    /common name="hooded crow"
+    /sample name="DNA_487"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334508	ID: 5554490
+
+155: B_un_H01
+Identifiers: BioSample: SAMEA3334507; SRA: ERS700046
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334507"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_484"
+    /common name="hooded crow"
+    /sample name="DNA_484"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334507	ID: 5554489
+
+156: B_un_H01
+Identifiers: BioSample: SAMEA3334506; SRA: ERS700045
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334506"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_483"
+    /common name="hooded crow"
+    /sample name="DNA_483"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334506	ID: 5554488
+
+157: ITA_Ro_H11
+Identifiers: BioSample: SAMEA3334505; SRA: ERS700044
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334505"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_478"
+    /common name="hooded crow"
+    /sample name="DNA_478"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334505	ID: 5554487
+
+158: ITA_Ro_H11
+Identifiers: BioSample: SAMEA3334504; SRA: ERS700043
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334504"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_477"
+    /common name="hooded crow"
+    /sample name="DNA_477"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334504	ID: 5554486
+
+159: B_So_H02
+Identifiers: BioSample: SAMEA3334503; SRA: ERS700042
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334503"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_476"
+    /common name="hooded crow"
+    /sample name="DNA_476"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334503	ID: 5554485
+
+160: B_So_H02
+Identifiers: BioSample: SAMEA3334502; SRA: ERS700041
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334502"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_475"
+    /common name="hooded crow"
+    /sample name="DNA_475"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334502	ID: 5554484
+
+161: ITA_Ro_H01
+Identifiers: BioSample: SAMEA3334501; SRA: ERS700040
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334501"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_472"
+    /common name="hooded crow"
+    /sample name="DNA_472"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334501	ID: 5554483
+
+162: ITA_Ro_H01
+Identifiers: BioSample: SAMEA3334500; SRA: ERS700039
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334500"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_471"
+    /common name="hooded crow"
+    /sample name="DNA_471"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334500	ID: 5554482
+
+163: B_So_H03
+Identifiers: BioSample: SAMEA3334499; SRA: ERS700038
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334499"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:22Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_470"
+    /common name="hooded crow"
+    /sample name="DNA_470"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334499	ID: 5554481
+
+164: B_So_H01
+Identifiers: BioSample: SAMEA3334498; SRA: ERS700037
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334498"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_469"
+    /common name="hooded crow"
+    /sample name="DNA_469"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334498	ID: 5554480
+
+165: B_So_H04
+Identifiers: BioSample: SAMEA3334497; SRA: ERS700036
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334497"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_468"
+    /common name="hooded crow"
+    /sample name="DNA_468"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334497	ID: 5554479
+
+166: ITA_Ro_H04
+Identifiers: BioSample: SAMEA3334496; SRA: ERS700035
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334496"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_467"
+    /common name="hooded crow"
+    /sample name="DNA_467"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334496	ID: 5554478
+
+167: ITA_Ro_H12
+Identifiers: BioSample: SAMEA3334495; SRA: ERS700034
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334495"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_466"
+    /common name="hooded crow"
+    /sample name="DNA_466"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334495	ID: 5554477
+
+168: ITA_Ro_H03
+Identifiers: BioSample: SAMEA3334494; SRA: ERS700033
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334494"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_465"
+    /common name="hooded crow"
+    /sample name="DNA_465"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334494	ID: 5554476
+
+169: ITA_Ro_H06
+Identifiers: BioSample: SAMEA3334493; SRA: ERS700032
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334493"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_463"
+    /common name="hooded crow"
+    /sample name="DNA_463"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334493	ID: 5554475
+
+170: ISR_TA_H02
+Identifiers: BioSample: SAMEA3334492; SRA: ERS700031
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334492"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_462"
+    /common name="hooded crow"
+    /sample name="DNA_462"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334492	ID: 5554474
+
+171: ISR_TA_H04
+Identifiers: BioSample: SAMEA3334491; SRA: ERS700030
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334491"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_461"
+    /common name="hooded crow"
+    /sample name="DNA_461"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334491	ID: 5554473
+
+172: ISR_TA_H01
+Identifiers: BioSample: SAMEA3334490; SRA: ERS700029
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334490"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_460"
+    /common name="hooded crow"
+    /sample name="DNA_460"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334490	ID: 5554472
+
+173: ITA_Ro_H10
+Identifiers: BioSample: SAMEA3334489; SRA: ERS700028
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334489"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_459"
+    /common name="hooded crow"
+    /sample name="DNA_459"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334489	ID: 5554471
+
+174: ITA_Ro_H02
+Identifiers: BioSample: SAMEA3334488; SRA: ERS700027
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334488"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_458"
+    /common name="hooded crow"
+    /sample name="DNA_458"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334488	ID: 5554470
+
+175: B_SZ_H02
+Identifiers: BioSample: SAMEA3334487; SRA: ERS700026
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334487"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_457"
+    /common name="hooded crow"
+    /sample name="DNA_457"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334487	ID: 5554469
+
+176: ITA_Ro_H07
+Identifiers: BioSample: SAMEA3334486; SRA: ERS700025
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334486"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_456"
+    /common name="hooded crow"
+    /sample name="DNA_456"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334486	ID: 5554468
+
+177: ITA_Ro_H14
+Identifiers: BioSample: SAMEA3334485; SRA: ERS700024
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334485"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_455"
+    /common name="hooded crow"
+    /sample name="DNA_455"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334485	ID: 5554467
+
+178: B_SZ_H01
+Identifiers: BioSample: SAMEA3334484; SRA: ERS700023
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334484"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_454"
+    /common name="hooded crow"
+    /sample name="DNA_454"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334484	ID: 5554466
+
+179: ITA_Ro_H08
+Identifiers: BioSample: SAMEA3334483; SRA: ERS700022
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334483"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_452"
+    /common name="hooded crow"
+    /sample name="DNA_452"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334483	ID: 5554465
+
+180: ITA_Ro_H05
+Identifiers: BioSample: SAMEA3334482; SRA: ERS700021
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334482"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_451"
+    /common name="hooded crow"
+    /sample name="DNA_451"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334482	ID: 5554464
+
+181: ITA_Ro_H09
+Identifiers: BioSample: SAMEA3334481; SRA: ERS700020
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334481"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_450"
+    /common name="hooded crow"
+    /sample name="DNA_450"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334481	ID: 5554463
+
+182: B_So_H04
+Identifiers: BioSample: SAMEA3334480; SRA: ERS700019
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334480"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_448"
+    /common name="hooded crow"
+    /sample name="DNA_448"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334480	ID: 5554462
+
+183: ITA_Ro_H04
+Identifiers: BioSample: SAMEA3334479; SRA: ERS700018
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334479"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_447"
+    /common name="hooded crow"
+    /sample name="DNA_447"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334479	ID: 5554461
+
+184: ITA_Ro_H12
+Identifiers: BioSample: SAMEA3334478; SRA: ERS700017
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334478"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_446"
+    /common name="hooded crow"
+    /sample name="DNA_446"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334478	ID: 5554460
+
+185: ITA_Ro_H03
+Identifiers: BioSample: SAMEA3334477; SRA: ERS700016
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334477"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_445"
+    /common name="hooded crow"
+    /sample name="DNA_445"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334477	ID: 5554459
+
+186: ITA_Ro_H06
+Identifiers: BioSample: SAMEA3334476; SRA: ERS700015
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334476"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_443"
+    /common name="hooded crow"
+    /sample name="DNA_443"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334476	ID: 5554458
+
+187: ISR_TA_H02
+Identifiers: BioSample: SAMEA3334475; SRA: ERS700014
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334475"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_442"
+    /common name="hooded crow"
+    /sample name="DNA_442"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334475	ID: 5554457
+
+188: ISR_TA_H04
+Identifiers: BioSample: SAMEA3334474; SRA: ERS700013
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334474"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_441"
+    /common name="hooded crow"
+    /sample name="DNA_441"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334474	ID: 5554456
+
+189: ISR_TA_H01
+Identifiers: BioSample: SAMEA3334473; SRA: ERS700012
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334473"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_440"
+    /common name="hooded crow"
+    /sample name="DNA_440"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334473	ID: 5554455
+
+190: ITA_Ro_H10
+Identifiers: BioSample: SAMEA3334472; SRA: ERS700011
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334472"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_439"
+    /common name="hooded crow"
+    /sample name="DNA_439"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334472	ID: 5554454
+
+191: ITA_Ro_H02
+Identifiers: BioSample: SAMEA3334471; SRA: ERS700010
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334471"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:15Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_438"
+    /common name="hooded crow"
+    /sample name="DNA_438"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334471	ID: 5554453
+
+192: B_SZ_H02
+Identifiers: BioSample: SAMEA3334470; SRA: ERS700009
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334470"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:15Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_437"
+    /common name="hooded crow"
+    /sample name="DNA_437"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334470	ID: 5554452
+
+193: ITA_Ro_H07
+Identifiers: BioSample: SAMEA3334469; SRA: ERS700008
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334469"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_436"
+    /common name="hooded crow"
+    /sample name="DNA_436"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334469	ID: 5554451
+
+194: ITA_Ro_H14
+Identifiers: BioSample: SAMEA3334468; SRA: ERS700007
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334468"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:11:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_435"
+    /common name="hooded crow"
+    /sample name="DNA_435"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334468	ID: 5554450
+
+195: B_SZ_H01
+Identifiers: BioSample: SAMEA3334467; SRA: ERS700006
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334467"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_434"
+    /common name="hooded crow"
+    /sample name="DNA_434"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334467	ID: 5554449
+
+196: ITA_Ro_H08
+Identifiers: BioSample: SAMEA3334466; SRA: ERS700005
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334466"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_432"
+    /common name="hooded crow"
+    /sample name="DNA_432"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334466	ID: 5554448
+
+197: ITA_Ro_H05
+Identifiers: BioSample: SAMEA3334465; SRA: ERS700004
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334465"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_431"
+    /common name="hooded crow"
+    /sample name="DNA_431"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334465	ID: 5554447
+
+198: ITA_Ro_H09
+Identifiers: BioSample: SAMEA3334464; SRA: ERS700003
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334464"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_430"
+    /common name="hooded crow"
+    /sample name="DNA_430"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334464	ID: 5554446
+
+199: RUS_No_H03
+Identifiers: BioSample: SAMEA3334463; SRA: ERS700002
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334463"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_426"
+    /common name="hooded crow"
+    /sample name="DNA_426"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334463	ID: 5554445
+
+200: RUS_Ki_H02
+Identifiers: BioSample: SAMEA3334462; SRA: ERS700001
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334462"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:15Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_423"
+    /common name="hooded crow"
+    /sample name="DNA_423"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334462	ID: 5554444
+
+
+201: RUS_Tu_H01
+Identifiers: BioSample: SAMEA3334461; SRA: ERS700000
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334461"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_418"
+    /common name="hooded crow"
+    /sample name="DNA_418"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334461	ID: 5554443
+
+202: RUS_No_H02
+Identifiers: BioSample: SAMEA3334460; SRA: ERS699999
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334460"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_412"
+    /common name="hooded crow"
+    /sample name="DNA_412"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334460	ID: 5554442
+
+203: RUS_No_H03
+Identifiers: BioSample: SAMEA3334459; SRA: ERS699998
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334459"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_411"
+    /common name="hooded crow"
+    /sample name="DNA_411"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334459	ID: 5554441
+
+204: RUS_Ki_H02
+Identifiers: BioSample: SAMEA3334458; SRA: ERS699997
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334458"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_407"
+    /common name="hooded crow"
+    /sample name="DNA_407"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334458	ID: 5554440
+
+205: RUS_Ki_H04
+Identifiers: BioSample: SAMEA3334457; SRA: ERS699996
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334457"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_403"
+    /common name="hooded crow"
+    /sample name="DNA_403"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334457	ID: 5554439
+
+206: RUS_Tu_H01
+Identifiers: BioSample: SAMEA3334456; SRA: ERS699995
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334456"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_399"
+    /common name="hooded crow"
+    /sample name="DNA_399"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334456	ID: 5554438
+
+207: RUS_Ki_H03
+Identifiers: BioSample: SAMEA3334455; SRA: ERS699994
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334455"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_398"
+    /common name="hooded crow"
+    /sample name="DNA_398"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334455	ID: 5554437
+
+208: RUS_No_H02
+Identifiers: BioSample: SAMEA3334454; SRA: ERS699993
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334454"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:24Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_395"
+    /common name="hooded crow"
+    /sample name="DNA_395"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334454	ID: 5554436
+
+209: RUS_No_H03
+Identifiers: BioSample: SAMEA3334453; SRA: ERS699992
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334453"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:10:23Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_394"
+    /common name="hooded crow"
+    /sample name="DNA_394"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334453	ID: 5554435
+
+210: RUS_Ki_H02
+Identifiers: BioSample: SAMEA3334452; SRA: ERS699991
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334452"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_390"
+    /common name="hooded crow"
+    /sample name="DNA_390"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334452	ID: 5554434
+
+211: RUS_Ki_H04
+Identifiers: BioSample: SAMEA3334451; SRA: ERS699990
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334451"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_386"
+    /common name="hooded crow"
+    /sample name="DNA_386"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334451	ID: 5554433
+
+212: RUS_Tu_H01
+Identifiers: BioSample: SAMEA3334450; SRA: ERS699989
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334450"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:19Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_382"
+    /common name="hooded crow"
+    /sample name="DNA_382"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334450	ID: 5554432
+
+213: RUS_Ki_H03
+Identifiers: BioSample: SAMEA3334449; SRA: ERS699988
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334449"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:09:15Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_381"
+    /common name="hooded crow"
+    /sample name="DNA_381"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334449	ID: 5554431
+
+214: RUS_No_H04
+Identifiers: BioSample: SAMEA3334448; SRA: ERS699987
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334448"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_364"
+    /common name="hooded crow"
+    /sample name="DNA_364"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334448	ID: 5554430
+
+215: RUS_No_H02
+Identifiers: BioSample: SAMEA3334447; SRA: ERS699986
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334447"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_362"
+    /common name="hooded crow"
+    /sample name="DNA_362"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334447	ID: 5554429
+
+216: RUS_No_H03
+Identifiers: BioSample: SAMEA3334446; SRA: ERS699985
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334446"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_360"
+    /common name="hooded crow"
+    /sample name="DNA_360"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334446	ID: 5554428
+
+217: RUS_Ki_H02
+Identifiers: BioSample: SAMEA3334445; SRA: ERS699984
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334445"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_354"
+    /common name="hooded crow"
+    /sample name="DNA_354"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334445	ID: 5554427
+
+218: RUS_No_H04
+Identifiers: BioSample: SAMEA3334444; SRA: ERS699983
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334444"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_351"
+    /common name="hooded crow"
+    /sample name="DNA_351"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334444	ID: 5554426
+
+219: RUS_Ki_H04
+Identifiers: BioSample: SAMEA3334443; SRA: ERS699982
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334443"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_348"
+    /common name="hooded crow"
+    /sample name="DNA_348"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334443	ID: 5554425
+
+220: RUS_Tu_H01
+Identifiers: BioSample: SAMEA3334442; SRA: ERS699981
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334442"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_344"
+    /common name="hooded crow"
+    /sample name="DNA_344"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334442	ID: 5554424
+
+221: RUS_Ki_H03
+Identifiers: BioSample: SAMEA3334441; SRA: ERS699980
+Organism: Corvus cornix
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334441"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_343"
+    /common name="hooded crow"
+    /sample name="DNA_343"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334441	ID: 5554423
+
+222: USA_NY_B04
+Identifiers: BioSample: SAMEA3334440; SRA: ERS699979
+Organism: Corvus brachyrhynchos
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334440"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_377"
+    /common name="American crow"
+    /sample name="DNA_377"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334440	ID: 5554422
+
+223: USA_CA_B03
+Identifiers: BioSample: SAMEA3334439; SRA: ERS699978
+Organism: Corvus brachyrhynchos
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334439"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_375"
+    /common name="American crow"
+    /sample name="DNA_375"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334439	ID: 5554421
+
+224: USA_NJ_B02
+Identifiers: BioSample: SAMEA3334438; SRA: ERS699977
+Organism: Corvus brachyrhynchos
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334438"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:21Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_374"
+    /common name="American crow"
+    /sample name="DNA_374"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334438	ID: 5554420
+
+225: USA_NY_B03
+Identifiers: BioSample: SAMEA3334437; SRA: ERS699976
+Organism: Corvus brachyrhynchos
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334437"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:37:20Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_371"
+    /common name="American crow"
+    /sample name="DNA_371"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334437	ID: 5554419
+
+226: USA_CA_B01
+Identifiers: BioSample: SAMEA3334436; SRA: ERS699975
+Organism: Corvus brachyrhynchos
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334436"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T00:28:52Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_369"
+    /common name="American crow"
+    /sample name="DNA_369"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334436	ID: 5554418
+
+227: RUS_Kr_O04
+Identifiers: BioSample: SAMEA3334435; SRA: ERS699974
+Organism: Corvus corone orientalis
+Attributes:
+    /ENA first public="2016-08-09"
+    /ENA last update="2018-03-09"
+    /ENA-CHECKLIST="ERC000011"
+    /External Id="SAMEA3334435"
+    /INSDC center alias="UPPSALA UNIVERSITET"
+    /INSDC center name="UPPSALA UNIVERSITET"
+    /INSDC first public="2016-08-09T17:01:26Z"
+    /INSDC last update="2018-03-09T13:23:37Z"
+    /INSDC status="public"
+    /Submitter Id="DNA_340"
+    /sample name="DNA_340"
+    /sub species="orientalis"
+Description:
+Re-sequencing_dataset
+Accession: SAMEA3334435	ID: 5554417
+
+
