@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,lat_lon,Continent,Country,Locality,refGenome,refSpecies
+PRJDB10371,SAMD00239084,Oryzias_celebensis,female,RS278,NA,Asia,Indonesia,"Sulawesi, Makassar",GCF_002234675.1,Oryzias_latipes

@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Locality,Province,Sample Name,Population,Continent,Country,Submitter_ID,Latitude,Longitude,refGenome,refSpecies
+,MCZ349970,Cyanistes_cyanus,missing,,,MCZ349970,,,,NA,NA,NA,GCF_001522545.3,Parus_major

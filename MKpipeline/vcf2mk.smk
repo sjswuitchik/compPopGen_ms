@@ -1,19 +1,5 @@
 localrules: vcf2mk
 
-rule calc_missingness:
-	"""
-	This rule calculates the proportion of missing data and outputs a list of individuals to be removed in the vcf_filter rule
-	"""
-	input:
-		script = "helper_scripts/missingness.R",
-		ingroup = config['ingroup'] + "_missing_data.txt",
-		outgroup = config['outgroup'] + "_missing_data.txt"
-	output: 
-		"ingroup.remove.indv",
-		"outgroup.remove.indv"
-	shell:
-		"Rscript {input.script} {input.ingroup} {input.outgroup}"
-
 rule callable_sites:
 	"""
 	This rule takes the clean coverage sites from each species and intersects to output a set of callable sites common between both species to be used in the vcf_filter rule
@@ -21,25 +7,11 @@ rule callable_sites:
 	input:
 		ingroup = config['ingroup'] + "_coverage_sites_clean_merged.bed",
 		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed",
-#		map = config['output'] + "{Organism}/{refGenome}/" + "{Organism}_{refGenome}" + ".bg.gz",
 	output:
 		call = "callable.bed"
 		clean = "clean.callable.bed"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}\n"
-#		"bedtools intersect -a {output.call} -b {PUT MAPPABILITY BED HERE} > {output.clean}"
-
-rule callable_cds:
-	"""
-	This rule intersects the callable site and the gene names for CDS regions for use in the prep_snipre rule
-	"""
-	input:
-		call = "callable.bed",
-		cds = "onlyCDS.genes.bed"
-	output:
-		call = "callable.cds.bed"
-	shell:
-		"bedtools intersect -a {input.call} -b {input.cds} -wb | cut -f1,2,3,7 | bedtools sort -i - | bedtools merge -i - -c 4 -o distinct > {output.call}"
 
 rule cds:
 	"""
@@ -64,6 +36,18 @@ rule cds_genes:
 		bed = "onlyCDS.genes.bed"
 	shell:
 		"""awk -F '["\t ]' -v OFS='\t' '$(NF - 1) {print $1, $2, $3, $(NF-1)}' {input.bed} > {output.bed}"""
+		
+rule callable_cds:
+	"""
+	This rule intersects the callable site and the gene names for CDS regions for use in the prep_snipre rule
+	"""
+	input:
+		call = "callable.bed",
+		cds = "onlyCDS.genes.bed"
+	output:
+		call = "callable.cds.bed"
+	shell:
+		"bedtools intersect -a {input.call} -b {input.cds} -wb | cut -f1,2,3,7 | bedtools sort -i - | bedtools merge -i - -c 4 -o distinct > {output.call}"
 
 rule vcf_filter:
 	"""
