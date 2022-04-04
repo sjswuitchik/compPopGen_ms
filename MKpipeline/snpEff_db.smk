@@ -1,9 +1,9 @@
 localrules: snpEffdb
   
 rule download_reference:
-	"""
-	This rule downloads the NCBI dataset for the reference genome and annotation to build the snpEff database with
-	"""
+ """
+ This rule downloads the NCBI dataset for the reference genome and annotation to build the snpEff database with
+ """
     output:
         outdir = directory(config["refGenomeDir"] + "{refGenome}"),
         ref = config["refGenomeDir"] + "{refGenome}.fna"
@@ -20,7 +20,7 @@ rule download_reference:
   
 rule reorganize:
   """
-  
+  This rule organizes & renames the data for the snpEff database creation
   """
 
   input:
