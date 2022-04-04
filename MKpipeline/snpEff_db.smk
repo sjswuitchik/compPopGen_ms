@@ -10,7 +10,7 @@ rule download_reference:
     params:
         dataset = config["refGenomeDir"] + "{refGenome}_dataset.zip"
     log:
-        "logs/dl_reference/{refGenome}.log"
+        "logs/dl_reference/{refGenome}_snpEff.log"
     conda:
         "../envs/ncbi.yml"
     shell:
