@@ -104,21 +104,21 @@ Thunnus albacares,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/bl
 Corvus cornix cornix,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_cornix_cornix_sample_metadata.csv),DEBUG,,,[Pubmed](https://pubmed.ncbi.nlm.nih.gov/24948738/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/),run with low coverage
 Corvus corone corone,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_corone_corone_sample_metadata.csv),DEBUG,,,[Pubmed](https://pubmed.ncbi.nlm.nih.gov/24948738/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/),low coverage for consistency with Ccornix
 Corvus frugilegus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Corvus_frugilegus_sample_metadata.csv),DEBUG,,,[Pubmed](https://pubmed.ncbi.nlm.nih.gov/24948738/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/),low coverage for consistency with Ccornix
-Ficedula albicollis,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_albicollis_sample_metadata.csv),RUNNING,,-,ADD,ADD
-Astyanax mexicanus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astyanax_mexicanus_sample_metadata.csv),transferring,,-,[paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14877),low coverage 
-Cyprinus carpio,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Cyprinus_carpio_sample_metadata.csv),transferring,,-,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789147/),"not much info in paper about reseq, assume low coverage"
-Phylloscopus collybita abietinus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_abietinus_sample_metadata.csv),transferring,,,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/),low coverage (coverage not obvious but used ANGSD)
-Phylloscopus collybita tristis,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_tristis_sample_metadata.csv),transferring,,,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/),low coverage (coverage not obvious but used ANGSD)
-Poecilia formosa,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv),transferring,,all genus in one run,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866774/),low coverage (variable but often 10x or lower)
-Poecilia reticulata,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_reticulata_sample_metadata.csv),transferring,,all genus in one run,[PMC}(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452659/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/); [PMC}(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/),low coverage (variable but often 10x or lower)
+Ficedula albicollis,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Ficedula_albicollis_sample_metadata.csv),**done**,,-,ADD,ADD
+Astyanax mexicanus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Astyanax_mexicanus_sample_metadata.csv),**done**,,-,[paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14877),low coverage 
+Cyprinus carpio,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Cyprinus_carpio_sample_metadata.csv),**done**,,-,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789147/),"not much info in paper about reseq, assume low coverage"
+Phylloscopus collybita abietinus,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_abietinus_sample_metadata.csv),**done**,,,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/),low coverage (coverage not obvious but used ANGSD)
+Phylloscopus collybita tristis,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_tristis_sample_metadata.csv),**done**,,,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/),low coverage (coverage not obvious but used ANGSD)
+Poecilia formosa,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv),**done**,,all genus in one run,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866774/),low coverage (variable but often 10x or lower)
+Poecilia reticulata,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_reticulata_sample_metadata.csv),**done**,,all genus in one run,[PMC}(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452659/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/); [PMC}(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/),low coverage (variable but often 10x or lower)
 ,,,,,,
-Aythya fuligula,,RUNNING,,,https://doi.org/10.1093/gigascience/giab081,high coverage
-Glaucidium brasilianum,,setup,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
-Phasianus colchicus,,setup,,,,high coverage
+Aythya fuligula,,,,,https://doi.org/10.1093/gigascience/giab081,high coverage
+Glaucidium brasilianum,,,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Phasianus colchicus,,,,,,high coverage
 Cochlearius cochlearius,,RUNNING,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
-Falco cherrug,,setup,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
-Mesembrinibis cayennensis,,setup,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
-Carassius aratus,,RUNNING,,,https://doi.org/10.1073/pnas.2005545117,high coverage
-Xiphophorus maculatus,,setup,,,https://pubmed.ncbi.nlm.nih.gov/23542700/,high coverage
-Larimichthys polyactis,,setup,,,https://d197for5662m48.cloudfront.net/documents/publicationstatus/67519/preprint_pdf/8808f2abcf58bc59492accbef5b2a013.pdf,high coverage
-Oryzias celebensis,,setup,,,,
+Falco cherrug,,,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Mesembrinibis cayennensis,,RUNNING,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Carassius aratus,,,,,https://doi.org/10.1073/pnas.2005545117,high coverage
+Xiphophorus maculatus,,RUNNING,,,https://pubmed.ncbi.nlm.nih.gov/23542700/,high coverage
+Larimichthys polyactis,,RUNNING,,,https://d197for5662m48.cloudfront.net/documents/publicationstatus/67519/preprint_pdf/8808f2abcf58bc59492accbef5b2a013.pdf,high coverage
+Oryzias celebensis,,,,,,
