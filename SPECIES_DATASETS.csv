@@ -111,3 +111,14 @@ Phylloscopus collybita abietinus,[sample sheet](https://github.com/sjswuitchik/c
 Phylloscopus collybita tristis,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Phylloscopus_collybita_tristis_sample_metadata.csv),transferring,,,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/),low coverage (coverage not obvious but used ANGSD)
 Poecilia formosa,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv),transferring,,all genus in one run,[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5866774/),low coverage (variable but often 10x or lower)
 Poecilia reticulata,[sample sheet](https://github.com/sjswuitchik/compPopGen_ms/blob/master/SRA/cleaned-metadata/Poecilia_reticulata_sample_metadata.csv),transferring,,all genus in one run,[PMC}(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6452659/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7643365/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826173/); [PMC}(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5290318/),low coverage (variable but often 10x or lower)
+,,,,,,
+Aythya fuligula,,RUNNING,,,https://doi.org/10.1093/gigascience/giab081,high coverage
+Glaucidium brasilianum,,setup,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Phasianus colchicus,,setup,,,,high coverage
+Cochlearius cochlearius,,RUNNING,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Falco cherrug,,setup,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Mesembrinibis cayennensis,,setup,,,https://pubmed.ncbi.nlm.nih.gov/33177665/,high coverage
+Carassius aratus,,RUNNING,,,https://doi.org/10.1073/pnas.2005545117,high coverage
+Xiphophorus maculatus,,setup,,,https://pubmed.ncbi.nlm.nih.gov/23542700/,high coverage
+Larimichthys polyactis,,setup,,,https://d197for5662m48.cloudfront.net/documents/publicationstatus/67519/preprint_pdf/8808f2abcf58bc59492accbef5b2a013.pdf,high coverage
+Oryzias celebensis,,setup,,,,
