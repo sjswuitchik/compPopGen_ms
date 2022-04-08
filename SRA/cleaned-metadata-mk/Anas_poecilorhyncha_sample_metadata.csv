@@ -1,0 +1,11 @@
+sample,breed,BioProject,BioSample,Organism,sex,Continent,Country,Locality,refGenome,refSpecies
+Q538949,,PRJNA599025,SAMN13737514,Anas_poecilorhyncha,male,,,,GCF_015476345.1,Anas_platyrhynchos
+Q538932,,PRJNA599025,SAMN13737513,Anas_poecilorhyncha,female,,,,GCF_015476345.1,Anas_platyrhynchos
+Q538852,,PRJNA599025,SAMN13737512,Anas_poecilorhyncha,male,,,,GCF_015476345.1,Anas_platyrhynchos
+P289334,,PRJNA599025,SAMN13737511,Anas_poecilorhyncha,female,,,,GCF_015476345.1,Anas_platyrhynchos
+P289316,,PRJNA599025,SAMN13737510,Anas_poecilorhyncha,female,,,,GCF_015476345.1,Anas_platyrhynchos
+P289124,,PRJNA599025,SAMN13737509,Anas_poecilorhyncha,male,,,,GCF_015476345.1,Anas_platyrhynchos
+P288913,,PRJNA599025,SAMN13737508,Anas_poecilorhyncha,female,,,,GCF_015476345.1,Anas_platyrhynchos
+P288911,,PRJNA599025,SAMN13737507,Anas_poecilorhyncha,male,,,,GCF_015476345.1,Anas_platyrhynchos
+P288866,,PRJNA599025,SAMN13737506,Anas_poecilorhyncha,female,,,,GCF_015476345.1,Anas_platyrhynchos
+P288663,,PRJNA599025,SAMN13737505,Anas_poecilorhyncha,male,,,,GCF_015476345.1,Anas_platyrhynchos
