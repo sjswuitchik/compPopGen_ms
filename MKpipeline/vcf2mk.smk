@@ -1,5 +1,18 @@
 localrules: vcf2mk
 
+rule cds:
+	"""
+	This rule pulls out the CDS regions from the GFF to be used in the cds_genes rule
+	"""
+	input:
+		genes = "genes.gff"
+	output:
+		cdsGFF = "onlyCDS.gff",
+		cdsBED = "onlyCDS.bed"
+	shell:
+		"""awk -f helper_scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
+		"""awk -f helper_scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""	
+
 rule callable_sites:
 	"""
 	This rule takes the clean coverage sites from each species and intersects to output a set of callable sites common between both species to be used in the vcf_filter rule
@@ -12,19 +25,6 @@ rule callable_sites:
 		clean = "clean.callable.bed"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}\n"
-
-rule cds:
-	"""
-	This rule pulls out the CDS regions from the GFF to be used in the cds_genes rule
-	"""
-	input:
-		genes = "genes.gff"
-	output:
-		cdsGFF = "onlyCDS.gff",
-		cdsBED = "onlyCDS.bed"
-	shell:
-		"""awk -f helper_scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
-		"""awk -f helper_scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
 
 rule cds_genes:
 	"""
