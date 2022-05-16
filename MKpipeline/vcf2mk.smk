@@ -18,8 +18,8 @@ rule callable_sites:
 	This rule takes the clean coverage sites from each species and intersects to output a set of callable sites common between both species to be used in the vcf_filter rule
 	"""
 	input:
-		ingroup = config['ingroup'] + "_coverage_sites_clean_merged.bed",
-		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed",
+		ingroup = config['ingroup'] + "callable_sites.bed",
+		outgroup = config['outgroup'] + "callable_sites.bed",
 	output:
 		call = "callable.bed"
 		clean = "clean.callable.bed"
