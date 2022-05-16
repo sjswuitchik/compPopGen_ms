@@ -19,10 +19,9 @@ rule callable_sites:
 	"""
 	input:
 		ingroup = config['ingroup'] + "callable_sites.bed",
-		outgroup = config['outgroup'] + "callable_sites.bed",
+		outgroup = config['outgroup'] + "callable_sites.bed"
 	output:
 		call = "callable.bed"
-		clean = "clean.callable.bed"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}\n"
 
