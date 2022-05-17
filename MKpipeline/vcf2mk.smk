@@ -98,8 +98,8 @@ rule vcf_annotate:
 	params:
 		snpEffGenome = config['ingroup']
 	shell:
-		"snpEff ann -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
-		"snpEff ann -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
+		"snpEff ann -Xmx8g -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
+		"snpEff ann -Xmx8g -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
 		
 rule vcf_parse:
 	"""
