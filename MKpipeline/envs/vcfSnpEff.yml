@@ -4,11 +4,11 @@ channels:
   - conda-forge
 dependencies:
   - snakemake
-  - cyvcf2==0.30.14
-  - tqdm==4.63.0
-  - bcftools==1.15
-  - vcftools==0.1.16
-  - htslib==1.14
-  - java-jdk==8.0.112
+  - cyvcf2>=0.30.14
+  - tqdm>=4.63.0
+  - bcftools>=1.15
+  - vcftools>=0.1.16
+  - htslib>=1.14
+  - java-jdk>=8.0.112
   - snpeff==5.1
-  - bedtools==2.30.0
+  - bedtools>=2.30.0
