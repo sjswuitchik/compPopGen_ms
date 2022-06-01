@@ -25,7 +25,7 @@ Activate the environment so you have access to java in order to build the snpEff
 
 We use SnpEff (http://snpeff.sourceforge.net/download.html) to build databases and annotate the variants in the VCFs. It should be downloaded in your project directory and set up prior to running the pipeline.
 
-```wget http://sourceforge.net/projects/snpeff/files/snpEff_latest_core.zip```
+```wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip```
 
 ```unzip snpEff_latest_core.zip```
 
@@ -58,11 +58,11 @@ Note: you can also put the data directory into the config to avoid confusion bet
 
 From the snpEff directory with the conda environment activated, run: 
 
-```snpEff build -c snpEff.config -gff3 -v ingroup_species_name```  
+```snpEff build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein ingroup_species_name```  
 
 For example:  
 
-```snpEff -Xmx8g build -c snpEff.config -gff3 -v hetAtr```  
+```snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein hetAtr```  
 
 Note: the ```-Xmx8g``` flag may be required if you are getting Java heap space OOM errors  
 

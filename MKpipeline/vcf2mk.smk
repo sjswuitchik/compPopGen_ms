@@ -18,11 +18,10 @@ rule callable_sites:
 	This rule takes the clean coverage sites from each species and intersects to output a set of callable sites common between both species to be used in the vcf_filter rule
 	"""
 	input:
-		ingroup = config['ingroup'] + "_coverage_sites_clean_merged.bed",
-		outgroup = config['outgroup'] + "_coverage_sites_clean_merged.bed",
+		ingroup = config['ingroup'] + "callable_sites.bed",
+		outgroup = config['outgroup'] + "callable_sites.bed"
 	output:
 		call = "callable.bed"
-		clean = "clean.callable.bed"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}\n"
 
@@ -35,7 +34,7 @@ rule cds_genes:
 	output:
 		bed = "onlyCDS.genes.bed"
 	shell:
-		"""awk -F '["\t ]' -v OFS='\t' '$(NF - 1) {print $1, $2, $3, $(NF-1)}' {input.bed} > {output.bed}"""
+		"""awk -v OFS='\t' 'match($0, /gene=[^;]+/) {print $1, $2, $3, substr($0, RSTART+5, RLENGTH-5)}' {input.bed} > {output.bed}"""
 		
 rule callable_cds:
 	"""
@@ -99,8 +98,8 @@ rule vcf_annotate:
 	params:
 		snpEffGenome = config['ingroup']
 	shell:
-		"snpEff ann -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
-		"snpEff ann -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
+		"snpEff ann -Xmx8g -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.ingroup} > {output.ingroup}\n"
+		"snpEff ann -Xmx8g -i vcf -o vcf -c snpEff/snpEff.config {params.snpEffGenome} {input.outgroup} > {output.outgroup}"
 		
 rule vcf_parse:
 	"""
