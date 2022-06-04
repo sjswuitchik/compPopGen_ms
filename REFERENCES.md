@@ -27,7 +27,7 @@
 |Takifugu obscurus|[paper](https://www.researchsquare.com/article/rs-7259/v1)|
 |Takifugu rubripes|[paper](https://www.researchsquare.com/article/rs-7259/v1)|
 |Anas platyrhynchos|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/)|
-|Anas poecilorhyncha|https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07710-2|
+|Anas poecilorhyncha|[paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07710-2)|
 |Anguilla anguilla|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7848574/)|
 |Anguilla rostrata|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7848574/)|
 |Anolis allisoni|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/)|
@@ -92,7 +92,7 @@
 |Hypoplectrus unicolor|[paper](https://www.nature.com/articles/s41559-019-0814-5)|
 |Larimichthys crocea|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7645154/)|
 |Leuciscus waleckii|[paper](https://academic.oup.com/mbe/article/34/1/145/2655148)|
-|Mesembrinibis cayennensis|https://pubmed.ncbi.nlm.nih.gov/33177665/|
+|Mesembrinibis cayennensis|[pubmed](https://pubmed.ncbi.nlm.nih.gov/33177665/)|
 |Nipponia nippon|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290368/)|
 |Oryzias latipes|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3962483/)|
 |Parus major|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/)|
@@ -100,7 +100,7 @@
 |Passer hispaniolensis|[paper](https://www.nature.com/articles/s41559-017-0437-7); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/)|
 |Passer italiae|[paper](https://www.nature.com/articles/s41559-017-0437-7); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/)|
 |Passer montanus|[paper](https://www.nature.com/articles/s41559-017-0437-7); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/); [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/)|
-|Phasianus colchicus|https://academic.oup.com/gbe/article/11/12/3326/5622760|
+|Phasianus colchicus|[paper](https://academic.oup.com/gbe/article/11/12/3326/5622760)|
 |Phylloscopus collybita abietinus|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/)|
 |Phylloscopus collybita tristis|[PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714495/)|
 |Phylloscopus trochilus acredula|[paper](https://onlinelibrary.wiley.com/doi/full/10.1002/evl3.15)|
