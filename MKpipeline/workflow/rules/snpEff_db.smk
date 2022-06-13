@@ -1,5 +1,5 @@
 localrules: snpEffdb
-  
+
 rule download_reference:
  """
  This rule downloads the NCBI dataset for the reference genome and annotation to build the snpEff database with
