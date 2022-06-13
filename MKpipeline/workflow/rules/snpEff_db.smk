@@ -22,13 +22,26 @@ rule reorganize:
   """
   This rule organizes & renames the data for the snpEff database creation
   """
-
   input:
-    ref = 
-    gff = 
+    ref = config["refGenomeDir"] + "{refGenome}.fna",
+    gff = config["refGenomeDir"] + "{refGenome}.gff"
   output:
-    ref = 
-    gff = 
+    ref = config["snpEffDir"] + "data/" + config["ingroup"] + "/sequences.fa",
+    gff = config["snpEffDir"] + "data/" + config["ingroup"] + "/genes.gff"
   shell:
-    "mv {input.} {output.}\n"
-    "mv {input.} {output.}"
+    "mv {input.ref} {output.ref}\n"
+    "mv {input.gff} {output.gff}"
+    
+rule compress:
+  """
+  This rule gzips the reference genome and annotation for the snpEff database build
+  """
+  input:
+    ref = config["snpEffDir"] + "data/" + config["ingroup"] + "/sequences.fa",
+    gff = config["snpEffDir"] + "data/" + config["ingroup"] + "/genes.gff"
+  output:
+    ref = config["snpEffDir"] + "data/" + config["ingroup"] + "/sequences.fa.gz",
+    gff = config["snpEffDir"] + "data/" + config["ingroup"] + "/genes.gff.gz"
+  shell:
+    "gzip {input.ref}\n"
+    "gzip {input.gff}"
