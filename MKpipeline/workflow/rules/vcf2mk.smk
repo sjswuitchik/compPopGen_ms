@@ -1,11 +1,21 @@
 localrules: vcf2mk
-
+	
+rule db_build:
+  """
+  This rule builds the snpEff database
+  """
+  params:
+    ref = config["ingroup"],
+    config = config["snpEffDir"] + "snpEff.config"
+  shell:
+    "snpEff -Xmx8g build -c {params.config} -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
+	
 rule cds:
 	"""
 	This rule pulls out the CDS regions from the GFF to be used in the cds_genes rule
 	"""
 	input:
-		genes = "genes.gff"
+		genes = config['output'] + "{Organism}/{refGenome}/" + "genes.gff" ### currently nonfunctional - come back to after meeting 
 	output:
 		cdsGFF = "onlyCDS.gff",
 		cdsBED = "onlyCDS.bed"
