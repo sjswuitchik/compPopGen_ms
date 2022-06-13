@@ -17,3 +17,16 @@ mac: 1             # only include sides with a minor allele count greater than o
 maf: 0             # only include sides with a minor allele frequency greater than or equal to this value
 mm: 0.5            # exclude sites on the basis of the proportion of missing data (values between 0 and 1)
 
+
+##############################
+# Variables you DO NOT need to change
+# if you do, ensure all path/directory names are followed by a "/"
+##############################
+
+output: "results/"                      # all output is stored here
+refGenomeDir: "data/genome/"            # where reference genomes go
+
+# These variables control the output of the steps of the workflow (please have forward slash follow name!)
+vcfDir_gatk: "05_vcfs/"                 # new directory created for vcfs
+qcDir: "06_QC/"                         # new directory created for QC output
+intDir: "intervalFiles/"                # new directory created for interval calculation output and lists
