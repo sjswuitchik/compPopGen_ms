@@ -85,3 +85,4 @@ dbDir: "04_genomicsDB/"                 # new directory created for genome DB
 vcfDir_gatk: "05_vcfs/"                 # new directory created for vcfs
 qcDir: "06_QC/"                         # new directory created for QC output
 intDir: "intervalFiles/"                # new directory created for interval calculation output and lists
+snpEffDir: "snpEff/"                    # new directory created for snpEff annotation
