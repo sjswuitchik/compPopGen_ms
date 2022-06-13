@@ -45,3 +45,14 @@ rule compress:
   shell:
     "gzip {input.ref}\n"
     "gzip {input.gff}"
+
+
+rule db_build:
+  """
+  This rule builds the snpEff database
+  """
+  params:
+    ref = config["ingroup"]
+    config = config["snpEffDir"] + "snpEff.config"
+  shell:
+    "snpEff -Xmx8g build -c {params.config} -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
