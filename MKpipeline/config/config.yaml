@@ -9,9 +9,6 @@ outgroup: "stiNae"  # the name/code for your outgroup species
 # Variables you may need to change #
 ####################################
 
-# cluster configuration to use
-cluster_config: "profiles/slurm/cluster_config.yml"  
-
 # vcftools filtering parameters
 mac: 1             # only include sides with a minor allele count greater than or equal to this value
 maf: 0             # only include sides with a minor allele frequency greater than or equal to this value
