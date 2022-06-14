@@ -4,8 +4,8 @@ configfile: "config.yaml"
 
 rule all:
     input:
-    	"snipre_data.tsv",
-	"mk_output.tsv",
-	"snipre_output.tsv"
+    	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv",
+	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "mk_output.tsv",
+	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_output.tsv"
 
 include: "vcf2mk.smk"
