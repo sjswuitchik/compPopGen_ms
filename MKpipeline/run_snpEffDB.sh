@@ -9,4 +9,4 @@
 
 source activate snakemake
 
-snakemake --snakefile Snakefile_snpEffDB --profile ./profiles/slurm
+snakemake --snakefile workflow/Snakefile_snpEffDB --profile ./profiles/slurm
