@@ -9,10 +9,9 @@ rule db_build:
 	log:
 		"logs/snpEff/{Organism}_dbBuild.txt"
 	params:
-		ref = config['ingroup'],
-		config = config['snpEffDir'] + "snpEff.config"
+		ref = config['ingroup']
 	shell:
-		"snpEff -Xmx8g build -c {params.config} -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
+		"snpEff -Xmx8g build -c config/snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
 	
 rule cds:
 	"""
