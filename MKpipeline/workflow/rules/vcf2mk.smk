@@ -126,34 +126,34 @@ rule vcf_annotate:
 		"snpEff ann -Xmx8g -i vcf -o vcf -c snpEff/snpEff.config {params.ref} {input.ingroup} > {output.ingroup}\n"
 		"snpEff ann -Xmx8g -i vcf -o vcf -c snpEff/snpEff.config {params.ref} {input.outgroup} > {output.outgroup}"
 		
-rule vcf_parse: #### start here after call
+rule vcf_parse: 
 	"""
 	This rule parses the variant effects of interest from the annotated VCF and ouputs a BED file for use in the gene_annot rule
 	"""
 	input:
-		ingroup = config['ingroup'] + ".ann.vcf",
-		outgroup = config['outgroup'] + ".ann.vcf"
+		ingroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".ann.vcf",
+		outgroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".ann.vcf"
 	output:
-		ingroup = config['ingroup'] + ".ann.bed",
-		outgroup = config['outgroup'] + ".ann.bed"
+		ingroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".ann.bed",
+		outgroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".ann.bed"
 	conda:
 		"../envs/vcfSnpEff.yml"
 	script:
-		"../scripts/annot_parser.py"
+		annot = "../scripts/annot_parser.py"
 	shell:
-		"python3 {input.script} {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"python3 {input.script} {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
+		"python3 {script.annot} {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"python3 {script.annot} {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
 	This rule intersects the annotated BED files with the CDS gene names BED to create the final BED files for use in the prep_snipre rule
 	"""
 	input:
-		ingroup = config['ingroup'] + ".ann.bed",
-		outgroup = config['outgroup'] + ".ann.bed"
+		ingroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".ann.bed",
+		outgroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".ann.bed"
 	output:
-		ingroup = config['ingroup'] + ".final.bed",
-		outgroup = config['outgroup'] + ".final.bed"
+		ingroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".final.bed",
+		outgroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".final.bed"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
 		"bedtools intersect -a {input.outgroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
@@ -163,11 +163,11 @@ rule miss_snipre:
 	This rule outputs the missingness on a per-site basis for use in the prep_snipre rule 
 	"""
 	input: 
-		ingroup = config['ingroup'] + ".ann.vcf",
-		outgroup = config['outgroup'] + ".ann.vcf"
+		ingroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".ann.vcf",
+		outgroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".ann.vcf"
 	output:
-		config['ingroup'] + ".lmiss",
-		config['outgroup'] + ".lmiss" 
+		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".lmiss",
+		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".lmiss" 
 	params:
 		ingroup = config['ingroup'],
 		outgroup = config['outgroup']	
@@ -180,27 +180,33 @@ rule prep_snipre:
 	This rule calculates the missingness on a per-site basis and, with the final BED files, outputs an MK table that is ready for use in the mk_snipre_stats rule
 	"""
 	input:
-		script = "helper_scripts/prep_snipre.R",
-		ingroupBED = config['ingroup'] + ".final.bed",
-		outgroupBED = config['outgroup'] + ".final.bed",
-		ingroupM = config['ingroup'] + ".lmiss",
-		outgroupM = config['outgroup'] + ".lmiss",
-		call = "callable.cds.bed",
-		cds = "onlyCDS.genes.bed"
+		ingroupBED = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".final.bed",
+		outgroupBED = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".final.bed",
+		ingroupM = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".lmiss",
+		outgroupM = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".lmiss",
+		call = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "callable.cds.bed",
+		cds = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "onlyCDS.genes.bed"
 	output:
-		"snipre_data.tsv"
+		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv"
+	script:
+		prep = "../scripts/prep_snipre.R"
+	env:
+		"../envs/r.yml"
 	shell:
-		"Rscript --slave --vanilla {input.script} {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
+		"Rscript --slave --vanilla {script.prep} {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
 
 rule mk_snipre_stats:
 	"""
 	This rule takes the MK table formatted for SnIPRE and runs an MK test, SnIPRE, and calculates a number of statistics 
 	"""
 	input:
-		script = "helper_scripts/run_snipre.R",
-		data = "snipre_data.tsv"
+		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv"
 	output:
-		"mk_output.tsv",
-		"snipre_output.tsv"
+		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "mk_output.tsv",
+		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_output.tsv"
+	script:
+		run = "../scripts/run_snipre.R"
+	env:
+		"../envs/r.yml"
 	shell:
-		"Rscript --slave --vanilla {input.script}"
+		"Rscript --slave --vanilla {script.run}"
