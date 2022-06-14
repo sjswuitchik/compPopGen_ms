@@ -7,5 +7,5 @@
 #SBATCH -t 9000
 #SBATCH --mem=10000
 
-source activate mk
+source activate snakemake
 snakemake --snakefile Snakefile_vcf2mk --profile ./profiles/slurm
