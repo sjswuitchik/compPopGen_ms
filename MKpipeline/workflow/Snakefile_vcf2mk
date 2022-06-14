@@ -8,5 +8,4 @@ rule all:
 	"mk_output.tsv",
 	"snipre_output.tsv"
 
-include: "snpEff_setup.smk" 
 include: "vcf2mk.smk"
