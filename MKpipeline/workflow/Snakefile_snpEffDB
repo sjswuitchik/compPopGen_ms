@@ -7,4 +7,4 @@ rule all:
     	config['snpEffDir'] + "data/" + config['ingroup'] + "/sequences.fa.gz",
 	config['snpEffDir'] + "data/" + config['ingroup'] + "/genes.gff.gz"
 
-include: "snpEff_setup.smk"
+include: "rules/snpEff_setup.smk"
