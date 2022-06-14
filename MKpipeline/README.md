@@ -13,13 +13,19 @@ Tim Sackton (Director of Bioinformatics, Informatics Group, Harvard University; 
 
 ## Configuration and set up
 
-First, set up a conda environment that will allow access to Snakemake, Python/R packages, java, and required command line tools:
+Create a conda environment that will allow access to Snakemake:
 
-```conda create -n mk -c bioconda snakemake cyvcf2 tqdm bcftools vcftools htslib java-jdk snpeff bedtools r-base r-tidyverse r-rjags r-r2jags r-lme4 r-arm```  
+```conda install -n base -c conda-forge mamba```
 
-Activate the environment so you have access to java in order to build the snpEff database:
+```conda activate base```
 
-```conda activate mk```
+```mamba create -c conda-forge -c bionconda -n snakemake snakemake```
+
+Activate the environment:
+
+```conda activate snakemake```  
+
+The exact name of the environment (```snakemake```) is necessary for the run scripts. If you would like to change the name of the environment, make sure to edit the run*.sh files to reflect the name change.
 
 ### SnpEff
 
@@ -35,7 +41,7 @@ We use SnpEff (http://snpeff.sourceforge.net/download.html) to build databases a
 
 Note: the ingroup_species_name can be any code or form of the species identifier you'd like, so long as it's consistent throughout.  
 
-Ensure reference sequence (FASTA) and genome annotation (GFF3) are in the appropriate data directory, rename files to sequences.fa and genes.gff, then gzip.
+The first Snakefile will download and organize the files required to build the snpEff annotation database, but you will need to manually edit the snpEff config before building the database.
 
 #### Add genome information to config file
 
