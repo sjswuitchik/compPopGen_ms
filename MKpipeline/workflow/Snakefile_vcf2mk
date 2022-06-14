@@ -8,4 +8,4 @@ rule all:
 	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "mk_output.tsv",
 	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_output.tsv"
 
-include: "vcf2mk.smk"
+include: "rules/vcf2mk.smk"
