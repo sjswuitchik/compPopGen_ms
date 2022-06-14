@@ -1,0 +1,10 @@
+configfile: "config.yaml"
+
+### workflow ###
+
+rule all:
+    input:
+    	config['snpEffDir'] + "data/" + config['ingroup'] + "/sequences.fa.gz",
+	    config['snpEffDir'] + "data/" + config['ingroup'] + "/genes.gff.gz"
+
+include: "snpEff_setup.smk"
