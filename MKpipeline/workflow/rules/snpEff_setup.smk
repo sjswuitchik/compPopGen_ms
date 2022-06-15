@@ -29,11 +29,11 @@ rule download_reference:
     input:
         ref = get_ref
     output:
-        ref = directory(config['refGenomeDir']) + "/{refGenome}/{refGenome}.fna",
-        gff = directory(config['refGenomeDir']) + "/{refGenome}/genomic.gff"
+        ref = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
+        gff = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
     params:
-        dataset = directory(config['refGenomeDir']) + "/{refGenome}/{refGenome}_dataset.zip",
-        outdir = directory(config['refGenomeDir']) + "/{refGenome}"
+        dataset = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}_dataset.zip",
+        outdir = directory(config['refGenomeDir']) + "{refGenome}"
     conda:
         "../envs/ncbi.yml"
     shell:
