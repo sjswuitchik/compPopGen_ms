@@ -7,8 +7,8 @@ tmp_dir: "tmp/"                                       # directory path for a tem
 cluster_config: "profiles/slurm/cluster_config.yml"   # cluster configuration to use
 
 # MK test 
-ingroup: "hetAtr"   # the name/code for your ingroup species
-outgroup: "stiNae"  # the name/code for your outgroup species
+ingroup: "egrGar"   # the name/code for your ingroup species
+outgroup: "cocCoc"  # the name/code for your outgroup species
 
 ##############################
 # Variables you *might* need to change
