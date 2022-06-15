@@ -2,12 +2,12 @@ rule db_build:
 	"""
 	This rule builds the snpEff annotation database 
 	"""
+	output: 
+		"data/" + config['ingroup'] + "/snpEffectPredictor.bin"
 	conda:
 		"../envs/vcfSnpEff.yml"
 	params:
 		ref = config['ingroup']
-	output: 
-		db = "data/" + config['ingroup'] + "/snpEffectPredictor.bin"
 	shell:
 		"snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
 	
