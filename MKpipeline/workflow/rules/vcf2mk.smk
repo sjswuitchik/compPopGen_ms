@@ -4,10 +4,10 @@ rule db_build:
 	"""
 	output: 
 		"data/" + config['ingroup'] + "/snpEffectPredictor.bin"
-	conda:
-		"../envs/vcfSnpEff.yml"
 	params:
 		ref = config['ingroup']
+	conda:
+		"../envs/vcfSnpEff.yml"
 	shell:
 		"snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
 	
