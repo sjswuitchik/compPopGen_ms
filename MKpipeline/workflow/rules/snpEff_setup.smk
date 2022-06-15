@@ -67,7 +67,8 @@ rule reorganize:
     """
     mkdir -p snpEff/data/{params.ingroup} \
     mv {input.ref} {output.ref} \
-    mv {input.gff} {output.gff} 
+    mv {input.gff} {output.gff} \
+    mv {output.ref} {output.gff} directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"])
     """
     
 rule compress:
