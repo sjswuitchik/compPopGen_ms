@@ -110,8 +110,8 @@ rule vcf_annotate:
 		ingroup = "data/" + config['mkDir'] + config['ingroup'] + ".clean.vcf",
 		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".clean.vcf"
 	output:
-		ingroup = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + config['ingroup'] + ".ann.vcf",
-		outgroup = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + config['outgroup'] + ".ann.vcf"
+		ingroup = "data/" + config['mkDir'] + config['ingroup'] + ".ann.vcf",
+		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".ann.vcf"
 	params:
 		ref = config['ingroup']
 	conda:
