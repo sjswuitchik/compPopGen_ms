@@ -31,8 +31,8 @@ rule download_reference:
     input:
         ref = get_ref
     output:
-        ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
-        gff = directory(config['refGenomeDir']) + "{refGenome}.gff"
+        ref = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
+        gff = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
     params:
         dataset = directory(config['refGenomeDir']) + "{refGenome}_dataset.zip",
         outdir = directory(config['refGenomeDir']) + "{refGenome}"
@@ -44,15 +44,16 @@ rule download_reference:
         "mkdir -p {params.outdir}\n"
         "datasets download genome accession {wildcards.refGenome} --exclude-protein --exclude-rna --filename {params.dataset} &> {log}\n"
         "&& 7z x {params.dataset} -aoa -o{params.outdir}\n"
-        "&& cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
+        "&& cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}\n"
+        "&& mv genomic.gff {output.gff}"
   
 rule reorganize:
   """
   This rule organizes & renames the data for the snpEff database creation
   """
   input:
-    seq = directory(config['refGenomeDir']) + "{refGenome}.fna",
-    genes = directory(config['refGenomeDir']) + "{refGenome}.gff"
+    seq = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
+    genes = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
   output:
     ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "{refGenome}/sequences.fa",
     gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "{refGenome}/genes.gff"
