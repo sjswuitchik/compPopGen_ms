@@ -56,11 +56,11 @@ rule reorganize:
   This rule organizes & renames the data for the snpEff database creation
   """
   input:
-    ref = config['refGenomeDir'] + "{refGenome}.fna",
-    gff = config['refGenomeDir'] + "{refGenome}.gff"
+    ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
+    gff = directory(config['refGenomeDir']) + "{refGenome}.gff"
   output:
-    ref = config['snpEffDir'] + "data/" + config['ingroup'] + "/sequences.fa",
-    gff = config['snpEffDir'] + "data/" + config['ingroup'] + "/genes.gff"
+    ref = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "sequences.fa",
+    gff = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "genes.gff"
   params:
     ingroup = config['ingroup'] + "/"
   shell:
