@@ -75,11 +75,11 @@ rule compress:
   This rule gzips the reference genome and annotation for the snpEff database build
   """
   input:
-    ref = config["snpEffDir"] + "data/" + config["ingroup"] + "/sequences.fa",
-    gff = config["snpEffDir"] + "data/" + config["ingroup"] + "/genes.gff"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff"
   output:
-    ref = config["snpEffDir"] + "data/" + config["ingroup"] + "/sequences.fa.gz",
-    gff = config["snpEffDir"] + "data/" + config["ingroup"] + "/genes.gff.gz"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/sequences.fa.gz",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/genes.gff.gz"
   shell:
     "gzip {input.ref}\n"
     "gzip {input.gff}"
