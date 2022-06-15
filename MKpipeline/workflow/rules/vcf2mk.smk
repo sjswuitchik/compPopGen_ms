@@ -26,9 +26,9 @@ rule cds:
 	params:
 		mkdir = directory(config['output']) + "{Organism}/{refGenome}/" + config['mkDir']
 	shell:
-		"mkdir -p {params.mkdir}\n"
+		"mkdir {params.mkdir}\n"
 		"""awk -f {script.cds} {input.genes} > {output.cdsGFF}\n"""
-		"""awk -f {script.bed} {output.cdsGFF} > {output.cdsBED}"""	
+		"""awk -f {script.bed} {output.cdsGFF} > {output.cdsBED}"""
 
 rule callable_sites:
 	"""
