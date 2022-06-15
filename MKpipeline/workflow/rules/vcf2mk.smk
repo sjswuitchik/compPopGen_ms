@@ -132,11 +132,9 @@ rule vcf_parse:
 		outgroup = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + config['outgroup'] + ".ann.bed"
 	conda:
 		"../envs/vcfSnpEff.yml"
-	script:
-		annot = "../scripts/annot_parser.py"
 	shell:
-		"python3 {script.annot} {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"python3 {script.annot} {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
+		"python3 ../scripts/annot_parser.py {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"python3 ../scripts/annot_parser.py {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
@@ -182,12 +180,10 @@ rule prep_snipre:
 		cds = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "onlyCDS.genes.bed"
 	output:
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv"
-	script:
-		prep = "../scripts/prep_snipre.R"
 	env:
 		"../envs/r.yml"
 	shell:
-		"Rscript --slave --vanilla {script.prep} {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
+		"Rscript --slave --vanilla ../scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
 
 rule mk_snipre_stats:
 	"""
@@ -198,9 +194,7 @@ rule mk_snipre_stats:
 	output:
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "mk_output.tsv",
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_output.tsv"
-	script:
-		run = "../scripts/run_snipre.R"
 	env:
 		"../envs/r.yml"
 	shell:
-		"Rscript --slave --vanilla {script.run}"
+		"Rscript --slave --vanilla ../scripts/run_snipre.R"
