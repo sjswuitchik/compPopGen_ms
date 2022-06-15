@@ -2,8 +2,8 @@
 
 rule all:
     input:
-    	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv",
-	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "mk_output.tsv",
-	config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_output.tsv"
+    	"data/" + config['mkDir'] + "snipre_data.tsv",
+	"data/" + config['mkDir'] + "mk_output.tsv",
+	"data/" + config['mkDir'] + "snipre_output.tsv"
 
 include: "rules/vcf2mk.smk"
