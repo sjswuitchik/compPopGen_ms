@@ -30,10 +30,10 @@ rule download_reference:
     input:
         ref = get_ref
     output:
-        ref = config["refGenomeDir"] + "{refGenome}.fna"
+        ref = directory(config['refGenomeDir']) + "{refGenome}.fna"
     params:
-        dataset = config["refGenomeDir"] + "{refGenome}_dataset.zip",
-        outdir = directory(config["refGenomeDir"] + "{refGenome}")
+        dataset = directory(config['refGenomeDir']) + "{refGenome}_dataset.zip",
+        outdir = directory(config['refGenomeDir'] + "{refGenome}")
     log:
         "logs/dl_reference/{refGenome}_snpEff.log"
     conda:
@@ -58,8 +58,8 @@ rule reorganize:
     ref = config["refGenomeDir"] + "{refGenome}.fna",
     gff = config["refGenomeDir"] + "{refGenome}.gff"
   output:
-    ref = config["snpEffDir"] + "data/" + config["ingroup"] + "/sequences.fa",
-    gff = config["snpEffDir"] + "data/" + config["ingroup"] + "/genes.gff"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff"
   shell:
     "mv {input.ref} {output.ref}\n"
     "mv {input.gff} {output.gff}"
