@@ -1,5 +1,3 @@
-localrules: vcf2mk
-	
 rule db_build: 
 	"""
 	This rule builds the snpEff annotation database 
