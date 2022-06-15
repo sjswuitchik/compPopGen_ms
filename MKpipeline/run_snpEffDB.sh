@@ -7,6 +7,6 @@
 #SBATCH -t 9000
 #SBATCH --mem=10000
 
-source activate snakemake
+mamba activate snakemake
 
 snakemake --snakefile workflow/Snakefile_snpEffDB --profile ./profiles/slurm
