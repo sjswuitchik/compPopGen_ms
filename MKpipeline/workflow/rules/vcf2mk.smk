@@ -183,7 +183,7 @@ rule prep_snipre:
 		call = "data/" + config['mkDir'] + "callable.cds.bed",
 		cds = "data/" + config['mkDir'] + "onlyCDS.genes.bed"
 	output:
-		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv"
+		"data/" + config['mkDir'] + "snipre_data.tsv"
 	conda:
 		"../envs/r.yml"
 	shell:
