@@ -8,7 +8,7 @@ rule db_build:
 		"../envs/vcfSnpEff.yml"
 	params:
 		ref = config['ingroup']
-	output:
+	output: #### start here after meeting
 		
 	shell:
 		"snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
