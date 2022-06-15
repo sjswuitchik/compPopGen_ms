@@ -23,10 +23,7 @@ rule cds:
 	script:
 		cds = "../scripts/cds.awk",
 		bed = "../scripts/gff2bed.awk"
-	params:
-		mkdir = directory(config['output']) + "{Organism}/{refGenome}/" + config['mkDir']
 	shell:
-		"mkdir {params.mkdir}\n"
 		"""awk -f {script.cds} {input.genes} > {output.cdsGFF}\n"""
 		"""awk -f {script.bed} {output.cdsGFF} > {output.cdsBED}"""
 
