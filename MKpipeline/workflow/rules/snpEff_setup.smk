@@ -32,10 +32,7 @@ rule download_reference:
         ref = get_ref
     output:
         ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
-        seq = directory(config['refGenomeDir']) + "sequences.fa",
-        gff = directory(config['refGenomeDir']) + "{refGenome}.gff",
-        genes = directory(config['refGenomeDir']) + "genes.gff"
-        
+        gff = directory(config['refGenomeDir']) + "{refGenome}.gff"
     params:
         dataset = directory(config['refGenomeDir']) + "{refGenome}_dataset.zip",
         outdir = directory(config['refGenomeDir']) + "{refGenome}"
@@ -54,8 +51,6 @@ rule download_reference:
         else
             cp {input.ref} {output.ref}
         fi
-        cp {output.ref} {output.seq}
-        cp {output.gff} {output.genes}
         """
   
 rule reorganize:
