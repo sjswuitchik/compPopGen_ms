@@ -19,8 +19,6 @@ def get_ref(wildcards):
         return _refs
     else:
         return []
-        
-ruleorder: compress > reorganize > download_reference
     
 ### RULES ###
 
@@ -45,8 +43,8 @@ rule download_reference:
         "datasets download genome accession {wildcards.refGenome} --exclude-protein --exclude-rna --filename {params.dataset} &> {log}\n"
         "&& 7z x {params.dataset} -aoa -o{params.outdir}\n"
         "&& cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}\n"
-        "&& mv genomic.gff {output.gff}"
-  
+        "&& mv {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/genomic.gff {output.gff}"
+
 rule reorganize:
   """
   This rule organizes & renames the data for the snpEff database creation
