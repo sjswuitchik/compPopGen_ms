@@ -32,7 +32,7 @@ rule download_reference:
         ref = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
         gff = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
     params:
-        dataset = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}_dataset.zip",
+        dataset = directory(config['refGenomeDir']) + "{refGenome}_dataset.zip",
         outdir = directory(config['refGenomeDir']) + "{refGenome}"
     conda:
         "../envs/ncbi.yml"
@@ -41,7 +41,7 @@ rule download_reference:
         "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome}\n"
         "7z x {params.dataset} -aoa -o{params.outdir}\n"
         "cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
-        #"mv {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/genomic.gff {output.gff}"
+        "mv {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/genomic.gff {output.gff}"
 
 rule reorganize:
   """
