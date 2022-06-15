@@ -56,13 +56,13 @@ rule reorganize:
   This rule organizes & renames the data for the snpEff database creation
   """
   input:
-    ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
-    gff = directory(config['refGenomeDir']) + "{refGenome}.gff"
+    ref = directory(config['refGenomeDir']) + "{wildcards.refGenome}.fna",
+    gff = directory(config['refGenomeDir']) + "{wildcards.refGenome}.gff"
   output:
     ref = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "sequences.fa",
     gff = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "genes.gff"
   params:
-    ingroup = config['ingroup'] + "/"
+    ingroup = config['ingroup']
   shell:
     """
     mkdir -p snpEff/data/{params.ingroup}
@@ -78,8 +78,8 @@ rule compress:
     ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa",
     gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff"
   output:
-    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/sequences.fa.gz",
-    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/genes.gff.gz"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa.gz",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff.gz"
   shell:
     "gzip {input.ref}\n"
     "gzip {input.gff}"
