@@ -57,19 +57,21 @@ rule reorganize:
   """
   input:
     ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
-    gff = directory(config['refGenomeDir']) + "{refGenome}.gff"
+    gff = directory(config['refGenomeDir']) + "{refGenome}.gff",
+    seq = directory(config['refGenomeDir']) + "sequences.fa",
+    genes = directory(config['refGenomeDir']) + "genes.gff"
   output:
-    ref = directory(config['refGenomeDir']) + "sequences.fa",
-    gff = directory(config['refGenomeDir']) + "genes.gff"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff"
   params:
-    ingroup = config['ingroup'],
-    outdir = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"])
+    ingroup = config['ingroup']
   shell:
     """
     mkdir -p snpEff/data/{params.ingroup} \
-    mv {input.ref} {output.ref} \
-    mv {input.gff} {output.gff} \
-    mv {output.ref} {output.gff} {params.outdir}
+    mv {input.ref} {input.seq} \
+    mv {input.gff} {input.genes} \
+    mv {input.seq} {output.ref}
+    my {input.genes} {output.gff}
     """
     
 rule compress:
