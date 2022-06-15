@@ -2,6 +2,8 @@ rule db_build:
 	"""
 	This rule builds the snpEff annotation database 
 	"""
+	output: 
+		"data/" + config['ingroup'] + "/snpEffectPredictor.bin"
 	params:
 		ref = config['ingroup']
 	conda:
