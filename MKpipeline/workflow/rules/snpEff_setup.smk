@@ -48,8 +48,8 @@ rule reorganize:
   This rule organizes & renames the data for the snpEff database creation
   """
   input:
-    seq = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
-    genes = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
+    seq = expand(directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna", refGenome=REFGENOME),
+    genes = expand(directory(config['refGenomeDir']) + "{refGenome}/genomic.gff", refGenome=REFGENOME)
   output:
     ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/sequences.fa",
     gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/genes.gff"
