@@ -1,13 +1,4 @@
-import pandas as pd
-import yaml
-import helperFun
-
-configfile: "config/config.yaml"
-
-helperFun.make_temp_dir()
-samples = pd.read_table(config["samples"], sep=",", dtype=str).replace(' ', '_', regex=True)
-species_counts = samples.drop_duplicates(subset = ["BioSample", "refGenome", "Organism"]).value_counts(subset=['refGenome', 'Organism'])  #get BioSample for each refGenome/Organism combination
-REFGENOME,ORGANISM = map(list, zip(*species_counts.index))  # split index into ref genome and organism
+### workflow ###
 
 rule all:
     input:
