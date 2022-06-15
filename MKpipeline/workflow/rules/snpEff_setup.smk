@@ -41,9 +41,9 @@ rule download_reference:
     conda:
         "../envs/ncbi.yml"
     shell:
-        "mkdir -p {params.outdir} \n"
-        "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log} \n"
-        "&& 7z x {params.dataset} -aoa -o{params.outdir} \n"
+        "mkdir -p {params.outdir}\n"
+        "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log}\n"
+        "&& 7z x {params.dataset} -aoa -o{params.outdir}\n"
         "&& cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
   
 rule reorganize:
@@ -59,11 +59,9 @@ rule reorganize:
   params:
     ingroup = config['ingroup']
   shell:
-    """
-    mkdir -p snpEff/{wildcards.refGenome}/data/{params.ingroup} \
-    mv {input.seq} {output.ref}
-    my {input.genes} {output.gff}
-    """
+    "mkdir -p snpEff/{wildcards.refGenome}/data/{params.ingroup}\n"
+    "mv {input.seq} {output.ref}\n"
+    "mv {input.genes} {output.gff}"
     
 rule compress:
   """
