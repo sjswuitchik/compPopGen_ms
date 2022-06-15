@@ -1,22 +1,31 @@
-localrules: snpEff_setup
+### RULES ###
 
 rule download_reference:
  """
  This rule downloads the NCBI dataset for the reference genome and annotation to build the snpEff database with
  """
+    input:
+        ref = get_ref
     output:
-        outdir = directory(config["refGenomeDir"] + "{refGenome}"),
         ref = config["refGenomeDir"] + "{refGenome}.fna"
     params:
-        dataset = config["refGenomeDir"] + "{refGenome}_dataset.zip"
+        dataset = config["refGenomeDir"] + "{refGenome}_dataset.zip",
+        outdir = directory(config["refGenomeDir"] + "{refGenome}")
     log:
         "logs/dl_reference/{refGenome}_snpEff.log"
     conda:
         "../envs/ncbi.yml"
     shell:
-        "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log}"
-        "&& 7z x {params.dataset} -aoa -o{output.outdir}"
-        "&& cat {output.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
+        """
+        if [ -z "{input.ref}" ]  # check if this is empty
+        then
+            datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log} \
+            && 7z x {params.dataset} -aoa -o{params.outdir} \
+            && cat {output.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}
+        else
+            cp {input.ref} {output.ref}
+        fi
+        """
   
 rule reorganize:
   """
