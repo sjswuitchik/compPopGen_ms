@@ -61,13 +61,13 @@ rule reorganize:
     seq = directory(config['refGenomeDir']) + "{refGenome}.fna",
     genes = directory(config['refGenomeDir']) + "{refGenome}.gff"
   output:
-    ref = directory(config["snpEffDir"]) + "{refGenome}/data/" + directory(config["ingroup"]) + "/sequences.fa",
-    gff = directory(config["snpEffDir"]) + "{refGEnome}/data/" + directory(config["ingroup"]) + "/genes.gff"
+    ref = directory(config["snpEffDir"]) + "{refGenome}/data/" + directory(config["ingroup"]) + "sequences.fa",
+    gff = directory(config["snpEffDir"]) + "{refGenome}/data/" + directory(config["ingroup"]) + "genes.gff"
   params:
     ingroup = config['ingroup']
   shell:
     """
-    mkdir -p snpEff/data/{params.ingroup} \
+    mkdir -p snpEff/{wildcards.refGenome}/data/{params.ingroup} \
     mv {input.seq} {output.ref}
     my {input.genes} {output.gff}
     """
