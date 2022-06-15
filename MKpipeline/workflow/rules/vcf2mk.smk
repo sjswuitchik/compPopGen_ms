@@ -9,7 +9,7 @@ rule db_build:
 	params:
 		ref = config['ingroup']
 	output: 
-		"snpEffectPredictor.bin"
+		directory(config['output']) + "{ref}" + "/snpEffectPredictor.bin"
 	shell:
 		"snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
 	
