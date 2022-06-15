@@ -42,7 +42,7 @@ rule download_reference:
         "../envs/ncbi.yml"
     shell:
         "mkdir -p {params.outdir}\n"
-        "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log}\n"
+        "datasets download genome accession {wildcards.refGenome} --exclude-protein --exclude-rna --filename {params.dataset} &> {log}\n"
         "&& 7z x {params.dataset} -aoa -o{params.outdir}\n"
         "&& cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
   
