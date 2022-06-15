@@ -18,16 +18,24 @@ rule cds:
 	input:
 		genes = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "genes.gff" 
 	output:
-		cdsGFF = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "onlyCDS.gff",
+		cdsGFF = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "onlyCDS.gff"
+	script:
+		cds = "../scripts/cds.awk"
+	shell:
+		"""awk -f {script.cds} {input.genes} > {output.cdsGFF}"""
+
+rule cds_bed:
+	"""
+	This rule converts the CDS GFF into a BED
+	"""
+	input:
+		cdsGFF = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "onlyCDS.gff"
+	output:
 		cdsBED = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "onlyCDS.bed"
 	script:
-		cds = "../scripts/cds.awk",
 		bed = "../scripts/gff2bed.awk"
 	shell:
-		"""
-		awk -f {script.cds} {input.genes} > {output.cdsGFF} \
-		awk -f {script.bed} {output.cdsGFF} > {output.cdsBED}
-		"""
+		"""awk -f {script.bed} {input.cdsGFF} > {output.cdsBED}"""
 
 rule callable_sites:
 	"""
