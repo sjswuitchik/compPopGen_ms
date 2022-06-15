@@ -23,7 +23,8 @@ def get_output(refGenome, Organism):
 
 rule all:
     input:
-    	directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "{refGenome}/sequences.fa.gz",
-	directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "{refGenome}/genes.gff.gz"
+    	get_output(REFGENOME,ORGANISM),
+    	expand(directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "{refGenome}/sequences.fa.gz", refGenome=REFGENOME),
+	expand(directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "{refGenome}/genes.gff.gz", refGenome=REFGENOME)
 
 include: "rules/snpEff_setup.smk"
