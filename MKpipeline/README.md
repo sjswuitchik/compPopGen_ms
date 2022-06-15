@@ -19,7 +19,7 @@ Create a conda environment that will allow access to Snakemake:
 
 ```conda activate base```
 
-```mamba create -c conda-forge -c bionconda -n snakemake snakemake```
+```mamba create -c conda-forge -c bionconda -n snakemake snakemake mamba```
 
 Activate the environment:
 
