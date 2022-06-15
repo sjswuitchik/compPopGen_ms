@@ -20,7 +20,11 @@ rule cds:
 	output:
 		cdsGFF = "data/" + config['mkDir'] + "onlyCDS.gff",
 		cdsBED = "data/" + config['mkDir'] + "onlyCDS.bed"
+	params:
+		ingroup = config['ingroup']
 	shell:
+		"cp data/{params.ingroup}/genes.gff.gz data/mk_tests\n"
+		"gunzip data/mk_tests/genes.gff.gz\n"
 		"""awk -f ../scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
 		"""awk -f ../scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
 
