@@ -24,8 +24,10 @@ rule cds:
 		cds = "../scripts/cds.awk",
 		bed = "../scripts/gff2bed.awk"
 	shell:
-		"""awk -f {script.cds} {input.genes} > {output.cdsGFF}\n"""
-		"""awk -f {script.bed} {output.cdsGFF} > {output.cdsBED}"""
+		"""
+		awk -f {script.cds} {input.genes} > {output.cdsGFF} \
+		awk -f {script.bed} {output.cdsGFF} > {output.cdsBED}
+		"""
 
 rule callable_sites:
 	"""
