@@ -41,6 +41,7 @@ rule download_reference:
         "../envs/ncbi.yml"
     shell:
         """
+        mkdir -p {params.outdir} \
         if [ -z "{input.ref}" ]  # check if this is empty
         then
             datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log} \
