@@ -146,6 +146,8 @@ rule gene_annot:
 	output:
 		ingroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['ingroup'] + ".final.bed",
 		outgroup = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".final.bed"
+	conda:
+		"../envs/vcfSnpEff.yml"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
 		"bedtools intersect -a {input.outgroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
@@ -162,7 +164,9 @@ rule miss_snipre:
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + config['outgroup'] + ".lmiss" 
 	params:
 		ingroup = config['ingroup'],
-		outgroup = config['outgroup']	
+		outgroup = config['outgroup']
+	conda:
+		"../envs/vcfSnpEff.yml"
 	shell:
 		"vcftools --vcf {input.ingroup} --missing-site --out {params.ingroup}\n"
 		"vcftools --vcf {input.outgroup} --missing-site --out {params.outgroup}"
