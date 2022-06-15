@@ -59,8 +59,8 @@ rule reorganize:
     ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
     gff = directory(config['refGenomeDir']) + "{refGenome}.gff"
   output:
-    ref = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "sequences.fa",
-    gff = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "genes.gff"
+    ref = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "/sequences.fa",
+    gff = directory(config['snpEffDir']) + "data/" + directory(config['ingroup']) + "/genes.gff"
   params:
     ingroup = config['ingroup']
   shell:
@@ -75,11 +75,11 @@ rule compress:
   This rule gzips the reference genome and annotation for the snpEff database build
   """
   input:
-    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa",
-    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/sequences.fa",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/genes.gff"
   output:
-    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "sequences.fa.gz",
-    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "genes.gff.gz"
+    ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/sequences.fa.gz",
+    gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/genes.gff.gz"
   shell:
     "gzip {input.ref}\n"
     "gzip {input.gff}"
