@@ -184,7 +184,7 @@ rule prep_snipre:
 		cds = config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "onlyCDS.genes.bed"
 	output:
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_data.tsv"
-	env:
+	conda:
 		"../envs/r.yml"
 	shell:
 		"Rscript --slave --vanilla ../scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
@@ -198,7 +198,7 @@ rule mk_snipre_stats:
 	output:
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "mk_output.tsv",
 		config['output'] + "{Organism}/{refGenome}/" + config['mkDir'] + "snipre_output.tsv"
-	env:
+	conda:
 		"../envs/r.yml"
 	shell:
 		"Rscript --slave --vanilla ../scripts/run_snipre.R"
