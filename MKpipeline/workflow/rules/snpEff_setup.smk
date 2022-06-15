@@ -41,17 +41,10 @@ rule download_reference:
     conda:
         "../envs/ncbi.yml"
     shell:
-        """
-        mkdir -p {params.outdir} \
-        if [ -z "{input.ref}" ]  # check if this is empty
-        then
-            datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log} \
-            && 7z x {params.dataset} -aoa -o{params.outdir} \
-            && cat {output.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}
-        else
-            cp {input.ref} {output.ref}
-        fi
-        """
+        "mkdir -p {params.outdir} \n"
+        "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome} &> {log} \n"
+        "&& 7z x {params.dataset} -aoa -o{params.outdir} \n"
+        "&& cat {output.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
   
 rule reorganize:
   """
