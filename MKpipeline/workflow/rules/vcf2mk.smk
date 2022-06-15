@@ -9,7 +9,7 @@ rule db_build:
 	params:
 		ref = config['ingroup']
 	shell:
-		"snpEff -Xmx8g build -c config/snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
+		"snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
 	
 rule cds:
 	"""
