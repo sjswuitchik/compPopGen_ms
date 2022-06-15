@@ -20,9 +20,9 @@ rule cds:
 	output:
 		cdsGFF = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "onlyCDS.gff"
 	script:
-		cds = "../scripts/cds.awk"
+		"../scripts/cds.awk"
 	shell:
-		"""awk -f {script.cds} {input.genes} > {output.cdsGFF}"""
+		"""awk -f {script} {input.genes} > {output.cdsGFF}"""
 
 rule cds_bed:
 	"""
@@ -33,9 +33,9 @@ rule cds_bed:
 	output:
 		cdsBED = directory(config['output']) + "{Organism}/{refGenome}/" + directory(config['mkDir']) + "onlyCDS.bed"
 	script:
-		bed = "../scripts/gff2bed.awk"
+		"../scripts/gff2bed.awk"
 	shell:
-		"""awk -f {script.bed} {input.cdsGFF} > {output.cdsBED}"""
+		"""awk -f {script} {input.cdsGFF} > {output.cdsBED}"""
 
 rule callable_sites:
 	"""
