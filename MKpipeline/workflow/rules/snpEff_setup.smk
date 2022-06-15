@@ -40,8 +40,8 @@ rule download_reference:
         "mkdir -p {params.outdir}\n"
         "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome}\n"
         "7z x {params.dataset} -aoa -o{params.outdir}\n"
-        "cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}\n"
-        "mv {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/genomic.gff {output.gff}"
+        "cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
+        #"mv {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/genomic.gff {output.gff}"
 
 rule reorganize:
   """
