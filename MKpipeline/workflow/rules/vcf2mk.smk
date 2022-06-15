@@ -8,8 +8,8 @@ rule db_build:
 		"../envs/vcfSnpEff.yml"
 	params:
 		ref = config['ingroup']
-	output: #### start here after meeting
-		
+	output: 
+		"snpEffectPredictor.bin"
 	shell:
 		"snpEff -Xmx8g build -c snpEff.config -gff3 -v -noCheckCds -noCheckProtein {params.ref}"
 	
