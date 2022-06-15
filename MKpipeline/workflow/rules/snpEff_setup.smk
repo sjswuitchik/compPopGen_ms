@@ -20,7 +20,7 @@ def get_ref(wildcards):
     else:
         return []
     
-### RULES ###
+### RULES ### 
 
 rule download_reference:
  """
@@ -32,15 +32,15 @@ rule download_reference:
         ref = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
         gff = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
     params:
-        dataset = directory(config['refGenomeDir']) + "{refGenome}_dataset.zip",
+        dataset = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}_dataset.zip",
         outdir = directory(config['refGenomeDir']) + "{refGenome}"
     conda:
         "../envs/ncbi.yml"
     shell:
         "mkdir -p {params.outdir}\n"
-        "datasets download genome accession --exclude-protein --exclude-rna --filename {params.dataset} {wildcards.refGenome}\n"
+        "datasets download genome accession {wildcards.refGenome} --exclude-protein --exclude-rna --filename {params.dataset}\n"
         "7z x {params.dataset} -aoa -o{params.outdir}\n"
-        "cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}"
+        "cat {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/*.fna > {output.ref}\n"
         "mv {params.outdir}/ncbi_dataset/data/{wildcards.refGenome}/genomic.gff {output.gff}"
 
 rule reorganize:
@@ -48,8 +48,8 @@ rule reorganize:
   This rule organizes & renames the data for the snpEff database creation
   """
   input:
-    seq = directory(config['refGenomeDir']) + "{refGenome}.fna",
-    genes = directory(config['refGenomeDir']) + "genomic.gff"
+    seq = directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna",
+    genes = directory(config['refGenomeDir']) + "{refGenome}/genomic.gff"
   output:
     ref = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/sequences.fa",
     gff = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"]) + "/genes.gff"
