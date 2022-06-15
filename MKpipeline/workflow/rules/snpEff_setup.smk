@@ -31,7 +31,11 @@ rule download_reference:
     input:
         ref = get_ref
     output:
-        ref = directory(config['refGenomeDir']) + "{refGenome}.fna"
+        ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
+        seq = directory(config['refGenomeDir']) + "sequences.fa",
+        gff = directory(config['refGenomeDir']) + "{refGenome}.gff",
+        genes = directory(config['refGenomeDir']) + "genes.gff"
+        
     params:
         dataset = directory(config['refGenomeDir']) + "{refGenome}_dataset.zip",
         outdir = directory(config['refGenomeDir']) + "{refGenome}"
@@ -50,6 +54,8 @@ rule download_reference:
         else
             cp {input.ref} {output.ref}
         fi
+        cp {output.ref} {output.seq}
+        cp {output.gff} {output.genes}
         """
   
 rule reorganize:
@@ -57,8 +63,6 @@ rule reorganize:
   This rule organizes & renames the data for the snpEff database creation
   """
   input:
-    ref = directory(config['refGenomeDir']) + "{refGenome}.fna",
-    gff = directory(config['refGenomeDir']) + "{refGenome}.gff",
     seq = directory(config['refGenomeDir']) + "sequences.fa",
     genes = directory(config['refGenomeDir']) + "genes.gff"
   output:
@@ -69,8 +73,6 @@ rule reorganize:
   shell:
     """
     mkdir -p snpEff/data/{params.ingroup} \
-    mv {input.ref} {input.seq} \
-    mv {input.gff} {input.genes} \
     mv {input.seq} {output.ref}
     my {input.genes} {output.gff}
     """
