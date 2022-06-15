@@ -62,13 +62,14 @@ rule reorganize:
     ref = directory(config['refGenomeDir']) + "sequences.fa",
     gff = directory(config['refGenomeDir']) + "genes.gff"
   params:
-    ingroup = config['ingroup']
+    ingroup = config['ingroup'],
+    outdir = directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"])
   shell:
     """
     mkdir -p snpEff/data/{params.ingroup} \
     mv {input.ref} {output.ref} \
     mv {input.gff} {output.gff} \
-    mv {output.ref} {output.gff} directory(config["snpEffDir"]) + "data/" + directory(config["ingroup"])
+    mv {output.ref} {output.gff} {params.outdir}
     """
     
 rule compress:
