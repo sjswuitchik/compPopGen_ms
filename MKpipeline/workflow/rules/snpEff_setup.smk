@@ -20,7 +20,8 @@ def get_ref(wildcards):
     else:
         return []
         
-
+ruleorder: reorganize > download_reference
+    
 ### RULES ###
 
 rule download_reference:
