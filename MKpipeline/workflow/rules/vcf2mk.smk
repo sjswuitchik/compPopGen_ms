@@ -22,7 +22,7 @@ rule cds:
 	script:
 		"../scripts/cds.awk"
 	shell:
-		"""awk -f {script} {input.genes} > {output.cdsGFF}"""
+		"awk -f {script} {input.genes} > {output.cdsGFF}"
 
 rule cds_bed:
 	"""
