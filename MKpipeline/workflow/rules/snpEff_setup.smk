@@ -56,7 +56,7 @@ rule reorganize:
   params:
     ingroup = config['ingroup']
   shell:
-    "mkdir -p snpEff/{wildcards.refGenome}/data/{params.ingroup}\n"
+    "mkdir -p snpEff/data/{params.ingroup}\n"
     "cp {input.seq} {output.ref}\n"
     "cp {input.genes} {output.gff}"
     
