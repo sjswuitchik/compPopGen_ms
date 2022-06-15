@@ -49,7 +49,7 @@ rule cds_genes:
 	output:
 		bed = "data/" + config['mkDir'] + "onlyCDS.genes.bed"
 	shell:
-		"""awk -v OFS="\t" "match($0, /gene=[^;]+/) {print $1, $2, $3, substr($0, RSTART+5, RLENGTH-5)}" {input.bed} > {output.bed}"""
+		"""awk -v OFS="\t" "match($0, /gene=[^;]+/) {{print $1, $2, $3, substr($0, RSTART+5, RLENGTH-5)}}" {input.bed} > {output.bed}"""
 		
 rule callable_cds:
 	"""
