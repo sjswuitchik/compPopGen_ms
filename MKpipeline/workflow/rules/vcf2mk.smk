@@ -66,8 +66,8 @@ rule vcf_filter:
 	This rule filters both VCFs for sites and individuals to produce filtered VCFs to be used in the vcf_call rule
 	"""
 	input:
-		ingroup = "data/" + config['mkDir'] + config['ingroup'] + ".vcf.gz",
-		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".vcf.gz",
+		ingroup = "data/" + config['mkDir'] + config['ingroup'] + ".final.vcf.gz",
+		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".final.vcf.gz",
 		ingroupR = "data/" + config['mkDir'] + config['ingroup'] + ".remove.indv",
 		outgroupR = "data/" + config['mkDir'] + config['outgroup'] + ".remove.indv"
 	output:
