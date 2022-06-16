@@ -51,7 +51,7 @@ rule cds_genes:
 	output:
 		bed = "data/" + config['mkDir'] + "onlyCDS.genes.bed"
 	shell:
-		"""awk -v OFS="\t" "match($0, /gene=[^;]+/) {{print $1, $2, $3, substr($0, RSTART+5, RLENGTH-5)}}" {input.bed} > {output.bed}"""
+		"""awk -v OFS='\t' 'match($0, /gene=[^;]+/) {{print $1, $2, $3, substr($0, RSTART+5, RLENGTH-5)}}' {input.bed} > {output.bed}"""
 		
 rule callable_cds:
 	"""
@@ -139,8 +139,8 @@ rule vcf_parse:
 	conda:
 		"../envs/vcfSnpEff.yml"
 	shell:
-		"python3 ../scripts/annot_parser.py {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
-		"python3 ../scripts/annot_parser.py {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
+		"python3 workflow/scripts/annot_parser.py {input.ingroup} {output.ingroup} -key missense_variant -key synonymous_variant\n"
+		"python3 workflow/scripts/annot_parser.py {input.outgroup} {output.outgroup} -key missense_variant -key synonymous_variant"
 
 rule gene_annot:
 	"""
@@ -193,7 +193,7 @@ rule prep_snipre:
 	conda:
 		"../envs/r.yml"
 	shell:
-		"Rscript --slave --vanilla ../scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
+		"Rscript --slave --vanilla workflow/scripts/prep_snipre.R {input.ingroupBED} {input.outgroupBED} {input.ingroupM} {input.outgroupM}"
 
 rule mk_snipre_stats:
 	"""
@@ -207,4 +207,4 @@ rule mk_snipre_stats:
 	conda:
 		"../envs/r.yml"
 	shell:
-		"Rscript --slave --vanilla ../scripts/run_snipre.R"
+		"Rscript --slave --vanilla workflow/scripts/run_snipre.R"
