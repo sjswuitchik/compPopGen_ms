@@ -37,6 +37,8 @@ rule callable_sites:
 		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".callable_sites.bed"
 	output:
 		call = "data/" + config['mkDir'] + "callable.bed"
+	conda:
+		"../envs/vcfSnpEff.yml"
 	shell:
 		"bedtools intersect -a {input.ingroup} -b {input.outgroup} > {output.call}\n"
 
