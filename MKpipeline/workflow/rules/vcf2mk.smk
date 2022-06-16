@@ -88,8 +88,8 @@ rule vcf_filter:
 	conda:
 		"../envs/vcfSnpEff.yml"
 	shell:
-		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove {input.ingroupR} --max-missing {params.mm} --recode --recode-INFO-all -c > data/mk_tests/{params.ingroup}/{params.ingroup}.filter.recode.vcf\n"
-		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recode --recode-INFO-all -c > data/mk_tests/{params.ingroup}/{params.outgroup}.filter.recode.vcf"
+		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove {input.ingroupR} --max-missing {params.mm} --recode --recode-INFO-all --stdout > data/mk_tests/{params.ingroup}/{params.ingroup}.filter.recode.vcf\n"
+		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recode --recode-INFO-all --stdout > data/mk_tests/{params.ingroup}/{params.outgroup}.filter.recode.vcf"
 		
 rule vcf_call: 
 	"""
