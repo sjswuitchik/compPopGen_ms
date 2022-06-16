@@ -88,8 +88,8 @@ rule vcf_filter:
 	conda:
 		"../envs/vcfSnpEff.yml"
 	shell:
-		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove {input.ingroupR} --max-missing {params.mm} --recode --recode-INFO-all --stdout > data/mk_tests/{params.ingroup}/{params.ingroup}.filter.recode.vcf\n"
-		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recode --recode-INFO-all --stdout > data/mk_tests/{params.ingroup}/{params.outgroup}.filter.recode.vcf"
+		"vcftools --gzvcf {input.ingroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --mac {params.mac} --remove {input.ingroupR} --max-missing {params.mm} --recode --recode-INFO-all --stdout > data/mk_tests/{params.ingroup}.filter.recode.vcf\n"
+		"vcftools --gzvcf {input.outgroup} --remove-filtered-all --remove-indels --min-alleles 2 --max-alleles 2 --maf {params.maf} --remove {input.outgroupR} --max-missing {params.mm} --recode --recode-INFO-all --stdout > data/mk_tests/{params.outgroup}.filter.recode.vcf"
 		
 rule vcf_call: 
 	"""
@@ -174,8 +174,8 @@ rule miss_snipre:
 	conda:
 		"../envs/vcfSnpEff.yml"
 	shell:
-		"vcftools --vcf {input.ingroup} --missing-site --out data/mk_tests/{params.ingroup}/{params.ingroup}\n"
-		"vcftools --vcf {input.outgroup} --missing-site --out data/mk_tests/{params.ingroup}/{params.outgroup}"
+		"vcftools --vcf {input.ingroup} --missing-site --stdout > data/mk_tests/{params.ingroup}.lmiss\n"
+		"vcftools --vcf {input.outgroup} --missing-site --stdout > data/mk_tests/{params.outgroup}.lmiss"
 		
 rule prep_snipre:
 	"""
