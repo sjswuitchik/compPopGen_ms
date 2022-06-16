@@ -25,8 +25,8 @@ rule cds:
 	shell:
 		"cp data/{params.ingroup}/genes.gff.gz data/mk_tests\n"
 		"gunzip data/mk_tests/genes.gff.gz\n"
-		"""awk -f ../scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
-		"""awk -f ../scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
+		"""awk -f workflow/scripts/cds.awk {input.genes} > {output.cdsGFF}\n"""
+		"""awk -f workflow/scripts/gff2bed.awk {output.cdsGFF} > {output.cdsBED}"""
 
 rule callable_sites:
 	"""
