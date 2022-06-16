@@ -3,6 +3,7 @@ channels:
   - bioconda
   - defaults
   - conda-forge
+  - ets
 dependencies:
   - snakemake
   - cyvcf2>=0.30.14
@@ -10,6 +11,7 @@ dependencies:
   - bcftools>=1.15
   - vcftools>=0.1.16
   - htslib>=1.14
-  - java-jdk>=8.0.112
+#  - java-jdk>=8.0.112
   - snpeff==5.1
   - bedtools>=2.30.0
+  - jdk11-ac
