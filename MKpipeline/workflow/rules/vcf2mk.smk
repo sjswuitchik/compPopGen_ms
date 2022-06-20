@@ -155,8 +155,8 @@ rule gene_annot:
 	conda:
 		"../envs/vcfSnpEff.yml"
 	shell:
-		"bedtools intersect -a {input.ingroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
-		"bedtools intersect -a {input.outgroup} -b onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
+		"bedtools intersect -a {input.ingroup} -b data/mk_tests/onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.ingroup}\n"
+		"bedtools intersect -a {input.outgroup} -b data/mk_tests/onlyCDS.genes.bed -wb | cut -f1,2,3,4,8 | bedtools merge -i - -d -1 -c 4,5 -o distinct > {output.outgroup}"
 
 rule miss_snipre:
 	"""
