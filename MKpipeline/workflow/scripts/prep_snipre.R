@@ -11,12 +11,12 @@ if (length(args)==0) {
   stop("At least one argument must be supplied (input file).\n", call.=FALSE)
 }
 
-cds <- read_tsv("onlyCDS.genes.bed", col_names = c("chr", "start", "end", "gene")) %>%
+cds <- read_tsv("data/mk_tests/onlyCDS.genes.bed", col_names = c("chr", "start", "end", "gene")) %>%
   mutate(cds.temp = end - start) %>%
   group_by(gene) %>% 
   summarise(cds.len = sum(cds.temp))
 
-callable <- read_tsv("callable.cds.bed", col_names = c("chr", "start", "end", "gene")) %>%
+callable <- read_tsv("data/mk_tests/callable.cds.bed", col_names = c("chr", "start", "end", "gene")) %>%
   mutate(call.temp = end - start) %>%
   group_by(gene) %>% 
   summarise(call.len = sum(call.temp))
@@ -79,4 +79,4 @@ snipre_data <- full_join(MKtable, callable, by = "gene") %>%
   dplyr::select(-c(call.len)) %>%
   filter((Trepl/Tsil)<5) %>%
   filter((PR+FR+PS+FS)>1) %>% 
-  write_delim(., "snipre_data.tsv", delim = '\t', col_names = T) 
+  write_delim(., "data/mk_tests/snipre_data.tsv", delim = '\t', col_names = T) 
