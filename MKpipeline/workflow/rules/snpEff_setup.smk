@@ -52,13 +52,17 @@ rule reorganize:
     genes = expand(directory(config['refGenomeDir']) + "{refGenome}/genomic.gff", refGenome=REFGENOME)
   output:
     ref = "data/" + directory(config["ingroup"]) + "/sequences.fa",
-    gff = "data/" + directory(config["ingroup"]) + "/genes.gff"
+    gff = "data/" + directory(config["ingroup"]) + "/genes.gff",
+    "data/mk_tests/genes.gff" 
   params:
     ingroup = config['ingroup']
   shell:
     "mkdir -p snpEff/data/{params.ingroup}\n"
     "cp {input.seq} {output.ref}\n"
-    "cp {input.genes} {output.gff}"
+    "cp {input.genes} {output.gff}\n"
+    "mkdir -p data/mk_tests/\n"
+    "cp {output.gff} data/mk_tests/\n"
+    "gunzip data/mk_tests/genes.gff.gz"
     
 rule compress:
   """
