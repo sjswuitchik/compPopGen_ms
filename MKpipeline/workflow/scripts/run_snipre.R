@@ -5,7 +5,7 @@ library(lme4)
 library(arm)
 
 # read in data 
-snipre_data <- read_tsv("snipre_data.tsv", col_names = T)
+snipre_data <- read_tsv("data/mk_tests/snipre_data.tsv", col_names = T)
 
 # functions for MK calculations and DOS 
 mk_test <- function(dn=dn,ds=ds,pn=pn,ps=ps){
@@ -31,15 +31,15 @@ MKtest <- mk_tibble_calc(snipre_data) %>%
          total_poly = PR + PS,
          total_div = FR + FS) 
 
-write.table(MKtest, "mk_output.tsv", sep = "\t", quote = F, row.names = F)
+write.table(MKtest, "data/mk_tests/mk_output.tsv", sep = "\t", quote = F, row.names = F)
 
 # run SnIPRE 
-source("helper_scripts/SnIPRE_source.R")
-source("helper_scripts/my.jags2.R")
+source("workflow/scripts/SnIPRE_source.R")
+source("workflow/scripts/my.jags2.R")
 
 snipre.res <- SnIPRE(MKtest)
 snipre.qres <- snipre.res$new.dataset
 snipre.model <- snipre.res$model
 snipre.table <- table(snipre.qres$SnIPRE.class)
 
-write.table(snipre.qres, "snipre_output.tsv", sep = "\t", quote = F, row.names = F)
+write.table(snipre.qres, "data/mk_tests/snipre_output.tsv", sep = "\t", quote = F, row.names = F)
