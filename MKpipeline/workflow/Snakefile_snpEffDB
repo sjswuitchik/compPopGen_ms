@@ -12,6 +12,7 @@ REFGENOME,ORGANISM = map(list, zip(*species_counts.index))  # split index into r
 rule all:
     input:
     	"data/" + directory(config['ingroup']) + "/sequences.fa.gz",
-	"data/" + directory(config['ingroup']) + "/genes.gff.gz"
+	"data/" + directory(config['ingroup']) + "/genes.gff.gz",
+	"data/mk_tests/genes.gff"
 
 include: "rules/snpEff_setup.smk"
