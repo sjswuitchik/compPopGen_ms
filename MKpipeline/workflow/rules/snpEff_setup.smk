@@ -60,8 +60,7 @@ rule reorganize:
     "mkdir -p snpEff/data/{params.ingroup}\n"
     "cp {input.seq} {output.ref}\n"
     "cp {input.genes} {output.gff}\n"
-    "mkdir -p data/mk_tests/\n"
-    "cp {output.gff} data/mk_tests/"
+    "cp {output.gff} data/mk_tests"
     
 rule compress:
   """
