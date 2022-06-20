@@ -45,7 +45,7 @@ rule download_reference:
 
 rule reorganize:
   """
-  This rule organizes & renames the data for the snpEff database creation
+  This rule organizes & renames the data for the snpEff database creation, and copies the GFF to the correct location for MK and SnIPRE
   """
   input:
     seq = expand(directory(config['refGenomeDir']) + "{refGenome}/{refGenome}.fna", refGenome=REFGENOME),
@@ -59,6 +59,8 @@ rule reorganize:
     "mkdir -p snpEff/data/{params.ingroup}\n"
     "cp {input.seq} {output.ref}\n"
     "cp {input.genes} {output.gff}"
+    "mkdir -p data/mk_tests/\n"
+    "cp {output.gff} data/mk_tests/"
     
 rule compress:
   """
