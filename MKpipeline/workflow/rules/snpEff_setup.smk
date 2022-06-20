@@ -61,8 +61,7 @@ rule reorganize:
     "cp {input.seq} {output.ref}\n"
     "cp {input.genes} {output.gff}\n"
     "mkdir -p data/mk_tests/\n"
-    "cp {output.gff} data/mk_tests/\n"
-    "gunzip data/mk_tests/genes.gff.gz"
+    "cp {output.gff} data/mk_tests/"
     
 rule compress:
   """
