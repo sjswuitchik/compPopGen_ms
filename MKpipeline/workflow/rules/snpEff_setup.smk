@@ -52,7 +52,8 @@ rule reorganize:
     genes = expand(directory(config['refGenomeDir']) + "{refGenome}/genomic.gff", refGenome=REFGENOME)
   output:
     ref = "data/" + directory(config["ingroup"]) + "/sequences.fa",
-    gff = "data/" + directory(config["ingroup"]) + "/genes.gff"
+    gff = "data/" + directory(config["ingroup"]) + "/genes.gff",
+    "data/mk_tests/genes.gff"
   params:
     ingroup = config['ingroup']
   shell:
