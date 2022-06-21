@@ -112,7 +112,8 @@ rule vcf_annotate:
 	"""
 	input:
 		ingroup = "data/" + config['mkDir'] + config['ingroup'] + ".clean.vcf",
-		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".clean.vcf"
+		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".clean.vcf",
+		db = "data/" + config['ingroup'] + "/snpEffectPredictor.bin"
 	output:
 		ingroup = "data/" + config['mkDir'] + config['ingroup'] + ".ann.vcf",
 		outgroup = "data/" + config['mkDir'] + config['outgroup'] + ".ann.vcf"
