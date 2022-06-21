@@ -45,8 +45,6 @@ For example:
 
 hetAtr.genome : Heteronetta_atricapilla  
 
-Note: you can also put the data directory into the config to avoid confusion between your working directory and your snpEff directory.  
-
 ### In the parent directory (MKpipeline), you'll need a directory called input_data that contains:
 
 - single VCF for each of the ingroup and outgroup species and the associated index (\*.vcf.gz and \*.vcf.gz.tbi) e.g., hetAtr.vcf.gz and hetAtr.vcf.gz.tbi 
