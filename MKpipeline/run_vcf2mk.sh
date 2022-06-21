@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH -J sm
-#SBATCH -o out
-#SBATCH -e err
+#SBATCH -J sm_mk
+#SBATCH -o out_mk
+#SBATCH -e err_mk
 #SBATCH -p holy-info
 #SBATCH -n 1
 #SBATCH -t 9000
