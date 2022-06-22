@@ -51,4 +51,4 @@ hetAtr.genome : Heteronetta_atricapilla
 
 - a list of individuals to remove for each of the ingroup and outgroup species (\*.remove.indv) e.g., hetAtr.remove.indv
 
-- a callable sites BED for each of the ingroup and outgroup (\*\_callable_sites.bed) e.g., hetAtr.callable_sites.bed
+- a callable sites BED for each of the ingroup and outgroup (\*\.callable_sites.bed) e.g., hetAtr.callable_sites.bed
