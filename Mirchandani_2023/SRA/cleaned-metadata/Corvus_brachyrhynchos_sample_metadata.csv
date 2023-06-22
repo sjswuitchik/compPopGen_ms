@@ -1,0 +1,11 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome,refSpecies
+PRJNA192205,SAMN02743852,Corvus_brachyrhynchos,male,USA_NY_B04,USA,North America,USA: New York,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743848,Corvus_brachyrhynchos,male,USA_CA_B01,USA,North America,USA: California,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743850,Corvus_brachyrhynchos,male,USA_CA_B03,USA,North America,USA: California,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743849,Corvus_brachyrhynchos,male,USA_NJ_B02,USA,North America,USA: New Jersey,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743851,Corvus_brachyrhynchos,male,USA_NY_B03,USA,North America,USA: New York,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334436,Corvus_brachyrhynchos,missing,DNA_369,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334437,Corvus_brachyrhynchos,missing,DNA_371,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334438,Corvus_brachyrhynchos,missing,DNA_374,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334439,Corvus_brachyrhynchos,missing,DNA_375,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334440,Corvus_brachyrhynchos,missing,DNA_377,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix

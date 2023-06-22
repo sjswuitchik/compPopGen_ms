@@ -1,0 +1,37 @@
+BioProject,BioSample,Organism,sex,Country,Continent,lat_lon,Submitter_Id,Collection_date,Location,refGenome,refSpecies
+PRJEB27858,SAMEA4799785,Hypoplectrus_unicolor,missing,Panama,North America,9.2983 N 82.2894 E,18442,2004-07-08,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799787,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18446,2004-06-29,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799788,Hypoplectrus_unicolor,missing,Panama,North America,9.2894 N 82.2589 E,18447,2004-07-09,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799781,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18435,2004-06-23,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799790,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18450,2004-06-25,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799783,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18440,2004-06-25,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799782,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18439,2004-06-25,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799791,Hypoplectrus_unicolor,missing,Panama,North America,9.3481 N 82.2633 E,18454,2004-06-30,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799784,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18441,2004-06-25,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799789,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18448,2004-06-28,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799786,Hypoplectrus_unicolor,missing,Panama,North America,9.3328 N 82.2547 E,18445,2004-06-28,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799780,Hypoplectrus_unicolor,missing,Panama,North America,10.2392 N 83.1731 E,18420,2004-05-12,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799779,Hypoplectrus_unicolor,missing,Panama,North America,NA,16_31-40,2016,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799756,Hypoplectrus_unicolor,missing,Belize,North America,16.7653 N 88.1442 E,18163,2004-07-25,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799757,Hypoplectrus_unicolor,missing,Belize,North America,NA,18261,2004-07-24,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799758,Hypoplectrus_unicolor,missing,Belize,North America,NA,18267,2004-07-24,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799759,Hypoplectrus_unicolor,missing,Belize,North America,NA,18274,2004-07-24,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799761,Hypoplectrus_unicolor,missing,Belize,North America,16.7078 N 87.8598 E,19881,2005-08-16,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799762,Hypoplectrus_unicolor,missing,Belize,North America,16.8936 N 88.1226 E,20092,2005-08-15,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799763,Hypoplectrus_unicolor,missing,Belize,North America,16.8008 N 88.0789 E,20120,2005-08-11,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799764,Hypoplectrus_unicolor,missing,Belize,North America,16.8936 N 88.1226 E,20126,2005-08-12,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799765,Hypoplectrus_unicolor,missing,Belize,North America,16.8936 N 88.1226 E,20128,2005-08-12,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799766,Hypoplectrus_unicolor,missing,Belize,North America,16.8936 N 88.1226 E,20135,2005-08-12,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799768,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20560,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799770,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20562,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799771,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20563,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799772,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20564,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799774,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20566,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799776,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20568,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799777,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20571,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799778,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20572,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799767,Hypoplectrus_unicolor,missing,Belize,North America,16.8936 N 88.1226 E,20149,2005-08-12,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799760,Hypoplectrus_unicolor,missing,Belize,North America,16.7653 N 88.1442 E,18276,2004-07-25,Carrie Bow Cay,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799769,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20561,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799775,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20567,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella
+PRJEB27858,SAMEA4799773,Hypoplectrus_unicolor,missing,Honduras,North America,15.9558 N 83.2931 E,20565,2006-06-04,Cayos Becerros,GCA_900610375.1,Hypoplectrus_puella

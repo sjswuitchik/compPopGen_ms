@@ -1,0 +1,11 @@
+BioProject,BioSample,Organism,Submitter_Id,sex,Locality,Country,Longitude,Latitude,Continent,refGenome,refSpecies
+PRJEB27649,SAMEA4785141,Passer_montanus,PM001-Malta,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785142,Passer_montanus,PM002-Malta,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785143,Passer_montanus,PM003,undetermined,Naxos,Italy,"15°16'12"" E","37°49'08.91"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785144,Passer_montanus,PM007,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785146,Passer_montanus,PM4,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785149,Passer_montanus,5PMCos,undetermined,Corsica,Italy,"9°19'80.6"" E","41°58'44.3"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785145,Passer_montanus,PM2,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785147,Passer_montanus,PM5,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785148,Passer_montanus,PM6,undetermined,Malta,Malta,"14°38'26.19"" E","35°94'58.39"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619722,Passer_montanus,Pmontanus_1_Naxos_2,male,"GiardinaNaxos",Italy,"~ 15° 16' 12.""E","~ 37° 49'08.91"" N",Europe,GCA_001700915.1,Passer_domesticus

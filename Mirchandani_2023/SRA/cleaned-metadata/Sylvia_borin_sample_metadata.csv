@@ -1,0 +1,6 @@
+BioProject,BioSample,Organism,sex,Submitter_ID,Continent,Country,Locality,refGenome,refSpecies
+PRJNA616371,SAMN14488565,Sylvia_borin,male,GW09,Europe,Spain,Jaca (HU),GCA_009819655.1,Sylvia_atricapilla
+PRJNA616371,SAMN14488564,Sylvia_borin,male,GW07,Europe,Spain,Jaca (HU),GCA_009819655.1,Sylvia_atricapilla
+PRJNA616371,SAMN14488563,Sylvia_borin,male,GW04,Europe,Spain,Vilar de Barrio (OR),GCA_009819655.1,Sylvia_atricapilla
+PRJNA616371,SAMN14488562,Sylvia_borin,male,GW03,Europe,Spain,Barrundia (VI),GCA_009819655.1,Sylvia_atricapilla
+PRJNA616371,SAMN14488561,Sylvia_borin,male,GW01,Europe,Spain,Pradoluengo (BU),GCA_009819655.1,Sylvia_atricapilla

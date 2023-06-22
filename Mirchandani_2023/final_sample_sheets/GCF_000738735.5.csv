@@ -1,0 +1,298 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome,refSpecies
+PRJNA192205,SAMN02743852,Corvus_brachyrhynchos,male,USA_NY_B04,USA,North America,USA: New York,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743848,Corvus_brachyrhynchos,male,USA_CA_B01,USA,North America,USA: California,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743850,Corvus_brachyrhynchos,male,USA_CA_B03,USA,North America,USA: California,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743849,Corvus_brachyrhynchos,male,USA_NJ_B02,USA,North America,USA: New Jersey,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743851,Corvus_brachyrhynchos,male,USA_NY_B03,USA,North America,USA: New York,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334436,Corvus_brachyrhynchos,missing,DNA_369,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334437,Corvus_brachyrhynchos,missing,DNA_371,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334438,Corvus_brachyrhynchos,missing,DNA_374,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334439,Corvus_brachyrhynchos,missing,DNA_375,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334440,Corvus_brachyrhynchos,missing,DNA_377,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJNA192205,SAMN02143031,Corvus_cornix_cornix,male,S_Up_H32,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439805,Corvus_cornix_cornix,male,PL_Wa_H02,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439806,Corvus_cornix_cornix,male,PL_Wa_H03,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439807,Corvus_cornix_cornix,male,PL_Wa_H05,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439808,Corvus_cornix_cornix,male,PL_Wa_H06,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439809,Corvus_cornix_cornix,male,PL_Wa_H09,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439810,Corvus_cornix_cornix,male,PL_Wa_H11,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439811,Corvus_cornix_cornix,male,PL_Wa_H14,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439812,Corvus_cornix_cornix,male,PL_Wa_H16,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439814,Corvus_cornix_cornix,male,PL_Wa_H22,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439813,Corvus_cornix_cornix,male,PL_Wa_H17,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439815,Corvus_cornix_cornix,male,PL_Wa_H23,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439816,Corvus_cornix_cornix,male,PL_Wa_H32,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439817,Corvus_cornix_cornix,male,PL_Wa_H35,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439818,Corvus_cornix_cornix,male,PL_Wa_H50,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439819,Corvus_cornix_cornix,male,PL_Wa_H52,Poland,Europe,Poland: Warsaw,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439820,Corvus_cornix_cornix,male,S_Ri_H05,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439821,Corvus_cornix_cornix,male,S_Ri_H07,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439822,Corvus_cornix_cornix,male,S_Ri_H23,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439823,Corvus_cornix_cornix,male,S_Ri_H29,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439824,Corvus_cornix_cornix,male,S_Ri_H43,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439825,Corvus_cornix_cornix,male,S_Up_H03,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439826,Corvus_cornix_cornix,male,S_Up_H09,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439827,Corvus_cornix_cornix,male,S_Up_H16,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439828,Corvus_cornix_cornix,male,S_Up_H24,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439829,Corvus_cornix_cornix,male,S_Up_H29,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439830,Corvus_cornix_cornix,male,S_Up_H37,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439831,Corvus_cornix_cornix,male,S_Up_H43,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439832,Corvus_cornix_cornix,male,S_Up_H47,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439833,Corvus_cornix_cornix,male,S_Up_H51,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02439834,Corvus_cornix_cornix,male,S_Up_H52,Sweden,Europe,Sweden: Uppsala,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJEB9057,SAMEA3334441,Corvus_cornix,missing,DNA_343,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334442,Corvus_cornix,missing,DNA_344,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334443,Corvus_cornix,missing,DNA_348,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334444,Corvus_cornix,missing,DNA_351,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334445,Corvus_cornix,missing,DNA_354,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334446,Corvus_cornix,missing,DNA_360,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334447,Corvus_cornix,missing,DNA_362,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334448,Corvus_cornix,missing,DNA_364,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334449,Corvus_cornix,missing,DNA_381,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334450,Corvus_cornix,missing,DNA_382,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334451,Corvus_cornix,missing,DNA_386,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334452,Corvus_cornix,missing,DNA_390,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334453,Corvus_cornix,missing,DNA_394,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334454,Corvus_cornix,missing,DNA_395,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334455,Corvus_cornix,missing,DNA_398,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334456,Corvus_cornix,missing,DNA_399,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334457,Corvus_cornix,missing,DNA_403,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334458,Corvus_cornix,missing,DNA_407,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334459,Corvus_cornix,missing,DNA_411,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334460,Corvus_cornix,missing,DNA_412,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334461,Corvus_cornix,missing,DNA_418,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334462,Corvus_cornix,missing,DNA_423,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334463,Corvus_cornix,missing,DNA_426,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334464,Corvus_cornix,missing,DNA_430,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334465,Corvus_cornix,missing,DNA_431,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334466,Corvus_cornix,missing,DNA_432,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334467,Corvus_cornix,missing,DNA_434,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334468,Corvus_cornix,missing,DNA_435,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334469,Corvus_cornix,missing,DNA_436,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334470,Corvus_cornix,missing,DNA_437,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334471,Corvus_cornix,missing,DNA_438,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334472,Corvus_cornix,missing,DNA_439,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334473,Corvus_cornix,missing,DNA_440,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334474,Corvus_cornix,missing,DNA_441,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334475,Corvus_cornix,missing,DNA_442,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334476,Corvus_cornix,missing,DNA_443,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334477,Corvus_cornix,missing,DNA_445,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334478,Corvus_cornix,missing,DNA_446,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334479,Corvus_cornix,missing,DNA_447,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334480,Corvus_cornix,missing,DNA_448,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334481,Corvus_cornix,missing,DNA_450,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334482,Corvus_cornix,missing,DNA_451,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334483,Corvus_cornix,missing,DNA_452,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334484,Corvus_cornix,missing,DNA_454,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334485,Corvus_cornix,missing,DNA_455,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334486,Corvus_cornix,missing,DNA_456,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334487,Corvus_cornix,missing,DNA_457,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334488,Corvus_cornix,missing,DNA_458,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334489,Corvus_cornix,missing,DNA_459,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334490,Corvus_cornix,missing,DNA_460,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334491,Corvus_cornix,missing,DNA_461,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334492,Corvus_cornix,missing,DNA_462,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334493,Corvus_cornix,missing,DNA_463,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334494,Corvus_cornix,missing,DNA_465,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334495,Corvus_cornix,missing,DNA_466,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334496,Corvus_cornix,missing,DNA_467,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334497,Corvus_cornix,missing,DNA_468,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334498,Corvus_cornix,missing,DNA_469,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334499,Corvus_cornix,missing,DNA_470,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334500,Corvus_cornix,missing,DNA_471,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334501,Corvus_cornix,missing,DNA_472,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334502,Corvus_cornix,missing,DNA_475,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334503,Corvus_cornix,missing,DNA_476,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334504,Corvus_cornix,missing,DNA_477,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334505,Corvus_cornix,missing,DNA_478,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334506,Corvus_cornix,missing,DNA_483,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334507,Corvus_cornix,missing,DNA_484,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334508,Corvus_cornix,missing,DNA_487,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334509,Corvus_cornix,missing,DNA_488,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334510,Corvus_cornix,missing,DNA_491,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334511,Corvus_cornix,missing,DNA_492,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334512,Corvus_cornix,missing,DNA_493,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334513,Corvus_cornix,missing,DNA_494,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334514,Corvus_cornix,missing,DNA_495,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334515,Corvus_cornix,missing,DNA_496,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334516,Corvus_cornix,missing,DNA_499,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334517,Corvus_cornix,missing,DNA_500,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334518,Corvus_cornix,missing,DNA_501,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334519,Corvus_cornix,missing,DNA_502,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334520,Corvus_cornix,missing,DNA_503,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334521,Corvus_cornix,missing,DNA_504,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334522,Corvus_cornix,missing,DNA_505,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334523,Corvus_cornix,missing,DNA_506,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334524,Corvus_cornix,missing,DNA_509,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334525,Corvus_cornix,missing,DNA_510,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334526,Corvus_cornix,missing,DNA_511,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334527,Corvus_cornix,missing,DNA_512,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334528,Corvus_cornix,missing,DNA_513,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334529,Corvus_cornix,missing,DNA_514,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334530,Corvus_cornix,missing,DNA_515,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334531,Corvus_cornix,missing,DNA_516,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334532,Corvus_cornix,missing,DNA_517,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334533,Corvus_cornix,missing,DNA_518,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334534,Corvus_cornix,missing,DNA_519,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334535,Corvus_cornix,missing,DNA_520,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334536,Corvus_cornix,missing,DNA_525,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334537,Corvus_cornix,missing,DNA_526,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334538,Corvus_cornix,missing,DNA_527,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334539,Corvus_cornix,missing,DNA_528,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334540,Corvus_cornix,missing,DNA_529,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334541,Corvus_cornix,missing,DNA_530,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334542,Corvus_cornix,missing,DNA_531,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334543,Corvus_cornix,missing,DNA_532,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334544,Corvus_cornix,missing,DNA_535,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334545,Corvus_cornix,missing,DNA_536,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334546,Corvus_cornix,missing,DNA_539,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334547,Corvus_cornix,missing,DNA_540,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334548,Corvus_cornix,missing,DNA_541,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334549,Corvus_cornix,missing,DNA_542,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334550,Corvus_cornix,missing,DNA_543,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334551,Corvus_cornix,missing,DNA_544,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334552,Corvus_cornix,missing,DNA_545,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334553,Corvus_cornix,missing,DNA_546,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334554,Corvus_cornix,missing,DNA_549,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334555,Corvus_cornix,missing,DNA_551,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334556,Corvus_cornix,missing,DNA_552,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334557,Corvus_cornix,missing,DNA_555,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334558,Corvus_cornix,missing,DNA_556,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334559,Corvus_cornix,missing,DNA_557,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089884,Corvus_cornix,male,IRL_Lm_H07,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089885,Corvus_cornix,female,IRL_Lm_H08,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089886,Corvus_cornix,female,IRL_Lm_H10,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089887,Corvus_cornix,male,IRL_Lm_H12,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089888,Corvus_cornix,female,IRL_Lm_H15,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089889,Corvus_cornix,male,IRL_Lm_H16,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJNA192205,SAMN02743819,Corvus_corone_corone,male,D_Ko_C04,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743820,Corvus_corone_corone,male,D_Ko_C05,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743821,Corvus_corone_corone,male,D_Ko_C08,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743822,Corvus_corone_corone,male,D_Ko_C11,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743823,Corvus_corone_corone,male,D_Ko_C13,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743824,Corvus_corone_corone,male,D_Ko_C15,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743825,Corvus_corone_corone,male,D_Ko_C19,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743826,Corvus_corone_corone,female,D_Ko_C20,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743827,Corvus_corone_corone,male,D_Ra_C01,Germany,Europe,Germany: Radolfzell,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743828,Corvus_corone_corone,male,D_Ra_C05,Germany,Europe,Germany: Radolfzell,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743829,Corvus_corone_corone,male,D_Ra_C06,Germany,Europe,Germany: Radolfzell,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743830,Corvus_corone_corone,male,D_Ra_C11,Germany,Europe,Germany: Radolfzell,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743831,Corvus_corone_corone,male,D_Ra_C14,Germany,Europe,Germany: Radolfzell,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743832,Corvus_corone_corone,male,D_Ra_C16,Germany,Europe,Germany: Radolfzell,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743833,Corvus_corone_corone,male,E_Vi_C01,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743834,Corvus_corone_corone,male,E_Vi_C05,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743835,Corvus_corone_corone,male,E_Vi_C08,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743836,Corvus_corone_corone,male,E_Vi_C14,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743837,Corvus_corone_corone,male,E_Vi_C19,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743838,Corvus_corone_corone,male,E_Vi_C22,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743839,Corvus_corone_corone,male,E_Vi_C23,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743840,Corvus_corone_corone,male,E_Vi_C32,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743841,Corvus_corone_corone,male,E_Vi_C37,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743842,Corvus_corone_corone,male,E_Vi_C44,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743843,Corvus_corone_corone,male,E_Vi_C46,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743844,Corvus_corone_corone,male,E_Vi_C48,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743845,Corvus_corone_corone,male,E_Vi_C51,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743846,Corvus_corone_corone,male,E_Vi_C57,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743847,Corvus_corone_corone,male,E_Vi_C58,Spain,Europe,Spain: Villaseca de la Sorriba,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02743818,Corvus_corone_corone,male,D_Ko_C02,Germany,Europe,Germany: Konstanz,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJEB9057,SAMEA3334435,Corvus_corone_orientalis,missing,DNA_340,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334642,Corvus_corone_orientalis,missing,DNA_341,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334643,Corvus_corone_orientalis,missing,DNA_342,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334594,Corvus_corone_orientalis,missing,DNA_345,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334644,Corvus_corone_orientalis,missing,DNA_346,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334645,Corvus_corone_orientalis,missing,DNA_349,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334646,Corvus_corone_orientalis,missing,DNA_352,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334595,Corvus_corone_orientalis,missing,DNA_353,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334596,Corvus_corone_orientalis,missing,DNA_355,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334597,Corvus_corone_orientalis,missing,DNA_356,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334598,Corvus_corone_orientalis,missing,DNA_357,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334599,Corvus_corone_orientalis,missing,DNA_358,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334647,Corvus_corone_orientalis,missing,DNA_359,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334600,Corvus_corone_orientalis,missing,DNA_361,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334601,Corvus_corone_orientalis,missing,DNA_365,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334602,Corvus_corone_orientalis,missing,DNA_366,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334603,Corvus_corone_orientalis,missing,DNA_367,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334604,Corvus_corone_orientalis,missing,DNA_368,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334605,Corvus_corone_orientalis,missing,DNA_370,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334606,Corvus_corone_orientalis,missing,DNA_372,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334607,Corvus_corone_orientalis,missing,DNA_373,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334608,Corvus_corone_orientalis,missing,DNA_376,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334609,Corvus_corone_orientalis,missing,DNA_378,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334648,Corvus_corone_orientalis,missing,DNA_379,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334649,Corvus_corone_orientalis,missing,DNA_380,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334610,Corvus_corone_orientalis,missing,DNA_383,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334650,Corvus_corone_orientalis,missing,DNA_384,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334651,Corvus_corone_orientalis,missing,DNA_387,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334652,Corvus_corone_orientalis,missing,DNA_388,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334611,Corvus_corone_orientalis,missing,DNA_389,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334612,Corvus_corone_orientalis,missing,DNA_391,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334613,Corvus_corone_orientalis,missing,DNA_392,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334653,Corvus_corone_orientalis,missing,DNA_393,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334614,Corvus_corone_orientalis,missing,DNA_396,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334654,Corvus_corone_orientalis,missing,DNA_397,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334615,Corvus_corone_orientalis,missing,DNA_400,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334655,Corvus_corone_orientalis,missing,DNA_401,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334656,Corvus_corone_orientalis,missing,DNA_404,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334657,Corvus_corone_orientalis,missing,DNA_405,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334616,Corvus_corone_orientalis,missing,DNA_406,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334617,Corvus_corone_orientalis,missing,DNA_408,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334618,Corvus_corone_orientalis,missing,DNA_409,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334658,Corvus_corone_orientalis,missing,DNA_410,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334619,Corvus_corone_orientalis,missing,DNA_414,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334620,Corvus_corone_orientalis,missing,DNA_415,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334621,Corvus_corone_orientalis,missing,DNA_416,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334659,Corvus_corone_orientalis,missing,DNA_417,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334660,Corvus_corone_orientalis,missing,DNA_419,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334661,Corvus_corone_orientalis,missing,DNA_420,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334622,Corvus_corone_orientalis,missing,DNA_421,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334662,Corvus_corone_orientalis,missing,DNA_422,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334663,Corvus_corone_orientalis,missing,DNA_424,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334623,Corvus_corone_orientalis,missing,DNA_425,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334624,Corvus_corone_orientalis,missing,DNA_428,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089890,Corvus_corone_orientalis,male,RUS_Ya_O01,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJEB9057,SAMEA3334560,Corvus_dauuricus,missing,DNA_473,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334561,Corvus_dauuricus,missing,DNA_474,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334562,Corvus_dauuricus,missing,DNA_481,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334563,Corvus_dauuricus,missing,DNA_482,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334564,Corvus_dauuricus,missing,DNA_485,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334565,Corvus_dauuricus,missing,DNA_486,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334566,Corvus_dauuricus,missing,DNA_507,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334567,Corvus_dauuricus,missing,DNA_508,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334568,Corvus_dauuricus,missing,DNA_523,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334569,Corvus_dauuricus,missing,DNA_524,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334570,Corvus_dauuricus,missing,DNA_537,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334571,Corvus_dauuricus,missing,DNA_538,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334572,Corvus_dauuricus,missing,DNA_548,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334573,Corvus_dauuricus,missing,DNA_550,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334574,Corvus_dauuricus,missing,DNA_554,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334575,Corvus_dauuricus,missing,DNA_558,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJNA192205,SAMN02843222,Corvus_frugilegus,male,IRL_Lm_R05,Ireland,Europe,"Ireland: Lough_Money_Farm\,Belfast",GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02843223,Corvus_frugilegus,male,IRL_Lm_R01,Ireland,Europe,"Ireland: Lough_Money_Farm\,Belfast",GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334576,Corvus_frugilegus,missing,DNA_433,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334577,Corvus_frugilegus,missing,DNA_444,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334578,Corvus_frugilegus,missing,DNA_453,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334579,Corvus_frugilegus,missing,DNA_464,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334580,Corvus_frugilegus,missing,DNA_497,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334581,Corvus_frugilegus,missing,DNA_498,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334582,Corvus_frugilegus,missing,DNA_533,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334583,Corvus_frugilegus,missing,DNA_534,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334584,Corvus_frugilegus,missing,DNA_547,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334585,Corvus_frugilegus,missing,DNA_553,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJEB9057,SAMEA3334625,Corvus_pectoralis,missing,DNA_347,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334626,Corvus_pectoralis,missing,DNA_350,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334627,Corvus_pectoralis,missing,DNA_363,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334628,Corvus_pectoralis,missing,DNA_385,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334629,Corvus_pectoralis,missing,DNA_402,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334630,Corvus_pectoralis,missing,DNA_413,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334631,Corvus_pectoralis,missing,DNA_427,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA5089891,Corvus_pectoralis,female,CHN_Gu_P01,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+\n
+PRJNA192205,SAMN02843224,Coloeus_monedula,male,S_Ri_J01,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02843225,Coloeus_monedula,male,S_Ri_J08,Sweden,Europe,Sweden: Rimbo,GCF_000738735.5,Corvus_cornix_cornix

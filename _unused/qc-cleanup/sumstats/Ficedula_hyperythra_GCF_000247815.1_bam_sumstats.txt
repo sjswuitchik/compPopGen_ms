@@ -1,0 +1,2 @@
+Sample	Total_alignments	Percent_mapped	Percent_duplicates	Percent_properly_paired	Fraction_reads_pass_filter	Num_filtered_reads
+SAMEA3175226 	 128915858 	 96.26 	 0.09314705100128179 	 84.0 	 0.9228744483041522 	 128027838

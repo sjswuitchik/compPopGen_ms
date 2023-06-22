@@ -1,0 +1,44 @@
+BioProject,BioSample,Organism,Submitter_Id,sex,Locality,Country,Longitude,Latitude,Continent,refGenome,refSpecies
+PRJEB27649,SAMEA4785058,Passer_hispaniolensis,CSP03_161116,female,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785059,Passer_hispaniolensis,CSP17_151116,undetermined,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785060,Passer_hispaniolensis,CSP18_151116,male,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785062,Passer_hispaniolensis,CSP31_151116,female,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785063,Passer_hispaniolensis,CSP36_151116,male,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785064,Passer_hispaniolensis,CSP4_161116,female,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785065,Passer_hispaniolensis,CSP6_151116,female,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785066,Passer_hispaniolensis,CSP7_151116,female,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785067,Passer_hispaniolensis,CSP9_151116,female,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785068,Passer_hispaniolensis,CSV01,male,Cape Verde,Cape Verde,"23°32'44.9"" W","15°08'07.5"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785069,Passer_hispaniolensis,CVS02,male,Cape Verde,Cape Verde,"23°32'44.9"" W","15°08'07.5"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785090,Passer_hispaniolensis,I289,female,Lesina,Italy,"15°27'03"" E","41°51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785092,Passer_hispaniolensis,KAZ14003,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785103,Passer_hispaniolensis,KAZ14032,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785104,Passer_hispaniolensis,KAZ14035,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785105,Passer_hispaniolensis,KAZ14053,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785106,Passer_hispaniolensis,KAZ14054,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785107,Passer_hispaniolensis,KAZ14055,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785108,Passer_hispaniolensis,KAZ14057,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785109,Passer_hispaniolensis,KAZ14059,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785110,Passer_hispaniolensis,KAZ14061,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785131,Passer_hispaniolensis,SA001,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785132,Passer_hispaniolensis,SA002,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785133,Passer_hispaniolensis,SA003,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785134,Passer_hispaniolensis,SA010,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785135,Passer_hispaniolensis,SA011,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785136,Passer_hispaniolensis,SA016,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785139,Passer_hispaniolensis,SA019,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785061,Passer_hispaniolensis,CSP22_151116,male,Tenerife,Canary Islands,"16°33'28"" W","28°02'06"" N",Africa,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785140,Passer_hispaniolensis,SA021,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785091,Passer_hispaniolensis,KAZ14001,male,Chokpak,Kazahkstan,"70°34'18.9"" E","42°37'15.5"" N",Asia,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785137,Passer_hispaniolensis,SA017,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJEB27649,SAMEA4785138,Passer_hispaniolensis,SA018,male,Sardinia,Italy,"9°37'32.5""E","40°23'36.2"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619711,Passer_hispaniolensis,Phisp_20_Lesina_295,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619710,Passer_hispaniolensis,Phisp_19_Lesina_292,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619709,Passer_hispaniolensis,Phisp_18_Lesina_289,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619708,Passer_hispaniolensis,Phisp_17_Lesina_288,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619707,Passer_hispaniolensis,Phisp_16_Lesina_287,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619706,Passer_hispaniolensis,Phisp_15_Lesina_286,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619704,Passer_hispaniolensis,Phisp_13_Lesina_282,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619703,Passer_hispaniolensis,Phisp_12_Lesina_281,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619702,Passer_hispaniolensis,Phisp_11_Lesina_280,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus
+PRJNA255814,SAMN06619705,Passer_hispaniolensis,Phisp_14_Lesina_285,male,Lesina,Italy,"~ 15° 27' 03""E","~ 41° 51'30.84"" N",Europe,GCA_001700915.1,Passer_domesticus

@@ -1,0 +1,116 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+Load data
+
+```{r}
+GENOME="GCF_901000725.2"
+
+mk <- read_tsv(paste0(GENOME, "_mk_table.tsv"))
+tsinfo <- read_tsv(paste0(GENOME, "_transcript-counts.tsv"))
+merge <- full_join(mk, tsinfo, by="transcript") %>% filter(is_longest=="yes") %>% select(gene, cds_length, pN, pS, dN, dS, f0, f2, f3, f4, mk.raw.p.value, dos)
+
+takRub <- merge
+
+```
+
+```{r}
+GENOME="GCF_900700415.1"
+
+mk <- read_tsv(paste0(GENOME, "_mk_table.tsv"))
+tsinfo <- read_tsv(paste0(GENOME, "_transcript-counts.tsv"))
+merge <- full_join(mk, tsinfo, by="transcript") %>% filter(is_longest=="yes") %>% select(gene, cds_length, pN, pS, dN, dS, f0, f2, f3, f4, mk.raw.p.value, dos)
+
+cluHar<-merge
+
+```
+
+
+```{r}
+GENOME="GCF_002234675.1"
+
+mk <- read_tsv(paste0(GENOME, "_mk_table.tsv"))
+tsinfo <- read_tsv(paste0(GENOME, "_transcript-counts.tsv"))
+merge <- full_join(mk, tsinfo, by="transcript") %>% filter(is_longest=="yes") %>% select(gene, cds_length, pN, pS, dN, dS, f0, f2, f3, f4, mk.raw.p.value, dos)
+
+oryLat<-merge
+
+```
+
+
+Volcano plot
+
+```{r}
+
+tr_vol <- takRub %>% mutate(logP = -1 * log10(mk.raw.p.value), direction = ifelse(dos < 0, "neg", "pos"), sig = ifelse(logP >= 3, "yes", "no"), result = paste0(direction, ":", sig)) %>% 
+  filter(!is.na(dos), cds_length <= 10000, !is.na(logP), dN+dS > 2, pN+pS > 2) %>% 
+  mutate(gene_label = str_remove(gene, "gene-")) %>%
+  mutate(gene_label = ifelse(str_detect(gene_label, "LOC"), "", gene_label)) %>% 
+  ggplot(aes(y=logP, x=dos, color=result, alpha=sig)) + 
+  geom_point() + 
+  theme_bw() + 
+  scale_color_manual(values=c("#1f78b4", "#db7475",  "#e31a1c"), guide="none") +
+  scale_alpha_discrete(range = c(0.5, 1), guide="none") +
+  xlab("Direction of Selection (DoS)") + 
+  ylab("-log10 P-value (MK test)") +
+  geom_text(aes(label=ifelse(logP>3.5,as.character(gene_label),'')),hjust=-0.1,vjust=0.4,color="black")
+
+#oryLat %>% mutate(logP = -1 * log10(mk.raw.p.value), direction = ifelse(dos < 0, "neg", "pos"), sig = ifelse(logP >= 3, "yes", "no"), result = paste0(direction, ":", sig)) %>% filter(!is.na(dos), cds_length <= 10000, !is.na(logP), dN+dS > 2, pN+pS > 2) %>% ggplot(aes(y=logP, x=dos, color=direction)) + geom_point(alpha=0.75)
+
+
+#cluHar %>% mutate(logP = -1 * log10(mk.raw.p.value), direction = ifelse(dos < 0, "neg", "pos"), sig = ifelse(logP >= 3, "yes", "no"), result = paste0(direction, ":", sig)) %>% filter(!is.na(dos), cds_length <= 10000, !is.na(logP), dN+dS > 2, pN+pS > 2) %>% ggplot(aes(y=logP, x=dos, color=direction)) + geom_point(alpha=0.75)
+
+
+```
+
+Look at piN / piS
+
+```{r}
+
+takRub <- mutate(takRub, species= "Takifugu rubripes (torafugu)")
+cluHar <- mutate(cluHar, species= "Clupea harengus (Atlantic herring)")
+oryLat <- mutate(oryLat, species= "Oryzias latipes (medaka)")
+
+all <- bind_rows(takRub, cluHar, oryLat)
+
+#all %>% mutate(sn = pN / (f0 + 0.5*f2 + 0.25*f3), ss = pS / (f4 + 0.5*f2 + 0.75*f3), ratio = sn / ss) %>% 
+#  filter(pN + pS > 2, pS > 0, pN > 0) %>%
+#  ggplot(aes(ratio, color=species)) + geom_density() + scale_x_continuous(limits=c(0,5))
+
+set.colors <- c('#1f78b4','#33a02c','#6a3d9a','#a6cee3','#b2df8a','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#cab2d6')
+
+ns_boxplot <- all %>% mutate(sn = pN / (f0 + 0.5*f2 + 0.25*f3), ss = pS / (f4 + 0.5*f2 + 0.75*f3), ratio = sn / ss) %>% 
+  filter(pN + pS > 2, pS > 0, pN > 0) %>%
+  ggplot(aes(y=ratio, x=species, fill=species)) + geom_boxplot(outlier.shape = NA, notch=TRUE) +
+  scale_y_continuous(limits=c(0,1), name="Ratio of nonsynonymous to synonymous diveristy") + 
+  scale_x_discrete(breaks = waiver(), 
+                   labels = c("Clupea harengus\n(Atlantic herring)", 
+                              "Oryzias latipes\n(medaka)", 
+                              "Takifugu rubripes\n(torafugu)")) + 
+  scale_fill_manual(values=set.colors, guide="none") + 
+  theme_bw() +
+  theme(panel.grid.major.x = element_blank(), 
+        panel.grid.minor.x = element_blank(), 
+        panel.grid.major.y = element_line(linewidth=.1, color="black"),
+        )
+
+ns_boxplot
+
+```
+
+
+Combined plots  
+
+```{r}
+library(ggpubr)
+layout<-ggarrange(tr_vol,ns_boxplot, ncol = 2, labels = c("A","B"))
+ggsave("fig.pdf", layout, width=10, height=5)
+```
+

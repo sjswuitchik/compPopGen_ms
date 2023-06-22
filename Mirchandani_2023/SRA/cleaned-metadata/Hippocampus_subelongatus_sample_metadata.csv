@@ -1,0 +1,14 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome,refSpecies
+PRJNA612146,SAMN14363375,Hippocampus_subelongatus,missing,Hsl_14,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363373,Hippocampus_subelongatus,missing,Hsl_12,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363371,Hippocampus_subelongatus,missing,Hsl_10,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363369,Hippocampus_subelongatus,missing,Hsl_8,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363368,Hippocampus_subelongatus,missing,Hsl_7,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363366,Hippocampus_subelongatus,missing,Hsl_5,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363364,Hippocampus_subelongatus,missing,Hsl_3,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363374,Hippocampus_subelongatus,missing,Hsl_13,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363372,Hippocampus_subelongatus,missing,Hsl_11,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363370,Hippocampus_subelongatus,missing,Hsl_9,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363367,Hippocampus_subelongatus,missing,Hsl_6,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363365,Hippocampus_subelongatus,missing,Hsl_4,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363363,Hippocampus_subelongatus,missing,Hsl_1,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes

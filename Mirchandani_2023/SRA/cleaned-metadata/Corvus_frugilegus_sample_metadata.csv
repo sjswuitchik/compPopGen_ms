@@ -1,0 +1,13 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Country,Continent,Locality,refGenome,refSpecies
+PRJNA192205,SAMN02843222,Corvus_frugilegus,male,IRL_Lm_R05,Ireland,Europe,"Ireland: Lough_Money_Farm\,Belfast",GCF_000738735.5,Corvus_cornix_cornix
+PRJNA192205,SAMN02843223,Corvus_frugilegus,male,IRL_Lm_R01,Ireland,Europe,"Ireland: Lough_Money_Farm\,Belfast",GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334576,Corvus_frugilegus,missing,DNA_433,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334577,Corvus_frugilegus,missing,DNA_444,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334578,Corvus_frugilegus,missing,DNA_453,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334579,Corvus_frugilegus,missing,DNA_464,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334580,Corvus_frugilegus,missing,DNA_497,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334581,Corvus_frugilegus,missing,DNA_498,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334582,Corvus_frugilegus,missing,DNA_533,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334583,Corvus_frugilegus,missing,DNA_534,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334584,Corvus_frugilegus,missing,DNA_547,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix
+PRJEB9057,SAMEA3334585,Corvus_frugilegus,missing,DNA_553,NA,NA,NA,GCF_000738735.5,Corvus_cornix_cornix

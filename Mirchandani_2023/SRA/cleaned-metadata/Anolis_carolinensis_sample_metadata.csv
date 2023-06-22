@@ -1,0 +1,28 @@
+Sample,Clade,County,State,Latitude,Longitude,BioProject,BioSample,Organism,sex,Isolate,refGenome,refSpecies
+22-4,Carolinas (CA),Brunswick,NC,33.9194,-78.268617,PRJNA533001,SAMN11458497,Anolis_carolinensis,unknown,Carolinas (CA) 1,GCF_000090745.1,Anolis_carolinensis
+25-4,Carolinas (CA),Georgetown,SC,33.204483,-79.387667,PRJNA533001,SAMN11458498,Anolis_carolinensis,unknown,Carolinas (CA) 2,GCF_000090745.1,Anolis_carolinensis
+AC20-1,Carolinas (CA),Carteret,NC,34.727583,-76.736183,PRJNA533001,SAMN11458504,Anolis_carolinensis,unknown,Carolinas (CA) 3,GCF_000090745.1,Anolis_carolinensis
+AC20-6,Carolinas (CA),Carteret,NC,34.727583,-76.736183,PRJNA533001,SAMN11458505,Anolis_carolinensis,unknown,Carolinas (CA) 4,GCF_000090745.1,Anolis_carolinensis
+AC27-3,Gulf Atlantic (GA),McIntosh,GA,31.35295,-81.447467,PRJNA533001,SAMN11458506,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 1,GCF_000090745.1,Anolis_carolinensis
+AC27-4,Gulf Atlantic (GA),McIntosh,GA,31.35295,-81.447467,PRJNA533001,SAMN11458507,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 2,GCF_000090745.1,Anolis_carolinensis
+AC36-1,Gulf Atlantic (GA),Greene,TN,35.53855,-84.07625,PRJNA533001,SAMN11458508,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 3,GCF_000090745.1,Anolis_carolinensis
+AC38-4,Gulf Atlantic (GA),Greene,TN,35.5558,-84.00245,PRJNA533001,SAMN11458509,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 4,GCF_000090745.1,Anolis_carolinensis
+AC8-13,Gulf Atlantic (GA),Lafourche,LA,29.797883,-90.8129,PRJNA533001,SAMN11458510,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 5,GCF_000090745.1,Anolis_carolinensis
+AC8-8,Gulf Atlantic (GA),Lafourche,LA,29.797883,-90.8129,PRJNA533001,SAMN11458511,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 6,GCF_000090745.1,Anolis_carolinensis
+TX-8,Gulf Atlantic (GA),Franklin,TX,32.944667,-95.193683,PRJNA533001,SAMN11458521,Anolis_carolinensis,unknown,Gulf Atlantic (GA) 7,GCF_000090745.1,Anolis_carolinensis
+CC-3,North East Florida (NEF),East Cocoa Beach,FL,28.243611,-80.870556,PRJNA533001,SAMN11458513,Anolis_carolinensis,unknown,North East Florida (NEF) 1,GCF_000090745.1,Anolis_carolinensis
+CC-8,North East Florida (NEF),East Cocoa Beach,FL,28.243611,-80.870556,PRJNA533001,SAMN11458514,Anolis_carolinensis,unknown,North East Florida (NEF) 2,GCF_000090745.1,Anolis_carolinensis
+SB-3,North East Florida (NEF),South Bay,FL,26.683333,-80.716884,PRJNA533001,SAMN11458517,Anolis_carolinensis,unknown,North East Florida (NEF) 3,GCF_000090745.1,Anolis_carolinensis
+SB-4,North East Florida (NEF),South Bay,FL,26.683333,-80.716884,PRJNA533001,SAMN11458518,Anolis_carolinensis,unknown,North East Florida (NEF) 4,GCF_000090745.1,Anolis_carolinensis
+TV-2,North East Florida (NEF),East Titusville,FL,28.5437777,-80.9421666,PRJNA533001,SAMN11458519,Anolis_carolinensis,unknown,North East Florida (NEF) 5,GCF_000090745.1,Anolis_carolinensis
+TV-8,North East Florida (NEF),East Titusville,FL,28.5437777,-80.9421666,PRJNA533001,SAMN11458520,Anolis_carolinensis,unknown,North East Florida (NEF) 6,GCF_000090745.1,Anolis_carolinensis
+VB-6,North East Florida (NEF),West Vero Beach,FL,27.640278,-80.59475,PRJNA533001,SAMN11458522,Anolis_carolinensis,unknown,North East Florida (NEF) 7,GCF_000090745.1,Anolis_carolinensis
+VB-7,North East Florida (NEF),West Vero Beach,FL,27.640278,-80.59475,PRJNA533001,SAMN11458523,Anolis_carolinensis,unknown,North East Florida (NEF) 8,GCF_000090745.1,Anolis_carolinensis
+15-3,North West Florida (NWF),Alachua,FL,29.82665,-82.597133,PRJNA533001,SAMN11458495,Anolis_carolinensis,unknown,North West Florida (NWF) 1,GCF_000090745.1,Anolis_carolinensis
+18-3,North West Florida (NWF),Lafayette,FL,29.90955,-83.314983,PRJNA533001,SAMN11458496,Anolis_carolinensis,unknown,North West Florida (NWF) 2,GCF_000090745.1,Anolis_carolinensis
+LA-2,North West Florida (NWF),Lake Alfred,FL,28.078317,-81.729533,PRJNA533001,SAMN11458515,Anolis_carolinensis,unknown,North West Florida (NWF) 3,GCF_000090745.1,Anolis_carolinensis
+LJ-1,North West Florida (NWF),Lake Josephine,FL,27.366783,-81.400155,PRJNA533001,SAMN11458516,Anolis_carolinensis,unknown,North West Florida (NWF) 4,GCF_000090745.1,Anolis_carolinensis
+AC13-4,South Florida (SF),Collier,FL,25.918667,-81.310783,PRJNA533001,SAMN11458500,Anolis_carolinensis,unknown,South Florida (SF) 1,GCF_000090745.1,Anolis_carolinensis
+AC13-5,South Florida (SF),Collier,FL,25.918667,-81.310783,PRJNA533001,SAMN11458501,Anolis_carolinensis,unknown,South Florida (SF) 2,GCF_000090745.1,Anolis_carolinensis
+AC13-7,South Florida (SF),Collier,FL,25.918667,-81.310783,PRJNA533001,SAMN11458502,Anolis_carolinensis,unknown,South Florida (SF) 3,GCF_000090745.1,Anolis_carolinensis
+AC13-8,South Florida (SF),Collier,FL,25.918667,-81.310783,PRJNA533001,SAMN11458503,Anolis_carolinensis,unknown,South Florida (SF) 4,GCF_000090745.1,Anolis_carolinensis

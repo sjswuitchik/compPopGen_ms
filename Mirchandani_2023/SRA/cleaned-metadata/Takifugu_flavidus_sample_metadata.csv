@@ -1,0 +1,9 @@
+BioProject,BioSample,Organism,sex,Submitter_ID,Locality,Country,Continent,refGenome,refSpecies
+PRJNA522329,SAMN10928548,Takifugu_flavidus,unknown,F04,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928551,Takifugu_flavidus,unknown,F11,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928550,Takifugu_flavidus,unknown,F10,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928553,Takifugu_flavidus,unknown,F14,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928552,Takifugu_flavidus,unknown,F13,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928555,Takifugu_flavidus,unknown,F17,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928554,Takifugu_flavidus,unknown,F16,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928549,Takifugu_flavidus,unknown,F08,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes

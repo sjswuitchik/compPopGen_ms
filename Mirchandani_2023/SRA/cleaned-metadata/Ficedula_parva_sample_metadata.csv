@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Country,Continent,Submitter_Id,Population,Sample,Locality,Organism.x,Organism.y,refGenome,refSpecies
+PRJEB7359,SAMEA3175208,Ficedula_parva,female,Sweden,Europe,NRM996601,FPAR,NRM996601,Unknown,NA,NA,GCF_000247815.1,Ficedula_albicollis

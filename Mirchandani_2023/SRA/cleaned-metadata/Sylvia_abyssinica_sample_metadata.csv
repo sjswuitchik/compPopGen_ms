@@ -1,0 +1,4 @@
+BioProject,BioSample,Organism,sex,Submitter_ID,Continent,Country,Locality,refGenome,refSpecies
+PRJNA616371,SAMN14488568,Sylvia_abyssinica,male,4090,Africa,Kenya,Udzungwa Forest,GCA_009819655.1,Sylvia_atricapilla
+PRJNA616371,SAMN14488567,Sylvia_abyssinica,male,4089,Africa,Kenya,Aberdare Mts,GCA_009819655.1,Sylvia_atricapilla
+PRJNA616371,SAMN14488566,Sylvia_abyssinica,male,4088,Africa,Kenya,Aberdare Mts,GCA_009819655.1,Sylvia_atricapilla

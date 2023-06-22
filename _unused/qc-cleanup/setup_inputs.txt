@@ -1,0 +1,48 @@
+#results/{refGenome}/{prefix}_final.vcf.gz
+#results/{refGenome}/data/genome/{refGenome}.fna.fai
+#results/{refGenome}/summary_stats/{prefix}_bam_sumstats.txt
+
+
+========
+
+## REFERENCE GENOMES ##
+
+Use snpArcher with an updated Snakefile to just make the fna.fai file as the rule all target
+
+## SUMMARY STATS ##
+
+Generate output per reference genome by merge, concat and then split in R
+
+## vcfs ## 
+
+first copy to genome
+for GENOME in $(ls); do for FILE in $(grep $GENOME ../../all_vcfs.txt); do cp -v ../../../$FILE $GENOME; done; done; 
+
+then concat or rename as needed
+
+####
+
+#!/bin/bash
+
+# Get the directory name from the command line argument
+dir=$1
+
+# Check how many .vcf.gz files are in the specified directory
+num_vcfs=$(ls -1 $dir/*.vcf.gz | wc -l)
+
+# Index the existing .vcf.gz files
+bcftools index --tbi $dir/*.vcf.gz
+
+if [ $num_vcfs -eq 1 ]
+then
+    # If there is only one .vcf.gz file, rename it to final.vcf.gz
+    mv $dir/*.vcf.gz $dir/final.vcf.gz
+    mv $dir/*.vcf.gz.tbi $dir/final.vcf.gz.tbi
+else
+    # If there are multiple .vcf.gz files, use bcftools to merge them into final.vcf.gz
+    bcftools merge --missing-to-ref -i DP:sum $dir/*.vcf.gz -o $dir/final.vcf.gz
+    bcftools index --tbi $dir/final.vcf.gz
+    bcftools +fill-tags $dir/final.vcf.gz -- -t AF,AN,AC
+fi
+
+####

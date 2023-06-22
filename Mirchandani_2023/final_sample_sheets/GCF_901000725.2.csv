@@ -1,0 +1,83 @@
+BioProject,BioSample,Organism,sex,Submitter_ID,Locality,Country,Continent,refGenome,refSpecies
+PRJNA522329,SAMN10928557,Takifugu_alboplumbeus,unknown,N03,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928556,Takifugu_alboplumbeus,unknown,N02,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928559,Takifugu_alboplumbeus,unknown,N07,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928558,Takifugu_alboplumbeus,unknown,N04,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928570,Takifugu_alboplumbeus,unknown,N29,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928564,Takifugu_alboplumbeus,unknown,N17,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928565,Takifugu_alboplumbeus,unknown,N20,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928566,Takifugu_alboplumbeus,unknown,N21,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928567,Takifugu_alboplumbeus,unknown,N22,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928560,Takifugu_alboplumbeus,unknown,N08,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928561,Takifugu_alboplumbeus,unknown,N09,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928563,Takifugu_alboplumbeus,unknown,N15,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928568,Takifugu_alboplumbeus,unknown,N23,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928569,Takifugu_alboplumbeus,unknown,N24,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928562,Takifugu_alboplumbeus,unknown,N13,"Bohai Bay, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928548,Takifugu_flavidus,unknown,F04,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928551,Takifugu_flavidus,unknown,F11,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928550,Takifugu_flavidus,unknown,F10,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928553,Takifugu_flavidus,unknown,F14,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928552,Takifugu_flavidus,unknown,F13,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928555,Takifugu_flavidus,unknown,F17,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928554,Takifugu_flavidus,unknown,F16,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928549,Takifugu_flavidus,unknown,F08,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928600,Takifugu_obscurus,unknown,OO40,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928599,Takifugu_obscurus,unknown,OO39,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928598,Takifugu_obscurus,unknown,OO38,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928595,Takifugu_obscurus,unknown,OO34,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928594,Takifugu_obscurus,unknown,OO33,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928597,Takifugu_obscurus,unknown,OO37,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928596,Takifugu_obscurus,unknown,OO36,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928591,Takifugu_obscurus,unknown,OO28,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928593,Takifugu_obscurus,unknown,OO32,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928592,Takifugu_obscurus,unknown,OO30,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928588,Takifugu_obscurus,unknown,OO25,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928589,Takifugu_obscurus,unknown,OO26,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928586,Takifugu_obscurus,unknown,OO23,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928587,Takifugu_obscurus,unknown,OO24,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928584,Takifugu_obscurus,unknown,OO21,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928585,Takifugu_obscurus,unknown,OO22,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928582,Takifugu_obscurus,unknown,OO19,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928583,Takifugu_obscurus,unknown,OO20,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928580,Takifugu_obscurus,unknown,OO17,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928581,Takifugu_obscurus,unknown,OO18,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928579,Takifugu_obscurus,unknown,OO16,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928578,Takifugu_obscurus,unknown,OO15,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928573,Takifugu_obscurus,unknown,OO08,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928572,Takifugu_obscurus,unknown,OO07,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928571,Takifugu_obscurus,unknown,OO06,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928577,Takifugu_obscurus,unknown,OO14,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928576,Takifugu_obscurus,unknown,OO12,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928575,Takifugu_obscurus,unknown,OO10,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928574,Takifugu_obscurus,unknown,OO09,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928590,Takifugu_obscurus,unknown,OO27,"Haian, Jiangsu",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928628,Takifugu_rubripes,unknown,R31,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928622,Takifugu_rubripes,unknown,R24,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928623,Takifugu_rubripes,unknown,R25,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928620,Takifugu_rubripes,unknown,R22,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928621,Takifugu_rubripes,unknown,R23,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928627,Takifugu_rubripes,unknown,R29,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928625,Takifugu_rubripes,unknown,R27,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928617,Takifugu_rubripes,unknown,R19,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928616,Takifugu_rubripes,unknown,R18,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928615,Takifugu_rubripes,unknown,R17,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928613,Takifugu_rubripes,unknown,R15,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928612,Takifugu_rubripes,unknown,R14,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928611,Takifugu_rubripes,unknown,R13,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928610,Takifugu_rubripes,unknown,R12,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928619,Takifugu_rubripes,unknown,R21,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928618,Takifugu_rubripes,unknown,R20,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928601,Takifugu_rubripes,unknown,R01,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928602,Takifugu_rubripes,unknown,R02,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928603,Takifugu_rubripes,unknown,R03,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928604,Takifugu_rubripes,unknown,R04,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928605,Takifugu_rubripes,unknown,R07,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928606,Takifugu_rubripes,unknown,R08,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928607,Takifugu_rubripes,unknown,R09,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928608,Takifugu_rubripes,unknown,R10,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928609,Takifugu_rubripes,unknown,R11,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928626,Takifugu_rubripes,unknown,R28,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928624,Takifugu_rubripes,unknown,R26,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928629,Takifugu_rubripes,unknown,R32,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes
+PRJNA522329,SAMN10928614,Takifugu_rubripes,unknown,R16,"Tanghai, Beidaihe",China,Asia,GCF_901000725.2,Takifugu_rubripes

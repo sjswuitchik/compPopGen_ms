@@ -1,0 +1,342 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome,refSpecies
+PRJNA612146,SAMN14363088,Hippocampus_abdominalis,missing,Had_10,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363087,Hippocampus_abdominalis,missing,Had_9,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363086,Hippocampus_abdominalis,missing,Had_8,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363094,Hippocampus_abdominalis,missing,Had_S6,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363082,Hippocampus_abdominalis,missing,Had_4,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363085,Hippocampus_abdominalis,missing,Had_7,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363084,Hippocampus_abdominalis,missing,Had_6,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363092,Hippocampus_abdominalis,missing,Had_S3,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363091,Hippocampus_abdominalis,missing,Had_S2,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363090,Hippocampus_abdominalis,missing,Had_S1,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363081,Hippocampus_abdominalis,missing,Had_3,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363089,Hippocampus_abdominalis,missing,Had_11,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363079,Hippocampus_abdominalis,missing,Had_1,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363083,Hippocampus_abdominalis,missing,Had_5,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363093,Hippocampus_abdominalis,missing,Had_S4,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363080,Hippocampus_abdominalis,missing,Had_2,Tasmania,NA,Austrialia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363112,Hippocampus_algiricus,missing,Hag_S8,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363107,Hippocampus_algiricus,missing,Hag_S12,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363106,Hippocampus_algiricus,missing,Hag_S11,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363111,Hippocampus_algiricus,missing,Hag_S6,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363109,Hippocampus_algiricus,missing,Hag_S4,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363104,Hippocampus_algiricus,missing,Hag_12,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363098,Hippocampus_algiricus,missing,Hag_4,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363096,Hippocampus_algiricus,missing,Hag_2,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363101,Hippocampus_algiricus,missing,Hag_8,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363100,Hippocampus_algiricus,missing,Hag_6,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363108,Hippocampus_algiricus,missing,Hag_S3,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363105,Hippocampus_algiricus,missing,Hag_S10,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363103,Hippocampus_algiricus,missing,Hag_11,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363097,Hippocampus_algiricus,missing,Hag_3,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363102,Hippocampus_algiricus,missing,Hag_10,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363099,Hippocampus_algiricus,missing,Hag_5,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363110,Hippocampus_algiricus,missing,Hag_S5,Abidjan,NA,Cote d'Ivoire,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363095,Hippocampus_algiricus,missing,Hag_1,Luanda,NA,Angola,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363118,Hippocampus_barbouri,missing,Hbb_6,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363114,Hippocampus_barbouri,missing,Hbb_2,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363113,Hippocampus_barbouri,missing,Hbb_1,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363132,Hippocampus_barbouri,missing,Hbb_20,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363131,Hippocampus_barbouri,missing,Hbb_19,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363129,Hippocampus_barbouri,missing,Hbb_17,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363127,Hippocampus_barbouri,missing,Hbb_15,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363125,Hippocampus_barbouri,missing,Hbb_13,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363123,Hippocampus_barbouri,missing,Hbb_11,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363122,Hippocampus_barbouri,missing,Hbb_10,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363120,Hippocampus_barbouri,missing,Hbb_8,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363119,Hippocampus_barbouri,missing,Hbb_7,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363117,Hippocampus_barbouri,missing,Hbb_5,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363115,Hippocampus_barbouri,missing,Hbb_3,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363130,Hippocampus_barbouri,missing,Hbb_18,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363128,Hippocampus_barbouri,missing,Hbb_16,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363126,Hippocampus_barbouri,missing,Hbb_14,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363124,Hippocampus_barbouri,missing,Hbb_12,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363121,Hippocampus_barbouri,missing,Hbb_9,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363116,Hippocampus_barbouri,missing,Hbb_4,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363155,Hippocampus_comes,missing,Hcm_14,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363153,Hippocampus_comes,missing,Hcm_12,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363152,Hippocampus_comes,missing,Hcm_11,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363150,Hippocampus_comes,missing,Hcm_9,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363147,Hippocampus_comes,missing,Hcm_5,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363146,Hippocampus_comes,missing,Hcm_4,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363144,Hippocampus_comes,missing,Hcm_2,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363160,Hippocampus_comes,missing,Hcm_19,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363159,Hippocampus_comes,missing,Hcm_18,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363158,Hippocampus_comes,missing,Hcm_17,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363157,Hippocampus_comes,missing,Hcm_16,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363156,Hippocampus_comes,missing,Hcm_15,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363154,Hippocampus_comes,missing,Hcm_13,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363151,Hippocampus_comes,missing,Hcm_10,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363149,Hippocampus_comes,missing,Hcm_8,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363145,Hippocampus_comes,missing,Hcm_3,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363143,Hippocampus_comes,missing,Hcm_1,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363148,Hippocampus_comes,missing,Hcm_7,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363161,Hippocampus_comes,missing,Hcm_20,Banjarmasin,NA,Malaysia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363178,Hippocampus_erectus,missing,Het_11,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363177,Hippocampus_erectus,missing,Het_10,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363175,Hippocampus_erectus,missing,Het_8,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363174,Hippocampus_erectus,missing,Het_7,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363172,Hippocampus_erectus,missing,Het_4,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363170,Hippocampus_erectus,missing,Het_2,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363189,Hippocampus_erectus,missing,Het_S2,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363188,Hippocampus_erectus,missing,Het_S1,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363187,Hippocampus_erectus,missing,Het_20,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363185,Hippocampus_erectus,missing,Het_18,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363184,Hippocampus_erectus,missing,Het_17,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363176,Hippocampus_erectus,missing,Het_9,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363173,Hippocampus_erectus,missing,Het_6,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363171,Hippocampus_erectus,missing,Het_3,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363169,Hippocampus_erectus,missing,Het_1,Chesapeake Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363186,Hippocampus_erectus,missing,Het_19,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363183,Hippocampus_erectus,missing,Het_16,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363181,Hippocampus_erectus,missing,Het_14,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363179,Hippocampus_erectus,missing,Het_12,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363180,Hippocampus_erectus,missing,Het_13,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363182,Hippocampus_erectus,missing,Het_15,Palm Bay,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363208,Hippocampus_fuscus,missing,Hfc_S8,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363206,Hippocampus_fuscus,missing,Hfc_71,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363203,Hippocampus_fuscus,missing,Hfc_56,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363201,Hippocampus_fuscus,missing,Hfc_48,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363199,Hippocampus_fuscus,missing,Hfc_44,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363198,Hippocampus_fuscus,missing,Hfc_39,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363196,Hippocampus_fuscus,missing,Hfc_36,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363194,Hippocampus_fuscus,missing,Hfc_23,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363192,Hippocampus_fuscus,missing,Hfc_5,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363190,Hippocampus_fuscus,missing,Hfc_2,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363205,Hippocampus_fuscus,missing,Hfc_70,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363204,Hippocampus_fuscus,missing,Hfc_62,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363202,Hippocampus_fuscus,missing,Hfc_49,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363200,Hippocampus_fuscus,missing,Hfc_47,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363197,Hippocampus_fuscus,missing,Hfc_38,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363195,Hippocampus_fuscus,missing,Hfc_35,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363193,Hippocampus_fuscus,missing,Hfc_15,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363191,Hippocampus_fuscus,missing,Hfc_3,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363207,Hippocampus_fuscus,missing,Hfc_S4,Durban,NA,South Africa,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363212,Hippocampus_hippocampus,missing,Hhc_4,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363210,Hippocampus_hippocampus,missing,Hhc_2,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363223,Hippocampus_hippocampus,missing,Hhc_19,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363222,Hippocampus_hippocampus,missing,Hhc_18,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363217,Hippocampus_hippocampus,missing,Hhc_11,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363215,Hippocampus_hippocampus,missing,Hhc_7,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363214,Hippocampus_hippocampus,missing,Hhc_6,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363211,Hippocampus_hippocampus,missing,Hhc_3,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363221,Hippocampus_hippocampus,missing,Hhc_16,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363219,Hippocampus_hippocampus,missing,Hhc_13,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363216,Hippocampus_hippocampus,missing,Hhc_8,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363213,Hippocampus_hippocampus,missing,Hhc_5,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363220,Hippocampus_hippocampus,missing,Hhc_15,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363224,Hippocampus_hippocampus,missing,Hhc_20,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363209,Hippocampus_hippocampus,missing,Hhc_1,Las Palmas,NA,Spain,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363218,Hippocampus_hippocampus,missing,Hhc_12,Tunis,NA,Tunisia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363244,Hippocampus_histrix,missing,Hht_20,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363242,Hippocampus_histrix,missing,Hht_18,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363240,Hippocampus_histrix,missing,Hht_16,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363237,Hippocampus_histrix,missing,Hht_13,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363235,Hippocampus_histrix,missing,Hht_11,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363233,Hippocampus_histrix,missing,Hht_9,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363232,Hippocampus_histrix,missing,Hht_8,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363230,Hippocampus_histrix,missing,Hht_6,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363229,Hippocampus_histrix,missing,Hht_5,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363228,Hippocampus_histrix,missing,Hht_4,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363226,Hippocampus_histrix,missing,Hht_2,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363225,Hippocampus_histrix,missing,Hht_1,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363246,Hippocampus_histrix,missing,Hht_22,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363245,Hippocampus_histrix,missing,Hht_21,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363243,Hippocampus_histrix,missing,Hht_19,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363241,Hippocampus_histrix,missing,Hht_17,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363239,Hippocampus_histrix,missing,Hht_15,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363236,Hippocampus_histrix,missing,Hht_12,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363234,Hippocampus_histrix,missing,Hht_10,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363231,Hippocampus_histrix,missing,Hht_7,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363227,Hippocampus_histrix,missing,Hht_3,Nha Trang,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363238,Hippocampus_histrix,missing,Hht_14,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363266,Hippocampus_ingens,missing,Hig_S2,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363264,Hippocampus_ingens,missing,Hig_22,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363261,Hippocampus_ingens,missing,Hig_18,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363259,Hippocampus_ingens,missing,Hig_16,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363258,Hippocampus_ingens,missing,Hig_14,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363256,Hippocampus_ingens,missing,Hig_12,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363250,Hippocampus_ingens,missing,Hig_5,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363247,Hippocampus_ingens,missing,Hig_1,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363265,Hippocampus_ingens,missing,Hig_S1,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363263,Hippocampus_ingens,missing,Hig_20,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363262,Hippocampus_ingens,missing,Hig_19,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363260,Hippocampus_ingens,missing,Hig_17,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363257,Hippocampus_ingens,missing,Hig_13,Lima,NA,Peru,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363253,Hippocampus_ingens,missing,Hig_8,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363251,Hippocampus_ingens,missing,Hig_6,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363249,Hippocampus_ingens,missing,Hig_4,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363248,Hippocampus_ingens,missing,Hig_3,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363255,Hippocampus_ingens,missing,Hig_11,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363254,Hippocampus_ingens,missing,Hig_9,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363252,Hippocampus_ingens,missing,Hig_7,Puerto Vallarta, Jalisco,Mexico,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363278,Hippocampus_jayakari,missing,Hjk_S23,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363276,Hippocampus_jayakari,missing,Hjk_S21,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363274,Hippocampus_jayakari,missing,Hjk_S19,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363271,Hippocampus_jayakari,missing,Hjk_S15,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363268,Hippocampus_jayakari,missing,Hjk_S11,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363277,Hippocampus_jayakari,missing,Hjk_S22,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363275,Hippocampus_jayakari,missing,Hjk_S20,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363273,Hippocampus_jayakari,missing,Hjk_S18,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363270,Hippocampus_jayakari,missing,Hjk_S13,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363269,Hippocampus_jayakari,missing,Hjk_S12,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363267,Hippocampus_jayakari,missing,Hjk_S10,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363286,Hippocampus_jayakari,missing,Hjk_S7,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363285,Hippocampus_jayakari,missing,Hjk_S4,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363284,Hippocampus_jayakari,missing,Hjk_S36,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363283,Hippocampus_jayakari,missing,Hjk_S32,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363282,Hippocampus_jayakari,missing,Hjk_S31,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363281,Hippocampus_jayakari,missing,Hjk_S3,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363280,Hippocampus_jayakari,missing,Hjk_S28,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363279,Hippocampus_jayakari,missing,Hjk_S24,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363272,Hippocampus_jayakari,missing,Hjk_S16,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363306,Hippocampus_kelloggi,missing,Hkg_21,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363303,Hippocampus_kelloggi,missing,Hkg_17,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363302,Hippocampus_kelloggi,missing,Hkg_16,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363300,Hippocampus_kelloggi,missing,Hkg_14,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363295,Hippocampus_kelloggi,missing,Hkg_9,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363293,Hippocampus_kelloggi,missing,Hkg_7,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363291,Hippocampus_kelloggi,missing,Hkg_5,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363290,Hippocampus_kelloggi,missing,Hkg_4,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363305,Hippocampus_kelloggi,missing,Hkg_20,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363304,Hippocampus_kelloggi,missing,Hkg_18,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363299,Hippocampus_kelloggi,missing,Hkg_13,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363298,Hippocampus_kelloggi,missing,Hkg_12,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363297,Hippocampus_kelloggi,missing,Hkg_11,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363294,Hippocampus_kelloggi,missing,Hkg_8,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363292,Hippocampus_kelloggi,missing,Hkg_6,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363289,Hippocampus_kelloggi,missing,Hkg_3,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363288,Hippocampus_kelloggi,missing,Hkg_2,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363287,Hippocampus_kelloggi,missing,Hkg_1,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363296,Hippocampus_kelloggi,missing,Hkg_10,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363301,Hippocampus_kelloggi,missing,Hkg_15,Abu Dhabi,NA,United Arab Emirates,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363324,Hippocampus_kuda,missing,Hku_20,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363322,Hippocampus_kuda,missing,Hku_18,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363321,Hippocampus_kuda,missing,Hku_17,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363319,Hippocampus_kuda,missing,Hku_15,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363317,Hippocampus_kuda,missing,Hku_13,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363314,Hippocampus_kuda,missing,Hku_9,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363311,Hippocampus_kuda,missing,Hku_6,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363308,Hippocampus_kuda,missing,Hku_2,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363323,Hippocampus_kuda,missing,Hku_19,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363320,Hippocampus_kuda,missing,Hku_16,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363318,Hippocampus_kuda,missing,Hku_14,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363316,Hippocampus_kuda,missing,Hku_11,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363315,Hippocampus_kuda,missing,Hku_10,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363313,Hippocampus_kuda,missing,Hku_8,Ho Chi Minh City,NA,Vietnum,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363312,Hippocampus_kuda,missing,Hku_7,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363310,Hippocampus_kuda,missing,Hku_4,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363309,Hippocampus_kuda,missing,Hku_3,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363307,Hippocampus_kuda,missing,Hku_1,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363341,Hippocampus_mohnikei,missing,Hmh_25,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363339,Hippocampus_mohnikei,missing,Hmh_23,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363338,Hippocampus_mohnikei,missing,Hmh_22,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363337,Hippocampus_mohnikei,missing,Hmh_19,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363335,Hippocampus_mohnikei,missing,Hmh_15,Qingdao,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363334,Hippocampus_mohnikei,missing,Hmh_14,Qingdao,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363332,Hippocampus_mohnikei,missing,Hmh_12,Qingdao,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363330,Hippocampus_mohnikei,missing,Hmh_10,Laizhou,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363327,Hippocampus_mohnikei,missing,Hmh_5,Laizhou,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363326,Hippocampus_mohnikei,missing,Hmh_3,Laizhou,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363343,Hippocampus_mohnikei,missing,Hmh_30,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363342,Hippocampus_mohnikei,missing,Hmh_29,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363336,Hippocampus_mohnikei,missing,Hmh_17,Qingdao,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363333,Hippocampus_mohnikei,missing,Hmh_13,Qingdao,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363331,Hippocampus_mohnikei,missing,Hmh_11,Qingdao,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363329,Hippocampus_mohnikei,missing,Hmh_8,Laizhou,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363328,Hippocampus_mohnikei,missing,Hmh_7,Laizhou,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363325,Hippocampus_mohnikei,missing,Hmh_1,Laizhou,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363340,Hippocampus_mohnikei,missing,Hmh_24,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363362,Hippocampus_reidi,missing,Hrd_S6,Amapa,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363360,Hippocampus_reidi,missing,Hrd_S4,Amapa,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363357,Hippocampus_reidi,missing,Hrd_14,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363353,Hippocampus_reidi,missing,Hrd_10,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363351,Hippocampus_reidi,missing,Hrd_8,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363350,Hippocampus_reidi,missing,Hrd_7,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363346,Hippocampus_reidi,missing,Hrd_3,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363344,Hippocampus_reidi,missing,Hrd_1,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363359,Hippocampus_reidi,missing,Hrd_S2,Amapa,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363358,Hippocampus_reidi,missing,Hrd_S1,Amapa,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363356,Hippocampus_reidi,missing,Hrd_13,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363355,Hippocampus_reidi,missing,Hrd_12,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363354,Hippocampus_reidi,missing,Hrd_11,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363349,Hippocampus_reidi,missing,Hrd_6,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363348,Hippocampus_reidi,missing,Hrd_5,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363347,Hippocampus_reidi,missing,Hrd_4,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363345,Hippocampus_reidi,missing,Hrd_2,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363361,Hippocampus_reidi,missing,Hrd_S5,Amapa,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363352,Hippocampus_reidi,missing,Hrd_9,Fortaleza,NA,Brazil,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363395,Hippocampus_spinosissimus,missing,Hsp_20,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363392,Hippocampus_spinosissimus,missing,Hsp_17,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363389,Hippocampus_spinosissimus,missing,Hsp_14,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363388,Hippocampus_spinosissimus,missing,Hsp_13,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363387,Hippocampus_spinosissimus,missing,Hsp_12,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363385,Hippocampus_spinosissimus,missing,Hsp_10,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363382,Hippocampus_spinosissimus,missing,Hsp_7,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363380,Hippocampus_spinosissimus,missing,Hsp_5,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363377,Hippocampus_spinosissimus,missing,Hsp_2,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363394,Hippocampus_spinosissimus,missing,Hsp_19,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363393,Hippocampus_spinosissimus,missing,Hsp_18,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363391,Hippocampus_spinosissimus,missing,Hsp_16,Colombo,NA,Sri Lanka,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363390,Hippocampus_spinosissimus,missing,Hsp_15,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363386,Hippocampus_spinosissimus,missing,Hsp_11,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363384,Hippocampus_spinosissimus,missing,Hsp_9,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363379,Hippocampus_spinosissimus,missing,Hsp_4,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363378,Hippocampus_spinosissimus,missing,Hsp_3,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363376,Hippocampus_spinosissimus,missing,Hsp_1,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363383,Hippocampus_spinosissimus,missing,Hsp_8,Sanya,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363381,Hippocampus_spinosissimus,missing,Hsp_6,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363375,Hippocampus_subelongatus,missing,Hsl_14,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363373,Hippocampus_subelongatus,missing,Hsl_12,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363371,Hippocampus_subelongatus,missing,Hsl_10,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363369,Hippocampus_subelongatus,missing,Hsl_8,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363368,Hippocampus_subelongatus,missing,Hsl_7,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363366,Hippocampus_subelongatus,missing,Hsl_5,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363364,Hippocampus_subelongatus,missing,Hsl_3,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363374,Hippocampus_subelongatus,missing,Hsl_13,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363372,Hippocampus_subelongatus,missing,Hsl_11,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363370,Hippocampus_subelongatus,missing,Hsl_9,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363367,Hippocampus_subelongatus,missing,Hsl_6,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363365,Hippocampus_subelongatus,missing,Hsl_4,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363363,Hippocampus_subelongatus,missing,Hsl_1,Perth,NA,Austrilia,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363413,Hippocampus_trimaculatus,missing,Htl_19,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363410,Hippocampus_trimaculatus,missing,Htl_15,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363407,Hippocampus_trimaculatus,missing,Htl_12,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363406,Hippocampus_trimaculatus,missing,Htl_11,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363403,Hippocampus_trimaculatus,missing,Htl_8,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363401,Hippocampus_trimaculatus,missing,Htl_6,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363397,Hippocampus_trimaculatus,missing,Htl_2,Dongshan,Fujian Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363415,Hippocampus_trimaculatus,missing,Htl_24,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363414,Hippocampus_trimaculatus,missing,Htl_20,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363412,Hippocampus_trimaculatus,missing,Htl_18,Phuket Island,NA,Thailand,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363411,Hippocampus_trimaculatus,missing,Htl_17,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363409,Hippocampus_trimaculatus,missing,Htl_14,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363408,Hippocampus_trimaculatus,missing,Htl_13,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363405,Hippocampus_trimaculatus,missing,Htl_10,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363404,Hippocampus_trimaculatus,missing,Htl_9,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363402,Hippocampus_trimaculatus,missing,Htl_7,Lingshui,Hainan Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363400,Hippocampus_trimaculatus,missing,Htl_5,Dongshan,Fujian Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363399,Hippocampus_trimaculatus,missing,Htl_4,Dongshan,Fujian Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363398,Hippocampus_trimaculatus,missing,Htl_3,Dongshan,Fujian Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363396,Hippocampus_trimaculatus,missing,Htl_1,Dongshan,Fujian Province,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363436,Hippocampus_zosterae,missing,Hzt_S2,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363431,Hippocampus_zosterae,missing,Hzt_16,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363430,Hippocampus_zosterae,missing,Hzt_15,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363427,Hippocampus_zosterae,missing,Hzt_12,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363425,Hippocampus_zosterae,missing,Hzt_10,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363423,Hippocampus_zosterae,missing,Hzt_8,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363422,Hippocampus_zosterae,missing,Hzt_7,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363420,Hippocampus_zosterae,missing,Hzt_5,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363418,Hippocampus_zosterae,missing,Hzt_3,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363435,Hippocampus_zosterae,missing,Hzt_S1,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363432,Hippocampus_zosterae,missing,Hzt_18,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363429,Hippocampus_zosterae,missing,Hzt_14,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363428,Hippocampus_zosterae,missing,Hzt_13,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363424,Hippocampus_zosterae,missing,Hzt_9,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363421,Hippocampus_zosterae,missing,Hzt_6,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363419,Hippocampus_zosterae,missing,Hzt_4,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363417,Hippocampus_zosterae,missing,Hzt_2,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363416,Hippocampus_zosterae,missing,Hzt_1,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363426,Hippocampus_zosterae,missing,Hzt_11,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363434,Hippocampus_zosterae,missing,Hzt_20,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363433,Hippocampus_zosterae,missing,Hzt_19,Tampa,NA,US,GCF_001891065.1,Hippocampus_comes

@@ -1,0 +1,2 @@
+BioProject,BioSample,Organism,sex,Country,Continent,lat_lon,Submitter_Id,Collection_date,Location,refGenome,refSpecies
+PRJEB27858,SAMEA4799792,Hypoplectrus_gummigutta,missing,Panama,North America,9.3775 N 82.3039 E,18449,2004-07-03,Bocas del Toro,GCA_900610375.1,Hypoplectrus_puella

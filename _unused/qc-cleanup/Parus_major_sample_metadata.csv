@@ -1,0 +1,63 @@
+BioProject,BioSample,Organism,sex,Locality,Province,Sample Name,Population,Continent,Country,Submitter_ID,Latitude,Longitude,refGenome,refSpecies
+PRJNA274877,SAMN03333188,Parus_major,missing,Yanbian,Sichuan,3918,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333190,Parus_major,missing,Gaoligong,Yunnan,5226,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333191,Parus_major,missing,Gaoligong,Yunnan,5236,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333193,Parus_major,missing,Gaoligong,Yunnan,5332,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333194,Parus_major,missing,Gaoligong,Yunnan,5333,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333195,Parus_major,missing,Lijiang,Yunnan,13924,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333196,Parus_major,missing,Lijiang,Yunnan,13938,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333197,Parus_major,missing,Lijiang,Yunnan,13995,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333198,Parus_major,missing,Lijiang,Yunnan,13996,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333199,Parus_major,missing,Eerguna,Inner Mongolia,11555,MON,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333200,Parus_major,missing,Eerguna,Inner Mongolia,11556,MON,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333201,Parus_major,missing,Eerguna,Inner Mongolia,11557,MON,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333202,Parus_major,missing,Eerguna,Inner Mongolia,11564,MON,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333203,Parus_major,missing,Teshig,Mongolia,15078,MON,Asia,Mongolia,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333204,Parus_major,missing,Teshig,Mongolia,15081,MON,Asia,Mongolia,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333205,Parus_major,missing,Tushig,Mongolia,15100,MON,Asia,Mongolia,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333206,Parus_major,missing,Tushig,Mongolia,15110,MON,Asia,Mongolia,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333207,Parus_major,missing,Tushig,Mongolia,15111,MON,Asia,Mongolia,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333208,Parus_major,missing,Altai Region,Russia,17252,MON,Asia,Russia,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333209,Parus_major,missing,Shenlongjia,Hubei,8204,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333210,Parus_major,missing,Shenlongjia,Hubei,8236,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333211,Parus_major,missing,Jixi,Anhui,10076,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333212,Parus_major,missing,Panjin,Liaoning,10635,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333214,Parus_major,missing,Panjin,Liaoning,10637,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333215,Parus_major,missing,Kuandian,Liaoning,10732,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333216,Parus_major,missing,Kuandian,Liaoning,10860,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333217,Parus_major,missing,Sunan,Gansu,11929,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333218,Parus_major,missing,Sunan,Gansu,11944,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333219,Parus_major,missing,Yongdeng,Gansu,12003,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333189,Parus_major,missing,Yanbian,Sichuan,4000,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333192,Parus_major,missing,Gaoligong,Yunnan,5242,EH,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA274877,SAMN03333213,Parus_major,missing,Panjin,Liaoning,10636,CE,Asia,China,NA,NA,NA,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296347,Parus_major,female,Vienna,NA,NA,NA,Europe,Austria,1198,48.06,15.91,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296348,Parus_major,male,Antwerp,NA,NA,NA,Europe,Belgium,973,51.16,4.29,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296349,Parus_major,male,Cambridge,NA,NA,NA,Europe,United Kingdom,477,52.24,-0.14000000000000001,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296350,Parus_major,male,Pirio/Muro,NA,NA,NA,Europe,Corsica,935,42.22,8.4499999999999993,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296351,Parus_major,male,Velky Kosr,NA,NA,NA,Europe,Czech Republic,52,49.32,17.04,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296352,Parus_major,male,Tartu,NA,NA,NA,Europe,Estonia,731,58.07,25.05,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296353,Parus_major,male,Tartu,NA,NA,NA,Europe,Estonia,770,58.07,25.05,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296354,Parus_major,male,Oulu,NA,NA,NA,Europe,Finland,317,65,25.3,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296355,Parus_major,male,La Rouviere,NA,NA,NA,Europe,France,896,43.4,3.4,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296356,Parus_major,female,Montpellier,NA,NA,NA,Europe,France,233,43.37,3.52,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296357,Parus_major,male,La Rouviere,NA,NA,NA,Europe,France,906,43.4,3.4,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296358,Parus_major,male,Seewisen,NA,NA,NA,Europe,Germany,823,47.99,11.35,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296359,Parus_major,male,Pilis Mountains,NA,NA,NA,Europe,Hungary,11,47.43,19.100000000000001,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296360,Parus_major,female,Tromso,NA,NA,NA,Europe,Norway,1387,69.2,19.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296361,Parus_major,female,Groblas,NA,NA,NA,Europe,Poland,1376,50.06,20.25,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296362,Parus_major,male,Loch Lomond,NA,NA,NA,Europe,Scotland,235,56.08,-4.37,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296363,Parus_major,male,Mariola,NA,NA,NA,Europe,Spain,1280,38.44,-0.33,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296364,Parus_major,male,Font Roja,NA,NA,NA,Europe,Spain,1235,38.39,-0.32,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296365,Parus_major,male,Gotland,NA,NA,NA,Europe,Sweden,105,57.05,18.18,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296376,Parus_major,male,NA,NA,NA,NA,Europe,NA,836,NA,NA,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296366,Parus_major,male,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL38228,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296367,Parus_major,male,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL38138,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296368,Parus_major,male,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL38197,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296369,Parus_major,female,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL38174,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296370,Parus_major,male,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL38215,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296371,Parus_major,female,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL38187,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296372,Parus_major,male,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL39629,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296373,Parus_major,female,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL39600,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296374,Parus_major,male,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL39399,51.77,-1.34,GCF_001522545.3,Parus_major
+PRJNA304164,SAMN04296375,Parus_major,female,"Wytham Woods, Oxford",NA,NA,NA,Europe,United Kingdom,TL39490,51.77,-1.34,GCF_001522545.3,Parus_major

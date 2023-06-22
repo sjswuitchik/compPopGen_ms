@@ -1,0 +1,1467 @@
+# snpArcher datasets
+
+Code to get species on cluster:
+ `grep "GCF_000247815.1" */*.csv | cut -f5,5 -d , | sort | uniq -c `
+
+```{r}
+
+
+
+library(tidyverse)
+library(janitor)
+library(igraph)
+library(networkD3)
+
+set.colors <- c('#1f78b4','#33a02c','#6a3d9a','#a6cee3','#b2df8a','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#cab2d6')
+
+read_missing<-function(genome, path="missing") {
+  imiss_file<-paste0(path, "/", genome, ".imiss")
+  idepth_file<-paste0(path, "/", genome, ".idepth")
+  imiss<-read_tsv(imiss_file)
+  idepth<-read_tsv(idepth_file)
+  full_join(imiss, idepth, by=c("INDV" = "INDV"))
+}
+
+plot_missing<-function(depth.miss) {
+  ggplot(data = depth.miss, aes(text = INDV)) +
+    geom_point(aes(x = MEAN_DEPTH, y = F_MISS, fill = "red"), 
+               size = 3, alpha=0.5, color = "gray") +
+    theme_bw() +
+    theme(legend.position = "none") + 
+    labs(x = "SNP Depth", y = "Missingness")
+}
+
+read_pca <- function(genome, pca_path = "pca", clusters=3) {
+  pca.path <- paste0(pca_path, "/", genome, ".eigenvec")
+  tmp.head <- sub("#", "", readLines(pca.path))
+  df.pca <- read.table(text = tmp.head, header = TRUE)
+  df.val <- read.table(gsub("vec","val", pca.path), header = FALSE)
+  df.val$prop <- (df.val$V1 / (sum(df.val$V1))) * 100
+  df.val$PC <- paste0("PC", row.names(df.val))
+  set.seed(42)
+  k <- kmeans(df.pca[,c("PC1","PC2")], clusters, nstart = 25, iter.max = 100)
+  df.pca$cluster <- paste("cluster",k$cluster, sep = "_")
+  return(list(df.pca = df.pca, df.val = df.val))
+}
+
+plot_pca <- function(pca, set.colors=set.colors) {
+  df.pca = pca[["df.pca"]]
+  df.val = pca[["df.val"]]
+  ggplot(data = df.pca, aes(x = PC1, y = PC2, text = IID, fill = cluster), color = "grey90") + 
+  geom_point(alpha = 0.9, shape = 21, size = 3) + 
+  theme_bw() +
+  theme(text = element_text(size = 14),
+        legend.position = "none") +
+  xlab(paste0("PC1", ": ", round(df.val[1,2],1),"% variance")) +
+  ylab(paste0("PC2", ": ", round(df.val[2,2],1),"% variance")) +
+  scale_fill_manual(values = set.colors)
+}
+
+## an estimated kinship coefficient range >0.354, [0.177, 0.354], [0.0884, 0.177] and [0.0442, 0.0884] corresponds to duplicate/MZ twin, 1st-degree, 2nd-degree, and 3rd-degree relationships respectively. Relationship inference for more distant relationships is more challenging
+
+read_relate <- function(genome, relate_path = "all_relate") {
+  rel.ids <- read_table(paste0(relate_path, "/", genome, "_final.king.id"), skip=1, col_names = c("INDV"))
+  rel.mat <- read.table(paste0(relate_path, "/", genome, "_final.king"))
+  colnames(rel.mat)<-rel.ids$INDV
+  rownames(rel.mat)<-rel.ids$INDV
+  as_tibble(rel.mat, rownames = "INDV") %>% pivot_longer(-INDV, names_to="INDV2") %>% 
+    mutate(degree = case_when(
+      value > 0.354 ~ "duplicate",
+      value >= 0.177 & value <= 0.354  ~ "1st",
+      value >= 0.0884 & value < 0.177 ~ "2nd",
+      value >= 0.0442 & value < 0.0884 ~ "3rd",
+      value > 0.02 & value < 0.0442 ~ "distant",
+      TRUE ~ "unrelated"
+    ))
+}
+
+run_analysis <- function(genome, ingroup, pca_clusters=5, min_depth = 3, min_missing = 0.20, set.colors) {
+  snp_depth<-read_missing(genome)
+  pca<-read_pca(genome, clusters=pca_clusters)
+  rel<-read_relate(genome) %>% mutate(value = ifelse(value < 0, 0, value)) %>% filter(INDV != INDV2)
+  rel.sub <- filter(rel, degree=="1st" | degree == "2nd") %>% arrange(desc(value))
+  print(plot_missing(snp_depth))
+  print(plot_pca(pca, set.colors = set.colors))
+  print(table(snp_depth$MEAN_DEPTH >= min_depth, snp_depth$F_MISS <= min_missing))
+  print(table(rel$degree))
+  
+  if (nrow(rel.sub)>0) {
+    rel.graph <- graph_from_data_frame(rel.sub, directed=FALSE)  
+    rel.sub <- as_tibble(components(rel.graph)$membership, rownames="INDV") %>% rename(cluster = value) %>% right_join(rel.sub, multiple="all")
+    print(simpleNetwork(rel.sub, height="200px", width="200px", Source=1, Target=3))
+  } else {
+    rel.sub <- rel.sub %>% add_column(cluster = NA)
+  }
+
+  rel.sub.filter <- rel.sub %>% select(INDV, rel_cluster = cluster) %>% distinct()
+  
+  samples<-read_csv(paste0("final_sample_sheets/", genome, ".csv")) %>%
+    mutate(refGenome = genome) %>%
+    right_join(snp_depth, by=c("BioSample" = "INDV")) %>% left_join(pca[["df.pca"]], by=c("BioSample" = "IID")) %>% 
+    mutate(SampleType = case_when (
+      MEAN_DEPTH < min_depth ~ "exclude",
+      F_MISS > min_missing ~ "exclude",
+      Organism != ingroup ~ "outgroup",
+      TRUE ~ "ingroup")) %>%
+    left_join(rel.sub.filter, by=c("BioSample" = "INDV")) %>%
+    arrange(F_MISS) %>%
+    mutate(SampleType = ifelse(!duplicated(rel_cluster, incomparables=NA), SampleType, "exclude"))
+  
+  return(samples)
+}
+```
+
+# Annotated and Current
+
+## Barn swallow (Hirundo rustica)
+
+Genome: GCA_015227805.2 
+Annotation: NCBI (on GCF_015227805.1 but should be translatable) 
+Samples: 144 individuals, including one relatively close outgroup (Hirundo smithii)
+
+### Analysis
+
+```{r}
+samples<-run_analysis("GCA_015227805.2", "Hirundo rustica", set.colors=set.colors) %>% select(BioSample, BioProject, Organism, sex, Strain, refGenome, N_DATA:rel_cluster)
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+
+```{r}
+table(samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_015227805.2.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA323498](https://pubmed.ncbi.nlm.nih.gov/33720472/)
+
+## Green anole (Anolis carolinensis)
+
+Genome: GCF_000090745.1 
+Annotation: NCBI 
+Samples: 29 individuals, including two outgroups
+
+### Analysis
+
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Anolis_carolinensis_sample_metadata.csv > additional_sra_runtables/anolis_merged.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Anolis_carolinensis_sample_metadata.csv >> additional_sra_runtables/anolis_merged.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Anolis_allisoni_sample_metadata.csv >> additional_sra_runtables/anolis_merged.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Anolis_porcatus_sample_metadata.csv >> additional_sra_runtables/anolis_merged.csv
+cp additional_sra_runtables/anolis_merged.csv final_sample_sheets/GCF_000090745.1.csv
+
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000090745.1", "Anolis_carolinensis", set.colors = set.colors)
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+
+```{r}
+
+table(samples$SampleType)
+table(samples$Clade, samples$cluster, useNA = "ifany")
+write_csv(samples, "postprocess_sample_sheets/GCF_000090745.1.postprocess.csv")
+
+```
+### References
+
+[PRJNA533001](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681179/)
+
+## Poecilia formosa (Amazon molly)
+
+Genome: GCF_000485575.1 
+Annotation: NCBI Annotation
+Samples: 16
+
+*REMOVE*
+
+## Oryzias latipes (Japanese medaka)
+
+Genome: GCF_002234675.1
+Annotation: NCBI Annotation
+Samples: 17
+
+### Analysis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Oryzias_latipes_sample_metadata.csv > final_sample_sheets/GCF_002234675.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Oryzias_latipes_sample_metadata.csv >> final_sample_sheets/GCF_002234675.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Oryzias_celebensis_sample_metadata.csv >> final_sample_sheets/GCF_002234675.1.csv
+
+```
+
+```{r}
+samples<-run_analysis("GCF_002234675.1", "Oryzias_latipes", set.colors = set.colors)
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+
+```{r}
+
+table(samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_002234675.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJDB10371](https://www.nature.com/articles/s41467-021-21697-0)			
+[PRJEB2759](https://www.ncbi.nlm.nih.gov/pubmed/24408034)
+
+## Astatotilapia calliptera (eastern happy)
+
+Genome: GCF_900246225.1 
+Samples: 201 individuals 
+Annotation: NCBI
+
+Looks pretty clearly like 3 separate species on the PCA plot. One
+possible hybrid, and one individual with low mapping rate, but otherwise
+looks fairly good. However, divergence might be too low for MK tests to
+be meaningful.
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Astatotilapia_calliptera_sample_metadata.csv > final_sample_sheets/GCF_900246225.1.csv 
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Astatotilapia_calliptera_sample_metadata.csv >> final_sample_sheets/GCF_900246225.1.csv 
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Astatotilapia_spp_sample_metadata.csv >> final_sample_sheets/GCF_900246225.1.csv 
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Astatotilapia_stappersii_sample_metadata.csv | awk 'BEGIN{FS=",";OFS=","}{print $2,$5,$6,$1,$3,$4,$7,$8,$9}' >> final_sample_sheets/GCF_900246225.1.csv 
+```
+
+
+```{r}
+samples<-run_analysis("GCF_900246225.1", "Astatotilapia_calliptera", set.colors = set.colors)
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+
+```{r}
+table(samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_900246225.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJEB1254](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4700518/)
+[PRJEB1254](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443041/)
+[PRJNA485198](https://www.biorxiv.org/content/10.1101/2021.01.12.426414v3)
+
+## Poecilia reticulata (guppy)
+
+Genome: GCF_000633615.1 
+Annotation: NCBI 
+Samples: 338
+
+### Analysis
+
+```{bash}
+#BioProject,BioSample,Organism,sex,Experiment,Submitter_Id,Sample,Locality,lat_lon,Country,Continent,refGenome,refSpecies
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv | awk 'BEGIN{OFS=",";FS=","};{print $1,$2,$3,$4}' > final_sample_sheets/GCF_000633615.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Poecilia_formosa_sample_metadata.csv | awk 'BEGIN{OFS=",";FS=","};{print $1,$2,$3,$4}' >> final_sample_sheets/GCF_000633615.1.csv
+
+#BioProject,BioSample,Organism,sex,Ecotype,Locality,Submitter_Id,Country,Continent,Sublocation,refGenome,refSpecies
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Poecilia_reticulata_sample_metadata.csv | awk 'BEGIN{OFS=",";FS=","};{print $1,$2,$3,$4}' >> final_sample_sheets/GCF_000633615.1.csv
+
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000633615.1", "Poecilia_reticulata", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+*REMOVE DUE TO P. FORMOSA ISSUES*
+
+## Larimichthys crocea (large yellow croaker)
+
+Genome: GCF_000972845.2 
+Annotation: NCBI Annotation
+Samples: 73
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Larimichthys_crocea_sample_metadata.csv > final_sample_sheets/GCF_000972845.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Larimichthys_crocea_sample_metadata.csv >> final_sample_sheets/GCF_000972845.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Larimichthys_polyactis_sample_metadata.csv >> final_sample_sheets/GCF_000972845.2.csv
+
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000972845.2", "Larimichthys_crocea", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+### References
+
+PRJNA705840				
+PRJNA629649
+
+*REMOVE - WEIRD MAPPING RATE ISSUES*
+
+## Clupea harengus (Atlantic herring)
+
+Genome: GCF_900700415.1 
+Sample: 58
+Annotation: NCBI Annotation
+Current assembly: same
+
+### Analysis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Clupea_harengus_sample_metadata.csv > final_sample_sheets/GCF_900700415.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Clupea_harengus_sample_metadata.csv >> final_sample_sheets/GCF_900700415.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Clupea_pallasii_sample_metadata.csv >> final_sample_sheets/GCF_900700415.1.csv
+
+```
+
+```{r}
+samples<-run_analysis("GCF_900700415.1", "Clupea_harengus", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+```{r}
+
+table(samples$SampleType, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCF_900700415.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA356817](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5524536/)
+[PRJNA642736](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7738190/)
+[PRJNA338612](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5410801/)
+
+
+## Fundulus heteroclitus (mummichog)
+
+Genome: GCF_011125445.2 
+Sample: 
+Annotation: NCBI Annotation
+Current assembly: same
+
+*REMOVE*
+
+## Takifugu rubripes (torafugu)
+
+Genome: GCF_901000725.2 
+Sample: 
+Annotation: NCBI Annotation
+Current assembly: same
+
+Species:
+Takifugu_alboplumbeus
+Takifugu_flavidus
+Takifugu_obscurus
+Takifugu_rubripes
+
+### Analysis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Takifugu_alboplumbeus_sample_metadata.csv > final_sample_sheets/GCF_901000725.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Takifugu_alboplumbeus_sample_metadata.csv >> final_sample_sheets/GCF_901000725.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Takifugu_flavidus_sample_metadata.csv >> final_sample_sheets/GCF_901000725.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Takifugu_obscurus_sample_metadata.csv >> final_sample_sheets/GCF_901000725.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Takifugu_rubripes_sample_metadata.csv >> final_sample_sheets/GCF_901000725.2.csv
+```
+
+```{r}
+samples<-run_analysis("GCF_901000725.2", "Takifugu_rubripes", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster)
+samples %>% select(BioProject, BioSample, Organism, SampleType) %>% write_csv("postprocess_sample_sheets/GCF_901000725.2.simple.csv")
+```
+
+### References
+
+[PRJNA522329](https://link.springer.com/article/10.1007/s00227-020-03705-x)
+
+## Anguilla anguilla (European eel)
+
+Genome: GCF_013347855.1
+Samples: 494 individuals 
+Annotation: NCBI
+Current assembly on NCBI: same
+
+Extremely low average depth.
+
+**REMOVE**
+
+## Pungitius pungitius (ninespine stickleback)
+
+Genome: GCF_902500615.1 
+Annotation: NCBI Annotation
+Current assembly on NCBI: same
+
+Species:
+Pungitius_pungitius
+Pungitius_sinensis
+Pungitius_tymensis
+
+### Analysis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Pungitius_pungitius_sample_metadata.csv > final_sample_sheets/GCF_902500615.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Pungitius_pungitius_sample_metadata.csv >> final_sample_sheets/GCF_902500615.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Pungitius_sinensis_sample_metadata.csv >> final_sample_sheets/GCF_902500615.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Pungitius_tymensis_sample_metadata.csv >> final_sample_sheets/GCF_902500615.1.csv
+```
+
+```{r}
+samples<-run_analysis("GCF_902500615.1", "Pungitius_pungitius", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCF_901000725.2.postprocess.csv")
+
+```
+
+### References
+
+[PRJDB2321](https://www.ncbi.nlm.nih.gov/pubmed/25818858)
+[PRJNA477377](https://academic.oup.com/mbe/article/36/1/28/5112968)
+
+## Takifugu bimaculatus (pufferfish)
+
+GCA_004026145.2 
+NCBI Annotation
+
+**REMOVE**
+
+## Hippocampus comes (tiger tail seahorse)
+
+GCF_001891065.1 
+NCBI Annotation
+
+Species:
+    288 Hippocampus_abdominalis
+    324 Hippocampus_algiricus
+    360 Hippocampus_barbouri
+    342 Hippocampus_comes
+    378 Hippocampus_erectus
+    342 Hippocampus_fuscus
+    288 Hippocampus_hippocampus
+    396 Hippocampus_histrix
+    360 Hippocampus_ingens
+    360 Hippocampus_jayakari
+    360 Hippocampus_kelloggi
+    324 Hippocampus_kuda
+    342 Hippocampus_mohnikei
+    342 Hippocampus_reidi
+    360 Hippocampus_spinosissimus
+    234 Hippocampus_subelongatus
+    360 Hippocampus_trimaculatus
+    378 Hippocampus_zosterae
+    
+### Analysis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Hippocampus_comes_sample_metadata.csv > final_sample_sheets/GCF_001891065.1.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Hippocampus_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCF_001891065.1.csv
+done
+
+```
+
+```{r}
+samples<-run_analysis("GCF_001891065.1", "Hippocampus_comes", set.colors = c(set.colors,set.colors), pca_clusters=10) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster)
+table(samples$Organism, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCF_001891065.1.postprocess.csv")
+```
+
+### References
+
+[PRJNA612146](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7889852/)
+
+
+## Athene cunicularia (burrowing owl)
+
+Genome: GCA_003259725.1 
+Sample: 138 individuals
+Amnnotation: NCBI Annotation
+Current assembly on NCBI: same
+
+Species:
+Glaucidium_brasilianum
+Athene_cunicularia
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Athene_cunicularia_sample_metadata.csv > final_sample_sheets/GCA_003259725.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Athene_cunicularia_sample_metadata.csv >> final_sample_sheets/GCA_003259725.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Glaucidium_brasilianum_sample_metadata.csv >> final_sample_sheets/GCA_003259725.1.csv
+```
+
+```{r}
+samples<-run_analysis("GCA_003259725.1", "Athene_cunicularia", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCA_003259725.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA431202](http://rspb.royalsocietypublishing.org/content/285/1878/20180206)
+[PRJNA545868](https://pubmed.ncbi.nlm.nih.gov/33177665/)
+
+## Ficedula albicollis (Collared flycatcher)
+
+GCF_000247815.1 
+NCBI Annotation
+
+Species:
+    163 Ficedula_albicollis
+      1 Ficedula_hyperythra
+     77 Ficedula_hypoleuca
+      1 Ficedula_parva
+     20 Ficedula_semitorquata
+     20 Ficedula_speculigera
+
+### Analysis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Ficedula_albicollis_sample_metadata.csv > final_sample_sheets/GCF_000247815.1.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Ficedula_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCF_000247815.1.csv
+  echo "\n" >> final_sample_sheets/GCF_000247815.1.csv
+done
+mv final_sample_sheets/GCF_000247815.1.csv final_sample_sheets/temp
+grep . final_sample_sheets/temp > final_sample_sheets/GCF_000247815.1.csv
+rm final_sample_sheets/temp
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000247815.1", "Ficedula_albicollis", set.colors = set.colors, pca_clusters = 8) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCF_000247815.1.postprocess.csv")
+```
+
+### References
+
+[PRJEB7359](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4617962/)				
+[PRJEB11502](https://pubmed.ncbi.nlm.nih.gov/26649993/)
+[PRJEB12616](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878770/)
+
+## Egretta garzetta (little egret)
+
+GCF_000687185.1 
+NCBI Annotation
+
+Small, but good test dataset
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Egretta_garzetta_sample_metadata.csv > final_sample_sheets/GCF_000687185.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Egretta_garzetta_sample_metadata.csv >> final_sample_sheets/GCF_000687185.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Cochlearius_cochlearius_sample_metadata.csv >> final_sample_sheets/GCF_000687185.1.csv
+```
+
+```{r}
+samples<-run_analysis("GCF_000687185.1", "Egretta_garzetta", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCF_000687185.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA309350]	Egretta_garzetta	https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0557-1
+[PRJNA545868] Cochlearius_cochlearius (https://pubmed.ncbi.nlm.nih.gov/33177665/)
+
+## Parus major (Great Tit)
+
+GCF_001522545.3 
+NCBI Annotation
+
+
+### Analysis
+
+```{bash}
+cp ../compPopGen_ms/SRA/cleaned-metadata/Parus_major_sample_metadata.csv final_sample_sheets/GCF_001522545.3.csv
+```
+
+```{r}
+samples<-run_analysis("GCF_001522545.3", "Parus_major", pca_clusters = 3, set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Population, samples$cluster, useNA = "ifany")
+write_csv(samples, "postprocess_sample_sheets/GCF_001522545.3.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA274877](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585896/)				
+[PRJNA304164](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737754/)
+
+## Falco peregrinus (peregrine falcon)
+
+GCF_000337955.1 NCBI Annotation
+
+Falco_peregrinus
+Falco_cherrug
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Falco_peregrinus_sample_metadata.csv > final_sample_sheets/GCF_000337955.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Falco_peregrinus_sample_metadata.csv >> final_sample_sheets/GCF_000337955.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Falco_cherrug_sample_metadata.csv >> final_sample_sheets/GCF_000337955.1.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000337955.1", "Falco_peregrinus", pca_clusters = 5, set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster, useNA = "ifany")
+write_csv(samples, "postprocess_sample_sheets/GCF_000337955.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA686418](https://www.nature.com/articles/s41586-021-03265-0)
+[PRJNA217049](https://pubmed.ncbi.nlm.nih.gov/23525076/)
+
+## Nipponia nippon (crested ibis)
+
+GCF_000708225.1 NCBI Annotation
+
+Mesembrinibis_cayennensis
+Nipponia_nippon
+
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Nipponia_nippon_sample_metadata.csv > final_sample_sheets/GCF_000708225.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Nipponia_nippon_sample_metadata.csv >> final_sample_sheets/GCF_000708225.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Mesembrinibis_cayennensis_sample_metadata.csv >> final_sample_sheets/GCF_000708225.1.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000708225.1", "Nipponia_nippon", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$SampleType, samples$cluster)
+write_csv(samples, "postprocess_sample_sheets/GCF_000687185.1.postprocess.csv")
+
+```
+
+### References
+
+PRJNA545868				
+PRJNA308878
+
+## Coturnix japonica (Japanese quail)
+
+Genome: GCF_001577835.2
+Annotation: NCBI Annotation
+
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Coturnix_japonica_sample_metadata.csv > final_sample_sheets/GCF_001577835.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Coturnix_japonica_sample_metadata.csv >> final_sample_sheets/GCF_001577835.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata-mk/Phasianus_colchicus_sample_metadata.csv >> final_sample_sheets/GCF_001577835.2.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCF_001577835.2", "Coturnix_japonica", set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_001577835.2.postprocess.csv")
+```
+
+### References
+
+[PRJNA339911](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5961004/)
+[PRJNA449162](https://academic.oup.com/gbe/article/11/12/3326/5622760)
+
+## Corvus cornix cornix (hoooded crow)
+
+Genome: GCF_000738735.5 
+Annotation: NCBI Annotation
+
+      2 Coloeus_monedula
+     31 Corvus_brachyrhynchos
+    305 Corvus_cornix
+    135 Corvus_corone_corone
+     59 Corvus_corone_orientalis
+     16 Corvus_dauuricus
+     16 Corvus_frugilegus
+     11 Corvus_pectoralis
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Corvus_cornix_sample_metadata.csv > final_sample_sheets/GCF_000738735.5.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Corvus_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCF_000738735.5.csv
+  echo "\n" >> final_sample_sheets/GCF_000738735.5.csv
+done
+mv final_sample_sheets/GCF_000738735.5.csv final_sample_sheets/temp
+grep . final_sample_sheets/temp > final_sample_sheets/GCF_000738735.5.csv
+rm final_sample_sheets/temp
+
+tail -n +2  ../compPopGen_ms/SRA/cleaned-metadata/Coloeus_monedula_sample_metadata.csv >> final_sample_sheets/GCF_000738735.5.csv
+```
+
+```{r}
+
+samples<-run_analysis("GCF_000738735.5", "Corvus_cornix", set.colors = set.colors, pca_clusters = 6) %>% distinct()
+samples
+samples <- samples %>% 
+  mutate(Organism = ifelse(Organism == "Corvus_cornix_cornix", "Corvus_cornix", Organism)) %>%
+  mutate(SampleType = ifelse(Organism == "Corvus_cornix" & SampleType == "outgroup", "ingroup", SampleType)) 
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_000738735.5.postprocess.csv")
+```
+
+### References
+
+[PRJNA192205](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/	)
+[PRJNA192205](https://www.ncbi.nlm.nih.gov/pubmed/24948738)
+[PRJEB9057](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5095515/)
+
+## Anas platyrhynchos (mallard)
+
+Genome: GCF_015476345.1 
+Samples: 50 individuals 
+Annotation: NCBI
+Annotation Current assembly on NCBI: same
+
+### Analysis
+
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Anas_platyrhynchos_sample_metadata.csv > final_sample_sheets/GCF_015476345.1.csv
+grep -v "^sample" ../compPopGen_ms/SRA/cleaned-metadata*/Anas_*_sample_metadata.csv >> final_sample_sheets/GCF_015476345.1.csv
+```
+
+
+```{r}
+
+samples<-run_analysis("GCF_015476345.1", "Anas_platyrhynchos", set.colors = set.colors, pca_clusters = 6) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+samples %>% select(BioSample,SampleType) %>% write_csv("postprocess_sample_sheets/GCF_015476345.1.simple.csv")
+write_csv(samples, "postprocess_sample_sheets/GCF_015476345.1.postprocess.csv")
+```
+
+
+### References
+
+[PRJNA450892](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6050300/)
+[PRJNA599025](https://pubmed.ncbi.nlm.nih.gov/34058976/)
+
+
+# Not Current
+
+## Gasterosteus aculeatus (Three-spined stickleback)
+
+Genome: GCA_000180675.1
+Samples: 296 individuals Annotation: various, but not NCBI Current
+assembly on NCBI: GCF_016920845.1, annotated
+
+No outgroups (have nine-spined stickleback, but not mapped to same
+reference genome). Lots of low coverage individuals that would need to
+be excluded. Fair bit of population structure - I think Europe/N.
+America/Japan
+
+### Analysis
+
+```{bash}
+cp ../compPopGen_ms/SRA/cleaned-metadata/Gasterosteus_aculeatus_sample_metadata.csv final_sample_sheets/GCA_000180675.1.csv
+```
+
+```{r}
+samples<-run_analysis("GCA_000180675.1", "Gasterosteus_aculeatus", set.colors = set.colors, pca_clusters = 6) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_000180675.1.postprocess.csv")
+```
+
+### References
+
+[PRJDB2614](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3953013)
+[PRJEB5198](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004966)				
+[PRJNA530695](https://elifesciences.org/articles/43785)				
+[PRJEB15181](https://www.ncbi.nlm.nih.gov/pubmed/27569902)				
+[PRJNA387728](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371808/)				
+[PRJNA693136](https://doi.org/10.1016/j.cub.2021.02.027)				
+[PRJDB5097](https://academic.oup.com/gbe/article/12/4/479/5814213?login=true)				
+[PRJNA485717](https://onlinelibrary.wiley.com/doi/full/10.1002/evl3.99)				
+[PRJNA374462](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001627)				
+[PRJDB5056](https://onlinelibrary-wiley-com.ezp-prod1.hul.harvard.edu/doi/full/10.1111/evo.13175)
+
+
+## Symphodus melops (Corkwing wrasse)
+
+Genome: GCA_002819105.1
+Samples: 65 individuals 
+Annotation: none, at least not at NCBI 
+Current assembly on NCBI: GCA_947650265.1, no annotation
+
+### Analysis
+
+
+```{bash}
+cp ../compPopGen_ms/SRA/cleaned-metadata/Symphodus_melops_sample_metadata.csv final_sample_sheets/GCA_002819105.1.csv
+```
+
+```{r}
+samples<-run_analysis("GCA_002819105.1", "Symphodus_melops", set.colors = set.colors, pca_clusters = 3) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_002819105.1.postprocess.csv")
+```
+
+### References
+
+[PRJNA354496](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15310)
+
+
+## Coilia nasus (Japanese grenadier anchovy)
+
+STATUS: RAW
+
+
+Genome: GCA_007927625.1 Annotation: none Samples: 96 individuals Current
+assembly on NCBI: GCA_027475355.1
+
+All samples have SNP Depth \< 5 and at least 20% missing data; skip
+postprocessing as this is not a great dataset in general.
+
+## Cyprinus carpio (common carp)
+
+GCF_000951615.1 
+NCBI Annotation, BUSCO 82% / 34% duplicated
+replaced by GCF_018340385.1
+
+Horrible genome, skip.
+
+## Haplochromis burtoni (Burton's mouthbrooder)
+
+GCF_000239415.1 NCBI Annotation, replaced by GCF_018398535.1
+
+Ctenochromis_horei
+Haplochromis_burtoni
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Haplochromis_burtoni_sample_metadata.csv > final_sample_sheets/GCF_000239415.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata//Haplochromis_burtoni_sample_metadata.csv >> final_sample_sheets/GCF_000239415.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Ctenochromis_horei_sample_metadata.csv >> final_sample_sheets/GCF_000239415.1.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCF_000239415.1", "Haplochromis_burtoni", set.colors = set.colors, pca_clusters = 3) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_000239415.1.postprocess.csv")
+```
+
+### References
+
+[PRJNA485198](https://www.biorxiv.org/content/10.1101/2021.01.12.426414v1)
+
+## Taeniopygia guttata (zebra finch)
+
+GCF_008822105.2 
+NCBI Annotation 
+replaced by GCF_003957565.2
+
+     19 Poephila_acuticauda
+      1 Taeniopygia_bichenovii
+     19 Taeniopygia_guttata
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Taeniopygia_guttata_sample_metadata.csv > final_sample_sheets/GCF_008822105.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Taeniopygia_guttata_sample_metadata.csv >> final_sample_sheets/GCF_008822105.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Poephila_acuticauda_sample_metadata.csv >> final_sample_sheets/GCF_008822105.2.csv
+echo "\n"  >> final_sample_sheets/GCF_008822105.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Taeniopygia_bichenovii_sample_metadata.csv >> final_sample_sheets/GCF_008822105.2.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCF_008822105.2", "Taeniopygia_guttata", set.colors = set.colors, pca_clusters = 3) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_008822105.2.postprocess.csv")
+```
+
+### References
+
+[PRJEB10586](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864528/)
+
+## Astyanax mexicanus (Mexican tetra)
+
+Genome: GCF_000372685.2
+Samples: 47 individuals 
+Annotation: NCBI Annotation
+Current assembly on NCBI: replaced by GCF_023375975.1
+
+      2 Astyanax_aeneus
+     44 Astyanax_mexicanus
+      1 Gymnocorymbus_ternetzi
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Astyanax_mexicanus_sample_metadata.csv > final_sample_sheets/GCF_000372685.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Astyanax_mexicanus_sample_metadata.csv >> final_sample_sheets/GCF_000372685.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Astyanax_aeneus_sample_metadata.csv >> final_sample_sheets/GCF_000372685.2.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Gymnocorymbus_ternetzi_sample_metadata.csv >> final_sample_sheets/GCF_000372685.2.csv
+```
+
+
+
+```{r}
+samples<-run_analysis("GCF_000372685.2", "Astyanax_mexicanus", set.colors = set.colors, pca_clusters = 3) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCF_000372685.2.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA260715](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14877)
+
+## Dicentrarchus labrax (European seabass)
+
+GCA_000689215.1 not annotated, 
+replaced by GCF_905237075.1 (which is annotated)
+
+    166 Dicentrarchus_labrax
+      2 Dicentrarchus_punctatus
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Dicentrarchus_labrax_sample_metadata.csv > final_sample_sheets/GCA_000689215.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Dicentrarchus_labrax_sample_metadata.csv >> final_sample_sheets/GCA_000689215.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Dicentrarchus_punctatus_sample_metadata.csv >> final_sample_sheets/GCA_000689215.1.csv
+```
+
+
+
+```{r}
+samples<-run_analysis("GCA_000689215.1", "Dicentrarchus_labrax", set.colors = set.colors, pca_clusters = 3) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_000689215.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA628166](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7293100/)		
+[PRJNA472842](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6023918/)
+
+## Thunnus albacares (yellowfin tuna)
+
+GCA_900302625.1 not annotated
+replaced by GCF_914725855.1, which is annotated
+
+```{bash}
+cp ../compPopGen_ms/SRA/cleaned-metadata/Thunnus_albacares_sample_metadata.csv final_sample_sheets/GCA_900302625.1.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCA_900302625.1", "Thunnus_albacares", set.colors = set.colors, pca_clusters = 3) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_900302625.1.postprocess.csv")
+
+```
+### References
+
+[PRJEB14402](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408087/)
+
+# Not Annotated
+
+## Coryphaenoides rupestris (roundnose grenadier)
+
+GCA_002895965.2 annotation submitted by data provider
+
+Really high missing data, no annotation - not worth further work
+
+## Sylvia atricapilla (blackcap)
+
+GCA_009819655.1 not annotated
+
+      3 Sylvia_abyssinica
+    110 Sylvia_atricapilla
+      5 Sylvia_borin
+
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Sylvia_atricapilla_sample_metadata.csv > final_sample_sheets/GCA_009819655.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Sylvia_atricapilla_sample_metadata.csv >> final_sample_sheets/GCA_009819655.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Sylvia_abyssinica_sample_metadata.csv >> final_sample_sheets/GCA_009819655.1.csv
+tail -n +2 ../compPopGen_ms/SRA/cleaned-metadata/Sylvia_borin_sample_metadata.csv >> final_sample_sheets/GCA_009819655.1.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCA_009819655.1", "Sylvia_atricapilla", set.colors = set.colors, pca_clusters = 5) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_009819655.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJNA616371](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173969/)
+
+## Passer domesticus (House sparrow)
+
+GCA_001700915.1 not annotated
+
+    172 Passer_domesticus
+    164 Passer_hispaniolensis
+    324 Passer_italiae
+     40 Passer_montanus
+
+```{bash}
+
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Passer_domesticus_sample_metadata.csv > final_sample_sheets/GCA_001700915.1.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Passer_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCA_001700915.1.csv
+done
+
+```
+
+
+```{r}
+samples<-run_analysis("GCA_001700915.1", "Passer_domesticus", set.colors = set.colors, pca_clusters = 5) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_001700915.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJEB27649](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111181/)				
+[PRJNA255814](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5470830/)				
+[PRJEB22939](https://www.nature.com/articles/s41559-017-0437-7)
+
+## Eopsaltria australis (eastern yellow robin)
+
+GCA_003426825.1 not annotated
+
+### Analysis
+
+```{bash}
+cp ../compPopGen_ms/SRA/cleaned-metadata/Eopsaltria_australis_sample_metadata.csv final_sample_sheets/GCA_003426825.1.csv
+```
+
+
+```{r}
+samples<-run_analysis("GCA_003426825.1", "Eopsaltria_australis", set.colors = set.colors, pca_clusters = 5) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+
+
+```{r}
+table(samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_003426825.1.postprocess.csv")
+```
+
+
+### References
+
+[PRJNA476023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6736294/)
+
+## Strix occidentalis caurina (northern spotted owl)
+
+GCA_002372975.2 not annotated
+
+REMOVE
+
+## Amphilophus citrinellus (Midas cichlid)
+
+Genome: GCA_013435755.1 
+Samples: 452 individuals 
+Annotation: not annotated 
+Current assembly on NCBI: SAME
+
+    280 Amphilophus_amarillo
+    322 Amphilophus_astorquii
+    224 Amphilophus_chancho
+    686 Amphilophus_citrinellus
+    224 Amphilophus_flaveolus
+    350 Amphilophus_globosus
+    686 Amphilophus_labiatus
+    405 Amphilophus_sagittae
+   2145 Amphilophus_spp
+    154 Amphilophus_supercilius
+    280 Amphilophus_tolteca
+    238 Amphilophus_viridis
+    224 Amphilophus_xiloaensis
+    280 Amphilophus_zaliosus
+
+### Analysis
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Amphilophus_citrinellus_sample_metadata.csv > final_sample_sheets/GCA_013435755.1.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Amphilophus_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCA_013435755.1.csv
+done
+
+```
+
+
+```{r}
+samples<-run_analysis("GCA_013435755.1", "Amphilophus_citrinellus", set.colors = set.colors, pca_clusters = 10) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_013435755.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJEB38173](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7759464/)
+
+## Chaenogobius annularis (forktongue goby)
+
+Genome: GCA_015082035.1
+Samples: 12
+Annotation: not annotated
+Current assembly: same
+
+Chaenogobius_annularis
+
+### Analysis
+
+
+```{bash}
+cp ../compPopGen_ms/SRA/cleaned-metadata/Chaenogobius_annularis_sample_metadata.csv final_sample_sheets/GCA_015082035.1.csv
+```
+
+```{r}
+samples<-run_analysis("GCA_015082035.1", "Chaenogobius_annularis", pca_clusters = 3, set.colors = set.colors) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Population, samples$cluster, useNA = "ifany")
+write_csv(samples, "postprocess_sample_sheets/GCA_015082035.1.postprocess.csv")
+
+```
+
+
+### References
+
+[PRJDB7125](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7898790/)
+
+## Hypoplectrus puella (barred hamlet)
+
+GCA_900610375.1 not annotated
+
+      8 Hypoplectrus_gummigutta
+    160 Hypoplectrus_nigricans
+    184 Hypoplectrus_puella
+    148 Hypoplectrus_unicolor
+
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Hypoplectrus_puella_sample_metadata.csv > final_sample_sheets/GCA_900610375.1.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Hypoplectrus_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCA_900610375.1.csv
+done
+
+```
+
+
+```{r}
+samples<-run_analysis("GCA_900610375.1", "Hypoplectrus_puella", set.colors = set.colors, pca_clusters = 8) %>% distinct()
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_900610375.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJEB27858](https://www.nature.com/articles/s41559-019-0814-5)
+
+## Phylloscopus trochilus trochilus (Willow warbler)
+
+GCA_016584745.1 not annotated
+
+     48 Phylloscopus_collybita_abietinus
+     40 Phylloscopus_collybita_tristis
+    108 Phylloscopus_trochilus_trochilus
+    
+
+
+```{bash}
+head -n 1 ../compPopGen_ms/SRA/cleaned-metadata/Phylloscopus_trochilus_trochilus_sample_metadata.csv > final_sample_sheets/GCA_016584745.1.csv
+for FILE in $(ls ../compPopGen_ms/SRA/cleaned-metadata/Phylloscopus_*_sample_metadata.csv);
+do
+  tail -n +2 $FILE >> final_sample_sheets/GCA_016584745.1.csv
+done
+
+```
+
+
+```{r}
+samples<-run_analysis("GCA_016584745.1", "Phylloscopus_trochilus_trochilus", set.colors = set.colors, pca_clusters = 8) %>% distinct() %>%
+  filter(refGenome != "GCA_002305835.1")
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+
+```
+
+```{r}
+table(samples$Organism, samples$cluster)
+table(samples$Organism, samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_016584745.1.postprocess.csv")
+
+```
+
+### References
+
+[PRJEB21643](https://www.ncbi.nlm.nih.gov/pubmed/29054864)				
+[PRJNA319295](https://onlinelibrary.wiley.com/doi/abs/10.1002/evl3.15)
+
+## Phylloscopus trochilus acredula (Willow warbler)
+
+GCA_002305835.1 not annotated
+
+*REMOVE*
+
+## Progne subis subis (Purple martin)
+
+GCA_022316685.1 not annotated
+
+### Analysis
+
+```{r}
+samples<-run_analysis("GCA_022316685.1", "Progne subis subis", set.colors=set.colors, pca_clusters=1) %>% select(BioSample, BioProject, Organism,refGenome, N_DATA:rel_cluster)
+samples
+distinct(samples, BioProject)
+table(samples$SampleType)
+```
+```{r}
+table(samples$SampleType)
+write_csv(samples, "postprocess_sample_sheets/GCA_022316685.1.postprocess.csv")
+
+```
+
+### References
+# Other
+
+## Brachypodius atriceps (black-headed bulbul)
+
+GCA013398615.updated unpublished update to reference genome - skip

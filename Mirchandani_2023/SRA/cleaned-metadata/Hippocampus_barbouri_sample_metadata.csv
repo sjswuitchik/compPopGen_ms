@@ -1,0 +1,21 @@
+BioProject,BioSample,Organism,sex,Submitter_Id,Location,State,Country,refGenome,refSpecies
+PRJNA612146,SAMN14363118,Hippocampus_barbouri,missing,Hbb_6,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363114,Hippocampus_barbouri,missing,Hbb_2,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363113,Hippocampus_barbouri,missing,Hbb_1,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363132,Hippocampus_barbouri,missing,Hbb_20,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363131,Hippocampus_barbouri,missing,Hbb_19,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363129,Hippocampus_barbouri,missing,Hbb_17,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363127,Hippocampus_barbouri,missing,Hbb_15,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363125,Hippocampus_barbouri,missing,Hbb_13,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363123,Hippocampus_barbouri,missing,Hbb_11,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363122,Hippocampus_barbouri,missing,Hbb_10,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363120,Hippocampus_barbouri,missing,Hbb_8,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363119,Hippocampus_barbouri,missing,Hbb_7,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363117,Hippocampus_barbouri,missing,Hbb_5,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363115,Hippocampus_barbouri,missing,Hbb_3,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363130,Hippocampus_barbouri,missing,Hbb_18,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363128,Hippocampus_barbouri,missing,Hbb_16,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363126,Hippocampus_barbouri,missing,Hbb_14,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363124,Hippocampus_barbouri,missing,Hbb_12,Brunei Bay,NA,Philippines,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363121,Hippocampus_barbouri,missing,Hbb_9,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
+PRJNA612146,SAMN14363116,Hippocampus_barbouri,missing,Hbb_4,Xiamen,NA,China,GCF_001891065.1,Hippocampus_comes
